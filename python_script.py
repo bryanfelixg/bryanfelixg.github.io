@@ -1,43 +1,45 @@
-import numpy as np
-import matplotlib.pyplot as plt
 import panel as pn
-pn.extension('plotly')
-import plotly.graph_objs as go
+import hvplot.pandas
+import pandas as pd
+import numpy as np
 
-def plot_sine(amp):
-    xx = np.linspace(-3.5, 3.5, 100)
-    yy = np.linspace(-3.5, 3.5, 100)
-    x, y = np.meshgrid(xx, yy)
-    z = np.exp(-(x-1)**2-y**2)-(x**3+y**4-x/5)*np.exp(-(x**2+y**2))
+from js import console
+from pyodide_http import patch_all
+patch_all()
 
-    surface = go.Surface(z=z)
-    layout = go.Layout(
-        title='Plotly 3D Plot',
-        autosize=False,
-        width=500,
-        height=500,
-        margin=dict(t=50, b=50, r=50, l=50)
+pn.extension(design='material')
+
+csv_file = ("https://raw.githubusercontent.com/holoviz/panel/main/examples/assets/occupancy.csv")
+data = pd.read_csv(csv_file, parse_dates=["date"], index_col="date")
+console.log("Downloaded data")
+
+# Panel Widgets
+variable_widget = pn.widgets.Select(name="variable", value="Temperature", options=list(data.columns))
+window_widget = pn.widgets.IntSlider(name="window", value=30, start=1, end=60)
+sigma_widget = pn.widgets.IntSlider(name="sigma", value=10, start=0, end=20)
+console.log("Set up widgets!")
+
+# Interactive hvplot pipeline
+## Compute the outliers
+data = data.interactive()
+avg = data[variable_widget].rolling(window=window_widget).mean()
+residual = data[variable_widget] - avg
+std = residual.rolling(window=window_widget).std()
+outliers = np.abs(residual) > std * sigma_widget
+
+## Plot the average variable line together with the outliers as points
+pipeline = (
+    avg.hvplot(height=300, width=400, color="blue", legend=False)
+    * avg[outliers].hvplot.scatter(color="orange", padding=0.1, legend=False)
+)
+
+# Compute the number of outliers
+count = outliers.pipe(
+    lambda s: pn.indicators.Number(
+        name='Outliers count', value=s.sum(),
+        colors=[(10, 'green'), (30, 'gold'), (np.Inf, 'red')]
     )
-    fig = dict(data=[surface], layout=layout)
+)
 
-    plotly_pane = pn.pane.Plotly(fig)
-    return plotly_pane
-
-# Panel Stuff
-# pn.extension(sizing_mode="stretch_width")
-# month = pn.widgets.IntSlider(start=1, end=12, name='Month')
-
-# def plot_sine(n:int):
-#     x=np.linspace(0,1,50)
-#     y=n*np.sin(x)
-#     fig, ax = plt.subplots()
-#     plt.plot(x,y)
-#     return fig
-    
-amp = pn.widgets.IntSlider(start=1, end=12, name='dummy_var')
-
-pn.Column(
-        "# Panel Script",
-        amp, 
-        pn.bind(plot_sine, amp),
-        ).servable(target='myplot');
+# Servable App
+pn.Column(pipeline.widgets(), pn.Row(count.output(), pipeline.output())).servable(target='panel')
