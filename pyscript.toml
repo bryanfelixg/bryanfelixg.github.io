@@ -1,2 +1,0 @@
-name = "Panel and hvPlot"
-packages = ["bokeh==3.2.2", "panel", "markdown-it-py", "numpy", "pandas", "hvplot", "pyodide-http"]
