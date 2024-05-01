@@ -176,33 +176,35 @@ sample = stats.norm.rvs(loc = 5, scale =10, size=10)
 <p>A time series is a series indexed by time. Has the advantage of "temporal awareness"</p>
 <div class="compute"><script type="text/x-sage">
 pd_series  = pd.Series(sample, index=dates)
+print(pd_series.head(5))
 </script></div> 
 
 <p>Usual methods are still valid</p>
 <div class="compute"><script type="text/x-sage">
-pd_series.head(2)
-pd_series.tail(2)
-pd_series.describe()
-pd_series.value_counts()
-pd_series.nunique()
-pd_series.max()
-pd_series.min()
-pd_series.idxmax()
-pd_series.idxmin()
+#print(pd_series.head(2))
+#print(pd_series.tail(2))
+#print(pd_series.describe())
+#print(pd_series.value_counts())
+#print(pd_series.nunique())
+#print(pd_series.max())
+#print(pd_series.min())
+#print(pd_series.idxmax())
+#print(pd_series.idxmin())
 </script></div> 
 
 <div class="compute"><script type="text/x-sage">
 pd_series.apply(lambda x: x**2)
 pd_series.apply(lambda x: 1 if x>0 else -1)
+print(pd_series)
 </script></div> 
 
 <p>Slicing can be done with dates</p>
 <div class="compute"><script type="text/x-sage">
-#pd_series["2024"]
-#pd_series["2024-06"]
-#pd_series["2024-06-08"]
-#pd_series["2024-06-08":"2024-10-08"]
-#pd_series[dt.datetime(2024,5,1):]
+#print(pd_series["2024"])
+#print(pd_series["2024-06"])
+#print(pd_series["2024-06-08"])
+#print(pd_series["2024-06-08":"2024-10-08"])
+#print(pd_series[dt.datetime(2024,5,1):])
 </script></div> 
 
 <h2 id="resampling">Resampling</h2>
@@ -217,34 +219,34 @@ dates = pd.date_range(
 values = stats.norm.rvs(loc = 5, scale = 2, size= len(dates))
 
 ts_df = pd.Series( values,index= dates)
-ts_df.head(4)
+print(ts_df.head(4))
 </script></div> 
 
 <p>Downsampling</p>
 
 <div class="compute"><script type="text/x-sage">
-ts_df.resample("3d").min()
-ts_df.resample("3d").max()
-ts_df.resample("3d").mean()
+#print(ts_df.resample("3d").min())
+#print(ts_df.resample("3d").max())
+#print(ts_df.resample("3d").mean())
 </script></div> 
 
 <div class="compute"><script type="text/x-sage">
-ts_df.resample("3d").agg(lambda x: x.min()+1)
+print(ts_df.resample("3d").agg(lambda x: x.min()+1))
 </script></div> 
 
 <p>Upsampling</p>
 <div class="compute"><script type="text/x-sage">
-ts_df.resample("1d").min()
+print(ts_df.resample("1d").min())
 </script></div> 
 
 <div class="compute"><script type="text/x-sage">
-ts_df.resample("1d").ffill()
+print(ts_df.resample("1d").ffill())
 </script></div> 
 
 <div class="compute"><script type="text/x-sage">
-ts_df.resample("1d").interpolate(method='linear')
-ts_df.resample("1d").interpolate(method='polynomial',order = 2)
-ts_df.resample("1d").interpolate(method='spline',order = 3)  
+#print(ts_df.resample("1d").interpolate(method='linear'))
+#print(ts_df.resample("1d").interpolate(method='polynomial',order = 2))
+#print(ts_df.resample("1d").interpolate(method='spline',order = 3))
 </script></div> 
 
 <h2 id="rolling-window">Rolling Window</h2>
@@ -261,8 +263,8 @@ random_walk = pd.Series(random,index=dates)
 </script></div> 
 
 <div class="compute"><script type="text/x-sage">
-# rolling_avg = random_walk.rolling("20D").max()
-rolling_avg = random_walk.rolling("20D").agg(lambda x: x.mean()+1)
+rolling_avg = random_walk.rolling("20D").max()
+#rolling_avg = random_walk.rolling("20D").agg(lambda x: x.mean()+1)
 
 fig, ax = plt.subplots()
 ax.plot(random_walk)
