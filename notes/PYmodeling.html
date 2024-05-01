@@ -31,6 +31,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 # Patsy
 from patsy import dmatrices
+
+import warnings
+warnings.filterwarnings("ignore")
 </script></div> 
 
 
@@ -42,7 +45,7 @@ print(df.describe())
 </script></div> 
 
 <div class="compute"><script type="text/x-sage">
-fig = sns.pairplot(df, 
+sns.pairplot(df, 
 vars=['sepal_length','sepal_width' ,'petal_length'  ,'petal_width' ],
 hue='species'
 )
