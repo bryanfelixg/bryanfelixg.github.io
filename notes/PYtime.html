@@ -13,7 +13,7 @@
                            linked: 'true'});
     </script>
   </head>
-  <body>
+<body>
 <h1>Notes on Python Time Objects</h1>
 
 <h2>The datetime library</h2>
@@ -92,12 +92,12 @@ print(dt.date.fromtimestamp(123456789))
 </ul>
 
 <div class="compute"><script type="text/x-sage">
-  now = dt.time(hour=12, minute= 34, second= 28, microsecond=8997)
-  print(now)
-  print(now.hour)
-  print(now.minute)
-  print(now.second)
-  print(now.microsecond)
+now = dt.time(hour=12, minute= 34, second= 28, microsecond=8997)
+print(now)
+print(now.hour)
+print(now.minute)
+print(now.second)
+print(now.microsecond)
 </script></div>
   
 <div class="compute"><script type="text/x-sage">
@@ -162,7 +162,118 @@ print(3 * delta_t)
 print(delta_t/2)
 </script></div>
 
-<!-- Type your own Sage computation below and click &ldquo;Evaluate&rdquo;.
-<div class="compute">
-  <script type="text/x-sage">
-  </script></div> -->
+<h2 id="formatting-codes">Formatting Codes</h2>
+<p><a href="https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes">Formatting Keys</a></p>
+
+<h2 id="timeseries-in-pandas">TimeSeries in Pandas</h2>
+
+<div class="compute"><script type="text/x-sage">
+import scipy.stats as stats
+dates = [dt.datetime.now() + n*dt.timedelta(14) for n in range(10)]
+sample = stats.norm.rvs(loc = 5, scale =10, size=10)
+</script></div> 
+
+<p>A time series is a series indexed by time. Has the advantage of "temporal awareness"</p>
+<div class="compute"><script type="text/x-sage">
+pd_series  = pd.Series(sample, index=dates)
+</script></div> 
+
+<p>Usual methods are still valid</p>
+<div class="compute"><script type="text/x-sage">
+pd_series.head(2)
+pd_series.tail(2)
+pd_series.describe()
+pd_series.value_counts()
+pd_series.nunique()
+pd_series.max()
+pd_series.min()
+pd_series.idxmax()
+pd_series.idxmin()
+</script></div> 
+
+<div class="compute"><script type="text/x-sage">
+pd_series.apply(lambda x: x**2)
+pd_series.apply(lambda x: 1 if x>0 else -1)
+</script></div> 
+
+<p>Slicing can be done with dates</p>
+<div class="compute"><script type="text/x-sage">
+#pd_series["2024"]
+#pd_series["2024-06"]
+#pd_series["2024-06-08"]
+#pd_series["2024-06-08":"2024-10-08"]
+#pd_series[dt.datetime(2024,5,1):]
+</script></div> 
+
+<h2 id="resampling">Resampling</h2>
+
+<div class="compute"><script type="text/x-sage">
+dates = pd.date_range(
+  start= dt.date(year=2010,month=1,day=1,),
+  end = dt.date(year=2012,month=1,day=1,),
+  freq=dt.timedelta(days=2)
+)
+
+values = stats.norm.rvs(loc = 5, scale = 2, size= len(dates))
+
+ts_df = pd.Series( values,index= dates)
+ts_df.head(4)
+</script></div> 
+
+<p>Downsampling</p>
+
+<div class="compute"><script type="text/x-sage">
+ts_df.resample("3d").min()
+ts_df.resample("3d").max()
+ts_df.resample("3d").mean()
+</script></div> 
+
+<div class="compute"><script type="text/x-sage">
+ts_df.resample("3d").agg(lambda x: x.min()+1)
+</script></div> 
+
+<p>Upsampling</p>
+<div class="compute"><script type="text/x-sage">
+ts_df.resample("1d").min()
+</script></div> 
+
+<div class="compute"><script type="text/x-sage">
+ts_df.resample("1d").ffill()
+</script></div> 
+
+<div class="compute"><script type="text/x-sage">
+ts_df.resample("1d").interpolate(method='linear')
+ts_df.resample("1d").interpolate(method='polynomial',order = 2)
+ts_df.resample("1d").interpolate(method='spline',order = 3)  
+</script></div> 
+
+<h2 id="rolling-window">Rolling Window</h2>
+
+A random walk
+<div class="compute"><script type="text/x-sage">
+n=100
+
+dates = pd.date_range(start='2023-01-01',end='2024-01-01',periods=n,)
+
+random = np.cumsum(2*stats.bernoulli.rvs(p=0.505,size=n)-1)
+
+random_walk = pd.Series(random,index=dates)
+</script></div> 
+
+<div class="compute"><script type="text/x-sage">
+# rolling_avg = random_walk.rolling("20D").max()
+rolling_avg = random_walk.rolling("20D").agg(lambda x: x.mean()+1)
+
+fig, ax = plt.subplots()
+ax.plot(random_walk)
+ax.plot(rolling_avg)
+plt.show()
+</script></div> 
+
+</body>
+</html>
+
+<!-- 
+<div class="compute"><script type="text/x-sage">
+</script></div> 
+-->
