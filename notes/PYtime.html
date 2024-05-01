@@ -26,7 +26,72 @@ import datetime as dt
 import matplotlib.pyplot as plt
   </script></div>
 
-  </body>
+<p>Timestamp is the pandas equivalent of python’s Datetime and is interchangeable with it in most cases.</p>
+
+<div class="compute">
+  <script type="text/x-sage">
+t1 = pd.Timestamp("2024-Mar-03")
+t2 = dt.datetime(2024,3,3)
+t1 == t2
+  </script></div>
+
+<p><a href="https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes">Library Documentation</a></p>
+<p>Six classes:</p>
+<ol>
+<li>Date - An idealized naive date, assuming the current Gregorian calendar always was, and always will be, in effect. Its attributes are year, month, and day. </li>
+<li>Time - An idealized time, independent of any particular day, assuming that every day has exactly 24<em>60</em>60 seconds. Its attributes are hour, minute, second, microsecond, and tzinfo.</li>
+<li>Datetime -  It is a combination of date and time along with the attributes year, month, day, hour, minute, second, microsecond, and tzinfo.</li>
+<li>Timedelta - A duration expressing the difference between two date, time, or datetime instances to microsecond resolution.</li>
+<li>tzinfo</li>
+<li>timezone</li>
+</ol>
+
+<h2 id="date-object-methods">Date-object methods</h2>
+<ul>
+<li><code>fromisoformat()    Returns a date object from the string representation of the date</code></li>
+<li><code>fromtimestamp()    Returns a date object from the POSIX timestamp</code></li>
+<li><code>isocalendar()    Returns a tuple year, week, and weekday</code></li>
+<li><code>isoformat()    Returns the string representation of the date</code></li>
+<li><code>isoweekday()    Returns the day of the week as an integer where Monday is 1 and Sunday is 7</code></li>
+<li><code>strftime()    Returns a string representation of the date with the given format</code></li>
+<li><code>today()    Returns the current local date</code></li>
+<li><code>weekday()    Returns the day of the week as integer where Monday is 0 and Sunday is 6</code></li>
+</ul>
+
+<div class="compute">
+<script type="text/x-sage">
+today = dt.date.today()
+print(dt.date(year=2024,month=4,day=13))
+print(today.year)
+print(today.month)
+print(today.day)
+print(today.weekday())
+
+# From string yyyy-MM-dd HH:mm:ss
+print(dt.date.fromisoformat("2023-03-23"))
+
+# To String
+print(dt.date.isoformat(today))
+
+# From Timestamp
+# The timestamp is the number of seconds from 1st January 1970 
+print(dt.date.fromtimestamp(123456789))
+</script>
+</div>
+
+
+
+
+<div class="compute">
+  <script type="text/x-sage">
+</script>
+</div>
+<div class="compute">
+  <script type="text/x-sage">
+</script>
+</div>
+
+</body>
 </html>
 
 <!-- Type your own Sage computation below and click &ldquo;Evaluate&rdquo;.
