@@ -16,259 +16,69 @@
 <body>
 <h1>Notes on Python Modeling Libraries</h1>
 
-<h2>The datetime library</h2>
-
-Import some libraries
-<div class="compute">
-  <script type="text/x-sage">
-import numpy as np, pandas as pd
-import datetime as dt
-import matplotlib.pyplot as plt
-  </script></div>
-
-<p>Timestamp is the pandas equivalent of python’s Datetime and is interchangeable with it in most cases.</p>
-
-<div class="compute">
-  <script type="text/x-sage">
-t1 = pd.Timestamp("2024-Mar-03")
-t2 = dt.datetime(2024,3,3)
-print(t1 == t2)
-  </script></div>
-
-<p><a href="https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes">Library Documentation</a></p>
-<p>Six classes:</p>
-<ol>
-<li>Date - An idealized naive date, assuming the current Gregorian calendar always was, and always will be, in effect. Its attributes are year, month, and day. </li>
-<li>Time - An idealized time, independent of any particular day, assuming that every day has exactly 24<em>60</em>60 seconds. Its attributes are hour, minute, second, microsecond, and tzinfo.</li>
-<li>Datetime -  It is a combination of date and time along with the attributes year, month, day, hour, minute, second, microsecond, and tzinfo.</li>
-<li>Timedelta - A duration expressing the difference between two date, time, or datetime instances to microsecond resolution.</li>
-<li>tzinfo</li>
-<li>timezone</li>
-</ol>
-
-<h2 id="date-object-methods">Date-object methods</h2>
 <ul>
-<li><code>fromisoformat()    Returns a date object from the string representation of the date</code></li>
-<li><code>fromtimestamp()    Returns a date object from the POSIX timestamp</code></li>
-<li><code>isocalendar()    Returns a tuple year, week, and weekday</code></li>
-<li><code>isoformat()    Returns the string representation of the date</code></li>
-<li><code>isoweekday()    Returns the day of the week as an integer where Monday is 1 and Sunday is 7</code></li>
-<li><code>strftime()    Returns a string representation of the date with the given format</code></li>
-<li><code>today()    Returns the current local date</code></li>
-<li><code>weekday()    Returns the day of the week as integer where Monday is 0 and Sunday is 6</code></li>
+  <li>pandas to numpy</li>
+  <li>numpy to pandas</li>
+  <li>SciKit Learn</li>
+  <li>Patsy</li>
+  <li>Stats Models</li>
 </ul>
-
-<div class="compute"><script type="text/x-sage">
-today = dt.date.today()
-print(dt.date(year=2024,month=4,day=13))
-print(today.year)
-print(today.month)
-print(today.day)
-print(today.weekday())
-</script></div>
-
-<div class="compute"><script type="text/x-sage">
-# From string yyyy-MM-dd HH:mm:ss
-print(dt.date.fromisoformat("2023-03-23"))
-</script></div>
-
-<div class="compute"><script type="text/x-sage">
-# To String
-print(dt.date.isoformat(today))
-</script></div>
-
-<div class="compute"><script type="text/x-sage">
-# From Timestamp
-# The timestamp is the number of seconds from 1st January 1970 
-print(dt.date.fromtimestamp(123456789))
-</script></div>
-
-
-<h2 id="time-object-methods">Time-Object Methods</h2>
-<ul>
-<li><code>fromisoformat()    Returns a time object from the string representation of the time</code></li>
-<li><code>isoformat()    Returns the string representation of time from the time object</code></li>
-<li><code>strftime()    Returns a string representation of the time with the given format</code></li>
-</ul>
-
-<div class="compute"><script type="text/x-sage">
-now = dt.time(hour=12, minute= 34, second= 28, microsecond=8997)
-print(now)
-print(now.hour)
-print(now.minute)
-print(now.second)
-print(now.microsecond)
-</script></div>
   
 <div class="compute"><script type="text/x-sage">
-# From string yyyy-MM-dd HH:mm:ss
-print(dt.time.fromisoformat("12:03:23"))
-</script></div>
-
-<div class="compute"><script type="text/x-sage">
-# To String
-print(dt.time.isoformat(now))
-</script></div>
-
-<h2 id="date-time-object-methods">Date-Time Object Methods</h2>
-<ul>
-<li><code>combine()    Combines the date and time objects and return a DateTime object</code></li>
-<li><code>now()    Returns current local date and time with tz parameter</code></li>
-<li><code>date()    Return the Date class object</code></li>
-<li><code>time()    Return the Time class object</code></li>
-<li><code>fromisoformat()    Returns a datetime object from the string representation of the date and time</code></li>
-<li><code>isoformat()    Return the string representation of date and time</code></li>
-<li><code>weekday()    Returns the day of the week as integer where Monday is 0 and Sunday is 6</code></li>
-<li><code>strftime()    Returns a string representation of the DateTime object with the given format</code></li>
-<li><code>strptime()    Returns a DateTime object corresponding to the date string</code></li>
-</ul>
-
-
-<div class="compute"><script type="text/x-sage">
-now = dt.datetime.now()
-print(now)
-print(dt.datetime.time(now))
-print(dt.datetime.date(now))
-</script></div>
-
-<div class="compute"><script type="text/x-sage">
-# From string yyyy-MM-dd HH:mm:ss
-print(dt.datetime.fromisoformat("2012-02-22 12:01:01"))
-
-print(dt.datetime.isoformat(now))
-print(now.year, now.month, now.day, now.hour, now.minute, now.second, now.weekday())
-</script></div>
-
-<div class="compute"><script type="text/x-sage">
-# to string
-print(dt.datetime.strftime(now,'%Y-%M-%d %H:%m:s'))
-</script></div>
-
-<div class="compute"><script type="text/x-sage">
-str_date = '2024-02-12'
-print(dt.datetime.strptime(str_date, '%Y-%m-%d'))
-</script></div>
-
-<h2 id="delta-time-object-methods">Time-Delta Methods</h2>
-
-<div class="compute"><script type="text/x-sage">
-delta_t = dt.timedelta( weeks=0, days=0,  hours=0,  minutes=10, seconds=90, milliseconds=0, microseconds=0)
-
-print(delta_t)
-print(now - delta_t)
-print(now + delta_t)
-print(delta_t + delta_t)
-print(3 * delta_t)
-print(delta_t/2)
-</script></div>
-
-<h2 id="formatting-codes">Formatting Codes</h2>
-<p><a href="https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes">Formatting Keys</a></p>
-
-<h2 id="timeseries-in-pandas">TimeSeries in Pandas</h2>
-
-<div class="compute"><script type="text/x-sage">
-import scipy.stats as stats
-dates = [dt.datetime.now() + n*dt.timedelta(14) for n in range(10)]
-sample = stats.norm.rvs(loc = 5, scale =10, size=10)
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+# Patsy
+from patsy import dmatrices
 </script></div> 
 
-<p>A time series is a series indexed by time. Has the advantage of "temporal awareness"</p>
-<div class="compute"><script type="text/x-sage">
-pd_series  = pd.Series(sample, index=dates)
-</script></div> 
 
-<p>Usual methods are still valid</p>
 <div class="compute"><script type="text/x-sage">
-pd_series.head(2)
-pd_series.tail(2)
-pd_series.describe()
-pd_series.value_counts()
-pd_series.nunique()
-pd_series.max()
-pd_series.min()
-pd_series.idxmax()
-pd_series.idxmin()
+df = sns.load_dataset('iris')
+print(df.head())
+print(df.info())
+print(df.describe())
 </script></div> 
 
 <div class="compute"><script type="text/x-sage">
-pd_series.apply(lambda x: x**2)
-pd_series.apply(lambda x: 1 if x>0 else -1)
-</script></div> 
-
-<p>Slicing can be done with dates</p>
-<div class="compute"><script type="text/x-sage">
-#pd_series["2024"]
-#pd_series["2024-06"]
-#pd_series["2024-06-08"]
-#pd_series["2024-06-08":"2024-10-08"]
-#pd_series[dt.datetime(2024,5,1):]
-</script></div> 
-
-<h2 id="resampling">Resampling</h2>
-
-<div class="compute"><script type="text/x-sage">
-dates = pd.date_range(
-  start= dt.date(year=2010,month=1,day=1,),
-  end = dt.date(year=2012,month=1,day=1,),
-  freq=dt.timedelta(days=2)
+sns.pairplot(df, 
+vars=['sepal_length','sepal_width' ,'petal_length'  ,'petal_width' ],
+hue='species'
 )
-
-values = stats.norm.rvs(loc = 5, scale = 2, size= len(dates))
-
-ts_df = pd.Series( values,index= dates)
-ts_df.head(4)
+plt.plot()
 </script></div> 
-
-<p>Downsampling</p>
-
+<!-- 
 <div class="compute"><script type="text/x-sage">
-ts_df.resample("3d").min()
-ts_df.resample("3d").max()
-ts_df.resample("3d").mean()
 </script></div> 
 
 <div class="compute"><script type="text/x-sage">
-ts_df.resample("3d").agg(lambda x: x.min()+1)
-</script></div> 
-
-<p>Upsampling</p>
-<div class="compute"><script type="text/x-sage">
-ts_df.resample("1d").min()
 </script></div> 
 
 <div class="compute"><script type="text/x-sage">
-ts_df.resample("1d").ffill()
 </script></div> 
 
 <div class="compute"><script type="text/x-sage">
-ts_df.resample("1d").interpolate(method='linear')
-ts_df.resample("1d").interpolate(method='polynomial',order = 2)
-ts_df.resample("1d").interpolate(method='spline',order = 3)  
-</script></div> 
-
-<h2 id="rolling-window">Rolling Window</h2>
-
-A random walk
-<div class="compute"><script type="text/x-sage">
-n=100
-
-dates = pd.date_range(start='2023-01-01',end='2024-01-01',periods=n,)
-
-random = np.cumsum(2*stats.bernoulli.rvs(p=0.505,size=n)-1)
-
-random_walk = pd.Series(random,index=dates)
 </script></div> 
 
 <div class="compute"><script type="text/x-sage">
-# rolling_avg = random_walk.rolling("20D").max()
-rolling_avg = random_walk.rolling("20D").agg(lambda x: x.mean()+1)
-
-fig, ax = plt.subplots()
-ax.plot(random_walk)
-ax.plot(rolling_avg)
-plt.show()
 </script></div> 
+
+<div class="compute"><script type="text/x-sage">
+</script></div> 
+
+<div class="compute"><script type="text/x-sage">
+</script></div> 
+
+<div class="compute"><script type="text/x-sage">
+</script></div> 
+
+<div class="compute"><script type="text/x-sage">
+</script></div> 
+
+<div class="compute"><script type="text/x-sage">
+</script></div> 
+ -->
 
 </body>
 </html>
