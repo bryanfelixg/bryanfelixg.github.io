@@ -32,7 +32,7 @@ import matplotlib.pyplot as plt
   <script type="text/x-sage">
 t1 = pd.Timestamp("2024-Mar-03")
 t2 = dt.datetime(2024,3,3)
-t1 == t2
+print(t1 == t2)
   </script></div>
 
 <p><a href="https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes">Library Documentation</a></p>
@@ -58,41 +58,101 @@ t1 == t2
 <li><code>weekday()    Returns the day of the week as integer where Monday is 0 and Sunday is 6</code></li>
 </ul>
 
-<div class="compute">
-<script type="text/x-sage">
+<div class="compute"><script type="text/x-sage">
 today = dt.date.today()
 print(dt.date(year=2024,month=4,day=13))
 print(today.year)
 print(today.month)
 print(today.day)
 print(today.weekday())
+</script></div>
 
+<div class="compute"><script type="text/x-sage">
 # From string yyyy-MM-dd HH:mm:ss
 print(dt.date.fromisoformat("2023-03-23"))
+</script></div>
 
+<div class="compute"><script type="text/x-sage">
 # To String
 print(dt.date.isoformat(today))
+</script></div>
 
+<div class="compute"><script type="text/x-sage">
 # From Timestamp
 # The timestamp is the number of seconds from 1st January 1970 
 print(dt.date.fromtimestamp(123456789))
-</script>
-</div>
+</script></div>
 
 
+<h2 id="time-object-methods">Time-Object Methods</h2>
+<ul>
+<li><code>fromisoformat()    Returns a time object from the string representation of the time</code></li>
+<li><code>isoformat()    Returns the string representation of time from the time object</code></li>
+<li><code>strftime()    Returns a string representation of the time with the given format</code></li>
+</ul>
+
+<div class="compute"><script type="text/x-sage">
+  now = dt.time(hour=12, minute= 34, second= 28, microsecond=8997)
+  print(now)
+  print(now.hour)
+  print(now.minute)
+  print(now.second)
+  print(now.microsecond)
+</script></div>
+  
+<div class="compute"><script type="text/x-sage">
+# From string yyyy-MM-dd HH:mm:ss
+print(dt.time.fromisoformat("12:03:23"))
+</script></div>
+
+<div class="compute"><script type="text/x-sage">
+# To String
+print(dt.time.isoformat(now))
+</script></div>
+
+<h2 id="date-time-object-methods">Date-Time Object Methods</h2>
+<ul>
+<li><code>combine()    Combines the date and time objects and return a DateTime object</code></li>
+<li><code>now()    Returns current local date and time with tz parameter</code></li>
+<li><code>date()    Return the Date class object</code></li>
+<li><code>time()    Return the Time class object</code></li>
+<li><code>fromisoformat()    Returns a datetime object from the string representation of the date and time</code></li>
+<li><code>isoformat()    Return the string representation of date and time</code></li>
+<li><code>weekday()    Returns the day of the week as integer where Monday is 0 and Sunday is 6</code></li>
+<li><code>strftime()    Returns a string representation of the DateTime object with the given format</code></li>
+<li><code>strptime()    Returns a DateTime object corresponding to the date string</code></li>
+</ul>
 
 
-<div class="compute">
-  <script type="text/x-sage">
-</script>
-</div>
-<div class="compute">
-  <script type="text/x-sage">
-</script>
-</div>
+<div class="compute"><script type="text/x-sage">
+now = dt.datetime.now()
+print(now)
+print(dt.datetime.time(now))
+print(dt.datetime.date(now))
+</script></div>
 
-</body>
-</html>
+<div class="compute"><script type="text/x-sage">
+# From string yyyy-MM-dd HH:mm:ss
+print(dt.datetime.fromisoformat("2012-02-22 12:01:01"))
+
+print(dt.datetime.isoformat(now))
+print(now.year, now.month, now.day, now.hour, now.minute, now.second, now.weekday())
+</script></div>
+
+<div class="compute"><script type="text/x-sage">
+# to string
+print(dt.datetime.strftime(now,'%Y-%M-%d %H:%m:s'))
+</script></div>
+
+<div class="compute"><script type="text/x-sage">
+str_date = '2024-02-12'
+print(dt.datetime.strptime(str_date, '%Y-%m-%d'))
+</script></div>
+
+
+<div class="compute"><script type="text/x-sage">
+
+</script></div>
 
 <!-- Type your own Sage computation below and click &ldquo;Evaluate&rdquo;.
 <div class="compute">
