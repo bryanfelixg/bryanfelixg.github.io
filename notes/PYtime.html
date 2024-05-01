@@ -149,9 +149,17 @@ str_date = '2024-02-12'
 print(dt.datetime.strptime(str_date, '%Y-%m-%d'))
 </script></div>
 
+<h2 id="delta-time-object-methods">Time-Delta Methods</h2>
 
 <div class="compute"><script type="text/x-sage">
+delta_t = dt.timedelta( weeks=0, days=0,  hours=0,  minutes=10, seconds=90, milliseconds=0, microseconds=0)
 
+print(delta_t)
+print(now - delta_t)
+print(now + delta_t)
+print(delta_t + delta_t)
+print(3 * delta_t)
+print(delta_t/2)
 </script></div>
 
 <!-- Type your own Sage computation below and click &ldquo;Evaluate&rdquo;.
