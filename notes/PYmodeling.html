@@ -1,20 +1,30 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Notes on Python Modeling Libraries</title>
-    <script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
-    <script>
-    // Make *any* div with class 'compute' a Sage cell
-    sagecell.makeSagecell({inputLocation: 'div.compute',
-                           evalButtonText: 'Run',
-                           languages: ['python'],
-                           linked: 'true'});
-    </script>
-  </head>
+    <head>
+        <meta charset="utf-8">
+        <title>Notes Libraries</title>
+        <link rel="stylesheet" href="../css/stylecode.css">
+        <script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+      
+        <script>
+          // Make *any* div with class 'compute' a Sage cell
+          sagecell.makeSagecell({inputLocation: 'div.compute',
+                                 evalButtonText: 'Run',
+                                 editor: "codemirror",
+                                 languages: ['python','sage'],
+                                 linked: 'true'});
+        </script>
+      </head>
+
 <body>
-<h1>Notes on Python Modeling Libraries</h1>
+
+<div class="container">
+<article>
+<header>
+    <h2>Notes on Python Modeling Libraries</h2>
+    <time datetime="2024-05-01">May 1, 2024</time>
+</header>
+
 
 <ul>
   <li>pandas to numpy</li>
@@ -191,6 +201,8 @@ results.summary()
 <div class="compute"><script type="text/x-sage">
 </script></div> 
 
+</article>
+</div>
 
 </body>
 </html>

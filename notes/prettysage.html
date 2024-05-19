@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Notes Libraries</title>
+  <link rel="stylesheet" href="../css/stylecode.css">
+  <script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+
+  <script>
+    // Make *any* div with class 'compute' a Sage cell
+    sagecell.makeSagecell({inputLocation: 'div.sage',
+                           evalButtonText: 'Run',
+                           editor: "codemirror",
+                           languages: ['python','sage'],
+                           linked: 'true'});
+  </script>
+</head>
+
+<body>
+  <div class="container">
+  <article>
+  <header>
+    <h2>Python Libraries</h2>
+    <time datetime="2024-05-19">May 19, 2024</time>
+  </header>
+
+  <p>Recursion is a fundamental <code>code snippet</code> concept...</p>
+
+  <!-- <pre><code>function factorial(n) {}</code></pre>  -->
+
+  <div class="sage">
+  <script type="text/sage">
+import pandas as pd
+import numpy as np
+print(3+2)
+  </script>
+  </div>
+
+  <p>This is a paragraph with a <a href="https://www.example.com">link</a> in it.</p>
+
+  </article>
+  </div>
+
+</body>
+</html>

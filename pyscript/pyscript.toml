@@ -1,3 +1,0 @@
-name = "KMeans in Panel"
-description = "An example of how to build a dashboard using Panel."
-packages = ["pandas"]

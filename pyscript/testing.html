@@ -11,8 +11,10 @@
   </head>
 
   <body>
-    <script type="mpy-editor" env="shared">
-        print(7)
-    </script>
+    <script type="mpy-editor" target="editor">
+        import sys
+        print(sys.version)
+      </script>
+    <div id="editor"></div> <!-- will eventually contain the Python editor -->      
   </body>
 </html>
