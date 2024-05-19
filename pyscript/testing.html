@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <title>PyScript</title>
+
+      <!-- PyScript CSS -->
+      <link rel="stylesheet" href="https://pyscript.net/releases/2024.5.2/core.css">
+      <script type="module" src="https://pyscript.net/releases/2024.5.2/core.js"></script>
+  </head>
+
+  <body>
+    <script type="mpy-editor" env="shared">
+        if not 'a' in globals():
+          a = 1
+        else:
+          a += 2
+        print(a)
+      </script>
+      <script type="mpy-editor" env="shared">
+        # doubled a
+        print(a * 2)
+      </script>
+      
+      
+
+  </body>
+</html>
