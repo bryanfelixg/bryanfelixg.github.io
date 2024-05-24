@@ -38,10 +38,6 @@
     margin-bottom: 20px;
   }
   
-  article h2 {
-    margin-top: 0;
-  }
-  
   article time {
     font-size: 0.9em;
     color: #666; /* Lighter gray for metadata */
@@ -85,20 +81,13 @@
   /* Sidebar */
   .sidebar {
       align-self: flex-start;
-      width: 250px; /* Adjusted width for balance */
+      width: 200px; /* Adjusted width for balance */
       background-color: #f8f8f8; /* Slightly darker background for contrast */
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       position: sticky;
       top: 20px; /* Maintain sticky positioning */
-  }
-
-  .sidebar h3 { /* Added heading style for visual separation */
-      font-size: 1.2em;
-      margin-top: 0;
-      margin-bottom: 10px;
-      color: #333; /* Darker heading color */
   }
 
   .sidebar ul {
@@ -121,9 +110,5 @@
       color: #333; /* Darker text on hover */
   }
 
-  .sidebar a.active {
-      font-weight: bold;
-      color: #007bff; /* Blue for active link */
-  }
 
   

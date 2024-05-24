@@ -2,20 +2,30 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Notes Libraries</title>
-  <link rel="stylesheet" href="../css/stylecode.css">
-  <script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Notes</title>
 
+  <!-- Style Sheet & Roboto font-->
+  <link rel="stylesheet" href="../css/stylecode.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   
+  <!-- Navigation Sidebar Script -->
+  <script defer src="../jss/navigation.js"></script>
+
+  <!-- SageMath Library -->
+  <script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
   <script>
     // Make *any* div with class 'compute' a Sage cell
     sagecell.makeSagecell({inputLocation: 'div.sage',
                            evalButtonText: 'Run',
                            editor: "codemirror",
-                           languages: ['python','sage'],
+                           languages: ['python'],
                            linked: 'true'});
   </script>
+
+  <!-- MathJax for LaTeX -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 </head>
 
 <body>
@@ -28,7 +38,7 @@
     
 <article id="post-content">  
 <header>
-<h2 id="title"> Python Libraries </h2>
+<h1 id="title"> Python Libraries </h1>
 <time datetime="2024-05-19">May 19, 2024</time>
 </header>
 
@@ -45,13 +55,17 @@ import numpy as np
 print(3+2)
 </script>
 </div>
+<br>
 
-<h2 id="ch3">Chapter 3</h2>
+<h2 id="LaTeX">Using \(\LaTeX\) </h2>
+
+<p>The quadratic formula is: \(x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\)</p>
+
+<p>The equation of a circle is: \[(x - h)^2 + (y - k)^2 = r^2\]</p>
 
 </article>
 
 </div>
 
-<script defer src="../jss/navigation.js"></script>
 </body>
 </html>
