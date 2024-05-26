@@ -29,7 +29,6 @@
         <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
       </head>
-
 <body>
 
 <div class="container"> 
@@ -39,13 +38,12 @@
 </div>
     
 <article id="post-content">   
-
 <header>
-    <h1>Notes on Python Modeling Libraries</h1>
-    <time datetime="2024-05-01">May 1, 2024</time>
+<h1>Notes on Python Modeling Libraries</h1>
+<time datetime="2024-05-01">May 1, 2024</time>
 </header>
 
-
+<h2 id="part1">Big Picture</h2>
 <ul>
   <li>pandas to numpy</li>
   <li>numpy to pandas</li>
@@ -82,7 +80,7 @@ hue='species'
 plt.show()
 </script></div> 
 
-<h2>Pandas to Numpy</h2>
+<h2 id="pandas2numpy">Pandas to Numpy</h2>
 
 <div class="sage"><script type="text/x-sage">
 # Pandas to numpy
@@ -91,7 +89,7 @@ Y = df.loc[:,['sepal_width']].to_numpy()
 print(X.dtype, Y.dtype)
 </script></div> 
 
-<h2>SciKit Learn</h2>
+<h2 id="scikit">SciKit Learn</h2>
 <p><a href="https://scikit-learn.org/stable/modules/model_evaluation.html">Metrics reference</a>
 <a href="https://scikit-learn.org/stable/user_guide.html">Models reference</a></p>
   
@@ -145,7 +143,7 @@ axs[1].plot(y_test,y_test)
 plt.show()
 </script></div> 
 
-<h2>Patsy</h2>
+<h2 id="patsy">Patsy</h2>
 <p>Most useful for feature engineering before pasing output to &quot;solvers&quot;. <a href="https://patsy.readthedocs.io/en/latest/API-reference.html">API link</a></p>
 
 <div class="sage"><script type="text/x-sage">
@@ -180,7 +178,7 @@ print(
 )
 </script></div> 
 
-<h2>Stats Models</h2>
+<h2 id="statsmodels">Stats Models</h2>
 
 Two main libraries: SM - array based, and SFM - formula based
 <div class="sage"><script type="text/x-sage">
