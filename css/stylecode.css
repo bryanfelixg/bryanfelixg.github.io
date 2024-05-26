@@ -1,128 +1,129 @@
 /* General Styling */
 
-  body {
-    font-family: "Lora", serif;
-    line-height: 1.6;
-    color: #333; /* Dark gray text */
-    background-color: #f4f4f4;
-    margin: 0;
-  }
-  
-  /* Typography */
+body {
+  font-family: "Lora", serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+  margin: 0;
+}
 
-  h1 {
-    font-family: "Lora", serif; /* Different font for h1 */
-    font-weight: 500;  /* Bolder weight */
-    font-size: 2.2em;  /* Larger size */
-  }
-  
-  h2 {
-    font-family: "Lora", serif; 
-    font-weight: 400;   /* Keep existing weight */
-    font-size: 1.7em;   /* Slightly smaller than h1 */
-    margin-top: 1em;  
-  }
-  
-  h3, h4, h5, h6 {
-    font-family: "Lora", serif;
-    font-weight: 400; 
-    margin-top: 1.2em; 
-  }
-  
-  a {
-    color: #007bff; /* Blue link color */
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Blog Post Structure */
-  article {
-    flex: 1; /* Allow article to take up remaining space */
-    margin-bottom: 40px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px; /* Slightly rounder corners */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* More subtle shadow */
-  }
-  
-  article header {
-    margin-bottom: 20px;
-  }
-  
-  article time {
-    font-size: 0.9em;
-    color: #666; /* Lighter gray for metadata */
-  }
-  
-  /* Code Blocks */
-  pre {
-    background-color: #f5f5f5; /* Light gray background for code */
-    color: #282c34; /* Darker text color for code (good contrast) */
-    overflow: auto;
-    padding: 0px;
-    border-radius: 5px;
-  }
+/* Typography */
 
-  code {
-    font-family: 'Fira Code', monospace;
-  }
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lora", serif;
+  margin-top: 1.2em;
+}
+h1 {
+  font-weight: 500;
+  font-size: 2.2em;
+}
 
-  p code, li code {
-    background-color: #eee;      /* Even lighter gray for inline code */
-    color: #444; /* Darker gray text for better readability */
-    padding: 2px 4px;          
-    border-radius: 3px;      
-  }
-  
-  /* Responsive Design (Optional) */
-  @media (max-width: 768px) {
-    .container {
-      max-width: 90%;
-    }
-  }
+h2 {
+  font-weight: 400;
+  font-size: 1.7em;
+  margin-top: 1em;
+}
 
-  .container {
-    display: flex;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    gap: 30px;
-  }
+a {
+  color: #007bff; 
+  text-decoration: none;
+}
 
-  /* Sidebar */
+a:hover {
+  text-decoration: underline;
+}
+
+article {
+  flex: 1; 
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow-wrap: break-word;
+  box-sizing: border-box;
+}
+
+article header {
+  margin-bottom: 20px;
+}
+
+article time {
+  font-size: 0.9em;
+  color: #666; 
+}
+
+/* Code Blocks */
+pre {
+  background-color: #f5f5f5; 
+  color: #282c34; 
+  overflow: auto;
+  padding: 0px;
+  border-radius: 5px;
+}
+
+code {
+  font-family: 'Fira Code', monospace;
+}
+
+p code, li code {
+  background-color: #eee; 
+  color: #444; 
+  padding: 2px 4px;          
+  border-radius: 3px;      
+}
+
+/* Narrow window */
+@media (max-width: 900px) {
   .sidebar {
-      align-self: flex-start;
-      width: 200px; /* Adjusted width for balance */
-      background-color: #f8f8f8; /* Slightly darker background for contrast */
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      position: sticky;
-      top: 20px; /* Maintain sticky positioning */
+    display: none; 
   }
+  article {
+    width: 100%; 
+  }
+}
 
-  .sidebar ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-  }
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 30px;
+}
 
-  .sidebar a {
-      display: block;
-      padding: 8px 15px; /* Adjusted padding for tighter spacing */
-      text-decoration: none;
-      color: #555; /* Slightly lighter link color */
-      border-radius: 5px;
-      transition: background-color 0.2s ease, color 0.2s ease; /* Smoother transition on color too */
-  }
+/* Sidebar */
+.sidebar {
+  width: 200px; 
+  /* align-self: flex-start; */
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 20px; 
+}
 
-  .sidebar a:hover {
-      background-color: #e0e0e0; /* More distinct hover effect */
-      color: #333; /* Darker text on hover */
-  }
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar a {
+  display: block;
+  padding: 8px 15px; 
+  text-decoration: none;
+  color: #555; 
+  border-radius: 5px;
+  transition: background-color 0.2s ease, color 0.2s ease; 
+}
+
+.sidebar a:hover {
+  background-color: #e0e0e0; 
+  color: #333; 
+}
 
 
   
