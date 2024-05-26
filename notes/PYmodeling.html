@@ -16,7 +16,7 @@
         <!-- SageMath Library -->
         <script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
         <script>
-          // Make *any* div with class 'compute' a Sage cell
+          // Make *any* div with class 'sage' a Sage cell
           sagecell.makeSagecell({inputLocation: 'div.sage',
                                  evalButtonText: 'Run',
                                  editor: "codemirror",
@@ -48,7 +48,7 @@
   <li>Stats Models</li>
 </ul>
   
-<div class="compute"><script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -61,14 +61,14 @@ warnings.filterwarnings("ignore")
 </script></div> 
 
 
-<div class="compute"><script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 df = sns.load_dataset('iris')
 print(df.head())
 print(df.info())
 print(df.describe())
 </script></div> 
 
-<div class="compute"><script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 sns.pairplot(df, 
 vars=['sepal_length','sepal_width' ,'petal_length'  ,'petal_width' ],
 hue='species'
@@ -78,7 +78,7 @@ plt.show()
 
 <h2>Pandas to Numpy</h2>
 
-<div class="compute"><script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 # Pandas to numpy
 X = df.loc[:,['sepal_length','petal_length','petal_width',]].to_numpy()
 Y = df.loc[:,['sepal_width']].to_numpy()
@@ -89,13 +89,13 @@ print(X.dtype, Y.dtype)
 <p><a href="https://scikit-learn.org/stable/modules/model_evaluation.html">Metrics reference</a>
 <a href="https://scikit-learn.org/stable/user_guide.html">Models reference</a></p>
   
-<div class="compute"><script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 import sklearn
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 </script></div> 
 
-<div class="compute"><script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 x_train, x_test, y_train, y_test = train_test_split(X,Y, train_size=0.8)
 
 print(
@@ -104,19 +104,19 @@ print(
 )
 </script></div> 
 
-<div class="compute"><script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 import sklearn.linear_model
 
 model = sklearn.linear_model.LinearRegression(fit_intercept= True)
 model.fit(x_train,y_train)
 </script></div> 
 
-<div class="compute"><script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 print(model.coef_)
 print(model.intercept_)
 </script></div> 
 
-<div class="compute"><script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 y_pred = model.predict(x_test)
 
 print(
@@ -127,7 +127,7 @@ print(
 )
 </script></div> 
 
-<div class="compute"><script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 fig, axs = plt.subplots(2,1)
 
 axs[0].scatter(x_test[:,0], y_pred , c='tab:orange')
@@ -142,7 +142,7 @@ plt.show()
 <h2>Patsy</h2>
 <p>Most useful for feature engineering before pasing output to &quot;solvers&quot;. <a href="https://patsy.readthedocs.io/en/latest/API-reference.html">API link</a></p>
 
-<div class="compute"><script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 formula = "sepal_width ~ sepal_length + petal_length + petal_width + 1"
 
 # formula = "sepal_width ~ sepal_length + C(species) + petal_length+ np.add(petal_length,petal_width) + petal_width + 1"
@@ -152,20 +152,20 @@ patsy_Y, patsy_X = dmatrices(formula, data=df, return_type="dataframe") #return 
 print(patsy_X)
 </script></div> 
 
-<div class="compute"><script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 x_train, x_test, y_train, y_test = train_test_split(patsy_X,patsy_Y, train_size=0.8)
 </script></div> 
 
-<div class="compute"><script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 coeff = np.linalg.lstsq(x_train, y_train, rcond=None)[0]
 print(coeff)
 </script></div> 
 
-<div class="compute"><script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 y_pred = x_test.dot(coeff)
 </script></div> 
 
-<div class="compute"><script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 print(
     "MSE: ", mean_squared_error(y_true=y_test, y_pred=y_pred)
 )
@@ -177,16 +177,16 @@ print(
 <h2>Stats Models</h2>
 
 Two main libraries: SM - array based, and SFM - formula based
-<div class="compute"><script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 import statsmodels.api as sm
 import statsmodels.formula.api as smf 
 </script></div> 
 
-<div class="compute"><script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 x_train, x_test, y_train, y_test = train_test_split(X,Y, train_size=0.8)
 </script></div> 
 
-<div class="compute"><script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 results = sm.OLS(
     y_train,
     sm.add_constant(x_train),
@@ -195,11 +195,11 @@ results = sm.OLS(
 print(results.params)
 </script></div> 
 
-<div class="compute"><script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 results.summary()
 </script></div> 
 
-<div class="compute"><script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 results = smf.ols(
     formula= formula,
     data=df
@@ -208,11 +208,11 @@ results = smf.ols(
 print(results.params)
 </script></div> 
 
-<div class="compute"><script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 results.summary()
 </script></div> 
 
-<div class="compute"><script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 </script></div> 
 
 </article>
@@ -222,6 +222,6 @@ results.summary()
 </html>
 
 <!-- 
-<div class="compute"><script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 </script></div> 
 -->
