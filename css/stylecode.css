@@ -75,7 +75,7 @@ p code, li code {
 }
 
 /* Narrow window */
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .sidebar {
     display: none; 
   }
