@@ -50,6 +50,11 @@ article header {
   margin-bottom: 20px;
 }
 
+.author-subtitle {
+  font-size: 1.0em;
+  color: #666; 
+}
+
 article time {
   font-size: 0.9em;
   color: #666; 
