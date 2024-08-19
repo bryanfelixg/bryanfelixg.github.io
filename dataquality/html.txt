@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Data Quality Report</title>
+<style>
+body { font-family: sans-serif; }
+table { border-collapse: collapse; width: 100%; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid #ddd; }
+tr:nth-child(even) { background-color: #f2f2f2; }
+.chart-container { width: 400px; height: 200px; }
+
+ul.nav { list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333; }
+ul.nav li { float: left; }
+ul.nav li a { display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;}
+ul.nav li a:hover { background-color: #111;}
+.tabcontent { display: none; padding: 6px 12px; border: 1px solid #ccc; border-top: none;}
+</style>
+
+</style>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+</head>
+<body>
+
+<h1>Data Quality Report for Table: [Table Name]</h1>
+
+<ul class="nav">
+    <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Home')">Home</a></li> 
+    <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Accuracy')">Accuracy</a></li>
+    <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Completeness')">Completeness</a></li>
+    <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Consistency')">Consistency</a></li>
+    <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Timeliness')">Timeliness</a></li>
+</ul>
+
+<div id="Home" class="tabcontent">
+    <h2>Data Quality Summary</h2>
+    <table>
+      <tr>
+        <th>Dimension</th>
+        <th>Overall Score</th>
+      </tr>
+      <tr>
+        <td>Accuracy</td>
+        <td>[Overall Accuracy Score]</td> 
+      </tr>
+      <tr>
+        <td>Completeness</td>
+        <td>[Overall Completeness Score]</td> 
+      </tr>
+      <tr>
+        <td>Consistency</td>
+        <td>[Overall Consistency Score]</td> 
+      </tr>
+      <tr>
+        <td>Timeliness</td>
+        <td>[Overall Timeliness Score]</td> 
+      </tr>
+    </table>
+</div>
+  
+<div id="Accuracy" class="tabcontent">
+<table>
+    <tr>
+        <th>Metric</th>
+        <th>Value</th>
+        <th>Chart</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Syntactic Accuracy (Average)</td>
+        <td>92%</td>
+        <td><div class="chart-container"><canvas id="accuracyChart"></canvas></div></td>
+        <td>Percentage of values across all columns adhering to their expected format.</td>
+    </tr>
+    <tr>
+        <td>Accurate Tuples Ratio</td>
+        <td>85%</td>
+        <td><div class="chart-container"><canvas id="tuplesChart"></canvas></div></td>
+        <td>Percentage of rows with all values syntactically accurate.</td>
+    </tr>
+    <tr>
+        <td>Domain-Specific Validation Rules</td>
+        <td>78%</td>
+        <td><div class="chart-container"><canvas id="validationChart"></canvas></div></td>
+        <td>Percentage of values satisfying custom business rules.</td>
+    </tr>
+    <tr>
+        <td>Conformity to External Data Sources (if applicable)</td>
+        <td>90%</td>
+        <td><div class="chart-container"><canvas id="externalChart"></canvas></div></td>
+        <td>Percentage of values matching a trusted external source.</td>
+    </tr>
+    
+</table>
+</div>
+  
+<div id="Completeness" class="tabcontent">
+<table>
+    <tr>
+        <th>Metric</th>
+        <th>Value</th>
+        <th>Chart</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Completeness (Average)</td>
+        <td>95%</td>
+        <td><div class="chart-container"><canvas id="completenessChart"></canvas></div></td>
+        <td>Percentage of non-null values across all columns.</td>
+    </tr>
+    <tr>
+        <td>Complete Tuples Ratio</td>
+        <td>90%</td>
+        <td><div class="chart-container"><canvas id="completeTuplesChart"></canvas></div></td>
+        <td>Percentage of rows with no null values.</td>
+    </tr>
+    <tr>
+        <td>Expected Value Completeness</td>
+        <td>82%</td>
+        <td><div class="chart-container"><canvas id="expectedValueChart"></canvas></div></td>
+        <td>Percentage of values present compared to the expected number.</td>
+    </tr>
+</table>
+</div>
+  
+<div id="Consistency" class="tabcontent">
+<table>
+    <tr>
+        <th>Metric</th>
+        <th>Value</th>
+        <th>Chart</th>
+        <th>Description</th>
+    </tr>
+        <td>Consistency (Average)</td>
+        <td>88%</td>
+        <td><div class="chart-container"><canvas id="consistencyChart"></canvas></div></td>
+        <td>Percentage of values/tuples satisfying defined constraints.</td>
+    </tr>
+    <tr>
+        <td>Rule Compliance Rate</td>
+        <td>93%</td>
+        <td><div class="chart-container"><canvas id="ruleComplianceChart"></canvas></div></td>
+        <td>Percentage of values/tuples adhering to custom business rules.</td>
+    </tr>
+</table>
+</div>
+  
+<div id="Timeliness" class="tabcontent">
+<table>
+    <tr>
+        <th>Metric</th>
+        <th>Value</th>
+        <th>Chart</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Average Age of Data</td>
+        <td>3 days</td>
+        <td><div class="chart-container"><canvas id="ageChart"></canvas></div></td>
+        <td>Average time difference between current time and data timestamp.</td>
+    </tr>
+    <tr>
+        <td>Staleness</td>
+        <td>12%</td>
+        <td><div class="chart-container"><canvas id="stalenessChart"></canvas></div></td>
+        <td>Percentage of data points older than a defined threshold.</td>
+    </tr>
+    </table>
+</div>
+
+
+<script>
+
+// ... (chart data and configurations) ...
+// Mock data for charts (replace with your actual PySpark calculations)
+const accuracyData = {
+    labels: ['Column 1', 'Column 2', 'Column 3'],
+    datasets: [{
+        label: 'Syntactic Accuracy',
+        data: [95, 98, 80], 
+        backgroundColor: 'rgba(54, 162, 235, 0.5)',
+        borderColor: 'rgba(54, 162, 235, 1)',
+        borderWidth: 1
+    }]
+};
+
+// ... (similarly define data for other charts)
+
+// Chart configurations (customize as needed)
+const accuracyConfig = {
+    type: 'bar',
+    data: accuracyData,
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true,
+                max: 100
+            }
+        }
+    }
+};
+
+// ... (similarly define configurations for other charts)
+
+// Tab navigation function
+function openTab(evt, tabName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Show the Home tab by default
+document.getElementById("Home").style.display = "block";
+document.getElementsByClassName("tablinks")[0].className += " active";
+
+// ... (chart rendering) ...
+// Render charts
+const accuracyChart = new Chart(
+    document.getElementById('accuracyChart'),
+    accuracyConfig
+);
+const tuplesChart = new Chart(
+    document.getElementById('tuplesChart'),
+    accuracyConfig
+);
+
+// ... (similarly create other chart instances)
+</script>
+
+</body>
+</html>
