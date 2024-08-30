@@ -230,12 +230,10 @@ for degree in degrees:
         # Create a bootstrap sample with replacement
         x_train, y_train = resample(x, y, replace=True)
 
-        # The remaining data points serve as the test set
         train_indices = set(range(len(x))) - set(x_train[:])
         x_test = x[list(train_indices)]
         y_test = y[list(train_indices)]
 
-        # Train on the training set, evaluate on the test set
         model, poly = polynomial_model(degree, x_train, y_train) 
         mse = get_test_error(model, poly, x_test, y_test)
         bootstrap_errors.append(mse)
