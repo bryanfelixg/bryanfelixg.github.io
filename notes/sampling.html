@@ -206,7 +206,8 @@ for degree in degrees:
     error_rates.append(fold_errors)
 
 # Plotting
-plt.boxplot(error_rates, labels=degrees)
+fig, ax = plt.subplots()
+ax.boxplot(error_rates, labels=degrees)
 plt.xlabel("Polynomial Degree")
 plt.ylabel("Test Error (MSE)")
 plt.title("Test Error Rates for Different Polynomial Degrees using K-Fold Cross-Validation")
