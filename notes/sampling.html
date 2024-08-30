@@ -217,6 +217,39 @@ plt.show()
 </div>
 
 <h2 id="boot">Bootstraping</h2>
+<div class="sage">
+  <script type="text/sage">
+from sklearn.utils import resample
+degrees = range(1, 11)
+num_bootstrap_samples = 100
+
+error_rates = []
+for degree in degrees:
+    bootstrap_errors = []
+    for _ in range(num_bootstrap_samples):
+        # Create a bootstrap sample with replacement
+        x_train, y_train = resample(x, y, replace=True)
+
+        # The remaining data points serve as the test set
+        train_indices = set(range(len(x))) - set(x_train[:])
+        x_test = x[list(train_indices)]
+        y_test = y[list(train_indices)]
+
+        # Train on the training set, evaluate on the test set
+        model, poly = polynomial_model(degree, x_train, y_train) 
+        mse = get_test_error(model, poly, x_test, y_test)
+        bootstrap_errors.append(mse)
+    error_rates.append(bootstrap_errors)
+
+# Plotting
+fig, ax = plt.subplots()
+ax.boxplot(error_rates, labels=degrees)
+plt.xlabel("Polynomial Degree")
+plt.ylabel("Test Error (MSE)")
+plt.title("Test Error Rates for Different Polynomial Degrees using Bootstrapping")
+plt.show()
+  </script>
+</div>
 
 </article>
 
