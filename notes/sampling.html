@@ -171,8 +171,51 @@ for degree in degrees:
         mse = get_test_error(model, poly, x_test, y_test)
         split_errors.append(mse)
     error_rates.append(split_errors)
+
+
+# Plotting
+fig, ax = plt.subplots()
+ax.boxplot(error_rates, labels=degrees)
+plt.xlabel("Polynomial Degree")
+plt.ylabel("Test Error (MSE)")
+plt.title("Test Error Rates for Different Polynomial Degrees and Random Splits")
+plt.show()
 </script>
 </div>
+
+
+<h2 id:k_fold>The \(k\)-fold Cross-Validation Method</h2>
+
+<div class="sage">
+<script type="text/sage">
+from sklearn.model_selection import KFold
+degrees = range(1,11)
+num_folds = 5
+kf = KFold(n_splits=num_folds, shuffle=True)
+
+error_rates = []
+for degree in degrees:
+    fold_errors = []
+    for train_index, test_index in kf.split(x):
+        x_train, x_test = x[train_index], x[test_index]
+        y_train, y_test = y[train_index], y[test_index]
+
+        model, poly = polynomial_model(degree, x_train, y_train)
+        mse = get_test_error(model, poly, x_test, y_test)
+        fold_errors.append(mse)
+    error_rates.append(fold_errors)
+
+# Plotting
+plt.boxplot(error_rates, labels=degrees)
+plt.xlabel("Polynomial Degree")
+plt.ylabel("Test Error (MSE)")
+plt.title("Test Error Rates for Different Polynomial Degrees using K-Fold Cross-Validation")
+plt.show()
+
+</script>
+</div>
+
+<h2 id="boot">Bootstraping</h2>
 
 </article>
 
