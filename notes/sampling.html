@@ -44,6 +44,7 @@
 </header>
 
 <h2 id="intro">Introduction</h2>
+
 <p>This is a quick introduction to sampling methods for machine learning applications. The structure of the notebook is as follows. First, we create an artificial dataset to model. Then we will create a <em>polynomial regression</em> model to use as a template with an arbitrary degree. Each of the following sampling methods will be implemented in Python: <em>random sampling</em>, <em>k-fold cross-validation</em>, and <em>bootstrapping</em>. For each, we will compute the <em>test error rate</em> and compare the variance of the results.</p>
 
 <h2 id="data">Simulating some data</h2>
@@ -301,7 +302,7 @@ plt.close()
 
 <h2 id="boot">Bootstrapping</h2>
 
-<p>The last sampling method we will show here is <em>Bootstrapping</em>. The philosophy of bootstrapping is to sample data from our original dataset. Although there is not a current implementation of bootstrapping in Scikit-Learn, we can manage to create these samples using the <code>resample</code> method from <code>sklearn.utils</code>. GThe </p>
+<p>The final sampling method we'll discuss is Bootstrapping. The core principle of bootstrapping is to resample data from the original dataset with replacement. While Scikit-Learn doesn't have a dedicated bootstrapping implementation, we can create bootstrap samples using the <code>resample</code> method from <code>sklearn.utils</code>. </p>
 
 <div class="sage">
 <script type="text/sage">
