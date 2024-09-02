@@ -44,16 +44,17 @@
 </header>
 
 <h2 id="intro">Introduction</h2>
-<p>This is a quick introduction to sampling methods for machine learning applications. The structure of the notebook is as follows. First we create an artificial set of data to model. Then we will create a <em>polynomial regression</em> model to use as template with arbitrary degree. Each of the following sampling methods will be implemented in python: <em>random sampling</em>, <em> \(k-\)fold cross-validation</em>, and, <em>bootstraping</em>. For each we will compute the <em>test error rate</em> and compare the variance of the results.</p>
+<p>This is a quick introduction to sampling methods for machine learning applications. The structure of the notebook is as follows. First, we create an artificial dataset to model. Then we will create a <em>polynomial regression</em> model to use as a template with an arbitrary degree. Each of the following sampling methods will be implemented in Python: <em>random sampling</em>, <em>k-fold cross-validation</em>, and <em>bootstrapping</em>. For each, we will compute the <em>test error rate</em> and compare the variance of the results.</p>
 
 <h2 id="data">Simulating some data</h2>
-<p>For exposition, lets simulate data points that <em>"look"</em> cubic. Lets take a few points in the interval \(x \in [-3,-3]\) and map them to the function \[f(x) = x^3 -2x^2 +x +3 + \varepsilon. \]
-Where \(\varepsilon\) is random noise sampled from a normal distribution with mean (\(\mu\)) zero, and standard deviation (\(\sigma\)) equal to 2. 
-</p>
+<p>For exposition, let's simulate data points that <em>"look"</em> cubic. Let's take a few points in the interval \(x \in [-3, 3]\) and map them to the function \[f(x) = x^3 - 2x^2 + x + 3 + \varepsilon. \]
+Here \(\varepsilon\) is random noise sampled from a normal distribution with mean (\(\mu\)) zero, and standard deviation (\(\sigma\)) equal to 2.</p>
 
 <div class="sage">
 <script type="text/sage">
 import numpy as np
+import matplotlib.pyplot as plt
+
 𝜇 = 0 
 𝜎 = 2
 𝜀 = np.random.normal(loc = 𝜇, scale = 𝜎, size = 100)
@@ -61,25 +62,29 @@ import numpy as np
 x = np.linspace(-3,3,100)
 y = x**3 - 2*x**2 + x + 3 + 𝜀
 
-print(f"x: {x[:3]}...\ny: {y[:3]}...")
-</script>
-</div>
-<br>
-<div class="sage">
-<script type="text/sage">
-import matplotlib.pyplot as plt
+print(f"x: {x[:5]}...")
+print(f"y: {y[:5]}...")
 
 fig, ax = plt.subplots()
-ax.plot(x, y)
+ax.scatter(x, y)
+ax.plot(x,x**3 - 2*x**2 + x + 3, c='tab:orange')
 ax.set_title("Simulated Data")
 ax.set_xlabel("x")
-ax.set_ylabel("f(x) = x^3 - 2x^2 + x + 3")
+ax.set_ylabel(r"$f(x) = x^3 - 2x^2 + x + 3$")
 plt.show()
+plt.close()
 </script>
 </div>
 
+<p>Note that in approximating the <em>true</em> function \(f(x)\), a polynomial model of degree three will have an expected <em>mean squared error</em> equal to the variance of \(\varepsilon\). In other words, we expect an error approximately equal to \(\mathrm{Var}(\varepsilon) = \sigma^2 = 4\). Keep this in mind when looking at the estimates below.</p>
+
 <h2 id="model">Polynomial Regression with Sci-Kit Learn</h2>
-<p>Lets assume we do <strong>not</strong> know the degree of the data <em>a priori</em>. Therefore, lets build a general linear polynomial model that allows us to use varying degrees. The method here is described in more detail at <a href="https://www.geeksforgeeks.org/python-implementation-of-polynomial-regression/">Geeks for Geeks</a>. However, the intuition is to <em>"engineer"</em> the features \(1, x, x^2, x^3\) for each value \(x\) and then fit a <em>linear regression model</em> into the new features. In technical notation, we are looking for coefficients \(\beta_0,\beta_1, \beta_2, \beta_3\) that <strong>best</strong> approximate the solution for the following equation: \[
+
+<p>While we know that the data is coming from a cubic polynomial with added noise, in a real-world context, we do not expect to have this insight. In fact, most of the time, real-world data does not resemble any particular polynomial to the naked eye. However, we can rationalize the choice of a polynomial model by examining error estimates from different models.</p>
+
+<p>Therefore, let's assume we do <strong>not</strong> know anything about the degree of the data. Let's build a general linear polynomial model that allows us to use varying degrees. The method here is described in more detail at <a href="https://www.geeksforgeeks.org/python-implementation-of-polynomial-regression/">Geeks for Geeks</a>. The intuition is to <em>"engineer"</em> the features \(1, x, x^2, x^3, \dots, x^d \) for each data point \(x,y\) and then fit a <em>linear regression model</em> to these. Here we are calling \(d\) the degree of the polynomial. In technical notation, we are looking for coefficients \(\beta_0, \beta_1, \beta_2, \beta_3, ..., \beta_d\) that <strong>best</strong> approximate the solution for the following equation:</p>
+
+\[
 \begin{bmatrix}
 y_1 \\
 y_2 \\
@@ -88,24 +93,34 @@ y_n
 \end{bmatrix} 
 =
 \begin{bmatrix}
-1 & x_{1} & x_{1}^2 & x_{1}^3 \\
-1 & x_{2} & x_{2}^2 & x_{2}^3 \\
+1 & x_{1} & x_{1}^2 & x_{1}^3 & \cdots & x_{1}^d \\
+1 & x_{2} & x_{2}^2 & x_{2}^3 & \cdots & x_{2}^d \\
 \vdots & \vdots & \vdots & \vdots \\
-1 & x_{n} & x_{n}^2 & x_{n}^3
+1 & x_{n} & x_{n}^2 & x_{n}^3 & \cdots & x_{n}^d
 \end{bmatrix}
 \begin{bmatrix}
 \beta_0 \\
 \beta_1 \\
 \beta_2 \\
-\beta_3
+\beta_3 \\
+\vdots \\
+\beta_d 
 \end{bmatrix}
-.\]
-Where \(x_i\) is the data point with value \(y_i\).</p>
+.
+\]
+
+<p>Here we call \(n\) the number of points in our dataset.</p>
+
+<p>Below is the code implementation for the polynomial regression model and the estimate of the MSE. First, the function <code>polynomial_model</code> creates a polynomial model based on the given degree and the training data. Note that the output returns a tuple <code>(model, poly)</code>. The former is the fitted model, and the latter is the Scikit-learn polynomial "object" that allows us to use the feature engineering for our validation step.</p>
+<p>Second, the <code>get_test_error</code> function takes both outputs from the first function and the test dataset to compute the <em>mean squared error</em> of the model prediction.</p>
+
+<p>Note that the choice of <em>mean squared error</em> as a benchmark is rather <em>traditional</em> than objective. I would encourage anyone to explore more <a href="https://scikit-learn.org/stable/modules/model_evaluation.html">built-in metrics</a> in Scikit-learn.</p>
 
 <div class="sage">
 <script type="text/sage">
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import PolynomialFeatures
+from sklearn.metrics import mean_squared_error
 
 def polynomial_model(degree, x_train, y_train):
   x_train = x_train.reshape(-1,1)
@@ -114,12 +129,7 @@ def polynomial_model(degree, x_train, y_train):
   model = LinearRegression()
   model.fit(x_poly, y_train)
   return model, poly
-</script>
-</div>
 
-<div class="sage">
-<script type="text/sage">
-from sklearn.metrics import mean_squared_error
 def get_test_error(model, poly, x_test, y_test):
   x_test = x_test.reshape(-1,1)
   x_test_poly = poly.transform(x_test)
@@ -131,36 +141,54 @@ def get_test_error(model, poly, x_test, y_test):
 
 <h2 id="rand_split">Random Splitting</h2>
 
+<p>With the code above, we can now start inspecting different methods for estimating the <em>test error</em> as defined in the textbook <em><a href="https://www.statlearning.com">An Introduction to Statistical Learning, with Applications</a> by James, et al.</em> Namely, what is the model's error on the space of <em>unseen</em> observations? In other words, how well does the model generalize predictions based on input not in the <em>training</em> dataset?</p>
+
+<p>The first method here is <em>random splitting</em>. We take the whole dataset available and set aside a proportion of values that we will use to estimate the prediction error. In other texts, you may see this referred to as the <em>validation error</em>. Scikit-learn has a built-in function to randomly split the data. We will call this method and prescribe 1) the degree of the model we want to fit, 2) the proportion of data that will be used for testing, and 3) the number of times we will fit the model on random splits of the data.</p>
+
+<p>Recall that for a third-degree polynomial fit, we would expect an error of \(4\). We'll use this benchmark to observe how the random splitting method might underestimate or overestimate the true error.</p>
+
 <div class="sage">
 <script type="text/sage">
 from sklearn.model_selection import train_test_split
 
 degree = 2
 num_splits = 10
-ratio = 0.5
+test_ratio = 0.2
 
 split_errors = []
 for _ in range(num_splits):
-    x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=ratio)
+    x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=test_ratio)
     model, poly = polynomial_model(degree, x_train, y_train)
     mse = get_test_error(model, poly, x_test, y_test)
     split_errors.append(mse)
 
+# Plotting
 fig, ax = plt.subplots()
-ax.boxplot(split_errors, labels=f"{degree}")
-plt.xlabel("Polynomial Degree")
+ax.boxplot(split_errors)
+ax.axhline(y=4, color='r', linestyle='--', label='Expected Error')
+ax.set_xticks([])
+ax.legend()
 plt.ylabel("Test Error (MSE)")
 plt.title(f"Test Error Rates for Polynomial Degree {degree} and Random Splits")
 plt.show()
+plt.close()
+
+# Error Stats
+print(f"Error Mean : {np.mean(split_errors)}")
+print(f"Error Variance : {np.var(split_errors)}")
 </script>
 </div>
 
-Testing Multiple Polynomial Models
+<p>The plots generated above help in understanding the error's behavior. However, it's important to note that this random splitting method tends to overestimate the true error, but not always. Additionally, the variance of this estimate can be high when compared to other methods like k-fold cross-validation. Nevertheless, this method is simple to implement and depending on the specifics of the dataset it may be computationally faster.</p>
+
+<p>Lastly, it's worth highlighting how resampling can be used in fine-tuning hyperparameters and comparing different models. By estimating error rates for various model choices, and then comparing their error distributions, we may be able to identify more performant candidate models. The code snippet below demonstrates this process for polynomial regression models with varying degrees.</p>
+
 
 <div class="sage">
 <script type="text/sage">
 degrees = range(1,11)
-num_splits = 100
+num_splits = 10
+test_ratio = 0.2
 
 error_rates = []
 for degree in degrees:
@@ -176,6 +204,8 @@ for degree in degrees:
 # Plotting
 fig, ax = plt.subplots()
 ax.boxplot(error_rates, labels=degrees)
+ax.axhline(y=4, color='r', linestyle='--', label='Expected Error')
+ax.legend()
 plt.xlabel("Polynomial Degree")
 plt.ylabel("Test Error (MSE)")
 plt.title("Test Error Rates for Different Polynomial Degrees and Random Splits")
@@ -183,8 +213,16 @@ plt.show()
 </script>
 </div>
 
+<p>In the plots adobe note that there are significant gains from polynomial degrees one to three. After the their degree polynomial the error estimate is stable and we only get marginal gains. However, the complexity of the model would be undesirable and higher degrees would introduce higher variance (bias-variance trade-off). Therefore, we would prefer to use the degree three polynomial. Of course, we already know that the dataset was cubic from the start. But it is reassuring to see that the theory supports this choice. Lastly, let us note that in general the <em>random sampling</em> approach tends to <strong>overestimate</strong> the error.</p>
 
 <h2 id=k_fold>The \(k\)-fold Cross-Validation Method</h2>
+
+<p>We will now see a different approach for estimating the error, namely <em>\(\mathbf{k}\)-fold cross-validation</em>. This method differentiates from random sampling in that the validation and training sets are split in a more consistent way. The diagram below describes the process at a high level. First, we chose \(k\) to create \(k\) subsets of the original dataset. We will train the model \(k\) times by using one subset as the validation set and the remaining \(k-1\) subsets as the training set.</p>
+
+<div class="image-container">
+  <img src="images/kfold.png" alt="k-fold">
+  <figcaption>\(k\)-Fold Cross-Validation.Taken from <a href="https://towardsdatascience.com/cross-validation-k-fold-vs-monte-carlo-e54df2fc179b">Towards Data Science</a></figcaption> 
+</div>
 
 <div class="sage">
 <script type="text/sage">
@@ -207,7 +245,7 @@ for degree in degrees:
 
 # Plotting
 fig, ax = plt.subplots()
-ax.boxplot(error_rates, labels=degrees)
+ax.boxplot(error_rates, tick_labels=degrees)
 plt.xlabel("Polynomial Degree")
 plt.ylabel("Test Error (MSE)")
 plt.title("Test Error Rates for Different Polynomial Degrees using K-Fold Cross-Validation")

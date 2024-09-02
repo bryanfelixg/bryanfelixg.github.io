@@ -80,7 +80,18 @@ p code, li code {
   border-radius: 3px;      
 }
 
-/* Narrow window */
+/* Global Article container */
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 30px;
+}
+
+/* Sidebar Styling*/
+
+/* This collapses the sidebar when screen is too narrow */
 @media (max-width: 1000px) {
   .sidebar {
     display: none; 
@@ -90,15 +101,6 @@ p code, li code {
   }
 }
 
-.container {
-  display: flex;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  gap: 30px;
-}
-
-/* Sidebar */
 .sidebar {
   width: 200px; 
   align-self: flex-start;
@@ -131,5 +133,31 @@ p code, li code {
   color: #333; 
 }
 
-
+/* Change this to modify the number of Sage Cell lines in display before scrolling */
+.sagecell .CodeMirror-scroll {
+  min-height: 3em;
+  max-height: 50em !important;
+}
   
+
+/* Image Styling */
+.image-container {
+  display: flex;
+  flex-direction: column; /* Arrange image and caption vertically */
+  align-items: center; /* Center image and caption horizontally */
+  margin-bottom: 20px; /* Add spacing below image */
+}
+
+.image-container img {
+  max-width: 100%; /* Ensure image doesn't exceed container width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add subtle rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Apply a subtle shadow */
+}
+
+.image-container figcaption {
+  font-size: 0.9em; /* Slightly smaller font for caption */
+  color: #666; /* Gray text color for caption */
+  text-align: center; /* Center the caption */
+  margin-top: 10px; /* Add spacing between image and caption */
+}
