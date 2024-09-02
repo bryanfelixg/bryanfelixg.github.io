@@ -152,7 +152,7 @@ def get_test_error(model, poly, x_test, y_test):
 from sklearn.model_selection import train_test_split
 
 degree = 2
-num_splits = 10
+num_splits = 20
 test_ratio = 0.2
 
 split_errors = []
@@ -187,14 +187,14 @@ print(f"Error Variance : {np.var(split_errors)}")
 <div class="sage">
 <script type="text/sage">
 degrees = range(1,11)
-num_splits = 10
+num_splits = 20
 test_ratio = 0.2
 
 error_rates = []
 for degree in degrees:
     split_errors = []
     for _ in range(num_splits):
-        x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2)
+        x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=test_ratio)
         model, poly = polynomial_model(degree, x_train, y_train)
         mse = get_test_error(model, poly, x_test, y_test)
         split_errors.append(mse)
@@ -210,6 +210,7 @@ plt.xlabel("Polynomial Degree")
 plt.ylabel("Test Error (MSE)")
 plt.title("Test Error Rates for Different Polynomial Degrees and Random Splits")
 plt.show()
+plt.close()
 </script>
 </div>
 
@@ -224,11 +225,53 @@ plt.show()
   <figcaption>\(k\)-Fold Cross-Validation.Taken from <a href="https://towardsdatascience.com/cross-validation-k-fold-vs-monte-carlo-e54df2fc179b">Towards Data Science</a></figcaption> 
 </div>
 
+<p>Generally, the value \(k\) should be chosen proportional to the computational cost of training the model since the model will be trained \(k\) different times. Some texts suggest using \(k\) between 5 and 8. We implement this idea with our running example. The code is taken but simplified from this example in <a href="https://www.geeksforgeeks.org/cross-validation-using-k-fold-with-scikit-learn/">Geeks for Geeks.</a></p>
+
 <div class="sage">
 <script type="text/sage">
 from sklearn.model_selection import KFold
+
+degree = 2
+num_folds = 10
+kf = KFold(n_splits=num_folds, shuffle=True)
+
+fold_errors = []
+for train_index, test_index in kf.split(x):
+    x_train, x_test = x[train_index], x[test_index]
+    y_train, y_test = y[train_index], y[test_index]
+
+    model, poly = polynomial_model(degree, x_train, y_train)
+    mse = get_test_error(model, poly, x_test, y_test)
+    fold_errors.append(mse)
+
+# Plotting
+fig, ax = plt.subplots()
+ax.boxplot(fold_errors)
+ax.axhline(y=4, color='r', linestyle='--', label='Expected Error')
+ax.set_xticks([])
+ax.legend()
+plt.ylabel("Test Error (MSE)")
+plt.title(f"Test Error Rates for Polynomial Degree {degree} and K-Fold CV")
+plt.show()
+plt.close()
+
+# Error Stats
+print(f"Error Mean : {np.mean(fold_errors)}")
+print(f"Error Variance : {np.var(fold_errors)}")
+</script>
+</div>
+
+<p>Note in the implementation above that the error estimate is much closer to the actual error. Moreover, the variance of reduces significantly. More than that, if you pay close attention to the default values of the code implementation, you can see that whereas random sampling used 20 samples, we only have to use 10 folds for a better estimate. Still, we can often expect the \(k\)-fold estimate to <strong>underestimate</strong> the true error. Another downside of the method is that it is a jump in complexity from random splitting. Nevertheless it is worth learning. </p>
+
+<p>Just as with random splitting, we can use \(k\)-fold cross validation to inspect the performance of different models. The code below is a similar implementation to the one used in random sampling. The conclusions are just the same, but we highlight again that the estimates have a lower variance across the board.</p>
+
+<div class="sage">
+<script type="text/sage">
+from sklearn.model_selection import KFold
+
 degrees = range(1,11)
 num_folds = 5
+
 kf = KFold(n_splits=num_folds, shuffle=True)
 
 error_rates = []
@@ -245,19 +288,65 @@ for degree in degrees:
 
 # Plotting
 fig, ax = plt.subplots()
-ax.boxplot(error_rates, tick_labels=degrees)
+ax.boxplot(error_rates, labels=degrees)
+ax.axhline(y=4, color='r', linestyle='--', label='Expected Error')
+ax.legend()
 plt.xlabel("Polynomial Degree")
 plt.ylabel("Test Error (MSE)")
 plt.title("Test Error Rates for Different Polynomial Degrees using K-Fold Cross-Validation")
 plt.show()
-
+plt.close()
 </script>
 </div>
 
-<h2 id="boot">Bootstraping</h2>
+<h2 id="boot">Bootstrapping</h2>
+
+<p>The last sampling method we will show here is <em>Bootstrapping</em>. The philosophy of bootstrapping is to sample data from our original dataset. Although there is not a current implementation of bootstrapping in Scikit-Learn, we can manage to create these samples using the <code>resample</code> method from <code>sklearn.utils</code>. GThe </p>
+
 <div class="sage">
-  <script type="text/sage">
+<script type="text/sage">
 from sklearn.utils import resample
+
+degree = 2
+num_bootstrap_samples = 20
+
+bootstrap_errors = []
+all_indices = range(len(x))
+for _ in range(num_bootstrap_samples):
+    # Create a bootstrap sample from indices with replacement
+    bootstrap_indices = resample(all_indices, replace=True)
+    x_train, y_train = x[bootstrap_indices], y[bootstrap_indices]
+
+    test_indices = list(set(all_indices) - set(bootstrap_indices))
+    x_test, y_test = x[test_indices], y[test_indices]
+
+    model, poly = polynomial_model(degree, x_train, y_train) 
+    mse = get_test_error(model, poly, x_test, y_test)
+    bootstrap_errors.append(mse)
+
+# Plotting
+fig, ax = plt.subplots()
+ax.boxplot(bootstrap_errors)
+ax.axhline(y=4, color='r', linestyle='--', label='Expected Error')
+ax.set_xticks([])
+ax.legend()
+plt.ylabel("Test Error (MSE)")
+plt.title(f"Test Error Rates for Polynomial Degree {degree} and Bootstrapping")
+plt.show()
+plt.close()
+
+# Error Stats
+print(f"Error Mean : {np.mean(bootstrap_errors)}")
+print(f"Error Variance : {np.var(bootstrap_errors)}")
+</script>
+</div>
+
+<p>And as before, we can compare models with this method. The conclusions are analogous.</p>
+
+<div class="sage">
+<script type="text/sage">
+from sklearn.utils import resample
+
 degrees = range(1, 11)
 num_bootstrap_samples = 100
 
@@ -265,9 +354,8 @@ error_rates = []
 for degree in degrees:
     bootstrap_errors = []
     for _ in range(num_bootstrap_samples):
-        # Create a bootstrap sample with replacement
+        # Create a bootstrap sample
         x_train, y_train = resample(x, y, replace=True)
-
         train_indices = set(range(len(x))) - set(x_train[:])
         x_test = x[list(train_indices)]
         y_test = y[list(train_indices)]
@@ -284,12 +372,11 @@ plt.xlabel("Polynomial Degree")
 plt.ylabel("Test Error (MSE)")
 plt.title("Test Error Rates for Different Polynomial Degrees using Bootstrapping")
 plt.show()
-  </script>
+plt.close()
+</script>
 </div>
 
 </article>
-
 </div>
-
 </body>
 </html>
