@@ -1,4 +1,5 @@
-/* General Styling */
+/* ================= General Styling ================= */
+
 body {
     font-family: "Lora", serif;
     line-height: 1.6;
@@ -15,25 +16,28 @@ body {
     flex: 1;
 }
 
-/* Header */
+/* ================= Header ================= */
+
 header {
     background-color: #fff;
     padding: 5px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 10px;
+    margin-bottom: 0;
     margin-top: 10px;
     text-align: center;
+    border-bottom: 1px solid #ddd; 
 }
 
-header .container{
+header .container {
     display: block;
+    margin-bottom: 0;
 }
 
 header h1 {
     font-size: 2.5em;
-    font-weight: 500;
+    font-weight: 400;
     color: #0056b3;
-    margin: 0 0 0 0;
+    margin: 0;
 }
 
 header .author-subtitle {
@@ -44,19 +48,24 @@ header .author-subtitle {
     text-align: center;
 }
 
-/* Main content */
+/* ================= Main Content ================= */
+
 .container {
     display: flex;
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    gap: 30px;
     align-items: flex-start;
 }
 
 main {
     flex: 1;
+}
+
+/* Quick Links */
+.links h2 {
+    font-weight: 400;
 }
 
 .links ul {
@@ -81,19 +90,54 @@ main {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-/* Sidebar */
+/* ================= Navigation ================= */
+
+.navbar {
+    background-color: #e0e0e0;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    font-size: 1.1em;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* ================= Sidebar ================= */
+
 .sidebar {
     width: 220px;
     background-color: #fff;
-    padding: 20px;
+    padding: 15px;
     border-radius: 8px;
-    box-shadow: 0 ;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .sidebar h3 {
     font-size: 1.5em;
-    font-weight: 600;
+    font-weight: 400;
     margin: 0;
 }
 
@@ -104,9 +148,10 @@ main {
     margin: 0;
 }
 
-/* Footer */
+/* ================= Footer ================= */
+
 footer .container {
-    margin: 0 0 0 20px ;
+    margin: 0 0 0 20px;
     padding: 0;
 }
 
@@ -124,7 +169,19 @@ footer p {
     color: #666;
 }
 
-/* Responsive Design */
+/* ================= Publications List ================= */
+
+.publications-list h2 {
+    font-weight: 400;
+}
+
+.publications-list li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* ================= Responsive Design ================= */
+
 @media (max-width: 900px) {
     .container {
         flex-direction: column;
@@ -135,7 +192,7 @@ footer p {
         display: none;
     }
 
-    header{
+    header {
         padding-left: 20px;
         text-align: left;
     }
