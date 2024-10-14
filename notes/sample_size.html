@@ -47,17 +47,16 @@
 
 <p>Based on the text by <a href="https://pubmed.ncbi.nlm.nih.gov/8532986/">Browne 1995.</a></p>
 
-
 <div class="sage">
 <script type="text/sage">
 import math
 from scipy.stats import chi2, norm
 
+pilot_sample_size = 20
 pilot_std_dev = 10
-effect_size = 5
+effect_size = 5 # Means difference from pilot (𝜇1 - 𝜇2)
 alpha = 0.05
 power = 0.8
-pilot_sample_size = 20
 confidence_level = .89
 
 # 1: Compute Z-scores for alpha and power
