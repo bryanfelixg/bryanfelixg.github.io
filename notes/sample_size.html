@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Sample Size from Pilot</title>
+
+  <!-- Style Sheet & Font-->
+  <link rel="stylesheet" href="../css/stylecode.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  
+  <!-- Navigation Sidebar Script -->
+  <script defer src="../jss/navigation.js"></script>
+
+  <!-- SageMath Library -->
+  <script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+  <script>
+    // Make *any* div with class 'sage' a Sage cell
+    sagecell.makeSagecell({inputLocation: 'div.sage',
+                           evalButtonText: 'Run',
+                           editor: "codemirror",
+                           languages: ['python'],
+                           linked: 'true'});
+  </script>
+
+  <!-- MathJax for LaTeX -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</head>
+<body>
+
+<div class="container"> 
+<div class="sidebar">
+<ul></ul> 
+</div>
+    
+<article id="post-content">  
+<header>
+<h1 id="title"> Computing Sample Size from Pilot Study </h1>
+<p class="author-subtitle">Bryan Félix</p> 
+<time datetime="2024-08-15">Oct 14, 2024</time>
+</header>
+
+<h2 id="intro">Details</h2>
+
+<p>Based on the text by <a href="https://pubmed.ncbi.nlm.nih.gov/8532986/">Browne 1995.</a></p>
+
+
+<div class="sage">
+<script type="text/sage">
+import math
+from scipy.stats import chi2, norm
+
+pilot_std_dev = 10
+effect_size = 5
+alpha = 0.05
+power = 0.8
+pilot_sample_size = 20
+confidence_level = .89
+
+# 1: Compute Z-scores for alpha and power
+Z_alpha = norm.ppf(1 - alpha / 2)  # Z-score for two-tailed alpha (e.g., 1.96 for alpha=0.05)
+Z_beta = norm.ppf(power)           # Z-score for power (e.g., 0.84 for power=0.80)
+
+# 2: Chi-squared critical value for the desired confidence level
+df = pilot_sample_size - 1  # degrees of freedom
+chi2_critical = chi2.ppf(confidence_level, df)
+
+# 3: Compute the adjustment factor for the upper confidence limit (UCL)
+k_m = math.sqrt(df / chi2_critical)
+
+# 4: Adjust the pilot standard deviation using the UCL factor
+adjusted_std_dev = k_m * pilot_std_dev
+
+# 5: Use the sample size formula for a two-sample t-test
+required_sample_size = (2 * (Z_alpha + Z_beta) ** 2 * adjusted_std_dev ** 2) / effect_size ** 2
+
+# Print
+print(required_sample_size)
+</script>
+</div>
+
+<p>Notes... TBD.</p>
+
+</article>
+</div>
+</body>
+</html>
