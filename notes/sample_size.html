@@ -52,12 +52,15 @@
 import math
 from scipy.stats import chi2, norm
 
-pilot_sample_size = 20
+# ========= INPUTS ===========
 pilot_std_dev = 10
-effect_size = 5 # Means difference from pilot (𝜇1 - 𝜇2)
+effect_size = 5
 alpha = 0.05
 power = 0.8
-confidence_level = .89
+pilot_sample_size = 20
+
+# From the paper
+confidence_level = .8
 
 # 1: Compute Z-scores for alpha and power
 Z_alpha = norm.ppf(1 - alpha / 2)  # Z-score for two-tailed alpha (e.g., 1.96 for alpha=0.05)
