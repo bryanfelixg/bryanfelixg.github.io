@@ -73,8 +73,8 @@ pilot_sample_size <- 20
 confidence_level <- 0.8
 
 # 1: Compute Z-scores for alpha and power
-Z_alpha <- qnorm(1 - alpha / 2)  # Z-score for two-tailed alpha (e.g., 1.96 for alpha=0.05)
-Z_beta <- qnorm(power)           # Z-score for power (e.g., 0.84 for power=0.80)
+Z_alpha <- qnorm(1 - alpha / 2)  # Z-score for two-tailed alpha
+Z_beta <- qnorm(power)           # Z-score for power
 
 # 2: Chi-squared critical value for the desired confidence level
 df <- pilot_sample_size - 1  # degrees of freedom
@@ -111,8 +111,8 @@ pilot_sample_size = 20
 confidence_level = .8
 
 # 1: Compute Z-scores for alpha and power
-Z_alpha = norm.ppf(1 - alpha / 2)  # Z-score for two-tailed alpha (e.g., 1.96 for alpha=0.05)
-Z_beta = norm.ppf(power)           # Z-score for power (e.g., 0.84 for power=0.80)
+Z_alpha = norm.ppf(1 - alpha / 2)  # Z-score for two-tailed alpha 
+Z_beta = norm.ppf(power)           # Z-score for power
 
 # 2: Chi-squared critical value for the desired confidence level
 df = pilot_sample_size - 1  # degrees of freedom
