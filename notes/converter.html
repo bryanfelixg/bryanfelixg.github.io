@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Convert</title>
+
+  <!-- Style Sheet & Font-->
+  <link rel="stylesheet" href="../css/stylecode.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ 
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="global/captain_otter.ico">
+  
+  <!-- Navigation Sidebar Script -->
+  <script defer src="../jss/navigation.js"></script>
+
+  <!-- SageMath Library -->
+  <script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+  <script>
+    // Make *any* div with class 'sage' a Sage cell
+    sagecell.makeSagecell({inputLocation: 'div.sage',
+                           evalButtonText: 'Run',
+                           editor: "codemirror",
+                           languages: ['python'],
+                           linked: 'true'});
+  </script>
+
+  <!-- MathJax for LaTeX -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</head>
+
+<body>
+
+<div class="container"> 
+<div class="sidebar">
+<ul></ul> 
+</div>
+<article id="post-content">
+
+<header>
+<h1 id="title">Convert</h1>
+<p class="author-subtitle">Bryan Félix</p>
+<time datetime="October 15, 2024">October 15, 2024</time>
+</header>
+<h2 id="introduction">Introduction</h2>
+<p>Here I would have put some introduction text</p>
+<h2 id="coin-toss">Coin Toss</h2>
+<p> Say, we have a coin to test if it is fair or not. </p>
+
+<ul>
+<li>Null Hypothesis: $C \sim \text{Binomial}(n; p=0.5)$</li>
+<li>Alternative Hypothesis $C \sim \text{Binomial}(n; p \neq 0.5)$</li>
+</ul>
+
+<div class="sage"><script type="text/x-sage">
+from typing import Tuple
+import math
+</script></div>
+
+
+<div class="sage"><script type="text/x-sage">
+def normal_approx_binomial(n: int, p: float) -> Tuple[float, float]:
+    """Return μ and σ corresponding to a Binomial(n; p)"""
+    μ = p * n
+    σ = math.sqrt(p*(1-p)*n)
+    return μ, σ
+</script></div>
+
+<p>some text</p>
+
+<div class="sage"><script type="text/x-sage">
+from scipy.stats import norm
+import numpy as np
+x_values = np.linspace(-10,10,100)
+y_values = norm.cdf(x_values, loc=0, scale =1)
+</script></div>
+
+
+<div class="sage"><script type="text/x-sage">
+import holoviews as hv
+hv.extension('matplotlib')
+plot = hv.Curve(data=list(zip(x_values,y_values)))
+plot
+</script></div>
+
+<p>Say, we are interested in the r.v. 
+$$\Chi = \sum_1^{1000} \mathbb{1}_{\text{heads}}$$
+We ``know'' $\Chi$ is approximately Normally distributed.</p>
+
+<div class="sage"><script type="text/x-sage">
+μ_0 , σ_0 = normal_approx_binomial(n=1000,p=0.5)
+norm.interval(confidence= 0.95, loc = μ_0, scale = σ_0)
+</script></div>
+
+
+<div class="sage"><script type="text/x-sage">
+x_values_pdf = np.linspace(400,600,1000)
+y_values_pdf = norm.pdf(x_values_pdf, loc=μ_0, scale = σ_0)
+p1 = hv.Curve(list(zip(x_values_pdf, y_values_pdf)))
+p2 = hv.Curve(data=[[470,0],[470,0.01]]).opts(color='black')
+p3 = hv.Curve(data=[[530,0],[530,0.01]]).opts(color = 'black')
+p1*p2*p3
+</script></div>
+
+<h2 id="power-of-a-test">Power of a test</h2>
+<p>Probability of not making a Type II error; viz, the probability that we <em>falsely</em> accept $H_0$.</p>
+
+
+<div class="sage"><script type="text/x-sage">
+# Create two random variables
+hv.extension('plotly')
+x = np.random.rand(100)
+y = np.random.rand(100)
+
+# Create a scatter plot of the two variables
+scatter = hv.Scatter((x,y))
+
+# Change the color of the plot
+scatter.opts(color="red")
+</script></div>
+
+
+<div class="sage"><script type="text/x-sage">
+from collections import defaultdict
+w_dict = defaultdict(lambda: 0)
+</script></div>
+
+
+<div class="sage"><script type="text/x-sage">
+print(w_dict['test'])
+</script></div>
+
+
+<div class="sage"><script type="text/x-sage">
+
+</script></div>
+
+</article>
+</div>
+</body>
+</html>
