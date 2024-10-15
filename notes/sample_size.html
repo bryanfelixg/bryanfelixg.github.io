@@ -24,6 +24,15 @@
                            linked: 'true'});
   </script>
 
+  <script>
+    // Make *any* div with class 'sage' a Sage cell
+    sagecell.makeSagecell({inputLocation: 'div.sager',
+                          evalButtonText: 'Run',
+                          editor: "codemirror",
+                          languages: ['R'],
+                          linked: 'true'});
+  </script>
+
   <!-- MathJax for LaTeX -->
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -46,6 +55,44 @@
 <h2 id="intro">Details</h2>
 
 <p>Based on the text by <a href="https://pubmed.ncbi.nlm.nih.gov/8532986/">Browne 1995.</a></p>
+
+<div class="sager">
+<script type="text/sage">
+library(stats)
+library(MASS)
+
+# ========= INPUTS ===========
+pilot_std_dev <- 10
+effect_size <- 5
+alpha <- 0.05
+power <- 0.8
+pilot_sample_size <- 20
+
+# From the paper
+confidence_level <- 0.8
+
+# 1: Compute Z-scores for alpha and power
+Z_alpha <- qnorm(1 - alpha / 2)  # Z-score for two-tailed alpha (e.g., 1.96 for alpha=0.05)
+Z_beta <- qnorm(power)           # Z-score for power (e.g., 0.84 for power=0.80)
+
+# 2: Chi-squared critical value for the desired confidence level
+df <- pilot_sample_size - 1  # degrees of freedom
+chi2_critical <- qchisq(confidence_level, df)
+
+# 3: Compute the adjustment factor for the upper confidence limit (UCL)
+k_m <- sqrt(df / chi2_critical)
+
+# 4: Adjust the pilot standard deviation using the UCL factor
+adjusted_std_dev <- k_m * pilot_std_dev
+
+# 5: Use the sample size formula for a two-sample t-test
+required_sample_size <- (2 * (Z_alpha + Z_beta)^2 * adjusted_std_dev^2) / effect_size^2
+
+# Print
+print(required_sample_size)
+  
+</script>
+</div>
 
 <div class="sage">
 <script type="text/sage">
