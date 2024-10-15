@@ -8,7 +8,7 @@ body {
   margin: 0;
 }
 
-/* Typography */
+/* ===================== Typography ================== */
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lora", serif;
@@ -26,13 +26,19 @@ h2 {
   margin-top: 1em;
 }
 
+/* ================= Links and Anchor Styles ================= */
+
 a {
-  color: #007bff; 
+  color: #007bff;
   text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
 a:hover {
+  color: #0056b3;
   text-decoration: underline;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
 article {
@@ -91,16 +97,6 @@ p code, li code {
 
 /* Sidebar Styling*/
 
-/* This collapses the sidebar when screen is too narrow */
-@media (max-width: 1000px) {
-  .sidebar {
-    display: none; 
-  }
-  article {
-    width: 100%; 
-  }
-}
-
 .sidebar {
   width: 200px; 
   align-self: flex-start;
@@ -123,24 +119,28 @@ p code, li code {
   display: block;
   padding: 8px 15px; 
   text-decoration: none;
-  color: #555; 
+  color: #0056b3;
   border-radius: 5px;
-  transition: background-color 0.2s ease, color 0.2s ease; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 .sidebar a:hover {
   background-color: #e0e0e0; 
   color: #333; 
-}
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+} 
 
-/* Change this to modify the number of Sage Cell lines in display before scrolling */
+/* ================= SAGE CELLS ================= */
+/* Number of Sage Cell lines in display before scrolling */
 .sagecell .CodeMirror-scroll {
   min-height: 3em;
   max-height: 50em !important;
 }
   
 
-/* Image Styling */
+/* ================= Image Styles ================= */
+
 .image-container {
   display: flex;
   flex-direction: column; /* Arrange image and caption vertically */
@@ -160,4 +160,14 @@ p code, li code {
   color: #666; /* Gray text color for caption */
   text-align: center; /* Center the caption */
   margin-top: 10px; /* Add spacing between image and caption */
+}
+
+/* ================= Responsive Design ================= */
+@media (max-width: 1000px) {
+  .sidebar {
+    display: none; 
+  }
+  article {
+    width: 100%; 
+  }
 }
