@@ -30,7 +30,6 @@
   </script>
 
   <!-- MathJax for LaTeX -->
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   
   <!-- Code Syntax -->
@@ -51,7 +50,7 @@
 <header>
 <h1 id="title">Convert</h1>
 <p class="author-subtitle">Bryan Félix</p>
-<time datetime="October 15, 2024">October 15, 2024</time>
+<time datetime="October 16, 2024">October 16, 2024</time>
 </header>
 <h2 id="introduction">Introduction</h2>
 <p>Here I would have put some introduction text</p>
@@ -87,7 +86,7 @@ def get_test_error(model, poly, x_test, y_test):
   mse = mean_squared_error(y_test, y_pred)
   return mse</code></pre>
 
-<p>We need more context</p>
+<p></p>
 
 <div class="sage"><script type="text/x-sage">
 def normal_approx_binomial(n: int, p: float) -> Tuple[float, float]:
@@ -97,7 +96,31 @@ def normal_approx_binomial(n: int, p: float) -> Tuple[float, float]:
     return μ, σ
 </script></div>
 
-<p>some text</p>
+<p>Testing different styles:</p>
+<p>Table:</p>
+<table>
+  <tr>
+    <th>hola</th>
+    <th>uno</th>
+    <th>dos</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+</table>
+
+<p>Here is some <strong>bold</strong> <br> 
+here is some <em>italics</em> <br>
+here is some <strong><em>Bold Italics</em></strong></p>
+<p>Some $\LaTeX$ $\mathbb{N}$ symbols:
+$$\forall n \in \mathbb{N} \exists r, m \in \mathbf{R} \mid \frac{n}{m} =r $$
+$$A = \begin{bmatrix}
+345 = f(x)\cdot \Pi &amp; 7 &amp; 1 \\
+5 &amp; 9 &amp; 2 \\
+6 &amp; 8 &amp; 4 
+\end{bmatrix}$$</p>
 
 <div class="sage"><script type="text/x-sage">
 from scipy.stats import norm
@@ -111,12 +134,11 @@ y_values = norm.cdf(x_values, loc=0, scale =1)
 import holoviews as hv
 hv.extension('matplotlib')
 plot = hv.Curve(data=list(zip(x_values,y_values)))
-plot
 </script></div>
 
 <p>Say, we are interested in the r.v. 
-$$\Chi = \sum_1^{1000} \mathbb{1}_{\text{heads}}$$
-We ``know'' $\Chi$ is approximately Normally distributed.</p>
+$$\chi = \sum_1^{1000} \mathbb{1}_{\text{heads}}$$
+We ``know'' $\textrm{X}$ is approximately Normally distributed.</p>
 
 <div class="sage"><script type="text/x-sage">
 μ_0 , σ_0 = normal_approx_binomial(n=1000,p=0.5)
