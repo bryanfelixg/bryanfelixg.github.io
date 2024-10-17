@@ -85,16 +85,16 @@ pre {
 }
 
 pre code {
-  font-size: .85em !important;
+  font-size: .85em;
   line-height: 1.5; /* In between spacing*/
 }
 
 p code, li code {
-  background-color: #e0e0e0; 
-  color: #1a1a1a; 
+  background-color: #fdfdfd; 
+  color: #0a0874; 
   border: 1px solid #ccc;
   font-size: .85em;
-  padding: 2px 3px;
+  padding: .2em;
 }
 
 pre, pre code, p code, li code {
@@ -152,7 +152,9 @@ pre, pre code, p code, li code {
   display: flex;
   flex-direction: column; /* Arrange image and caption vertically */
   align-items: center; /* Center image and caption horizontally */
-  margin-bottom: 20px; /* Add spacing below image */
+  margin: 0 auto 20px auto; /* Center the container horizontally and add spacing below */
+  max-width: 600px; /* Set a maximum width for the image container */
+  height: auto;
 }
 
 .image-container img {
