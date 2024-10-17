@@ -53,7 +53,7 @@
 Here \(\varepsilon\) is random noise sampled from a normal distribution with mean (\(\mu\)) zero, and standard deviation (\(\sigma\)) equal to 2.</p>
 
 <div class="sage">
-<script type="text/sage">
+<script type="text/x-sage">
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -119,7 +119,7 @@ y_n
 <p>Note that the choice of <em>mean squared error</em> as a benchmark is rather <em>traditional</em> than objective. I would encourage anyone to explore more <a href="https://scikit-learn.org/stable/modules/model_evaluation.html">built-in metrics</a> in Scikit-learn.</p>
 
 <div class="sage">
-<script type="text/sage">
+<script type="text/x-sage">
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.metrics import mean_squared_error
@@ -150,7 +150,7 @@ def get_test_error(model, poly, x_test, y_test):
 <p>Recall that for a third-degree polynomial fit, we would expect an error of \(4\). We'll use this benchmark to observe how the random splitting method might underestimate or overestimate the true error.</p>
 
 <div class="sage">
-<script type="text/sage">
+<script type="text/x-sage">
 from sklearn.model_selection import train_test_split
 
 degree = 2
@@ -187,7 +187,7 @@ print(f"Error Variance : {np.var(split_errors)}")
 
 
 <div class="sage">
-<script type="text/sage">
+<script type="text/x-sage">
 degrees = range(1,11)
 num_splits = 20
 test_ratio = 0.2
@@ -230,7 +230,7 @@ plt.close()
 <p>Generally, the value \(k\) should be chosen proportional to the computational cost of training the model since the model will be trained \(k\) different times. Some texts suggest using \(k\) between 5 and 8. We implement this idea with our running example. The code is taken but simplified from this example in <a href="https://www.geeksforgeeks.org/cross-validation-using-k-fold-with-scikit-learn/">Geeks for Geeks.</a></p>
 
 <div class="sage">
-<script type="text/sage">
+<script type="text/x-sage">
 from sklearn.model_selection import KFold
 
 degree = 2
@@ -268,7 +268,7 @@ print(f"Error Variance : {np.var(fold_errors)}")
 <p>Just as with random splitting, we can use \(k\)-fold cross validation to inspect the performance of different models. The code below is a similar implementation to the one used in random sampling. The conclusions are just the same, but we highlight again that the estimates have a lower variance across the board.</p>
 
 <div class="sage">
-<script type="text/sage">
+<script type="text/x-sage">
 from sklearn.model_selection import KFold
 
 degrees = range(1,11)
@@ -306,7 +306,7 @@ plt.close()
 <p>The final sampling method we'll discuss is Bootstrapping. The core principle of bootstrapping is to resample data from the original dataset with replacement. While Scikit-Learn doesn't have a dedicated bootstrapping implementation, we can create bootstrap samples using the <code>resample</code> method from <code>sklearn.utils</code>. </p>
 
 <div class="sage">
-<script type="text/sage">
+<script type="text/x-sage">
 from sklearn.utils import resample
 
 degree = 2
@@ -346,7 +346,7 @@ print(f"Error Variance : {np.var(bootstrap_errors)}")
 <p>And as before, we can compare models with this method. The conclusions are analogous.</p>
 
 <div class="sage">
-<script type="text/sage">
+<script type="text/x-sage">
 from sklearn.utils import resample
 
 degrees = range(1, 11)

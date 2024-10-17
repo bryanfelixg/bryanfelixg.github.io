@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Deep Learning</title>
+
+  <!-- Style Sheet & Font-->
+  <link rel="stylesheet" href="../css/stylecode.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ 
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="global/captain_otter.ico">
+  
+  <!-- Navigation Sidebar Script -->
+  <script defer src="../jss/navigation.js"></script>
+
+  <!-- SageMath Library -->
+  <script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+  <script>
+    // Make *any* div with class 'sage' a Sage cell
+    sagecell.makeSagecell({inputLocation: 'div.sage',
+                           evalButtonText: 'Run',
+                           editor: "codemirror",
+                           languages: ['python'],
+                           linked: 'true'});
+  </script>
+
+  <!-- MathJax for LaTeX -->
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  
+  <!-- Code Syntax -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="container"> 
+<div class="sidebar">
+<ul></ul> 
+</div>
+<article id="post-content">
+
+<header>
+<h1 id="title">Deep Learning</h1>
+<p class="author-subtitle">Bryan Félix</p>
+<time datetime="October 16, 2024">October 16, 2024</time>
+</header>
+<h2 id="introduction">Introduction</h2>
+<h2 id="deep-learning">Deep Learning</h2>
+<h3>Neural Networks.</h3>
+<p>In the early 2000s applications focused more on SVMs, boosting, and random forests. These later methods usually outperformed nerual networks due to the lack of high quality data in the volume we have now. Moreover, in the early 2000s the hardware requirements were prohibitive for complex networks.
+Neural Networks resurfaced around 2010 as <em>Deep Learning Networks</em>. Regardless the theory is the same. Only now, data was more widely available and hardware was more capable.</p>
+<p>The outline:
+1. Basics of neural networks
+2. Convolution Neural Networks (CNNs) 
+3. Recurrent Neural Networks (RNNs)</p>
+<h2 id="single-layer-neural-networks">Single Layer Neural Networks</h2>
+<p>Keywords:
+- Feed-forward network
+- Predictors
+- Input Layer
+- Hidden units</p>
+
+<div class="sage"><script type="text/x-sage">
+import numpy as np
+import matplotlib.pyplot as plt
+import networkx as nx
+
+def visualize_single_layer_nn(num_predictors, num_perceptrons):
+    # Generate the general function approximated by the neural network
+    function_approximation = f"f(x) = σ(Wx + b)"
+    print(f"The neural network approximates the function: {function_approximation}")
+    print(f"Where:\n - x is a vector of length {num_predictors}\n - W is a matrix of weights ({num_perceptrons}x{num_predictors})\n - b is a bias vector of length {num_perceptrons}\n - σ is the activation function")
+
+    # Visualize the neural network
+    fig, ax = plt.subplots(figsize=(6, 6))
+    G = nx.DiGraph()
+
+    # Input layer
+    input_nodes = ['X ' + str(i+1) for i in range(num_predictors)]
+    hidden_nodes = ['A ' + str(i+1) for i in range(num_perceptrons)]
+    output_node = ['F(x)']
+
+    # Adding nodes
+    G.add_nodes_from(input_nodes)
+    G.add_nodes_from(hidden_nodes)
+    G.add_nodes_from(output_node)
+
+    # Adding edges (from input layer to hidden layer)
+    for input_node in input_nodes:
+        for hidden_node in hidden_nodes:
+            G.add_edge(input_node, hidden_node)
+
+    # Adding edges (from hidden layer to output layer)
+    for hidden_node in hidden_nodes:
+        G.add_edge(hidden_node, output_node[0])
+
+    # Positioning nodes for layout
+    pos = {}
+    layer_offset = 1
+    for i, node in enumerate(input_nodes):
+        pos[node] = (0, -i * layer_offset)
+    for i, node in enumerate(hidden_nodes):
+        pos[node] = (1, -i * layer_offset)
+    pos[output_node[0]] = (2, 0)
+
+    # Drawing the graph
+    nx.draw(G, pos, with_labels=True, node_size=3000, node_color='lightblue', font_size=10, font_weight='bold', ax=ax)
+    plt.title(f"Single-Layer Neural Network\n {num_predictors} Inputs and {num_perceptrons} Perceptrons")
+    plt.show()
+
+</script></div>
+
+
+<div class="sage"><script type="text/x-sage">
+# Example usage
+visualize_single_layer_nn(3, 5)
+</script></div>
+
+
+<div class="sage"><script type="text/x-sage">
+
+</script></div>
+
+</article>
+</div>
+</body>
+</html>
