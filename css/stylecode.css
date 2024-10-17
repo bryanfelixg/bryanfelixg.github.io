@@ -82,19 +82,23 @@ code {
 
 pre {
   overflow: auto;
-  border-radius: 5px;
 }
 
 pre code {
-  font-size: 0.8em !important;
-  border-radius: 5px;
+  font-size: .85em !important;
+  line-height: 1.5; /* In between spacing*/
 }
 
 p code, li code {
-  background-color: #eee; 
-  color: #444; 
-  padding: 2px 4px;          
-  border-radius: 3px;      
+  background-color: #e0e0e0; 
+  color: #1a1a1a; 
+  border: 1px solid #ccc;
+  font-size: .85em;
+  padding: 2px 3px;
+}
+
+pre, pre code, p code, li code {
+  border-radius: 4px;
 }
 
 
