@@ -50,7 +50,7 @@
 
 <header>
 <h1 id="title">Convert</h1>
-<p class="author-subtitle">Bryan Félix</p>
+<p class="author-subtitle"><b>Bryan Félix</b>. <br> e-mail: <a href="mailto:felix077@alumni.umn.edu">felix077[at]alumni.umn.edu</a>.</p>
 <time datetime="October 17, 2024">October 17, 2024</time>
 </header>
 <h2 id="introduction">Introduction</h2>
@@ -105,6 +105,7 @@ def normal_approx_binomial(n: int, p: float) -> Tuple[float, float]:
     return μ, σ
 </script></div>
 
+<h2 id="testing-text-formatting">Testing Text Formatting</h2>
 <p>Testing different styles:</p>
 <p>Table:</p>
 <table>
@@ -123,6 +124,9 @@ def normal_approx_binomial(n: int, p: float) -> Tuple[float, float]:
 <p>Here is some <strong>bold</strong> <br> 
 here is some <em>italics</em> <br>
 here is some <strong><em>Bold Italics</em></strong></p>
+
+<h2 id="-latex-">$\LaTeX$</h2>
+
 <p>Some $\LaTeX$ $\mathbb{N}$ symbols:
 $$\forall n \in \mathbb{N} \exists r, m \in \mathbf{R} \mid \frac{n}{m} =r $$
 $$A = \begin{bmatrix}
@@ -130,6 +134,12 @@ $$A = \begin{bmatrix}
 5 &amp; 9 &amp; 2 \\
 6 &amp; 8 &amp; 4 
 \end{bmatrix}$$</p>
+
+<p>Some more \( \mathrm{\LaTeX} \) $\mathbf{Z}$ symbols:
+\[ \alpha \cdot \beta \cdots \gamma \]
+\[ \Delta \varepsilon + \prod_{\lambda = 1}^\infty \frac{1}{1-p}\]
+\[ \boldsymbol{\alpha\beta}\]
+</p>
 
 <div class="sage"><script type="text/x-sage">
 from scipy.stats import norm
