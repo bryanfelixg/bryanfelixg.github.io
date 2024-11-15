@@ -49,3 +49,5 @@ for result in client.results(search):
 # Save articles to JSON file
 with open(output_path, 'w', encoding='utf-8') as json_file:
     json.dump(articles, json_file, indent=4, ensure_ascii=False)
+    
+print(output_path)
