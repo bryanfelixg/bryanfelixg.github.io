@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Deep Learning</title>
+
+  <!-- Style Sheet & Font-->
+  <link rel="stylesheet" href="../css/stylecode.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ 
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="global/captain_otter.ico">
+  
+  <!-- Navigation Sidebar Script -->
+  <script defer src="../jss/navigation.js"></script>
+
+  <!-- SageMath Library -->
+  <script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+  <script>
+    // Make *any* div with class 'sage' a Sage cell
+    sagecell.makeSagecell({inputLocation: 'div.sage',
+                           evalButtonText: 'Run',
+                           editor: "codemirror",
+                           languages: ['python'],
+                           linked: 'true'});
+  </script>
+
+  <!-- MathJax for LaTeX -->
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  
+  <!-- Code Syntax Highlighting -->
+  <link href="../css/prism-theme.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+
+  
+</head>
+
+<body>
+
+<div class="container"> 
+<div class="sidebar">
+<ul></ul> 
+</div>
+<article id="post-content">
+
+<header>
+<h1 id="title">Deep Learning</h1>
+<p class="author-subtitle"><b>Bryan Félix</b>. <br> e-mail: <a href="mailto:felix077@alumni.umn.edu">felix077[at]alumni.umn.edu</a>.</p>
+<time datetime="October 18, 2024">October 18, 2024</time>
+</header>
+<h2 id="introduction">Introduction</h2>
+<h2 id="deep-learning">Deep Learning</h2>
+<h3>Neural Networks.</h3>
+<p>In the early 2000s applications focused more on SVMs, boosting, and random forests. These later methods usually outperformed nerual networks due to the lack of high quality data in the volume we have now. Moreover, in the early 2000s the hardware requirements were prohibitive for complex networks.
+Neural Networks resurfaced around 2010 as <em>Deep Learning Networks</em>. Regardless the theory is the same. Only now, data was more widely available and hardware was more capable.</p>
+<p>The outline:
+1. Basics of neural networks
+2. Convolution Neural Networks (CNNs) 
+3. Recurrent Neural Networks (RNNs)</p>
+<h2 id="single-hidden-layer-neural-networks">Single (Hidden) Layer Neural Networks</h2>
+<p>Keywords:
+- Feed-forward network
+- Predictors
+- Input Layer
+- Hidden units
+- Activation function</p>
+<div class="image-container">
+<img src="single_layer_network.png" alt="sln">
+<figcaption>Single Layer Network. From <a href="https://www.statlearning.com">ISLP Textbook</a>.</figcaption> 
+</div>
+
+<div class="sage"><script type="text/x-sage">
+import numpy as np
+import matplotlib.pyplot as plt
+import networkx as nx
+
+def visualize_single_layer_nn(num_predictors, num_perceptrons):
+    # Generate the general function approximated by the neural network
+    function_approximation = " + ".join([f"b_{i} A_{i}" for i in range(1,num_perceptrons)])
+    
+    print("The neural network approximates the function:")
+    print(f"f(x) = {function_approximation}")
+    
+    # Visualize the neural network
+    _, ax = plt.subplots(figsize=(6, 6))
+    G = nx.DiGraph()
+
+    # Input layer
+    input_nodes = ['X_' + str(i+1) for i in range(num_predictors)]
+    hidden_nodes = ['A_' + str(i+1) for i in range(num_perceptrons)]
+    output_node = ['F(x)']
+
+    # Adding nodes
+    G.add_nodes_from(input_nodes)
+    G.add_nodes_from(hidden_nodes)
+    G.add_nodes_from(output_node)
+
+    # Adding edges (from input layer to hidden layer)
+    for input_node in input_nodes:
+        for hidden_node in hidden_nodes:
+            G.add_edge(input_node, hidden_node)
+
+    # Adding edges (from hidden layer to output layer)
+    for hidden_node in hidden_nodes:
+        G.add_edge(hidden_node, output_node[0])
+
+    # Positioning nodes for layout
+    pos = {}
+    layer_offset = 1
+    for i, node in enumerate(input_nodes):
+        pos[node] = (0, -i * layer_offset)
+    for i, node in enumerate(hidden_nodes):
+        pos[node] = (1, -i * layer_offset)
+    pos[output_node[0]] = (2, 0)
+
+    # Drawing the graph
+    nx.draw(G, pos, with_labels=True, node_size=3000, node_color='lightblue', font_size=10, font_weight='bold', ax=ax)
+    plt.title(f"Single-Layer Neural Network\n {num_predictors} Inputs and {num_perceptrons} Perceptrons")
+    plt.show()
+
+</script></div>
+
+
+<div class="sage"><script type="text/x-sage">
+visualize_single_layer_nn(4, 5)
+</script></div>
+
+<p>The output function $f(X)$ is a linear combination of the preceding layer $\mathcal{A}$. The use of "A" is deliberate, alluding to <em>activation</em> layers. Thus:</p>
+<p>$$ f(X) = \beta_0 + \sum_{k=1}^{K} \beta_k \cdot \mathrm{A}_k $$</p>
+<p>In turn, each value $\mathrm{A}_i$ is a function of the preceding layer which, in this case, happens to be the <strong>input vector</strong> $[X_1, X_2, \dots, X_n]$. This function has a specific structure. in general, we take a linear combination of the inputs, and then apply an <em>activation function</em> $g(\cdot)$.  In our case, this will look like this:</p>
+<p>$$\begin{aligned}
+\mathrm{A}<em>1 = &amp; g\left( w</em>{1_0} + w_{1_1} X_1 + w_{1_2}X_2 + \cdots \right) \
+\mathrm{A}<em>2 = &amp; g\left( w</em>{2_0} + w_{2_1} X_1 + w_{2_2}X_2 + \cdots \right) \
+\mathrm{A}<em>3 = &amp; g\left( w</em>{3_0} + w_{3_1} X_1 + w_{3_2}X_2 + \cdots \right)
+\end{aligned}$$</p>
+
+<div class="sage"><script type="text/x-sage">
+
+</script></div>
+
+<p><strong>Note</strong>: It is worth pointing out that the textbook choice to use a linear function for the <em>output layer</em> $f(x)$ is arbitrary. There are many examples where the output might need to be someting more specialized. For example, in multiple classification tasks, one might prefer to use the $\max[{\mathrm{A}_1, \mathrm{A}_2, \dots}]$. Alternatively, one might instead normalize the output to ``mimic" a probability distribution. </p>
+
+<div class="sage"><script type="text/x-sage">
+from bokeh.plotting import figure, show
+from bokeh.io import output_notebook
+from bokeh.models import ColumnDataSource, Select
+import numpy as np
+
+# Enable Bokeh to display in the notebook
+output_notebook()
+
+# Create data for x, x^2, and x^3
+x = np.linspace(-5, 5, 200)
+y1 = x
+y2 = x ** 2
+y3 = x ** 3
+
+# Define the Bokeh figure
+p = figure(title="Interactive Function Plot", width=600, height=400)
+p.grid.grid_line_alpha = 0.3
+
+# Create a data source
+source = ColumnDataSource(data=dict(x=x, y=y1))
+
+# Add a line for the initial function (x)
+line = p.line('x', 'y', source=source, line_width=3, line_alpha=0.6)
+
+# Function to update the plot when a different function is selected
+def update_plot(attr, old, new):
+    if select.value == "x":
+        source.data.update(y=y1)
+    elif select.value == "x^2":
+        source.data.update(y=y2)
+    elif select.value == "x^3":
+        source.data.update(y=y3)
+
+# Create a dropdown select widget
+select = Select(title="Select function", value="x", options=["x", "x^2", "x^3"])
+select.on_change('value', update_plot)
+
+# Display the plot and widget
+from bokeh.layouts import column
+layout = column(select, p)
+
+show(layout)
+
+</script></div>
+
+
+<div class="sage"><script type="text/x-sage">
+
+</script></div>
+
+</article>
+</div>
+</body>
+</html>
