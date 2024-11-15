@@ -16,7 +16,7 @@ def format_latex(text):
 query = "astronomy"
 
 # Directory and filename to save the output
-output_dir = "../assets/"  # Specify your desired directory
+output_dir = "./assets/"  # Specify your desired directory
 output_file = "articles.json"  # Specify your desired filename
 output_path = os.path.join(output_dir, output_file)
 

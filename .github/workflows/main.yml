@@ -24,7 +24,7 @@ jobs:
   
       - name : Run Python script
         run: |
-          python python/arxiv.py
+          python python/arxiv_script.py
   
       - name: Commit and push
         run: |
