@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bryan Félix - Publications">
+  <title>Readings</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="global/captain_otter.ico">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/homestyle.css">
+
+  <!-- MathJax for LaTeX -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)']],
+        displayMath: [['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>  
+
+  <!-- Articles Population Script -->
+  <script defer src="../jss/articles.js"></script>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+  <header>
+    <div class="container">
+        <h1>Readings</h1>
+        <p class="author-subtitle">Curated articles from ArXiv</p>
+    </div>
+  </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="readings.html">Readings</a></li>
+        </ul>
+    </nav>
+
+  <div class="container">
+    <main>
+      <section class="publications-list">
+        <h2>Articles from ArXiV</h2>
+        <ul id="articles-list">
+          <!-- Content will be dynamically loaded by jss/articles.js -->
+      </ul>
+      </section>
+    </main>
+
+    <!-- <aside class="sidebar">
+        <p><b>Note:</b> This is a list of some of my recent publications. More will be added soon.</p>
+    </aside> -->
+  </div>
+
+</div>
+
+<footer>
+    <div class="footer-container">
+        <p>
+        &copy; 2024 Bryan Félix. All Rights Reserved. &nbsp;
+        Contact: <a href="mailto:felix077@alumni.umn.edu">felix077[at]alumni.umn.edu</a>.</p>
+    </div>
+</footer>
+
+
+</body>
+</html>
