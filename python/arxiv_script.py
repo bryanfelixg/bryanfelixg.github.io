@@ -13,7 +13,7 @@ def format_latex(text):
     return text
 
 # Query term
-query = "astronomy"
+query = "mathematical model biology"
 
 # Directory and filename to save the output
 output_dir = "./assets/"  # Specify your desired directory
