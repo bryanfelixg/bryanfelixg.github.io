@@ -1,7 +1,7 @@
-import arxiv
 import json
 import os
 import re
+import arxiv
 
 # Function to replace LaTeX equation delimiters
 def format_latex(text):
@@ -13,41 +13,55 @@ def format_latex(text):
     return text
 
 # Query term
-query = "mathematical model biology"
+keywords = [
+    "mathematical model",
+    "machine learning",
+    "dynamical systems",
+    "mathematical biology",
+#    "mathematics education", 
+    "recreational mathematics", 
+    "communication of mathematics"
+]
 
-# Directory and filename to save the output
-output_dir = "./assets/"  # Specify your desired directory
-output_file = "articles.json"  # Specify your desired filename
+categories = "cat:q-bio OR cat:cs.LG OR cat:math.DS OR math.AP OR math.CA OR math.HO"
+
+query = query = f"({' OR '.join(keywords)}) AND ({categories})"
+
+# Output Directory and filename
+output_dir = "./assets/"  
+output_file = "articles.json"  
 output_path = os.path.join(output_dir, output_file)
 
 # Ensure the output directory exists
 os.makedirs(output_dir, exist_ok=True)
 
-# Initialize the arXiv client
+# ArXiv client
 client = arxiv.Client()
 
-# Define the search query
+# Search query
 search = arxiv.Search(
     query=query,
     max_results=20,
-    sort_by=arxiv.SortCriterion.Relevance
+    sort_by=arxiv.SortCriterion.Relevance,
 )
 
-# Collect articles into a list
+# Articles
 articles = []
 
 for result in client.results(search):
     article_info = {
         'title': format_latex(result.title),
         'year': result.published.strftime("%B %Y"),  # Format the date
+        'date': result.published.strftime("%Y-%m-%d"), # for sorting
         'authors': ", ".join([str(author) for author in result.authors]),  # Convert authors to strings
         'abstract': format_latex(result.summary),
         'link': result.pdf_url
     }
     articles.append(article_info)
 
+# Sort articles by the formatted date in descending order
+sorted_articles = sorted(articles, key=lambda x: x['date'], reverse=True)
+
 # Save articles to JSON file
 with open(output_path, 'w', encoding='utf-8') as json_file:
-    json.dump(articles, json_file, indent=4, ensure_ascii=False)
-    
-print(output_path)
+    json.dump(sorted_articles, json_file, indent=4, ensure_ascii=False)

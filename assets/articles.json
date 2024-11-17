@@ -1,142 +1,162 @@
 [
     {
-        "title": "Three facets of mathematical cancer biology research",
-        "year": "January 2023",
-        "authors": "Yue Wang",
-        "abstract": "Cancer, as the uncontrollable cell growth, is related to many branches of\nbiology. In this review, we will discuss three mathematical approaches for\nstudying cancer biology: population dynamics, gene regulation, and\ndevelopmental biology. If we understand all biochemical mechanisms of cancer\ncells, we can directly calculate how the cancer cell population behaves.\nInversely, just from the cell count data, we can use population dynamics to\ninfer the mechanisms. Cancer cells emerge from certain genetic mutations, which\naffect the expression of other genes through gene regulation. Therefore,\nknowledge of gene regulation can help with cancer prevention and treatment.\nDevelopmental biology studies acquisition and maintenance of normal cellular\nfunction, which is inspiring to cancer biology in the opposite direction.\nBesides, cancer cells implanted into an embryo can differentiate into normal\ntissues, which provides a possible approach of curing cancer. This review\nillustrates the role of mathematics in these three fields: what mathematical\nmodels are used, what data analysis tools are applied, and what mathematical\ntheorems need to be proved. We hope that applied mathematicians and even pure\nmathematicians can find meaningful mathematical problems related to cancer\nbiology.",
-        "link": "http://arxiv.org/pdf/2301.11126v1"
-    },
-    {
-        "title": "The case for algebraic biology: from research to education",
-        "year": "February 2020",
-        "authors": "Matthew Macauley, Nora Youngs",
-        "abstract": "Though it goes without saying that linear algebra is fundamental to\nmathematical biology, polynomial algebra is less visible. In this article, we\nwill give a brief tour of four diverse biological problems where multivariate\npolynomials play a central role -- a subfield that is sometimes called\n\"algebraic biology.\" Namely, these topics include biochemical reaction\nnetworks, Boolean models of gene regulatory networks, algebraic statistics and\ngenomics, and place fields in neuroscience. After that, we will summarize the\nhistory of discrete and algebraic structures in mathematical biology, from\ntheir early appearances in the late 1960s to the current day. Finally, we will\ndiscuss the role of algebraic biology in the modern classroom and curriculum,\nincluding resources in the literature and relevant software. Our goal is to\nmake this article widely accessible, reaching the mathematical biologist who\nknows no algebra, the algebraist who knows no biology, and especially the\ninterested student who is curious about the synergy between these two seemingly\nunrelated fields.",
-        "link": "http://arxiv.org/pdf/2003.01812v1"
-    },
-    {
-        "title": "An Optimal Likelihood Free Method for Biological Model Selection",
-        "year": "August 2022",
-        "authors": "Vincent D. Zaballa, Elliot E. Hui",
-        "abstract": "Systems biology seeks to create math models of biological systems to reduce\ninherent biological complexity and provide predictions for applications such as\ntherapeutic development. However, it remains a challenge to determine which\nmath model is correct and how to arrive optimally at the answer. We present an\nalgorithm for automated biological model selection using mathematical models of\nsystems biology and likelihood free inference methods. Our algorithm shows\nimproved performance in arriving at correct models without a priori information\nover conventional heuristics used in experimental biology and random search.\nThis method shows promise to accelerate biological basic science and drug\ndiscovery.",
-        "link": "http://arxiv.org/pdf/2208.02344v1"
-    },
-    {
-        "title": "Computer algebra in systems biology",
-        "year": "December 2007",
-        "authors": "Reinhard Laubenbacher, Bernd Sturmfels",
-        "abstract": "Systems biology focuses on the study of entire biological systems rather than\non their individual components. With the emergence of high-throughput data\ngeneration technologies for molecular biology and the development of advanced\nmathematical modeling techniques, this field promises to provide important new\ninsights. At the same time, with the availability of increasingly powerful\ncomputers, computer algebra has developed into a useful tool for many\napplications. This article illustrates the use of computer algebra in systems\nbiology by way of a well-known gene regulatory network, the Lac Operon in the\nbacterium E. coli.",
-        "link": "http://arxiv.org/pdf/0712.4248v2"
-    },
-    {
-        "title": "The Lost Art of Mathematical Modelling",
-        "year": "January 2023",
-        "authors": "Linnéa Gyllingberg, Abeba Birhane, David J. T. Sumpter",
-        "abstract": "We provide a critique of mathematical biology in light of rapid developments\nin modern machine learning. We argue that out of the three modelling activities\n-- (1) formulating models; (2) analysing models; and (3) fitting or comparing\nmodels to data -- inherent to mathematical biology, researchers currently focus\ntoo much on activity (2) at the cost of (1). This trend, we propose, can be\nreversed by realising that any given biological phenomena can be modelled in an\ninfinite number of different ways, through the adoption of an open/pluralistic\napproach. We explain the open approach using fish locomotion as a case study\nand illustrate some of the pitfalls -- universalism, creating models of models,\netc. -- that hinder mathematical biology. We then ask how we might rediscover a\nlost art: that of creative mathematical modelling.\n  This article is dedicated to the memory of Edmund Crampin.",
-        "link": "http://arxiv.org/pdf/2301.08559v2"
-    },
-    {
-        "title": "Approximation of Intractable Likelihood Functions in Systems Biology via Normalizing Flows",
+        "title": "A mathematical perspective on Transformers",
         "year": "December 2023",
-        "authors": "Vincent D. Zaballa, Elliot E. Hui",
-        "abstract": "Systems biology relies on mathematical models that often involve complex and\nintractable likelihood functions, posing challenges for efficient inference and\nmodel selection. Generative models, such as normalizing flows, have shown\nremarkable ability in approximating complex distributions in various domains.\nHowever, their application in systems biology for approximating intractable\nlikelihood functions remains unexplored. Here, we elucidate a framework for\nleveraging normalizing flows to approximate complex likelihood functions\ninherent to systems biology models. By using normalizing flows in the\nSimulation-based inference setting, we demonstrate a method that not only\napproximates a likelihood function but also allows for model inference in the\nmodel selection setting. We showcase the effectiveness of this approach on\nreal-world systems biology problems, providing practical guidance for\nimplementation and highlighting its advantages over traditional computational\nmethods.",
-        "link": "http://arxiv.org/pdf/2312.02391v1"
+        "date": "2023-12-17",
+        "authors": "Borjan Geshkovski, Cyril Letrouit, Yury Polyanskiy, Philippe Rigollet",
+        "abstract": "Transformers play a central role in the inner workings of large language\nmodels. We develop a mathematical framework for analyzing Transformers based on\ntheir interpretation as interacting particle systems, which reveals that\nclusters emerge in long time. Our study explores the underlying theory and\noffers new perspectives for mathematicians as well as computer scientists.",
+        "link": "http://arxiv.org/pdf/2312.10794v4"
     },
     {
-        "title": "Guidelines for benchmarking of optimization approaches for fitting mathematical models",
-        "year": "July 2019",
-        "authors": "Clemens Kreutz",
-        "abstract": "Insufficient performance of optimization approaches for fitting of\nmathematical models is still a major bottleneck in systems biology. In this\nmanuscript, the reasons and methodological challenges are summarized as well as\ntheir impact in benchmark studies. Important aspects for increasing evidence of\noutcomes of benchmark analyses are discussed. Based on general guidelines for\nbenchmarking in computational biology, a collection of tailored guidelines is\npresented for performing informative and unbiased benchmarking of\noptimization-based fitting approaches. Comprehensive benchmark studies based on\nthese recommendations are urgently required for establishing of a robust and\nreliable methodology for the systems biology community.",
-        "link": "http://arxiv.org/pdf/1907.03427v1"
+        "title": "Coupled and Uncoupled Dynamic Mode Decomposition in Multi-Compartmental Systems with Applications to Epidemiological and Additive Manufacturing Problems",
+        "year": "October 2021",
+        "date": "2021-10-12",
+        "authors": "Alex Viguerie, Gabriel F. Barros, Malú Grave, Alessandro Reali, Alvaro L. G. A. Coutinho",
+        "abstract": "Dynamic Mode Decomposition (DMD) is an unsupervised machine learning method\nthat has attracted considerable attention in recent years owing to its\nequation-free structure, ability to easily identify coherent spatio-temporal\nstructures in data, and effectiveness in providing reasonably accurate\npredictions for certain problems. Despite these successes, the application of\nDMD to certain problems featuring highly nonlinear transient dynamics remains\nchallenging. In such cases, DMD may not only fail to provide acceptable\npredictions but may indeed fail to recreate the data in which it was trained,\nrestricting its application to diagnostic purposes. For many problems in the\nbiological and physical sciences, the structure of the system obeys a\ncompartmental framework, in which the transfer of mass within the system moves\nwithin states. In these cases, the behavior of the system may not be accurately\nrecreated by applying DMD to a single quantity within the system, as proper\nknowledge of the system dynamics, even for a single compartment, requires that\nthe behavior of other compartments is taken into account in the DMD process. In\nthis work, we demonstrate, theoretically and numerically, that, when performing\nDMD on a fully coupled PDE system with compartmental structure, one may recover\nuseful predictive behavior, even when DMD performs poorly when acting\ncompartment-wise. We also establish that important physical quantities, as mass\nconservation, are maintained in the coupled-DMD extrapolation. The mathematical\nand numerical analysis suggests that DMD may be a powerful tool when applied to\nthis common class of problems. In particular, we show interesting numerical\napplications to a continuous delayed-SIRD model for Covid-19, and to a problem\nfrom additive manufacturing considering a nonlinear temperature field and the\nresulting change of material phase from powder, liquid, and solid states.",
+        "link": "http://arxiv.org/pdf/2110.06375v1"
     },
     {
-        "title": "Reproducible research using biomodels",
-        "year": "June 2018",
-        "authors": "Pedro Mendes",
-        "abstract": "Like other types of computational research, modeling and simulation of\nbiological processes (biomodels) is still largely communicated without\nsufficient detail to allow independent reproduction of results. But\nreproducibility in this area of research could easily be achieved by making use\nof existing resources, such as supplying models in standard formats and\ndepositing code, models, and results in public repositories.",
-        "link": "http://arxiv.org/pdf/1806.01078v1"
+        "title": "LQResNet: A Deep Neural Network Architecture for Learning Dynamic Processes",
+        "year": "March 2021",
+        "date": "2021-03-03",
+        "authors": "Pawan Goyal, Peter Benner",
+        "abstract": "Mathematical modeling is an essential step, for example, to analyze the\ntransient behavior of a dynamical process and to perform engineering studies\nsuch as optimization and control. With the help of first-principles and expert\nknowledge, a dynamic model can be built, but for complex dynamic processes,\nappearing, e.g., in biology, chemical plants, neuroscience, financial markets,\nthis often remains an onerous task. Hence, data-driven modeling of the dynamics\nprocess becomes an attractive choice and is supported by the rapid advancement\nin sensor and measurement technology. A data-driven approach, namely operator\ninference framework, models a dynamic process, where a particular structure of\nthe nonlinear term is assumed. In this work, we suggest combining the operator\ninference with certain deep neural network approaches to infer the unknown\nnonlinear dynamics of the system. The approach uses recent advancements in deep\nlearning and possible prior knowledge of the process if possible. We also\nbriefly discuss several extensions and advantages of the proposed methodology.\nWe demonstrate that the proposed methodology accomplishes the desired tasks for\ndynamics processes encountered in neural dynamics and the glycolytic\noscillator.",
+        "link": "http://arxiv.org/pdf/2103.02249v2"
     },
     {
-        "title": "Global Existence for some Cross Diffusion Systems with Equal Cross Diffusion/Reaction Rates",
-        "year": "October 2019",
-        "authors": "Dung Le",
-        "abstract": "We consider some cross diffusion systems which is inspired by models in\nmathematical biology/ecology, in particular the Shigesada-Kawasaki-Teramoto\n(SKT) model in population biology. We establish the global existence of strong\nsolutions to systems for multiple species having equal either diffusion or\nreaction rates. The systems are given on bounded domains of arbitrary\ndimension.",
-        "link": "http://arxiv.org/pdf/1910.07260v2"
+        "title": "Some open problems in low dimensional dynamical systems",
+        "year": "December 2020",
+        "date": "2020-12-04",
+        "authors": "Armengol Gasull",
+        "abstract": "The aim of this paper is to share with the mathematical community a list of\n33 problems that I have found along the years during my research. I believe\nthat it is worth to think about them and, hopefully, it will be possible either\nto solve some of the problems or to make some substantial progress. Many of\nthem are about planar differential equations but there are also questions about\nother mathematical aspects: Abel differential equations, difference equations,\nglobal asymptotic stability, geometrical questions, problems involving\npolynomials or some recreational problems with a dynamical component.",
+        "link": "http://arxiv.org/pdf/2012.02524v1"
     },
     {
-        "title": "On the Positivity of Weak Solutions to a Class of Cross Diffusion Systems",
-        "year": "June 2020",
-        "authors": "Dung Le",
-        "abstract": "We establish the positivity of weak (and very weak) solutions to a class of\ncross diffusion systems which is inspired by models in mathematical\nbiology/ecology, in particular the Shigesada-Kawasaki-Teramoto (SKT) model in\npopulation biology. Examples and counterexamples will be provided to show that\nour contions are near optimal.",
-        "link": "http://arxiv.org/pdf/2006.10465v1"
+        "title": "Rhythms of the nervous system: mathematical themes and variations",
+        "year": "May 2003",
+        "date": "2003-05-01",
+        "authors": "Nancy Kopell",
+        "abstract": "The nervous system displays a variety of rhythms in both waking and sleep.\nThese rhythms have been closely associated with different behavioral and\ncognitive states, but it is still unknown how the nervous system makes use of\nthese rhythms to perform functionally important tasks. To address those\nquestions, it is first useful to understood in a mechanistic way the origin of\nthe rhythms, their interactions, the signals which create the transitions among\nrhythms, and the ways in which rhythms filter the signals to a network of\nneurons. This talk discusses how dynamical systems have been used to\ninvestigate the origin, properties and interactions of rhythms in the nervous\nsystem. It focuses on how the underlying physiology of the cells and synapses\nof the networks shape the dynamics of the network in different contexts,\nallowing the variety of dynamical behaviors to be displayed by the same\nnetwork. The work is presented using a series of related case studies on\ndifferent rhythms. These case studies are chosen to highlight mathematical\nissues, and suggest further mathematical work to be done. The topics include:\ndifferent roles of excitation and inhibition in creating synchronous assemblies\nof cells, different kinds of building blocks for neural oscillations, and\ntransitions among rhythms. The mathematical issues include reduction of large\nnetworks to low dimensional maps, role of noise, global bifurcations, use of\nprobabilistic formulations.",
+        "link": "http://arxiv.org/pdf/math/0305013v1"
     },
     {
-        "title": "On the well-posedness of some model arising in the mathematical biology",
-        "year": "April 2024",
-        "authors": "Messoud Efendiev, Vitali Vougalter",
-        "abstract": "In the article we establish the global well-posedness in W^{1, 2, 2}(R\\times\nR^{+}) of the integro-differential equation in the case of the anomalous\ndiffusion when the one dimensional negative Laplace operator is raised to a\nfractional power in the presence of the transport term. The model is relevant\nto the cell population dynamics in the Mathematical Biology. Our proof relies\non a fixed point technique.",
-        "link": "http://arxiv.org/pdf/2404.04342v1"
+        "title": "Control of Spatially Heterogeneous and Time-Varying Cellular Reaction Networks: A New Summation Law",
+        "year": "November 2002",
+        "date": "2002-11-06",
+        "authors": "Mark A. Peletier, Hans V. Westerhoff, Boris N. Kholodenko",
+        "abstract": "A hallmark of a plethora of intracellular signaling pathways is the spatial\nseparation of activation and deactivation processes that potentially results in\nprecipitous gradients of activated proteins. The classical Metabolic Control\nAnalysis (MCA), which quantifies the influence of an individual process on a\nsystem variable as the control coefficient, cannot be applied to spatially\nseparated protein networks. The present paper unravels the principles that\ngovern the control over the fluxes and intermediate concentrations in spatially\nheterogeneous reaction networks. Our main results are two types of the control\nsummation theorems. The first type is a non-trivial generalization of the\nclassical theorems to systems with spatially and temporally varying\nconcentrations. In this generalization, the process of diffusion, which enters\nas the result of spatial concentration gradients, plays a role similar to other\nprocesses such as chemical reactions and membrane transport. The second\nsummation theorem is completely novel. It states that the control by the\nmembrane transport, the diffusion control coefficient multiplied by two, and a\nnewly introduced control coefficient associated with changes in the spatial\nsize of a system (e.g., cell), all add up to one and zero for the control over\nflux and concentration. Using a simple example of a kinase/phosphatase system\nin a spherical cell, we speculate that unless active mechanisms of\nintracellular transport are involved, the threshold cell size is limited by the\ndiffusion control, when it is beginning to exceed the spatial control\ncoefficient significantly.",
+        "link": "http://arxiv.org/pdf/math/0211111v1"
     },
     {
-        "title": "Using Glowscript to Teach Numerical Modeling in Undergraduate Biology Education",
-        "year": "April 2022",
-        "authors": "Joshua G. Schreibeis, Olivia M. Merideth, Gavin A. Buxton",
-        "abstract": "Mathematical and numerical modeling is an increasingly important, yet often\nneglected, topic for biology students. We have found Glowscript to facilitate\nteaching and introducing computer simulations to students. In particular, the\nbuilt-in the graphics and graphing capabilities can provide students with\nimmediate feedback. Glowscript is a web-based form of visual Python that runs\nin a standard browser, and students can easily embed their simulations in\nexternal websites. Here we show various examples of how Glowscript is\nimplemented in an undergraduate computational biology course. We hope these\nexamples inspire others to adopt Glowscript in their science classrooms.",
-        "link": "http://arxiv.org/pdf/2204.12911v1"
+        "title": "A Model of Blood Flow in a Circulation Network",
+        "year": "October 2002",
+        "date": "2002-10-26",
+        "authors": "Weihua Ruan, M. E. Clark, Meide Zhao, Anthony Curcio",
+        "abstract": "We study a mathematical model of a blood circulation network which is a\ngeneralization of the coronary model proposed by Smith, Pullan and Hunter. We\nprove the existence and uniqueness of the solution to the initial-boundary\nvalue problem and discuss the continuity of dependence of the solution and its\nderivatives on initial, boundary and forcing functions and their derivatives.",
+        "link": "http://arxiv.org/pdf/math/0210410v1"
     },
     {
-        "title": "A (possible) mathematical model to describe biological \"context-dependence\" : case study with protein structure",
-        "year": "February 2009",
-        "authors": "Anirban Banerji",
-        "abstract": "Context-dependent nature of biological phenomena are well documented in every\nbranch of biology. While there have been few previous attempts to (implicitly)\nmodel various facets of biological context-dependence, a formal and general\nmathematical construct to model the wide spectrum of context-dependence, eludes\nthe students of biology. An objective and rigorous model, from both 'bottom-up'\nas well as 'top-down' perspective, is proposed here to serve as the template to\ndescribe the various kinds of context-dependence that we encounter in different\nbranches of biology. Interactions between biological contexts was found to be\ntransitive but non-commutative. It is found that a hierarchical nature of\ndependence amongst the biological contexts models the emergent biological\nproperties efficiently. Reasons for these findings are provided with a general\nmodel to describe biological reality. Scheme to algorithmically implement the\nhierarchic structure of organization of biological contexts was achieved with a\nconstruct named 'Context tree'. A 'Context tree' based analysis of context\ninteractions among biophysical factors influencing protein structure was\nperformed.",
-        "link": "http://arxiv.org/pdf/0902.0664v2"
+        "title": "Determination of Functional Network Structure from Local Parameter Dependence Data",
+        "year": "May 2002",
+        "date": "2002-05-02",
+        "authors": "Boris N. Kholodenko, Eduardo D. Sontag",
+        "abstract": "In many applications, such as those arising from the field of cellular\nnetworks, it is often desired to determine the interaction (graph) structure of\na set of differential equations, using as data measured sensitivities. This\nnote proposes an approach to this problem.",
+        "link": "http://arxiv.org/pdf/physics/0205003v1"
     },
     {
-        "title": "Open Problems in Mathematical Biology",
-        "year": "June 2022",
-        "authors": "Sean T. Vittadello, Michael P. H. Stumpf",
-        "abstract": "Biology is data-rich, and it is equally rich in concepts and hypotheses. Part\nof trying to understand biological processes and systems is therefore to\nconfront our ideas and hypotheses with data using statistical methods to\ndetermine the extent to which our hypotheses agree with reality. But doing so\nin a systematic way is becoming increasingly challenging as our hypotheses\nbecome more detailed, and our data becomes more complex. Mathematical methods\nare therefore gaining in importance across the life- and biomedical sciences.\nMathematical models allow us to test our understanding, make testable\npredictions about future behaviour, and gain insights into how we can control\nthe behaviour of biological systems. It has been argued that mathematical\nmethods can be of great benefit to biologists to make sense of data. But\nmathematics and mathematicians are set to benefit equally from considering the\noften bewildering complexity inherent to living systems. Here we present a\nsmall selection of open problems and challenges in mathematical biology. We\nhave chosen these open problems because they are of both biological and\nmathematical interest.",
-        "link": "http://arxiv.org/pdf/2206.09516v1"
+        "title": "In search of an evolutionary coding style",
+        "year": "March 2001",
+        "date": "2001-03-16",
+        "authors": "Torbjörn Lundh",
+        "abstract": "In the near future, all the human genes will be identified. But understanding\nthe functions coded in the genes is a much harder problem. For example, by\nusing block entropy, one has that the DNA code is closer to a random code then\nwritten text, which in turn is less ordered then an ordinary computer code; see\n\\cite{schmitt}.\n  Instead of saying that the DNA is badly written, using our programming\nstandards, we might say that it is written in a different style -- an\nevolutionary style.\n  We will suggest a way to search for such a style in a quantified manner by\nusing an artificial life program, and by giving a definition of general codes\nand a definition of style for such codes.",
+        "link": "http://arxiv.org/pdf/math/0103109v1"
     },
     {
-        "title": "A Mathematical Model Accounting for the Organisation in Multiplets of the Genetic Code",
-        "year": "February 2001",
-        "authors": "A. Sciarrino",
-        "abstract": "Requiring stability of genetic code against translation errors, modelised by\nsuitable mathematical operators in the crystal basis model of the genetic code,\nthe main features of the organisation in multiplets of the mitochondrial and of\nthe standard genetic code are explained.",
-        "link": "http://arxiv.org/pdf/math-ph/0102022v1"
+        "title": "Fitness Uniform Selection to Preserve Genetic Diversity",
+        "year": "March 2001",
+        "date": "2001-03-14",
+        "authors": "Marcus Hutter",
+        "abstract": "In evolutionary algorithms, the fitness of a population increases with time\nby mutating and recombining individuals and by a biased selection of more fit\nindividuals. The right selection pressure is critical in ensuring sufficient\noptimization progress on the one hand and in preserving genetic diversity to be\nable to escape from local optima on the other. We propose a new selection\nscheme, which is uniform in the fitness values. It generates selection pressure\ntowards sparsely populated fitness regions, not necessarily towards higher\nfitness, as is the case for all other selection schemes. We show that the new\nselection scheme can be much more effective than standard selection schemes.",
+        "link": "http://arxiv.org/pdf/cs/0103015v1"
     },
     {
-        "title": "A mathematical model for Neanderthal extinction",
-        "year": "December 1997",
-        "authors": "J. C. Flores",
-        "abstract": "A simple mathematical homogeneous model of competition is used to describe\nNeanderthal extinction in Europe. It considers two interacting species,\nNeanderthals and Early Modern Men, in the same ecological niche. Using\npaleontological data we claim that the parameter of similarity, between both\nspecies, fluctuates between 0.992 and 0.997. An extension of the model\nincluding migration (diffusion) is also discussed nevertheless, extinction of\nNeanderthal seems unavoidable. Numerical analysis of travelling wave solution\n(fronts) comfirms the extinction. The wave-front-velocity is estimated from\nlinear analysis and numerical simulations confirm this estimation. We\nconjecture a mathematical formulation for the principle of exclusion between\ncompetitive interacting species (Gause).",
-        "link": "http://arxiv.org/pdf/physics/9712024v1"
+        "title": "Multiple Equilibria for an SIRS Epidemiological System",
+        "year": "January 2001",
+        "date": "2001-01-07",
+        "authors": "M. R. Razvan",
+        "abstract": "An SIRS type model of disease transmission in an open environment is\ndiscussed. We use the Poincar\\'{e} index together with a perturbation method to\nshow that the endemic proportions need not be unique.",
+        "link": "http://arxiv.org/pdf/math/0101051v1"
     },
     {
-        "title": "On a Model of Superconductivity and Biology",
-        "year": "March 2012",
-        "authors": "Monica De Angelis",
-        "abstract": "The paper deals with a semilinear integrodifferential equation that\ncharacterizes several dissipative models of Viscoelasticity, Biology and\nSuperconductivity. The initial - boundary problem with Neumann conditions is\nanalyzed. When the source term F is a linear function, then the explicit\nsolution is obtained. When F is non linear, some results on existence,\nuniqueness and a priori estimates are deduced. As example of physical model the\nreaction - diffusion system of Fitzhugh Nagumo is considered.",
-        "link": "http://arxiv.org/pdf/1203.0448v1"
+        "title": "Analysis of a Disease Transmission Model with two Groups of Infectives",
+        "year": "October 2000",
+        "date": "2000-10-15",
+        "authors": "M. R. Razvan",
+        "abstract": "In this paper, we give a complete analysis of an SIS epidemiological model in\na population of varying size with two dissimilar groups of infective\nindividuals. It is mainly based on the discussion of the existence and\nstability of equilibria of the proportions system and the result is in terms of\na threshold parameter which governs the stability of the disease free\nequilibrium.",
+        "link": "http://arxiv.org/pdf/math/0010150v1"
+    },
+    {
+        "title": "The Dynamics of a Vertically Transmitted Disease",
+        "year": "September 2000",
+        "date": "2000-09-26",
+        "authors": "M. R. Razvan",
+        "abstract": "An SIRS epidemiological model for a vertically transmitted disease is\ndiscussed. We give a complete global analysis in terms of three explicit\nthreshold parameters which respectively govern the existence and stability of\nan endemic proportion equilibrium, the increase of the total population and the\ngrowth of the infective population. This paper gereralize the results of\nBusenberg and van den Driessche.",
+        "link": "http://arxiv.org/pdf/math/0009223v2"
+    },
+    {
+        "title": "Destruction of CD4 T Lymphocytes Alone Cannot Account for their Long-term Decrease in AIDS",
+        "year": "August 2000",
+        "date": "2000-08-07",
+        "authors": "Yoram Louzoun, Irun. R. Cohen, Henri Atlan",
+        "abstract": "Following previous models describing a quasi steady state (QSS) for the\nevolution of HIV infection and AIDS, we have developed a larger formalism\nsimulating the long-term evolution of the QSS We show that the long-term\nevolution of AIDS cannot be explained by the destruction alone of CD4 T cells,\neither directly or indirectly. The destruction of CD4 T cells can lead only to\na QSS with a lower concentration of CD4 T cells, but CD4 destruction cannot\ngenerate the sustained long-term decrease in T cells leading to AIDS. We here\nsuggest some workable explanations.",
+        "link": "http://arxiv.org/pdf/math/0008052v1"
+    },
+    {
+        "title": "Modeling the influence of TH1 and TH2 type cells in autoimmune diseases",
+        "year": "June 2000",
+        "date": "2000-06-19",
+        "authors": "Y. Louzoun, H. Atlan, I. R. Cohen",
+        "abstract": "A sharp TH1/TH2 dichotomy has often been used to define the effects of\ncytokines on autoimmune diseases. However contradictory results in recent\nresearch indicate that the situation may be more complex. We build here a\nsimple mathematical model aimed at settling the contradictions. The model is\nbased on a neural network paradigm, and is applied using Partial Differential\nEquations (PDE). We show here that a TH1/TH2 paradigm is only an external view\nof a complex multivariate system.",
+        "link": "http://arxiv.org/pdf/math/0006127v1"
+    },
+    {
+        "title": "Global Stability of McKeithan's Kinetic Proofreading Model for T-Cell Receptor Signal Transduction",
+        "year": "December 1999",
+        "date": "1999-12-30",
+        "authors": "Eduardo D. Sontag",
+        "abstract": "This note presents a self-contained and streamlined exposition of\nchemical-network results due to Feinberg, Horn, and Jackson. As an application,\nit shows the global asymptotic stability to equilibria of McKeithan's kinetic\nproofreading model for T-cell receptor signal transduction.",
+        "link": "http://arxiv.org/pdf/math/9912237v1"
+    },
+    {
+        "title": "Switching model with two habitats and a predator involving group defence",
+        "year": "April 1998",
+        "date": "1998-04-01",
+        "authors": "Qamar J. A. Khan, Bal Swaroop Bhatt, R. P. Jaju",
+        "abstract": "Switching model with one predator and two prey species is considered. The\nprey species have the ability of group defence. Therefore, the predator will be\nattracted towards that habitat where prey are less in number. The stability\nanalysis is carried out for two equilibrium values. The theoretical results are\ncompared with the numerical results for a set of values. The Hopf bifuracation\nanalysis is done to support the stability results.",
+        "link": "http://arxiv.org/pdf/physics/9804038v1"
+    },
+    {
+        "title": "Gain-induced oscillations in blood pressure",
+        "year": "August 1997",
+        "date": "1997-08-16",
+        "authors": "Roselyn M. Abbiw-Jackson, William Langford",
+        "abstract": "\"Mayer waves\" are long-period (6 to 12 seconds) oscillations in arterial\nblood pressure, which have been observed and studied for more than 100 years in\nthe cardiovascular system of humans and other mammals. A mathematical model of\nthe human cardiovascular system is presented, incorporating parameters\nrelevantto the onset of Mayer waves. The model is analyzed using methods of\nLyapunov stability and Hopf bifurcation theory. The analysis shows that\nincrease in the gain of the baroreflex feedback loop controlling venous volume\nmay lead to the onset of oscillations, while changes in the other parameters\nconsidered do not affect stability of the equilibrium state. The results agree\nwith clinical observations of Mayer waves in human subjects, both in the period\nof the oscillations and in the observed age-dependence of Mayer waves. This\nleads to a proposed explanation of their occurrence, namely that Mayer waves\nare a \"gain-induced instability\".",
+        "link": "http://arxiv.org/pdf/math/9708211v1"
+    },
+    {
+        "title": "Neural Networks",
+        "year": "May 1997",
+        "date": "1997-05-27",
+        "authors": "Heinz Horner, Reimer Kuehn",
+        "abstract": "We review the theory of neural networks, as it has emerged in the last ten\nyears or so within the physics community, emphasizing questions of biological\nrelevance over those of importance in mathematical statistics and machine\nlearning theory.",
+        "link": "http://arxiv.org/pdf/cond-mat/9705270v1"
     },
     {
         "title": "Mass Extinction in a Simple Mathematical Biological Model",
         "year": "February 1997",
+        "date": "1997-02-19",
         "authors": "Kei Tokita, Ayumu Yasutomi",
         "abstract": "Introducing the effect of extinction into the so-called replicator equations\nin mathematical biology, we construct a general model of ecosystems. The\npresent model shows mass extinction by its own extinction dynamics when the\nsystem initially has a large number of species ( diversity). The extinction\ndynamics shows several significant features such as a power law in basin size\ndistribution, induction time, etc. The present theory can be a mathematical\nfoundation of the species-area effect in the paleontologic theory for mass\nextinction.",
         "link": "http://arxiv.org/pdf/adap-org/9702004v1"
-    },
-    {
-        "title": "For principled model fitting in mathematical biology",
-        "year": "April 2014",
-        "authors": "Thomas House",
-        "abstract": "The mathematical models used to capture features of complex, biological\nsystems are typically non-linear, meaning that there are no generally valid\nsimple relationships between their outputs and the data that might be used to\nvalidate them. This invalidates the assumptions behind standard statistical\nmethods such as linear regression, and often the methods used to parameterise\nbiological models from data are ad hoc. In this perspective, I will argue for\nan approach to model fitting in mathematical biology that incorporates modern\nstatistical methodology without losing the insights gained through non-linear\ndynamic models, and will call such an approach principled model fitting.\nPrincipled model fitting therefore involves defining likelihoods of observing\nreal data on the basis of models that capture key biological mechanisms.",
-        "link": "http://arxiv.org/pdf/1404.5324v1"
-    },
-    {
-        "title": "Increasing certainty in systems biology models using Bayesian multimodel inference",
-        "year": "June 2024",
-        "authors": "Nathaniel Linden-Santangeli, Jin Zhang, Boris Kramer, Padmini Rangamani",
-        "abstract": "Mathematical models are indispensable to the system biology toolkit for\nstudying the structure and behavior of intracellular signaling networks. A\ncommon approach to modeling is to develop a system of equations that encode the\nknown biology using approximations and simplifying assumptions. As a result,\nthe same signaling pathway can be represented by multiple models, each with its\nset of underlying assumptions, which opens up challenges for model selection\nand decreases certainty in model predictions. Here, we use Bayesian multimodel\ninference to develop a framework to increase certainty in systems biology\nmodels. Using models of the extracellular regulated kinase (ERK) pathway, we\nfirst show that multimodel inference increases predictive certainty and yields\npredictors that are robust to changes in the set of available models. We then\nshow that predictions made with multimodel inference are robust to data\nuncertainties introduced by decreasing the measurement duration and reducing\nthe sample size. Finally, we use multimodel inference to identify a new model\nto explain experimentally measured sub-cellular location-specific ERK activity\ndynamics. In summary, our framework highlights multimodel inference as a\ndisciplined approach to increasing the certainty of intracellular signaling\nactivity predictions.",
-        "link": "http://arxiv.org/pdf/2406.11178v1"
     }
 ]

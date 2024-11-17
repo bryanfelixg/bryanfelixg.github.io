@@ -16,7 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
         data.forEach(article => {
           const li = document.createElement('li');
           li.innerHTML = `
-            <b>${article.authors}</b> (${article.year}). <a href="${article.link}" target="_blank">${article.title}.</a>
+            <p><a href="${article.link}" target="_blank">${article.title} </a> (${article.year}).
+            <b>${article.authors}</b>.</p>
             <p>${article.abstract}</p>
           `;
           articlesList.appendChild(li);
