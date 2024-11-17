@@ -2,6 +2,7 @@ import json
 import os
 import re
 import arxiv
+from datetime import datetime, timedelta
 
 # Function to replace LaTeX equation delimiters
 def format_latex(text):
@@ -25,7 +26,13 @@ keywords = [
 
 categories = "cat:q-bio OR cat:cs.LG OR cat:math.DS OR math.AP OR math.CA OR math.HO"
 
-query = query = f"({' OR '.join(keywords)}) AND ({categories})"
+years_ago = 10
+years_ago_datetime = (datetime.now() - timedelta(days=3*365)).strftime('%Y%m%d')
+today = datetime.now().strftime('%Y%m%d')
+
+date_filter = f"submittedDate:[{years_ago_datetime} TO {today}]"
+
+query = f"({' OR '.join(keywords)}) AND ({categories}) AND {date_filter}"
 
 # Output Directory and filename
 output_dir = "./assets/"  
