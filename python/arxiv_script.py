@@ -27,7 +27,7 @@ keywords = [
 categories = "cat:q-bio OR cat:cs.LG OR cat:math.DS OR math.AP OR math.CA OR math.HO"
 
 years_ago = 10
-years_ago_datetime = (datetime.now() - timedelta(days=3*365)).strftime('%Y%m%d')
+years_ago_datetime = (datetime.now() - timedelta(days=years_ago*365)).strftime('%Y%m%d')
 today = datetime.now().strftime('%Y%m%d')
 
 date_filter = f"submittedDate:[{years_ago_datetime} TO {today}]"

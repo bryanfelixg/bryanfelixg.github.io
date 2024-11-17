@@ -1,43 +1,11 @@
 [
     {
-        "title": "Evolutionary Dispersal of Ecological Species via Multi-Agent Deep Reinforcement Learning",
-        "year": "October 2024",
-        "date": "2024-10-24",
-        "authors": "Wonhyung Choi, Inkyung Ahn",
-        "abstract": "Understanding species dynamics in heterogeneous environments is essential for\necosystem studies. Traditional models assumed homogeneous habitats, but recent\napproaches include spatial and temporal variability, highlighting species\nmigration. We adopt starvation-driven diffusion (SDD) models as nonlinear\ndiffusion to describe species dispersal based on local resource conditions,\nshowing advantages for species survival. However, accurate prediction remains\nchallenging due to model simplifications. This study uses multi-agent\nreinforcement learning (MARL) with deep Q-networks (DQN) to simulate single\nspecies and predator-prey interactions, incorporating SDD-type rewards. Our\nsimulations reveal evolutionary dispersal strategies, providing insights into\nspecies dispersal mechanisms and validating traditional mathematical models.",
-        "link": "http://arxiv.org/pdf/2410.18621v1"
-    },
-    {
-        "title": "ADAM-SINDy: An Efficient Optimization Framework for Parameterized Nonlinear Dynamical System Identification",
-        "year": "October 2024",
-        "date": "2024-10-21",
-        "authors": "Siva Viknesh, Younes Tatari, Amirhossein Arzani",
-        "abstract": "Identifying dynamical systems characterized by nonlinear parameters presents\nsignificant challenges in deriving mathematical models that enhance\nunderstanding of physics. Traditional methods, such as Sparse Identification of\nNonlinear Dynamics (SINDy) and symbolic regression, can extract governing\nequations from observational data; however, they also come with distinct\nadvantages and disadvantages. This paper introduces a novel method within the\nSINDy framework, termed ADAM-SINDy, which synthesizes the strengths of\nestablished approaches by employing the ADAM optimization algorithm. This\nfacilitates the simultaneous optimization of nonlinear parameters and\ncoefficients associated with nonlinear candidate functions, enabling precise\nparameter estimation without requiring prior knowledge of nonlinear\ncharacteristics such as trigonometric frequencies, exponential bandwidths, or\npolynomial exponents, thereby addressing a key limitation of SINDy. Through an\nintegrated global optimization, ADAM-SINDy dynamically adjusts all unknown\nvariables in response to data, resulting in an adaptive identification\nprocedure that reduces the sensitivity to the library of candidate functions.\nThe performance of the ADAM-SINDy methodology is demonstrated across a spectrum\nof dynamical systems, including benchmark coupled nonlinear ordinary\ndifferential equations such as oscillators, chaotic fluid flows, reaction\nkinetics, pharmacokinetics, as well as nonlinear partial differential equations\n(wildfire transport). The results demonstrate significant improvements in\nidentifying parameterized dynamical systems and underscore the importance of\nconcurrently optimizing all parameters, particularly those characterized by\nnonlinear parameters. These findings highlight the potential of ADAM-SINDy to\nextend the applicability of the SINDy framework in addressing more complex\nchallenges in dynamical system identification.",
-        "link": "http://arxiv.org/pdf/2410.16528v1"
-    },
-    {
         "title": "Learning the Rolling Penny Dynamics",
         "year": "October 2024",
         "date": "2024-10-19",
         "authors": "Baiyue Wang, Anthony Bloch",
         "abstract": "We consider learning the dynamics of a typical nonholonomic system -- the\nrolling penny. A nonholonomic system is a system subject to nonholonomic\nconstraints. Unlike holonomic constraints, a nonholonomic constraint does not\ndefine a submanifold on the configuration space. Therefore, the inverse problem\nof finding the constraints has to involve the tangent space. This paper discuss\nhow to learn the dynamics, as well as the constraints for such a system given\nthe data set of discrete trajectories on the tangent bundle \\(TQ\\).",
         "link": "http://arxiv.org/pdf/2410.15201v1"
-    },
-    {
-        "title": "Data-driven identification of latent port-Hamiltonian systems",
-        "year": "August 2024",
-        "date": "2024-08-15",
-        "authors": "Johannes Rettberg, Jonas Kneifl, Julius Herb, Patrick Buchfink, Jörg Fehr, Bernard Haasdonk",
-        "abstract": "Conventional physics-based modeling techniques involve high effort, e.g.,\ntime and expert knowledge, while data-driven methods often lack\ninterpretability, structure, and sometimes reliability. To mitigate this, we\npresent a data-driven system identification framework that derives models in\nthe port-Hamiltonian (pH) formulation. This formulation is suitable for\nmulti-physical systems while guaranteeing the useful system theoretical\nproperties of passivity and stability. Our framework combines linear and\nnonlinear reduction with structured, physics-motivated system identification.\nIn this process, high-dimensional state data obtained from possibly nonlinear\nsystems serves as input for an autoencoder, which then performs two tasks: (i)\nnonlinearly transforming and (ii) reducing this data onto a low-dimensional\nlatent space. In this space, a linear pH system, that satisfies the pH\nproperties per construction, is parameterized by the weights of a neural\nnetwork. The mathematical requirements are met by defining the pH matrices\nthrough Cholesky factorizations. The neural networks that define the coordinate\ntransformation and the pH system are identified in a joint optimization process\nto match the dynamics observed in the data while defining a linear pH system in\nthe latent space. The learned, low-dimensional pH system can describe even\nnonlinear systems and is rapidly computable due to its small size. The method\nis exemplified by a parametric mass-spring-damper and a nonlinear pendulum\nexample, as well as the high-dimensional model of a disc brake with linear\nthermoelastic behavior.",
-        "link": "http://arxiv.org/pdf/2408.08185v2"
-    },
-    {
-        "title": "Clustering in pure-attention hardmax transformers and its role in sentiment analysis",
-        "year": "June 2024",
-        "date": "2024-06-26",
-        "authors": "Albert Alcalde, Giovanni Fantuzzi, Enrique Zuazua",
-        "abstract": "Transformers are extremely successful machine learning models whose\nmathematical properties remain poorly understood. Here, we rigorously\ncharacterize the behavior of transformers with hardmax self-attention and\nnormalization sublayers as the number of layers tends to infinity. By viewing\nsuch transformers as discrete-time dynamical systems describing the evolution\nof points in a Euclidean space, and thanks to a geometric interpretation of the\nself-attention mechanism based on hyperplane separation, we show that the\ntransformer inputs asymptotically converge to a clustered equilibrium\ndetermined by special points called leaders. We then leverage this theoretical\nunderstanding to solve sentiment analysis problems from language processing\nusing a fully interpretable transformer model, which effectively captures\n`context' by clustering meaningless words around leader words carrying the most\nmeaning. Finally, we outline remaining challenges to bridge the gap between the\nmathematical analysis of transformers and their real-life implementation.",
-        "link": "http://arxiv.org/pdf/2407.01602v1"
     },
     {
         "title": "Reservoir Computing with Generalized Readout based on Generalized Synchronization",
@@ -54,14 +22,6 @@
         "authors": "Robert Szalai",
         "abstract": "We identify reduced order models (ROM) of forced systems from data using\ninvariant foliations. The forcing can be external, parametric, periodic or\nquasi-periodic. The process has four steps: 1. identify an approximate\ninvariant torus and the linear dynamics about the torus; 2. identify a globally\ndefined invariant foliation about the torus; 3. identify a local foliation\nabout an invariant manifold that complements the global foliation 4. extract\nthe invariant manifold as the leaf going through the torus and interpret the\nresult. We combine steps 2 and 3, so that we can track the location of the\ninvariant torus and scale the invariance equations appropriately. We highlight\nsome fundamental limitations of invariant manifolds and foliations when fitting\nthem to data, that require further mathematics to resolve.",
         "link": "http://arxiv.org/pdf/2403.14514v1"
-    },
-    {
-        "title": "The Impact of LoRA on the Emergence of Clusters in Transformers",
-        "year": "February 2024",
-        "date": "2024-02-23",
-        "authors": "Hugo Koubbi, Matthieu Boussard, Louis Hernandez",
-        "abstract": "In this paper, we employ the mathematical framework on Transformers developed\nby\n\\citet{sander2022sinkformers,geshkovski2023emergence,geshkovski2023mathematical}\nto explore how variations in attention parameters and initial token values\nimpact the structural dynamics of token clusters. Our analysis demonstrates\nthat while the clusters within a modified attention matrix dynamics can exhibit\nsignificant divergence from the original over extended periods, they maintain\nclose similarities over shorter intervals, depending on the parameter\ndifferences. This work contributes to the fine-tuning field through practical\napplications to the LoRA algorithm \\cite{hu2021lora,peft}, enhancing our\nunderstanding of the behavior of LoRA-enhanced Transformer models.",
-        "link": "http://arxiv.org/pdf/2402.15415v1"
     },
     {
         "title": "Differential Equations for Continuous-Time Deep Learning",
@@ -88,14 +48,6 @@
         "link": "http://arxiv.org/pdf/2307.11013v1"
     },
     {
-        "title": "On the convergence of nonlinear averaging dynamics with three-body interactions on hypergraphs",
-        "year": "April 2023",
-        "date": "2023-04-14",
-        "authors": "Emilio Cruciani, Emanuela L. Giacomelli, Jinyeop Lee",
-        "abstract": "Complex networked systems in fields such as physics, biology, and social\nsciences often involve interactions that extend beyond simple pairwise ones.\nHypergraphs serve as powerful modeling tools for describing and analyzing the\nintricate behaviors of systems with multi-body interactions. Herein, we\ninvestigate a discrete-time nonlinear averaging dynamics with three-body\ninteractions: an underlying hypergraph, comprising triples as hyperedges,\ndelineates the structure of these interactions, while the vertices update their\nstates through a weighted, state-dependent average of neighboring pairs'\nstates. This dynamics captures reinforcing group effects, such as peer\npressure, and exhibits higher-order dynamical effects resulting from a complex\ninterplay between initial states, hypergraph topology, and nonlinearity of the\nupdate. Differently from linear averaging dynamics on graphs with two-body\ninteractions, this model does not converge to the average of the initial states\nbut rather induces a shift. By assuming random initial states and by making\nsome regularity and density assumptions on the hypergraph, we prove that the\ndynamics converges to a multiplicatively-shifted average of the initial states,\nwith high probability. We further characterize the shift as a function of two\nparameters describing the initial state and interaction strength, as well as\nthe convergence time as a function of the hypergraph structure.",
-        "link": "http://arxiv.org/pdf/2304.07203v2"
-    },
-    {
         "title": "Direct Estimation of Parameters in ODE Models Using WENDy: Weak-form Estimation of Nonlinear Dynamics",
         "year": "February 2023",
         "date": "2023-02-26",
@@ -104,44 +56,12 @@
         "link": "http://arxiv.org/pdf/2302.13271v3"
     },
     {
-        "title": "The Lost Art of Mathematical Modelling",
-        "year": "January 2023",
-        "date": "2023-01-19",
-        "authors": "Linnéa Gyllingberg, Abeba Birhane, David J. T. Sumpter",
-        "abstract": "We provide a critique of mathematical biology in light of rapid developments\nin modern machine learning. We argue that out of the three modelling activities\n-- (1) formulating models; (2) analysing models; and (3) fitting or comparing\nmodels to data -- inherent to mathematical biology, researchers currently focus\ntoo much on activity (2) at the cost of (1). This trend, we propose, can be\nreversed by realising that any given biological phenomena can be modelled in an\ninfinite number of different ways, through the adoption of an open/pluralistic\napproach. We explain the open approach using fish locomotion as a case study\nand illustrate some of the pitfalls -- universalism, creating models of models,\netc. -- that hinder mathematical biology. We then ask how we might rediscover a\nlost art: that of creative mathematical modelling.\n  This article is dedicated to the memory of Edmund Crampin.",
-        "link": "http://arxiv.org/pdf/2301.08559v2"
-    },
-    {
         "title": "Generalized Quadratic Embeddings for Nonlinear Dynamics using Deep Learning",
         "year": "November 2022",
         "date": "2022-11-01",
         "authors": "Pawan Goyal, Peter Benner",
         "abstract": "The engineering design process often relies on mathematical modeling that can\ndescribe the underlying dynamic behavior. In this work, we present a\ndata-driven methodology for modeling the dynamics of nonlinear systems. To\nsimplify this task, we aim to identify a coordinate transformation that allows\nus to represent the dynamics of nonlinear systems using a common, simple model\nstructure. The advantage of a common simple model is that customized design\ntools developed for it can be applied to study a large variety of nonlinear\nsystems. The simplest common model -- one can think of -- is linear, but linear\nsystems often fall short in accurately capturing the complex dynamics of\nnonlinear systems. In this work, we propose using quadratic systems as the\ncommon structure, inspired by the lifting principle. According to this\nprinciple, smooth nonlinear systems can be expressed as quadratic systems in\nsuitable coordinates without approximation errors. However, finding these\ncoordinates solely from data is challenging. Here, we leverage deep learning to\nidentify such lifted coordinates using only data, enabling a quadratic\ndynamical system to describe the system's dynamics. Additionally, we discuss\nthe asymptotic stability of these quadratic dynamical systems. We illustrate\nthe approach using data collected from various numerical examples,\ndemonstrating its superior performance with the existing well-known techniques.",
         "link": "http://arxiv.org/pdf/2211.00357v2"
-    },
-    {
-        "title": "Structural Inference of Networked Dynamical Systems with Universal Differential Equations",
-        "year": "July 2022",
-        "date": "2022-07-11",
-        "authors": "James Koch, Zhao Chen, Aaron Tuor, Jan Drgona, Draguna Vrabie",
-        "abstract": "Networked dynamical systems are common throughout science in engineering;\ne.g., biological networks, reaction networks, power systems, and the like. For\nmany such systems, nonlinearity drives populations of identical (or\nnear-identical) units to exhibit a wide range of nontrivial behaviors, such as\nthe emergence of coherent structures (e.g., waves and patterns) or otherwise\nnotable dynamics (e.g., synchrony and chaos). In this work, we seek to infer\n(i) the intrinsic physics of a base unit of a population, (ii) the underlying\ngraphical structure shared between units, and (iii) the coupling physics of a\ngiven networked dynamical system given observations of nodal states. These\ntasks are formulated around the notion of the Universal Differential Equation,\nwhereby unknown dynamical systems can be approximated with neural networks,\nmathematical terms known a priori (albeit with unknown parameterizations), or\ncombinations of the two. We demonstrate the value of these inference tasks by\ninvestigating not only future state predictions but also the inference of\nsystem behavior on varied network topologies. The effectiveness and utility of\nthese methods is shown with their application to canonical networked nonlinear\ncoupled oscillators.",
-        "link": "http://arxiv.org/pdf/2207.04962v1"
-    },
-    {
-        "title": "Multisymplectic Formulation of Deep Learning Using Mean--Field Type Control and Nonlinear Stability of Training Algorithm",
-        "year": "July 2022",
-        "date": "2022-07-07",
-        "authors": "Nader Ganaba",
-        "abstract": "As it stands, a robust mathematical framework to analyse and study various\ntopics in deep learning is yet to come to the fore. Nonetheless, viewing deep\nlearning as a dynamical system allows the use of established theories to\ninvestigate the behaviour of deep neural networks. In order to study the\nstability of the training process, in this article, we formulate training of\ndeep neural networks as a hydrodynamics system, which has a multisymplectic\nstructure. For that, the deep neural network is modelled using a stochastic\ndifferential equation and, thereby, mean-field type control is used to train\nit. The necessary conditions for optimality of the mean--field type control\nreduce to a system of Euler-Poincare equations, which has the a similar\ngeometric structure to that of compressible fluids. The mean-field type control\nis solved numerically using a multisymplectic numerical scheme that takes\nadvantage of the underlying geometry. Moreover, the numerical scheme, yields an\napproximated solution which is also an exact solution of a hydrodynamics system\nwith a multisymplectic structure and it can be analysed using backward error\nanalysis. Further, nonlinear stability yields the condition for selecting the\nnumber of hidden layers and the number of nodes per layer, that makes the\ntraining stable while approximating the solution of a residual neural network\nwith a number of hidden layers approaching infinity.",
-        "link": "http://arxiv.org/pdf/2207.12242v1"
-    },
-    {
-        "title": "Learning Fine Scale Dynamics from Coarse Observations via Inner Recurrence",
-        "year": "June 2022",
-        "date": "2022-06-03",
-        "authors": "Victor Churchill, Dongbin Xiu",
-        "abstract": "Recent work has focused on data-driven learning of the evolution of unknown\nsystems via deep neural networks (DNNs), with the goal of conducting long term\nprediction of the dynamics of the unknown system. In many real-world\napplications, data from time-dependent systems are often collected on a time\nscale that is coarser than desired, due to various restrictions during the data\nacquisition process. Consequently, the observed dynamics can be severely\nunder-sampled and do not reflect the true dynamics of the underlying system.\nThis paper presents a computational technique to learn the fine-scale dynamics\nfrom such coarsely observed data. The method employs inner recurrence of a DNN\nto recover the fine-scale evolution operator of the underlying system. In\naddition to mathematical justification, several challenging numerical examples,\nincluding unknown systems of both ordinary and partial differential equations,\nare presented to demonstrate the effectiveness of the proposed method.",
-        "link": "http://arxiv.org/pdf/2206.01807v1"
     },
     {
         "title": "Scalable algorithms for physics-informed neural and graph networks",
@@ -158,5 +78,85 @@
         "authors": "Patrick Kidger",
         "abstract": "The conjoining of dynamical systems and deep learning has become a topic of\ngreat interest. In particular, neural differential equations (NDEs) demonstrate\nthat neural networks and differential equation are two sides of the same coin.\nTraditional parameterised differential equations are a special case. Many\npopular neural network architectures, such as residual networks and recurrent\nnetworks, are discretisations.\n  NDEs are suitable for tackling generative problems, dynamical systems, and\ntime series (particularly in physics, finance, ...) and are thus of interest to\nboth modern machine learning and traditional mathematical modelling. NDEs offer\nhigh-capacity function approximation, strong priors on model space, the ability\nto handle irregular data, memory efficiency, and a wealth of available theory\non both sides.\n  This doctoral thesis provides an in-depth survey of the field.\n  Topics include: neural ordinary differential equations (e.g. for hybrid\nneural/mechanistic modelling of physical systems); neural controlled\ndifferential equations (e.g. for learning functions of irregular time series);\nand neural stochastic differential equations (e.g. to produce generative models\ncapable of representing complex stochastic dynamics, or sampling from complex\nhigh-dimensional distributions).\n  Further topics include: numerical methods for NDEs (e.g. reversible\ndifferential equations solvers, backpropagation through differential equations,\nBrownian reconstruction); symbolic regression for dynamical systems (e.g. via\nregularised evolution); and deep implicit models (e.g. deep equilibrium models,\ndifferentiable optimisation).\n  We anticipate this thesis will be of interest to anyone interested in the\nmarriage of deep learning with dynamical systems, and hope it will provide a\nuseful reference for the current state of the art.",
         "link": "http://arxiv.org/pdf/2202.02435v1"
+    },
+    {
+        "title": "Coupled and Uncoupled Dynamic Mode Decomposition in Multi-Compartmental Systems with Applications to Epidemiological and Additive Manufacturing Problems",
+        "year": "October 2021",
+        "date": "2021-10-12",
+        "authors": "Alex Viguerie, Gabriel F. Barros, Malú Grave, Alessandro Reali, Alvaro L. G. A. Coutinho",
+        "abstract": "Dynamic Mode Decomposition (DMD) is an unsupervised machine learning method\nthat has attracted considerable attention in recent years owing to its\nequation-free structure, ability to easily identify coherent spatio-temporal\nstructures in data, and effectiveness in providing reasonably accurate\npredictions for certain problems. Despite these successes, the application of\nDMD to certain problems featuring highly nonlinear transient dynamics remains\nchallenging. In such cases, DMD may not only fail to provide acceptable\npredictions but may indeed fail to recreate the data in which it was trained,\nrestricting its application to diagnostic purposes. For many problems in the\nbiological and physical sciences, the structure of the system obeys a\ncompartmental framework, in which the transfer of mass within the system moves\nwithin states. In these cases, the behavior of the system may not be accurately\nrecreated by applying DMD to a single quantity within the system, as proper\nknowledge of the system dynamics, even for a single compartment, requires that\nthe behavior of other compartments is taken into account in the DMD process. In\nthis work, we demonstrate, theoretically and numerically, that, when performing\nDMD on a fully coupled PDE system with compartmental structure, one may recover\nuseful predictive behavior, even when DMD performs poorly when acting\ncompartment-wise. We also establish that important physical quantities, as mass\nconservation, are maintained in the coupled-DMD extrapolation. The mathematical\nand numerical analysis suggests that DMD may be a powerful tool when applied to\nthis common class of problems. In particular, we show interesting numerical\napplications to a continuous delayed-SIRD model for Covid-19, and to a problem\nfrom additive manufacturing considering a nonlinear temperature field and the\nresulting change of material phase from powder, liquid, and solid states.",
+        "link": "http://arxiv.org/pdf/2110.06375v1"
+    },
+    {
+        "title": "Accelerating Neural ODEs Using Model Order Reduction",
+        "year": "May 2021",
+        "date": "2021-05-28",
+        "authors": "Mikko Lehtimäki, Lassi Paunonen, Marja-Leena Linne",
+        "abstract": "Embedding nonlinear dynamical systems into artificial neural networks is a\npowerful new formalism for machine learning. By parameterizing ordinary\ndifferential equations (ODEs) as neural network layers, these Neural ODEs are\nmemory-efficient to train, process time-series naturally and incorporate\nknowledge of physical systems into deep learning models. However, the practical\napplications of Neural ODEs are limited due to long inference times, because\nthe outputs of the embedded ODE layers are computed numerically with\ndifferential equation solvers that can be computationally demanding. Here we\nshow that mathematical model order reduction methods can be used for\ncompressing and accelerating Neural ODEs by accurately simulating the\ncontinuous nonlinear dynamics in low-dimensional subspaces. We implement our\nnovel compression method by developing Neural ODEs that integrate the necessary\nsubspace-projection and interpolation operations as layers of the neural\nnetwork. We validate our approach by comparing it to neuron pruning and\nSVD-based weight truncation methods from the literature in image and\ntime-series classification tasks. The methods are evaluated by acceleration\nversus accuracy when adjusting the level of compression. On this spectrum, we\nachieve a favourable balance over existing methods by using model order\nreduction when compressing a convolutional Neural ODE. In compressing a\nrecurrent Neural ODE, SVD-based weight truncation yields good performance.\nBased on our results, our integration of model order reduction with Neural ODEs\ncan facilitate efficient, dynamical system-driven deep learning in\nresource-constrained applications.",
+        "link": "http://arxiv.org/pdf/2105.14070v2"
+    },
+    {
+        "title": "LQResNet: A Deep Neural Network Architecture for Learning Dynamic Processes",
+        "year": "March 2021",
+        "date": "2021-03-03",
+        "authors": "Pawan Goyal, Peter Benner",
+        "abstract": "Mathematical modeling is an essential step, for example, to analyze the\ntransient behavior of a dynamical process and to perform engineering studies\nsuch as optimization and control. With the help of first-principles and expert\nknowledge, a dynamic model can be built, but for complex dynamic processes,\nappearing, e.g., in biology, chemical plants, neuroscience, financial markets,\nthis often remains an onerous task. Hence, data-driven modeling of the dynamics\nprocess becomes an attractive choice and is supported by the rapid advancement\nin sensor and measurement technology. A data-driven approach, namely operator\ninference framework, models a dynamic process, where a particular structure of\nthe nonlinear term is assumed. In this work, we suggest combining the operator\ninference with certain deep neural network approaches to infer the unknown\nnonlinear dynamics of the system. The approach uses recent advancements in deep\nlearning and possible prior knowledge of the process if possible. We also\nbriefly discuss several extensions and advantages of the proposed methodology.\nWe demonstrate that the proposed methodology accomplishes the desired tasks for\ndynamics processes encountered in neural dynamics and the glycolytic\noscillator.",
+        "link": "http://arxiv.org/pdf/2103.02249v2"
+    },
+    {
+        "title": "Deep Reinforcement Learning with Function Properties in Mean Reversion Strategies",
+        "year": "January 2021",
+        "date": "2021-01-09",
+        "authors": "Sophia Gu",
+        "abstract": "Over the past decades, researchers have been pushing the limits of Deep\nReinforcement Learning (DRL). Although DRL has attracted substantial interest\nfrom practitioners, many are blocked by having to search through a plethora of\navailable methodologies that are seemingly alike, while others are still\nbuilding RL agents from scratch based on classical theories. To address the\naforementioned gaps in adopting the latest DRL methods, I am particularly\ninterested in testing out if any of the recent technology developed by the\nleads in the field can be readily applied to a class of optimal trading\nproblems. Unsurprisingly, many prominent breakthroughs in DRL are investigated\nand tested on strategic games: from AlphaGo to AlphaStar and at about the same\ntime, OpenAI Five. Thus, in this writing, I want to show precisely how to use a\nDRL library that is initially built for games in a fundamental trading problem;\nmean reversion. And by introducing a framework that incorporates\neconomically-motivated function properties, I also demonstrate, through the\nlibrary, a highly-performant and convergent DRL solution to decision-making\nfinancial problems in general.",
+        "link": "http://arxiv.org/pdf/2101.03418v3"
+    },
+    {
+        "title": "Some open problems in low dimensional dynamical systems",
+        "year": "December 2020",
+        "date": "2020-12-04",
+        "authors": "Armengol Gasull",
+        "abstract": "The aim of this paper is to share with the mathematical community a list of\n33 problems that I have found along the years during my research. I believe\nthat it is worth to think about them and, hopefully, it will be possible either\nto solve some of the problems or to make some substantial progress. Many of\nthem are about planar differential equations but there are also questions about\nother mathematical aspects: Abel differential equations, difference equations,\nglobal asymptotic stability, geometrical questions, problems involving\npolynomials or some recreational problems with a dynamical component.",
+        "link": "http://arxiv.org/pdf/2012.02524v1"
+    },
+    {
+        "title": "Learning Theory for Inferring Interaction Kernels in Second-Order Interacting Agent Systems",
+        "year": "October 2020",
+        "date": "2020-10-08",
+        "authors": "Jason Miller, Sui Tang, Ming Zhong, Mauro Maggioni",
+        "abstract": "Modeling the complex interactions of systems of particles or agents is a\nfundamental scientific and mathematical problem that is studied in diverse\nfields, ranging from physics and biology, to economics and machine learning. In\nthis work, we describe a very general second-order, heterogeneous,\nmultivariable, interacting agent model, with an environment, that encompasses a\nwide variety of known systems. We describe an inference framework that uses\nnonparametric regression and approximation theory based techniques to\nefficiently derive estimators of the interaction kernels which drive these\ndynamical systems. We develop a complete learning theory which establishes\nstrong consistency and optimal nonparametric min-max rates of convergence for\nthe estimators, as well as provably accurate predicted trajectories. The\nestimators exploit the structure of the equations in order to overcome the\ncurse of dimensionality and we describe a fundamental coercivity condition on\nthe inverse problem which ensures that the kernels can be learned and relates\nto the minimal singular value of the learning matrix. The numerical algorithm\npresented to build the estimators is parallelizable, performs well on\nhigh-dimensional problems, and is demonstrated on complex dynamical systems.",
+        "link": "http://arxiv.org/pdf/2010.03729v1"
+    },
+    {
+        "title": "Learning Dynamical Systems with Side Information",
+        "year": "August 2020",
+        "date": "2020-08-23",
+        "authors": "Amir Ali Ahmadi, Bachir El Khadir",
+        "abstract": "We present a mathematical and computational framework for the problem of\nlearning a dynamical system from noisy observations of a few trajectories and\nsubject to side information. Side information is any knowledge we might have\nabout the dynamical system we would like to learn besides trajectory data. It\nis typically inferred from domain-specific knowledge or basic principles of a\nscientific discipline. We are interested in explicitly integrating side\ninformation into the learning process in order to compensate for scarcity of\ntrajectory observations. We identify six types of side information that arise\nnaturally in many applications and lead to convex constraints in the learning\nproblem. First, we show that when our model for the unknown dynamical system is\nparameterized as a polynomial, one can impose our side information constraints\ncomputationally via semidefinite programming. We then demonstrate the added\nvalue of side information for learning the dynamics of basic models in physics\nand cell biology, as well as for learning and controlling the dynamics of a\nmodel in epidemiology. Finally, we study how well polynomial dynamical systems\ncan approximate continuously-differentiable ones while satisfying side\ninformation (either exactly or approximately). Our overall learning methodology\ncombines ideas from convex optimization, real algebra, dynamical systems, and\nfunctional approximation theory, and can potentially lead to new synergies\nbetween these areas.",
+        "link": "http://arxiv.org/pdf/2008.10135v2"
+    },
+    {
+        "title": "Asymptotic expansions for the Lagrangian trajectories from solutions of the Navier-Stokes equations",
+        "year": "March 2020",
+        "date": "2020-03-21",
+        "authors": "Luan Hoang",
+        "abstract": "Consider any Leray-Hopf weak solution of the three-dimensional Navier-Stokes\nequations for incompressible, viscous fluid flows. We prove that any Lagrangian\ntrajectory associated with such a velocity field has an asymptotic expansion,\nas time tends to infinity, which describes its long-time behavior very\nprecisely.",
+        "link": "http://arxiv.org/pdf/2003.09749v2"
+    },
+    {
+        "title": "On the overfly algorithm in deep learning of neural networks",
+        "year": "July 2018",
+        "date": "2018-07-27",
+        "authors": "Alexei Tsygvintsev",
+        "abstract": "In this paper we investigate the supervised backpropagation training of\nmultilayer neural networks from a dynamical systems point of view. We discuss\nsome links with the qualitative theory of differential equations and introduce\nthe overfly algorithm to tackle the local minima problem. Our approach is based\non the existence of first integrals of the generalised gradient system with\nbuild-in dissipation.",
+        "link": "http://arxiv.org/pdf/1807.10668v6"
+    },
+    {
+        "title": "Dynamical features of the MAPK cascade",
+        "year": "August 2015",
+        "date": "2015-08-31",
+        "authors": "Juliette Hell, Alan D. Rendall",
+        "abstract": "The MAP kinase cascade is an important signal transduction system in\nmolecular biology for which a lot of mathematical modelling has been done. This\npaper surveys what has been proved mathematically about the qualitative\nproperties of solutions of the ordinary differential equations arising as\nmodels for this biological system. It focusses, in particular, on the issues of\nmultistability and the existence of sustained oscillations. It also gives a\nconcise introduction to the mathematical techniques used in this context,\nbifurcation theory and geometric singular perturbation theory, as they relate\nto these specific examples. In addition further directions are presented in\nwhich the applications of these techniques could be extended in the future.",
+        "link": "http://arxiv.org/pdf/1508.07822v1"
     }
 ]
