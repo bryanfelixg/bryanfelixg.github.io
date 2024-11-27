@@ -4,8 +4,8 @@
         "year": "October 2024",
         "date": "2024-10-19",
         "authors": "Baiyue Wang, Anthony Bloch",
-        "abstract": "We consider learning the dynamics of a typical nonholonomic system -- the\nrolling penny. A nonholonomic system is a system subject to nonholonomic\nconstraints. Unlike holonomic constraints, a nonholonomic constraint does not\ndefine a submanifold on the configuration space. Therefore, the inverse problem\nof finding the constraints has to involve the tangent space. This paper discuss\nhow to learn the dynamics, as well as the constraints for such a system given\nthe data set of discrete trajectories on the tangent bundle \\(TQ\\).",
-        "link": "http://arxiv.org/pdf/2410.15201v1"
+        "abstract": "We consider learning the dynamics of a typical nonholonomic system -- the\nrolling penny. A nonholonomic system is a system subject to nonholonomic\nconstraints. Unlike a holonomic constraints, a nonholonomic constraint does not\ndefine a submanifold on the configuration space. Therefore, the inverse problem\nof finding the constraints has to involve the tangent space. This paper\ndiscusses how to learn the dynamics, as well as the constraints for such a\nsystem, given the data set of discrete trajectories on the tangent bundle \\(TQ\\).",
+        "link": "http://arxiv.org/pdf/2410.15201v2"
     },
     {
         "title": "Reservoir Computing with Generalized Readout based on Generalized Synchronization",
