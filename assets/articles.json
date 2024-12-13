@@ -1,5 +1,13 @@
 [
     {
+        "title": "Koopman Theory-Inspired Method for Learning Time Advancement Operators in Unstable Flame Front Evolution",
+        "year": "December 2024",
+        "date": "2024-12-11",
+        "authors": "Rixin Yu, Marco Herbert, Markus Klein, Erdzan Hodzic",
+        "abstract": "Predicting the evolution of complex systems governed by partial differential\nequations (PDEs) remains challenging, especially for nonlinear, chaotic\nbehaviors. This study introduces Koopman-inspired Fourier Neural Operators\n(kFNO) and Convolutional Neural Networks (kCNN) to learn solution advancement\noperators for flame front instabilities. By transforming data into a\nhigh-dimensional latent space, these models achieve more accurate multi-step\npredictions compared to traditional methods. Benchmarking across one- and\ntwo-dimensional flame front scenarios demonstrates the proposed approaches'\nsuperior performance in short-term accuracy and long-term statistical\nreproduction, offering a promising framework for modeling complex dynamical\nsystems.",
+        "link": "http://arxiv.org/pdf/2412.08426v1"
+    },
+    {
         "title": "Learning the Rolling Penny Dynamics",
         "year": "October 2024",
         "date": "2024-10-19",
@@ -14,14 +22,6 @@
         "authors": "Akane Ookubo, Masanobu Inubushi",
         "abstract": "Reservoir computing is a machine learning framework that exploits nonlinear\ndynamics, exhibiting significant computational capabilities. One of the\ndefining characteristics of reservoir computing is its low cost and\nstraightforward training algorithm, i.e. only the readout, given by a linear\ncombination of reservoir variables, is trained. Inspired by recent mathematical\nstudies based on dynamical system theory, in particular generalized\nsynchronization, we propose a novel reservoir computing framework with\ngeneralized readout, including a nonlinear combination of reservoir variables.\nThe first crucial advantage of using the generalized readout is its\nmathematical basis for improving information processing capabilities. Secondly,\nit is still within a linear learning framework, which preserves the original\nstrength of reservoir computing. In summary, the generalized readout is\nnaturally derived from mathematical theory and allows the extraction of useful\nbasis functions from reservoir dynamics without sacrificing simplicity. In a\nnumerical study, we find that introducing the generalized readout leads to a\nsignificant improvement in accuracy and an unexpected enhancement in robustness\nfor the short- and long-term prediction of Lorenz chaos, with a particular\nfocus on how to harness low-dimensional reservoir dynamics. A novel way and its\nadvantages for physical implementations of reservoir computing with generalized\nreadout are briefly discussed.",
         "link": "http://arxiv.org/pdf/2405.14885v1"
-    },
-    {
-        "title": "Machine-learning invariant foliations in forced systems for reduced order modelling",
-        "year": "March 2024",
-        "date": "2024-03-21",
-        "authors": "Robert Szalai",
-        "abstract": "We identify reduced order models (ROM) of forced systems from data using\ninvariant foliations. The forcing can be external, parametric, periodic or\nquasi-periodic. The process has four steps: 1. identify an approximate\ninvariant torus and the linear dynamics about the torus; 2. identify a globally\ndefined invariant foliation about the torus; 3. identify a local foliation\nabout an invariant manifold that complements the global foliation 4. extract\nthe invariant manifold as the leaf going through the torus and interpret the\nresult. We combine steps 2 and 3, so that we can track the location of the\ninvariant torus and scale the invariance equations appropriately. We highlight\nsome fundamental limitations of invariant manifolds and foliations when fitting\nthem to data, that require further mathematics to resolve.",
-        "link": "http://arxiv.org/pdf/2403.14514v1"
     },
     {
         "title": "Differential Equations for Continuous-Time Deep Learning",
