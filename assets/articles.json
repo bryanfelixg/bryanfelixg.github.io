@@ -1,162 +1,170 @@
-[
-    {
-        "title": "Learning the Rolling Penny Dynamics",
-        "year": "October 2024",
-        "date": "2024-10-19",
-        "authors": "Baiyue Wang, Anthony Bloch",
-        "abstract": "We consider learning the dynamics of a typical nonholonomic system -- the\nrolling penny. A nonholonomic system is a system subject to nonholonomic\nconstraints. Unlike holonomic constraints, a nonholonomic constraint does not\ndefine a submanifold on the configuration space. Therefore, the inverse problem\nof finding the constraints has to involve the tangent space. This paper discuss\nhow to learn the dynamics, as well as the constraints for such a system given\nthe data set of discrete trajectories on the tangent bundle \\(TQ\\).",
-        "link": "http://arxiv.org/pdf/2410.15201v1"
-    },
-    {
-        "title": "Reservoir Computing with Generalized Readout based on Generalized Synchronization",
-        "year": "May 2024",
-        "date": "2024-05-03",
-        "authors": "Akane Ookubo, Masanobu Inubushi",
-        "abstract": "Reservoir computing is a machine learning framework that exploits nonlinear\ndynamics, exhibiting significant computational capabilities. One of the\ndefining characteristics of reservoir computing is its low cost and\nstraightforward training algorithm, i.e. only the readout, given by a linear\ncombination of reservoir variables, is trained. Inspired by recent mathematical\nstudies based on dynamical system theory, in particular generalized\nsynchronization, we propose a novel reservoir computing framework with\ngeneralized readout, including a nonlinear combination of reservoir variables.\nThe first crucial advantage of using the generalized readout is its\nmathematical basis for improving information processing capabilities. Secondly,\nit is still within a linear learning framework, which preserves the original\nstrength of reservoir computing. In summary, the generalized readout is\nnaturally derived from mathematical theory and allows the extraction of useful\nbasis functions from reservoir dynamics without sacrificing simplicity. In a\nnumerical study, we find that introducing the generalized readout leads to a\nsignificant improvement in accuracy and an unexpected enhancement in robustness\nfor the short- and long-term prediction of Lorenz chaos, with a particular\nfocus on how to harness low-dimensional reservoir dynamics. A novel way and its\nadvantages for physical implementations of reservoir computing with generalized\nreadout are briefly discussed.",
-        "link": "http://arxiv.org/pdf/2405.14885v1"
-    },
-    {
-        "title": "Machine-learning invariant foliations in forced systems for reduced order modelling",
-        "year": "March 2024",
-        "date": "2024-03-21",
-        "authors": "Robert Szalai",
-        "abstract": "We identify reduced order models (ROM) of forced systems from data using\ninvariant foliations. The forcing can be external, parametric, periodic or\nquasi-periodic. The process has four steps: 1. identify an approximate\ninvariant torus and the linear dynamics about the torus; 2. identify a globally\ndefined invariant foliation about the torus; 3. identify a local foliation\nabout an invariant manifold that complements the global foliation 4. extract\nthe invariant manifold as the leaf going through the torus and interpret the\nresult. We combine steps 2 and 3, so that we can track the location of the\ninvariant torus and scale the invariance equations appropriately. We highlight\nsome fundamental limitations of invariant manifolds and foliations when fitting\nthem to data, that require further mathematics to resolve.",
-        "link": "http://arxiv.org/pdf/2403.14514v1"
-    },
-    {
-        "title": "Differential Equations for Continuous-Time Deep Learning",
-        "year": "January 2024",
-        "date": "2024-01-08",
-        "authors": "Lars Ruthotto",
-        "abstract": "This short, self-contained article seeks to introduce and survey\ncontinuous-time deep learning approaches that are based on neural ordinary\ndifferential equations (neural ODEs). It primarily targets readers familiar\nwith ordinary and partial differential equations and their analysis who are\ncurious to see their role in machine learning. Using three examples from\nmachine learning and applied mathematics, we will see how neural ODEs can\nprovide new insights into deep learning and a foundation for more efficient\nalgorithms.",
-        "link": "http://arxiv.org/pdf/2401.03965v1"
-    },
-    {
-        "title": "A mathematical perspective on Transformers",
-        "year": "December 2023",
-        "date": "2023-12-17",
-        "authors": "Borjan Geshkovski, Cyril Letrouit, Yury Polyanskiy, Philippe Rigollet",
-        "abstract": "Transformers play a central role in the inner workings of large language\nmodels. We develop a mathematical framework for analyzing Transformers based on\ntheir interpretation as interacting particle systems, which reveals that\nclusters emerge in long time. Our study explores the underlying theory and\noffers new perspectives for mathematicians as well as computer scientists.",
-        "link": "http://arxiv.org/pdf/2312.10794v4"
-    },
-    {
-        "title": "Flow Map Learning for Unknown Dynamical Systems: Overview, Implementation, and Benchmarks",
-        "year": "July 2023",
-        "date": "2023-07-20",
-        "authors": "Victor Churchill, Dongbin Xiu",
-        "abstract": "Flow map learning (FML), in conjunction with deep neural networks (DNNs), has\nshown promises for data driven modeling of unknown dynamical systems. A\nremarkable feature of FML is that it is capable of producing accurate\npredictive models for partially observed systems, even when their exact\nmathematical models do not exist. In this paper, we present an overview of the\nFML framework, along with the important computational details for its\nsuccessful implementation. We also present a set of well defined benchmark\nproblems for learning unknown dynamical systems. All the numerical details of\nthese problems are presented, along with their FML results, to ensure that the\nproblems are accessible for cross-examination and the results are reproducible.",
-        "link": "http://arxiv.org/pdf/2307.11013v1"
-    },
-    {
-        "title": "Direct Estimation of Parameters in ODE Models Using WENDy: Weak-form Estimation of Nonlinear Dynamics",
-        "year": "February 2023",
-        "date": "2023-02-26",
-        "authors": "David M. Bortz, Daniel A. Messenger, Vanja Dukic",
-        "abstract": "We introduce the Weak-form Estimation of Nonlinear Dynamics (WENDy) method\nfor estimating model parameters for non-linear systems of ODEs. Without relying\non any numerical differential equation solvers, WENDy computes accurate\nestimates and is robust to large (biologically relevant) levels of measurement\nnoise. For low dimensional systems with modest amounts of data, WENDy is\ncompetitive with conventional forward solver-based nonlinear least squares\nmethods in terms of speed and accuracy. For both higher dimensional systems and\nstiff systems, WENDy is typically both faster (often by orders of magnitude)\nand more accurate than forward solver-based approaches.\n  The core mathematical idea involves an efficient conversion of the strong\nform representation of a model to its weak form, and then solving a regression\nproblem to perform parameter inference. The core statistical idea rests on the\nErrors-In-Variables framework, which necessitates the use of the iteratively\nreweighted least squares algorithm. Further improvements are obtained by using\northonormal test functions, created from a set of C-infinity bump functions of\nvarying support sizes.\n  We demonstrate the high robustness and computational efficiency by applying\nWENDy to estimate parameters in some common models from population biology,\nneuroscience, and biochemistry, including logistic growth, Lotka-Volterra,\nFitzHugh-Nagumo, Hindmarsh-Rose, and a Protein Transduction Benchmark model.\nSoftware and code for reproducing the examples is available at\n(https://github.com/MathBioCU/WENDy).",
-        "link": "http://arxiv.org/pdf/2302.13271v3"
-    },
-    {
-        "title": "Generalized Quadratic Embeddings for Nonlinear Dynamics using Deep Learning",
-        "year": "November 2022",
-        "date": "2022-11-01",
-        "authors": "Pawan Goyal, Peter Benner",
-        "abstract": "The engineering design process often relies on mathematical modeling that can\ndescribe the underlying dynamic behavior. In this work, we present a\ndata-driven methodology for modeling the dynamics of nonlinear systems. To\nsimplify this task, we aim to identify a coordinate transformation that allows\nus to represent the dynamics of nonlinear systems using a common, simple model\nstructure. The advantage of a common simple model is that customized design\ntools developed for it can be applied to study a large variety of nonlinear\nsystems. The simplest common model -- one can think of -- is linear, but linear\nsystems often fall short in accurately capturing the complex dynamics of\nnonlinear systems. In this work, we propose using quadratic systems as the\ncommon structure, inspired by the lifting principle. According to this\nprinciple, smooth nonlinear systems can be expressed as quadratic systems in\nsuitable coordinates without approximation errors. However, finding these\ncoordinates solely from data is challenging. Here, we leverage deep learning to\nidentify such lifted coordinates using only data, enabling a quadratic\ndynamical system to describe the system's dynamics. Additionally, we discuss\nthe asymptotic stability of these quadratic dynamical systems. We illustrate\nthe approach using data collected from various numerical examples,\ndemonstrating its superior performance with the existing well-known techniques.",
-        "link": "http://arxiv.org/pdf/2211.00357v2"
-    },
-    {
-        "title": "Scalable algorithms for physics-informed neural and graph networks",
-        "year": "May 2022",
-        "date": "2022-05-16",
-        "authors": "Khemraj Shukla, Mengjia Xu, Nathaniel Trask, George Em Karniadakis",
-        "abstract": "Physics-informed machine learning (PIML) has emerged as a promising new\napproach for simulating complex physical and biological systems that are\ngoverned by complex multiscale processes for which some data are also\navailable. In some instances, the objective is to discover part of the hidden\nphysics from the available data, and PIML has been shown to be particularly\neffective for such problems for which conventional methods may fail. Unlike\ncommercial machine learning where training of deep neural networks requires big\ndata, in PIML big data are not available. Instead, we can train such networks\nfrom additional information obtained by employing the physical laws and\nevaluating them at random points in the space-time domain. Such\nphysics-informed machine learning integrates multimodality and multifidelity\ndata with mathematical models, and implements them using neural networks or\ngraph networks. Here, we review some of the prevailing trends in embedding\nphysics into machine learning, using physics-informed neural networks (PINNs)\nbased primarily on feed-forward neural networks and automatic differentiation.\nFor more complex systems or systems of systems and unstructured data, graph\nneural networks (GNNs) present some distinct advantages, and here we review how\nphysics-informed learning can be accomplished with GNNs based on graph exterior\ncalculus to construct differential operators; we refer to these architectures\nas physics-informed graph networks (PIGNs). We present representative examples\nfor both forward and inverse problems and discuss what advances are needed to\nscale up PINNs, PIGNs and more broadly GNNs for large-scale engineering\nproblems.",
-        "link": "http://arxiv.org/pdf/2205.08332v1"
-    },
-    {
-        "title": "On Neural Differential Equations",
-        "year": "February 2022",
-        "date": "2022-02-04",
-        "authors": "Patrick Kidger",
-        "abstract": "The conjoining of dynamical systems and deep learning has become a topic of\ngreat interest. In particular, neural differential equations (NDEs) demonstrate\nthat neural networks and differential equation are two sides of the same coin.\nTraditional parameterised differential equations are a special case. Many\npopular neural network architectures, such as residual networks and recurrent\nnetworks, are discretisations.\n  NDEs are suitable for tackling generative problems, dynamical systems, and\ntime series (particularly in physics, finance, ...) and are thus of interest to\nboth modern machine learning and traditional mathematical modelling. NDEs offer\nhigh-capacity function approximation, strong priors on model space, the ability\nto handle irregular data, memory efficiency, and a wealth of available theory\non both sides.\n  This doctoral thesis provides an in-depth survey of the field.\n  Topics include: neural ordinary differential equations (e.g. for hybrid\nneural/mechanistic modelling of physical systems); neural controlled\ndifferential equations (e.g. for learning functions of irregular time series);\nand neural stochastic differential equations (e.g. to produce generative models\ncapable of representing complex stochastic dynamics, or sampling from complex\nhigh-dimensional distributions).\n  Further topics include: numerical methods for NDEs (e.g. reversible\ndifferential equations solvers, backpropagation through differential equations,\nBrownian reconstruction); symbolic regression for dynamical systems (e.g. via\nregularised evolution); and deep implicit models (e.g. deep equilibrium models,\ndifferentiable optimisation).\n  We anticipate this thesis will be of interest to anyone interested in the\nmarriage of deep learning with dynamical systems, and hope it will provide a\nuseful reference for the current state of the art.",
-        "link": "http://arxiv.org/pdf/2202.02435v1"
-    },
-    {
-        "title": "Coupled and Uncoupled Dynamic Mode Decomposition in Multi-Compartmental Systems with Applications to Epidemiological and Additive Manufacturing Problems",
-        "year": "October 2021",
-        "date": "2021-10-12",
-        "authors": "Alex Viguerie, Gabriel F. Barros, Malú Grave, Alessandro Reali, Alvaro L. G. A. Coutinho",
-        "abstract": "Dynamic Mode Decomposition (DMD) is an unsupervised machine learning method\nthat has attracted considerable attention in recent years owing to its\nequation-free structure, ability to easily identify coherent spatio-temporal\nstructures in data, and effectiveness in providing reasonably accurate\npredictions for certain problems. Despite these successes, the application of\nDMD to certain problems featuring highly nonlinear transient dynamics remains\nchallenging. In such cases, DMD may not only fail to provide acceptable\npredictions but may indeed fail to recreate the data in which it was trained,\nrestricting its application to diagnostic purposes. For many problems in the\nbiological and physical sciences, the structure of the system obeys a\ncompartmental framework, in which the transfer of mass within the system moves\nwithin states. In these cases, the behavior of the system may not be accurately\nrecreated by applying DMD to a single quantity within the system, as proper\nknowledge of the system dynamics, even for a single compartment, requires that\nthe behavior of other compartments is taken into account in the DMD process. In\nthis work, we demonstrate, theoretically and numerically, that, when performing\nDMD on a fully coupled PDE system with compartmental structure, one may recover\nuseful predictive behavior, even when DMD performs poorly when acting\ncompartment-wise. We also establish that important physical quantities, as mass\nconservation, are maintained in the coupled-DMD extrapolation. The mathematical\nand numerical analysis suggests that DMD may be a powerful tool when applied to\nthis common class of problems. In particular, we show interesting numerical\napplications to a continuous delayed-SIRD model for Covid-19, and to a problem\nfrom additive manufacturing considering a nonlinear temperature field and the\nresulting change of material phase from powder, liquid, and solid states.",
-        "link": "http://arxiv.org/pdf/2110.06375v1"
-    },
-    {
-        "title": "Accelerating Neural ODEs Using Model Order Reduction",
-        "year": "May 2021",
-        "date": "2021-05-28",
-        "authors": "Mikko Lehtimäki, Lassi Paunonen, Marja-Leena Linne",
-        "abstract": "Embedding nonlinear dynamical systems into artificial neural networks is a\npowerful new formalism for machine learning. By parameterizing ordinary\ndifferential equations (ODEs) as neural network layers, these Neural ODEs are\nmemory-efficient to train, process time-series naturally and incorporate\nknowledge of physical systems into deep learning models. However, the practical\napplications of Neural ODEs are limited due to long inference times, because\nthe outputs of the embedded ODE layers are computed numerically with\ndifferential equation solvers that can be computationally demanding. Here we\nshow that mathematical model order reduction methods can be used for\ncompressing and accelerating Neural ODEs by accurately simulating the\ncontinuous nonlinear dynamics in low-dimensional subspaces. We implement our\nnovel compression method by developing Neural ODEs that integrate the necessary\nsubspace-projection and interpolation operations as layers of the neural\nnetwork. We validate our approach by comparing it to neuron pruning and\nSVD-based weight truncation methods from the literature in image and\ntime-series classification tasks. The methods are evaluated by acceleration\nversus accuracy when adjusting the level of compression. On this spectrum, we\nachieve a favourable balance over existing methods by using model order\nreduction when compressing a convolutional Neural ODE. In compressing a\nrecurrent Neural ODE, SVD-based weight truncation yields good performance.\nBased on our results, our integration of model order reduction with Neural ODEs\ncan facilitate efficient, dynamical system-driven deep learning in\nresource-constrained applications.",
-        "link": "http://arxiv.org/pdf/2105.14070v2"
-    },
-    {
-        "title": "LQResNet: A Deep Neural Network Architecture for Learning Dynamic Processes",
-        "year": "March 2021",
-        "date": "2021-03-03",
-        "authors": "Pawan Goyal, Peter Benner",
-        "abstract": "Mathematical modeling is an essential step, for example, to analyze the\ntransient behavior of a dynamical process and to perform engineering studies\nsuch as optimization and control. With the help of first-principles and expert\nknowledge, a dynamic model can be built, but for complex dynamic processes,\nappearing, e.g., in biology, chemical plants, neuroscience, financial markets,\nthis often remains an onerous task. Hence, data-driven modeling of the dynamics\nprocess becomes an attractive choice and is supported by the rapid advancement\nin sensor and measurement technology. A data-driven approach, namely operator\ninference framework, models a dynamic process, where a particular structure of\nthe nonlinear term is assumed. In this work, we suggest combining the operator\ninference with certain deep neural network approaches to infer the unknown\nnonlinear dynamics of the system. The approach uses recent advancements in deep\nlearning and possible prior knowledge of the process if possible. We also\nbriefly discuss several extensions and advantages of the proposed methodology.\nWe demonstrate that the proposed methodology accomplishes the desired tasks for\ndynamics processes encountered in neural dynamics and the glycolytic\noscillator.",
-        "link": "http://arxiv.org/pdf/2103.02249v2"
-    },
-    {
-        "title": "Deep Reinforcement Learning with Function Properties in Mean Reversion Strategies",
-        "year": "January 2021",
-        "date": "2021-01-09",
-        "authors": "Sophia Gu",
-        "abstract": "Over the past decades, researchers have been pushing the limits of Deep\nReinforcement Learning (DRL). Although DRL has attracted substantial interest\nfrom practitioners, many are blocked by having to search through a plethora of\navailable methodologies that are seemingly alike, while others are still\nbuilding RL agents from scratch based on classical theories. To address the\naforementioned gaps in adopting the latest DRL methods, I am particularly\ninterested in testing out if any of the recent technology developed by the\nleads in the field can be readily applied to a class of optimal trading\nproblems. Unsurprisingly, many prominent breakthroughs in DRL are investigated\nand tested on strategic games: from AlphaGo to AlphaStar and at about the same\ntime, OpenAI Five. Thus, in this writing, I want to show precisely how to use a\nDRL library that is initially built for games in a fundamental trading problem;\nmean reversion. And by introducing a framework that incorporates\neconomically-motivated function properties, I also demonstrate, through the\nlibrary, a highly-performant and convergent DRL solution to decision-making\nfinancial problems in general.",
-        "link": "http://arxiv.org/pdf/2101.03418v3"
-    },
-    {
-        "title": "Some open problems in low dimensional dynamical systems",
-        "year": "December 2020",
-        "date": "2020-12-04",
-        "authors": "Armengol Gasull",
-        "abstract": "The aim of this paper is to share with the mathematical community a list of\n33 problems that I have found along the years during my research. I believe\nthat it is worth to think about them and, hopefully, it will be possible either\nto solve some of the problems or to make some substantial progress. Many of\nthem are about planar differential equations but there are also questions about\nother mathematical aspects: Abel differential equations, difference equations,\nglobal asymptotic stability, geometrical questions, problems involving\npolynomials or some recreational problems with a dynamical component.",
-        "link": "http://arxiv.org/pdf/2012.02524v1"
-    },
-    {
-        "title": "Learning Theory for Inferring Interaction Kernels in Second-Order Interacting Agent Systems",
-        "year": "October 2020",
-        "date": "2020-10-08",
-        "authors": "Jason Miller, Sui Tang, Ming Zhong, Mauro Maggioni",
-        "abstract": "Modeling the complex interactions of systems of particles or agents is a\nfundamental scientific and mathematical problem that is studied in diverse\nfields, ranging from physics and biology, to economics and machine learning. In\nthis work, we describe a very general second-order, heterogeneous,\nmultivariable, interacting agent model, with an environment, that encompasses a\nwide variety of known systems. We describe an inference framework that uses\nnonparametric regression and approximation theory based techniques to\nefficiently derive estimators of the interaction kernels which drive these\ndynamical systems. We develop a complete learning theory which establishes\nstrong consistency and optimal nonparametric min-max rates of convergence for\nthe estimators, as well as provably accurate predicted trajectories. The\nestimators exploit the structure of the equations in order to overcome the\ncurse of dimensionality and we describe a fundamental coercivity condition on\nthe inverse problem which ensures that the kernels can be learned and relates\nto the minimal singular value of the learning matrix. The numerical algorithm\npresented to build the estimators is parallelizable, performs well on\nhigh-dimensional problems, and is demonstrated on complex dynamical systems.",
-        "link": "http://arxiv.org/pdf/2010.03729v1"
-    },
-    {
-        "title": "Learning Dynamical Systems with Side Information",
-        "year": "August 2020",
-        "date": "2020-08-23",
-        "authors": "Amir Ali Ahmadi, Bachir El Khadir",
-        "abstract": "We present a mathematical and computational framework for the problem of\nlearning a dynamical system from noisy observations of a few trajectories and\nsubject to side information. Side information is any knowledge we might have\nabout the dynamical system we would like to learn besides trajectory data. It\nis typically inferred from domain-specific knowledge or basic principles of a\nscientific discipline. We are interested in explicitly integrating side\ninformation into the learning process in order to compensate for scarcity of\ntrajectory observations. We identify six types of side information that arise\nnaturally in many applications and lead to convex constraints in the learning\nproblem. First, we show that when our model for the unknown dynamical system is\nparameterized as a polynomial, one can impose our side information constraints\ncomputationally via semidefinite programming. We then demonstrate the added\nvalue of side information for learning the dynamics of basic models in physics\nand cell biology, as well as for learning and controlling the dynamics of a\nmodel in epidemiology. Finally, we study how well polynomial dynamical systems\ncan approximate continuously-differentiable ones while satisfying side\ninformation (either exactly or approximately). Our overall learning methodology\ncombines ideas from convex optimization, real algebra, dynamical systems, and\nfunctional approximation theory, and can potentially lead to new synergies\nbetween these areas.",
-        "link": "http://arxiv.org/pdf/2008.10135v2"
-    },
-    {
-        "title": "Asymptotic expansions for the Lagrangian trajectories from solutions of the Navier-Stokes equations",
-        "year": "March 2020",
-        "date": "2020-03-21",
-        "authors": "Luan Hoang",
-        "abstract": "Consider any Leray-Hopf weak solution of the three-dimensional Navier-Stokes\nequations for incompressible, viscous fluid flows. We prove that any Lagrangian\ntrajectory associated with such a velocity field has an asymptotic expansion,\nas time tends to infinity, which describes its long-time behavior very\nprecisely.",
-        "link": "http://arxiv.org/pdf/2003.09749v2"
-    },
-    {
-        "title": "On the overfly algorithm in deep learning of neural networks",
-        "year": "July 2018",
-        "date": "2018-07-27",
-        "authors": "Alexei Tsygvintsev",
-        "abstract": "In this paper we investigate the supervised backpropagation training of\nmultilayer neural networks from a dynamical systems point of view. We discuss\nsome links with the qualitative theory of differential equations and introduce\nthe overfly algorithm to tackle the local minima problem. Our approach is based\non the existence of first integrals of the generalised gradient system with\nbuild-in dissipation.",
-        "link": "http://arxiv.org/pdf/1807.10668v6"
-    },
-    {
-        "title": "Dynamical features of the MAPK cascade",
-        "year": "August 2015",
-        "date": "2015-08-31",
-        "authors": "Juliette Hell, Alan D. Rendall",
-        "abstract": "The MAP kinase cascade is an important signal transduction system in\nmolecular biology for which a lot of mathematical modelling has been done. This\npaper surveys what has been proved mathematically about the qualitative\nproperties of solutions of the ordinary differential equations arising as\nmodels for this biological system. It focusses, in particular, on the issues of\nmultistability and the existence of sustained oscillations. It also gives a\nconcise introduction to the mathematical techniques used in this context,\nbifurcation theory and geometric singular perturbation theory, as they relate\nto these specific examples. In addition further directions are presented in\nwhich the applications of these techniques could be extended in the future.",
-        "link": "http://arxiv.org/pdf/1508.07822v1"
-    }
-]
+{
+    "last_month": [
+        {
+            "title": "Koopman Theory-Inspired Method for Learning Time Advancement Operators in Unstable Flame Front Evolution",
+            "year": "December 2024",
+            "date": "2024-12-11",
+            "authors": "Rixin Yu, Marco Herbert, Markus Klein, Erdzan Hodzic",
+            "abstract": "Predicting the evolution of complex systems governed by partial differential\nequations (PDEs) remains challenging, especially for nonlinear, chaotic\nbehaviors. This study introduces Koopman-inspired Fourier Neural Operators\n(kFNO) and Convolutional Neural Networks (kCNN) to learn solution advancement\noperators for flame front instabilities. By transforming data into a\nhigh-dimensional latent space, these models achieve more accurate multi-step\npredictions compared to traditional methods. Benchmarking across one- and\ntwo-dimensional flame front scenarios demonstrates the proposed approaches'\nsuperior performance in short-term accuracy and long-term statistical\nreproduction, offering a promising framework for modeling complex dynamical\nsystems.",
+            "link": "http://arxiv.org/pdf/2412.08426v1"
+        },
+        {
+            "title": "Generalization of the Painlevé Property and Existence and Uniqueness in Fractional Differential Equations",
+            "year": "November 2024",
+            "date": "2024-11-28",
+            "authors": "Michał Fiedorowicz",
+            "abstract": "In this paper, the Painlev\\'e property to fractional differential equations\n(FDEs) are extended and the existence and uniqueness theorems for both linear\nand nonlinear FDEs are established. The results contribute to the research of\nintegrability and solvability in the context of fractional calculus, which has\nsignificant implications in various fields such as physics, engineering, and\napplied sciences. By bridging the gap between pure mathematical theory and\npractical applications, this work provides a foundational understanding that\ncan be utilized in modeling phenomena exhibiting memory and hereditary\nproperties.",
+            "link": "http://arxiv.org/pdf/2411.19411v1"
+        },
+        {
+            "title": "Transformer-based Koopman Autoencoder for Linearizing Fisher's Equation",
+            "year": "December 2024",
+            "date": "2024-12-03",
+            "authors": "Kanav Singh Rana, Nitu Kumari",
+            "abstract": "A Transformer-based Koopman autoencoder is proposed for linearizing Fisher's\nreaction-diffusion equation. The primary focus of this study is on using deep\nlearning techniques to find complex spatiotemporal patterns in the\nreaction-diffusion system. The emphasis is on not just solving the equation but\nalso transforming the system's dynamics into a more comprehensible, linear\nform. Global coordinate transformations are achieved through the autoencoder,\nwhich learns to capture the underlying dynamics by training on a dataset with\n60,000 initial conditions. Extensive testing on multiple datasets was used to\nassess the efficacy of the proposed model, demonstrating its ability to\naccurately predict the system's evolution as well as to generalize. We provide\na thorough comparison study, comparing our suggested design to a few other\ncomparable methods using experiments on various PDEs, such as the\nKuramoto-Sivashinsky equation and the Burger's equation. Results show improved\naccuracy, highlighting the capabilities of the Transformer-based Koopman\nautoencoder. The proposed architecture in is significantly ahead of other\narchitectures, in terms of solving different types of PDEs using a single\narchitecture. Our method relies entirely on the data, without requiring any\nknowledge of the underlying equations. This makes it applicable to even the\ndatasets where the governing equations are not known.",
+            "link": "http://arxiv.org/pdf/2412.02430v1"
+        },
+        {
+            "title": "The Asymptotic Behavior of Attention in Transformers",
+            "year": "December 2024",
+            "date": "2024-12-03",
+            "authors": "Álvaro Rodríguez Abella, João Pedro Silvestre, Paulo Tabuada",
+            "abstract": "A key component of transformers is the attention mechanism orchestrating how\neach token influences the propagation of every other token through a\ntransformer. In this paper we provide a rigorous, mathematical analysis of the\nasymptotic properties of attention in transformers. Although we present several\nresults based on different assumptions, all of them point to the same\nconclusion, all tokens asymptotically converge to each other, a phenomenon that\nhas been empirically reported in the literature. Our findings are carefully\ncompared with existing theoretical results and illustrated by simulations and\nexperimental studies using the GPT-2 model.",
+            "link": "http://arxiv.org/pdf/2412.02682v1"
+        },
+        {
+            "title": "Neural Networks for Threshold Dynamics Reconstruction",
+            "year": "December 2024",
+            "date": "2024-12-12",
+            "authors": "Elisa Negrini, Almanzo Jiahe Gao, Abigail Bowering, Wei Zhu, Luca Capogna",
+            "abstract": "We introduce two convolutional neural network (CNN) architectures, inspired\nby the Merriman-Bence-Osher (MBO) algorithm and by cellular automatons, to\nmodel and learn threshold dynamics for front evolution from video data. The\nfirst model, termed the (single-dynamics) MBO network, learns a specific kernel\nand threshold for each input video without adapting to new dynamics, while the\nsecond, a meta-learning MBO network, generalizes across diverse threshold\ndynamics by adapting its parameters per input. Both models are evaluated on\nsynthetic and real-world videos (ice melting and fire front propagation), with\nperformance metrics indicating effective reconstruction and extrapolation of\nevolving boundaries, even under noisy conditions. Empirical results highlight\nthe robustness of both networks across varied synthetic and real-world\ndynamics.",
+            "link": "http://arxiv.org/pdf/2412.09079v1"
+        }
+    ],
+    "last_year": [
+        {
+            "title": "Reservoir Computing with Generalized Readout based on Generalized Synchronization",
+            "year": "May 2024",
+            "date": "2024-05-03",
+            "authors": "Akane Ookubo, Masanobu Inubushi",
+            "abstract": "Reservoir computing is a machine learning framework that exploits nonlinear\ndynamics, exhibiting significant computational capabilities. One of the\ndefining characteristics of reservoir computing is its low cost and\nstraightforward training algorithm, i.e. only the readout, given by a linear\ncombination of reservoir variables, is trained. Inspired by recent mathematical\nstudies based on dynamical system theory, in particular generalized\nsynchronization, we propose a novel reservoir computing framework with\ngeneralized readout, including a nonlinear combination of reservoir variables.\nThe first crucial advantage of using the generalized readout is its\nmathematical basis for improving information processing capabilities. Secondly,\nit is still within a linear learning framework, which preserves the original\nstrength of reservoir computing. In summary, the generalized readout is\nnaturally derived from mathematical theory and allows the extraction of useful\nbasis functions from reservoir dynamics without sacrificing simplicity. In a\nnumerical study, we find that introducing the generalized readout leads to a\nsignificant improvement in accuracy and an unexpected enhancement in robustness\nfor the short- and long-term prediction of Lorenz chaos, with a particular\nfocus on how to harness low-dimensional reservoir dynamics. A novel way and its\nadvantages for physical implementations of reservoir computing with generalized\nreadout are briefly discussed.",
+            "link": "http://arxiv.org/pdf/2405.14885v1"
+        },
+        {
+            "title": "Koopman Theory-Inspired Method for Learning Time Advancement Operators in Unstable Flame Front Evolution",
+            "year": "December 2024",
+            "date": "2024-12-11",
+            "authors": "Rixin Yu, Marco Herbert, Markus Klein, Erdzan Hodzic",
+            "abstract": "Predicting the evolution of complex systems governed by partial differential\nequations (PDEs) remains challenging, especially for nonlinear, chaotic\nbehaviors. This study introduces Koopman-inspired Fourier Neural Operators\n(kFNO) and Convolutional Neural Networks (kCNN) to learn solution advancement\noperators for flame front instabilities. By transforming data into a\nhigh-dimensional latent space, these models achieve more accurate multi-step\npredictions compared to traditional methods. Benchmarking across one- and\ntwo-dimensional flame front scenarios demonstrates the proposed approaches'\nsuperior performance in short-term accuracy and long-term statistical\nreproduction, offering a promising framework for modeling complex dynamical\nsystems.",
+            "link": "http://arxiv.org/pdf/2412.08426v1"
+        },
+        {
+            "title": "Differential Equations for Continuous-Time Deep Learning",
+            "year": "January 2024",
+            "date": "2024-01-08",
+            "authors": "Lars Ruthotto",
+            "abstract": "This short, self-contained article seeks to introduce and survey\ncontinuous-time deep learning approaches that are based on neural ordinary\ndifferential equations (neural ODEs). It primarily targets readers familiar\nwith ordinary and partial differential equations and their analysis who are\ncurious to see their role in machine learning. Using three examples from\nmachine learning and applied mathematics, we will see how neural ODEs can\nprovide new insights into deep learning and a foundation for more efficient\nalgorithms.",
+            "link": "http://arxiv.org/pdf/2401.03965v1"
+        },
+        {
+            "title": "Learning the Rolling Penny Dynamics",
+            "year": "October 2024",
+            "date": "2024-10-19",
+            "authors": "Baiyue Wang, Anthony Bloch",
+            "abstract": "We consider learning the dynamics of a typical nonholonomic system -- the\nrolling penny. A nonholonomic system is a system subject to nonholonomic\nconstraints. Unlike a holonomic constraints, a nonholonomic constraint does not\ndefine a submanifold on the configuration space. Therefore, the inverse problem\nof finding the constraints has to involve the tangent space. This paper\ndiscusses how to learn the dynamics, as well as the constraints for such a\nsystem, given the data set of discrete trajectories on the tangent bundle \\(TQ\\).",
+            "link": "http://arxiv.org/pdf/2410.15201v2"
+        },
+        {
+            "title": "Machine-learning invariant foliations in forced systems for reduced order modelling",
+            "year": "March 2024",
+            "date": "2024-03-21",
+            "authors": "Robert Szalai",
+            "abstract": "We identify reduced order models (ROM) of forced systems from data using\ninvariant foliations. The forcing can be external, parametric, periodic or\nquasi-periodic. The process has four steps: 1. identify an approximate\ninvariant torus and the linear dynamics about the torus; 2. identify a globally\ndefined invariant foliation about the torus; 3. identify a local foliation\nabout an invariant manifold that complements the global foliation 4. extract\nthe invariant manifold as the leaf going through the torus and interpret the\nresult. We combine steps 2 and 3, so that we can track the location of the\ninvariant torus and scale the invariance equations appropriately. We highlight\nsome fundamental limitations of invariant manifolds and foliations when fitting\nthem to data, that require further mathematics to resolve.",
+            "link": "http://arxiv.org/pdf/2403.14514v1"
+        }
+    ],
+    "last_5_years": [
+        {
+            "title": "A mathematical perspective on Transformers",
+            "year": "December 2023",
+            "date": "2023-12-17",
+            "authors": "Borjan Geshkovski, Cyril Letrouit, Yury Polyanskiy, Philippe Rigollet",
+            "abstract": "Transformers play a central role in the inner workings of large language\nmodels. We develop a mathematical framework for analyzing Transformers based on\ntheir interpretation as interacting particle systems, which reveals that\nclusters emerge in long time. Our study explores the underlying theory and\noffers new perspectives for mathematicians as well as computer scientists.",
+            "link": "http://arxiv.org/pdf/2312.10794v4"
+        },
+        {
+            "title": "Coupled and Uncoupled Dynamic Mode Decomposition in Multi-Compartmental Systems with Applications to Epidemiological and Additive Manufacturing Problems",
+            "year": "October 2021",
+            "date": "2021-10-12",
+            "authors": "Alex Viguerie, Gabriel F. Barros, Malú Grave, Alessandro Reali, Alvaro L. G. A. Coutinho",
+            "abstract": "Dynamic Mode Decomposition (DMD) is an unsupervised machine learning method\nthat has attracted considerable attention in recent years owing to its\nequation-free structure, ability to easily identify coherent spatio-temporal\nstructures in data, and effectiveness in providing reasonably accurate\npredictions for certain problems. Despite these successes, the application of\nDMD to certain problems featuring highly nonlinear transient dynamics remains\nchallenging. In such cases, DMD may not only fail to provide acceptable\npredictions but may indeed fail to recreate the data in which it was trained,\nrestricting its application to diagnostic purposes. For many problems in the\nbiological and physical sciences, the structure of the system obeys a\ncompartmental framework, in which the transfer of mass within the system moves\nwithin states. In these cases, the behavior of the system may not be accurately\nrecreated by applying DMD to a single quantity within the system, as proper\nknowledge of the system dynamics, even for a single compartment, requires that\nthe behavior of other compartments is taken into account in the DMD process. In\nthis work, we demonstrate, theoretically and numerically, that, when performing\nDMD on a fully coupled PDE system with compartmental structure, one may recover\nuseful predictive behavior, even when DMD performs poorly when acting\ncompartment-wise. We also establish that important physical quantities, as mass\nconservation, are maintained in the coupled-DMD extrapolation. The mathematical\nand numerical analysis suggests that DMD may be a powerful tool when applied to\nthis common class of problems. In particular, we show interesting numerical\napplications to a continuous delayed-SIRD model for Covid-19, and to a problem\nfrom additive manufacturing considering a nonlinear temperature field and the\nresulting change of material phase from powder, liquid, and solid states.",
+            "link": "http://arxiv.org/pdf/2110.06375v1"
+        },
+        {
+            "title": "Some open problems in low dimensional dynamical systems",
+            "year": "December 2020",
+            "date": "2020-12-04",
+            "authors": "Armengol Gasull",
+            "abstract": "The aim of this paper is to share with the mathematical community a list of\n33 problems that I have found along the years during my research. I believe\nthat it is worth to think about them and, hopefully, it will be possible either\nto solve some of the problems or to make some substantial progress. Many of\nthem are about planar differential equations but there are also questions about\nother mathematical aspects: Abel differential equations, difference equations,\nglobal asymptotic stability, geometrical questions, problems involving\npolynomials or some recreational problems with a dynamical component.",
+            "link": "http://arxiv.org/pdf/2012.02524v1"
+        },
+        {
+            "title": "LQResNet: A Deep Neural Network Architecture for Learning Dynamic Processes",
+            "year": "March 2021",
+            "date": "2021-03-03",
+            "authors": "Pawan Goyal, Peter Benner",
+            "abstract": "Mathematical modeling is an essential step, for example, to analyze the\ntransient behavior of a dynamical process and to perform engineering studies\nsuch as optimization and control. With the help of first-principles and expert\nknowledge, a dynamic model can be built, but for complex dynamic processes,\nappearing, e.g., in biology, chemical plants, neuroscience, financial markets,\nthis often remains an onerous task. Hence, data-driven modeling of the dynamics\nprocess becomes an attractive choice and is supported by the rapid advancement\nin sensor and measurement technology. A data-driven approach, namely operator\ninference framework, models a dynamic process, where a particular structure of\nthe nonlinear term is assumed. In this work, we suggest combining the operator\ninference with certain deep neural network approaches to infer the unknown\nnonlinear dynamics of the system. The approach uses recent advancements in deep\nlearning and possible prior knowledge of the process if possible. We also\nbriefly discuss several extensions and advantages of the proposed methodology.\nWe demonstrate that the proposed methodology accomplishes the desired tasks for\ndynamics processes encountered in neural dynamics and the glycolytic\noscillator.",
+            "link": "http://arxiv.org/pdf/2103.02249v2"
+        },
+        {
+            "title": "On Neural Differential Equations",
+            "year": "February 2022",
+            "date": "2022-02-04",
+            "authors": "Patrick Kidger",
+            "abstract": "The conjoining of dynamical systems and deep learning has become a topic of\ngreat interest. In particular, neural differential equations (NDEs) demonstrate\nthat neural networks and differential equation are two sides of the same coin.\nTraditional parameterised differential equations are a special case. Many\npopular neural network architectures, such as residual networks and recurrent\nnetworks, are discretisations.\n  NDEs are suitable for tackling generative problems, dynamical systems, and\ntime series (particularly in physics, finance, ...) and are thus of interest to\nboth modern machine learning and traditional mathematical modelling. NDEs offer\nhigh-capacity function approximation, strong priors on model space, the ability\nto handle irregular data, memory efficiency, and a wealth of available theory\non both sides.\n  This doctoral thesis provides an in-depth survey of the field.\n  Topics include: neural ordinary differential equations (e.g. for hybrid\nneural/mechanistic modelling of physical systems); neural controlled\ndifferential equations (e.g. for learning functions of irregular time series);\nand neural stochastic differential equations (e.g. to produce generative models\ncapable of representing complex stochastic dynamics, or sampling from complex\nhigh-dimensional distributions).\n  Further topics include: numerical methods for NDEs (e.g. reversible\ndifferential equations solvers, backpropagation through differential equations,\nBrownian reconstruction); symbolic regression for dynamical systems (e.g. via\nregularised evolution); and deep implicit models (e.g. deep equilibrium models,\ndifferentiable optimisation).\n  We anticipate this thesis will be of interest to anyone interested in the\nmarriage of deep learning with dynamical systems, and hope it will provide a\nuseful reference for the current state of the art.",
+            "link": "http://arxiv.org/pdf/2202.02435v1"
+        }
+    ],
+    "all_time": [
+        {
+            "title": "A Model of Blood Flow in a Circulation Network",
+            "year": "October 2002",
+            "date": "2002-10-26",
+            "authors": "Weihua Ruan, M. E. Clark, Meide Zhao, Anthony Curcio",
+            "abstract": "We study a mathematical model of a blood circulation network which is a\ngeneralization of the coronary model proposed by Smith, Pullan and Hunter. We\nprove the existence and uniqueness of the solution to the initial-boundary\nvalue problem and discuss the continuity of dependence of the solution and its\nderivatives on initial, boundary and forcing functions and their derivatives.",
+            "link": "http://arxiv.org/pdf/math/0210410v1"
+        },
+        {
+            "title": "Modeling the influence of TH1 and TH2 type cells in autoimmune diseases",
+            "year": "June 2000",
+            "date": "2000-06-19",
+            "authors": "Y. Louzoun, H. Atlan, I. R. Cohen",
+            "abstract": "A sharp TH1/TH2 dichotomy has often been used to define the effects of\ncytokines on autoimmune diseases. However contradictory results in recent\nresearch indicate that the situation may be more complex. We build here a\nsimple mathematical model aimed at settling the contradictions. The model is\nbased on a neural network paradigm, and is applied using Partial Differential\nEquations (PDE). We show here that a TH1/TH2 paradigm is only an external view\nof a complex multivariate system.",
+            "link": "http://arxiv.org/pdf/math/0006127v1"
+        },
+        {
+            "title": "Rhythms of the nervous system: mathematical themes and variations",
+            "year": "May 2003",
+            "date": "2003-05-01",
+            "authors": "Nancy Kopell",
+            "abstract": "The nervous system displays a variety of rhythms in both waking and sleep.\nThese rhythms have been closely associated with different behavioral and\ncognitive states, but it is still unknown how the nervous system makes use of\nthese rhythms to perform functionally important tasks. To address those\nquestions, it is first useful to understood in a mechanistic way the origin of\nthe rhythms, their interactions, the signals which create the transitions among\nrhythms, and the ways in which rhythms filter the signals to a network of\nneurons. This talk discusses how dynamical systems have been used to\ninvestigate the origin, properties and interactions of rhythms in the nervous\nsystem. It focuses on how the underlying physiology of the cells and synapses\nof the networks shape the dynamics of the network in different contexts,\nallowing the variety of dynamical behaviors to be displayed by the same\nnetwork. The work is presented using a series of related case studies on\ndifferent rhythms. These case studies are chosen to highlight mathematical\nissues, and suggest further mathematical work to be done. The topics include:\ndifferent roles of excitation and inhibition in creating synchronous assemblies\nof cells, different kinds of building blocks for neural oscillations, and\ntransitions among rhythms. The mathematical issues include reduction of large\nnetworks to low dimensional maps, role of noise, global bifurcations, use of\nprobabilistic formulations.",
+            "link": "http://arxiv.org/pdf/math/0305013v1"
+        },
+        {
+            "title": "Gain-induced oscillations in blood pressure",
+            "year": "August 1997",
+            "date": "1997-08-16",
+            "authors": "Roselyn M. Abbiw-Jackson, William Langford",
+            "abstract": "\"Mayer waves\" are long-period (6 to 12 seconds) oscillations in arterial\nblood pressure, which have been observed and studied for more than 100 years in\nthe cardiovascular system of humans and other mammals. A mathematical model of\nthe human cardiovascular system is presented, incorporating parameters\nrelevantto the onset of Mayer waves. The model is analyzed using methods of\nLyapunov stability and Hopf bifurcation theory. The analysis shows that\nincrease in the gain of the baroreflex feedback loop controlling venous volume\nmay lead to the onset of oscillations, while changes in the other parameters\nconsidered do not affect stability of the equilibrium state. The results agree\nwith clinical observations of Mayer waves in human subjects, both in the period\nof the oscillations and in the observed age-dependence of Mayer waves. This\nleads to a proposed explanation of their occurrence, namely that Mayer waves\nare a \"gain-induced instability\".",
+            "link": "http://arxiv.org/pdf/math/9708211v1"
+        },
+        {
+            "title": "Destruction of CD4 T Lymphocytes Alone Cannot Account for their Long-term Decrease in AIDS",
+            "year": "August 2000",
+            "date": "2000-08-07",
+            "authors": "Yoram Louzoun, Irun. R. Cohen, Henri Atlan",
+            "abstract": "Following previous models describing a quasi steady state (QSS) for the\nevolution of HIV infection and AIDS, we have developed a larger formalism\nsimulating the long-term evolution of the QSS We show that the long-term\nevolution of AIDS cannot be explained by the destruction alone of CD4 T cells,\neither directly or indirectly. The destruction of CD4 T cells can lead only to\na QSS with a lower concentration of CD4 T cells, but CD4 destruction cannot\ngenerate the sustained long-term decrease in T cells leading to AIDS. We here\nsuggest some workable explanations.",
+            "link": "http://arxiv.org/pdf/math/0008052v1"
+        }
+    ]
+}

@@ -1,9 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Path to the JSON file
     const jsonFilePath = 'assets/articles.json';
-    const articlesList = document.getElementById('articles-list');
+    const sections = {
+        "last_month": document.getElementById('articles-list-last-month'),
+        "last_year": document.getElementById('articles-list-last-year'),
+        "last_5_years": document.getElementById('articles-list-last-5-years'),
+        "all_time": document.getElementById('articles-list-all-time')
+    };
 
-    // Fetch JSON data
     fetch(jsonFilePath)
       .then(response => {
         if (!response.ok) {
@@ -12,15 +15,17 @@ document.addEventListener('DOMContentLoaded', () => {
         return response.json();
       })
       .then(data => {
-        // Populate the list with data
-        data.forEach(article => {
-          const li = document.createElement('li');
-          li.innerHTML = `
-            <p><a href="${article.link}" target="_blank">${article.title} </a> (${article.year}).
-            <b>${article.authors}</b>.</p>
-            <p>${article.abstract}</p>
-          `;
-          articlesList.appendChild(li);
+        Object.keys(sections).forEach(range => {
+          const articlesList = sections[range];
+          data[range].forEach(article => {
+            const li = document.createElement('li');
+            li.innerHTML = `
+              <p><a href="${article.link}" target="_blank">${article.title} </a> (${article.year}).
+              <b>${article.authors}</b>.</p>
+              <p>${article.abstract}</p>
+            `;
+            articlesList.appendChild(li);
+          });
         });
         if (window.MathJax) {
           MathJax.typeset();
@@ -28,6 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
       })
       .catch(error => {
         console.error('Error loading JSON:', error);
-        articlesList.innerHTML = '<li>Error loading articles.</li>';
+        Object.values(sections).forEach(articlesList => {
+          articlesList.innerHTML = '<li>Error loading articles.</li>';
+        });
       });
   });
