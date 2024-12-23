@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "last_month": document.getElementById('articles-list-last-month'),
         "last_year": document.getElementById('articles-list-last-year'),
         "last_5_years": document.getElementById('articles-list-last-5-years'),
-        "all_time": document.getElementById('articles-list-all-time')
+        "all_time": document.getElementById('articles-list-all-time'),
     };
 
     fetch(jsonFilePath)
