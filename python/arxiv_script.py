@@ -19,6 +19,7 @@ keywords = [
     "machine learning",
     "dynamical systems",
     "mathematical biology",
+    "sensitivity analysis",
 #    "mathematics education", 
     "recreational mathematics", 
     "communication of mathematics"
