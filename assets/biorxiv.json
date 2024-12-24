@@ -4,8 +4,8 @@
         "authors": "Tyler A.U. Hilsabeck, Vikram P. Narayan, Kenneth A. Wilson, Enrique Carrera, Daniel Raftery, Daniel Promislow, Rachel B. Brem, Judith Campisi, Pankaj Kapahi",
         "doi": "https://doi.org/10.1101/2023.07.09.548232",
         "pdf_link": "https://www.biorxiv.org/content/10.1101/2023.07.09.548232v3.full.pdf",
-        "abstract": "Dietary restriction (DR) is a potent method to enhance lifespan and healthspan, but individual responses are influenced by genetic variations. Understanding how metabolism-related genetic differences impact longevity and healthspan are unclear. To investigate this, we used metabolites as markers to reveal how different genotypes respond to diet to influence longevity and healthspan traits. We analyzed data from Drosophila Genetic Reference Panel strains raised under AL and DR conditions, combining metabolomic, phenotypic, and genome-wide information. Employing two computational methods across species—random forest modeling within the DGRP and Mendelian randomization in the UK Biobank—we pinpointed key traits with cross-species relevance that influence lifespan and healthspan. Notably, orotate was linked to parental age at death in humans and counteracted DR effects in flies, while threonine extended lifespan, in a strain- and sex-specific manner. Thus, utilizing natural genetic variation data from flies and humans, we employed a systems biology approach to elucidate potential therapeutic pathways and metabolomic targets for diet-dependent changes in lifespan and healthspan.",
-        "posted": "December 04, 2023"
+        "abstract": "N/A",
+        "posted": "N/A"
     },
     {
         "title": "NanoPyx: super-fast bioimage analysis powered by adaptive machine learning",

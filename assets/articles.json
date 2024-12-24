@@ -1,20 +1,20 @@
 {
     "last_month": [
         {
-            "title": "Koopman Theory-Inspired Method for Learning Time Advancement Operators in Unstable Flame Front Evolution",
-            "year": "December 2024",
-            "date": "2024-12-11",
-            "authors": "Rixin Yu, Marco Herbert, Markus Klein, Erdzan Hodzic",
-            "abstract": "Predicting the evolution of complex systems governed by partial differential\nequations (PDEs) remains challenging, especially for nonlinear, chaotic\nbehaviors. This study introduces Koopman-inspired Fourier Neural Operators\n(kFNO) and Convolutional Neural Networks (kCNN) to learn solution advancement\noperators for flame front instabilities. By transforming data into a\nhigh-dimensional latent space, these models achieve more accurate multi-step\npredictions compared to traditional methods. Benchmarking across one- and\ntwo-dimensional flame front scenarios demonstrates the proposed approaches'\nsuperior performance in short-term accuracy and long-term statistical\nreproduction, offering a promising framework for modeling complex dynamical\nsystems.",
-            "link": "http://arxiv.org/pdf/2412.08426v1"
-        },
-        {
             "title": "Generalization of the Painlevé Property and Existence and Uniqueness in Fractional Differential Equations",
             "year": "November 2024",
             "date": "2024-11-28",
             "authors": "Michał Fiedorowicz",
             "abstract": "In this paper, the Painlev\\'e property to fractional differential equations\n(FDEs) are extended and the existence and uniqueness theorems for both linear\nand nonlinear FDEs are established. The results contribute to the research of\nintegrability and solvability in the context of fractional calculus, which has\nsignificant implications in various fields such as physics, engineering, and\napplied sciences. By bridging the gap between pure mathematical theory and\npractical applications, this work provides a foundational understanding that\ncan be utilized in modeling phenomena exhibiting memory and hereditary\nproperties.",
             "link": "http://arxiv.org/pdf/2411.19411v1"
+        },
+        {
+            "title": "Koopman Theory-Inspired Method for Learning Time Advancement Operators in Unstable Flame Front Evolution",
+            "year": "December 2024",
+            "date": "2024-12-11",
+            "authors": "Rixin Yu, Marco Herbert, Markus Klein, Erdzan Hodzic",
+            "abstract": "Predicting the evolution of complex systems governed by partial differential\nequations (PDEs) remains challenging, especially for nonlinear, chaotic\nbehaviors. This study introduces Koopman-inspired Fourier Neural Operators\n(kFNO) and Convolutional Neural Networks (kCNN) to learn solution advancement\noperators for flame front instabilities. By transforming data into a\nhigh-dimensional latent space, these models achieve more accurate multi-step\npredictions compared to traditional methods. Benchmarking across one- and\ntwo-dimensional flame front scenarios demonstrates the proposed approaches'\nsuperior performance in short-term accuracy and long-term statistical\nreproduction, offering a promising framework for modeling complex dynamical\nsystems.",
+            "link": "http://arxiv.org/pdf/2412.08426v1"
         },
         {
             "title": "Transformer-based Koopman Autoencoder for Linearizing Fisher's Equation",
@@ -33,31 +33,15 @@
             "link": "http://arxiv.org/pdf/2412.02682v1"
         },
         {
-            "title": "Neural Networks for Threshold Dynamics Reconstruction",
-            "year": "December 2024",
-            "date": "2024-12-12",
-            "authors": "Elisa Negrini, Almanzo Jiahe Gao, Abigail Bowering, Wei Zhu, Luca Capogna",
-            "abstract": "We introduce two convolutional neural network (CNN) architectures, inspired\nby the Merriman-Bence-Osher (MBO) algorithm and by cellular automatons, to\nmodel and learn threshold dynamics for front evolution from video data. The\nfirst model, termed the (single-dynamics) MBO network, learns a specific kernel\nand threshold for each input video without adapting to new dynamics, while the\nsecond, a meta-learning MBO network, generalizes across diverse threshold\ndynamics by adapting its parameters per input. Both models are evaluated on\nsynthetic and real-world videos (ice melting and fire front propagation), with\nperformance metrics indicating effective reconstruction and extrapolation of\nevolving boundaries, even under noisy conditions. Empirical results highlight\nthe robustness of both networks across varied synthetic and real-world\ndynamics.",
-            "link": "http://arxiv.org/pdf/2412.09079v1"
+            "title": "Long time evolution of the Hénon-Heiles system for small energy",
+            "year": "November 2024",
+            "date": "2024-11-25",
+            "authors": "Ovidiu Costin, Rodica Costin, Kriti Sehgal",
+            "abstract": "The H\\'enon-Heiles system, initially introduced as a simplified model of\ngalactic dynamics, has become a paradigmatic example in the study of nonlinear\nsystems. Despite its simplicity, it exhibits remarkably rich dynamical\nbehavior, including the interplay between regular and chaotic orbital dynamics,\nresonances, and stochastic regions in phase space, which have inspired\nextensive research in nonlinear dynamics. In this work, we investigate the\nsystem's solutions at small energy levels, deriving asymptotic constants of\nmotion that remain valid over remarkably long timescales -- far exceeding the\nrange of validity of conventional perturbation techniques. Our approach\nleverages the system's inherent two-scale dynamics, employing a novel\nanalytical framework to uncover these long-lived invariants. The derived\nformulas exhibit excellent agreement with numerical simulations, providing a\ndeeper understanding of the system's long-term behavior.",
+            "link": "http://arxiv.org/pdf/2411.16071v1"
         }
     ],
     "last_year": [
-        {
-            "title": "Reservoir Computing with Generalized Readout based on Generalized Synchronization",
-            "year": "May 2024",
-            "date": "2024-05-03",
-            "authors": "Akane Ookubo, Masanobu Inubushi",
-            "abstract": "Reservoir computing is a machine learning framework that exploits nonlinear\ndynamics, exhibiting significant computational capabilities. One of the\ndefining characteristics of reservoir computing is its low cost and\nstraightforward training algorithm, i.e. only the readout, given by a linear\ncombination of reservoir variables, is trained. Inspired by recent mathematical\nstudies based on dynamical system theory, in particular generalized\nsynchronization, we propose a novel reservoir computing framework with\ngeneralized readout, including a nonlinear combination of reservoir variables.\nThe first crucial advantage of using the generalized readout is its\nmathematical basis for improving information processing capabilities. Secondly,\nit is still within a linear learning framework, which preserves the original\nstrength of reservoir computing. In summary, the generalized readout is\nnaturally derived from mathematical theory and allows the extraction of useful\nbasis functions from reservoir dynamics without sacrificing simplicity. In a\nnumerical study, we find that introducing the generalized readout leads to a\nsignificant improvement in accuracy and an unexpected enhancement in robustness\nfor the short- and long-term prediction of Lorenz chaos, with a particular\nfocus on how to harness low-dimensional reservoir dynamics. A novel way and its\nadvantages for physical implementations of reservoir computing with generalized\nreadout are briefly discussed.",
-            "link": "http://arxiv.org/pdf/2405.14885v1"
-        },
-        {
-            "title": "Koopman Theory-Inspired Method for Learning Time Advancement Operators in Unstable Flame Front Evolution",
-            "year": "December 2024",
-            "date": "2024-12-11",
-            "authors": "Rixin Yu, Marco Herbert, Markus Klein, Erdzan Hodzic",
-            "abstract": "Predicting the evolution of complex systems governed by partial differential\nequations (PDEs) remains challenging, especially for nonlinear, chaotic\nbehaviors. This study introduces Koopman-inspired Fourier Neural Operators\n(kFNO) and Convolutional Neural Networks (kCNN) to learn solution advancement\noperators for flame front instabilities. By transforming data into a\nhigh-dimensional latent space, these models achieve more accurate multi-step\npredictions compared to traditional methods. Benchmarking across one- and\ntwo-dimensional flame front scenarios demonstrates the proposed approaches'\nsuperior performance in short-term accuracy and long-term statistical\nreproduction, offering a promising framework for modeling complex dynamical\nsystems.",
-            "link": "http://arxiv.org/pdf/2412.08426v1"
-        },
         {
             "title": "Differential Equations for Continuous-Time Deep Learning",
             "year": "January 2024",
@@ -67,20 +51,36 @@
             "link": "http://arxiv.org/pdf/2401.03965v1"
         },
         {
-            "title": "Learning the Rolling Penny Dynamics",
-            "year": "October 2024",
-            "date": "2024-10-19",
-            "authors": "Baiyue Wang, Anthony Bloch",
-            "abstract": "We consider learning the dynamics of a typical nonholonomic system -- the\nrolling penny. A nonholonomic system is a system subject to nonholonomic\nconstraints. Unlike a holonomic constraints, a nonholonomic constraint does not\ndefine a submanifold on the configuration space. Therefore, the inverse problem\nof finding the constraints has to involve the tangent space. This paper\ndiscusses how to learn the dynamics, as well as the constraints for such a\nsystem, given the data set of discrete trajectories on the tangent bundle \\(TQ\\).",
-            "link": "http://arxiv.org/pdf/2410.15201v2"
+            "title": "Reservoir Computing with Generalized Readout based on Generalized Synchronization",
+            "year": "May 2024",
+            "date": "2024-05-03",
+            "authors": "Akane Ookubo, Masanobu Inubushi",
+            "abstract": "Reservoir computing is a machine learning framework that exploits nonlinear\ndynamics, exhibiting significant computational capabilities. One of the\ndefining characteristics of reservoir computing is its low cost and\nstraightforward training algorithm, i.e. only the readout, given by a linear\ncombination of reservoir variables, is trained. Inspired by recent mathematical\nstudies based on dynamical system theory, in particular generalized\nsynchronization, we propose a novel reservoir computing framework with\ngeneralized readout, including a nonlinear combination of reservoir variables.\nThe first crucial advantage of using the generalized readout is its\nmathematical basis for improving information processing capabilities. Secondly,\nit is still within a linear learning framework, which preserves the original\nstrength of reservoir computing. In summary, the generalized readout is\nnaturally derived from mathematical theory and allows the extraction of useful\nbasis functions from reservoir dynamics without sacrificing simplicity. In a\nnumerical study, we find that introducing the generalized readout leads to a\nsignificant improvement in accuracy and an unexpected enhancement in robustness\nfor the short- and long-term prediction of Lorenz chaos, with a particular\nfocus on how to harness low-dimensional reservoir dynamics. A novel way and its\nadvantages for physical implementations of reservoir computing with generalized\nreadout are briefly discussed.",
+            "link": "http://arxiv.org/pdf/2405.14885v1"
         },
         {
-            "title": "Machine-learning invariant foliations in forced systems for reduced order modelling",
-            "year": "March 2024",
-            "date": "2024-03-21",
-            "authors": "Robert Szalai",
-            "abstract": "We identify reduced order models (ROM) of forced systems from data using\ninvariant foliations. The forcing can be external, parametric, periodic or\nquasi-periodic. The process has four steps: 1. identify an approximate\ninvariant torus and the linear dynamics about the torus; 2. identify a globally\ndefined invariant foliation about the torus; 3. identify a local foliation\nabout an invariant manifold that complements the global foliation 4. extract\nthe invariant manifold as the leaf going through the torus and interpret the\nresult. We combine steps 2 and 3, so that we can track the location of the\ninvariant torus and scale the invariance equations appropriately. We highlight\nsome fundamental limitations of invariant manifolds and foliations when fitting\nthem to data, that require further mathematics to resolve.",
-            "link": "http://arxiv.org/pdf/2403.14514v1"
+            "title": "ADAM-SINDy: An Efficient Optimization Framework for Parameterized Nonlinear Dynamical System Identification",
+            "year": "October 2024",
+            "date": "2024-10-21",
+            "authors": "Siva Viknesh, Younes Tatari, Amirhossein Arzani",
+            "abstract": "Identifying dynamical systems characterized by nonlinear parameters presents\nsignificant challenges in deriving mathematical models that enhance\nunderstanding of physics. Traditional methods, such as Sparse Identification of\nNonlinear Dynamics (SINDy) and symbolic regression, can extract governing\nequations from observational data; however, they also come with distinct\nadvantages and disadvantages. This paper introduces a novel method within the\nSINDy framework, termed ADAM-SINDy, which synthesizes the strengths of\nestablished approaches by employing the ADAM optimization algorithm. This\nfacilitates the simultaneous optimization of nonlinear parameters and\ncoefficients associated with nonlinear candidate functions, enabling precise\nparameter estimation without requiring prior knowledge of nonlinear\ncharacteristics such as trigonometric frequencies, exponential bandwidths, or\npolynomial exponents, thereby addressing a key limitation of SINDy. Through an\nintegrated global optimization, ADAM-SINDy dynamically adjusts all unknown\nvariables in response to data, resulting in an adaptive identification\nprocedure that reduces the sensitivity to the library of candidate functions.\nThe performance of the ADAM-SINDy methodology is demonstrated across a spectrum\nof dynamical systems, including benchmark coupled nonlinear ordinary\ndifferential equations such as oscillators, chaotic fluid flows, reaction\nkinetics, pharmacokinetics, as well as nonlinear partial differential equations\n(wildfire transport). The results demonstrate significant improvements in\nidentifying parameterized dynamical systems and underscore the importance of\nconcurrently optimizing all parameters, particularly those characterized by\nnonlinear parameters. These findings highlight the potential of ADAM-SINDy to\nextend the applicability of the SINDy framework in addressing more complex\nchallenges in dynamical system identification.",
+            "link": "http://arxiv.org/pdf/2410.16528v1"
+        },
+        {
+            "title": "Generalization of the Painlevé Property and Existence and Uniqueness in Fractional Differential Equations",
+            "year": "November 2024",
+            "date": "2024-11-28",
+            "authors": "Michał Fiedorowicz",
+            "abstract": "In this paper, the Painlev\\'e property to fractional differential equations\n(FDEs) are extended and the existence and uniqueness theorems for both linear\nand nonlinear FDEs are established. The results contribute to the research of\nintegrability and solvability in the context of fractional calculus, which has\nsignificant implications in various fields such as physics, engineering, and\napplied sciences. By bridging the gap between pure mathematical theory and\npractical applications, this work provides a foundational understanding that\ncan be utilized in modeling phenomena exhibiting memory and hereditary\nproperties.",
+            "link": "http://arxiv.org/pdf/2411.19411v1"
+        },
+        {
+            "title": "Clustering in pure-attention hardmax transformers and its role in sentiment analysis",
+            "year": "June 2024",
+            "date": "2024-06-26",
+            "authors": "Albert Alcalde, Giovanni Fantuzzi, Enrique Zuazua",
+            "abstract": "Transformers are extremely successful machine learning models whose\nmathematical properties remain poorly understood. Here, we rigorously\ncharacterize the behavior of transformers with hardmax self-attention and\nnormalization sublayers as the number of layers tends to infinity. By viewing\nsuch transformers as discrete-time dynamical systems describing the evolution\nof points in a Euclidean space, and thanks to a geometric interpretation of the\nself-attention mechanism based on hyperplane separation, we show that the\ntransformer inputs asymptotically converge to a clustered equilibrium\ndetermined by special points called leaders. We then leverage this theoretical\nunderstanding to solve sentiment analysis problems from language processing\nusing a fully interpretable transformer model, which effectively captures\n`context' by clustering meaningless words around leader words carrying the most\nmeaning. Finally, we outline remaining challenges to bridge the gap between the\nmathematical analysis of transformers and their real-life implementation.",
+            "link": "http://arxiv.org/pdf/2407.01602v1"
         }
     ],
     "last_5_years": [
@@ -109,20 +109,20 @@
             "link": "http://arxiv.org/pdf/2012.02524v1"
         },
         {
-            "title": "LQResNet: A Deep Neural Network Architecture for Learning Dynamic Processes",
-            "year": "March 2021",
-            "date": "2021-03-03",
-            "authors": "Pawan Goyal, Peter Benner",
-            "abstract": "Mathematical modeling is an essential step, for example, to analyze the\ntransient behavior of a dynamical process and to perform engineering studies\nsuch as optimization and control. With the help of first-principles and expert\nknowledge, a dynamic model can be built, but for complex dynamic processes,\nappearing, e.g., in biology, chemical plants, neuroscience, financial markets,\nthis often remains an onerous task. Hence, data-driven modeling of the dynamics\nprocess becomes an attractive choice and is supported by the rapid advancement\nin sensor and measurement technology. A data-driven approach, namely operator\ninference framework, models a dynamic process, where a particular structure of\nthe nonlinear term is assumed. In this work, we suggest combining the operator\ninference with certain deep neural network approaches to infer the unknown\nnonlinear dynamics of the system. The approach uses recent advancements in deep\nlearning and possible prior knowledge of the process if possible. We also\nbriefly discuss several extensions and advantages of the proposed methodology.\nWe demonstrate that the proposed methodology accomplishes the desired tasks for\ndynamics processes encountered in neural dynamics and the glycolytic\noscillator.",
-            "link": "http://arxiv.org/pdf/2103.02249v2"
-        },
-        {
             "title": "On Neural Differential Equations",
             "year": "February 2022",
             "date": "2022-02-04",
             "authors": "Patrick Kidger",
             "abstract": "The conjoining of dynamical systems and deep learning has become a topic of\ngreat interest. In particular, neural differential equations (NDEs) demonstrate\nthat neural networks and differential equation are two sides of the same coin.\nTraditional parameterised differential equations are a special case. Many\npopular neural network architectures, such as residual networks and recurrent\nnetworks, are discretisations.\n  NDEs are suitable for tackling generative problems, dynamical systems, and\ntime series (particularly in physics, finance, ...) and are thus of interest to\nboth modern machine learning and traditional mathematical modelling. NDEs offer\nhigh-capacity function approximation, strong priors on model space, the ability\nto handle irregular data, memory efficiency, and a wealth of available theory\non both sides.\n  This doctoral thesis provides an in-depth survey of the field.\n  Topics include: neural ordinary differential equations (e.g. for hybrid\nneural/mechanistic modelling of physical systems); neural controlled\ndifferential equations (e.g. for learning functions of irregular time series);\nand neural stochastic differential equations (e.g. to produce generative models\ncapable of representing complex stochastic dynamics, or sampling from complex\nhigh-dimensional distributions).\n  Further topics include: numerical methods for NDEs (e.g. reversible\ndifferential equations solvers, backpropagation through differential equations,\nBrownian reconstruction); symbolic regression for dynamical systems (e.g. via\nregularised evolution); and deep implicit models (e.g. deep equilibrium models,\ndifferentiable optimisation).\n  We anticipate this thesis will be of interest to anyone interested in the\nmarriage of deep learning with dynamical systems, and hope it will provide a\nuseful reference for the current state of the art.",
             "link": "http://arxiv.org/pdf/2202.02435v1"
+        },
+        {
+            "title": "Asymptotic expansions for the Lagrangian trajectories from solutions of the Navier-Stokes equations",
+            "year": "March 2020",
+            "date": "2020-03-21",
+            "authors": "Luan Hoang",
+            "abstract": "Consider any Leray-Hopf weak solution of the three-dimensional Navier-Stokes\nequations for incompressible, viscous fluid flows. We prove that any Lagrangian\ntrajectory associated with such a velocity field has an asymptotic expansion,\nas time tends to infinity, which describes its long-time behavior very\nprecisely.",
+            "link": "http://arxiv.org/pdf/2003.09749v2"
         }
     ],
     "all_time": [
@@ -143,20 +143,20 @@
             "link": "http://arxiv.org/pdf/math/0006127v1"
         },
         {
-            "title": "Rhythms of the nervous system: mathematical themes and variations",
-            "year": "May 2003",
-            "date": "2003-05-01",
-            "authors": "Nancy Kopell",
-            "abstract": "The nervous system displays a variety of rhythms in both waking and sleep.\nThese rhythms have been closely associated with different behavioral and\ncognitive states, but it is still unknown how the nervous system makes use of\nthese rhythms to perform functionally important tasks. To address those\nquestions, it is first useful to understood in a mechanistic way the origin of\nthe rhythms, their interactions, the signals which create the transitions among\nrhythms, and the ways in which rhythms filter the signals to a network of\nneurons. This talk discusses how dynamical systems have been used to\ninvestigate the origin, properties and interactions of rhythms in the nervous\nsystem. It focuses on how the underlying physiology of the cells and synapses\nof the networks shape the dynamics of the network in different contexts,\nallowing the variety of dynamical behaviors to be displayed by the same\nnetwork. The work is presented using a series of related case studies on\ndifferent rhythms. These case studies are chosen to highlight mathematical\nissues, and suggest further mathematical work to be done. The topics include:\ndifferent roles of excitation and inhibition in creating synchronous assemblies\nof cells, different kinds of building blocks for neural oscillations, and\ntransitions among rhythms. The mathematical issues include reduction of large\nnetworks to low dimensional maps, role of noise, global bifurcations, use of\nprobabilistic formulations.",
-            "link": "http://arxiv.org/pdf/math/0305013v1"
-        },
-        {
             "title": "Gain-induced oscillations in blood pressure",
             "year": "August 1997",
             "date": "1997-08-16",
             "authors": "Roselyn M. Abbiw-Jackson, William Langford",
             "abstract": "\"Mayer waves\" are long-period (6 to 12 seconds) oscillations in arterial\nblood pressure, which have been observed and studied for more than 100 years in\nthe cardiovascular system of humans and other mammals. A mathematical model of\nthe human cardiovascular system is presented, incorporating parameters\nrelevantto the onset of Mayer waves. The model is analyzed using methods of\nLyapunov stability and Hopf bifurcation theory. The analysis shows that\nincrease in the gain of the baroreflex feedback loop controlling venous volume\nmay lead to the onset of oscillations, while changes in the other parameters\nconsidered do not affect stability of the equilibrium state. The results agree\nwith clinical observations of Mayer waves in human subjects, both in the period\nof the oscillations and in the observed age-dependence of Mayer waves. This\nleads to a proposed explanation of their occurrence, namely that Mayer waves\nare a \"gain-induced instability\".",
             "link": "http://arxiv.org/pdf/math/9708211v1"
+        },
+        {
+            "title": "Rhythms of the nervous system: mathematical themes and variations",
+            "year": "May 2003",
+            "date": "2003-05-01",
+            "authors": "Nancy Kopell",
+            "abstract": "The nervous system displays a variety of rhythms in both waking and sleep.\nThese rhythms have been closely associated with different behavioral and\ncognitive states, but it is still unknown how the nervous system makes use of\nthese rhythms to perform functionally important tasks. To address those\nquestions, it is first useful to understood in a mechanistic way the origin of\nthe rhythms, their interactions, the signals which create the transitions among\nrhythms, and the ways in which rhythms filter the signals to a network of\nneurons. This talk discusses how dynamical systems have been used to\ninvestigate the origin, properties and interactions of rhythms in the nervous\nsystem. It focuses on how the underlying physiology of the cells and synapses\nof the networks shape the dynamics of the network in different contexts,\nallowing the variety of dynamical behaviors to be displayed by the same\nnetwork. The work is presented using a series of related case studies on\ndifferent rhythms. These case studies are chosen to highlight mathematical\nissues, and suggest further mathematical work to be done. The topics include:\ndifferent roles of excitation and inhibition in creating synchronous assemblies\nof cells, different kinds of building blocks for neural oscillations, and\ntransitions among rhythms. The mathematical issues include reduction of large\nnetworks to low dimensional maps, role of noise, global bifurcations, use of\nprobabilistic formulations.",
+            "link": "http://arxiv.org/pdf/math/0305013v1"
         },
         {
             "title": "Destruction of CD4 T Lymphocytes Alone Cannot Account for their Long-term Decrease in AIDS",
