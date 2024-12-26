@@ -1,6 +1,14 @@
 {
     "last_month": [
         {
+            "title": "Predator Prey Scavenger Model using Holling's Functional Response of Type III and Physics-Informed Deep Neural Networks",
+            "year": "December 2024",
+            "date": "2024-12-24",
+            "authors": "Aneesh Panchal, Kirti Beniwal, Vivek Kumar",
+            "abstract": "Nonlinear mathematical models introduce the relation between various physical\nand biological interactions present in nature. One of the most famous models is\nthe Lotka-Volterra model which defined the interaction between predator and\nprey species present in nature. However, predators, scavengers, and prey\npopulations coexist in a natural system where scavengers can additionally rely\non the dead bodies of predators present in the system. Keeping this in mind,\nthe formulation and simulation of the predator prey scavenger model is\nintroduced in this paper. For the predation response, respective prey species\nare assumed to have Holling's functional response of type III. The proposed\nmodel is tested for various simulations and is found to be showing satisfactory\nresults in different scenarios. After simulations, the American forest dataset\nis taken for parameter estimation which imitates the real-world case. For\nparameter estimation, a physics-informed deep neural network is used with the\nAdam backpropagation method which prevents the avalanche effect in trainable\nparameters updation. For neural networks, mean square error and\nphysics-informed informed error are considered. After the neural network, the\nhence-found parameters are fine-tuned using the\nBroyden-Fletcher-Goldfarb-Shanno algorithm. Finally, the hence-found parameters\nusing a natural dataset are tested for stability using Jacobian stability\nanalysis. Future research work includes minimization of error induced by\nparameters, bifurcation analysis, and sensitivity analysis of the parameters.",
+            "link": "http://arxiv.org/pdf/2412.18344v1"
+        },
+        {
             "title": "Generalization of the Painlevé Property and Existence and Uniqueness in Fractional Differential Equations",
             "year": "November 2024",
             "date": "2024-11-28",
@@ -31,14 +39,6 @@
             "authors": "Álvaro Rodríguez Abella, João Pedro Silvestre, Paulo Tabuada",
             "abstract": "A key component of transformers is the attention mechanism orchestrating how\neach token influences the propagation of every other token through a\ntransformer. In this paper we provide a rigorous, mathematical analysis of the\nasymptotic properties of attention in transformers. Although we present several\nresults based on different assumptions, all of them point to the same\nconclusion, all tokens asymptotically converge to each other, a phenomenon that\nhas been empirically reported in the literature. Our findings are carefully\ncompared with existing theoretical results and illustrated by simulations and\nexperimental studies using the GPT-2 model.",
             "link": "http://arxiv.org/pdf/2412.02682v1"
-        },
-        {
-            "title": "Long time evolution of the Hénon-Heiles system for small energy",
-            "year": "November 2024",
-            "date": "2024-11-25",
-            "authors": "Ovidiu Costin, Rodica Costin, Kriti Sehgal",
-            "abstract": "The H\\'enon-Heiles system, initially introduced as a simplified model of\ngalactic dynamics, has become a paradigmatic example in the study of nonlinear\nsystems. Despite its simplicity, it exhibits remarkably rich dynamical\nbehavior, including the interplay between regular and chaotic orbital dynamics,\nresonances, and stochastic regions in phase space, which have inspired\nextensive research in nonlinear dynamics. In this work, we investigate the\nsystem's solutions at small energy levels, deriving asymptotic constants of\nmotion that remain valid over remarkably long timescales -- far exceeding the\nrange of validity of conventional perturbation techniques. Our approach\nleverages the system's inherent two-scale dynamics, employing a novel\nanalytical framework to uncover these long-lived invariants. The derived\nformulas exhibit excellent agreement with numerical simulations, providing a\ndeeper understanding of the system's long-term behavior.",
-            "link": "http://arxiv.org/pdf/2411.16071v1"
         }
     ],
     "last_year": [
@@ -49,6 +49,14 @@
             "authors": "Lars Ruthotto",
             "abstract": "This short, self-contained article seeks to introduce and survey\ncontinuous-time deep learning approaches that are based on neural ordinary\ndifferential equations (neural ODEs). It primarily targets readers familiar\nwith ordinary and partial differential equations and their analysis who are\ncurious to see their role in machine learning. Using three examples from\nmachine learning and applied mathematics, we will see how neural ODEs can\nprovide new insights into deep learning and a foundation for more efficient\nalgorithms.",
             "link": "http://arxiv.org/pdf/2401.03965v1"
+        },
+        {
+            "title": "Predator Prey Scavenger Model using Holling's Functional Response of Type III and Physics-Informed Deep Neural Networks",
+            "year": "December 2024",
+            "date": "2024-12-24",
+            "authors": "Aneesh Panchal, Kirti Beniwal, Vivek Kumar",
+            "abstract": "Nonlinear mathematical models introduce the relation between various physical\nand biological interactions present in nature. One of the most famous models is\nthe Lotka-Volterra model which defined the interaction between predator and\nprey species present in nature. However, predators, scavengers, and prey\npopulations coexist in a natural system where scavengers can additionally rely\non the dead bodies of predators present in the system. Keeping this in mind,\nthe formulation and simulation of the predator prey scavenger model is\nintroduced in this paper. For the predation response, respective prey species\nare assumed to have Holling's functional response of type III. The proposed\nmodel is tested for various simulations and is found to be showing satisfactory\nresults in different scenarios. After simulations, the American forest dataset\nis taken for parameter estimation which imitates the real-world case. For\nparameter estimation, a physics-informed deep neural network is used with the\nAdam backpropagation method which prevents the avalanche effect in trainable\nparameters updation. For neural networks, mean square error and\nphysics-informed informed error are considered. After the neural network, the\nhence-found parameters are fine-tuned using the\nBroyden-Fletcher-Goldfarb-Shanno algorithm. Finally, the hence-found parameters\nusing a natural dataset are tested for stability using Jacobian stability\nanalysis. Future research work includes minimization of error induced by\nparameters, bifurcation analysis, and sensitivity analysis of the parameters.",
+            "link": "http://arxiv.org/pdf/2412.18344v1"
         },
         {
             "title": "Reservoir Computing with Generalized Readout based on Generalized Synchronization",
@@ -73,14 +81,6 @@
             "authors": "Michał Fiedorowicz",
             "abstract": "In this paper, the Painlev\\'e property to fractional differential equations\n(FDEs) are extended and the existence and uniqueness theorems for both linear\nand nonlinear FDEs are established. The results contribute to the research of\nintegrability and solvability in the context of fractional calculus, which has\nsignificant implications in various fields such as physics, engineering, and\napplied sciences. By bridging the gap between pure mathematical theory and\npractical applications, this work provides a foundational understanding that\ncan be utilized in modeling phenomena exhibiting memory and hereditary\nproperties.",
             "link": "http://arxiv.org/pdf/2411.19411v1"
-        },
-        {
-            "title": "Clustering in pure-attention hardmax transformers and its role in sentiment analysis",
-            "year": "June 2024",
-            "date": "2024-06-26",
-            "authors": "Albert Alcalde, Giovanni Fantuzzi, Enrique Zuazua",
-            "abstract": "Transformers are extremely successful machine learning models whose\nmathematical properties remain poorly understood. Here, we rigorously\ncharacterize the behavior of transformers with hardmax self-attention and\nnormalization sublayers as the number of layers tends to infinity. By viewing\nsuch transformers as discrete-time dynamical systems describing the evolution\nof points in a Euclidean space, and thanks to a geometric interpretation of the\nself-attention mechanism based on hyperplane separation, we show that the\ntransformer inputs asymptotically converge to a clustered equilibrium\ndetermined by special points called leaders. We then leverage this theoretical\nunderstanding to solve sentiment analysis problems from language processing\nusing a fully interpretable transformer model, which effectively captures\n`context' by clustering meaningless words around leader words carrying the most\nmeaning. Finally, we outline remaining challenges to bridge the gap between the\nmathematical analysis of transformers and their real-life implementation.",
-            "link": "http://arxiv.org/pdf/2407.01602v1"
         }
     ],
     "last_5_years": [
