@@ -1,29 +1,5 @@
 [
     {
-        "title": "Systems biology and machine learning approaches identify metabolites that influence dietary lifespan and healthspan responses across flies and humans",
-        "authors": "Tyler A.U. Hilsabeck, Vikram P. Narayan, Kenneth A. Wilson, Enrique Carrera, Daniel Raftery, Daniel Promislow, Rachel B. Brem, Judith Campisi, Pankaj Kapahi",
-        "doi": "https://doi.org/10.1101/2023.07.09.548232",
-        "pdf_link": "https://www.biorxiv.org/content/10.1101/2023.07.09.548232v3.full.pdf",
-        "abstract": "Dietary restriction (DR) is a potent method to enhance lifespan and healthspan, but individual responses are influenced by genetic variations. Understanding how metabolism-related genetic differences impact longevity and healthspan are unclear. To investigate this, we used metabolites as markers to reveal how different genotypes respond to diet to influence longevity and healthspan traits. We analyzed data from Drosophila Genetic Reference Panel strains raised under AL and DR conditions, combining metabolomic, phenotypic, and genome-wide information. Employing two computational methods across species—random forest modeling within the DGRP and Mendelian randomization in the UK Biobank—we pinpointed key traits with cross-species relevance that influence lifespan and healthspan. Notably, orotate was linked to parental age at death in humans and counteracted DR effects in flies, while threonine extended lifespan, in a strain- and sex-specific manner. Thus, utilizing natural genetic variation data from flies and humans, we employed a systems biology approach to elucidate potential therapeutic pathways and metabolomic targets for diet-dependent changes in lifespan and healthspan.",
-        "posted": "December 04, 2023"
-    },
-    {
-        "title": "NanoPyx: super-fast bioimage analysis powered by adaptive machine learning",
-        "authors": "Bruno M. Saraiva, Inês M. Cunha, António D. Brito, Gautier Follain, Raquel Portela, Robert Haase, Pedro M. Pereira, Guillaume Jacquemet, Ricardo Henriques",
-        "doi": "https://doi.org/10.1101/2023.08.13.553080",
-        "pdf_link": "https://www.biorxiv.org/content/10.1101/2023.08.13.553080v2.full.pdf",
-        "abstract": "To overcome the challenges posed by large and complex microscopy datasets, we have developed NanoPyx, an adaptive bioimage analysis framework designed for high-speed processing. At the core of NanoPyx is the Liquid Engine, an agent-based machine-learning system that predicts acceleration strategies for image analysis tasks. Unlike traditional single-algorithm methods, the Liquid Engine generates multiple CPU and GPU code variations using a meta-programming system, creating a competitive environment where different algorithms are benchmarked against each other to achieve optimal performance under the user”s computational environment. In initial experiments focusing on super-resolution analysis methods, the Liquid Engine demonstrated an over 10-fold computational speed improvement by accurately predicting the ideal scenarios to switch between algorithmic implementations. NanoPyx is accessible to users through a Python library, code-free Jupyter notebooks, and a napari plugin, making it suitable for individuals regardless of their coding proficiency. Furthermore, the optimisation principles embodied by the Liquid Engine have broader implications, extending their applicability to various high-performance computing fields.",
-        "posted": "December 05, 2023"
-    },
-    {
-        "title": "Dynamic Plasticity Systems Direct Early Adaptation to Treatment in Neuroblastoma",
-        "authors": "Cecilia Roux, Sian Hamer, Abigail Shea, Emilia Chen, Ayeh Sadat Sadr, Christie English, Sarthak Sahoo, Alejandro Allo Anido, Harvey Che, Louis Chesler, Mohit Kumar Jolly, Michael David Morgan, Alejandra Bruna",
-        "doi": "https://doi.org/10.1101/2023.12.07.570359",
-        "pdf_link": "https://www.biorxiv.org/content/10.1101/2023.12.07.570359v1.full.pdf",
-        "abstract": "In paediatric cancers like neuroblastoma, limited genetic diversity emphasizes the role of phenotypic heterogeneity in driving malignancy. We investigated this phenomenon using experimental evolution and single-cell techniques in neuroblastoma preclinical models. Our findings reveal that neuroblastoma cells navigate multistable phenotypic landscapes, named plasticity systems. These finely regulate their topology and dynamics enabling tolerance, persistence, and regrowth in response to treatment. While preferential killing of adrenergic cells (ADRN), notably under cisplatin treatment, enriches drug-tolerant persister (DTP) populations with mesenchymal (MES) properties, we also observed phenotypic transitions contributing to DTP entry and exit. Additionally, single-cell-derived clone experiments unveiled a spectrum of heritable plasticity traits linked to functional properties, influencing DTP behaviour. Mathematical modelling supports the critical role of all cell phenotypes in evolutionary adaptation. Collectively, our study depicts plasticity systems as key early cancer drivers of adaptive evolution in neuroblastoma through regulating the multistability and dynamics of phenotypic landscapes. These insights underscore the necessity of decoding plasticity for advancing long-term therapeutic effectiveness.",
-        "posted": "December 08, 2023"
-    },
-    {
         "title": "FateNet: an integration of dynamical systems and deep learning for cell fate prediction",
         "authors": "Mehrshad Sadria, Thomas M. Bury",
         "doi": "https://doi.org/10.1101/2024.01.16.575913",
@@ -286,5 +262,29 @@
         "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.11.04.621686v2.full.pdf",
         "abstract": "Cryo-electron tomography (cryoET) has emerged as a powerful structural biology tool for understanding protein complexes in their native cellular environments. Presently, 3D volumes of cellular environments can be acquired in the thousands in a few days where each volume provides a rich and complex cellular landscape. Despite numerous innovations, localizing and identifying the vast majority of protein species in these volumes remains prohibitively difficult. Machine learning based methods provide an opportunity to automate the process of labeling and annotating cryoET volumes. Due to current bottlenecks in the annotation process, and a lack of large standardized datasets, training datasets for machine learning algorithms have been scarce. Here, we present a defined “phantom” sample, along with “ground truth” annotations, that will be the basis of a machine learning challenge to bring cryoET and ML experts together and spur creativity to address this annotation problem. We have also set up a cryoET data portal that provides additional diverse sets of annotated 3D volumes from cryoET experts across the world for the machine learning challenge.",
         "posted": "November 21, 2024"
+    },
+    {
+        "title": "Universal differential equations for systems biology: Current state and open problems",
+        "authors": "Maren Philipps, Nina Schmid, Jan Hasenauer",
+        "doi": "https://doi.org/10.1101/2024.11.29.626122",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.11.29.626122v2.full.pdf",
+        "abstract": "Universal Differential Equations (UDEs) combine mechanistic differential equations with data-driven artificial neural networks, forming a flexible framework for modelling complex biological systems. This hybrid approach leverages prior knowledge and data to uncover unknown processes and deliver accurate predictions. However, UDEs face challenges in efficient and reliable training due to stiff dynamics and noisy, sparse data common in biology, and in ensuring the interpretability of the parameters of the mechanistic model. We investigate these challenges and evaluate UDE performance on realistic biological scenarios, providing a systematic training pipeline. Our results demonstrate the versatility of UDEs in systems biology and reveal that noise and limited data significantly degrade performance, but regularisation can improve accuracy and interpretability. By addressing key challenges and offering practical solutions, this work advances UDE methodology and underscores its potential in tackling complex problems in systems biology.",
+        "posted": "December 17, 2024"
+    },
+    {
+        "title": "Bayesian Occam’s Razor to Optimize Metamodeling for Complex Biological Systems",
+        "authors": "Chenxi Wang, Jihui Zhao, Jingjing Zheng, Barak Raveh, Xuming He, Liping Sun",
+        "doi": "https://doi.org/10.1101/2024.05.28.594654",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.05.28.594654v2.full.pdf",
+        "abstract": "Modeling complex biological systems necessitates the integration of vast and multifaceted information spanning various aspects of these systems, and is expected to yield more insights into the system than any of the inputs. Metamodeling, a specialized form of integrative modeling, addresses this by integrating existing models. Developing and optimizing metamodels pose challenges due to the complexities introduced by diverse input models and their inherent uncertainties. In this study, we employ Bayesian formalism to rigorously analyze the propagation of probability throughout the metamodeling process and propose quantitative assessments for it. Building on this, we introduce a method for optimizing metamodeling that adheres to the Bayesian Occam’s razor rationale, by (i) minimizing model uncertainty; (ii) maximizing model consistency; and (iii) reducing model complexity. To illustrate the benefits of this method, we apply it to the dynamic system of glucose-stimulated insulin secretion in pancreatic β-cells. The optimized metamodel delivers more accurate estimates of impaired β-cell dynamics and function in T2D subjects compared to the non-optimized one, underscoring the critical role of optimization in enhancing both model reliability and applicability. This method is implemented through the Integrative Modeling Platform (IMP), facilitating the development of accurate, precise, and sufficiently simple models for a variety of complex systems.",
+        "posted": "December 02, 2024"
+    },
+    {
+        "title": "A Mathematical Framework for the Quantitative Analysis of Genetic Buffering",
+        "authors": "Jim Karagiannis",
+        "doi": "https://doi.org/10.1101/2024.12.09.627635",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.12.09.627635v1.full.pdf",
+        "abstract": "Genetic buffering plays a pivotal role in orchestrating the relationship between genotype and phenotype in outbred populations. While high-throughput screens have identified many instances of genetic buffering – through the detection of “synthetic lethality” or “synthetic sickness” – a formal and general method for its quantitative analysis across systems is lacking. In this report, an axiomatic mathematical framework that can be used to classify, quantify, and compare buffering relationships between genes is described. Importantly, this methodology employs a ratio scale as its basis, thereby permitting the definition of a novel neutrality model for gene interaction that is referred to as the “parallel” model. This model does not contradict, and instead complements, the commonly used “product” model (more aptly referred to herein as the “serial” neutrality model). Moreover, simple extensions of this newly developed framework permit the unambiguous definition and classification of gene interactions in a formal, general, and mathematical way. Consequently, the concept of genetic buffering as first conceived by Leland Hartwell becomes a specific case within a comprehensive model of gene interaction.",
+        "posted": "December 13, 2024"
     }
 ]
