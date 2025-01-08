@@ -43,14 +43,6 @@
     ],
     "last_year": [
         {
-            "title": "Differential Equations for Continuous-Time Deep Learning",
-            "year": "January 2024",
-            "date": "2024-01-08",
-            "authors": "Lars Ruthotto",
-            "abstract": "This short, self-contained article seeks to introduce and survey\ncontinuous-time deep learning approaches that are based on neural ordinary\ndifferential equations (neural ODEs). It primarily targets readers familiar\nwith ordinary and partial differential equations and their analysis who are\ncurious to see their role in machine learning. Using three examples from\nmachine learning and applied mathematics, we will see how neural ODEs can\nprovide new insights into deep learning and a foundation for more efficient\nalgorithms.",
-            "link": "http://arxiv.org/pdf/2401.03965v1"
-        },
-        {
             "title": "Predator Prey Scavenger Model using Holling's Functional Response of Type III and Physics-Informed Deep Neural Networks",
             "year": "December 2024",
             "date": "2024-12-24",
@@ -81,6 +73,14 @@
             "authors": "Michał Fiedorowicz",
             "abstract": "In this paper, the Painlev\\'e property to fractional differential equations\n(FDEs) are extended and the existence and uniqueness theorems for both linear\nand nonlinear FDEs are established. The results contribute to the research of\nintegrability and solvability in the context of fractional calculus, which has\nsignificant implications in various fields such as physics, engineering, and\napplied sciences. By bridging the gap between pure mathematical theory and\npractical applications, this work provides a foundational understanding that\ncan be utilized in modeling phenomena exhibiting memory and hereditary\nproperties.",
             "link": "http://arxiv.org/pdf/2411.19411v1"
+        },
+        {
+            "title": "Clustering in pure-attention hardmax transformers and its role in sentiment analysis",
+            "year": "June 2024",
+            "date": "2024-06-26",
+            "authors": "Albert Alcalde, Giovanni Fantuzzi, Enrique Zuazua",
+            "abstract": "Transformers are extremely successful machine learning models whose\nmathematical properties remain poorly understood. Here, we rigorously\ncharacterize the behavior of transformers with hardmax self-attention and\nnormalization sublayers as the number of layers tends to infinity. By viewing\nsuch transformers as discrete-time dynamical systems describing the evolution\nof points in a Euclidean space, and thanks to a geometric interpretation of the\nself-attention mechanism based on hyperplane separation, we show that the\ntransformer inputs asymptotically converge to a clustered equilibrium\ndetermined by special points called leaders. We then leverage this theoretical\nunderstanding to solve sentiment analysis problems from language processing\nusing a fully interpretable transformer model, which effectively captures\n`context' by clustering meaningless words around leader words carrying the most\nmeaning. Finally, we outline remaining challenges to bridge the gap between the\nmathematical analysis of transformers and their real-life implementation.",
+            "link": "http://arxiv.org/pdf/2407.01602v1"
         }
     ],
     "last_5_years": [
