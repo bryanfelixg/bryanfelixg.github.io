@@ -9,14 +9,6 @@
             "link": "http://arxiv.org/pdf/2412.18344v1"
         },
         {
-            "title": "Koopman Theory-Inspired Method for Learning Time Advancement Operators in Unstable Flame Front Evolution",
-            "year": "December 2024",
-            "date": "2024-12-11",
-            "authors": "Rixin Yu, Marco Herbert, Markus Klein, Erdzan Hodzic",
-            "abstract": "Predicting the evolution of complex systems governed by partial differential\nequations (PDEs) remains challenging, especially for nonlinear, chaotic\nbehaviors. This study introduces Koopman-inspired Fourier Neural Operators\n(kFNO) and Convolutional Neural Networks (kCNN) to learn solution advancement\noperators for flame front instabilities. By transforming data into a\nhigh-dimensional latent space, these models achieve more accurate multi-step\npredictions compared to traditional methods. Benchmarking across one- and\ntwo-dimensional flame front scenarios demonstrates the proposed approaches'\nsuperior performance in short-term accuracy and long-term statistical\nreproduction, offering a promising framework for modeling complex dynamical\nsystems.",
-            "link": "http://arxiv.org/pdf/2412.08426v1"
-        },
-        {
             "title": "Neural Networks for Threshold Dynamics Reconstruction",
             "year": "December 2024",
             "date": "2024-12-12",
@@ -39,6 +31,14 @@
             "authors": "Alemdar Hasanov, Onur Baysal",
             "abstract": "In this paper, a novel mathematical model is developed to evaluate the\nspatiotemporal vehicle loads on long bridges from slope measurements made at\nthe ends of a bridge based on Euler-Bernoulli beam model with internal and\nexternal damping. The mathematical modelling of this phenomena leads to the\ninverse source problem of determining the spatiotemporal vehicle load \\(F(x,t)\\)\nin the variable coefficient Euler-Bernoulli equation \\(\\rho_A(x)u_{tt}+\\mu(x)\nu_{t}+(r(x)u_{xx})_{xx}+(\\kappa(x)u_{xxt})_{xx}=F(x,t)\\), \\((x,t)\\in\n\\Omega_T:=(0,\\ell)\\times (0,T)\\) subject to the \"simply supported\" boundary\nconditions \\(u(0,t)=(r(x)u_{xx}+(\\kappa(x)u_{xxt})_{x=0}=0\\),\n\\(u(\\ell,t)=(r(x)u_{xx}+(\\kappa(x)u_{xxt})_{x=\\ell}=0\\), from the both measured\noutputs: \\(\\theta_1(t):=u_x(0,t)\\) and \\(\\theta_2(t):=u_x(\\ell,t)\\), that is, the\nmeasured boundary slopes. It is shown that the input-output maps \\((\\Phi\nF)(t):=u_x(0,t;F)\\), \\((\\Psi F)(t):=u_x(\\ell,t;F)\\), \\(F \\in \\mathcal{F}\\subset\nL^2(\\Omega_T)\\), corresponding to the inverse problem, are compact and Lipschitz\ncontinuous. Then Tikhonov functional \\(J(F)=\\Vert \\Phi F-\\theta_1\n\\Vert_{L^2(0,T)}^2+\\Vert \\Psi F-\\theta_2 \\Vert_{L^2(0,T)}^2\\) is introduced to\nprove the existence of a quasi-solution to the inverse problem. An explicit\ngradient formula for the Fr\\'{e}chet derivative of the Tikhonov functional is\nderived. The Lipschitz continuity of the Fr\\'{e}chet gradient, which guarantees\nthe monotonicity of iterations in gradient methods, has been proven.",
             "link": "http://arxiv.org/pdf/2412.20778v1"
+        },
+        {
+            "title": "The Expectation of a Multiplicative Functional under the Sine-Process",
+            "year": "December 2024",
+            "date": "2024-12-30",
+            "authors": "Alexander I. Bufetov",
+            "abstract": "An explicit expression for the expected value of a regularized multiplicative\nfunctional under the sine-process is obtained by passing to the scaling limit\nin the Borodin-Okounkov-Geronimo-Case formula.",
+            "link": "http://arxiv.org/pdf/2412.20902v1"
         }
     ],
     "last_year": [
