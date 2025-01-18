@@ -33,12 +33,12 @@
             "link": "http://arxiv.org/pdf/2412.20902v1"
         },
         {
-            "title": "Minimum nonlinearity for pattern-forming Turing instability in a mathematical autocatalytic model",
-            "year": "December 2024",
-            "date": "2024-12-18",
-            "authors": "Javier López-Pedrares, Marcos Suárez-Vázquez, Juan Pérez-Mercader, Alberto P. Muñuzuri",
-            "abstract": "Pattern formation is ubiquitous in nature and the mechanism widely-accepted\nto underlay them is based on the Turing instability, predicted by Alan Turing\ndecades ago. This is a non-trivial mechanism that involves nonlinear\ninteraction terms between the different species involved and transport\nmechanisms. We present here a mathematical analysis aiming to explore the\nmathematical constraints that a reaction-diffusion dynamical model should\ncomply in order to exhibit a Turing instability. The main conclusion limits the\nexistence of this instability to nonlinearity degrees larger or equal to three.",
-            "link": "http://arxiv.org/pdf/2412.13783v1"
+            "title": "Savanna dynamics with grazing, browsing, and migration effects",
+            "year": "January 2025",
+            "date": "2025-01-11",
+            "authors": "Chiun-Chuan Chen, Ting-Yang Hsiao, Shun-Chieh Wang",
+            "abstract": "This article explores the dynamics of savanna ecosystems with grazing,\nbrowsing, and migration effects. Covering over one-eighth of the Earth's land\narea and supporting about one-fifth of the global population, the savanna is an\necological system whose importance has only recently garnered significant\nattention from biologists. The interactions between organisms in this ecosystem\nare highly complex, and fundamental mathematical issues remain unresolved. We\nrigorously analyze traveling waves in savanna systems and focus on whether\ntrees, grass, grazers, and browsers coexist. We demonstrate the existence of\nvarious traveling waves, including waves transitioning from extinction to\nco-existence and waves from a grass-vegetation state (where only grass and\ngrazers exist) to co-existence. Due to the biodiversity of species in grassland\necosystems, it is not appropriate to consider overly simplified models of\ncompetition between grasses and trees. From both a biological and mathematical\nperspective, factors such as animal grazing, browsing, and migration (which\nfacilitates seed dispersal) play a crucial role in promoting ecological\nstability and coexistence. Additionally, we estimate the nonzero minimum value\nof the total plant biomass within the savanna dynamic system to better\nunderstand the persistence and stability of sustainable development within the\necosystem.",
+            "link": "http://arxiv.org/pdf/2501.06549v1"
         }
     ],
     "last_year": [
