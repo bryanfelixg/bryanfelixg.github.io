@@ -1,14 +1,6 @@
 {
     "last_month": [
         {
-            "title": "Predator Prey Scavenger Model using Holling's Functional Response of Type III and Physics-Informed Deep Neural Networks",
-            "year": "December 2024",
-            "date": "2024-12-24",
-            "authors": "Aneesh Panchal, Kirti Beniwal, Vivek Kumar",
-            "abstract": "Nonlinear mathematical models introduce the relation between various physical\nand biological interactions present in nature. One of the most famous models is\nthe Lotka-Volterra model which defined the interaction between predator and\nprey species present in nature. However, predators, scavengers, and prey\npopulations coexist in a natural system where scavengers can additionally rely\non the dead bodies of predators present in the system. Keeping this in mind,\nthe formulation and simulation of the predator prey scavenger model is\nintroduced in this paper. For the predation response, respective prey species\nare assumed to have Holling's functional response of type III. The proposed\nmodel is tested for various simulations and is found to be showing satisfactory\nresults in different scenarios. After simulations, the American forest dataset\nis taken for parameter estimation which imitates the real-world case. For\nparameter estimation, a physics-informed deep neural network is used with the\nAdam backpropagation method which prevents the avalanche effect in trainable\nparameters updation. For neural networks, mean square error and\nphysics-informed informed error are considered. After the neural network, the\nhence-found parameters are fine-tuned using the\nBroyden-Fletcher-Goldfarb-Shanno algorithm. Finally, the hence-found parameters\nusing a natural dataset are tested for stability using Jacobian stability\nanalysis. Future research work includes minimization of error induced by\nparameters, bifurcation analysis, and sensitivity analysis of the parameters.",
-            "link": "http://arxiv.org/pdf/2412.18344v1"
-        },
-        {
             "title": "NN-ResDMD: Learning Koopman Representations for Complex Dynamics with Spectral Residuals",
             "year": "January 2025",
             "date": "2025-01-01",
@@ -39,6 +31,14 @@
             "authors": "Chiun-Chuan Chen, Ting-Yang Hsiao, Shun-Chieh Wang",
             "abstract": "This article explores the dynamics of savanna ecosystems with grazing,\nbrowsing, and migration effects. Covering over one-eighth of the Earth's land\narea and supporting about one-fifth of the global population, the savanna is an\necological system whose importance has only recently garnered significant\nattention from biologists. The interactions between organisms in this ecosystem\nare highly complex, and fundamental mathematical issues remain unresolved. We\nrigorously analyze traveling waves in savanna systems and focus on whether\ntrees, grass, grazers, and browsers coexist. We demonstrate the existence of\nvarious traveling waves, including waves transitioning from extinction to\nco-existence and waves from a grass-vegetation state (where only grass and\ngrazers exist) to co-existence. Due to the biodiversity of species in grassland\necosystems, it is not appropriate to consider overly simplified models of\ncompetition between grasses and trees. From both a biological and mathematical\nperspective, factors such as animal grazing, browsing, and migration (which\nfacilitates seed dispersal) play a crucial role in promoting ecological\nstability and coexistence. Additionally, we estimate the nonzero minimum value\nof the total plant biomass within the savanna dynamic system to better\nunderstand the persistence and stability of sustainable development within the\necosystem.",
             "link": "http://arxiv.org/pdf/2501.06549v1"
+        },
+        {
+            "title": "Mathematical Modeling and Machine Learning for Predicting Shade-Seeking Behavior in Cows Under Heat Stress",
+            "year": "January 2025",
+            "date": "2025-01-09",
+            "authors": "S. Sanjuan, D. A. Méndez, R. Arnau, J. M. Calabuig, X. Díaz de Otálora Aguirre, F. Estellés",
+            "abstract": "In this paper we develop a mathematical model combined with machine learning\ntechniques to predict shade-seeking behavior in cows exposed to heat stress.\nThe approach integrates advanced mathematical features, such as time-averaged\nthermal indices and accumulated heat stress metrics, obtained by mathematical\nanalysis of data from a farm in Titaguas (Valencia, Spain), collected during\nthe summer of 2023. Two predictive models, Random Forests and Neural Networks,\nare compared for accuracy, robustness, and interpretability. The Random Forest\nmodel is highlighted for its balance between precision and explainability,\nachieving an RMSE of \\(14.97\\). The methodology also employs \\(5-\\)fold\ncross-validation to ensure robustness under real-world conditions. This work\nnot only advances the mathematical modeling of animal behavior but also\nprovides useful insights for mitigating heat stress in livestock through\ndata-driven tools.",
+            "link": "http://arxiv.org/pdf/2501.05494v1"
         }
     ],
     "last_year": [
