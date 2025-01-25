@@ -25,20 +25,20 @@
             "link": "http://arxiv.org/pdf/2412.20902v1"
         },
         {
+            "title": "A mathematical model of CAR-T cell therapy in combination with chemotherapy for malignant gliomas",
+            "year": "January 2025",
+            "date": "2025-01-23",
+            "authors": "Dmitry Sinelshchikov, Juan Belmonte-Beitia, Matteo Italia",
+            "abstract": "We study the dynamics and interactions between combined chemotherapy and\nchimeric antigen receptor (CAR-T) cells therapy and malignant gliomas (MG). MG\nis one of the most common primary brain tumor, with high resistance to therapy\nand unfavorable prognosis. Here, we develop a mathematical model that describes\nthe application of chemo- and CAR-T cell therapies and the dynamics of\nsensitive and resistant populations of tumor cells. This model is a\nfive-dimensional dynamical system with impulsive inputs corresponding to\nclinical administration of chemo- and immunotherapy. We provide a proof of\nnon-negativeness of solutions of the proposed model for non-negative initial\ndata. We demonstrate that if we apply both therapies only once, the\ntrajectories will be attracted to an invariant surface that corresponds to the\ntumor carrying capacity. On the other hand, if we apply both treatments\nconstantly, we find regions of the parameter where the tumor is eradicated.\nMoreover, we study applications of different combinations of the above\ntreatments in order to find an optimal combination at the population level. To\nthis aim, we generate a population of \\(10^{4}\\) virtual patients with the model\nparameters uniformly distributed in the medically relevant ranges and perform\n\\emph{in silico} trials with different combinations of treatments. We obtain\noptimal protocols for several different relations of tumor growth rates between\nsensitive and drug resistant cells. We demonstrate that the tumor growth rate,\nefficacy of chemotherapy, and tumor immunosuppression are the parameters that\nmostly impact survival time in \\emph{in silico} trials. We believe that our\nresults provide new theoretical insights to guide the design of clinical trials\nfor MG therapies.",
+            "link": "http://arxiv.org/pdf/2501.13774v1"
+        },
+        {
             "title": "Savanna dynamics with grazing, browsing, and migration effects",
             "year": "January 2025",
             "date": "2025-01-11",
             "authors": "Chiun-Chuan Chen, Ting-Yang Hsiao, Shun-Chieh Wang",
             "abstract": "This article explores the dynamics of savanna ecosystems with grazing,\nbrowsing, and migration effects. Covering over one-eighth of the Earth's land\narea and supporting about one-fifth of the global population, the savanna is an\necological system whose importance has only recently garnered significant\nattention from biologists. The interactions between organisms in this ecosystem\nare highly complex, and fundamental mathematical issues remain unresolved. We\nrigorously analyze traveling waves in savanna systems and focus on whether\ntrees, grass, grazers, and browsers coexist. We demonstrate the existence of\nvarious traveling waves, including waves transitioning from extinction to\nco-existence and waves from a grass-vegetation state (where only grass and\ngrazers exist) to co-existence. Due to the biodiversity of species in grassland\necosystems, it is not appropriate to consider overly simplified models of\ncompetition between grasses and trees. From both a biological and mathematical\nperspective, factors such as animal grazing, browsing, and migration (which\nfacilitates seed dispersal) play a crucial role in promoting ecological\nstability and coexistence. Additionally, we estimate the nonzero minimum value\nof the total plant biomass within the savanna dynamic system to better\nunderstand the persistence and stability of sustainable development within the\necosystem.",
             "link": "http://arxiv.org/pdf/2501.06549v1"
-        },
-        {
-            "title": "Mathematical Modeling and Machine Learning for Predicting Shade-Seeking Behavior in Cows Under Heat Stress",
-            "year": "January 2025",
-            "date": "2025-01-09",
-            "authors": "S. Sanjuan, D. A. Méndez, R. Arnau, J. M. Calabuig, X. Díaz de Otálora Aguirre, F. Estellés",
-            "abstract": "In this paper we develop a mathematical model combined with machine learning\ntechniques to predict shade-seeking behavior in cows exposed to heat stress.\nThe approach integrates advanced mathematical features, such as time-averaged\nthermal indices and accumulated heat stress metrics, obtained by mathematical\nanalysis of data from a farm in Titaguas (Valencia, Spain), collected during\nthe summer of 2023. Two predictive models, Random Forests and Neural Networks,\nare compared for accuracy, robustness, and interpretability. The Random Forest\nmodel is highlighted for its balance between precision and explainability,\nachieving an RMSE of \\(14.97\\). The methodology also employs \\(5-\\)fold\ncross-validation to ensure robustness under real-world conditions. This work\nnot only advances the mathematical modeling of animal behavior but also\nprovides useful insights for mitigating heat stress in livestock through\ndata-driven tools.",
-            "link": "http://arxiv.org/pdf/2501.05494v1"
         }
     ],
     "last_year": [
