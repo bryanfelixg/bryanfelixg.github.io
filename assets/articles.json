@@ -9,22 +9,6 @@
             "link": "http://arxiv.org/pdf/2501.00701v1"
         },
         {
-            "title": "An accurate approach to determining the spatiotemporal vehicle load on bridges based on measured boundary slopes",
-            "year": "December 2024",
-            "date": "2024-12-30",
-            "authors": "Alemdar Hasanov, Onur Baysal",
-            "abstract": "In this paper, a novel mathematical model is developed to evaluate the\nspatiotemporal vehicle loads on long bridges from slope measurements made at\nthe ends of a bridge based on Euler-Bernoulli beam model with internal and\nexternal damping. The mathematical modelling of this phenomena leads to the\ninverse source problem of determining the spatiotemporal vehicle load \\(F(x,t)\\)\nin the variable coefficient Euler-Bernoulli equation \\(\\rho_A(x)u_{tt}+\\mu(x)\nu_{t}+(r(x)u_{xx})_{xx}+(\\kappa(x)u_{xxt})_{xx}=F(x,t)\\), \\((x,t)\\in\n\\Omega_T:=(0,\\ell)\\times (0,T)\\) subject to the \"simply supported\" boundary\nconditions \\(u(0,t)=(r(x)u_{xx}+(\\kappa(x)u_{xxt})_{x=0}=0\\),\n\\(u(\\ell,t)=(r(x)u_{xx}+(\\kappa(x)u_{xxt})_{x=\\ell}=0\\), from the both measured\noutputs: \\(\\theta_1(t):=u_x(0,t)\\) and \\(\\theta_2(t):=u_x(\\ell,t)\\), that is, the\nmeasured boundary slopes. It is shown that the input-output maps \\((\\Phi\nF)(t):=u_x(0,t;F)\\), \\((\\Psi F)(t):=u_x(\\ell,t;F)\\), \\(F \\in \\mathcal{F}\\subset\nL^2(\\Omega_T)\\), corresponding to the inverse problem, are compact and Lipschitz\ncontinuous. Then Tikhonov functional \\(J(F)=\\Vert \\Phi F-\\theta_1\n\\Vert_{L^2(0,T)}^2+\\Vert \\Psi F-\\theta_2 \\Vert_{L^2(0,T)}^2\\) is introduced to\nprove the existence of a quasi-solution to the inverse problem. An explicit\ngradient formula for the Fr\\'{e}chet derivative of the Tikhonov functional is\nderived. The Lipschitz continuity of the Fr\\'{e}chet gradient, which guarantees\nthe monotonicity of iterations in gradient methods, has been proven.",
-            "link": "http://arxiv.org/pdf/2412.20778v1"
-        },
-        {
-            "title": "The Expectation of a Multiplicative Functional under the Sine-Process",
-            "year": "December 2024",
-            "date": "2024-12-30",
-            "authors": "Alexander I. Bufetov",
-            "abstract": "An explicit expression for the expected value of a regularized multiplicative\nfunctional under the sine-process is obtained by passing to the scaling limit\nin the Borodin-Okounkov-Geronimo-Case formula.",
-            "link": "http://arxiv.org/pdf/2412.20902v1"
-        },
-        {
             "title": "A mathematical model of CAR-T cell therapy in combination with chemotherapy for malignant gliomas",
             "year": "January 2025",
             "date": "2025-01-23",
@@ -39,6 +23,22 @@
             "authors": "Chiun-Chuan Chen, Ting-Yang Hsiao, Shun-Chieh Wang",
             "abstract": "This article explores the dynamics of savanna ecosystems with grazing,\nbrowsing, and migration effects. Covering over one-eighth of the Earth's land\narea and supporting about one-fifth of the global population, the savanna is an\necological system whose importance has only recently garnered significant\nattention from biologists. The interactions between organisms in this ecosystem\nare highly complex, and fundamental mathematical issues remain unresolved. We\nrigorously analyze traveling waves in savanna systems and focus on whether\ntrees, grass, grazers, and browsers coexist. We demonstrate the existence of\nvarious traveling waves, including waves transitioning from extinction to\nco-existence and waves from a grass-vegetation state (where only grass and\ngrazers exist) to co-existence. Due to the biodiversity of species in grassland\necosystems, it is not appropriate to consider overly simplified models of\ncompetition between grasses and trees. From both a biological and mathematical\nperspective, factors such as animal grazing, browsing, and migration (which\nfacilitates seed dispersal) play a crucial role in promoting ecological\nstability and coexistence. Additionally, we estimate the nonzero minimum value\nof the total plant biomass within the savanna dynamic system to better\nunderstand the persistence and stability of sustainable development within the\necosystem.",
             "link": "http://arxiv.org/pdf/2501.06549v1"
+        },
+        {
+            "title": "Mathematical Modeling and Machine Learning for Predicting Shade-Seeking Behavior in Cows Under Heat Stress",
+            "year": "January 2025",
+            "date": "2025-01-09",
+            "authors": "S. Sanjuan, D. A. Méndez, R. Arnau, J. M. Calabuig, X. Díaz de Otálora Aguirre, F. Estellés",
+            "abstract": "In this paper we develop a mathematical model combined with machine learning\ntechniques to predict shade-seeking behavior in cows exposed to heat stress.\nThe approach integrates advanced mathematical features, such as time-averaged\nthermal indices and accumulated heat stress metrics, obtained by mathematical\nanalysis of data from a farm in Titaguas (Valencia, Spain), collected during\nthe summer of 2023. Two predictive models, Random Forests and Neural Networks,\nare compared for accuracy, robustness, and interpretability. The Random Forest\nmodel is highlighted for its balance between precision and explainability,\nachieving an RMSE of \\(14.97\\). The methodology also employs \\(5-\\)fold\ncross-validation to ensure robustness under real-world conditions. This work\nnot only advances the mathematical modeling of animal behavior but also\nprovides useful insights for mitigating heat stress in livestock through\ndata-driven tools.",
+            "link": "http://arxiv.org/pdf/2501.05494v1"
+        },
+        {
+            "title": "Memorization and Regularization in Generative Diffusion Models",
+            "year": "January 2025",
+            "date": "2025-01-27",
+            "authors": "Ricardo Baptista, Agnimitra Dasgupta, Nikola B. Kovachki, Assad Oberai, Andrew M. Stuart",
+            "abstract": "Diffusion models have emerged as a powerful framework for generative\nmodeling. At the heart of the methodology is score matching: learning gradients\nof families of log-densities for noisy versions of the data distribution at\ndifferent scales. When the loss function adopted in score matching is evaluated\nusing empirical data, rather than the population loss, the minimizer\ncorresponds to the score of a time-dependent Gaussian mixture. However, use of\nthis analytically tractable minimizer leads to data memorization: in both\nunconditioned and conditioned settings, the generative model returns the\ntraining samples. This paper contains an analysis of the dynamical mechanism\nunderlying memorization. The analysis highlights the need for regularization to\navoid reproducing the analytically tractable minimizer; and, in so doing, lays\nthe foundations for a principled understanding of how to regularize. Numerical\nexperiments investigate the properties of: (i) Tikhonov regularization; (ii)\nregularization designed to promote asymptotic consistency; and (iii)\nregularizations induced by under-parameterization of a neural network or by\nearly stopping when training a neural network. These experiments are evaluated\nin the context of memorization, and directions for future development of\nregularization are highlighted.",
+            "link": "http://arxiv.org/pdf/2501.15785v1"
         }
     ],
     "last_year": [
