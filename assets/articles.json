@@ -1,14 +1,6 @@
 {
     "last_month": [
         {
-            "title": "NN-ResDMD: Learning Koopman Representations for Complex Dynamics with Spectral Residuals",
-            "year": "January 2025",
-            "date": "2025-01-01",
-            "authors": "Yuanchao Xu, Kaidi Shao, Nikos Logothetis, Zhongwei Shen",
-            "abstract": "Analyzing long-term behaviors in high-dimensional nonlinear dynamical systems\nremains a significant challenge. The Koopman operator framework has emerged as\na powerful tool to address this issue by providing a globally linear\nperspective on nonlinear dynamics. However, existing methods for approximating\nthe Koopman operator and its spectral components, particularly in large-scale\nsystems, often lack robust theoretical guarantees. Residual Dynamic Mode\nDecomposition (ResDMD) introduces a spectral residual measure to assess the\nconvergence of the estimated Koopman spectrum, which helps filter out spurious\nspectral components. Nevertheless, it depends on pre-computed spectra, thereby\ninheriting their inaccuracies. To overcome its limitations, we introduce the\nNeural Network-ResDMD (NN-ResDMD), a method that directly estimates Koopman\nspectral components by minimizing the spectral residual. By leveraging neural\nnetworks, NN-ResDMD automatically identifies the optimal basis functions of the\nKoopman invariant subspace, eliminating the need for manual selection and\nimproving the reliability of the analysis. Experiments on physical and\nbiological systems demonstrate that NN-ResDMD significantly improves both\naccuracy and scalability, making it an effective tool for analyzing complex\ndynamical systems.",
-            "link": "http://arxiv.org/pdf/2501.00701v1"
-        },
-        {
             "title": "A mathematical model of CAR-T cell therapy in combination with chemotherapy for malignant gliomas",
             "year": "January 2025",
             "date": "2025-01-23",
@@ -39,6 +31,14 @@
             "authors": "Ricardo Baptista, Agnimitra Dasgupta, Nikola B. Kovachki, Assad Oberai, Andrew M. Stuart",
             "abstract": "Diffusion models have emerged as a powerful framework for generative\nmodeling. At the heart of the methodology is score matching: learning gradients\nof families of log-densities for noisy versions of the data distribution at\ndifferent scales. When the loss function adopted in score matching is evaluated\nusing empirical data, rather than the population loss, the minimizer\ncorresponds to the score of a time-dependent Gaussian mixture. However, use of\nthis analytically tractable minimizer leads to data memorization: in both\nunconditioned and conditioned settings, the generative model returns the\ntraining samples. This paper contains an analysis of the dynamical mechanism\nunderlying memorization. The analysis highlights the need for regularization to\navoid reproducing the analytically tractable minimizer; and, in so doing, lays\nthe foundations for a principled understanding of how to regularize. Numerical\nexperiments investigate the properties of: (i) Tikhonov regularization; (ii)\nregularization designed to promote asymptotic consistency; and (iii)\nregularizations induced by under-parameterization of a neural network or by\nearly stopping when training a neural network. These experiments are evaluated\nin the context of memorization, and directions for future development of\nregularization are highlighted.",
             "link": "http://arxiv.org/pdf/2501.15785v1"
+        },
+        {
+            "title": "On the Dimension of Pullback Attractors in Recurrent Neural Networks",
+            "year": "January 2025",
+            "date": "2025-01-20",
+            "authors": "Muhammed Fadera",
+            "abstract": "Recurrent Neural Networks (RNNs) are high-dimensional state space models\ncapable of learning functions on sequence data. Recently, it has been\nconjectured that reservoir computers, a particular class of RNNs, trained on\nobservations of a dynamical systems can be interpreted as embeddings. This\nresult has been established for the case of linear reservoir systems. In this\nwork, we use a nonautonomous dynamical systems approach to establish an upper\nbound for the fractal dimension of the subset of reservoir state space\napproximated during training and prediction phase. We prove that when the input\nsequences comes from an Nin-dimensional invertible dynamical system, the\nfractal dimension of this set is bounded above by Nin. The result obtained here\nare useful in dimensionality reduction of computation in RNNs as well as\nestimating fractal dimensions of dynamical systems from limited observations of\ntheir time series. It is also a step towards understanding embedding properties\nof reservoir computers.",
+            "link": "http://arxiv.org/pdf/2501.11357v1"
         }
     ],
     "last_year": [
