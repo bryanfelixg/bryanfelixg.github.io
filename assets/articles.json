@@ -17,6 +17,14 @@
             "link": "http://arxiv.org/pdf/2501.06549v1"
         },
         {
+            "title": "Combining physics-based and data-driven models: advancing the frontiers of research with Scientific Machine Learning",
+            "year": "January 2025",
+            "date": "2025-01-30",
+            "authors": "Alfio Quarteroni, Paola Gervasio, Francesco Regazzoni",
+            "abstract": "Scientific Machine Learning (SciML) is a recently emerged research field\nwhich combines physics-based and data-driven models for the numerical\napproximation of differential problems. Physics-based models rely on the\nphysical understanding of the problem at hand, subsequent mathematical\nformulation, and numerical approximation. Data-driven models instead aim to\nextract relations between input and output data without arguing any causality\nprinciple underlining the available data distribution. In recent years,\ndata-driven models have been rapidly developed and popularized. Such a\ndiffusion has been triggered by a huge availability of data (the so-called big\ndata), an increasingly cheap computing power, and the development of powerful\nmachine learning algorithms. SciML leverages the physical awareness of\nphysics-based models and, at the same time, the efficiency of data-driven\nalgorithms. With SciML, we can inject physics and mathematical knowledge into\nmachine learning algorithms. Yet, we can rely on data-driven algorithms'\ncapability to discover complex and non-linear patterns from data and improve\nthe descriptive capacity of physics-based models. After recalling the\nmathematical foundations of digital modelling and machine learning algorithms,\nand presenting the most popular machine learning architectures, we discuss the\ngreat potential of a broad variety of SciML strategies in solving complex\nproblems governed by partial differential equations. Finally, we illustrate the\nsuccessful application of SciML to the simulation of the human cardiac\nfunction, a field of significant socio-economic importance that poses numerous\nchallenges on both the mathematical and computational fronts. The corresponding\nmathematical model is a complex system of non-linear ordinary and partial\ndifferential equations describing the electromechanics, valve dynamics, blood\ncirculation, perfusion in the coronary tree, and torso potential. Despite the\nrobustness and accuracy of physics-based models, certain aspects, such as\nunveiling constitutive laws for cardiac cells and myocardial material\nproperties, as well as devising efficient reduced order models to dominate the\nextraordinary computational complexity, have been successfully tackled by\nleveraging data-driven models.",
+            "link": "http://arxiv.org/pdf/2501.18708v1"
+        },
+        {
             "title": "Mathematical Modeling and Machine Learning for Predicting Shade-Seeking Behavior in Cows Under Heat Stress",
             "year": "January 2025",
             "date": "2025-01-09",
@@ -31,14 +39,6 @@
             "authors": "Ricardo Baptista, Agnimitra Dasgupta, Nikola B. Kovachki, Assad Oberai, Andrew M. Stuart",
             "abstract": "Diffusion models have emerged as a powerful framework for generative\nmodeling. At the heart of the methodology is score matching: learning gradients\nof families of log-densities for noisy versions of the data distribution at\ndifferent scales. When the loss function adopted in score matching is evaluated\nusing empirical data, rather than the population loss, the minimizer\ncorresponds to the score of a time-dependent Gaussian mixture. However, use of\nthis analytically tractable minimizer leads to data memorization: in both\nunconditioned and conditioned settings, the generative model returns the\ntraining samples. This paper contains an analysis of the dynamical mechanism\nunderlying memorization. The analysis highlights the need for regularization to\navoid reproducing the analytically tractable minimizer; and, in so doing, lays\nthe foundations for a principled understanding of how to regularize. Numerical\nexperiments investigate the properties of: (i) Tikhonov regularization; (ii)\nregularization designed to promote asymptotic consistency; and (iii)\nregularizations induced by under-parameterization of a neural network or by\nearly stopping when training a neural network. These experiments are evaluated\nin the context of memorization, and directions for future development of\nregularization are highlighted.",
             "link": "http://arxiv.org/pdf/2501.15785v1"
-        },
-        {
-            "title": "On the Dimension of Pullback Attractors in Recurrent Neural Networks",
-            "year": "January 2025",
-            "date": "2025-01-20",
-            "authors": "Muhammed Fadera",
-            "abstract": "Recurrent Neural Networks (RNNs) are high-dimensional state space models\ncapable of learning functions on sequence data. Recently, it has been\nconjectured that reservoir computers, a particular class of RNNs, trained on\nobservations of a dynamical systems can be interpreted as embeddings. This\nresult has been established for the case of linear reservoir systems. In this\nwork, we use a nonautonomous dynamical systems approach to establish an upper\nbound for the fractal dimension of the subset of reservoir state space\napproximated during training and prediction phase. We prove that when the input\nsequences comes from an Nin-dimensional invertible dynamical system, the\nfractal dimension of this set is bounded above by Nin. The result obtained here\nare useful in dimensionality reduction of computation in RNNs as well as\nestimating fractal dimensions of dynamical systems from limited observations of\ntheir time series. It is also a step towards understanding embedding properties\nof reservoir computers.",
-            "link": "http://arxiv.org/pdf/2501.11357v1"
         }
     ],
     "last_year": [
