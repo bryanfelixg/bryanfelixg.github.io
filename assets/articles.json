@@ -9,6 +9,14 @@
             "link": "http://arxiv.org/pdf/2501.13774v1"
         },
         {
+            "title": "Injectivity of polynomials over finite discrete dynamical systems",
+            "year": "February 2025",
+            "date": "2025-02-04",
+            "authors": "Antonio E. Porreca, Marius Rolland",
+            "abstract": "The analysis of observable phenomena (for instance, in biology or physics)\nallows the detection of dynamical behaviors and, conversely, starting from a\ndesired behavior allows the design of objects exhibiting that behavior in\nengineering. The decomposition of dynamics into simpler subsystems allows us to\nsimplify this analysis (or design). Here we focus on an algebraic approach to\ndecomposition, based on alternative and synchronous execution as the sum and\nproduct operations; this gives rise to polynomial equations (with a constant\nside). In this article we focus on univariate, injective polynomials, giving a\ncharacterization in terms of the form of their coefficients and a\npolynomial-time algorithm for solving the associated equations.",
+            "link": "http://arxiv.org/pdf/2502.02360v1"
+        },
+        {
             "title": "Savanna dynamics with grazing, browsing, and migration effects",
             "year": "January 2025",
             "date": "2025-01-11",
@@ -31,14 +39,6 @@
             "authors": "S. Sanjuan, D. A. Méndez, R. Arnau, J. M. Calabuig, X. Díaz de Otálora Aguirre, F. Estellés",
             "abstract": "In this paper we develop a mathematical model combined with machine learning\ntechniques to predict shade-seeking behavior in cows exposed to heat stress.\nThe approach integrates advanced mathematical features, such as time-averaged\nthermal indices and accumulated heat stress metrics, obtained by mathematical\nanalysis of data from a farm in Titaguas (Valencia, Spain), collected during\nthe summer of 2023. Two predictive models, Random Forests and Neural Networks,\nare compared for accuracy, robustness, and interpretability. The Random Forest\nmodel is highlighted for its balance between precision and explainability,\nachieving an RMSE of \\(14.97\\). The methodology also employs \\(5-\\)fold\ncross-validation to ensure robustness under real-world conditions. This work\nnot only advances the mathematical modeling of animal behavior but also\nprovides useful insights for mitigating heat stress in livestock through\ndata-driven tools.",
             "link": "http://arxiv.org/pdf/2501.05494v1"
-        },
-        {
-            "title": "Memorization and Regularization in Generative Diffusion Models",
-            "year": "January 2025",
-            "date": "2025-01-27",
-            "authors": "Ricardo Baptista, Agnimitra Dasgupta, Nikola B. Kovachki, Assad Oberai, Andrew M. Stuart",
-            "abstract": "Diffusion models have emerged as a powerful framework for generative\nmodeling. At the heart of the methodology is score matching: learning gradients\nof families of log-densities for noisy versions of the data distribution at\ndifferent scales. When the loss function adopted in score matching is evaluated\nusing empirical data, rather than the population loss, the minimizer\ncorresponds to the score of a time-dependent Gaussian mixture. However, use of\nthis analytically tractable minimizer leads to data memorization: in both\nunconditioned and conditioned settings, the generative model returns the\ntraining samples. This paper contains an analysis of the dynamical mechanism\nunderlying memorization. The analysis highlights the need for regularization to\navoid reproducing the analytically tractable minimizer; and, in so doing, lays\nthe foundations for a principled understanding of how to regularize. Numerical\nexperiments investigate the properties of: (i) Tikhonov regularization; (ii)\nregularization designed to promote asymptotic consistency; and (iii)\nregularizations induced by under-parameterization of a neural network or by\nearly stopping when training a neural network. These experiments are evaluated\nin the context of memorization, and directions for future development of\nregularization are highlighted.",
-            "link": "http://arxiv.org/pdf/2501.15785v1"
         }
     ],
     "last_year": [
