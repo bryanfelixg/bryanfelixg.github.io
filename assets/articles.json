@@ -33,12 +33,12 @@
             "link": "http://arxiv.org/pdf/2501.18708v1"
         },
         {
-            "title": "Mathematical Modeling and Machine Learning for Predicting Shade-Seeking Behavior in Cows Under Heat Stress",
+            "title": "Memorization and Regularization in Generative Diffusion Models",
             "year": "January 2025",
-            "date": "2025-01-09",
-            "authors": "S. Sanjuan, D. A. Méndez, R. Arnau, J. M. Calabuig, X. Díaz de Otálora Aguirre, F. Estellés",
-            "abstract": "In this paper we develop a mathematical model combined with machine learning\ntechniques to predict shade-seeking behavior in cows exposed to heat stress.\nThe approach integrates advanced mathematical features, such as time-averaged\nthermal indices and accumulated heat stress metrics, obtained by mathematical\nanalysis of data from a farm in Titaguas (Valencia, Spain), collected during\nthe summer of 2023. Two predictive models, Random Forests and Neural Networks,\nare compared for accuracy, robustness, and interpretability. The Random Forest\nmodel is highlighted for its balance between precision and explainability,\nachieving an RMSE of \\(14.97\\). The methodology also employs \\(5-\\)fold\ncross-validation to ensure robustness under real-world conditions. This work\nnot only advances the mathematical modeling of animal behavior but also\nprovides useful insights for mitigating heat stress in livestock through\ndata-driven tools.",
-            "link": "http://arxiv.org/pdf/2501.05494v1"
+            "date": "2025-01-27",
+            "authors": "Ricardo Baptista, Agnimitra Dasgupta, Nikola B. Kovachki, Assad Oberai, Andrew M. Stuart",
+            "abstract": "Diffusion models have emerged as a powerful framework for generative\nmodeling. At the heart of the methodology is score matching: learning gradients\nof families of log-densities for noisy versions of the data distribution at\ndifferent scales. When the loss function adopted in score matching is evaluated\nusing empirical data, rather than the population loss, the minimizer\ncorresponds to the score of a time-dependent Gaussian mixture. However, use of\nthis analytically tractable minimizer leads to data memorization: in both\nunconditioned and conditioned settings, the generative model returns the\ntraining samples. This paper contains an analysis of the dynamical mechanism\nunderlying memorization. The analysis highlights the need for regularization to\navoid reproducing the analytically tractable minimizer; and, in so doing, lays\nthe foundations for a principled understanding of how to regularize. Numerical\nexperiments investigate the properties of: (i) Tikhonov regularization; (ii)\nregularization designed to promote asymptotic consistency; and (iii)\nregularizations induced by under-parameterization of a neural network or by\nearly stopping when training a neural network. These experiments are evaluated\nin the context of memorization, and directions for future development of\nregularization are highlighted.",
+            "link": "http://arxiv.org/pdf/2501.15785v1"
         }
     ],
     "last_year": [
