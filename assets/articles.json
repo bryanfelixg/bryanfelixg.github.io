@@ -1,6 +1,14 @@
 {
     "last_month": [
         {
+            "title": "Flowing Through Layers: A Continuous Dynamical Systems Perspective on Transformers",
+            "year": "February 2025",
+            "date": "2025-02-08",
+            "authors": "Jacob Fein-Ashley",
+            "abstract": "We show that the standard discrete update rule of transformer layers can be\nnaturally interpreted as a forward Euler discretization of a continuous\ndynamical system. Our Transformer Flow Approximation Theorem demonstrates that,\nunder standard Lipschitz continuity assumptions, token representations converge\nuniformly to the unique solution of an ODE as the number of layers grows.\nMoreover, if the underlying mapping satisfies a one-sided Lipschitz condition\nwith a negative constant, the resulting dynamics are contractive, causing\nperturbations to decay exponentially across layers. Beyond clarifying the\nempirical stability and expressivity of transformer models, these insights link\ntransformer updates to a broader iterative reasoning framework, suggesting new\navenues for accelerated convergence and architectural innovations inspired by\ndynamical systems theory.",
+            "link": "http://arxiv.org/pdf/2502.05656v1"
+        },
+        {
             "title": "A mathematical model of CAR-T cell therapy in combination with chemotherapy for malignant gliomas",
             "year": "January 2025",
             "date": "2025-01-23",
@@ -25,20 +33,12 @@
             "link": "http://arxiv.org/pdf/2501.18708v1"
         },
         {
-            "title": "Memorization and Regularization in Generative Diffusion Models",
+            "title": "Invariant Measures for Data-Driven Dynamical System Identification: Analysis and Application",
             "year": "January 2025",
-            "date": "2025-01-27",
-            "authors": "Ricardo Baptista, Agnimitra Dasgupta, Nikola B. Kovachki, Assad Oberai, Andrew M. Stuart",
-            "abstract": "Diffusion models have emerged as a powerful framework for generative\nmodeling. At the heart of the methodology is score matching: learning gradients\nof families of log-densities for noisy versions of the data distribution at\ndifferent scales. When the loss function adopted in score matching is evaluated\nusing empirical data, rather than the population loss, the minimizer\ncorresponds to the score of a time-dependent Gaussian mixture. However, use of\nthis analytically tractable minimizer leads to data memorization: in both\nunconditioned and conditioned settings, the generative model returns the\ntraining samples. This paper contains an analysis of the dynamical mechanism\nunderlying memorization. The analysis highlights the need for regularization to\navoid reproducing the analytically tractable minimizer; and, in so doing, lays\nthe foundations for a principled understanding of how to regularize. Numerical\nexperiments investigate the properties of: (i) Tikhonov regularization; (ii)\nregularization designed to promote asymptotic consistency; and (iii)\nregularizations induced by under-parameterization of a neural network or by\nearly stopping when training a neural network. These experiments are evaluated\nin the context of memorization, and directions for future development of\nregularization are highlighted.",
-            "link": "http://arxiv.org/pdf/2501.15785v1"
-        },
-        {
-            "title": "On the Dimension of Pullback Attractors in Recurrent Neural Networks",
-            "year": "January 2025",
-            "date": "2025-01-20",
-            "authors": "Muhammed Fadera",
-            "abstract": "Recurrent Neural Networks (RNNs) are high-dimensional state space models\ncapable of learning functions on sequence data. Recently, it has been\nconjectured that reservoir computers, a particular class of RNNs, trained on\nobservations of a dynamical systems can be interpreted as embeddings. This\nresult has been established for the case of linear reservoir systems. In this\nwork, we use a nonautonomous dynamical systems approach to establish an upper\nbound for the fractal dimension of the subset of reservoir state space\napproximated during training and prediction phase. We prove that when the input\nsequences comes from an Nin-dimensional invertible dynamical system, the\nfractal dimension of this set is bounded above by Nin. The result obtained here\nare useful in dimensionality reduction of computation in RNNs as well as\nestimating fractal dimensions of dynamical systems from limited observations of\ntheir time series. It is also a step towards understanding embedding properties\nof reservoir computers.",
-            "link": "http://arxiv.org/pdf/2501.11357v1"
+            "date": "2025-01-31",
+            "authors": "Jonah Botvinick-Greenhouse",
+            "abstract": "We propose a novel approach for performing dynamical system identification,\nbased upon the comparison of simulated and observed physical invariant\nmeasures. While standard methods adopt a Lagrangian perspective by directly\ntreating time-trajectories as inference data, we take on an Eulerian\nperspective and instead seek models fitting the observed global time-invariant\nstatistics. With this change in perspective, we gain robustness against\npervasive challenges in system identification including noise, chaos, and slow\nsampling. In the first half of this paper, we pose the system identification\ntask as a partial differential equation (PDE) constrained optimization problem,\nin which synthetic stationary solutions of the Fokker-Planck equation, obtained\nas fixed points of a finite-volume discretization, are compared to physical\ninvariant measures extracted from observed trajectory data. In the latter half\nof the paper, we improve upon this approach in two crucial directions. First,\nwe develop a Galerkin-inspired modification to the finite-volume surrogate\nmodel, based on data-adaptive unstructured meshes and Monte-Carlo integration,\nenabling the approach to efficiently scale to high-dimensional problems.\nSecond, we leverage Takens' seminal time-delay embedding theory to introduce a\ncritical data-dependent coordinate transformation which can guarantee unique\nsystem identifiability from the invariant measure alone. This contribution\nresolves a major challenge of system identification through invariant measures,\nas systems exhibiting distinct transient behaviors may still share the same\ntime-invariant statistics in their state-coordinates. Throughout, we present\ncomprehensive numerical tests which highlight the effectiveness of our approach\non a variety of challenging system identification tasks.",
+            "link": "http://arxiv.org/pdf/2502.05204v1"
         }
     ],
     "last_year": [
