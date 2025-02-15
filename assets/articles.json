@@ -1,14 +1,6 @@
 {
     "last_month": [
         {
-            "title": "Mathematical Data Science",
-            "year": "February 2025",
-            "date": "2025-02-12",
-            "authors": "Michael R. Douglas, Kyu-Hwan Lee",
-            "abstract": "Can machine learning help discover new mathematical structures? In this\narticle we discuss an approach to doing this which one can call \"mathematical\ndata science\". In this paradigm, one studies mathematical objects collectively\nrather than individually, by creating datasets and doing machine learning\nexperiments and interpretations. After an overview, we present two case\nstudies: murmurations in number theory and loadings of partitions related to\nKronecker coefficients in representation theory and combinatorics.",
-            "link": "http://arxiv.org/pdf/2502.08620v1"
-        },
-        {
             "title": "Fourier-enhanced Neural Networks For Systems Biology Applications",
             "year": "February 2025",
             "date": "2025-02-10",
@@ -39,6 +31,14 @@
             "authors": "Dmitry Sinelshchikov, Juan Belmonte-Beitia, Matteo Italia",
             "abstract": "We study the dynamics and interactions between combined chemotherapy and\nchimeric antigen receptor (CAR-T) cells therapy and malignant gliomas (MG). MG\nis one of the most common primary brain tumor, with high resistance to therapy\nand unfavorable prognosis. Here, we develop a mathematical model that describes\nthe application of chemo- and CAR-T cell therapies and the dynamics of\nsensitive and resistant populations of tumor cells. This model is a\nfive-dimensional dynamical system with impulsive inputs corresponding to\nclinical administration of chemo- and immunotherapy. We provide a proof of\nnon-negativeness of solutions of the proposed model for non-negative initial\ndata. We demonstrate that if we apply both therapies only once, the\ntrajectories will be attracted to an invariant surface that corresponds to the\ntumor carrying capacity. On the other hand, if we apply both treatments\nconstantly, we find regions of the parameter where the tumor is eradicated.\nMoreover, we study applications of different combinations of the above\ntreatments in order to find an optimal combination at the population level. To\nthis aim, we generate a population of \\(10^{4}\\) virtual patients with the model\nparameters uniformly distributed in the medically relevant ranges and perform\n\\emph{in silico} trials with different combinations of treatments. We obtain\noptimal protocols for several different relations of tumor growth rates between\nsensitive and drug resistant cells. We demonstrate that the tumor growth rate,\nefficacy of chemotherapy, and tumor immunosuppression are the parameters that\nmostly impact survival time in \\emph{in silico} trials. We believe that our\nresults provide new theoretical insights to guide the design of clinical trials\nfor MG therapies.",
             "link": "http://arxiv.org/pdf/2501.13774v1"
+        },
+        {
+            "title": "Mathematical Data Science",
+            "year": "February 2025",
+            "date": "2025-02-12",
+            "authors": "Michael R. Douglas, Kyu-Hwan Lee",
+            "abstract": "Can machine learning help discover new mathematical structures? In this\narticle we discuss an approach to doing this which one can call \"mathematical\ndata science\". In this paradigm, one studies mathematical objects collectively\nrather than individually, by creating datasets and doing machine learning\nexperiments and interpretations. After an overview, we present two case\nstudies: murmurations in number theory and loadings of partitions related to\nKronecker coefficients in representation theory and combinatorics.",
+            "link": "http://arxiv.org/pdf/2502.08620v1"
         }
     ],
     "last_year": [
