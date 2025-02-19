@@ -9,6 +9,14 @@
             "link": "http://arxiv.org/pdf/2502.07129v1"
         },
         {
+            "title": "Mixing for dynamical systems driven by stationary noises",
+            "year": "February 2025",
+            "date": "2025-02-17",
+            "authors": "Sergei Kuksin, Armen Shirikyan",
+            "abstract": "The paper deals with the problem of long-time asymptotic behaviour of\nsolutions for classes of ODEs and PDEs, perturbed by stationary noises. The\nlatter are not assumed to be \\(\\delta\\)-correlated in time, so that the evolution\nin question is not necessarily Markovian. We first prove an abstract result\nwhich imply the mixing for random dynamical systems satisfying appropriate\ndissipativity and controllability conditions. It is applicable to a large class\nof evolution equations, and we illustrate it on the examples of a chain of\nanharmonic oscillators coupled to heat reservoirs, the 2d Navier-Stokes system,\nand a complex Ginzburg-Landau equation. Our results also apply to the general\ntheory of random processes on the 1d lattice and allow one to get for them\nresults related to Dobrushin's theorems on reconstructing processes via their\nconditional distributions. The proof is based on an iterative construction with\nquadratic convergence. It uses the method of Kantorovich functional, introduced\nin [KPS02, Kuk02, Kuk06] in the context of randomly forced PDEs, and some ideas\nsuggested in [Shi15, KNS20] to prove mixing with the help of controllability\nproperties of an associated system",
+            "link": "http://arxiv.org/pdf/2502.11699v1"
+        },
+        {
             "title": "Flowing Through Layers: A Continuous Dynamical Systems Perspective on Transformers",
             "year": "February 2025",
             "date": "2025-02-08",
@@ -17,28 +25,20 @@
             "link": "http://arxiv.org/pdf/2502.05656v1"
         },
         {
+            "title": "Reduced Order Modeling with Shallow Recurrent Decoder Networks",
+            "year": "February 2025",
+            "date": "2025-02-15",
+            "authors": "Matteo Tomasetto, Jan P. Williams, Francesco Braghin, Andrea Manzoni, J. Nathan Kutz",
+            "abstract": "Reduced Order Modeling is of paramount importance for efficiently inferring\nhigh-dimensional spatio-temporal fields in parametric contexts, enabling\ncomputationally tractable parametric analyses, uncertainty quantification and\ncontrol. However, conventional dimensionality reduction techniques are\ntypically limited to known and constant parameters, inefficient for nonlinear\nand chaotic dynamics, and uninformed to the actual system behavior. In this\nwork, we propose sensor-driven SHallow REcurrent Decoder networks for Reduced\nOrder Modeling (SHRED-ROM). Specifically, we consider the composition of a long\nshort-term memory network, which encodes the temporal dynamics of limited\nsensor data in multiple scenarios, and a shallow decoder, which reconstructs\nthe corresponding high-dimensional states. SHRED-ROM is a robust decoding-only\nstrategy that circumvents the numerically unstable approximation of an inverse\nwhich is required by encoding-decoding schemes. To enhance computational\nefficiency and memory usage, the full-order state snapshots are reduced by,\ne.g., proper orthogonal decomposition, allowing for compressive training of the\nnetworks with minimal hyperparameter tuning. Through applications on chaotic\nand nonlinear fluid dynamics, we show that SHRED-ROM (i) accurately\nreconstructs the state dynamics for new parameter values starting from limited\nfixed or mobile sensors, independently on sensor placement, (ii) can cope with\nboth physical, geometrical and time-dependent parametric dependencies, while\nbeing agnostic to their actual values, (iii) can accurately estimate unknown\nparameters, and (iv) can deal with different data sources, such as\nhigh-fidelity simulations, coupled fields and videos.",
+            "link": "http://arxiv.org/pdf/2502.10930v1"
+        },
+        {
             "title": "Stability of N-front and N-back solutions in the Barkley model",
             "year": "February 2025",
             "date": "2025-02-12",
             "authors": "Christian Kuehn, Pascal Sedlmeier",
             "abstract": "In this paper we establish for an intermediate Reynolds number domain the\nstability of N-front and N-back solutions for each N > 1 corresponding to\ntraveling waves, in an experimentally validated model for the transition to\nturbulence in pipe flow proposed in [Barkley et al., Nature 526(7574):550-553,\n2015]. We base our work on the existence analysis of a heteroclinic loop\nbetween a turbulent and a laminar equilibrium proved by Engel, Kuehn and de\nRijk in [Engel, Kuehn, de Rijk, Nonlinearity 35:5903, 2022], as well as some\nresults from this work. The stability proof follows the verification of a set\nof abstract stability hypotheses stated by Sandstede in [SIAM Journal on\nMathematical Analysis 29.1 (1998), pp. 183-207] for traveling waves motivated\nby the FitzHugh-Nagumo equations. In particular, this completes the first\ndetailed analysis of Engel, Kuehn and de Rijk in [Engel, Kuehn, de Rijk,\nNonlinearity 35:5903, 2022] leading to a complete existence and stability\nstatement that nicely fits within the abstract framework of waves generated by\ntwisted heteroclinic loops.",
             "link": "http://arxiv.org/pdf/2502.08349v1"
-        },
-        {
-            "title": "A mathematical model of CAR-T cell therapy in combination with chemotherapy for malignant gliomas",
-            "year": "January 2025",
-            "date": "2025-01-23",
-            "authors": "Dmitry Sinelshchikov, Juan Belmonte-Beitia, Matteo Italia",
-            "abstract": "We study the dynamics and interactions between combined chemotherapy and\nchimeric antigen receptor (CAR-T) cells therapy and malignant gliomas (MG). MG\nis one of the most common primary brain tumor, with high resistance to therapy\nand unfavorable prognosis. Here, we develop a mathematical model that describes\nthe application of chemo- and CAR-T cell therapies and the dynamics of\nsensitive and resistant populations of tumor cells. This model is a\nfive-dimensional dynamical system with impulsive inputs corresponding to\nclinical administration of chemo- and immunotherapy. We provide a proof of\nnon-negativeness of solutions of the proposed model for non-negative initial\ndata. We demonstrate that if we apply both therapies only once, the\ntrajectories will be attracted to an invariant surface that corresponds to the\ntumor carrying capacity. On the other hand, if we apply both treatments\nconstantly, we find regions of the parameter where the tumor is eradicated.\nMoreover, we study applications of different combinations of the above\ntreatments in order to find an optimal combination at the population level. To\nthis aim, we generate a population of \\(10^{4}\\) virtual patients with the model\nparameters uniformly distributed in the medically relevant ranges and perform\n\\emph{in silico} trials with different combinations of treatments. We obtain\noptimal protocols for several different relations of tumor growth rates between\nsensitive and drug resistant cells. We demonstrate that the tumor growth rate,\nefficacy of chemotherapy, and tumor immunosuppression are the parameters that\nmostly impact survival time in \\emph{in silico} trials. We believe that our\nresults provide new theoretical insights to guide the design of clinical trials\nfor MG therapies.",
-            "link": "http://arxiv.org/pdf/2501.13774v1"
-        },
-        {
-            "title": "Mathematical Data Science",
-            "year": "February 2025",
-            "date": "2025-02-12",
-            "authors": "Michael R. Douglas, Kyu-Hwan Lee",
-            "abstract": "Can machine learning help discover new mathematical structures? In this\narticle we discuss an approach to doing this which one can call \"mathematical\ndata science\". In this paradigm, one studies mathematical objects collectively\nrather than individually, by creating datasets and doing machine learning\nexperiments and interpretations. After an overview, we present two case\nstudies: murmurations in number theory and loadings of partitions related to\nKronecker coefficients in representation theory and combinatorics.",
-            "link": "http://arxiv.org/pdf/2502.08620v1"
         }
     ],
     "last_year": [
