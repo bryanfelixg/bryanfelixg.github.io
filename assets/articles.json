@@ -1,6 +1,14 @@
 {
     "last_month": [
         {
+            "title": "Deep Learning of the Evolution Operator Enables Forecasting of Out-of-Training Dynamics in Chaotic Systems",
+            "year": "February 2025",
+            "date": "2025-02-28",
+            "authors": "Ira J. S. Shokar, Peter H. Haynes, Rich R. Kerswell",
+            "abstract": "We demonstrate that a deep learning emulator for chaotic systems can forecast\nphenomena absent from training data. Using the Kuramoto-Sivashinsky and\nbeta-plane turbulence models, we evaluate the emulator through scenarios\nprobing the fundamental phenomena of both systems: forecasting spontaneous\nrelaminarisation, capturing initialisation of arbitrary chaotic states,\nzero-shot prediction of dynamics with parameter values outside of the training\nrange, and characterisation of dynamical statistics from artificially\nrestricted training datasets. Our results show that deep learning emulators can\nuncover emergent behaviours and rare events in complex systems by learning\nunderlying mathematical rules, rather than merely mimicking observed patterns.",
+            "link": "http://arxiv.org/pdf/2502.20603v1"
+        },
+        {
             "title": "Fourier-enhanced Neural Networks For Systems Biology Applications",
             "year": "February 2025",
             "date": "2025-02-10",
@@ -31,14 +39,6 @@
             "authors": "Shihe Liu, Yunfeng Shi, Zhifei Zhang",
             "abstract": "In this paper, we investigate Anderson localization for a nonlinear\nperturbation of the Maryland model\n\\(H=\\varepsilon\\Delta+\\cot\\pi(\\theta+j\\cdot\\alpha)\\delta_{j,j'}\\) on\n\\(\\mathbb{Z}^d\\). Specifically, if \\(\\varepsilon,\\delta\\) are sufficiently small,\nwe construct a large number of time quasi-periodic and space exponentially\ndecaying solutions (i.e., Anderson localized states) for the equation\n\\(i\\frac{\\partial u}{\\partial t}=Hu+\\delta|u|^{2p}u\\) with a Diophantine\n\\(\\alpha\\). Our proof combines eigenvalue estimates of the Maryland model with\nthe Craig-Wayne-Bourgain method, which originates from KAM theory for\nHamiltonian PDEs.",
             "link": "http://arxiv.org/pdf/2502.16397v1"
-        },
-        {
-            "title": "Global stability of Wright-type equations with negative Schwarzian",
-            "year": "February 2025",
-            "date": "2025-02-21",
-            "authors": "Mauro Díaz, Karel Hasík, Jana Kopfová, Sergei Trofimchuk",
-            "abstract": "Simplicity of the \\(37/24\\)-global stability criterion announced by E.M. Wright\nin 1955 and rigorously proved by B. B\\'{a}nhelyi et al in 2014 for the delayed\nlogistic equation raised the question of its possible extension for other\npopulation models. In our study, we answer this question by extending the\n\\(37/24\\)-stability condition for the Wright-type equations with decreasing\nsmooth nonlinearity \\(f\\) which has a negative Schwarzian and satisfies the\nstandard negative feedback and boundedness assumptions. The proof contains the\nconstruction and careful analysis of qualitative properties of certain bounding\nrelations. To validate our conclusions, these relations are evaluated at finite\nsets of points; for this purpose, we systematically use interval analysis.",
-            "link": "http://arxiv.org/pdf/2502.15965v1"
         }
     ],
     "last_year": [
