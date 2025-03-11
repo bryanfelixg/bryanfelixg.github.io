@@ -25,20 +25,20 @@
             "link": "http://arxiv.org/pdf/2502.11699v1"
         },
         {
-            "title": "Flowing Through Layers: A Continuous Dynamical Systems Perspective on Transformers",
-            "year": "February 2025",
-            "date": "2025-02-08",
-            "authors": "Jacob Fein-Ashley",
-            "abstract": "We show that the standard discrete update rule of transformer layers can be\nnaturally interpreted as a forward Euler discretization of a continuous\ndynamical system. Our Transformer Flow Approximation Theorem demonstrates that,\nunder standard Lipschitz continuity assumptions, token representations converge\nuniformly to the unique solution of an ODE as the number of layers grows.\nMoreover, if the underlying mapping satisfies a one-sided Lipschitz condition\nwith a negative constant, the resulting dynamics are contractive, causing\nperturbations to decay exponentially across layers. Beyond clarifying the\nempirical stability and expressivity of transformer models, these insights link\ntransformer updates to a broader iterative reasoning framework, suggesting new\navenues for accelerated convergence and architectural innovations inspired by\ndynamical systems theory.",
-            "link": "http://arxiv.org/pdf/2502.05656v1"
-        },
-        {
             "title": "Anderson localized states for the nonlinear Maryland model on \\(\\mathbb{Z}^d\\)",
             "year": "February 2025",
             "date": "2025-02-23",
             "authors": "Shihe Liu, Yunfeng Shi, Zhifei Zhang",
             "abstract": "In this paper, we investigate Anderson localization for a nonlinear\nperturbation of the Maryland model\n\\(H=\\varepsilon\\Delta+\\cot\\pi(\\theta+j\\cdot\\alpha)\\delta_{j,j'}\\) on\n\\(\\mathbb{Z}^d\\). Specifically, if \\(\\varepsilon,\\delta\\) are sufficiently small,\nwe construct a large number of time quasi-periodic and space exponentially\ndecaying solutions (i.e., Anderson localized states) for the equation\n\\(i\\frac{\\partial u}{\\partial t}=Hu+\\delta|u|^{2p}u\\) with a Diophantine\n\\(\\alpha\\). Our proof combines eigenvalue estimates of the Maryland model with\nthe Craig-Wayne-Bourgain method, which originates from KAM theory for\nHamiltonian PDEs.",
             "link": "http://arxiv.org/pdf/2502.16397v1"
+        },
+        {
+            "title": "Computer-Assisted Proofs of Solitons in Bose-Einstein Condensates",
+            "year": "March 2025",
+            "date": "2025-03-06",
+            "authors": "Miguel Ayala, Carlos García-Azpeitia, Jean-Philippe Lessard",
+            "abstract": "We rigorously prove the existence of gap solitons in the one-dimensional\nGross-Pitaevskii (GP) equation with a periodic potential. These nonlinear\nlocalized solutions emerge in spectral gaps and play a crucial role in\nunderstanding Bose-Einstein condensates (BECs). To prove them, we reformulate\nthe problem as the search for homoclinic orbits in a higher-dimensional\ndynamical system. We then use computer-assisted proof techniques, combined with\na functional analytic framework, to rigorously validate numerically\napproximated homoclinic orbits. This work bridges computational evidence and\nformal mathematical proofs, providing a solid foundation for the study of\nsolitons in the GP equation.",
+            "link": "http://arxiv.org/pdf/2503.04701v1"
         }
     ],
     "last_year": [
