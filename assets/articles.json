@@ -9,14 +9,6 @@
             "link": "http://arxiv.org/pdf/2502.20603v1"
         },
         {
-            "title": "Fourier-enhanced Neural Networks For Systems Biology Applications",
-            "year": "February 2025",
-            "date": "2025-02-10",
-            "authors": "Enze Xu, Minghan Chen",
-            "abstract": "In the field of systems biology, differential equations are commonly used to\nmodel biological systems, but solving them for large-scale and complex systems\ncan be computationally expensive. Recently, the integration of machine learning\nand mathematical modeling has offered new opportunities for scientific\ndiscoveries in biology and health. The emerging physics-informed neural network\n(PINN) has been proposed as a solution to this problem. However, PINN can be\ncomputationally expensive and unreliable for complex biological systems. To\naddress these issues, we propose the Fourier-enhanced Neural Networks for\nsystems biology (SB-FNN). SB-FNN uses an embedded Fourier neural network with\nan adaptive activation function and a cyclic penalty function to optimize the\nprediction of biological dynamics, particularly for biological systems that\nexhibit oscillatory patterns. Experimental results demonstrate that SB-FNN\nachieves better performance and is more efficient than PINN for handling\ncomplex biological models. Experimental results on cellular and population\nmodels demonstrate that SB-FNN outperforms PINN in both accuracy and\nefficiency, making it a promising alternative approach for handling complex\nbiological models. The proposed method achieved better performance on six\nbiological models and is expected to replace PINN as the most advanced method\nin systems biology.",
-            "link": "http://arxiv.org/pdf/2502.07129v1"
-        },
-        {
             "title": "Mixing for dynamical systems driven by stationary noises",
             "year": "February 2025",
             "date": "2025-02-17",
@@ -39,6 +31,14 @@
             "authors": "Miguel Ayala, Carlos García-Azpeitia, Jean-Philippe Lessard",
             "abstract": "We rigorously prove the existence of gap solitons in the one-dimensional\nGross-Pitaevskii (GP) equation with a periodic potential. These nonlinear\nlocalized solutions emerge in spectral gaps and play a crucial role in\nunderstanding Bose-Einstein condensates (BECs). To prove them, we reformulate\nthe problem as the search for homoclinic orbits in a higher-dimensional\ndynamical system. We then use computer-assisted proof techniques, combined with\na functional analytic framework, to rigorously validate numerically\napproximated homoclinic orbits. This work bridges computational evidence and\nformal mathematical proofs, providing a solid foundation for the study of\nsolitons in the GP equation.",
             "link": "http://arxiv.org/pdf/2503.04701v1"
+        },
+        {
+            "title": "Global stability of Wright-type equations with negative Schwarzian",
+            "year": "February 2025",
+            "date": "2025-02-21",
+            "authors": "Mauro Díaz, Karel Hasík, Jana Kopfová, Sergei Trofimchuk",
+            "abstract": "Simplicity of the \\(37/24\\)-global stability criterion announced by E.M. Wright\nin 1955 and rigorously proved by B. B\\'{a}nhelyi et al in 2014 for the delayed\nlogistic equation raised the question of its possible extension for other\npopulation models. In our study, we answer this question by extending the\n\\(37/24\\)-stability condition for the Wright-type equations with decreasing\nsmooth nonlinearity \\(f\\) which has a negative Schwarzian and satisfies the\nstandard negative feedback and boundedness assumptions. The proof contains the\nconstruction and careful analysis of qualitative properties of certain bounding\nrelations. To validate our conclusions, these relations are evaluated at finite\nsets of points; for this purpose, we systematically use interval analysis.",
+            "link": "http://arxiv.org/pdf/2502.15965v1"
         }
     ],
     "last_year": [
