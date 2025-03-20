@@ -17,14 +17,6 @@
             "link": "http://arxiv.org/pdf/2502.20603v1"
         },
         {
-            "title": "Mixing for dynamical systems driven by stationary noises",
-            "year": "February 2025",
-            "date": "2025-02-17",
-            "authors": "Sergei Kuksin, Armen Shirikyan",
-            "abstract": "The paper deals with the problem of long-time asymptotic behaviour of\nsolutions for classes of ODEs and PDEs, perturbed by stationary noises. The\nlatter are not assumed to be \\(\\delta\\)-correlated in time, so that the evolution\nin question is not necessarily Markovian. We first prove an abstract result\nwhich imply the mixing for random dynamical systems satisfying appropriate\ndissipativity and controllability conditions. It is applicable to a large class\nof evolution equations, and we illustrate it on the examples of a chain of\nanharmonic oscillators coupled to heat reservoirs, the 2d Navier-Stokes system,\nand a complex Ginzburg-Landau equation. Our results also apply to the general\ntheory of random processes on the 1d lattice and allow one to get for them\nresults related to Dobrushin's theorems on reconstructing processes via their\nconditional distributions. The proof is based on an iterative construction with\nquadratic convergence. It uses the method of Kantorovich functional, introduced\nin [KPS02, Kuk02, Kuk06] in the context of randomly forced PDEs, and some ideas\nsuggested in [Shi15, KNS20] to prove mixing with the help of controllability\nproperties of an associated system",
-            "link": "http://arxiv.org/pdf/2502.11699v1"
-        },
-        {
             "title": "Anderson localized states for the nonlinear Maryland model on \\(\\mathbb{Z}^d\\)",
             "year": "February 2025",
             "date": "2025-02-23",
@@ -39,6 +31,14 @@
             "authors": "Miguel Ayala, Carlos García-Azpeitia, Jean-Philippe Lessard",
             "abstract": "We rigorously prove the existence of gap solitons in the one-dimensional\nGross-Pitaevskii (GP) equation with a periodic potential. These nonlinear\nlocalized solutions emerge in spectral gaps and play a crucial role in\nunderstanding Bose-Einstein condensates (BECs). To prove them, we reformulate\nthe problem as the search for homoclinic orbits in a higher-dimensional\ndynamical system. We then use computer-assisted proof techniques, combined with\na functional analytic framework, to rigorously validate numerically\napproximated homoclinic orbits. This work bridges computational evidence and\nformal mathematical proofs, providing a solid foundation for the study of\nsolitons in the GP equation.",
             "link": "http://arxiv.org/pdf/2503.04701v1"
+        },
+        {
+            "title": "Global stability of Wright-type equations with negative Schwarzian",
+            "year": "February 2025",
+            "date": "2025-02-21",
+            "authors": "Mauro Díaz, Karel Hasík, Jana Kopfová, Sergei Trofimchuk",
+            "abstract": "Simplicity of the \\(37/24\\)-global stability criterion announced by E.M. Wright\nin 1955 and rigorously proved by B. B\\'{a}nhelyi et al in 2014 for the delayed\nlogistic equation raised the question of its possible extension for other\npopulation models. In our study, we answer this question by extending the\n\\(37/24\\)-stability condition for the Wright-type equations with decreasing\nsmooth nonlinearity \\(f\\) which has a negative Schwarzian and satisfies the\nstandard negative feedback and boundedness assumptions. The proof contains the\nconstruction and careful analysis of qualitative properties of certain bounding\nrelations. To validate our conclusions, these relations are evaluated at finite\nsets of points; for this purpose, we systematically use interval analysis.",
+            "link": "http://arxiv.org/pdf/2502.15965v1"
         }
     ],
     "last_year": [
