@@ -117,12 +117,12 @@
             "link": "http://arxiv.org/pdf/2202.02435v1"
         },
         {
-            "title": "Asymptotic expansions for the Lagrangian trajectories from solutions of the Navier-Stokes equations",
-            "year": "March 2020",
-            "date": "2020-03-21",
-            "authors": "Luan Hoang",
-            "abstract": "Consider any Leray-Hopf weak solution of the three-dimensional Navier-Stokes\nequations for incompressible, viscous fluid flows. We prove that any Lagrangian\ntrajectory associated with such a velocity field has an asymptotic expansion,\nas time tends to infinity, which describes its long-time behavior very\nprecisely.",
-            "link": "http://arxiv.org/pdf/2003.09749v2"
+            "title": "Scalable algorithms for physics-informed neural and graph networks",
+            "year": "May 2022",
+            "date": "2022-05-16",
+            "authors": "Khemraj Shukla, Mengjia Xu, Nathaniel Trask, George Em Karniadakis",
+            "abstract": "Physics-informed machine learning (PIML) has emerged as a promising new\napproach for simulating complex physical and biological systems that are\ngoverned by complex multiscale processes for which some data are also\navailable. In some instances, the objective is to discover part of the hidden\nphysics from the available data, and PIML has been shown to be particularly\neffective for such problems for which conventional methods may fail. Unlike\ncommercial machine learning where training of deep neural networks requires big\ndata, in PIML big data are not available. Instead, we can train such networks\nfrom additional information obtained by employing the physical laws and\nevaluating them at random points in the space-time domain. Such\nphysics-informed machine learning integrates multimodality and multifidelity\ndata with mathematical models, and implements them using neural networks or\ngraph networks. Here, we review some of the prevailing trends in embedding\nphysics into machine learning, using physics-informed neural networks (PINNs)\nbased primarily on feed-forward neural networks and automatic differentiation.\nFor more complex systems or systems of systems and unstructured data, graph\nneural networks (GNNs) present some distinct advantages, and here we review how\nphysics-informed learning can be accomplished with GNNs based on graph exterior\ncalculus to construct differential operators; we refer to these architectures\nas physics-informed graph networks (PIGNs). We present representative examples\nfor both forward and inverse problems and discuss what advances are needed to\nscale up PINNs, PIGNs and more broadly GNNs for large-scale engineering\nproblems.",
+            "link": "http://arxiv.org/pdf/2205.08332v1"
         }
     ],
     "all_time": [
