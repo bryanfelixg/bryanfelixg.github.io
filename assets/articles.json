@@ -33,12 +33,12 @@
             "link": "http://arxiv.org/pdf/2503.04701v1"
         },
         {
-            "title": "Global stability of Wright-type equations with negative Schwarzian",
-            "year": "February 2025",
-            "date": "2025-02-21",
-            "authors": "Mauro Díaz, Karel Hasík, Jana Kopfová, Sergei Trofimchuk",
-            "abstract": "Simplicity of the \\(37/24\\)-global stability criterion announced by E.M. Wright\nin 1955 and rigorously proved by B. B\\'{a}nhelyi et al in 2014 for the delayed\nlogistic equation raised the question of its possible extension for other\npopulation models. In our study, we answer this question by extending the\n\\(37/24\\)-stability condition for the Wright-type equations with decreasing\nsmooth nonlinearity \\(f\\) which has a negative Schwarzian and satisfies the\nstandard negative feedback and boundedness assumptions. The proof contains the\nconstruction and careful analysis of qualitative properties of certain bounding\nrelations. To validate our conclusions, these relations are evaluated at finite\nsets of points; for this purpose, we systematically use interval analysis.",
-            "link": "http://arxiv.org/pdf/2502.15965v1"
+            "title": "Cross-Modal Diffusion for Biomechanical Dynamical Systems Through Local Manifold Alignment",
+            "year": "March 2025",
+            "date": "2025-03-15",
+            "authors": "Sharmita Dey, Sarath Ravindran Nair",
+            "abstract": "We present a mutually aligned diffusion framework for cross-modal\nbiomechanical motion generation, guided by a dynamical systems perspective. By\ntreating each modality, e.g., observed joint angles (\\(X\\)) and ground reaction\nforces (\\(Y\\)), as complementary observations of a shared underlying locomotor\ndynamical system, our method aligns latent representations at each diffusion\nstep, so that one modality can help denoise and disambiguate the other. Our\nalignment approach is motivated by the fact that local time windows of \\(X\\) and\n\\(Y\\) represent the same phase of an underlying dynamical system, thereby\nbenefiting from a shared latent manifold. We introduce a simple local latent\nmanifold alignment (LLMA) strategy that incorporates first-order and\nsecond-order alignment within the latent space for robust cross-modal\nbiomechanical generation without bells and whistles. Through experiments on\nmultimodal human biomechanics data, we show that aligning local latent dynamics\nacross modalities improves generation fidelity and yields better\nrepresentations.",
+            "link": "http://arxiv.org/pdf/2503.12214v1"
         }
     ],
     "last_year": [
