@@ -17,14 +17,6 @@
             "link": "http://arxiv.org/pdf/2502.20603v1"
         },
         {
-            "title": "Anderson localized states for the nonlinear Maryland model on \\(\\mathbb{Z}^d\\)",
-            "year": "February 2025",
-            "date": "2025-02-23",
-            "authors": "Shihe Liu, Yunfeng Shi, Zhifei Zhang",
-            "abstract": "In this paper, we investigate Anderson localization for a nonlinear\nperturbation of the Maryland model\n\\(H=\\varepsilon\\Delta+\\cot\\pi(\\theta+j\\cdot\\alpha)\\delta_{j,j'}\\) on\n\\(\\mathbb{Z}^d\\). Specifically, if \\(\\varepsilon,\\delta\\) are sufficiently small,\nwe construct a large number of time quasi-periodic and space exponentially\ndecaying solutions (i.e., Anderson localized states) for the equation\n\\(i\\frac{\\partial u}{\\partial t}=Hu+\\delta|u|^{2p}u\\) with a Diophantine\n\\(\\alpha\\). Our proof combines eigenvalue estimates of the Maryland model with\nthe Craig-Wayne-Bourgain method, which originates from KAM theory for\nHamiltonian PDEs.",
-            "link": "http://arxiv.org/pdf/2502.16397v1"
-        },
-        {
             "title": "Computer-Assisted Proofs of Solitons in Bose-Einstein Condensates",
             "year": "March 2025",
             "date": "2025-03-06",
@@ -39,6 +31,14 @@
             "authors": "Sharmita Dey, Sarath Ravindran Nair",
             "abstract": "We present a mutually aligned diffusion framework for cross-modal\nbiomechanical motion generation, guided by a dynamical systems perspective. By\ntreating each modality, e.g., observed joint angles (\\(X\\)) and ground reaction\nforces (\\(Y\\)), as complementary observations of a shared underlying locomotor\ndynamical system, our method aligns latent representations at each diffusion\nstep, so that one modality can help denoise and disambiguate the other. Our\nalignment approach is motivated by the fact that local time windows of \\(X\\) and\n\\(Y\\) represent the same phase of an underlying dynamical system, thereby\nbenefiting from a shared latent manifold. We introduce a simple local latent\nmanifold alignment (LLMA) strategy that incorporates first-order and\nsecond-order alignment within the latent space for robust cross-modal\nbiomechanical generation without bells and whistles. Through experiments on\nmultimodal human biomechanics data, we show that aligning local latent dynamics\nacross modalities improves generation fidelity and yields better\nrepresentations.",
             "link": "http://arxiv.org/pdf/2503.12214v1"
+        },
+        {
+            "title": "Capturing the critical coupling of large random Kuramoto networks with graphons",
+            "year": "March 2025",
+            "date": "2025-03-03",
+            "authors": "Jason Bramburger, Matt Holzer",
+            "abstract": "Collective oscillations and patterns of synchrony have long fascinated\nresearchers in the applied sciences, particularly due to their far-reaching\nimportance in chemistry, physics, and biology. The Kuramoto model has emerged\nas a prototypical mathematical equation to understand synchronization in\ncoupled oscillators, allowing one to study the effect of different frequency\ndistributions and connection networks between oscillators. In this work we\nprovide a framework for determining both the emergence and the persistence of\nsynchronous solutions to Kuramoto models on large random networks and with\nrandom frequencies. This is achieved by appealing the theory of graphons to\nanalyze a mean-field model coming in the form of an infinite oscillator limit\nwhich provides a single master equation for studying random Kuramoto models. We\nshow that bifurcations to synchrony and hyperbolic synchrony patterns in the\nmean-field model can also be found in related random Kuramoto networks for\nlarge numbers of oscillators. We further provide a detailed application of our\nresults to oscillators arranged on Erd\\H{o}s--R\\'enyi random networks, for\nwhich we further identify that not all bifurcations to synchrony emerge through\nsimple co-dimension one bifurcations.",
+            "link": "http://arxiv.org/pdf/2503.01589v1"
         }
     ],
     "last_year": [
