@@ -9,6 +9,14 @@
             "link": "http://arxiv.org/pdf/2503.12273v1"
         },
         {
+            "title": "Local Normalization Distortion and the Thermodynamic Formalism of Decoding Strategies for Large Language Models",
+            "year": "March 2025",
+            "date": "2025-03-27",
+            "authors": "Tom Kempton, Stuart Burrell",
+            "abstract": "Advances in hardware and language model architecture have spurred a\nrevolution in natural language generation. However, autoregressive models\ncompute probability distributions over next-token choices, and sampling from\nthese distributions, known as decoding, has received significantly less\nattention than other design choices. Existing decoding strategies are largely\nbased on heuristics, resulting in methods that are hard to apply or improve in\na principled manner. We develop the theory of decoding strategies for language\nmodels by expressing popular decoding algorithms as equilibrium states in the\nlanguage of ergodic theory and stating the functions they optimize. Using this,\nwe analyze the effect of the local normalization step of top-k, nucleus, and\ntemperature sampling, used to make probabilities sum to one. We argue that\nlocal normalization distortion is a fundamental defect of decoding strategies\nand quantify the size of this distortion and its effect on mathematical proxies\nfor the quality and diversity of generated text. Contrary to the prevailing\nexplanation, we argue that the major cause of the under-performance of top-k\nsampling relative to nucleus sampling is local normalization distortion. This\nyields conclusions for the future design of decoding algorithms and the\ndetection of machine-generated text.",
+            "link": "http://arxiv.org/pdf/2503.21929v1"
+        },
+        {
             "title": "Computer-Assisted Proofs of Solitons in Bose-Einstein Condensates",
             "year": "March 2025",
             "date": "2025-03-06",
@@ -31,14 +39,6 @@
             "authors": "Jason Bramburger, Matt Holzer",
             "abstract": "Collective oscillations and patterns of synchrony have long fascinated\nresearchers in the applied sciences, particularly due to their far-reaching\nimportance in chemistry, physics, and biology. The Kuramoto model has emerged\nas a prototypical mathematical equation to understand synchronization in\ncoupled oscillators, allowing one to study the effect of different frequency\ndistributions and connection networks between oscillators. In this work we\nprovide a framework for determining both the emergence and the persistence of\nsynchronous solutions to Kuramoto models on large random networks and with\nrandom frequencies. This is achieved by appealing the theory of graphons to\nanalyze a mean-field model coming in the form of an infinite oscillator limit\nwhich provides a single master equation for studying random Kuramoto models. We\nshow that bifurcations to synchrony and hyperbolic synchrony patterns in the\nmean-field model can also be found in related random Kuramoto networks for\nlarge numbers of oscillators. We further provide a detailed application of our\nresults to oscillators arranged on Erd\\H{o}s--R\\'enyi random networks, for\nwhich we further identify that not all bifurcations to synchrony emerge through\nsimple co-dimension one bifurcations.",
             "link": "http://arxiv.org/pdf/2503.01589v1"
-        },
-        {
-            "title": "Quantitative relaxation dynamics from generic initial configurations in the inertial Kuramoto model",
-            "year": "March 2025",
-            "date": "2025-03-02",
-            "authors": "Hangjun Cho, Jiu-Gang Dong, Seung-Yeal Ha, Seung-Yeon Ryoo",
-            "abstract": "We study the relaxation dynamics of the inertial Kuramoto model toward a\nphase-locked state from a generic initial phase configuration. For this, we\npropose a sufficient framework in terms of initial data and system parameters\nfor asymptotic phase-locking. It can be roughly stated as set of conditions\nsuch as a positive initial order parameter, a coupling strength sufficiently\nlarger than initial frequency diameter and intrinsic frequency diameter, but\nless than the inverse of inertia. Under the proposed framework, generic initial\nconfiguration undergoes three dynamic stages (initial layer, condensation and\nrelaxation stages) before it reaches a phase-locked state asymptotically. The\nfirst stage is the initial layer stage in analogy with fluid mechanics, during\nwhich the effect of the initial natural frequency distribution is dominant,\ncompared to that of the sinusoidal coupling between oscillators. The second\nstage is the condensation stage, during which the order parameter increases,\nand at the end of which a majority cluster is contained in a sufficiently small\narc. Finally, the third stage is the persistence and relaxation stage, during\nwhich the majority cluster remains stable (persistence) and the total\nconfiguration relaxes toward a phase-locked state asymptotically (relaxation).\nThe intricate proof involves with several key tools such as the\nquasi-monotonicity of the order parameter (for the condensation stage), a\nnonlinear Gr\\\"onwall inequality on the diameter of the majority cluster (for\nthe persistence stage), and a variant of the classical {\\L}ojasiewicz gradient\ntheorem (for the relaxation stage).",
-            "link": "http://arxiv.org/pdf/2503.00720v1"
         }
     ],
     "last_year": [
