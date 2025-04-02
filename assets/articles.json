@@ -17,6 +17,14 @@
             "link": "http://arxiv.org/pdf/2503.21929v1"
         },
         {
+            "title": "A Low-complexity Structured Neural Network to Realize States of Dynamical Systems",
+            "year": "March 2025",
+            "date": "2025-03-31",
+            "authors": "Hansaka Aluvihare, Levi Lingsch, Xianqi Li, Sirani M. Perera",
+            "abstract": "Data-driven learning is rapidly evolving and places a new perspective on\nrealizing state-space dynamical systems. However, dynamical systems derived\nfrom nonlinear ordinary differential equations (ODEs) suffer from limitations\nin computational efficiency. Thus, this paper stems from data-driven learning\nto advance states of dynamical systems utilizing a structured neural network\n(StNN). The proposed learning technique also seeks to identify an optimal,\nlow-complexity operator to solve dynamical systems, the so-called Hankel\noperator, derived from time-delay measurements. Thus, we utilize the StNN based\non the Hankel operator to solve dynamical systems as an alternative to existing\ndata-driven techniques. We show that the proposed StNN reduces the number of\nparameters and computational complexity compared with the conventional neural\nnetworks and also with the classical data-driven techniques, such as Sparse\nIdentification of Nonlinear Dynamics (SINDy) and Hankel Alternative view of\nKoopman (HAVOK), which is commonly known as delay-Dynamic Mode\nDecomposition(DMD) or Hankel-DMD. More specifically, we present numerical\nsimulations to solve dynamical systems utilizing the StNN based on the Hankel\noperator beginning from the fundamental Lotka-Volterra model, where we compare\nthe StNN with the LEarning Across Dynamical Systems (LEADS), and extend our\nanalysis to highly nonlinear and chaotic Lorenz systems, comparing the StNN\nwith conventional neural networks, SINDy, and HAVOK. Hence, we show that the\nproposed StNN paves the way for realizing state-space dynamical systems with a\nlow-complexity learning algorithm, enabling prediction and understanding of\nfuture states.",
+            "link": "http://arxiv.org/pdf/2503.23697v1"
+        },
+        {
             "title": "Computer-Assisted Proofs of Solitons in Bose-Einstein Condensates",
             "year": "March 2025",
             "date": "2025-03-06",
@@ -25,20 +33,12 @@
             "link": "http://arxiv.org/pdf/2503.04701v1"
         },
         {
-            "title": "Cross-Modal Diffusion for Biomechanical Dynamical Systems Through Local Manifold Alignment",
+            "title": "A Comparison of Parametric Dynamic Mode Decomposition Algorithms for Thermal-Hydraulics Applications",
             "year": "March 2025",
-            "date": "2025-03-15",
-            "authors": "Sharmita Dey, Sarath Ravindran Nair",
-            "abstract": "We present a mutually aligned diffusion framework for cross-modal\nbiomechanical motion generation, guided by a dynamical systems perspective. By\ntreating each modality, e.g., observed joint angles (\\(X\\)) and ground reaction\nforces (\\(Y\\)), as complementary observations of a shared underlying locomotor\ndynamical system, our method aligns latent representations at each diffusion\nstep, so that one modality can help denoise and disambiguate the other. Our\nalignment approach is motivated by the fact that local time windows of \\(X\\) and\n\\(Y\\) represent the same phase of an underlying dynamical system, thereby\nbenefiting from a shared latent manifold. We introduce a simple local latent\nmanifold alignment (LLMA) strategy that incorporates first-order and\nsecond-order alignment within the latent space for robust cross-modal\nbiomechanical generation without bells and whistles. Through experiments on\nmultimodal human biomechanics data, we show that aligning local latent dynamics\nacross modalities improves generation fidelity and yields better\nrepresentations.",
-            "link": "http://arxiv.org/pdf/2503.12214v1"
-        },
-        {
-            "title": "Capturing the critical coupling of large random Kuramoto networks with graphons",
-            "year": "March 2025",
-            "date": "2025-03-03",
-            "authors": "Jason Bramburger, Matt Holzer",
-            "abstract": "Collective oscillations and patterns of synchrony have long fascinated\nresearchers in the applied sciences, particularly due to their far-reaching\nimportance in chemistry, physics, and biology. The Kuramoto model has emerged\nas a prototypical mathematical equation to understand synchronization in\ncoupled oscillators, allowing one to study the effect of different frequency\ndistributions and connection networks between oscillators. In this work we\nprovide a framework for determining both the emergence and the persistence of\nsynchronous solutions to Kuramoto models on large random networks and with\nrandom frequencies. This is achieved by appealing the theory of graphons to\nanalyze a mean-field model coming in the form of an infinite oscillator limit\nwhich provides a single master equation for studying random Kuramoto models. We\nshow that bifurcations to synchrony and hyperbolic synchrony patterns in the\nmean-field model can also be found in related random Kuramoto networks for\nlarge numbers of oscillators. We further provide a detailed application of our\nresults to oscillators arranged on Erd\\H{o}s--R\\'enyi random networks, for\nwhich we further identify that not all bifurcations to synchrony emerge through\nsimple co-dimension one bifurcations.",
-            "link": "http://arxiv.org/pdf/2503.01589v1"
+            "date": "2025-03-31",
+            "authors": "Stefano Riva, Andrea Missaglia, Carolina Introini, In Cheol Bang, Antonio Cammi",
+            "abstract": "In recent years, algorithms aiming at learning models from available data\nhave become quite popular due to two factors: 1) the significant developments\nin Artificial Intelligence techniques and 2) the availability of large amounts\nof data. Nevertheless, this topic has already been addressed by methodologies\nbelonging to the Reduced Order Modelling framework, of which perhaps the most\nfamous equation-free technique is Dynamic Mode Decomposition. This algorithm\naims to learn the best linear model that represents the physical phenomena\ndescribed by a time series dataset: its output is a best state operator of the\nunderlying dynamical system that can be used, in principle, to advance the\noriginal dataset in time even beyond its span. However, in its standard\nformulation, this technique cannot deal with parametric time series, meaning\nthat a different linear model has to be derived for each parameter realization.\nResearch on this is ongoing, and some versions of a parametric Dynamic Mode\nDecomposition already exist. This work contributes to this research field by\ncomparing the different algorithms presently deployed and assessing their\nadvantages and shortcomings compared to each other. To this aim, three\ndifferent thermal-hydraulics problems are considered: two benchmark 'flow over\ncylinder' test cases at diverse Reynolds numbers, whose datasets are,\nrespectively, obtained with the FEniCS finite element solver and retrieved from\nthe CFDbench dataset, and the DYNASTY experimental facility operating at\nPolitecnico di Milano, which studies the natural circulation established by\ninternally heated fluids for Generation IV nuclear applications, whose dataset\nwas generated using the RELAP5 nodal solver.",
+            "link": "http://arxiv.org/pdf/2503.24205v1"
         }
     ],
     "last_year": [
