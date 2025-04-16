@@ -33,12 +33,12 @@
             "link": "http://arxiv.org/pdf/2503.24205v1"
         },
         {
-            "title": "Contraction and concentration of measures with applications to theoretical neuroscience",
+            "title": "High-order expansion of Neural Ordinary Differential Equations flows",
             "year": "April 2025",
-            "date": "2025-04-08",
-            "authors": "Simone Betteti, Francesco Bullo",
-            "abstract": "We investigate the asymptotic behavior of probability measures associated\nwith stochastic dynamical systems featuring either globally contracting or\n\\(B_{r}\\)-contracting drift terms. While classical results often assume constant\ndiffusion and gradient-based drifts, we extend the analysis to spatially\ninhomogeneous diffusion and non-integrable vector fields. We establish\nsufficient conditions for the existence and uniqueness of stationary measures\nunder global contraction, showing that convergence is preserved when the\ncontraction rate dominates diffusion inhomogeneity. For systems contracting\nonly outside of a compact set and with constant diffusion, we demonstrate mass\nconcentration near the minima of an associated non-convex potential, like in\nmultistable regimes. The theoretical findings are illustrated through Hopfield\nnetworks, highlighting implications for memory retrieval dynamics in noisy\nenvironments.",
-            "link": "http://arxiv.org/pdf/2504.05666v1"
+            "date": "2025-04-02",
+            "authors": "Dario Izzo, Sebastien Origer, Giacomo Acciarini, Francesco Biscani",
+            "abstract": "Artificial neural networks, widely recognised for their role in machine\nlearning, are now transforming the study of ordinary differential equations\n(ODEs), bridging data-driven modelling with classical dynamical systems and\nenabling the development of infinitely deep neural models. However, the\npractical applicability of these models remains constrained by the opacity of\ntheir learned dynamics, which operate as black-box systems with limited\nexplainability, thereby hindering trust in their deployment. Existing\napproaches for the analysis of these dynamical systems are predominantly\nrestricted to first-order gradient information due to computational\nconstraints, thereby limiting the depth of achievable insight. Here, we\nintroduce Event Transition Tensors, a framework based on high-order\ndifferentials that provides a rigorous mathematical description of neural ODE\ndynamics on event manifolds. We demonstrate its versatility across diverse\napplications: characterising uncertainties in a data-driven prey-predator\ncontrol model, analysing neural optimal feedback dynamics, and mapping landing\ntrajectories in a three-body neural Hamiltonian system. In all cases, our\nmethod enhances the interpretability and rigour of neural ODEs by expressing\ntheir behaviour through explicit mathematical structures. Our findings\ncontribute to a deeper theoretical foundation for event-triggered neural\ndifferential equations and provide a mathematical construct for explaining\ncomplex system dynamics.",
+            "link": "http://arxiv.org/pdf/2504.08769v1"
         }
     ],
     "last_year": [
