@@ -1,74 +1,74 @@
 [
     {
-        "title": "Combining systems and synthetic biology for in vivo enzymology",
-        "authors": "Sara Castaño-Cerezo, Alexandre Chamas, Hanna Kulyk, Christian Treitz, Floriant Bellvert, Andreas Tholey, Virginie Galéote, Carole Camarasa, Stéphanie Heux, Luis F. Garcia-Alles, Pierre Millard, Gilles Truan",
-        "doi": "https://doi.org/10.1101/2024.02.02.578620",
-        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.02.02.578620v4.full.pdf",
-        "abstract": "Enzymatic parameters are classically determined in vitro, under conditions that are far from those encountered in cells, casting doubt on their physiological relevance. We developed a generic approach combining tools from synthetic and systems biology to measure enzymatic parameters in vivo. In the context of a synthetic carotenoid pathway in Saccharomyces cerevisiae, we focused on a phytoene synthase and three phytoene desaturases, which are difficult to study in vitro. We designed, built, and analyzed a collection of yeast strains mimicking substantial variations in substrate concentration by strategically manipulating the expression of geranyl-geranyl pyrophosphate (GGPP) synthase. We successfully determined in vivo Michaelis-Menten parameters (KM, Vmax and kcat) for GGPP-converting phytoene synthase from absolute metabolomics, fluxomics and proteomics data, highlighting differences between in vivo and in vitro parameters. Leveraging the versatility of the same set of strains, we then extracted enzymatic parameters for two of the three phytoene desaturases. Our approach demonstrates the feasibility of assessing enzymatic parameters directly in vivo, providing a novel perspective on the kinetic characteristics of enzymes in real cellular conditions.",
-        "posted": "August 01, 2024"
+        "title": "Systems Age: A single blood methylation test to quantify aging heterogeneity across 11 physiological systems",
+        "authors": "Raghav Sehgal, Yaroslav Markov, Chenxi Qin, Margarita Meer, Courtney Hadley, Aladdin H. Shadyab, Ramon Casanova, JoAnn E. Manson, Parveen Bhatti, Eileen M. Crimmins, Sara Hagg, Themistocles L. Assimes, Eric A. Whitsel, Albert T. Higgins-Chen, Morgan Levine",
+        "doi": "https://doi.org/10.1101/2023.07.13.548904",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2023.07.13.548904v2.full.pdf",
+        "abstract": "N/A",
+        "posted": "May 28, 2024"
     },
     {
-        "title": "Kinetic Diagram Analysis: A Python Library for Calculating Steady-State Observables of Biochemical Systems Analytically",
-        "authors": "Nikolaus Carl Awtrey, Oliver Beckstein",
-        "doi": "https://doi.org/10.1101/2024.05.27.596119",
-        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.05.27.596119v2.full.pdf",
-        "abstract": "Kinetic diagrams are commonly used to represent biochemical systems in order to study phenomena such as free energy transduction and ion selectivity. While numerical methods are commonly used to analyze such kinetic networks, the diagram method by King, Altman and Hill makes it possible to construct exact algebraic expressions for steady-state observables in terms of the rate constants of the kinetic diagram. However, manually obtaining these expressions becomes infeasible for models of even modest complexity as the number of the required intermediate diagrams grows with the factorial of the number of states in the diagram. We developed Kinetic Diagram Analysis (KDA), a Python library that programmatically generates the relevant diagrams and expressions from a user-defined kinetic diagram. KDA outputs symbolic expressions for state probabilities and cycle fluxes at steady-state that can be symbolically manipulated and evaluated to quantify macroscopic system observables. We demonstrate the KDA approach for examples drawn from the biophysics of active secondary transmembrane transporters. For a generic 6-state antiporter model, we show how the introduction of a single leakage transition reduces transport efficiency by quantifying substrate turnover. We apply KDA to a real-world example, the 8-state free exchange model of the small multidrug resistance transporter EmrE of Hussey et al (J General Physiology 152 (2020), e201912437), where a change in transporter phenotype is achieved by biasing two different subsets of kinetic rates: alternating access and substrate unbinding rates. KDA is made available as open source software under the GNU General Public License version 3.",
-        "posted": "August 04, 2024"
+        "title": "Deep proteomic analysis of microglia reveals fundamental biological differences between model systems",
+        "authors": "Amy F Lloyd, Anna Martinez-Muriana, Emma Davis, Michael JD Daniels, Pengfei Hou, Renzo Mancuso, Alejandro J Brenes, Ivana Geric, An Snellinx, Katleen Craessaerts, Tom Theys, Mark Fiers, Bart De Strooper, Andrew JM Howden",
+        "doi": "https://doi.org/10.1101/2022.07.07.498804",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2022.07.07.498804v2.full.pdf",
+        "abstract": "N/A",
+        "posted": "May 16, 2024"
     },
     {
-        "title": "Targeting Norepinephrine Neurons of the Locus Coeruleus: A Comparison of Model Systems and Strategies",
-        "authors": "Chantal Wissing, Lena S. Eschholz, Maxime Maheu, Kathrin Sauter, Fabio Morellini, Simon Wiegert, Alexander Dieter",
-        "doi": "https://doi.org/10.1101/2022.01.22.477348",
-        "pdf_link": "https://www.biorxiv.org/content/10.1101/2022.01.22.477348v2.full.pdf",
-        "abstract": "The locus coeruleus (LC) norepinephrine (NE) system is involved in a variety of physiological and pathophysiological processes. Refining our understanding of LC function largely relies on selective transgene expression in molecularly defined cells, allowing targeted manipulation and readout of noradrenergic neurons. Here, we performed a side-by-side comparison of the most commonly used strategies to genetically target the LC, including different cre driver lines and promoter-mediated transgene expression. We report differences between these strategies in terms of transgene expression efficacy and molecular specificity. Notably, we found no behavioral alterations in cre-expressing mice of any mouse line compared to wild-type littermates. Finally, to further facilitate the investigation of LC-NE function, we have created a suite of constructs, including reporter proteins and calcium indicators in two different spectra, whose expression is mediated by the previously described PRS×8 promoter. These constructs allow identification and monitoring of LC-NE activity either in wild-type mice, or in combination with tissue-specific manipulations of different cre driver lines. The results of our study are crucial for the interpretation of previous experiments using the respective targeting strategies, as well as for the design of future studies. Highlights – Heterogeneous expression patterns with different targeting strategies for LC-NE neurons – Substantial ectopic transgene expression observed in some approaches – No behavioral alterations in heterozygous cre mice as compared to wild-types – PRS×8-driven reporter proteins and calcium indicators as a resource to investigate LC function",
-        "posted": "August 30, 2024"
+        "title": "Use of machine learning for quantification of retinal pigment epithelium tight junctions improves assay sensitivity",
+        "authors": "Yan Gao, Mark-Anthony Bray, Michael Twarog, YongYao Xu, Natasha Buchanan, Yiyun Zhang, Quintus Medley, Magali Saint-Geniez, Ganesh Prasanna, Qin Zhang",
+        "doi": "https://doi.org/10.1101/2024.05.24.595580",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.05.24.595580v1.full.pdf",
+        "abstract": "N/A",
+        "posted": "May 30, 2024"
     },
     {
-        "title": "Disentangling the Roles of Distinct Cell Classes with Cell-Type Dynamical Systems",
-        "authors": "Aditi Jha, Diksha Gupta, Carlos D. Brody, Jonathan W. Pillow",
-        "doi": "https://doi.org/10.1101/2024.07.08.602520",
-        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.07.08.602520v2.full.pdf",
-        "abstract": "Latent dynamical systems have been widely used to characterize the dynamics of neural population activity in the brain. However, these models typically ignore the fact that the brain contains multiple cell types. This limits their ability to capture the functional roles of distinct cell classes, and to predict the effects of cell-specific perturbations on neural activity or behavior. To overcome these limitations, we introduce the “cell-type dynamical systems” (CTDS) model. This model extends latent linear dynamical systems to contain distinct latent variables for each cell class, with biologically inspired constraints on both dynamics and emissions. To illustrate our approach, we consider neural recordings with distinct excitatory (E) and inhibitory (I) populations. The CTDS model defines separate latents for both cell types, and constrains the dynamics so that E (I) latents have a strictly positive (negative) effects on other latents. We applied CTDS to recordings from rat frontal orienting fields (FOF) and anterior dorsal striatum (ADS) during an auditory decision-making task. The model achieved higher accuracy than a standard linear dynamical system (LDS), and revealed that the animal’s choice can be decoded from both E and I latents and thus is not restricted to a single cell-class. We also performed in-silico optogenetic perturbation experiments in the FOF and ADS, and found that CTDS was able to replicate the experimentally observed effects of different perturbations on behavior, whereas a standard LDS model—which does not differentiate between cell types—did not. Crucially, our model allowed us to understand the effects of these perturbations by revealing the dynamics of different cell-specific latents. Finally, CTDS can also be used to identify cell types for neurons whose class labels are unknown in electrophysiological recordings. These results illustrate the power of the CTDS model to provide more accurate and more biologically interpretable descriptions of neural population dynamics and their relationship to behavior.",
-        "posted": "November 05, 2024"
+        "title": "Increasing certainty in systems biology models using Bayesian multimodel inference",
+        "authors": "Nathaniel Linden-Santangeli, Jin Zhang, Boris Kramer, Padmini Rangamani",
+        "doi": "https://doi.org/10.1101/2024.06.16.599231",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.06.16.599231v1.full.pdf",
+        "abstract": "N/A",
+        "posted": "June 17, 2024"
     },
     {
-        "title": "A Machine Learning Model of Perturb-Seq Data for Use in Space Flight Gene Expression Profile Analysis",
-        "authors": "Liam Johnson, James Casaletto, Sylvain Costes, Caitlin Proctor, Lauren Sanders",
-        "doi": "https://doi.org/10.1101/2024.11.28.625741",
-        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.11.28.625741v1.full.pdf",
-        "abstract": "The genetic perturbations caused by spaceflight on biological systems tend to have a system-wide effect which is often difficult to deconvolute into individual signals with specific points of origin. Single cell multi-omic data can provide a profile of the perturbational effects but does not necessarily indicate the initial point of interference within a network. The objective of this project is to take advantage of large scale and genome-wide perturbational or Perturb-Seq datasets by using them to pre-train a generalist machine learning model that is capable of predicting the effects of unseen perturbations in new data. Perturb-Seq datasets are large libraries of single cell RNA sequencing data collected from CRISPR knock out screens in cell culture. The advent of generative machine learning algorithms, particularly transformers, make it an ideal time to re-assess large scale data libraries in order to grasp cell and even organism-wide genomic expression motifs. By tailoring an algorithm to learn the downstream effects of the genetic perturbations, we present a pre-trained generalist model capable of predicting the effects of multiple perturbations in combination, locating points of origin for perturbation in new datasets, predicting the effects of known perturbations in new datasets, and annotation of large-scale network motifs. We demonstrate the utility of this model by identifying key perturbational signatures in RNA sequencing data from spaceflown biological samples from the NASA Open Science Data Repository.",
-        "posted": "November 29, 2024"
+        "title": "Decomposed Linear Dynamical Systems (dLDS) models reveal context-dependent dynamic connectivity in C. elegans",
+        "authors": "Eva Yezerets, Noga Mudrik, Adam S. Charles",
+        "doi": "https://doi.org/10.1101/2024.05.31.596903",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.05.31.596903v1.full.pdf",
+        "abstract": "N/A",
+        "posted": "June 01, 2024"
     },
     {
-        "title": "Annotating CryoET Volumes: A Machine Learning Challenge",
-        "authors": "Ariana Peck, Yue Yu, Jonathan Schwartz, Anchi Cheng, Utz Heinrich Ermel, Saugat Kandel, Dari Kimanius, Elizabeth Montabana, Daniel Serwas, Hannah Siems, Feng Wang, Zhuowen Zhao, Shawn Zheng, Matthias Haury, David Agard, Clinton Potter, Bridget Carragher, Kyle Harrington, Mohammadreza Paraan",
-        "doi": "https://doi.org/10.1101/2024.11.04.621686",
-        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.11.04.621686v2.full.pdf",
-        "abstract": "Cryo-electron tomography (cryoET) has emerged as a powerful structural biology tool for understanding protein complexes in their native cellular environments. Presently, 3D volumes of cellular environments can be acquired in the thousands in a few days where each volume provides a rich and complex cellular landscape. Despite numerous innovations, localizing and identifying the vast majority of protein species in these volumes remains prohibitively difficult. Machine learning based methods provide an opportunity to automate the process of labeling and annotating cryoET volumes. Due to current bottlenecks in the annotation process, and a lack of large standardized datasets, training datasets for machine learning algorithms have been scarce. Here, we present a defined “phantom” sample, along with “ground truth” annotations, that will be the basis of a machine learning challenge to bring cryoET and ML experts together and spur creativity to address this annotation problem. We have also set up a cryoET data portal that provides additional diverse sets of annotated 3D volumes from cryoET experts across the world for the machine learning challenge.",
-        "posted": "November 21, 2024"
+        "title": "Functional Control of Network Dynamical Systems: An Information Theoretic Approach",
+        "authors": "Moirangthem Sailash Singh, Ramkrishna Pasumarthy, Umesh Vaidya, Steffen Leonhardt",
+        "doi": "https://doi.org/10.1101/2024.06.17.599263",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.06.17.599263v1.full.pdf",
+        "abstract": "N/A",
+        "posted": "June 17, 2024"
     },
     {
-        "title": "Integrating Interpretable Machine Learning and Multi-omics Systems Biology for Personalized Biomarker Discovery and Drug Repurposing in Alzheimer’s Disease",
-        "authors": "Mohammadsadeq Mottaqi, Pengyue Zhang, Lei Xie",
-        "doi": "https://doi.org/10.1101/2025.03.24.644676",
-        "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.03.24.644676v1.full.pdf",
-        "abstract": "Background Alzheimer’s disease (AD) is a complex neurodegenerative disorder with substantial molecular variability across different brain regions and individuals, hindering therapeutic development. This study introduces PRISM-ML, an interpretable machine learning (ML) framework integrating multiomics data to uncover patient-specific biomarkers, subtissue-level pathology, and drug repurposing opportunities. Methods We harmonized transcriptomic and genomic data of three independent brain studies containing 2105 post-mortem brain samples (1363 AD, 742 controls) across nine tissues. A Random Forest classifier with SHapley Additive exPlanations (SHAP) identified patient-level biomarkers. Clustering further delineated each tissue into subtissues, and network analysis revealed critical “bottleneck” (hub) genes. Finally, a knowledge graph-based screening identified multi-target drug candidates, and a real-world pharmacoepidemiologic study evaluated their clinical relevance. Results We uncovered 36 molecularly distinct subtissues, each defined by a set of associated unique biomarkers and genetic drivers. Through network analysis of gene-gene interactions networks, we highlighted 262 bottleneck genes enriched in synaptic, cytoskeletal, and membrane-associated processes. Knowledge graph queries identified six FDA-approved drugs predicted to target multiple bottleneck genes and AD-relevant pathways simultaneously. One candidate, promethazine, demonstrated an association with reduced AD incidence in a large healthcare dataset of over 364000 individuals (hazard ratios ≤ 0.43; p < 0.001). These findings underscore the potential for multi-target approaches, reveal connections between AD and cardiovascular pathways, and offer novel insights into the heterogeneous biology of AD. Conclusions PRISM-ML bridges interpretable ML with multi-omics and systems biology to decode AD heterogeneity, revealing region-specific mechanisms and repurposable therapeutics. The validation of promethazine in real-world data underscores the clinical relevance of multi-target strategies, paving the way for more personalized treatments in AD and other complex disorders.",
-        "posted": "March 28, 2025"
+        "title": "Data-driven model discovery and model selection for noisy biological systems",
+        "authors": "Xiaojun Wu, MeiLu McDermott, Adam L. MacLean",
+        "doi": "https://doi.org/10.1101/2024.10.03.616508",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.10.03.616508v1.full.pdf",
+        "abstract": "N/A",
+        "posted": "October 04, 2024"
     },
     {
-        "title": "Sensitivity based model agnostic scalable explanations of deep learning",
-        "authors": "Manu Aggarwal, NG Cogan, Vipul Periwal",
-        "doi": "https://doi.org/10.1101/2025.02.21.639516",
-        "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.02.21.639516v2.full.pdf",
-        "abstract": "Deep neural networks (DNNs) are powerful tools for data-driven predictive machine learning, but their complex architecture obscures mechanistic relations that they have learned from data. This information is critical to the scientific method of hypotheses development, experiment design, and model validation, especially when DNNs are used for biological and clinical predictions that affect human health. We design SensX, a model agnostic explainable AI (XAI) framework that outperformed current state-of-the-art XAI in accuracy (up to 52% higher) and computation time (up to 158 times faster), with higher consistency in all cases. It also determines an optimal subset of important input features, reducing dimensionality of further analyses. SensX scaled to explain vision transformer (ViT) models with more than 150, 000 features, which is computationally infeasible for current state-of-the-art XAI. SensX validated that ViT models learned justifiable features as important for different facial attributes of different human faces. SensX revealed biases inherent to the ViT architecture, an observation possible only when importance of each feature is explained. We trained DNNs to annotate biological cell types using single-cell RNA-seq data and SensX determined the sets of genes that the DNNs learned to be important to different cell types.",
-        "posted": "March 07, 2025"
+        "title": "Multifunctional Systems in Synthetic Biology: Single-Stranded DNA Signaling for Precise Control of Gene Activation",
+        "authors": "Brian Ng, Yuying Ding, Matthew Cornall, Ravinash Krishna Kumar, Yujia Qing, Hagan Bayley",
+        "doi": "https://doi.org/10.1101/2024.10.20.619289",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.10.20.619289v1.full.pdf",
+        "abstract": "N/A",
+        "posted": "October 21, 2024"
     },
     {
-        "title": "Aerobicity stimulon in Escherichia coli revealed using multi-scale computational systems biology of adapted respiratory variants",
-        "authors": "Arjun Patel, Neha Banwani, Raegan Mink, Divya M. Prabhakaran, Snehal V. Khairnar, Adam M. Feist, Bernhard O. Palsson, Amitesh Anand",
-        "doi": "https://doi.org/10.1101/2025.03.13.642450",
-        "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.03.13.642450v1.full.pdf",
-        "abstract": "Energy homeostasis facilitated by the interplay of substrate-level and oxidative phosphorylation is crucial for bacterial adaptation to diverse substrates and environments. To investigate how bioenergetic systems optimize under restrictive conditions, we evolved ETS variants with distinct proton-pumping efficiencies (1, 2, 3, or 4 proton(s) per electron) on succinate and glycerol. These substrates impose unique metabolic constraints: succinate requires complete gluconeogenesis, while glycerol supports mixed glycolytic and gluconeogenic fluxes. Multi-scale computational analysis of the strains revealed (a) Growth optimization across carbon substrates for multiple ETS variants, (b) A conserved aerobicity stimulon comprising seven independently regulated gene groups that are co-regulated with increasing aerobic capacities, (c) Proteome reallocation linked to aerobicity, validated using genome-scale metabolism and expression modeling, and (d) Carbon source-specific compensatory mutations in succinate transporters and regulatory elements. These findings define the aerobicity stimulon and establish a unifying framework for understanding bacterial respiratory flexibility, demonstrating how transcriptional networks and metabolic systems integrate to achieve energy homeostasis and bioenergetic resilience.",
-        "posted": "March 15, 2025"
+        "title": "An integrative systems-biology approach defines mechanisms of Alzheimer’s disease neurodegeneration",
+        "authors": "Matthew J Leventhal, Camila A Zanella, Byunguk Kang, Jiajie Peng, David Gritsch, Zhixiang Liao, Hassan Bukhari, Tao Wang, Ping-Chieh Pao, Serwah Danquah, Joseph Benetatos, Ralda Nehme, Samouil Farhi, Li-Huei Tsai, Xianjun Dong, Clemens R Scherzer, Mel B Feany, Ernest Fraenkel",
+        "doi": "https://doi.org/10.1101/2024.03.17.585262",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.03.17.585262v2.full.pdf",
+        "abstract": "N/A",
+        "posted": "October 09, 2024"
     }
 ]
