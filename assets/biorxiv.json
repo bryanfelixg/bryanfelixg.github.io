@@ -1,11 +1,35 @@
 [
     {
+        "title": "Spectral methods for prediction uncertainty quantification in Systems Biology",
+        "authors": "Anna Deneer, Jaap Molenaar, Christian Fleck",
+        "doi": "https://doi.org/10.1101/2023.02.14.528500",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2023.02.14.528500v2.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "RBC-GEM: a Knowledge Base for Systems Biology of Human Red Blood Cell Metabolism",
+        "authors": "Zachary B. Haiman, Angelo D’Alessandro, Bernhard O. Palsson",
+        "doi": "https://doi.org/10.1101/2024.04.26.591249",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.04.26.591249v1.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "Biology System Description Language (BiSDL): a modeling language for the design of multicellular synthetic biological systems",
+        "authors": "Leonardo Giannantoni, Roberta Bardini, Alessandro Savino, Stefano Di Carlo",
+        "doi": "https://doi.org/10.1101/2024.01.13.575499",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.01.13.575499v2.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
         "title": "Systems Age: A single blood methylation test to quantify aging heterogeneity across 11 physiological systems",
         "authors": "Raghav Sehgal, Yaroslav Markov, Chenxi Qin, Margarita Meer, Courtney Hadley, Aladdin H. Shadyab, Ramon Casanova, JoAnn E. Manson, Parveen Bhatti, Eileen M. Crimmins, Sara Hagg, Themistocles L. Assimes, Eric A. Whitsel, Albert T. Higgins-Chen, Morgan Levine",
         "doi": "https://doi.org/10.1101/2023.07.13.548904",
         "pdf_link": "https://www.biorxiv.org/content/10.1101/2023.07.13.548904v2.full.pdf",
         "abstract": "N/A",
-        "posted": "May 28, 2024"
+        "posted": "N/A"
     },
     {
         "title": "Deep proteomic analysis of microglia reveals fundamental biological differences between model systems",
@@ -13,7 +37,7 @@
         "doi": "https://doi.org/10.1101/2022.07.07.498804",
         "pdf_link": "https://www.biorxiv.org/content/10.1101/2022.07.07.498804v2.full.pdf",
         "abstract": "N/A",
-        "posted": "May 16, 2024"
+        "posted": "N/A"
     },
     {
         "title": "Use of machine learning for quantification of retinal pigment epithelium tight junctions improves assay sensitivity",
@@ -21,7 +45,7 @@
         "doi": "https://doi.org/10.1101/2024.05.24.595580",
         "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.05.24.595580v1.full.pdf",
         "abstract": "N/A",
-        "posted": "May 30, 2024"
+        "posted": "N/A"
     },
     {
         "title": "Increasing certainty in systems biology models using Bayesian multimodel inference",
@@ -29,7 +53,7 @@
         "doi": "https://doi.org/10.1101/2024.06.16.599231",
         "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.06.16.599231v1.full.pdf",
         "abstract": "N/A",
-        "posted": "June 17, 2024"
+        "posted": "N/A"
     },
     {
         "title": "Decomposed Linear Dynamical Systems (dLDS) models reveal context-dependent dynamic connectivity in C. elegans",
@@ -37,7 +61,7 @@
         "doi": "https://doi.org/10.1101/2024.05.31.596903",
         "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.05.31.596903v1.full.pdf",
         "abstract": "N/A",
-        "posted": "June 01, 2024"
+        "posted": "N/A"
     },
     {
         "title": "Functional Control of Network Dynamical Systems: An Information Theoretic Approach",
@@ -45,7 +69,79 @@
         "doi": "https://doi.org/10.1101/2024.06.17.599263",
         "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.06.17.599263v1.full.pdf",
         "abstract": "N/A",
-        "posted": "June 17, 2024"
+        "posted": "N/A"
+    },
+    {
+        "title": "Multivalent binding model quantifies antibody species from systems serology",
+        "authors": "Armaan A. Abraham, Zhixin Cyrillus Tan, Priyanka Shrestha, Emily R. Bozich, Aaron S. Meyer",
+        "doi": "https://doi.org/10.1101/2024.07.05.602296",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.07.05.602296v1.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "Bridging model and experiment in systems neuroscience with Cleo: the Closed-Loop, Electrophysiology, and Optophysiology simulation testbed",
+        "authors": "Kyle A. Johnsen, Nathanael A. Cruzado, Zachary C. Menard, Adam A. Willats, Adam S. Charles, Jeffrey E. Markowitz, Christopher J. Rozell",
+        "doi": "https://doi.org/10.1101/2023.01.27.525963",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2023.01.27.525963v2.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "BayesianSSA: a Bayesian statistical model based on structural sensitivity analysis for predicting responses to enzyme perturbations in metabolic networks",
+        "authors": "Shion Hosoda, Hisashi Iwata, Takuya Miura, Maiko Tanabe, Takashi Okada, Atsushi Mochizuki, Miwa Sato",
+        "doi": "https://doi.org/10.1101/2024.03.14.585120",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.03.14.585120v3.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "Combining systems and synthetic biology for in vivo enzymology",
+        "authors": "Sara Castaño-Cerezo, Alexandre Chamas, Hanna Kulyk, Christian Treitz, Floriant Bellvert, Andreas Tholey, Virginie Galéote, Carole Camarasa, Stéphanie Heux, Luis F. Garcia-Alles, Pierre Millard, Gilles Truan",
+        "doi": "https://doi.org/10.1101/2024.02.02.578620",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.02.02.578620v4.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "Kinetic Diagram Analysis: A Python Library for Calculating Steady-State Observables of Biochemical Systems Analytically",
+        "authors": "Nikolaus Carl Awtrey, Oliver Beckstein",
+        "doi": "https://doi.org/10.1101/2024.05.27.596119",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.05.27.596119v2.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "Targeting Norepinephrine Neurons of the Locus Coeruleus: A Comparison of Model Systems and Strategies",
+        "authors": "Chantal Wissing, Lena S. Eschholz, Maxime Maheu, Kathrin Sauter, Fabio Morellini, Simon Wiegert, Alexander Dieter",
+        "doi": "https://doi.org/10.1101/2022.01.22.477348",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2022.01.22.477348v2.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "Discovering Governing Equations of Biological Systems through Representation Learning and Sparse Model Discovery",
+        "authors": "Mehrshad Sadria, Vasu Swaroop",
+        "doi": "https://doi.org/10.1101/2024.09.19.613953",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.09.19.613953v1.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "Parasitic and Commensal interactions among Mimiviruses, Sputnik-like virophages, and Transpovirons: A theoretical and dynamical systems approach",
+        "authors": "Emmanuel Ortega-Atehortúa, Nicole Rivera Parra, Boris A. Rodríguez, Gloria Machado-Rodríguez, Juan Camilo Arboleda Rivera",
+        "doi": "https://doi.org/10.1101/2024.09.13.610890",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.09.13.610890v1.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "Human Neural Organoid Microphysiological Systems Show the Building Blocks Necessary for Basic Learning and Memory",
+        "authors": "Dowlette-Mary Alam El Din, Leah Moenkemoeller, Alon Loeffler, Forough Habibollahi, Jack Schenkman, Amitav Mitra, Tjitse van der Molen, Lixuan Ding, Jason Laird, Maren Schenke, Erik C. Johnson, Brett J. Kagan, Thomas Hartung, Lena Smirnova",
+        "doi": "https://doi.org/10.1101/2024.09.17.613333",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.09.17.613333v1.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
     },
     {
         "title": "Data-driven model discovery and model selection for noisy biological systems",
@@ -53,7 +149,7 @@
         "doi": "https://doi.org/10.1101/2024.10.03.616508",
         "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.10.03.616508v1.full.pdf",
         "abstract": "N/A",
-        "posted": "October 04, 2024"
+        "posted": "N/A"
     },
     {
         "title": "Multifunctional Systems in Synthetic Biology: Single-Stranded DNA Signaling for Precise Control of Gene Activation",
@@ -61,7 +157,7 @@
         "doi": "https://doi.org/10.1101/2024.10.20.619289",
         "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.10.20.619289v1.full.pdf",
         "abstract": "N/A",
-        "posted": "October 21, 2024"
+        "posted": "N/A"
     },
     {
         "title": "An integrative systems-biology approach defines mechanisms of Alzheimer’s disease neurodegeneration",
@@ -69,6 +165,126 @@
         "doi": "https://doi.org/10.1101/2024.03.17.585262",
         "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.03.17.585262v2.full.pdf",
         "abstract": "N/A",
-        "posted": "October 09, 2024"
+        "posted": "N/A"
+    },
+    {
+        "title": "Disentangling the Roles of Distinct Cell Classes with Cell-Type Dynamical Systems",
+        "authors": "Aditi Jha, Diksha Gupta, Carlos D. Brody, Jonathan W. Pillow",
+        "doi": "https://doi.org/10.1101/2024.07.08.602520",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.07.08.602520v2.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "A Machine Learning Model of Perturb-Seq Data for Use in Space Flight Gene Expression Profile Analysis",
+        "authors": "Liam Johnson, James Casaletto, Sylvain Costes, Caitlin Proctor, Lauren Sanders",
+        "doi": "https://doi.org/10.1101/2024.11.28.625741",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.11.28.625741v1.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "Annotating CryoET Volumes: A Machine Learning Challenge",
+        "authors": "Ariana Peck, Yue Yu, Jonathan Schwartz, Anchi Cheng, Utz Heinrich Ermel, Saugat Kandel, Dari Kimanius, Elizabeth Montabana, Daniel Serwas, Hannah Siems, Feng Wang, Zhuowen Zhao, Shawn Zheng, Matthias Haury, David Agard, Clinton Potter, Bridget Carragher, Kyle Harrington, Mohammadreza Paraan",
+        "doi": "https://doi.org/10.1101/2024.11.04.621686",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.11.04.621686v2.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "Universal differential equations for systems biology: Current state and open problems",
+        "authors": "Maren Philipps, Nina Schmid, Jan Hasenauer",
+        "doi": "https://doi.org/10.1101/2024.11.29.626122",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.11.29.626122v2.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "Bayesian Occam’s Razor to Optimize Metamodeling for Complex Biological Systems",
+        "authors": "Chenxi Wang, Jihui Zhao, Jingjing Zheng, Barak Raveh, Xuming He, Liping Sun",
+        "doi": "https://doi.org/10.1101/2024.05.28.594654",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.05.28.594654v2.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "A Mathematical Framework for the Quantitative Analysis of Genetic Buffering",
+        "authors": "Jim Karagiannis",
+        "doi": "https://doi.org/10.1101/2024.12.09.627635",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.12.09.627635v1.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "Systems biology framework for rational design of operational conditions for in vitro / in vivo translation of microphysiological systems",
+        "authors": "Jose L. Cadavid, Nikolaos Meimetis, Linda G. Griffith, Douglas A. Lauffenburger",
+        "doi": "https://doi.org/10.1101/2025.01.17.633624",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.01.17.633624v1.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "Comprehensive analysis of 37 composts: microbial indicators for soilborne disease suppression in three plant-pathogen systems",
+        "authors": "Anja Logo, Benedikt Boppré, Jacques Fuchs, Monika Maurhofer, Thomas Oberhänsli, Barbara Thürig, Franco Widmer, Pascale Flury, Johanna Mayerhofer",
+        "doi": "https://doi.org/10.1101/2025.01.17.633646",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.01.17.633646v1.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "Hybrid Generative Model: Bridging Machine Learning and Biophysics to Expand RNA Functional Diversity",
+        "authors": "Vaitea Opuu",
+        "doi": "https://doi.org/10.1101/2025.01.20.633900",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.01.20.633900v1.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "Dual process impairments in reinforcement learning and working memory systems underlie learning deficits in physiological anxiety",
+        "authors": "Jennifer Senta, Sonia Bishop, Anne GE Collins",
+        "doi": "https://doi.org/10.1101/2025.02.14.638024",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.02.14.638024v1.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "Sleep Resolves Competition Between Explicit and Implicit Memory Systems",
+        "authors": "Katja Kleespies, Philipp C. Paulus, Hao Zhu, Florian Pargent, Marie Jakob, Jana Werle, Michael Czisch, Joschka Boedecker, Steffen Gais, Monika Schönauer",
+        "doi": "https://doi.org/10.1101/2025.02.21.639581",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.02.21.639581v1.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "Thermodynamic uncertainty relation constraints information transmission through cell signaling systems",
+        "authors": "Shreyansh Verma, Vishva Saravanan R, Bhaswar Ghosh",
+        "doi": "https://doi.org/10.1101/2025.01.04.631284",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.01.04.631284v2.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "Integrating Interpretable Machine Learning and Multi-omics Systems Biology for Personalized Biomarker Discovery and Drug Repurposing in Alzheimer’s Disease",
+        "authors": "Mohammadsadeq Mottaqi, Pengyue Zhang, Lei Xie",
+        "doi": "https://doi.org/10.1101/2025.03.24.644676",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.03.24.644676v1.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "Sensitivity based model agnostic scalable explanations of deep learning",
+        "authors": "Manu Aggarwal, NG Cogan, Vipul Periwal",
+        "doi": "https://doi.org/10.1101/2025.02.21.639516",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.02.21.639516v2.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
+    },
+    {
+        "title": "Aerobicity stimulon in Escherichia coli revealed using multi-scale computational systems biology of adapted respiratory variants",
+        "authors": "Arjun Patel, Neha Banwani, Raegan Mink, Divya M. Prabhakaran, Snehal V. Khairnar, Adam M. Feist, Bernhard O. Palsson, Amitesh Anand",
+        "doi": "https://doi.org/10.1101/2025.03.13.642450",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.03.13.642450v1.full.pdf",
+        "abstract": "N/A",
+        "posted": "N/A"
     }
 ]
