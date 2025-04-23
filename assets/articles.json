@@ -9,6 +9,14 @@
             "link": "http://arxiv.org/pdf/2504.00492v1"
         },
         {
+            "title": "Quantitative Clustering in Mean-Field Transformer Models",
+            "year": "April 2025",
+            "date": "2025-04-20",
+            "authors": "Shi Chen, Zhengjiang Lin, Yury Polyanskiy, Philippe Rigollet",
+            "abstract": "The evolution of tokens through a deep transformer models can be modeled as\nan interacting particle system that has been shown to exhibit an asymptotic\nclustering behavior akin to the synchronization phenomenon in Kuramoto models.\nIn this work, we investigate the long-time clustering of mean-field transformer\nmodels. More precisely, we establish exponential rates of contraction to a\nDirac point mass for any suitably regular initialization under some assumptions\non the parameters of transformer models, any suitably regular mean-field\ninitialization synchronizes exponentially fast with some quantitative rates.",
+            "link": "http://arxiv.org/pdf/2504.14697v1"
+        },
+        {
             "title": "Local Normalization Distortion and the Thermodynamic Formalism of Decoding Strategies for Large Language Models",
             "year": "March 2025",
             "date": "2025-03-27",
@@ -31,14 +39,6 @@
             "authors": "Indrajyoti Gaine, Malay Banerjee",
             "abstract": "Enhancement of the predictive power and robustness of nonlinear population\ndynamics models allows ecologists to make more reliable forecasts about\nspecies' long term survival. However, the limited availability of detailed\necological data, especially for complex ecological interactions creates\nuncertainty in model predictions, often requiring adjustments to the\nmathematical formulation of these interactions. Modifying the mathematical\nrepresentation of components responsible for complex behaviors, such as\npredation, can further contribute to this uncertainty, a phenomenon known as\nstructural sensitivity. Structural sensitivity has been explored primarily in\nnon-spatial systems governed by ordinary differential equations (ODEs), and in\na limited number of simple, spatially extended systems modeled by\nnonhomogeneous parabolic partial differential equations (PDEs), where\nself-diffusion alone cannot produce spatial patterns. In this study, we broaden\nthe scope of structural sensitivity analysis to include spatio-temporal\necological systems in which spatial patterns can emerge due to diffusive\ninstability. Through a combination of analytical techniques and supporting\nnumerical simulations, we show that pattern formation can be highly sensitive\nto how the system and its associated ecological interactions are mathematically\nparameterized. In fact, some patterns observed in one version of the model may\ncompletely disappear in another with a different parameterization, even though\nthe underlying properties remain unchanged.",
             "link": "http://arxiv.org/pdf/2504.12933v1"
-        },
-        {
-            "title": "A Comparison of Parametric Dynamic Mode Decomposition Algorithms for Thermal-Hydraulics Applications",
-            "year": "March 2025",
-            "date": "2025-03-31",
-            "authors": "Stefano Riva, Andrea Missaglia, Carolina Introini, In Cheol Bang, Antonio Cammi",
-            "abstract": "In recent years, algorithms aiming at learning models from available data\nhave become quite popular due to two factors: 1) the significant developments\nin Artificial Intelligence techniques and 2) the availability of large amounts\nof data. Nevertheless, this topic has already been addressed by methodologies\nbelonging to the Reduced Order Modelling framework, of which perhaps the most\nfamous equation-free technique is Dynamic Mode Decomposition. This algorithm\naims to learn the best linear model that represents the physical phenomena\ndescribed by a time series dataset: its output is a best state operator of the\nunderlying dynamical system that can be used, in principle, to advance the\noriginal dataset in time even beyond its span. However, in its standard\nformulation, this technique cannot deal with parametric time series, meaning\nthat a different linear model has to be derived for each parameter realization.\nResearch on this is ongoing, and some versions of a parametric Dynamic Mode\nDecomposition already exist. This work contributes to this research field by\ncomparing the different algorithms presently deployed and assessing their\nadvantages and shortcomings compared to each other. To this aim, three\ndifferent thermal-hydraulics problems are considered: two benchmark 'flow over\ncylinder' test cases at diverse Reynolds numbers, whose datasets are,\nrespectively, obtained with the FEniCS finite element solver and retrieved from\nthe CFDbench dataset, and the DYNASTY experimental facility operating at\nPolitecnico di Milano, which studies the natural circulation established by\ninternally heated fluids for Generation IV nuclear applications, whose dataset\nwas generated using the RELAP5 nodal solver.",
-            "link": "http://arxiv.org/pdf/2503.24205v1"
         }
     ],
     "last_year": [
