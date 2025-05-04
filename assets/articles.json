@@ -51,14 +51,6 @@
             "link": "http://arxiv.org/pdf/2412.18344v1"
         },
         {
-            "title": "Reservoir Computing with Generalized Readout based on Generalized Synchronization",
-            "year": "May 2024",
-            "date": "2024-05-03",
-            "authors": "Akane Ookubo, Masanobu Inubushi",
-            "abstract": "Reservoir computing is a machine learning framework that exploits nonlinear\ndynamics, exhibiting significant computational capabilities. One of the\ndefining characteristics of reservoir computing is its low cost and\nstraightforward training algorithm, i.e. only the readout, given by a linear\ncombination of reservoir variables, is trained. Inspired by recent mathematical\nstudies based on dynamical system theory, in particular generalized\nsynchronization, we propose a novel reservoir computing framework with\ngeneralized readout, including a nonlinear combination of reservoir variables.\nThe first crucial advantage of using the generalized readout is its\nmathematical basis for improving information processing capabilities. Secondly,\nit is still within a linear learning framework, which preserves the original\nstrength of reservoir computing. In summary, the generalized readout is\nnaturally derived from mathematical theory and allows the extraction of useful\nbasis functions from reservoir dynamics without sacrificing simplicity. In a\nnumerical study, we find that introducing the generalized readout leads to a\nsignificant improvement in accuracy and an unexpected enhancement in robustness\nfor the short- and long-term prediction of Lorenz chaos, with a particular\nfocus on how to harness low-dimensional reservoir dynamics. A novel way and its\nadvantages for physical implementations of reservoir computing with generalized\nreadout are briefly discussed.",
-            "link": "http://arxiv.org/pdf/2405.14885v1"
-        },
-        {
             "title": "ADAM-SINDy: An Efficient Optimization Framework for Parameterized Nonlinear Dynamical System Identification",
             "year": "October 2024",
             "date": "2024-10-21",
@@ -81,6 +73,14 @@
             "authors": "Nicola Muca Cirone, Cristopher Salvi",
             "abstract": "We present a theoretical framework for analyzing linear attention models\nthrough matrix-valued state space models (SSMs). Our approach, Parallel Flows,\nprovides a perspective that systematically decouples temporal dynamics from\nimplementation constraints, enabling independent analysis of critical\nalgorithmic components: chunking, parallelization, and information aggregation.\nCentral to this framework is the reinterpretation of chunking procedures as\ncomputations of the flows governing system dynamics. This connection\nestablishes a bridge to mathematical tools from rough path theory, opening the\ndoor to new insights into sequence modeling architectures. As a concrete\napplication, we analyze DeltaNet in a generalized low-rank setting motivated by\nrecent theoretical advances. Our methods allow us to design simple, streamlined\ngeneralizations of hardware-efficient algorithms present in the literature, and\nto provide completely different ones, inspired by rough paths techniques, with\nprovably lower complexity. This dual contribution demonstrates how principled\ntheoretical analysis can both explain existing practical methods and inspire\nfundamentally new computational approaches.",
             "link": "http://arxiv.org/pdf/2504.00492v1"
+        },
+        {
+            "title": "Clustering in pure-attention hardmax transformers and its role in sentiment analysis",
+            "year": "June 2024",
+            "date": "2024-06-26",
+            "authors": "Albert Alcalde, Giovanni Fantuzzi, Enrique Zuazua",
+            "abstract": "Transformers are extremely successful machine learning models whose\nmathematical properties remain poorly understood. Here, we rigorously\ncharacterize the behavior of transformers with hardmax self-attention and\nnormalization sublayers as the number of layers tends to infinity. By viewing\nsuch transformers as discrete-time dynamical systems describing the evolution\nof points in a Euclidean space, and thanks to a geometric interpretation of the\nself-attention mechanism based on hyperplane separation, we show that the\ntransformer inputs asymptotically converge to a clustered equilibrium\ndetermined by special points called leaders. We then leverage this theoretical\nunderstanding to solve sentiment analysis problems from language processing\nusing a fully interpretable transformer model, which effectively captures\n`context' by clustering meaningless words around leader words carrying the most\nmeaning. Finally, we outline remaining challenges to bridge the gap between the\nmathematical analysis of transformers and their real-life implementation.",
+            "link": "http://arxiv.org/pdf/2407.01602v1"
         }
     ],
     "last_5_years": [
