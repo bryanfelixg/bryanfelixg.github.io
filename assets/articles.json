@@ -25,20 +25,20 @@
             "link": "http://arxiv.org/pdf/2504.12933v1"
         },
         {
+            "title": "Continuous Temporal Learning of Probability Distributions via Neural ODEs with Applications in Continuous Glucose Monitoring Data",
+            "year": "May 2025",
+            "date": "2025-05-13",
+            "authors": "Antonio Álvarez-López, Marcos Matabuena",
+            "abstract": "Modeling the continuous--time dynamics of probability distributions from\ntime--dependent data samples is a fundamental problem in many fields, including\ndigital health. The aim is to analyze how the distribution of a biomarker, such\nas glucose, evolves over time and how these changes may reflect the progression\nof chronic diseases such as diabetes. In this paper, we propose a novel\nprobabilistic model based on a mixture of Gaussian distributions to capture how\nsamples from a continuous-time stochastic process evolve over the time. To\nmodel potential distribution shifts over time, we introduce a time-dependent\nfunction parameterized by a Neural Ordinary Differential Equation (Neural ODE)\nand estimate it non--parametrically using the Maximum Mean Discrepancy (MMD).\nThe proposed model is highly interpretable, detects subtle temporal shifts, and\nremains computationally efficient. Through simulation studies, we show that it\nperforms competitively in terms of estimation accuracy against\nstate-of-the-art, less interpretable methods such as normalized gradient--flows\nand non--parameteric kernel density estimators. Finally, we demonstrate the\nutility of our method on digital clinical--trial data, showing how the\ninterventions alters the time-dependent distribution of glucose levels and\nenabling a rigorous comparison of control and treatment groups from novel\nmathematical and clinical perspectives.",
+            "link": "http://arxiv.org/pdf/2505.08698v1"
+        },
+        {
             "title": "On the emergence of numerical instabilities in Next Generation Reservoir Computing",
             "year": "May 2025",
             "date": "2025-05-01",
             "authors": "Edmilson Roque dos Santos, Erik Bollt",
             "abstract": "Next Generation Reservoir Computing (NGRC) is a low-cost machine learning\nmethod for forecasting chaotic time series from data. However, ensuring the\ndynamical stability of NGRC models during autonomous prediction remains a\nchallenge. In this work, we uncover a key connection between the numerical\nconditioning of the NGRC feature matrix -- formed by polynomial evaluations on\ntime-delay coordinates -- and the long-term NGRC dynamics. Merging tools from\nnumerical linear algebra and ergodic theory of dynamical systems, we\nsystematically study how the feature matrix conditioning varies across\nhyperparameters. We demonstrate that the NGRC feature matrix tends to be\nill-conditioned for short time lags and high-degree polynomials.\nIll-conditioning amplifies sensitivity to training data perturbations, which\ncan produce unstable NGRC dynamics. We evaluate the impact of different\nnumerical algorithms (Cholesky, SVD, and LU) for solving the regularized\nleast-squares problem.",
             "link": "http://arxiv.org/pdf/2505.00846v1"
-        },
-        {
-            "title": "Dynamics and Control of Additional Food Provided Prey-Predator Systems exhibiting Holling Type-III Functional Response and Intra-specific Competition among Predators",
-            "year": "April 2025",
-            "date": "2025-04-25",
-            "authors": "D Bhanu Prakash, D K K Vamsi",
-            "abstract": "The dynamics of predator-prey systems influenced by intra-specific\ncompetition and additional food resources have increasingly become a subject of\nrigorous study in the realm of mathematical biology. In this study, we consider\nan additional food provided prey-predator model exhibiting Holling type-III\nfunctional response and the intra-specific competition among predators. We\nprove the existence and uniqueness of global positive solutions for the\nproposed model. We study the existence and stability of equilibrium points and\nfurther explore the possible bifurcations. We numerically depict the presence\nof Hysteresis loop in the system. We further study the global dynamics of the\nsystem and discuss the consequences of providing additional food. Later, we do\nthe time-optimal control studies with respect to the quality and quantity of\nadditional food as control variables by transforming the independent variable\nin the control system. We show that the findings of these dynamics and control\nstudies emphasises the role of additional food and intra-specific competition\nin bio-control of pests.",
-            "link": "http://arxiv.org/pdf/2504.18035v1"
         }
     ],
     "last_year": [
