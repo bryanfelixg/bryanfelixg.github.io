@@ -17,14 +17,6 @@
             "link": "http://arxiv.org/pdf/2505.06351v1"
         },
         {
-            "title": "Spatio-temporal pattern formation under varying functional response parametrizations",
-            "year": "April 2025",
-            "date": "2025-04-17",
-            "authors": "Indrajyoti Gaine, Malay Banerjee",
-            "abstract": "Enhancement of the predictive power and robustness of nonlinear population\ndynamics models allows ecologists to make more reliable forecasts about\nspecies' long term survival. However, the limited availability of detailed\necological data, especially for complex ecological interactions creates\nuncertainty in model predictions, often requiring adjustments to the\nmathematical formulation of these interactions. Modifying the mathematical\nrepresentation of components responsible for complex behaviors, such as\npredation, can further contribute to this uncertainty, a phenomenon known as\nstructural sensitivity. Structural sensitivity has been explored primarily in\nnon-spatial systems governed by ordinary differential equations (ODEs), and in\na limited number of simple, spatially extended systems modeled by\nnonhomogeneous parabolic partial differential equations (PDEs), where\nself-diffusion alone cannot produce spatial patterns. In this study, we broaden\nthe scope of structural sensitivity analysis to include spatio-temporal\necological systems in which spatial patterns can emerge due to diffusive\ninstability. Through a combination of analytical techniques and supporting\nnumerical simulations, we show that pattern formation can be highly sensitive\nto how the system and its associated ecological interactions are mathematically\nparameterized. In fact, some patterns observed in one version of the model may\ncompletely disappear in another with a different parameterization, even though\nthe underlying properties remain unchanged.",
-            "link": "http://arxiv.org/pdf/2504.12933v1"
-        },
-        {
             "title": "Continuous Temporal Learning of Probability Distributions via Neural ODEs with Applications in Continuous Glucose Monitoring Data",
             "year": "May 2025",
             "date": "2025-05-13",
@@ -39,6 +31,14 @@
             "authors": "Edmilson Roque dos Santos, Erik Bollt",
             "abstract": "Next Generation Reservoir Computing (NGRC) is a low-cost machine learning\nmethod for forecasting chaotic time series from data. However, ensuring the\ndynamical stability of NGRC models during autonomous prediction remains a\nchallenge. In this work, we uncover a key connection between the numerical\nconditioning of the NGRC feature matrix -- formed by polynomial evaluations on\ntime-delay coordinates -- and the long-term NGRC dynamics. Merging tools from\nnumerical linear algebra and ergodic theory of dynamical systems, we\nsystematically study how the feature matrix conditioning varies across\nhyperparameters. We demonstrate that the NGRC feature matrix tends to be\nill-conditioned for short time lags and high-degree polynomials.\nIll-conditioning amplifies sensitivity to training data perturbations, which\ncan produce unstable NGRC dynamics. We evaluate the impact of different\nnumerical algorithms (Cholesky, SVD, and LU) for solving the regularized\nleast-squares problem.",
             "link": "http://arxiv.org/pdf/2505.00846v1"
+        },
+        {
+            "title": "Dynamics and Control of Additional Food Provided Prey-Predator Systems exhibiting Holling Type-III Functional Response and Intra-specific Competition among Predators",
+            "year": "April 2025",
+            "date": "2025-04-25",
+            "authors": "D Bhanu Prakash, D K K Vamsi",
+            "abstract": "The dynamics of predator-prey systems influenced by intra-specific\ncompetition and additional food resources have increasingly become a subject of\nrigorous study in the realm of mathematical biology. In this study, we consider\nan additional food provided prey-predator model exhibiting Holling type-III\nfunctional response and the intra-specific competition among predators. We\nprove the existence and uniqueness of global positive solutions for the\nproposed model. We study the existence and stability of equilibrium points and\nfurther explore the possible bifurcations. We numerically depict the presence\nof Hysteresis loop in the system. We further study the global dynamics of the\nsystem and discuss the consequences of providing additional food. Later, we do\nthe time-optimal control studies with respect to the quality and quantity of\nadditional food as control variables by transforming the independent variable\nin the control system. We show that the findings of these dynamics and control\nstudies emphasises the role of additional food and intra-specific competition\nin bio-control of pests.",
+            "link": "http://arxiv.org/pdf/2504.18035v1"
         }
     ],
     "last_year": [
