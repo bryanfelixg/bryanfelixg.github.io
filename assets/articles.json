@@ -1,14 +1,6 @@
 {
     "last_month": [
         {
-            "title": "Quantitative Clustering in Mean-Field Transformer Models",
-            "year": "April 2025",
-            "date": "2025-04-20",
-            "authors": "Shi Chen, Zhengjiang Lin, Yury Polyanskiy, Philippe Rigollet",
-            "abstract": "The evolution of tokens through a deep transformer models can be modeled as\nan interacting particle system that has been shown to exhibit an asymptotic\nclustering behavior akin to the synchronization phenomenon in Kuramoto models.\nIn this work, we investigate the long-time clustering of mean-field transformer\nmodels. More precisely, we establish exponential rates of contraction to a\nDirac point mass for any suitably regular initialization under some assumptions\non the parameters of transformer models, any suitably regular mean-field\ninitialization synchronizes exponentially fast with some quantitative rates.",
-            "link": "http://arxiv.org/pdf/2504.14697v2"
-        },
-        {
             "title": "Latent Diffeomorphic Dynamic Mode Decomposition",
             "year": "May 2025",
             "date": "2025-05-09",
@@ -23,6 +15,14 @@
             "authors": "Antonio Álvarez-López, Marcos Matabuena",
             "abstract": "Modeling the continuous--time dynamics of probability distributions from\ntime--dependent data samples is a fundamental problem in many fields, including\ndigital health. The aim is to analyze how the distribution of a biomarker, such\nas glucose, evolves over time and how these changes may reflect the progression\nof chronic diseases such as diabetes. In this paper, we propose a novel\nprobabilistic model based on a mixture of Gaussian distributions to capture how\nsamples from a continuous-time stochastic process evolve over the time. To\nmodel potential distribution shifts over time, we introduce a time-dependent\nfunction parameterized by a Neural Ordinary Differential Equation (Neural ODE)\nand estimate it non--parametrically using the Maximum Mean Discrepancy (MMD).\nThe proposed model is highly interpretable, detects subtle temporal shifts, and\nremains computationally efficient. Through simulation studies, we show that it\nperforms competitively in terms of estimation accuracy against\nstate-of-the-art, less interpretable methods such as normalized gradient--flows\nand non--parameteric kernel density estimators. Finally, we demonstrate the\nutility of our method on digital clinical--trial data, showing how the\ninterventions alters the time-dependent distribution of glucose levels and\nenabling a rigorous comparison of control and treatment groups from novel\nmathematical and clinical perspectives.",
             "link": "http://arxiv.org/pdf/2505.08698v1"
+        },
+        {
+            "title": "Heteroclinic Connection in a Nicholson's delayed model with Harvesting term",
+            "year": "May 2025",
+            "date": "2025-05-16",
+            "authors": "Adrian Gomez, Cesar Guayasamin",
+            "abstract": "In this paper we prove the existence of monotone heteroclinic solutions for\nthe delayed Nicholson's blowflies model with harvesting:\n  \\[\n  x'(t) = -\\delta x(t) - Hx(t-\\sigma) + \\rho x(t-r)e^{-x(t-r)}.\n  \\]\n  Under the condition \\(1 < \\dfrac{\\rho}{\\delta+H} \\leq e\\), we establish the\nconnection between the equilibria \\(0\\) and \\(\\ln(\\rho/(\\delta+H))\\) using the Wu\nand Zou monotone iteration method adapted for two delays (\\(\\sigma \\neq r\\)). The\nproof combines explicit upper and lower solutions construction with\ncharacteristic equation analysis, supported by numerical simulations.",
+            "link": "http://arxiv.org/pdf/2505.11657v1"
         },
         {
             "title": "On the emergence of numerical instabilities in Next Generation Reservoir Computing",
