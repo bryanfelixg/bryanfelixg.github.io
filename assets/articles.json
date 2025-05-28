@@ -1,12 +1,28 @@
 {
     "last_month": [
         {
+            "title": "Pancreatic \\(β-\\)Cell Dynamics with Three-Time-Scale Systems",
+            "year": "May 2025",
+            "date": "2025-05-24",
+            "authors": "Navojit Dhali Pallab",
+            "abstract": "Pancreatic \\(\\beta-\\)cells regulate insulin secretion through complex\noscillations, which are vital for glucose control and diabetes research. In\nthis paper, an existing mathematical model of \\(\\beta-\\)cell dynamics is analyzed\nusing a three-time-scale framework to study interactions among fast,\nintermediate, and slow variables. Through Geometric Singular Perturbation\nTheory (GSPT), the influence of ATP on oscillatory dynamics via membrane\npotential is explored. At the non-hyperbolic point, where standard methods\nfail, blow-up analysis is applied to investigate canard dynamics shaped by\nintermediate and slow variables. Numerical simulations with varied parameters\nreveal the glucose-dependent oscillations linked to slow dynamics near the\npseudo-singular points. By leveraging the pseudo-singular point, the linger\ntime is defined, and simulated results for the coupling strength needed for\nbursting initiation synchronization are presented as a sufficient condition.\nThis study links mathematics and biology, offering insights into diabetic\nstudies.",
+            "link": "http://arxiv.org/pdf/2505.18837v1"
+        },
+        {
             "title": "Latent Diffeomorphic Dynamic Mode Decomposition",
             "year": "May 2025",
             "date": "2025-05-09",
             "authors": "Willem Diepeveen, Jon Schwenk, Andrea Bertozzi",
             "abstract": "We present Latent Diffeomorphic Dynamic Mode Decomposition (LDDMD), a new\ndata reduction approach for the analysis of non-linear systems that combines\nthe interpretability of Dynamic Mode Decomposition (DMD) with the predictive\npower of Recurrent Neural Networks (RNNs). Notably, LDDMD maintains simplicity,\nwhich enhances interpretability, while effectively modeling and learning\ncomplex non-linear systems with memory, enabling accurate predictions. This is\nexemplified by its successful application in streamflow prediction.",
             "link": "http://arxiv.org/pdf/2505.06351v1"
+        },
+        {
+            "title": "Self-Supervised Evolution Operator Learning for High-Dimensional Dynamical Systems",
+            "year": "May 2025",
+            "date": "2025-05-24",
+            "authors": "Giacomo Turri, Luigi Bonati, Kai Zhu, Massimiliano Pontil, Pietro Novelli",
+            "abstract": "We introduce an encoder-only approach to learn the evolution operators of\nlarge-scale non-linear dynamical systems, such as those describing complex\nnatural phenomena. Evolution operators are particularly well-suited for\nanalyzing systems that exhibit complex spatio-temporal patterns and have become\na key analytical tool across various scientific communities. As terabyte-scale\nweather datasets and simulation tools capable of running millions of molecular\ndynamics steps per day are becoming commodities, our approach provides an\neffective tool to make sense of them from a data-driven perspective. The core\nof it lies in a remarkable connection between self-supervised representation\nlearning methods and the recently established learning theory of evolution\noperators. To show the usefulness of the proposed method, we test it across\nmultiple scientific domains: explaining the folding dynamics of small proteins,\nthe binding process of drug-like molecules in host sites, and autonomously\nfinding patterns in climate data. Code and data to reproduce the experiments\nare made available open source.",
+            "link": "http://arxiv.org/pdf/2505.18671v1"
         },
         {
             "title": "Continuous Temporal Learning of Probability Distributions via Neural ODEs with Applications in Continuous Glucose Monitoring Data",
@@ -23,22 +39,6 @@
             "authors": "Adrian Gomez, Cesar Guayasamin",
             "abstract": "In this paper we prove the existence of monotone heteroclinic solutions for\nthe delayed Nicholson's blowflies model with harvesting:\n  \\[\n  x'(t) = -\\delta x(t) - Hx(t-\\sigma) + \\rho x(t-r)e^{-x(t-r)}.\n  \\]\n  Under the condition \\(1 < \\dfrac{\\rho}{\\delta+H} \\leq e\\), we establish the\nconnection between the equilibria \\(0\\) and \\(\\ln(\\rho/(\\delta+H))\\) using the Wu\nand Zou monotone iteration method adapted for two delays (\\(\\sigma \\neq r\\)). The\nproof combines explicit upper and lower solutions construction with\ncharacteristic equation analysis, supported by numerical simulations.",
             "link": "http://arxiv.org/pdf/2505.11657v1"
-        },
-        {
-            "title": "On the emergence of numerical instabilities in Next Generation Reservoir Computing",
-            "year": "May 2025",
-            "date": "2025-05-01",
-            "authors": "Edmilson Roque dos Santos, Erik Bollt",
-            "abstract": "Next Generation Reservoir Computing (NGRC) is a low-cost machine learning\nmethod for forecasting chaotic time series from data. However, ensuring the\ndynamical stability of NGRC models during autonomous prediction remains a\nchallenge. In this work, we uncover a key connection between the numerical\nconditioning of the NGRC feature matrix -- formed by polynomial evaluations on\ntime-delay coordinates -- and the long-term NGRC dynamics. Merging tools from\nnumerical linear algebra and ergodic theory of dynamical systems, we\nsystematically study how the feature matrix conditioning varies across\nhyperparameters. We demonstrate that the NGRC feature matrix tends to be\nill-conditioned for short time lags and high-degree polynomials.\nIll-conditioning amplifies sensitivity to training data perturbations, which\ncan produce unstable NGRC dynamics. We evaluate the impact of different\nnumerical algorithms (Cholesky, SVD, and LU) for solving the regularized\nleast-squares problem.",
-            "link": "http://arxiv.org/pdf/2505.00846v1"
-        },
-        {
-            "title": "Generative Learning for Slow Manifolds and Bifurcation Diagrams",
-            "year": "April 2025",
-            "date": "2025-04-29",
-            "authors": "Ellis R. Crabtree, Dimitris G. Giovanis, Nikolaos Evangelou, Juan M. Bello-Rivas, Ioannis G. Kevrekidis",
-            "abstract": "In dynamical systems characterized by separation of time scales, the\napproximation of so called ``slow manifolds'', on which the long term dynamics\nlie, is a useful step for model reduction. Initializing on such slow manifolds\nis a useful step in modeling, since it circumvents fast transients, and is\ncrucial in multiscale algorithms alternating between fine scale (fast) and\ncoarser scale (slow) simulations. In a similar spirit, when one studies the\ninfinite time dynamics of systems depending on parameters, the system\nattractors (e.g., its steady states) lie on bifurcation diagrams. Sampling\nthese manifolds gives us representative attractors (here, steady states of ODEs\nor PDEs) at different parameter values. Algorithms for the systematic\nconstruction of these manifolds are required parts of the ``traditional''\nnumerical nonlinear dynamics toolkit.\n  In more recent years, as the field of Machine Learning develops, conditional\nscore-based generative models (cSGMs) have demonstrated capabilities in\ngenerating plausible data from target distributions that are conditioned on\nsome given label. It is tempting to exploit such generative models to produce\nsamples of data distributions conditioned on some quantity of interest (QoI).\nIn this work, we present a framework for using cSGMs to quickly (a) initialize\non a low-dimensional (reduced-order) slow manifold of a multi-time-scale system\nconsistent with desired value(s) of a QoI (a ``label'') on the manifold, and\n(b) approximate steady states in a bifurcation diagram consistent with a (new,\nout-of-sample) parameter value. This conditional sampling can help uncover the\ngeometry of the reduced slow-manifold and/or approximately ``fill in'' missing\nsegments of steady states in a bifurcation diagram.",
-            "link": "http://arxiv.org/pdf/2504.20375v1"
         }
     ],
     "last_year": [
