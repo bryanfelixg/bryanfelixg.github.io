@@ -17,6 +17,14 @@
             "link": "http://arxiv.org/pdf/2505.18671v1"
         },
         {
+            "title": "Adaptive Cucker-Smale Networks: Limiting Laplacian Time-Varying Dynamics",
+            "year": "June 2025",
+            "date": "2025-06-06",
+            "authors": "Christian Kuehn, Jaeyoung Yoon",
+            "abstract": "Differences in opinion can be seen as distances between individuals, and such\ndifferences do not always vanish over time. In this paper, we propose a\nmodeling framework that captures the formation of opinion clusters, based on\nextensions of the Cucker Smale and Hegselmann Krause models to a combined\nadaptive (or co-evolutionary) network. Reducing our model to a singular limit\nof fast adaptation, we mathematically analyze the asymptotic behavior of the\nresulting Laplacian dynamics over various classes of temporal graphs and use\nthese results to explain the behavior of the original proposed adaptive model\nfor fast adaptation. In particular, our approach provides a general methodology\nfor analyzing linear consensus models over time-varying networks that naturally\narise as singular limits in many adaptive network models.",
+            "link": "http://arxiv.org/pdf/2506.06131v1"
+        },
+        {
             "title": "Continuous Temporal Learning of Probability Distributions via Neural ODEs with Applications in Continuous Glucose Monitoring Data",
             "year": "May 2025",
             "date": "2025-05-13",
@@ -31,14 +39,6 @@
             "authors": "Adrian Gomez, Cesar Guayasamin",
             "abstract": "In this paper we prove the existence of monotone heteroclinic solutions for\nthe delayed Nicholson's blowflies model with harvesting:\n  \\[\n  x'(t) = -\\delta x(t) - Hx(t-\\sigma) + \\rho x(t-r)e^{-x(t-r)}.\n  \\]\n  Under the condition \\(1 < \\dfrac{\\rho}{\\delta+H} \\leq e\\), we establish the\nconnection between the equilibria \\(0\\) and \\(\\ln(\\rho/(\\delta+H))\\) using the Wu\nand Zou monotone iteration method adapted for two delays (\\(\\sigma \\neq r\\)). The\nproof combines explicit upper and lower solutions construction with\ncharacteristic equation analysis, supported by numerical simulations.",
             "link": "http://arxiv.org/pdf/2505.11657v1"
-        },
-        {
-            "title": "Augmented Regression Models using Neurochaos Learning",
-            "year": "May 2025",
-            "date": "2025-05-19",
-            "authors": "Akhila Henry, Nithin Nagaraj",
-            "abstract": "This study presents novel Augmented Regression Models using Neurochaos\nLearning (NL), where Tracemean features derived from the Neurochaos Learning\nframework are integrated with traditional regression algorithms : Linear\nRegression, Ridge Regression, Lasso Regression, and Support Vector Regression\n(SVR). Our approach was evaluated using ten diverse real-life datasets and a\nsynthetically generated dataset of the form \\(y = mx + c + \\epsilon\\). Results\nshow that incorporating the Tracemean feature (mean of the chaotic neural\ntraces of the neurons in the NL architecture) significantly enhances regression\nperformance, particularly in Augmented Lasso Regression and Augmented SVR,\nwhere six out of ten real-life datasets exhibited improved predictive accuracy.\nAmong the models, Augmented Chaotic Ridge Regression achieved the highest\naverage performance boost (11.35 %). Additionally, experiments on the simulated\ndataset demonstrated that the Mean Squared Error (MSE) of the augmented models\nconsistently decreased and converged towards the Minimum Mean Squared Error\n(MMSE) as the sample size increased. This work demonstrates the potential of\nchaos-inspired features in regression tasks, offering a pathway to more\naccurate and computationally efficient prediction models.",
-            "link": "http://arxiv.org/pdf/2505.12967v1"
         }
     ],
     "last_year": [
