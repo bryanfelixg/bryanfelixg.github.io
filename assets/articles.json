@@ -59,14 +59,6 @@
             "link": "http://arxiv.org/pdf/2410.16528v2"
         },
         {
-            "title": "Flow map matching with stochastic interpolants: A mathematical framework for consistency models",
-            "year": "June 2024",
-            "date": "2024-06-11",
-            "authors": "Nicholas M. Boffi, Michael S. Albergo, Eric Vanden-Eijnden",
-            "abstract": "Generative models based on dynamical equations such as flows and diffusions\noffer exceptional sample quality, but require computationally expensive\nnumerical integration during inference. The advent of consistency models has\nenabled efficient one-step or few-step generation, yet despite their practical\nsuccess, a systematic understanding of their design has been hindered by the\nlack of a comprehensive theoretical framework. Here we introduce Flow Map\nMatching (FMM), a principled framework for learning the two-time flow map of an\nunderlying dynamical generative model, thereby providing this missing\nmathematical foundation. Leveraging stochastic interpolants, we propose\ntraining objectives both for distillation from a pre-trained velocity field and\nfor direct training of a flow map over an interpolant or a forward diffusion\nprocess. Theoretically, we show that FMM unifies and extends a broad class of\nexisting approaches for fast sampling, including consistency models,\nconsistency trajectory models, and progressive distillation. Experiments on\nCIFAR-10 and ImageNet-32 highlight that our approach can achieve sample quality\ncomparable to flow matching while reducing generation time by a factor of\n10-20.",
-            "link": "http://arxiv.org/pdf/2406.07507v2"
-        },
-        {
             "title": "Generalization of the Painlevé Property and Existence and Uniqueness in Fractional Differential Equations",
             "year": "November 2024",
             "date": "2024-11-28",
@@ -81,6 +73,14 @@
             "authors": "Nicola Muca Cirone, Cristopher Salvi",
             "abstract": "We present a theoretical framework for analyzing linear attention models\nthrough matrix-valued state space models (SSMs). Our approach, Parallel Flows,\nprovides a perspective that systematically decouples temporal dynamics from\nimplementation constraints, enabling independent analysis of critical\nalgorithmic components: chunking, parallelization, and information aggregation.\nCentral to this framework is the reinterpretation of chunking procedures as\ncomputations of the flows governing system dynamics. This connection\nestablishes a bridge to mathematical tools from rough path theory, opening the\ndoor to new insights into sequence modeling architectures. As a concrete\napplication, we analyze DeltaNet in a generalized low-rank setting motivated by\nrecent theoretical advances. Our methods allow us to design simple, streamlined\ngeneralizations of hardware-efficient algorithms present in the literature, and\nto provide completely different ones, inspired by rough paths techniques, with\nprovably lower complexity. This dual contribution demonstrates how principled\ntheoretical analysis can both explain existing practical methods and inspire\nfundamentally new computational approaches.",
             "link": "http://arxiv.org/pdf/2504.00492v1"
+        },
+        {
+            "title": "Clustering in pure-attention hardmax transformers and its role in sentiment analysis",
+            "year": "June 2024",
+            "date": "2024-06-26",
+            "authors": "Albert Alcalde, Giovanni Fantuzzi, Enrique Zuazua",
+            "abstract": "Transformers are extremely successful machine learning models whose\nmathematical properties remain poorly understood. Here, we rigorously\ncharacterize the behavior of transformers with hardmax self-attention and\nnormalization sublayers as the number of layers tends to infinity. By viewing\nsuch transformers as discrete-time dynamical systems describing the evolution\nof points in a Euclidean space, and thanks to a geometric interpretation of the\nself-attention mechanism based on hyperplane separation, we show that the\ntransformer inputs asymptotically converge to a clustered equilibrium\ndetermined by special points called leaders. We then leverage this theoretical\nunderstanding to solve sentiment analysis problems from language processing\nusing a fully interpretable transformer model, which effectively captures\n`context' by clustering meaningless words around leader words carrying the most\nmeaning. Finally, we outline remaining challenges to bridge the gap between the\nmathematical analysis of transformers and their real-life implementation.",
+            "link": "http://arxiv.org/pdf/2407.01602v1"
         }
     ],
     "last_5_years": [
