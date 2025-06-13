@@ -25,20 +25,20 @@
             "link": "http://arxiv.org/pdf/2506.06131v1"
         },
         {
-            "title": "Continuous Temporal Learning of Probability Distributions via Neural ODEs with Applications in Continuous Glucose Monitoring Data",
-            "year": "May 2025",
-            "date": "2025-05-13",
-            "authors": "Antonio Álvarez-López, Marcos Matabuena",
-            "abstract": "Modeling the dynamics of probability distributions from time-dependent data\nsamples is a fundamental problem in many fields, including digital health. The\ngoal is to analyze how the distribution of a biomarker, such as glucose,\nchanges over time and how these changes may reflect the progression of chronic\ndiseases like diabetes. We introduce a probabilistic model based on a Gaussian\nmixture that captures the evolution of a continuous-time stochastic process.\nOur approach combines a non-parametric estimate of the distribution, obtained\nwith Maximum Mean Discrepancy (MMD), and a Neural Ordinary Differential\nEquation (Neural ODE) that governs the temporal evolution of the mixture\nweights. The model is highly interpretable, detects subtle distribution shifts,\nand remains computationally efficient. Simulation studies show that our method\nmatches or surpasses the estimation accuracy of state-of-the-art, less\ninterpretable techniques such as normalizing flows and non-parametric kernel\ndensity estimators. We further demonstrate its utility using data from a\ndigital clinical trial, revealing how interventions affect the time-dependent\ndistribution of glucose levels. The proposed method enables rigorous\ncomparisons between control and treatment groups from both mathematical and\nclinical perspectives, offering novel longitudinal characterizations that\nexisting approaches cannot achieve.",
-            "link": "http://arxiv.org/pdf/2505.08698v2"
-        },
-        {
             "title": "Heteroclinic Connection in a Nicholson's delayed model with Harvesting term",
             "year": "May 2025",
             "date": "2025-05-16",
             "authors": "Adrian Gomez, Cesar Guayasamin",
             "abstract": "In this paper we prove the existence of monotone heteroclinic solutions for\nthe delayed Nicholson's blowflies model with harvesting:\n  \\[\n  x'(t) = -\\delta x(t) - Hx(t-\\sigma) + \\rho x(t-r)e^{-x(t-r)}.\n  \\]\n  Under the condition \\(1 < \\dfrac{\\rho}{\\delta+H} \\leq e\\), we establish the\nconnection between the equilibria \\(0\\) and \\(\\ln(\\rho/(\\delta+H))\\) using the Wu\nand Zou monotone iteration method adapted for two delays (\\(\\sigma \\neq r\\)). The\nproof combines explicit upper and lower solutions construction with\ncharacteristic equation analysis, supported by numerical simulations.",
             "link": "http://arxiv.org/pdf/2505.11657v1"
+        },
+        {
+            "title": "Augmented Regression Models using Neurochaos Learning",
+            "year": "May 2025",
+            "date": "2025-05-19",
+            "authors": "Akhila Henry, Nithin Nagaraj",
+            "abstract": "This study presents novel Augmented Regression Models using Neurochaos\nLearning (NL), where Tracemean features derived from the Neurochaos Learning\nframework are integrated with traditional regression algorithms : Linear\nRegression, Ridge Regression, Lasso Regression, and Support Vector Regression\n(SVR). Our approach was evaluated using ten diverse real-life datasets and a\nsynthetically generated dataset of the form \\(y = mx + c + \\epsilon\\). Results\nshow that incorporating the Tracemean feature (mean of the chaotic neural\ntraces of the neurons in the NL architecture) significantly enhances regression\nperformance, particularly in Augmented Lasso Regression and Augmented SVR,\nwhere six out of ten real-life datasets exhibited improved predictive accuracy.\nAmong the models, Augmented Chaotic Ridge Regression achieved the highest\naverage performance boost (11.35 %). Additionally, experiments on the simulated\ndataset demonstrated that the Mean Squared Error (MSE) of the augmented models\nconsistently decreased and converged towards the Minimum Mean Squared Error\n(MMSE) as the sample size increased. This work demonstrates the potential of\nchaos-inspired features in regression tasks, offering a pathway to more\naccurate and computationally efficient prediction models.",
+            "link": "http://arxiv.org/pdf/2505.12967v1"
         }
     ],
     "last_year": [
