@@ -25,20 +25,20 @@
             "link": "http://arxiv.org/pdf/2506.06131v1"
         },
         {
-            "title": "Heteroclinic Connection in a Nicholson's delayed model with Harvesting term",
-            "year": "May 2025",
-            "date": "2025-05-16",
-            "authors": "Adrian Gomez, Cesar Guayasamin",
-            "abstract": "In this paper we prove the existence of monotone heteroclinic solutions for\nthe delayed Nicholson's blowflies model with harvesting:\n  \\[\n  x'(t) = -\\delta x(t) - Hx(t-\\sigma) + \\rho x(t-r)e^{-x(t-r)}.\n  \\]\n  Under the condition \\(1 < \\dfrac{\\rho}{\\delta+H} \\leq e\\), we establish the\nconnection between the equilibria \\(0\\) and \\(\\ln(\\rho/(\\delta+H))\\) using the Wu\nand Zou monotone iteration method adapted for two delays (\\(\\sigma \\neq r\\)). The\nproof combines explicit upper and lower solutions construction with\ncharacteristic equation analysis, supported by numerical simulations.",
-            "link": "http://arxiv.org/pdf/2505.11657v1"
-        },
-        {
             "title": "Augmented Regression Models using Neurochaos Learning",
             "year": "May 2025",
             "date": "2025-05-19",
             "authors": "Akhila Henry, Nithin Nagaraj",
             "abstract": "This study presents novel Augmented Regression Models using Neurochaos\nLearning (NL), where Tracemean features derived from the Neurochaos Learning\nframework are integrated with traditional regression algorithms : Linear\nRegression, Ridge Regression, Lasso Regression, and Support Vector Regression\n(SVR). Our approach was evaluated using ten diverse real-life datasets and a\nsynthetically generated dataset of the form \\(y = mx + c + \\epsilon\\). Results\nshow that incorporating the Tracemean feature (mean of the chaotic neural\ntraces of the neurons in the NL architecture) significantly enhances regression\nperformance, particularly in Augmented Lasso Regression and Augmented SVR,\nwhere six out of ten real-life datasets exhibited improved predictive accuracy.\nAmong the models, Augmented Chaotic Ridge Regression achieved the highest\naverage performance boost (11.35 %). Additionally, experiments on the simulated\ndataset demonstrated that the Mean Squared Error (MSE) of the augmented models\nconsistently decreased and converged towards the Minimum Mean Squared Error\n(MMSE) as the sample size increased. This work demonstrates the potential of\nchaos-inspired features in regression tasks, offering a pathway to more\naccurate and computationally efficient prediction models.",
             "link": "http://arxiv.org/pdf/2505.12967v1"
+        },
+        {
+            "title": "Constrained Hamiltonian Systems on Observation-Induced Fiber Bundles: Theory of Symmetry and Integrability",
+            "year": "May 2025",
+            "date": "2025-05-28",
+            "authors": "Dongzhe Zheng",
+            "abstract": "Classical constrained Hamiltonian theory assumes complete observability of\nsystem states, but in reality only partial state information is often\navailable. This paper establishes a complete geometric theoretical framework\nfor handling such incompletely observed systems. By introducing the concept of\nobservation-induced fiber bundles, we naturally extend Dirac constraint theory\nto the fiber bundle setting, unifying the treatment of state constraints and\nobservation constraints. Main results include: (1) Classification of existence\nconditions for observation fiber bundles based on characteristic class theory;\n(2) Complete characterization of Poisson structures on fiber bundles and\ncorresponding symplectic reduction theory; (3) Geometric necessary and\nsufficient conditions for integrability and Lax pair construction; (4)\nExtension of Noether's theorem under symmetry group actions. The theoretical\nframework naturally encompasses a wide range of applications from classical\nmechanics to modern safety-critical control systems, providing a rigorous\nmathematical foundation for dynamical analysis under incomplete information.",
+            "link": "http://arxiv.org/pdf/2505.22824v1"
         }
     ],
     "last_year": [
