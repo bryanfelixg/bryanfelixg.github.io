@@ -25,20 +25,20 @@
             "link": "http://arxiv.org/pdf/2506.06131v1"
         },
         {
-            "title": "Augmented Regression Models using Neurochaos Learning",
-            "year": "May 2025",
-            "date": "2025-05-19",
-            "authors": "Akhila Henry, Nithin Nagaraj",
-            "abstract": "This study presents novel Augmented Regression Models using Neurochaos\nLearning (NL), where Tracemean features derived from the Neurochaos Learning\nframework are integrated with traditional regression algorithms : Linear\nRegression, Ridge Regression, Lasso Regression, and Support Vector Regression\n(SVR). Our approach was evaluated using ten diverse real-life datasets and a\nsynthetically generated dataset of the form \\(y = mx + c + \\epsilon\\). Results\nshow that incorporating the Tracemean feature (mean of the chaotic neural\ntraces of the neurons in the NL architecture) significantly enhances regression\nperformance, particularly in Augmented Lasso Regression and Augmented SVR,\nwhere six out of ten real-life datasets exhibited improved predictive accuracy.\nAmong the models, Augmented Chaotic Ridge Regression achieved the highest\naverage performance boost (11.35 %). Additionally, experiments on the simulated\ndataset demonstrated that the Mean Squared Error (MSE) of the augmented models\nconsistently decreased and converged towards the Minimum Mean Squared Error\n(MMSE) as the sample size increased. This work demonstrates the potential of\nchaos-inspired features in regression tasks, offering a pathway to more\naccurate and computationally efficient prediction models.",
-            "link": "http://arxiv.org/pdf/2505.12967v1"
-        },
-        {
             "title": "Constrained Hamiltonian Systems on Observation-Induced Fiber Bundles: Theory of Symmetry and Integrability",
             "year": "May 2025",
             "date": "2025-05-28",
             "authors": "Dongzhe Zheng",
             "abstract": "Classical constrained Hamiltonian theory assumes complete observability of\nsystem states, but in reality only partial state information is often\navailable. This paper establishes a complete geometric theoretical framework\nfor handling such incompletely observed systems. By introducing the concept of\nobservation-induced fiber bundles, we naturally extend Dirac constraint theory\nto the fiber bundle setting, unifying the treatment of state constraints and\nobservation constraints. Main results include: (1) Classification of existence\nconditions for observation fiber bundles based on characteristic class theory;\n(2) Complete characterization of Poisson structures on fiber bundles and\ncorresponding symplectic reduction theory; (3) Geometric necessary and\nsufficient conditions for integrability and Lax pair construction; (4)\nExtension of Noether's theorem under symmetry group actions. The theoretical\nframework naturally encompasses a wide range of applications from classical\nmechanics to modern safety-critical control systems, providing a rigorous\nmathematical foundation for dynamical analysis under incomplete information.",
             "link": "http://arxiv.org/pdf/2505.22824v1"
+        },
+        {
+            "title": "Synchronization Phenomenon in Three-Time-Scale Systems",
+            "year": "May 2025",
+            "date": "2025-05-27",
+            "authors": "Navojit Dhali Pallab",
+            "abstract": "This paper investigates synchronization phenomena in networks of coupled\noscillators governed by three-time-scale dynamical systems exhibiting canard\ndynamics. A mathematical framework has been developed to analyze the\nsynchronization of fast variables across heterogeneous systems, deriving a\nsufficient condition for the synchronization error to fall below a specified\nthreshold within the minimum linger time. This condition accounts for coupling\nstrength, heterogeneity, and time-scale separation, ensuring stable oscillatory\nbehavior in the network. The result, supported by rigorous mathematical\nanalysis, advances the understanding of synchronization in complex\nmulti-time-scale systems.",
+            "link": "http://arxiv.org/pdf/2505.21088v1"
         }
     ],
     "last_year": [
