@@ -1,22 +1,6 @@
 {
     "last_month": [
         {
-            "title": "Pancreatic \\(β-\\)Cell Dynamics with Three-Time-Scale Systems",
-            "year": "May 2025",
-            "date": "2025-05-24",
-            "authors": "Navojit Dhali Pallab",
-            "abstract": "Pancreatic \\(\\beta-\\)cells regulate insulin secretion through complex\noscillations, which are vital for glucose control and diabetes research. In\nthis paper, an existing mathematical model of \\(\\beta-\\)cell dynamics is analyzed\nusing a three-time-scale framework to study interactions among fast,\nintermediate, and slow variables. Through Geometric Singular Perturbation\nTheory (GSPT), the influence of ATP on oscillatory dynamics via membrane\npotential is explored. At the non-hyperbolic point, where standard methods\nfail, blow-up analysis is applied to investigate canard dynamics shaped by\nintermediate and slow variables. Numerical simulations with varied parameters\nreveal the glucose-dependent oscillations linked to slow dynamics near the\npseudo-singular points. By leveraging the pseudo-singular point, the linger\ntime is defined, and simulated results for the coupling strength needed for\nbursting initiation synchronization are presented as a sufficient condition.\nThis study links mathematics and biology, offering insights into diabetic\nstudies.",
-            "link": "http://arxiv.org/pdf/2505.18837v1"
-        },
-        {
-            "title": "Self-Supervised Evolution Operator Learning for High-Dimensional Dynamical Systems",
-            "year": "May 2025",
-            "date": "2025-05-24",
-            "authors": "Giacomo Turri, Luigi Bonati, Kai Zhu, Massimiliano Pontil, Pietro Novelli",
-            "abstract": "We introduce an encoder-only approach to learn the evolution operators of\nlarge-scale non-linear dynamical systems, such as those describing complex\nnatural phenomena. Evolution operators are particularly well-suited for\nanalyzing systems that exhibit complex spatio-temporal patterns and have become\na key analytical tool across various scientific communities. As terabyte-scale\nweather datasets and simulation tools capable of running millions of molecular\ndynamics steps per day are becoming commodities, our approach provides an\neffective tool to make sense of them from a data-driven perspective. The core\nof it lies in a remarkable connection between self-supervised representation\nlearning methods and the recently established learning theory of evolution\noperators. To show the usefulness of the proposed method, we test it across\nmultiple scientific domains: explaining the folding dynamics of small proteins,\nthe binding process of drug-like molecules in host sites, and autonomously\nfinding patterns in climate data. Code and data to reproduce the experiments\nare made available open source.",
-            "link": "http://arxiv.org/pdf/2505.18671v1"
-        },
-        {
             "title": "Adaptive Cucker-Smale Networks: Limiting Laplacian Time-Varying Dynamics",
             "year": "June 2025",
             "date": "2025-06-06",
@@ -39,6 +23,22 @@
             "authors": "Navojit Dhali Pallab",
             "abstract": "This paper investigates synchronization phenomena in networks of coupled\noscillators governed by three-time-scale dynamical systems exhibiting canard\ndynamics. A mathematical framework has been developed to analyze the\nsynchronization of fast variables across heterogeneous systems, deriving a\nsufficient condition for the synchronization error to fall below a specified\nthreshold within the minimum linger time. This condition accounts for coupling\nstrength, heterogeneity, and time-scale separation, ensuring stable oscillatory\nbehavior in the network. The result, supported by rigorous mathematical\nanalysis, advances the understanding of synchronization in complex\nmulti-time-scale systems.",
             "link": "http://arxiv.org/pdf/2505.21088v1"
+        },
+        {
+            "title": "A condensing approach to multiple shooting neural ordinary differential equation",
+            "year": "May 2025",
+            "date": "2025-05-31",
+            "authors": "Siddharth Prabhu, Srinivas Rangarajan, Mayuresh Kothare",
+            "abstract": "Multiple-shooting is a parameter estimation approach for ordinary\ndifferential equations. In this approach, the trajectory is broken into small\nintervals, each of which can be integrated independently. Equality constraints\nare then applied to eliminate the shooting gap between the end of the previous\ntrajectory and the start of the next trajectory. Unlike single-shooting,\nmultiple-shooting is more stable, especially for highly oscillatory and long\ntrajectories. In the context of neural ordinary differential equations,\nmultiple-shooting is not widely used due to the challenge of incorporating\ngeneral equality constraints. In this work, we propose a condensing-based\napproach to incorporate these shooting equality constraints while training a\nmultiple-shooting neural ordinary differential equation (MS-NODE) using\nfirst-order optimization methods such as Adam.",
+            "link": "http://arxiv.org/pdf/2506.00724v1"
+        },
+        {
+            "title": "Semi-Explicit Neural DAEs: Learning Long-Horizon Dynamical Systems with Algebraic Constraints",
+            "year": "May 2025",
+            "date": "2025-05-26",
+            "authors": "Avik Pal, Alan Edelman, Christopher Rackauckas",
+            "abstract": "Despite the promise of scientific machine learning (SciML) in combining\ndata-driven techniques with mechanistic modeling, existing approaches for\nincorporating hard constraints in neural differential equations (NDEs) face\nsignificant limitations. Scalability issues and poor numerical properties\nprevent these neural models from being used for modeling physical systems with\ncomplicated conservation laws. We propose Manifold-Projected Neural ODEs\n(PNODEs), a method that explicitly enforces algebraic constraints by projecting\neach ODE step onto the constraint manifold. This framework arises naturally\nfrom semi-explicit differential-algebraic equations (DAEs), and includes both a\nrobust iterative variant and a fast approximation requiring a single Jacobian\nfactorization. We further demonstrate that prior works on relaxation methods\nare special cases of our approach. PNODEs consistently outperform baselines\nacross six benchmark problems achieving a mean constraint violation error below\n\\(10^{-10}\\). Additionally, PNODEs consistently achieve lower runtime compared to\nother methods for a given level of error tolerance. These results show that\nconstraint projection offers a simple strategy for learning physically\nconsistent long-horizon dynamics.",
+            "link": "http://arxiv.org/pdf/2505.20515v1"
         }
     ],
     "last_year": [
