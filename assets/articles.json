@@ -9,14 +9,6 @@
             "link": "http://arxiv.org/pdf/2506.06131v1"
         },
         {
-            "title": "Constrained Hamiltonian Systems on Observation-Induced Fiber Bundles: Theory of Symmetry and Integrability",
-            "year": "May 2025",
-            "date": "2025-05-28",
-            "authors": "Dongzhe Zheng",
-            "abstract": "Classical constrained Hamiltonian theory assumes complete observability of\nsystem states, but in reality only partial state information is often\navailable. This paper establishes a complete geometric theoretical framework\nfor handling such incompletely observed systems. By introducing the concept of\nobservation-induced fiber bundles, we naturally extend Dirac constraint theory\nto the fiber bundle setting, unifying the treatment of state constraints and\nobservation constraints. Main results include: (1) Classification of existence\nconditions for observation fiber bundles based on characteristic class theory;\n(2) Complete characterization of Poisson structures on fiber bundles and\ncorresponding symplectic reduction theory; (3) Geometric necessary and\nsufficient conditions for integrability and Lax pair construction; (4)\nExtension of Noether's theorem under symmetry group actions. The theoretical\nframework naturally encompasses a wide range of applications from classical\nmechanics to modern safety-critical control systems, providing a rigorous\nmathematical foundation for dynamical analysis under incomplete information.",
-            "link": "http://arxiv.org/pdf/2505.22824v1"
-        },
-        {
             "title": "A condensing approach to multiple shooting neural ordinary differential equation",
             "year": "May 2025",
             "date": "2025-05-31",
@@ -39,6 +31,14 @@
             "authors": "Declan A. Norton, Yuanzhao Zhang, Michelle Girvan",
             "abstract": "Machine learning techniques offer an effective approach to modeling dynamical\nsystems solely from observed data. However, without explicit structural priors\n-- built-in assumptions about the underlying dynamics -- these techniques\ntypically struggle to generalize to aspects of the dynamics that are poorly\nrepresented in the training data. Here, we demonstrate that reservoir computing\n-- a simple, efficient, and versatile machine learning framework often used for\ndata-driven modeling of dynamical systems -- can generalize to unexplored\nregions of state space without explicit structural priors. First, we describe a\nmultiple-trajectory training scheme for reservoir computers that supports\ntraining across a collection of disjoint time series, enabling effective use of\navailable training data. Then, applying this training scheme to multistable\ndynamical systems, we show that RCs trained on trajectories from a single basin\nof attraction can achieve out-of-domain generalization by capturing system\nbehavior in entirely unobserved basins.",
             "link": "http://arxiv.org/pdf/2506.05292v1"
+        },
+        {
+            "title": "The Kuramoto model on the Sierpinski Gasket",
+            "year": "June 2025",
+            "date": "2025-06-15",
+            "authors": "Georgi S. Medvedev, Matthew S. Mizuhara",
+            "abstract": "We study the Kuramoto model (KM) of coupled phase oscillators on graphs\napproximating the Sierpinski gasket (SG). As the size of the graph tends to\ninfinity, the limit points of the sequence of stable equilibria in the KM\ncorrespond to the minima of the Dirichlet energy, i.e., to harmonic maps from\nthe SG to the circle. We provide a complete description of the stable\nequilibria of the continuum limit of the KM on graphs approximating the SG,\nunder both Dirichlet and free boundary conditions. We show that there is a\nunique stable equilibrium in each homotopy class of continuous functions from\nthe SG to the circle. These equilibria serve as generalizations of the\nclassical twisted states on ring networks. Furthermore, we extend the analysis\nto the KM on post-critically finite fractals. The results of this work reveal\nthe link between self-similar organization and network dynamics.",
+            "link": "http://arxiv.org/pdf/2506.12940v1"
         }
     ],
     "last_year": [
