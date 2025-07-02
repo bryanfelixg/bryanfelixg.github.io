@@ -9,6 +9,14 @@
             "link": "http://arxiv.org/pdf/2506.06131v1"
         },
         {
+            "title": "Mathematical Modeling of Carbon Dioxide Emissions with GDP Linkage: Sensitivity Analysis and Optimal Control Strategy",
+            "year": "June 2025",
+            "date": "2025-06-23",
+            "authors": "Hua Liu, Zhuoma Gangji, Yumei Wei, Jianhua Ye, Gang Ma",
+            "abstract": "Climate change and global warming are among the most significant issues that\nhumanity is currently facing, and also among the issues that pose the greatest\nthreats to all mankind. These issues are primarily driven by abnormal increases\nin greenhouse gas concentrations. Mathematical modeling serves as a powerful\napproach to analyze the dynamic patterns of atmospheric carbon dioxide. In this\npaper, we established a mathmetical model with four state variables to\ninvestigate the dynamic behavior of the interaction between atmospheric carbon\ndioxide, GDP, forest area and human population. Relevant theories were employed\nto analyze the system's boundedness and the stability of equilibrium points.\nThe parameter values were estimated with the help of the actual data in China\nand numerical fitting was carried out to verify the results of the theoretical\nanalysis. The sensitivity analysis of the compartments with respect to the\nmodel parameters was analyzed by using the Partial Rank Correlation Coefficient\n(PRCC) and the Latin Hypercube Sampling test. Apply the optimal control theory\nto regulate the atmospheric carbon dioxide level and provide the corresponding\nnumerical fitting. Finally, corresponding discussions and suggestions were put\nforward with the help of the results of the theoretical analysis and numerical\nfitting.",
+            "link": "http://arxiv.org/pdf/2506.22483v1"
+        },
+        {
             "title": "A Hybrid Neural Network -- Polynomial Series Scheme for Learning Invariant Manifolds of Discrete Dynamical Systems",
             "year": "June 2025",
             "date": "2025-06-16",
@@ -31,14 +39,6 @@
             "authors": "Georgi S. Medvedev, Matthew S. Mizuhara",
             "abstract": "We study the Kuramoto model (KM) of coupled phase oscillators on graphs\napproximating the Sierpinski gasket (SG). As the size of the graph tends to\ninfinity, the limit points of the sequence of stable equilibria in the KM\ncorrespond to the minima of the Dirichlet energy, i.e., to harmonic maps from\nthe SG to the circle. We provide a complete description of the stable\nequilibria of the continuum limit of the KM on graphs approximating the SG,\nunder both Dirichlet and free boundary conditions. We show that there is a\nunique stable equilibrium in each homotopy class of continuous functions from\nthe SG to the circle. These equilibria serve as generalizations of the\nclassical twisted states on ring networks. Furthermore, we extend the analysis\nto the KM on post-critically finite fractals. The results of this work reveal\nthe link between self-similar organization and network dynamics.",
             "link": "http://arxiv.org/pdf/2506.12940v1"
-        },
-        {
-            "title": "BridgeNet: A Hybrid, Physics-Informed Machine Learning Framework for Solving High-Dimensional Fokker-Planck Equations",
-            "year": "June 2025",
-            "date": "2025-06-04",
-            "authors": "Elmira Mirzabeigi, Rezvan Salehi, Kourosh Parand",
-            "abstract": "BridgeNet is a novel hybrid framework that integrates convolutional neural\nnetworks with physics-informed neural networks to efficiently solve non-linear,\nhigh-dimensional Fokker-Planck equations (FPEs). Traditional PINNs, which\ntypically rely on fully connected architectures, often struggle to capture\ncomplex spatial hierarchies and enforce intricate boundary conditions. In\ncontrast, BridgeNet leverages adaptive CNN layers for effective local feature\nextraction and incorporates a dynamically weighted loss function that\nrigorously enforces physical constraints. Extensive numerical experiments\nacross various test cases demonstrate that BridgeNet not only achieves\nsignificantly lower error metrics and faster convergence compared to\nconventional PINN approaches but also maintains robust stability in\nhigh-dimensional settings. This work represents a substantial advancement in\ncomputational physics, offering a scalable and accurate solution methodology\nwith promising applications in fields ranging from financial mathematics to\ncomplex system dynamics.",
-            "link": "http://arxiv.org/pdf/2506.04354v3"
         }
     ],
     "last_year": [
