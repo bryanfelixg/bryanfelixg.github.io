@@ -1,6 +1,14 @@
 {
     "last_month": [
         {
+            "title": "XPPLORE: Import, visualize, and analyze XPPAUT data in MATLAB",
+            "year": "July 2025",
+            "date": "2025-07-03",
+            "authors": "Matteo Martin, Anna Kishida Thomas, George Bard Ermentrout",
+            "abstract": "The analysis of ordinary differential equation (ODE) dynamical systems,\nparticularly in applied disciplines such as mathematical biology and\nneuroscience, often requires flexible computational workflows tailored to\nmodel-specific questions. XPPAUT is a widely used tool combining numerical\nintegration and continuation methods. Various XPPAUT toolboxes have emerged to\ncustomize analyses, however, they typically rely on summary '.dat' files and\ncannot parse the more informative '.auto' files, which contain detailed\ncontinuation data, e.g. periodic orbits and boundary value problem solutions.\nWe present XPPLORE, a user-friendly and structured MATLAB toolbox overcoming\nthis limitation through the handling of '.auto' files. This free software\nenables post-processing of continuation results, facilitates analyses such as\nmanifold reconstruction and averaging, and it supports the creation of\nhigh-quality visualizations suitable for scientific publications. This paper\nintroduces the core data structures of XPPLORE and demonstrates the software's\nexploration capabilities, highlighting its value as a customizable and\naccessible extension for researchers working with ODE-based dynamical systems.",
+            "link": "http://arxiv.org/pdf/2507.02709v1"
+        },
+        {
             "title": "Adaptive Cucker-Smale Networks: Limiting Laplacian Time-Varying Dynamics",
             "year": "June 2025",
             "date": "2025-06-06",
@@ -31,14 +39,6 @@
             "authors": "Dimitrios G. Patsatzis, Nikolaos Kazantzis, Ioannis G. Kevrekidis, Constantinos Siettos",
             "abstract": "We propose a hybrid machine learning scheme to learn -- in physics-informed\nand numerical analysis-informed fashion -- invariant manifolds (IM) of discrete\nmaps for constructing reduced-order models (ROMs) for dynamical systems. The\nproposed scheme combines polynomial series with shallow neural networks,\nexploiting the complementary strengths of both approaches. Polynomials enable\nan efficient and accurate modeling of ROMs with guaranteed local exponential\nconvergence rate around the fixed point, where, under certain assumptions, the\nIM is demonstrated to be analytic. Neural networks provide approximations to\nmore complex structures beyond the reach of the polynomials' convergence. We\nevaluate the efficiency of the proposed scheme using three benchmark examples,\nexamining convergence behavior, numerical approximation accuracy, and\ncomputational training cost. Additionally, we compare the IM approximations\nobtained solely with neural networks and with polynomial expansions. We\ndemonstrate that the proposed hybrid scheme outperforms both pure polynomial\napproximations (power series, Legendre and Chebyshev polynomials) and\nstandalone shallow neural network approximations in terms of numerical\napproximation accuracy.",
             "link": "http://arxiv.org/pdf/2506.13950v1"
-        },
-        {
-            "title": "Learning Beyond Experience: Generalizing to Unseen State Space with Reservoir Computing",
-            "year": "June 2025",
-            "date": "2025-06-05",
-            "authors": "Declan A. Norton, Yuanzhao Zhang, Michelle Girvan",
-            "abstract": "Machine learning techniques offer an effective approach to modeling dynamical\nsystems solely from observed data. However, without explicit structural priors\n-- built-in assumptions about the underlying dynamics -- these techniques\ntypically struggle to generalize to aspects of the dynamics that are poorly\nrepresented in the training data. Here, we demonstrate that reservoir computing\n-- a simple, efficient, and versatile machine learning framework often used for\ndata-driven modeling of dynamical systems -- can generalize to unexplored\nregions of state space without explicit structural priors. First, we describe a\nmultiple-trajectory training scheme for reservoir computers that supports\ntraining across a collection of disjoint time series, enabling effective use of\navailable training data. Then, applying this training scheme to multistable\ndynamical systems, we show that RCs trained on trajectories from a single basin\nof attraction can achieve out-of-domain generalization by capturing system\nbehavior in entirely unobserved basins.",
-            "link": "http://arxiv.org/pdf/2506.05292v1"
         }
     ],
     "last_year": [
