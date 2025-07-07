@@ -9,14 +9,6 @@
             "link": "http://arxiv.org/pdf/2507.02709v1"
         },
         {
-            "title": "Adaptive Cucker-Smale Networks: Limiting Laplacian Time-Varying Dynamics",
-            "year": "June 2025",
-            "date": "2025-06-06",
-            "authors": "Christian Kuehn, Jaeyoung Yoon",
-            "abstract": "Differences in opinion can be seen as distances between individuals, and such\ndifferences do not always vanish over time. In this paper, we propose a\nmodeling framework that captures the formation of opinion clusters, based on\nextensions of the Cucker Smale and Hegselmann Krause models to a combined\nadaptive (or co-evolutionary) network. Reducing our model to a singular limit\nof fast adaptation, we mathematically analyze the asymptotic behavior of the\nresulting Laplacian dynamics over various classes of temporal graphs and use\nthese results to explain the behavior of the original proposed adaptive model\nfor fast adaptation. In particular, our approach provides a general methodology\nfor analyzing linear consensus models over time-varying networks that naturally\narise as singular limits in many adaptive network models.",
-            "link": "http://arxiv.org/pdf/2506.06131v1"
-        },
-        {
             "title": "Mathematical Modeling of Carbon Dioxide Emissions with GDP Linkage: Sensitivity Analysis and Optimal Control Strategy",
             "year": "June 2025",
             "date": "2025-06-23",
@@ -39,6 +31,14 @@
             "authors": "Dimitrios G. Patsatzis, Nikolaos Kazantzis, Ioannis G. Kevrekidis, Constantinos Siettos",
             "abstract": "We propose a hybrid machine learning scheme to learn -- in physics-informed\nand numerical analysis-informed fashion -- invariant manifolds (IM) of discrete\nmaps for constructing reduced-order models (ROMs) for dynamical systems. The\nproposed scheme combines polynomial series with shallow neural networks,\nexploiting the complementary strengths of both approaches. Polynomials enable\nan efficient and accurate modeling of ROMs with guaranteed local exponential\nconvergence rate around the fixed point, where, under certain assumptions, the\nIM is demonstrated to be analytic. Neural networks provide approximations to\nmore complex structures beyond the reach of the polynomials' convergence. We\nevaluate the efficiency of the proposed scheme using three benchmark examples,\nexamining convergence behavior, numerical approximation accuracy, and\ncomputational training cost. Additionally, we compare the IM approximations\nobtained solely with neural networks and with polynomial expansions. We\ndemonstrate that the proposed hybrid scheme outperforms both pure polynomial\napproximations (power series, Legendre and Chebyshev polynomials) and\nstandalone shallow neural network approximations in terms of numerical\napproximation accuracy.",
             "link": "http://arxiv.org/pdf/2506.13950v1"
+        },
+        {
+            "title": "The Kuramoto model on the Sierpinski Gasket",
+            "year": "June 2025",
+            "date": "2025-06-15",
+            "authors": "Georgi S. Medvedev, Matthew S. Mizuhara",
+            "abstract": "We study the Kuramoto model (KM) of coupled phase oscillators on graphs\napproximating the Sierpinski gasket (SG). As the size of the graph tends to\ninfinity, the limit points of the sequence of stable equilibria in the KM\ncorrespond to the minima of the Dirichlet energy, i.e., to harmonic maps from\nthe SG to the circle. We provide a complete description of the stable\nequilibria of the continuum limit of the KM on graphs approximating the SG,\nunder both Dirichlet and free boundary conditions. We show that there is a\nunique stable equilibrium in each homotopy class of continuous functions from\nthe SG to the circle. These equilibria serve as generalizations of the\nclassical twisted states on ring networks. Furthermore, we extend the analysis\nto the KM on post-critically finite fractals. The results of this work reveal\nthe link between self-similar organization and network dynamics.",
+            "link": "http://arxiv.org/pdf/2506.12940v1"
         }
     ],
     "last_year": [
