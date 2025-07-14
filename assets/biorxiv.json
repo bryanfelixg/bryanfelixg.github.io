@@ -164,24 +164,24 @@
         "authors": "Yun-Fei Liu, Marina Bedny",
         "doi": "https://doi.org/10.1101/2025.01.08.631982",
         "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.01.08.631982v1.full.pdf",
-        "abstract": "Programming is a cornerstone of modern society, yet its cognitive and neural basis remains poorly understood. In this study, we test the hypothesis that programming “recycles” pre-existing neural mechanisms and representations in fronto-parietal reasoning networks. Using fMRI, we scanned programming-naïve undergraduates (n=22) before (PRE) and after (POST) an introductory Python course. During the PRE scan, participants viewed pseudocode (plain English descriptions of algorithms), and during the POST scan, they read Python code. We found that a left-lateralized fronto-parietal network, previously implicated in programming experts, distinguished between “for” loops and “if” conditionals across both pseudocode and Python code. Representational similarity analysis revealed consistent representations of algorithms across formats (code/pseudocode) and learning stages. Furthermore, such representations encode abstract meanings rather than superficial features. Our findings demonstrate that programming not only recycles pre-existing neural resources evolved for logical reasoning, but the recycling takes place rapidly with only a single semester of training.",
-        "posted": "January 10, 2025"
+        "abstract": "N/A",
+        "posted": "N/A"
     },
     {
         "title": "Sensitivity based model agnostic scalable explanations of deep learning",
         "authors": "Manu Aggarwal, NG Cogan, Vipul Periwal",
         "doi": "https://doi.org/10.1101/2025.02.21.639516",
         "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.02.21.639516v2.full.pdf",
-        "abstract": "Deep neural networks (DNNs) are powerful tools for data-driven predictive machine learning, but their complex architecture obscures mechanistic relations that they have learned from data. This information is critical to the scientific method of hypotheses development, experiment design, and model validation, especially when DNNs are used for biological and clinical predictions that affect human health. We design SensX, a model agnostic explainable AI (XAI) framework that outperformed current state-of-the-art XAI in accuracy (up to 52% higher) and computation time (up to 158 times faster), with higher consistency in all cases. It also determines an optimal subset of important input features, reducing dimensionality of further analyses. SensX scaled to explain vision transformer (ViT) models with more than 150, 000 features, which is computationally infeasible for current state-of-the-art XAI. SensX validated that ViT models learned justifiable features as important for different facial attributes of different human faces. SensX revealed biases inherent to the ViT architecture, an observation possible only when importance of each feature is explained. We trained DNNs to annotate biological cell types using single-cell RNA-seq data and SensX determined the sets of genes that the DNNs learned to be important to different cell types.",
-        "posted": "March 07, 2025"
+        "abstract": "N/A",
+        "posted": "N/A"
     },
     {
         "title": "Dual process impairments in reinforcement learning and working memory systems underlie learning deficits in physiological anxiety",
         "authors": "Jennifer Senta, Sonia Bishop, Anne GE Collins",
         "doi": "https://doi.org/10.1101/2025.02.14.638024",
         "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.02.14.638024v1.full.pdf",
-        "abstract": "Anxiety has been robustly linked to deficits in frontal executive function including working memory (WM) and attentional control processes. However, although anxiety has also been associated with impaired performance on learning tasks, computational investigations of reinforcement learning (RL) impairment in anxiety have yielded mixed results. WM processes are known to contribute to learning behavior in parallel to RL processes and to modulate the effective learning rate as a function of load. However, WM processes have typically not been modeled in investigations of anxiety and RL. In the current study, we leveraged an experimental paradigm (RLWM) which manipulates the relative contributions of WM and RL processes in a reinforcement learning and retention task using multiple stimulus set sizes. Using a computational model of interactive RL and WM processes, we investigated whether individual differences in physiological or cognitive anxiety impacted task performance via deficits in RL or WM. Elevated physiological, but not cognitive, anxiety scores were strongly associated with worse performance during learning and retention testing across all set sizes. Computationally, higher physiological anxiety scores were significantly related to reduced learning rate and increased rate of WM decay. To highlight the importance of modeling WM contributions to learning, we considered the effect of fitting RL models without WM modules to the data. Here we found that reduced learning performance for higher physiological anxiety was at least partially misattributed to stochastic decision noise in 9 out of 10 RL-only models considered. These findings reveal a dual-process impairment in learning in anxiety that is linked to a more physiological than cognitive anxiety phenotype. More broadly, this work also points to the importance of accounting for the contribution of WM to RL when investigating psychopathology-related deficits in learning.",
-        "posted": "February 14, 2025"
+        "abstract": "N/A",
+        "posted": "N/A"
     },
     {
         "title": "Sleep Resolves Competition Between Explicit and Implicit Memory Systems",
