@@ -16,12 +16,12 @@
         "posted": "July 09, 2024"
     },
     {
-        "title": "Optimizing alkalinity control in Recirculating Aquaculture Systems (RAS): a dynamic modelling approach",
-        "authors": "Marie Aline Montjouridès, Susanna Röblitz, Håkon Dahle",
-        "doi": "https://doi.org/10.1101/2024.06.28.600787",
-        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.06.28.600787v1.full.pdf",
-        "abstract": "Maintaining good water quality is essential for successful fish production in land-based recirculating aquaculture systems (RAS). Numerous interdependent factors influence water quality parameters, making it difficult to evaluate which operational strategies are most favorable. Mathematical models and model simulations have proven to be powerful tools to evaluate how RAS design and operation are linked to RAS dynamics, but these models rarely implement pH and carbonate species as dynamic variables. Here, we present a dynamic model for RAS (dynRAS) that combines rates of TAN (total ammonia nitrogen) removal, fish growth, and CO2 and TAN excretion, with a reaction model for pH and the carbonate system formulated based on the law of mass action. A novel aspect of our approach is the incorporation of a dosage system modelled by a Hill-function, enabling the exploration of diverse dosing strategies for pH and alkalinity management. The model was validated based on empirical data from a pilot scale RAS system operated with a feeding regime involving 12 hours of feeding per day. We found that model simulations could be used to accurately predict diurnal cycling patterns in RAS water quality parameters. Furthermore, we made use of simulations to assess how diurnal cycling varies with changing pH and alkalinity levels. Model results emphasize the complexity of pH and alkalinity control in RAS in relation to overall water quality management. Based on our simulations, we argue that what should be considered as optimal pH and alkalinity in RAS depends on the state of the system. Accordingly, optimal pH and alkalinity thresholds may vary between different RAS units and between different time points of a rearing cycle. More generally, we demonstrate how modelling and model simulations can be an effective way of getting insights into the dynamics of complex RAS interactions and provide a valuable tool to efficiently explore effects of different operational strategies on water quality parameters.",
-        "posted": "July 02, 2024"
+        "title": "BayesianSSA: a Bayesian statistical model based on structural sensitivity analysis for predicting responses to enzyme perturbations in metabolic networks",
+        "authors": "Shion Hosoda, Hisashi Iwata, Takuya Miura, Maiko Tanabe, Takashi Okada, Atsushi Mochizuki, Miwa Sato",
+        "doi": "https://doi.org/10.1101/2024.03.14.585120",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.03.14.585120v3.full.pdf",
+        "abstract": "Background Chemical bioproduction has attracted attention as a key technology in a decarbonized society. In computational design for chemical bioproduction, it is necessary to predict changes in metabolic fluxes when up-/down-regulating enzymatic reactions, that is, responses of the system to enzyme perturbations. Structural sensitivity analysis (SSA) was previously developed as a method to predict qualitative responses to enzyme perturbations on the basis of the structural information of the reaction network. However, the network structural information can sometimes be insufficient to predict qualitative responses unambiguously, which is a practical issue in bioproduction applications. To address this, in this study, we propose BayesianSSA, a Bayesian statistical model based on SSA. BayesianSSA extracts environmental information from perturbation datasets collected in environments of interest and integrates it into SSA predictions. Results We applied BayesianSSA to synthetic and real datasets of the central metabolic pathway of Escherichia coli. Our result demonstrates that BayesianSSA can successfully integrate environmental information extracted from perturbation data into SSA predictions. In addition, the posterior distribution estimated by BayesianSSA can be associated with the known pathway reported to enhance succinate export flux in previous studies. Conclusions We believe that BayesianSSA will accelerate the chemical bioproduction process and contribute to advancements in the field.",
+        "posted": "July 24, 2024"
     },
     {
         "title": "Combining systems and synthetic biology for in vivo enzymology",
@@ -164,64 +164,64 @@
         "authors": "Yun-Fei Liu, Marina Bedny",
         "doi": "https://doi.org/10.1101/2025.01.08.631982",
         "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.01.08.631982v1.full.pdf",
-        "abstract": "N/A",
-        "posted": "N/A"
+        "abstract": "Programming is a cornerstone of modern society, yet its cognitive and neural basis remains poorly understood. In this study, we test the hypothesis that programming “recycles” pre-existing neural mechanisms and representations in fronto-parietal reasoning networks. Using fMRI, we scanned programming-naïve undergraduates (n=22) before (PRE) and after (POST) an introductory Python course. During the PRE scan, participants viewed pseudocode (plain English descriptions of algorithms), and during the POST scan, they read Python code. We found that a left-lateralized fronto-parietal network, previously implicated in programming experts, distinguished between “for” loops and “if” conditionals across both pseudocode and Python code. Representational similarity analysis revealed consistent representations of algorithms across formats (code/pseudocode) and learning stages. Furthermore, such representations encode abstract meanings rather than superficial features. Our findings demonstrate that programming not only recycles pre-existing neural resources evolved for logical reasoning, but the recycling takes place rapidly with only a single semester of training.",
+        "posted": "January 10, 2025"
     },
     {
         "title": "Sensitivity based model agnostic scalable explanations of deep learning",
         "authors": "Manu Aggarwal, NG Cogan, Vipul Periwal",
         "doi": "https://doi.org/10.1101/2025.02.21.639516",
         "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.02.21.639516v2.full.pdf",
-        "abstract": "N/A",
-        "posted": "N/A"
+        "abstract": "Deep neural networks (DNNs) are powerful tools for data-driven predictive machine learning, but their complex architecture obscures mechanistic relations that they have learned from data. This information is critical to the scientific method of hypotheses development, experiment design, and model validation, especially when DNNs are used for biological and clinical predictions that affect human health. We design SensX, a model agnostic explainable AI (XAI) framework that outperformed current state-of-the-art XAI in accuracy (up to 52% higher) and computation time (up to 158 times faster), with higher consistency in all cases. It also determines an optimal subset of important input features, reducing dimensionality of further analyses. SensX scaled to explain vision transformer (ViT) models with more than 150, 000 features, which is computationally infeasible for current state-of-the-art XAI. SensX validated that ViT models learned justifiable features as important for different facial attributes of different human faces. SensX revealed biases inherent to the ViT architecture, an observation possible only when importance of each feature is explained. We trained DNNs to annotate biological cell types using single-cell RNA-seq data and SensX determined the sets of genes that the DNNs learned to be important to different cell types.",
+        "posted": "March 07, 2025"
     },
     {
         "title": "Dual process impairments in reinforcement learning and working memory systems underlie learning deficits in physiological anxiety",
         "authors": "Jennifer Senta, Sonia Bishop, Anne GE Collins",
         "doi": "https://doi.org/10.1101/2025.02.14.638024",
         "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.02.14.638024v1.full.pdf",
-        "abstract": "N/A",
-        "posted": "N/A"
+        "abstract": "Anxiety has been robustly linked to deficits in frontal executive function including working memory (WM) and attentional control processes. However, although anxiety has also been associated with impaired performance on learning tasks, computational investigations of reinforcement learning (RL) impairment in anxiety have yielded mixed results. WM processes are known to contribute to learning behavior in parallel to RL processes and to modulate the effective learning rate as a function of load. However, WM processes have typically not been modeled in investigations of anxiety and RL. In the current study, we leveraged an experimental paradigm (RLWM) which manipulates the relative contributions of WM and RL processes in a reinforcement learning and retention task using multiple stimulus set sizes. Using a computational model of interactive RL and WM processes, we investigated whether individual differences in physiological or cognitive anxiety impacted task performance via deficits in RL or WM. Elevated physiological, but not cognitive, anxiety scores were strongly associated with worse performance during learning and retention testing across all set sizes. Computationally, higher physiological anxiety scores were significantly related to reduced learning rate and increased rate of WM decay. To highlight the importance of modeling WM contributions to learning, we considered the effect of fitting RL models without WM modules to the data. Here we found that reduced learning performance for higher physiological anxiety was at least partially misattributed to stochastic decision noise in 9 out of 10 RL-only models considered. These findings reveal a dual-process impairment in learning in anxiety that is linked to a more physiological than cognitive anxiety phenotype. More broadly, this work also points to the importance of accounting for the contribution of WM to RL when investigating psychopathology-related deficits in learning.",
+        "posted": "February 14, 2025"
     },
     {
         "title": "Sleep Resolves Competition Between Explicit and Implicit Memory Systems",
         "authors": "Katja Kleespies, Philipp C. Paulus, Hao Zhu, Florian Pargent, Marie Jakob, Jana Werle, Michael Czisch, Joschka Boedecker, Steffen Gais, Monika Schönauer",
         "doi": "https://doi.org/10.1101/2025.02.21.639581",
         "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.02.21.639581v1.full.pdf",
-        "abstract": "N/A",
-        "posted": "N/A"
+        "abstract": "Sleep supports stabilization of explicit, declarative memory and benefits implicit, procedural memory. In addition, sleep may change the quality of memory representations. Explicit and implicit learning systems, usually linked to the hippocampus and striatum, can compete during learning, but whether they continue to interact during offline periods remains unclear. Here, we investigate for feedback-driven classification learning, whether sleep integrates explicit and implicit aspects of memory. The negative relationship between implicit and explicit memory components was resolved over sleep, but not wakefulness. Additionally, sleep benefitted performance on a task that allows the cooperative use of explicit and implicit memory, and participants who slept showed superior performance in generalizing their knowledge to unseen exemplars. A reinforcement learning model relates this to better transfer of the learned exemplar value representation after sleep. This suggests that sleep integrates information learned by different routes and helps us respond optimally to everyday life contingencies.",
+        "posted": "February 25, 2025"
     },
     {
         "title": "Aerobicity stimulon in Escherichia coli revealed using multi-scale computational systems biology of adapted respiratory variants",
         "authors": "Arjun Patel, Neha Banwani, Raegan Mink, Divya M. Prabhakaran, Snehal V. Khairnar, Adam M. Feist, Bernhard O. Palsson, Amitesh Anand",
         "doi": "https://doi.org/10.1101/2025.03.13.642450",
         "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.03.13.642450v1.full.pdf",
-        "abstract": "N/A",
-        "posted": "N/A"
+        "abstract": "Energy homeostasis facilitated by the interplay of substrate-level and oxidative phosphorylation is crucial for bacterial adaptation to diverse substrates and environments. To investigate how bioenergetic systems optimize under restrictive conditions, we evolved ETS variants with distinct proton-pumping efficiencies (1, 2, 3, or 4 proton(s) per electron) on succinate and glycerol. These substrates impose unique metabolic constraints: succinate requires complete gluconeogenesis, while glycerol supports mixed glycolytic and gluconeogenic fluxes. Multi-scale computational analysis of the strains revealed (a) Growth optimization across carbon substrates for multiple ETS variants, (b) A conserved aerobicity stimulon comprising seven independently regulated gene groups that are co-regulated with increasing aerobic capacities, (c) Proteome reallocation linked to aerobicity, validated using genome-scale metabolism and expression modeling, and (d) Carbon source-specific compensatory mutations in succinate transporters and regulatory elements. These findings define the aerobicity stimulon and establish a unifying framework for understanding bacterial respiratory flexibility, demonstrating how transcriptional networks and metabolic systems integrate to achieve energy homeostasis and bioenergetic resilience.",
+        "posted": "March 15, 2025"
     },
     {
         "title": "A Population Model Reveals Surprising Role of Stochastic Cell Division in Epigenetic Memory Systems",
         "authors": "Viviane Klingel, Dimitri Graf, Sara Weirich, Albert Jeltsch, Nicole E. Radde",
         "doi": "https://doi.org/10.1101/2025.03.17.643620",
         "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.03.17.643620v1.full.pdf",
-        "abstract": "N/A",
-        "posted": "N/A"
+        "abstract": "Epigenetic memory systems can store transient environmental signals in bacteria in form of DNA methylation patterns. A synthetic zinc finger protein (ZnF4) binds to the DNA in a methylation-dependent manner and represses the expression of the DNA methyltransferase CcrM. The ON-state of these systems is characterized by high CcrM expression, high methylation levels, and low ZnF4 binding, but the mechanisms ensuring long-term ON-state stability remain unclear. Measurements showed a gradual shift of cell populations from ON to OFF starting after about four days of cultivation. We use a hybrid modeling approach integrating flow-cytometry data and bulk methylation measurements to test the hypothesis that stochastic cell division is a key factor in this transition. Interestingly, model parameters cluster into two groups with opposite effects of cell division rates on ON-state stability. Experiments under varying growth conditions show that faster cell division increases memory stability — an initially unexpected result. Model simulations provide a potential explanation for this observation and deepen our understanding about the mechanisms and timing of the ON/OFF switch in individual cells.",
+        "posted": "March 20, 2025"
     },
     {
         "title": "Mapping energy metabolism systems in the human brain",
         "authors": "Moohebat Pourmajidian, Justine Y. Hansen, Golia Shafiei, Bratislav Misic, Alain Dagher",
         "doi": "https://doi.org/10.1101/2025.03.17.643763",
         "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.03.17.643763v1.full.pdf",
-        "abstract": "N/A",
-        "posted": "N/A"
+        "abstract": "Energy metabolism involves a network of biochemical reactions that generate ATP, utilizing substrates such as glucose and oxygen supplied via cerebral blood flow. Energy substrates are metabolized in multiple interrelated pathways that are cell- and organelle-specific. These pathways not only generate energy but are also fundamental to the production of essential biomolecules required for neuronal function and survival. How these complex biochemical processes are distributed over the cortex is integral to understanding the structure and function of the brain. Here, using curated gene sets and whole-brain transcriptomics, we generate maps of five fundamental energy metabolic pathways: glycolysis, pentose phosphate pathway, tricarboxylic acid cycle, oxidative phosphorylation and lactate metabolism. We find consistent divergence between primarily energy-producing pathways and anabolic pathways, particularly in unimodal sensory cortices. We then explore the spatial alignment of these maps with multi-scale structural and functional attributes, including metabolic uptake, neurophysiological oscillations, cell type composition, laminar organization and macro-scale connectivity. Finally, we show that metabolic pathways exhibit unique developmental trajectories from the fetal stage to adulthood. The primary energy-producing pathways peak in late childhood, while the anabolic pentose phosphate pathway shows pronounced expression in the fetal stage and declines throughout life. Together, these results highlight the rich biochemical complexity of energy metabolism organization in the brain.",
+        "posted": "March 17, 2025"
     },
     {
         "title": "StACKER, A TOOL FOR SYSTEMS LEVEL ANALYSIS OF BASE STACKING IN NUCLEOTIDE-RICH STRUCTURES",
         "authors": "Eric D. Sakkas, Daniel Krizanc, Kelly M. Thayer, Michael P. Weir",
         "doi": "https://doi.org/10.1101/2025.04.13.648419",
         "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.04.13.648419v1.full.pdf",
-        "abstract": "N/A",
-        "posted": "N/A"
+        "abstract": "Nucleic acid macromolecules can undergo significant structural changes—often mediated by nucleotide modification or molecular interactions. These alterations can be critical to their function. An ongoing challenge is to develop useful tools to quantify system-wide changes in nucleic acid-rich structures. We introduce StACKER, a robust Python package for observing conformational changes in a nucleic acid structure through its pi-stacking of base rings. StACKER creates System Stacking Fingerprints (SSFs) which highlight the landscape of pi-stacking throughout a molecule and can be used to show widespread conformational adjustments. Additionally, StACKER’s Pairwise Stacking Fingerprint (PSF) can further characterize pi-stacking in a select residue pair, showing how the effects of localized residue changes spread through a nucleic acid system. We apply StACKER to molecular dynamics (MD) simulations of a subsystem of the ribosome to reveal that alternative codons at the ribosome A-site and 3’ adjacent +1 codon position induce allosteric structure changes in the decoding center neighborhood, leading to a toggle between two conformational states. Through previous analysis of ribosome profiling data, we link these states to an observed fast/slow translation phenotype (Sun et al. 2024). We benchmark StACKER alongside other lenses for observing allostery to demonstrate its use in assessing allosteric shifts and its relevance to future structure-to-function studies.",
+        "posted": "April 18, 2025"
     },
     {
         "title": "Characterization and orthogonality assessment of two quorum sensing systems for synthetic biology applications",

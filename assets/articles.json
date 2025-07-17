@@ -17,6 +17,14 @@
             "link": "http://arxiv.org/pdf/2507.02709v1"
         },
         {
+            "title": "Learning from Imperfect Data: Robust Inference of Dynamic Systems using Simulation-based Generative Model",
+            "year": "July 2025",
+            "date": "2025-07-15",
+            "authors": "Hyunwoo Cho, Hyeontae Jo, Hyung Ju Hwang",
+            "abstract": "System inference for nonlinear dynamic models, represented by ordinary\ndifferential equations (ODEs), remains a significant challenge in many fields,\nparticularly when the data are noisy, sparse, or partially observable. In this\npaper, we propose a Simulation-based Generative Model for Imperfect Data\n(SiGMoID) that enables precise and robust inference for dynamic systems. The\nproposed approach integrates two key methods: (1) physics-informed neural\nnetworks with hyper-networks that constructs an ODE solver, and (2) Wasserstein\ngenerative adversarial networks that estimates ODE parameters by effectively\ncapturing noisy data distributions. We demonstrate that SiGMoID quantifies data\nnoise, estimates system parameters, and infers unobserved system components.\nIts effectiveness is validated validated through realistic experimental\nexamples, showcasing its broad applicability in various domains, from\nscientific research to engineered systems, and enabling the discovery of full\nsystem dynamics.",
+            "link": "http://arxiv.org/pdf/2507.10884v1"
+        },
+        {
             "title": "Mathematical Modeling of Carbon Dioxide Emissions with GDP Linkage: Sensitivity Analysis and Optimal Control Strategy",
             "year": "June 2025",
             "date": "2025-06-23",
@@ -31,14 +39,6 @@
             "authors": "Ayoub Farkane, Mohamed Boutayeb, Mustapha Oudani, Mounir Ghogho",
             "abstract": "State estimation for nonlinear dynamical systems is a critical challenge in\ncontrol and engineering applications, particularly when only partial and noisy\nmeasurements are available. This paper introduces a novel Adaptive\nPhysics-Informed Neural Network-based Observer (PINN-Obs) for accurate state\nestimation in nonlinear systems. Unlike traditional model-based observers,\nwhich require explicit system transformations or linearization, the proposed\nframework directly integrates system dynamics and sensor data into a\nphysics-informed learning process. The observer adaptively learns an optimal\ngain matrix, ensuring convergence of the estimated states to the true system\nstates. A rigorous theoretical analysis establishes formal convergence\nguarantees, demonstrating that the proposed approach achieves uniform error\nminimization under mild observability conditions. The effectiveness of PINN-Obs\nis validated through extensive numerical simulations on diverse nonlinear\nsystems, including an induction motor model, a satellite motion system, and\nbenchmark academic examples. Comparative experimental studies against existing\nobserver designs highlight its superior accuracy, robustness, and adaptability.",
             "link": "http://arxiv.org/pdf/2507.06712v1"
-        },
-        {
-            "title": "Characterizing control between interacting subsystems with deep Jacobian estimation",
-            "year": "July 2025",
-            "date": "2025-07-02",
-            "authors": "Adam J. Eisen, Mitchell Ostrow, Sarthak Chandra, Leo Kozachkov, Earl K. Miller, Ila R. Fiete",
-            "abstract": "Biological function arises through the dynamical interactions of multiple\nsubsystems, including those between brain areas, within gene regulatory\nnetworks, and more. A common approach to understanding these systems is to\nmodel the dynamics of each subsystem and characterize communication between\nthem. An alternative approach is through the lens of control theory: how the\nsubsystems control one another. This approach involves inferring the\ndirectionality, strength, and contextual modulation of control between\nsubsystems. However, methods for understanding subsystem control are typically\nlinear and cannot adequately describe the rich contextual effects enabled by\nnonlinear complex systems. To bridge this gap, we devise a data-driven\nnonlinear control-theoretic framework to characterize subsystem interactions\nvia the Jacobian of the dynamics. We address the challenge of learning\nJacobians from time-series data by proposing the JacobianODE, a deep learning\nmethod that leverages properties of the Jacobian to directly estimate it for\narbitrary dynamical systems from data alone. We show that JacobianODEs\noutperform existing Jacobian estimation methods on challenging systems,\nincluding high-dimensional chaos. Applying our approach to a multi-area\nrecurrent neural network (RNN) trained on a working memory selection task, we\nshow that the \"sensory\" area gains greater control over the \"cognitive\" area\nover learning. Furthermore, we leverage the JacobianODE to directly control the\ntrained RNN, enabling precise manipulation of its behavior. Our work lays the\nfoundation for a theoretically grounded and data-driven understanding of\ninteractions among biological subsystems.",
-            "link": "http://arxiv.org/pdf/2507.01946v1"
         }
     ],
     "last_year": [
