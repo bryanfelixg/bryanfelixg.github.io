@@ -9,6 +9,14 @@
             "link": "http://arxiv.org/pdf/2507.06342v1"
         },
         {
+            "title": "GeoHNNs: Geometric Hamiltonian Neural Networks",
+            "year": "July 2025",
+            "date": "2025-07-21",
+            "authors": "Amine Mohamed Aboussalah, Abdessalam Ed-dib",
+            "abstract": "The fundamental laws of physics are intrinsically geometric, dictating the\nevolution of systems through principles of symmetry and conservation. While\nmodern machine learning offers powerful tools for modeling complex dynamics\nfrom data, common methods often ignore this underlying geometric fabric.\nPhysics-informed neural networks, for instance, can violate fundamental\nphysical principles, leading to predictions that are unstable over long\nperiods, particularly for high-dimensional and chaotic systems. Here, we\nintroduce \\textit{Geometric Hamiltonian Neural Networks (GeoHNN)}, a framework\nthat learns dynamics by explicitly encoding the geometric priors inherent to\nphysical laws. Our approach enforces two fundamental structures: the Riemannian\ngeometry of inertia, by parameterizing inertia matrices in their natural\nmathematical space of symmetric positive-definite matrices, and the symplectic\ngeometry of phase space, using a constrained autoencoder to ensure the\npreservation of phase space volume in a reduced latent space. We demonstrate\nthrough experiments on systems ranging from coupled oscillators to\nhigh-dimensional deformable objects that GeoHNN significantly outperforms\nexisting models. It achieves superior long-term stability, accuracy, and energy\nconservation, confirming that embedding the geometry of physics is not just a\ntheoretical appeal but a practical necessity for creating robust and\ngeneralizable models of the physical world.",
+            "link": "http://arxiv.org/pdf/2507.15678v1"
+        },
+        {
             "title": "XPPLORE: Import, visualize, and analyze XPPAUT data in MATLAB",
             "year": "July 2025",
             "date": "2025-07-03",
@@ -25,20 +33,12 @@
             "link": "http://arxiv.org/pdf/2507.10884v1"
         },
         {
-            "title": "Mathematical Modeling of Carbon Dioxide Emissions with GDP Linkage: Sensitivity Analysis and Optimal Control Strategy",
-            "year": "June 2025",
-            "date": "2025-06-23",
-            "authors": "Hua Liu, Zhuoma Gangji, Yumei Wei, Jianhua Ye, Gang Ma",
-            "abstract": "Climate change and global warming are among the most significant issues that\nhumanity is currently facing, and also among the issues that pose the greatest\nthreats to all mankind. These issues are primarily driven by abnormal increases\nin greenhouse gas concentrations. Mathematical modeling serves as a powerful\napproach to analyze the dynamic patterns of atmospheric carbon dioxide. In this\npaper, we established a mathmetical model with four state variables to\ninvestigate the dynamic behavior of the interaction between atmospheric carbon\ndioxide, GDP, forest area and human population. Relevant theories were employed\nto analyze the system's boundedness and the stability of equilibrium points.\nThe parameter values were estimated with the help of the actual data in China\nand numerical fitting was carried out to verify the results of the theoretical\nanalysis. The sensitivity analysis of the compartments with respect to the\nmodel parameters was analyzed by using the Partial Rank Correlation Coefficient\n(PRCC) and the Latin Hypercube Sampling test. Apply the optimal control theory\nto regulate the atmospheric carbon dioxide level and provide the corresponding\nnumerical fitting. Finally, corresponding discussions and suggestions were put\nforward with the help of the results of the theoretical analysis and numerical\nfitting.",
-            "link": "http://arxiv.org/pdf/2506.22483v1"
-        },
-        {
-            "title": "PINN-Obs: Physics-Informed Neural Network-Based Observer for Nonlinear Dynamical Systems",
+            "title": "Learning Stochastic Hamiltonian Systems via Stochastic Generating Function Neural Network",
             "year": "July 2025",
-            "date": "2025-07-09",
-            "authors": "Ayoub Farkane, Mohamed Boutayeb, Mustapha Oudani, Mounir Ghogho",
-            "abstract": "State estimation for nonlinear dynamical systems is a critical challenge in\ncontrol and engineering applications, particularly when only partial and noisy\nmeasurements are available. This paper introduces a novel Adaptive\nPhysics-Informed Neural Network-based Observer (PINN-Obs) for accurate state\nestimation in nonlinear systems. Unlike traditional model-based observers,\nwhich require explicit system transformations or linearization, the proposed\nframework directly integrates system dynamics and sensor data into a\nphysics-informed learning process. The observer adaptively learns an optimal\ngain matrix, ensuring convergence of the estimated states to the true system\nstates. A rigorous theoretical analysis establishes formal convergence\nguarantees, demonstrating that the proposed approach achieves uniform error\nminimization under mild observability conditions. The effectiveness of PINN-Obs\nis validated through extensive numerical simulations on diverse nonlinear\nsystems, including an induction motor model, a satellite motion system, and\nbenchmark academic examples. Comparative experimental studies against existing\nobserver designs highlight its superior accuracy, robustness, and adaptability.",
-            "link": "http://arxiv.org/pdf/2507.06712v1"
+            "date": "2025-07-19",
+            "authors": "Chen Chen, Lijin Wang, Yanzhao Cao, Xupeng Cheng",
+            "abstract": "In this paper we propose a novel neural network model for learning stochastic\nHamiltonian systems (SHSs) from observational data, termed the stochastic\ngenerating function neural network (SGFNN). SGFNN preserves symplectic\nstructure of the underlying stochastic Hamiltonian system and produces\nsymplectic predictions. Our model utilizes the autoencoder framework to\nidentify the randomness of the latent system by the encoder network, and\ndetects the stochastic generating function of the system through the decoder\nnetwork based on the random variables extracted from the encoder. Symplectic\npredictions can then be generated by the stochastic generating function.\nNumerical experiments are performed on several stochastic Hamiltonian systems,\nvarying from additive to multiplicative, and from separable to non-separable\nSHSs with single or multiple noises. Compared with the benchmark stochastic\nflow map learning (sFML) neural network, our SGFNN model exhibits higher\naccuracy across various prediction metrics, especially in long-term\npredictions, with the property of maintaining the symplectic structure of the\nunderlying SHSs.",
+            "link": "http://arxiv.org/pdf/2507.14467v1"
         }
     ],
     "last_year": [
