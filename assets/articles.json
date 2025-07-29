@@ -33,12 +33,12 @@
             "link": "http://arxiv.org/pdf/2507.02709v1"
         },
         {
-            "title": "Learning from Imperfect Data: Robust Inference of Dynamic Systems using Simulation-based Generative Model",
+            "title": "Neural Ordinary Differential Equations for Learning and Extrapolating System Dynamics Across Bifurcations",
             "year": "July 2025",
-            "date": "2025-07-15",
-            "authors": "Hyunwoo Cho, Hyeontae Jo, Hyung Ju Hwang",
-            "abstract": "System inference for nonlinear dynamic models, represented by ordinary\ndifferential equations (ODEs), remains a significant challenge in many fields,\nparticularly when the data are noisy, sparse, or partially observable. In this\npaper, we propose a Simulation-based Generative Model for Imperfect Data\n(SiGMoID) that enables precise and robust inference for dynamic systems. The\nproposed approach integrates two key methods: (1) physics-informed neural\nnetworks with hyper-networks that constructs an ODE solver, and (2) Wasserstein\ngenerative adversarial networks that estimates ODE parameters by effectively\ncapturing noisy data distributions. We demonstrate that SiGMoID quantifies data\nnoise, estimates system parameters, and infers unobserved system components.\nIts effectiveness is validated validated through realistic experimental\nexamples, showcasing its broad applicability in various domains, from\nscientific research to engineered systems, and enabling the discovery of full\nsystem dynamics.",
-            "link": "http://arxiv.org/pdf/2507.10884v1"
+            "date": "2025-07-25",
+            "authors": "Eva van Tegelen, George van Voorn, Ioannis Athanasiadis, Peter van Heijster",
+            "abstract": "Forecasting system behaviour near and across bifurcations is crucial for\nidentifying potential shifts in dynamical systems. While machine learning has\nrecently been used to learn critical transitions and bifurcation structures\nfrom data, most studies remain limited as they exclusively focus on\ndiscrete-time methods and local bifurcations. To address these limitations, we\nuse Neural Ordinary Differential Equations which provide a continuous,\ndata-driven framework for learning system dynamics. We apply our approach to a\npredator-prey system that features both local and global bifurcations,\npresenting a challenging test case. Our results show that Neural Ordinary\nDifferential Equations can recover underlying bifurcation structures directly\nfrom timeseries data by learning parameter-dependent vector fields. Notably, we\ndemonstrate that Neural Ordinary Differential Equations can forecast\nbifurcations even beyond the parameter regions represented in the training\ndata. We also assess the method's performance under limited and noisy data\nconditions, finding that model accuracy depends more on the quality of\ninformation that can be inferred from the training data, than on the amount of\ndata available.",
+            "link": "http://arxiv.org/pdf/2507.19036v1"
         }
     ],
     "last_year": [
