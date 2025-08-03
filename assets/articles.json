@@ -33,12 +33,12 @@
             "link": "http://arxiv.org/pdf/2507.15678v1"
         },
         {
-            "title": "XPPLORE: Import, visualize, and analyze XPPAUT data in MATLAB",
+            "title": "Neural Ordinary Differential Equations for Learning and Extrapolating System Dynamics Across Bifurcations",
             "year": "July 2025",
-            "date": "2025-07-03",
-            "authors": "Matteo Martin, Anna Kishida Thomas, George Bard Ermentrout",
-            "abstract": "The analysis of ordinary differential equation (ODE) dynamical systems,\nparticularly in applied disciplines such as mathematical biology and\nneuroscience, often requires flexible computational workflows tailored to\nmodel-specific questions. XPPAUT is a widely used tool combining numerical\nintegration and continuation methods. Various XPPAUT toolboxes have emerged to\ncustomize analyses, however, they typically rely on summary '.dat' files and\ncannot parse the more informative '.auto' files, which contain detailed\ncontinuation data, e.g. periodic orbits and boundary value problem solutions.\nWe present XPPLORE, a user-friendly and structured MATLAB toolbox overcoming\nthis limitation through the handling of '.auto' files. This free software\nenables post-processing of continuation results, facilitates analyses such as\nmanifold reconstruction and averaging, and it supports the creation of\nhigh-quality visualizations suitable for scientific publications. This paper\nintroduces the core data structures of XPPLORE and demonstrates the software's\nexploration capabilities, highlighting its value as a customizable and\naccessible extension for researchers working with ODE-based dynamical systems.",
-            "link": "http://arxiv.org/pdf/2507.02709v1"
+            "date": "2025-07-25",
+            "authors": "Eva van Tegelen, George van Voorn, Ioannis Athanasiadis, Peter van Heijster",
+            "abstract": "Forecasting system behaviour near and across bifurcations is crucial for\nidentifying potential shifts in dynamical systems. While machine learning has\nrecently been used to learn critical transitions and bifurcation structures\nfrom data, most studies remain limited as they exclusively focus on\ndiscrete-time methods and local bifurcations. To address these limitations, we\nuse Neural Ordinary Differential Equations which provide a continuous,\ndata-driven framework for learning system dynamics. We apply our approach to a\npredator-prey system that features both local and global bifurcations,\npresenting a challenging test case. Our results show that Neural Ordinary\nDifferential Equations can recover underlying bifurcation structures directly\nfrom timeseries data by learning parameter-dependent vector fields. Notably, we\ndemonstrate that Neural Ordinary Differential Equations can forecast\nbifurcations even beyond the parameter regions represented in the training\ndata. We also assess the method's performance under limited and noisy data\nconditions, finding that model accuracy depends more on the quality of\ninformation that can be inferred from the training data, than on the amount of\ndata available.",
+            "link": "http://arxiv.org/pdf/2507.19036v1"
         }
     ],
     "last_year": [
