@@ -1,6 +1,14 @@
 {
     "last_month": [
         {
+            "title": "Flow Matching for Probabilistic Learning of Dynamical Systems from Missing or Noisy Data",
+            "year": "August 2025",
+            "date": "2025-08-01",
+            "authors": "Siddharth Rout, Eldad Haber, Stephane Gaudreault",
+            "abstract": "Learning dynamical systems is crucial across many fields, yet applying\nmachine learning techniques remains challenging due to missing variables and\nnoisy data. Classical mathematical models often struggle in these scenarios due\nto the arose ill-posedness of the physical systems. Stochastic machine learning\ntechniques address this challenge by enabling the modeling of such ill-posed\nproblems. Thus, a single known input to the trained machine learning model may\nyield multiple plausible outputs, and all of the outputs are correct. In such\nscenarios, probabilistic forecasting is inherently meaningful. In this study,\nwe introduce a variant of flow matching for probabilistic forecasting which\nestimates possible future states as a distribution over possible outcomes\nrather than a single-point prediction. Perturbation of complex dynamical states\nis not trivial. Community uses typical Gaussian or uniform perturbations to\ncrucial variables to model uncertainty. However, not all variables behave in a\nGaussian fashion. So, we also propose a generative machine learning approach to\nphysically and logically perturb the states of complex high-dimensional\ndynamical systems. Finally, we establish the mathematical foundations of our\nmethod and demonstrate its effectiveness on several challenging dynamical\nsystems, including a variant of the high-dimensional WeatherBench dataset,\nwhich models the global weather at a 5.625{\\deg} meridional resolution.",
+            "link": "http://arxiv.org/pdf/2508.01101v1"
+        },
+        {
             "title": "Synchronization of mean-field models on the circle",
             "year": "July 2025",
             "date": "2025-07-30",
@@ -31,14 +39,6 @@
             "authors": "Amine Mohamed Aboussalah, Abdessalam Ed-dib",
             "abstract": "The fundamental laws of physics are intrinsically geometric, dictating the\nevolution of systems through principles of symmetry and conservation. While\nmodern machine learning offers powerful tools for modeling complex dynamics\nfrom data, common methods often ignore this underlying geometric fabric.\nPhysics-informed neural networks, for instance, can violate fundamental\nphysical principles, leading to predictions that are unstable over long\nperiods, particularly for high-dimensional and chaotic systems. Here, we\nintroduce \\textit{Geometric Hamiltonian Neural Networks (GeoHNN)}, a framework\nthat learns dynamics by explicitly encoding the geometric priors inherent to\nphysical laws. Our approach enforces two fundamental structures: the Riemannian\ngeometry of inertia, by parameterizing inertia matrices in their natural\nmathematical space of symmetric positive-definite matrices, and the symplectic\ngeometry of phase space, using a constrained autoencoder to ensure the\npreservation of phase space volume in a reduced latent space. We demonstrate\nthrough experiments on systems ranging from coupled oscillators to\nhigh-dimensional deformable objects that GeoHNN significantly outperforms\nexisting models. It achieves superior long-term stability, accuracy, and energy\nconservation, confirming that embedding the geometry of physics is not just a\ntheoretical appeal but a practical necessity for creating robust and\ngeneralizable models of the physical world.",
             "link": "http://arxiv.org/pdf/2507.15678v1"
-        },
-        {
-            "title": "Neural Ordinary Differential Equations for Learning and Extrapolating System Dynamics Across Bifurcations",
-            "year": "July 2025",
-            "date": "2025-07-25",
-            "authors": "Eva van Tegelen, George van Voorn, Ioannis Athanasiadis, Peter van Heijster",
-            "abstract": "Forecasting system behaviour near and across bifurcations is crucial for\nidentifying potential shifts in dynamical systems. While machine learning has\nrecently been used to learn critical transitions and bifurcation structures\nfrom data, most studies remain limited as they exclusively focus on\ndiscrete-time methods and local bifurcations. To address these limitations, we\nuse Neural Ordinary Differential Equations which provide a continuous,\ndata-driven framework for learning system dynamics. We apply our approach to a\npredator-prey system that features both local and global bifurcations,\npresenting a challenging test case. Our results show that Neural Ordinary\nDifferential Equations can recover underlying bifurcation structures directly\nfrom timeseries data by learning parameter-dependent vector fields. Notably, we\ndemonstrate that Neural Ordinary Differential Equations can forecast\nbifurcations even beyond the parameter regions represented in the training\ndata. We also assess the method's performance under limited and noisy data\nconditions, finding that model accuracy depends more on the quality of\ninformation that can be inferred from the training data, than on the amount of\ndata available.",
-            "link": "http://arxiv.org/pdf/2507.19036v1"
         }
     ],
     "last_year": [
@@ -49,6 +49,14 @@
             "authors": "Aneesh Panchal, Kirti Beniwal, Vivek Kumar",
             "abstract": "Nonlinear mathematical models introduce the relation between various physical\nand biological interactions present in nature. One of the most famous models is\nthe Lotka-Volterra model which defined the interaction between predator and\nprey species present in nature. However, predators, scavengers, and prey\npopulations coexist in a natural system where scavengers can additionally rely\non the dead bodies of predators present in the system. Keeping this in mind,\nthe formulation and simulation of the predator prey scavenger model is\nintroduced in this paper. For the predation response, respective prey species\nare assumed to have Holling's functional response of type III. The proposed\nmodel is tested for various simulations and is found to be showing satisfactory\nresults in different scenarios. After simulations, the American forest dataset\nis taken for parameter estimation which imitates the real-world case. For\nparameter estimation, a physics-informed deep neural network is used with the\nAdam backpropagation method which prevents the avalanche effect in trainable\nparameters updation. For neural networks, mean square error and\nphysics-informed informed error are considered. After the neural network, the\nhence-found parameters are fine-tuned using the\nBroyden-Fletcher-Goldfarb-Shanno algorithm. Finally, the hence-found parameters\nusing a natural dataset are tested for stability using Jacobian stability\nanalysis. Future research work includes minimization of error induced by\nparameters, bifurcation analysis, and sensitivity analysis of the parameters.",
             "link": "http://arxiv.org/pdf/2412.18344v1"
+        },
+        {
+            "title": "Flow Matching for Probabilistic Learning of Dynamical Systems from Missing or Noisy Data",
+            "year": "August 2025",
+            "date": "2025-08-01",
+            "authors": "Siddharth Rout, Eldad Haber, Stephane Gaudreault",
+            "abstract": "Learning dynamical systems is crucial across many fields, yet applying\nmachine learning techniques remains challenging due to missing variables and\nnoisy data. Classical mathematical models often struggle in these scenarios due\nto the arose ill-posedness of the physical systems. Stochastic machine learning\ntechniques address this challenge by enabling the modeling of such ill-posed\nproblems. Thus, a single known input to the trained machine learning model may\nyield multiple plausible outputs, and all of the outputs are correct. In such\nscenarios, probabilistic forecasting is inherently meaningful. In this study,\nwe introduce a variant of flow matching for probabilistic forecasting which\nestimates possible future states as a distribution over possible outcomes\nrather than a single-point prediction. Perturbation of complex dynamical states\nis not trivial. Community uses typical Gaussian or uniform perturbations to\ncrucial variables to model uncertainty. However, not all variables behave in a\nGaussian fashion. So, we also propose a generative machine learning approach to\nphysically and logically perturb the states of complex high-dimensional\ndynamical systems. Finally, we establish the mathematical foundations of our\nmethod and demonstrate its effectiveness on several challenging dynamical\nsystems, including a variant of the high-dimensional WeatherBench dataset,\nwhich models the global weather at a 5.625{\\deg} meridional resolution.",
+            "link": "http://arxiv.org/pdf/2508.01101v1"
         },
         {
             "title": "ADAM-SINDy: An Efficient Optimization Framework for Parameterized Nonlinear Dynamical System Identification",
@@ -73,14 +81,6 @@
             "authors": "Nicola Muca Cirone, Cristopher Salvi",
             "abstract": "We present a theoretical framework for analyzing linear attention models\nthrough matrix-valued state space models (SSMs). Our approach, Parallel Flows,\nprovides a perspective that systematically decouples temporal dynamics from\nimplementation constraints, enabling independent analysis of critical\nalgorithmic components: chunking, parallelization, and information aggregation.\nCentral to this framework is the reinterpretation of chunking procedures as\ncomputations of the flows governing system dynamics. This connection\nestablishes a bridge to mathematical tools from rough path theory, opening the\ndoor to new insights into sequence modeling architectures. As a concrete\napplication, we analyze DeltaNet in a generalized low-rank setting motivated by\nrecent theoretical advances. Our methods allow us to design simple, streamlined\ngeneralizations of hardware-efficient algorithms present in the literature, and\nto provide completely different ones, inspired by rough paths techniques, with\nprovably lower complexity. This dual contribution demonstrates how principled\ntheoretical analysis can both explain existing practical methods and inspire\nfundamentally new computational approaches.",
             "link": "http://arxiv.org/pdf/2504.00492v1"
-        },
-        {
-            "title": "Koopman Theory-Inspired Method for Learning Time Advancement Operators in Unstable Flame Front Evolution",
-            "year": "December 2024",
-            "date": "2024-12-11",
-            "authors": "Rixin Yu, Marco Herbert, Markus Klein, Erdzan Hodzic",
-            "abstract": "Predicting the evolution of complex systems governed by partial differential\nequations (PDEs) remains challenging, especially for nonlinear, chaotic\nbehaviors. This study introduces Koopman-inspired Fourier Neural Operators\n(kFNO) and Convolutional Neural Networks (kCNN) to learn solution advancement\noperators for flame front instabilities. By transforming data into a\nhigh-dimensional latent space, these models achieve more accurate multi-step\npredictions compared to traditional methods. Benchmarking across one- and\ntwo-dimensional flame front scenarios demonstrates the proposed approaches'\nsuperior performance in short-term accuracy and long-term statistical\nreproduction, offering a promising framework for modeling complex dynamical\nsystems.",
-            "link": "http://arxiv.org/pdf/2412.08426v1"
         }
     ],
     "last_5_years": [
