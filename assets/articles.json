@@ -17,6 +17,14 @@
             "link": "http://arxiv.org/pdf/2507.22857v1"
         },
         {
+            "title": "An Analysis of the Riemann Problem for a \\(2 \\times 2\\) System of Keyfitz-Kranzer Type Balance Laws With a Time-Dependent Source Term",
+            "year": "August 2025",
+            "date": "2025-08-14",
+            "authors": "Josh Culver, Aubrey Ayres, Evan Halloran, Ryan Lin, Emily Peng, Charis Tsikkou",
+            "abstract": "We consider a system consisting of one conservation law and one balance law\nwith a time-dependent source term, and provide a comprehensive analysis of\nRiemann solutions, including the non-classical overcompressive delta shocks.\nThe minimal yet representative structure of the system captures essential\nfeatures of transport under density constraints and, despite its simplicity,\nserves as a versatile prototype for crowd-limited transport processes across\ndiverse contexts, including biological aggregation, ecological dispersal,\ngranular compaction, and traffic congestion. In addition to non-self-similar\nsolutions mentioned above, the associated Riemann problem admits solution\nstructures that traverse vacuum states (\\(\\rho = 0\\)) and the critical density\nthreshold (\\(\\rho = \\bar{\\rho}\\)), where mobility vanishes and characteristic\nspeed degenerates. Moreover, the explicit time dependence in the source term\nleads to the breakdown of self-similarity, resulting in distinct Riemann\nsolutions over successive time intervals and highlighting the dynamic nature of\nthe solution landscape. The theoretical findings are numerically confirmed\nusing the Local Lax-Friedrichs scheme.",
+            "link": "http://arxiv.org/pdf/2508.10347v1"
+        },
+        {
             "title": "Asymptotic consensus with transmission and reaction delay: an overview",
             "year": "July 2025",
             "date": "2025-07-21",
@@ -31,14 +39,6 @@
             "authors": "Amine Mohamed Aboussalah, Abdessalam Ed-dib",
             "abstract": "The fundamental laws of physics are intrinsically geometric, dictating the\nevolution of systems through principles of symmetry and conservation. While\nmodern machine learning offers powerful tools for modeling complex dynamics\nfrom data, common methods often ignore this underlying geometric fabric.\nPhysics-informed neural networks, for instance, can violate fundamental\nphysical principles, leading to predictions that are unstable over long\nperiods, particularly for high-dimensional and chaotic systems. Here, we\nintroduce \\textit{Geometric Hamiltonian Neural Networks (GeoHNN)}, a framework\nthat learns dynamics by explicitly encoding the geometric priors inherent to\nphysical laws. Our approach enforces two fundamental structures: the Riemannian\ngeometry of inertia, by parameterizing inertia matrices in their natural\nmathematical space of symmetric positive-definite matrices, and the symplectic\ngeometry of phase space, using a constrained autoencoder to ensure the\npreservation of phase space volume in a reduced latent space. We demonstrate\nthrough experiments on systems ranging from coupled oscillators to\nhigh-dimensional deformable objects that GeoHNN significantly outperforms\nexisting models. It achieves superior long-term stability, accuracy, and energy\nconservation, confirming that embedding the geometry of physics is not just a\ntheoretical appeal but a practical necessity for creating robust and\ngeneralizable models of the physical world.",
             "link": "http://arxiv.org/pdf/2507.15678v1"
-        },
-        {
-            "title": "Neural Ordinary Differential Equations for Learning and Extrapolating System Dynamics Across Bifurcations",
-            "year": "July 2025",
-            "date": "2025-07-25",
-            "authors": "Eva van Tegelen, George van Voorn, Ioannis Athanasiadis, Peter van Heijster",
-            "abstract": "Forecasting system behaviour near and across bifurcations is crucial for\nidentifying potential shifts in dynamical systems. While machine learning has\nrecently been used to learn critical transitions and bifurcation structures\nfrom data, most studies remain limited as they exclusively focus on\ndiscrete-time methods and local bifurcations. To address these limitations, we\nuse Neural Ordinary Differential Equations which provide a continuous,\ndata-driven framework for learning system dynamics. We apply our approach to a\npredator-prey system that features both local and global bifurcations,\npresenting a challenging test case. Our results show that Neural Ordinary\nDifferential Equations can recover underlying bifurcation structures directly\nfrom timeseries data by learning parameter-dependent vector fields. Notably, we\ndemonstrate that Neural Ordinary Differential Equations can forecast\nbifurcations even beyond the parameter regions represented in the training\ndata. We also assess the method's performance under limited and noisy data\nconditions, finding that model accuracy depends more on the quality of\ninformation that can be inferred from the training data, than on the amount of\ndata available.",
-            "link": "http://arxiv.org/pdf/2507.19036v1"
         }
     ],
     "last_year": [
