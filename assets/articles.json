@@ -22,7 +22,7 @@
             "date": "2025-08-14",
             "authors": "Josh Culver, Aubrey Ayres, Evan Halloran, Ryan Lin, Emily Peng, Charis Tsikkou",
             "abstract": "We consider a system consisting of one conservation law and one balance law\nwith a time-dependent source term, and provide a comprehensive analysis of\nRiemann solutions, including the non-classical overcompressive delta shocks.\nThe minimal yet representative structure of the system captures essential\nfeatures of transport under density constraints and, despite its simplicity,\nserves as a versatile prototype for crowd-limited transport processes across\ndiverse contexts, including biological aggregation, ecological dispersal,\ngranular compaction, and traffic congestion. In addition to non-self-similar\nsolutions mentioned above, the associated Riemann problem admits solution\nstructures that traverse vacuum states (\\(\\rho = 0\\)) and the critical density\nthreshold (\\(\\rho = \\bar{\\rho}\\)), where mobility vanishes and characteristic\nspeed degenerates. Moreover, the explicit time dependence in the source term\nleads to the breakdown of self-similarity, resulting in distinct Riemann\nsolutions over successive time intervals and highlighting the dynamic nature of\nthe solution landscape. The theoretical findings are numerically confirmed\nusing the Local Lax-Friedrichs scheme.",
-            "link": "http://arxiv.org/pdf/2508.10347v1"
+            "link": "http://arxiv.org/pdf/2508.10347v2"
         },
         {
             "title": "Asymptotic consensus with transmission and reaction delay: an overview",
