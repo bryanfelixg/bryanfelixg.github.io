@@ -90,7 +90,7 @@
             "date": "2023-12-17",
             "authors": "Borjan Geshkovski, Cyril Letrouit, Yury Polyanskiy, Philippe Rigollet",
             "abstract": "Transformers play a central role in the inner workings of large language\nmodels. We develop a mathematical framework for analyzing Transformers based on\ntheir interpretation as interacting particle systems, which reveals that\nclusters emerge in long time. Our study explores the underlying theory and\noffers new perspectives for mathematicians as well as computer scientists.",
-            "link": "http://arxiv.org/pdf/2312.10794v4"
+            "link": "http://arxiv.org/pdf/2312.10794v5"
         },
         {
             "title": "Coupled and Uncoupled Dynamic Mode Decomposition in Multi-Compartmental Systems with Applications to Epidemiological and Additive Manufacturing Problems",
