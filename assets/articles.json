@@ -33,12 +33,12 @@
             "link": "http://arxiv.org/pdf/2508.12183v1"
         },
         {
-            "title": "Neural Ordinary Differential Equations for Learning and Extrapolating System Dynamics Across Bifurcations",
-            "year": "July 2025",
-            "date": "2025-07-25",
-            "authors": "Eva van Tegelen, George van Voorn, Ioannis Athanasiadis, Peter van Heijster",
-            "abstract": "Forecasting system behaviour near and across bifurcations is crucial for\nidentifying potential shifts in dynamical systems. While machine learning has\nrecently been used to learn critical transitions and bifurcation structures\nfrom data, most studies remain limited as they exclusively focus on\ndiscrete-time methods and local bifurcations. To address these limitations, we\nuse Neural Ordinary Differential Equations which provide a continuous,\ndata-driven framework for learning system dynamics. We apply our approach to a\npredator-prey system that features both local and global bifurcations,\npresenting a challenging test case. Our results show that Neural Ordinary\nDifferential Equations can recover underlying bifurcation structures directly\nfrom timeseries data by learning parameter-dependent vector fields. Notably, we\ndemonstrate that Neural Ordinary Differential Equations can forecast\nbifurcations even beyond the parameter regions represented in the training\ndata. We also assess the method's performance under limited and noisy data\nconditions, finding that model accuracy depends more on the quality of\ninformation that can be inferred from the training data, than on the amount of\ndata available.",
-            "link": "http://arxiv.org/pdf/2507.19036v1"
+            "title": "DeepWKB: Learning WKB Expansions of Invariant Distributions for Stochastic Systems",
+            "year": "August 2025",
+            "date": "2025-08-13",
+            "authors": "Yao Li, Yicheng Liu, Shirou Wang",
+            "abstract": "This paper introduces a novel deep learning method, called DeepWKB, for\nestimating the invariant distribution of randomly perturbed systems via its\nWentzel-Kramers-Brillouin (WKB) approximation \\(u_\\epsilon(x) = Q(\\epsilon)^{-1}\nZ_\\epsilon(x) \\exp\\{-V(x)/\\epsilon\\}\\), where \\(V\\) is known as the\nquasi-potential, \\(\\epsilon\\) denotes the noise strength, and \\(Q(\\epsilon)\\) is\nthe normalization factor. By utilizing both Monte Carlo data and the partial\ndifferential equations satisfied by \\(V\\) and \\(Z_\\epsilon\\), the DeepWKB method\ncomputes \\(V\\) and \\(Z_\\epsilon\\) separately. This enables an approximation of the\ninvariant distribution in the singular regime where \\(\\epsilon\\) is sufficiently\nsmall, which remains a significant challenge for most existing methods.\nMoreover, the DeepWKB method is applicable to higher-dimensional stochastic\nsystems whose deterministic counterparts admit non-trivial attractors. In\nparticular, it provides a scalable and flexible alternative for computing the\nquasi-potential, which plays a key role in the analysis of rare events,\nmetastability, and the stochastic stability of complex systems.",
+            "link": "http://arxiv.org/pdf/2508.09529v1"
         }
     ],
     "last_year": [
