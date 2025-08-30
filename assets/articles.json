@@ -9,14 +9,6 @@
             "link": "http://arxiv.org/pdf/2508.01101v1"
         },
         {
-            "title": "Synchronization of mean-field models on the circle",
-            "year": "July 2025",
-            "date": "2025-07-30",
-            "authors": "Yury Polyanskiy, Philippe Rigollet, Andrew Yao",
-            "abstract": "This paper considers a mean-field model of \\(n\\) interacting particles whose\nstate space is the unit circle, a generalization of the classical Kuramoto\nmodel. Global synchronization is said to occur if after starting from almost\nany initial state, all particles coalesce to a common point on the circle. We\npropose a general synchronization criterion in terms of \\(L_1\\)-norm of the third\nderivative of the particle interaction function. As an application we resolve a\nconjecture for the so-called self-attention dynamics (stylized model of\ntransformers), by showing synchronization for all \\(\\beta \\ge -0.16\\), which\nsignificantly extends the previous bound of \\(0\\le \\beta \\le 1\\) from\nCriscitiello, Rebjock, McRae, and Boumal (2024). We also show that global\nsynchronization does not occur when \\(\\beta < -2/3\\).",
-            "link": "http://arxiv.org/pdf/2507.22857v1"
-        },
-        {
             "title": "An Analysis of the Riemann Problem for a \\(2 \\times 2\\) System of Keyfitz-Kranzer Type Balance Laws With a Time-Dependent Source Term",
             "year": "August 2025",
             "date": "2025-08-14",
@@ -39,6 +31,14 @@
             "authors": "Yao Li, Yicheng Liu, Shirou Wang",
             "abstract": "This paper introduces a novel deep learning method, called DeepWKB, for\nestimating the invariant distribution of randomly perturbed systems via its\nWentzel-Kramers-Brillouin (WKB) approximation \\(u_\\epsilon(x) = Q(\\epsilon)^{-1}\nZ_\\epsilon(x) \\exp\\{-V(x)/\\epsilon\\}\\), where \\(V\\) is known as the\nquasi-potential, \\(\\epsilon\\) denotes the noise strength, and \\(Q(\\epsilon)\\) is\nthe normalization factor. By utilizing both Monte Carlo data and the partial\ndifferential equations satisfied by \\(V\\) and \\(Z_\\epsilon\\), the DeepWKB method\ncomputes \\(V\\) and \\(Z_\\epsilon\\) separately. This enables an approximation of the\ninvariant distribution in the singular regime where \\(\\epsilon\\) is sufficiently\nsmall, which remains a significant challenge for most existing methods.\nMoreover, the DeepWKB method is applicable to higher-dimensional stochastic\nsystems whose deterministic counterparts admit non-trivial attractors. In\nparticular, it provides a scalable and flexible alternative for computing the\nquasi-potential, which plays a key role in the analysis of rare events,\nmetastability, and the stochastic stability of complex systems.",
             "link": "http://arxiv.org/pdf/2508.09529v1"
+        },
+        {
+            "title": "Multitask Learning with Stochastic Interpolants",
+            "year": "August 2025",
+            "date": "2025-08-06",
+            "authors": "Hugo Negrel, Florentin Coeurdoux, Michael S. Albergo, Eric Vanden-Eijnden",
+            "abstract": "We propose a framework for learning maps between probability distributions\nthat broadly generalizes the time dynamics of flow and diffusion models. To\nenable this, we generalize stochastic interpolants by replacing the scalar time\nvariable with vectors, matrices, or linear operators, allowing us to bridge\nprobability distributions across multiple dimensional spaces. This approach\nenables the construction of versatile generative models capable of fulfilling\nmultiple tasks without task-specific training. Our operator-based interpolants\nnot only provide a unifying theoretical perspective for existing generative\nmodels but also extend their capabilities. Through numerical experiments, we\ndemonstrate the zero-shot efficacy of our method on conditional generation and\ninpainting, fine-tuning and posterior sampling, and multiscale modeling,\nsuggesting its potential as a generic task-agnostic alternative to specialized\nmodels.",
+            "link": "http://arxiv.org/pdf/2508.04605v2"
         }
     ],
     "last_year": [
