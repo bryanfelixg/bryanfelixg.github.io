@@ -1,14 +1,6 @@
 {
     "last_month": [
         {
-            "title": "Flow Matching for Probabilistic Learning of Dynamical Systems from Missing or Noisy Data",
-            "year": "August 2025",
-            "date": "2025-08-01",
-            "authors": "Siddharth Rout, Eldad Haber, Stephane Gaudreault",
-            "abstract": "Learning dynamical systems is crucial across many fields, yet applying\nmachine learning techniques remains challenging due to missing variables and\nnoisy data. Classical mathematical models often struggle in these scenarios due\nto the arose ill-posedness of the physical systems. Stochastic machine learning\ntechniques address this challenge by enabling the modeling of such ill-posed\nproblems. Thus, a single known input to the trained machine learning model may\nyield multiple plausible outputs, and all of the outputs are correct. In such\nscenarios, probabilistic forecasting is inherently meaningful. In this study,\nwe introduce a variant of flow matching for probabilistic forecasting which\nestimates possible future states as a distribution over possible outcomes\nrather than a single-point prediction. Perturbation of complex dynamical states\nis not trivial. Community uses typical Gaussian or uniform perturbations to\ncrucial variables to model uncertainty. However, not all variables behave in a\nGaussian fashion. So, we also propose a generative machine learning approach to\nphysically and logically perturb the states of complex high-dimensional\ndynamical systems. Finally, we establish the mathematical foundations of our\nmethod and demonstrate its effectiveness on several challenging dynamical\nsystems, including a variant of the high-dimensional WeatherBench dataset,\nwhich models the global weather at a 5.625{\\deg} meridional resolution.",
-            "link": "http://arxiv.org/pdf/2508.01101v1"
-        },
-        {
             "title": "An Analysis of the Riemann Problem for a \\(2 \\times 2\\) System of Keyfitz-Kranzer Type Balance Laws With a Time-Dependent Source Term",
             "year": "August 2025",
             "date": "2025-08-14",
@@ -39,6 +31,14 @@
             "authors": "Hugo Negrel, Florentin Coeurdoux, Michael S. Albergo, Eric Vanden-Eijnden",
             "abstract": "We propose a framework for learning maps between probability distributions\nthat broadly generalizes the time dynamics of flow and diffusion models. To\nenable this, we generalize stochastic interpolants by replacing the scalar time\nvariable with vectors, matrices, or linear operators, allowing us to bridge\nprobability distributions across multiple dimensional spaces. This approach\nenables the construction of versatile generative models capable of fulfilling\nmultiple tasks without task-specific training. Our operator-based interpolants\nnot only provide a unifying theoretical perspective for existing generative\nmodels but also extend their capabilities. Through numerical experiments, we\ndemonstrate the zero-shot efficacy of our method on conditional generation and\ninpainting, fine-tuning and posterior sampling, and multiscale modeling,\nsuggesting its potential as a generic task-agnostic alternative to specialized\nmodels.",
             "link": "http://arxiv.org/pdf/2508.04605v2"
+        },
+        {
+            "title": "When and how can inexact generative models still sample from the data manifold?",
+            "year": "August 2025",
+            "date": "2025-08-11",
+            "authors": "Nisha Chandramoorthy, Adriaan de Clercq",
+            "abstract": "A curious phenomenon observed in some dynamical generative models is the\nfollowing: despite learning errors in the score function or the drift vector\nfield, the generated samples appear to shift \\emph{along} the support of the\ndata distribution but not \\emph{away} from it. In this work, we investigate\nthis phenomenon of \\emph{robustness of the support} by taking a dynamical\nsystems approach on the generating stochastic/deterministic process. Our\nperturbation analysis of the probability flow reveals that infinitesimal\nlearning errors cause the predicted density to be different from the target\ndensity only on the data manifold for a wide class of generative models.\nFurther, what is the dynamical mechanism that leads to the robustness of the\nsupport? We show that the alignment of the top Lyapunov vectors (most sensitive\ninfinitesimal perturbation directions) with the tangent spaces along the\nboundary of the data manifold leads to robustness and prove a sufficient\ncondition on the dynamics of the generating process to achieve this alignment.\nMoreover, the alignment condition is efficient to compute and, in practice, for\nrobust generative models, automatically leads to accurate estimates of the\ntangent bundle of the data manifold. Using a finite-time linear perturbation\nanalysis on samples paths as well as probability flows, our work complements\nand extends existing works on obtaining theoretical guarantees for generative\nmodels from a stochastic analysis, statistical learning and uncertainty\nquantification points of view. Our results apply across different dynamical\ngenerative models, such as conditional flow-matching and score-based generative\nmodels, and for different target distributions that may or may not satisfy the\nmanifold hypothesis.",
+            "link": "http://arxiv.org/pdf/2508.07581v1"
         }
     ],
     "last_year": [
