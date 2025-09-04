@@ -30,7 +30,7 @@
             "date": "2025-08-06",
             "authors": "Hugo Negrel, Florentin Coeurdoux, Michael S. Albergo, Eric Vanden-Eijnden",
             "abstract": "We propose a framework for learning maps between probability distributions\nthat broadly generalizes the time dynamics of flow and diffusion models. To\nenable this, we generalize stochastic interpolants by replacing the scalar time\nvariable with vectors, matrices, or linear operators, allowing us to bridge\nprobability distributions across multiple dimensional spaces. This approach\nenables the construction of versatile generative models capable of fulfilling\nmultiple tasks without task-specific training. Our operator-based interpolants\nnot only provide a unifying theoretical perspective for existing generative\nmodels but also extend their capabilities. Through numerical experiments, we\ndemonstrate the zero-shot efficacy of our method on conditional generation and\ninpainting, fine-tuning and posterior sampling, and multiscale modeling,\nsuggesting its potential as a generic task-agnostic alternative to specialized\nmodels.",
-            "link": "http://arxiv.org/pdf/2508.04605v2"
+            "link": "http://arxiv.org/pdf/2508.04605v3"
         },
         {
             "title": "When and how can inexact generative models still sample from the data manifold?",
