@@ -25,20 +25,20 @@
             "link": "http://arxiv.org/pdf/2508.09529v1"
         },
         {
-            "title": "Multitask Learning with Stochastic Interpolants",
-            "year": "August 2025",
-            "date": "2025-08-06",
-            "authors": "Hugo Negrel, Florentin Coeurdoux, Michael S. Albergo, Eric Vanden-Eijnden",
-            "abstract": "We propose a framework for learning maps between probability distributions\nthat broadly generalizes the time dynamics of flow and diffusion models. To\nenable this, we generalize stochastic interpolants by replacing the scalar time\nvariable with vectors, matrices, or linear operators, allowing us to bridge\nprobability distributions across multiple dimensional spaces. This approach\nenables the construction of versatile generative models capable of fulfilling\nmultiple tasks without task-specific training. Our operator-based interpolants\nnot only provide a unifying theoretical perspective for existing generative\nmodels but also extend their capabilities. Through numerical experiments, we\ndemonstrate the zero-shot efficacy of our method on conditional generation and\ninpainting, fine-tuning and posterior sampling, and multiscale modeling,\nsuggesting its potential as a generic task-agnostic alternative to specialized\nmodels.",
-            "link": "http://arxiv.org/pdf/2508.04605v3"
-        },
-        {
             "title": "When and how can inexact generative models still sample from the data manifold?",
             "year": "August 2025",
             "date": "2025-08-11",
             "authors": "Nisha Chandramoorthy, Adriaan de Clercq",
             "abstract": "A curious phenomenon observed in some dynamical generative models is the\nfollowing: despite learning errors in the score function or the drift vector\nfield, the generated samples appear to shift \\emph{along} the support of the\ndata distribution but not \\emph{away} from it. In this work, we investigate\nthis phenomenon of \\emph{robustness of the support} by taking a dynamical\nsystems approach on the generating stochastic/deterministic process. Our\nperturbation analysis of the probability flow reveals that infinitesimal\nlearning errors cause the predicted density to be different from the target\ndensity only on the data manifold for a wide class of generative models.\nFurther, what is the dynamical mechanism that leads to the robustness of the\nsupport? We show that the alignment of the top Lyapunov vectors (most sensitive\ninfinitesimal perturbation directions) with the tangent spaces along the\nboundary of the data manifold leads to robustness and prove a sufficient\ncondition on the dynamics of the generating process to achieve this alignment.\nMoreover, the alignment condition is efficient to compute and, in practice, for\nrobust generative models, automatically leads to accurate estimates of the\ntangent bundle of the data manifold. Using a finite-time linear perturbation\nanalysis on samples paths as well as probability flows, our work complements\nand extends existing works on obtaining theoretical guarantees for generative\nmodels from a stochastic analysis, statistical learning and uncertainty\nquantification points of view. Our results apply across different dynamical\ngenerative models, such as conditional flow-matching and score-based generative\nmodels, and for different target distributions that may or may not satisfy the\nmanifold hypothesis.",
             "link": "http://arxiv.org/pdf/2508.07581v1"
+        },
+        {
+            "title": "Time-Scale Coupling Between States and Parameters in Recurrent Neural Networks",
+            "year": "August 2025",
+            "date": "2025-08-16",
+            "authors": "Lorenzo Livi",
+            "abstract": "We study how gating mechanisms in recurrent neural networks (RNNs) implicitly\ninduce adaptive learning-rate behavior, even when training is carried out with\na fixed, global learning rate. This effect arises from the coupling between\nstate-space time scales--parametrized by the gates--and parameter-space\ndynamics during gradient descent. By deriving exact Jacobians for\nleaky-integrator and gated RNNs, we obtain a first-order expansion that makes\nexplicit how constant, scalar, and multi-dimensional gates reshape gradient\npropagation, modulate effective step sizes, and introduce anisotropy in\nparameter updates. These findings reveal that gates not only control\ninformation flow, but also act as data-driven preconditioners that adapt\noptimization trajectories in parameter space. We further draw formal analogies\nwith learning-rate schedules, momentum, and adaptive methods such as Adam.\nEmpirical simulations corroborate these claims: in several sequence tasks, we\nshow that gates induce lag-dependent effective learning rates and directional\nconcentration of gradient flow, with multi-gate models matching or exceeding\nthe anisotropic structure produced by Adam. These results highlight that\noptimizer-driven and gate-driven adaptivity are complementary but not\nequivalent mechanisms. Overall, this work provides a unified dynamical systems\nperspective on how gating couples state evolution with parameter updates,\nexplaining why gated architectures achieve robust trainability and stability in\npractice.",
+            "link": "http://arxiv.org/pdf/2508.12121v3"
         }
     ],
     "last_year": [
@@ -59,20 +59,20 @@
             "link": "http://arxiv.org/pdf/2508.01101v1"
         },
         {
-            "title": "ADAM-SINDy: An Efficient Optimization Framework for Parameterized Nonlinear Dynamical System Identification",
-            "year": "October 2024",
-            "date": "2024-10-21",
-            "authors": "Siva Viknesh, Younes Tatari, Chase Christenson, Amirhossein Arzani",
-            "abstract": "Identifying dynamical systems characterized by nonlinear parameters presents\nsignificant challenges in deriving mathematical models that enhance\nunderstanding of physics. Traditional methods, such as Sparse Identification of\nNonlinear Dynamics (SINDy) and symbolic regression, can extract governing\nequations from observational data; however, they also come with distinct\nadvantages and disadvantages. This paper introduces a novel method within the\nSINDy framework, termed ADAM-SINDy, which synthesizes the strengths of\nestablished approaches by employing the ADAM optimization algorithm. This\nfacilitates the simultaneous optimization of nonlinear parameters and\ncoefficients associated with nonlinear candidate functions, enabling precise\nparameter estimation without requiring prior knowledge of nonlinear\ncharacteristics such as trigonometric frequencies, exponential bandwidths, or\npolynomial exponents, thereby addressing a key limitation of SINDy. Through an\nintegrated global optimization, ADAM-SINDy dynamically adjusts all unknown\nvariables in response to data, resulting in an adaptive identification\nprocedure that reduces the sensitivity to the library of candidate functions.\nThe performance of the ADAM-SINDy methodology is demonstrated across a spectrum\nof dynamical systems, including benchmark coupled nonlinear ordinary\ndifferential equations such as oscillators, chaotic fluid flows, reaction\nkinetics, pharmacokinetics, as well as nonlinear partial differential equations\n(wildfire transport). The results demonstrate significant improvements in\nidentifying parameterized dynamical systems and underscore the importance of\nconcurrently optimizing all parameters, particularly those characterized by\nnonlinear parameters. These findings highlight the potential of ADAM-SINDy to\nextend the applicability of the SINDy framework in addressing more complex\nchallenges in dynamical system identification.",
-            "link": "http://arxiv.org/pdf/2410.16528v3"
-        },
-        {
             "title": "Generalization of the Painlevé Property and Existence and Uniqueness in Fractional Differential Equations",
             "year": "November 2024",
             "date": "2024-11-28",
             "authors": "Michał Fiedorowicz",
             "abstract": "In this paper, the Painlev\\'e property to fractional differential equations\n(FDEs) are extended and the existence and uniqueness theorems for both linear\nand nonlinear FDEs are established. The results contribute to the research of\nintegrability and solvability in the context of fractional calculus, which has\nsignificant implications in various fields such as physics, engineering, and\napplied sciences. By bridging the gap between pure mathematical theory and\npractical applications, this work provides a foundational understanding that\ncan be utilized in modeling phenomena exhibiting memory and hereditary\nproperties.",
             "link": "http://arxiv.org/pdf/2411.19411v1"
+        },
+        {
+            "title": "ADAM-SINDy: An Efficient Optimization Framework for Parameterized Nonlinear Dynamical System Identification",
+            "year": "October 2024",
+            "date": "2024-10-21",
+            "authors": "Siva Viknesh, Younes Tatari, Chase Christenson, Amirhossein Arzani",
+            "abstract": "Identifying dynamical systems characterized by nonlinear parameters presents\nsignificant challenges in deriving mathematical models that enhance\nunderstanding of physics. Traditional methods, such as Sparse Identification of\nNonlinear Dynamics (SINDy) and symbolic regression, can extract governing\nequations from observational data; however, they also come with distinct\nadvantages and disadvantages. This paper introduces a novel method within the\nSINDy framework, termed ADAM-SINDy, which synthesizes the strengths of\nestablished approaches by employing the ADAM optimization algorithm. This\nfacilitates the simultaneous optimization of nonlinear parameters and\ncoefficients associated with nonlinear candidate functions, enabling precise\nparameter estimation without requiring prior knowledge of nonlinear\ncharacteristics such as trigonometric frequencies, exponential bandwidths, or\npolynomial exponents, thereby addressing a key limitation of SINDy. Through an\nintegrated global optimization, ADAM-SINDy dynamically adjusts all unknown\nvariables in response to data, resulting in an adaptive identification\nprocedure that reduces the sensitivity to the library of candidate functions.\nThe performance of the ADAM-SINDy methodology is demonstrated across a spectrum\nof dynamical systems, including benchmark coupled nonlinear ordinary\ndifferential equations such as oscillators, chaotic fluid flows, reaction\nkinetics, pharmacokinetics, as well as nonlinear partial differential equations\n(wildfire transport). The results demonstrate significant improvements in\nidentifying parameterized dynamical systems and underscore the importance of\nconcurrently optimizing all parameters, particularly those characterized by\nnonlinear parameters. These findings highlight the potential of ADAM-SINDy to\nextend the applicability of the SINDy framework in addressing more complex\nchallenges in dynamical system identification.",
+            "link": "http://arxiv.org/pdf/2410.16528v3"
         },
         {
             "title": "ParallelFlow: Parallelizing Linear Transformers via Flow Discretization",
