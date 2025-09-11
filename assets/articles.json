@@ -25,20 +25,20 @@
             "link": "http://arxiv.org/pdf/2508.09529v1"
         },
         {
-            "title": "When and how can inexact generative models still sample from the data manifold?",
-            "year": "August 2025",
-            "date": "2025-08-11",
-            "authors": "Nisha Chandramoorthy, Adriaan de Clercq",
-            "abstract": "A curious phenomenon observed in some dynamical generative models is the\nfollowing: despite learning errors in the score function or the drift vector\nfield, the generated samples appear to shift \\emph{along} the support of the\ndata distribution but not \\emph{away} from it. In this work, we investigate\nthis phenomenon of \\emph{robustness of the support} by taking a dynamical\nsystems approach on the generating stochastic/deterministic process. Our\nperturbation analysis of the probability flow reveals that infinitesimal\nlearning errors cause the predicted density to be different from the target\ndensity only on the data manifold for a wide class of generative models.\nFurther, what is the dynamical mechanism that leads to the robustness of the\nsupport? We show that the alignment of the top Lyapunov vectors (most sensitive\ninfinitesimal perturbation directions) with the tangent spaces along the\nboundary of the data manifold leads to robustness and prove a sufficient\ncondition on the dynamics of the generating process to achieve this alignment.\nMoreover, the alignment condition is efficient to compute and, in practice, for\nrobust generative models, automatically leads to accurate estimates of the\ntangent bundle of the data manifold. Using a finite-time linear perturbation\nanalysis on samples paths as well as probability flows, our work complements\nand extends existing works on obtaining theoretical guarantees for generative\nmodels from a stochastic analysis, statistical learning and uncertainty\nquantification points of view. Our results apply across different dynamical\ngenerative models, such as conditional flow-matching and score-based generative\nmodels, and for different target distributions that may or may not satisfy the\nmanifold hypothesis.",
-            "link": "http://arxiv.org/pdf/2508.07581v1"
-        },
-        {
             "title": "Time-Scale Coupling Between States and Parameters in Recurrent Neural Networks",
             "year": "August 2025",
             "date": "2025-08-16",
             "authors": "Lorenzo Livi",
             "abstract": "We study how gating mechanisms in recurrent neural networks (RNNs) implicitly\ninduce adaptive learning-rate behavior, even when training is carried out with\na fixed, global learning rate. This effect arises from the coupling between\nstate-space time scales--parametrized by the gates--and parameter-space\ndynamics during gradient descent. By deriving exact Jacobians for\nleaky-integrator and gated RNNs, we obtain a first-order expansion that makes\nexplicit how constant, scalar, and multi-dimensional gates reshape gradient\npropagation, modulate effective step sizes, and introduce anisotropy in\nparameter updates. These findings reveal that gates not only control\ninformation flow, but also act as data-driven preconditioners that adapt\noptimization trajectories in parameter space. We further draw formal analogies\nwith learning-rate schedules, momentum, and adaptive methods such as Adam.\nEmpirical simulations corroborate these claims: in several sequence tasks, we\nshow that gates induce lag-dependent effective learning rates and directional\nconcentration of gradient flow, with multi-gate models matching or exceeding\nthe anisotropic structure produced by Adam. These results highlight that\noptimizer-driven and gate-driven adaptivity are complementary but not\nequivalent mechanisms. Overall, this work provides a unified dynamical systems\nperspective on how gating couples state evolution with parameter updates,\nexplaining why gated architectures achieve robust trainability and stability in\npractice.",
             "link": "http://arxiv.org/pdf/2508.12121v3"
+        },
+        {
+            "title": "Inertia perturbation theory for the inertial Kuramoto model",
+            "year": "August 2025",
+            "date": "2025-08-15",
+            "authors": "Hangjun Cho, Jiu-Gang Dong, Seung-Yeal Ha, Seung-Yeon Ryoo",
+            "abstract": "In this work, we study the inertial Kuramoto model, which is a second-order\nextension of the classical first-order Kuramoto model, as an inertial\nperturbation of the first-order Kuramoto model. We develop a quantitative\nTikhonov theorem, from which we derive a new synchronization statement in the\nsmall inertia regime, with strong bounds on the limiting order parameter. We\nalso explore the determinability of phase velocities from phase positions,\nwhich shows that the perturbation viewpoint must be limited to the small\ninertia regime. This paper complements our recent work (2025), where we\nestablished asymptotic phase-locking of inertial Kuramoto oscillators under\ngeneric initial conditions in the low inertia-high coupling regime.",
+            "link": "http://arxiv.org/pdf/2508.11241v1"
         }
     ],
     "last_year": [
