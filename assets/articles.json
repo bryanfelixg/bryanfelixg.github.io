@@ -17,14 +17,6 @@
             "link": "http://arxiv.org/pdf/2508.10347v2"
         },
         {
-            "title": "DeepWKB: Learning WKB Expansions of Invariant Distributions for Stochastic Systems",
-            "year": "August 2025",
-            "date": "2025-08-13",
-            "authors": "Yao Li, Yicheng Liu, Shirou Wang",
-            "abstract": "This paper introduces a novel deep learning method, called DeepWKB, for\nestimating the invariant distribution of randomly perturbed systems via its\nWentzel-Kramers-Brillouin (WKB) approximation \\(u_\\epsilon(x) = Q(\\epsilon)^{-1}\nZ_\\epsilon(x) \\exp\\{-V(x)/\\epsilon\\}\\), where \\(V\\) is known as the\nquasi-potential, \\(\\epsilon\\) denotes the noise strength, and \\(Q(\\epsilon)\\) is\nthe normalization factor. By utilizing both Monte Carlo data and the partial\ndifferential equations satisfied by \\(V\\) and \\(Z_\\epsilon\\), the DeepWKB method\ncomputes \\(V\\) and \\(Z_\\epsilon\\) separately. This enables an approximation of the\ninvariant distribution in the singular regime where \\(\\epsilon\\) is sufficiently\nsmall, which remains a significant challenge for most existing methods.\nMoreover, the DeepWKB method is applicable to higher-dimensional stochastic\nsystems whose deterministic counterparts admit non-trivial attractors. In\nparticular, it provides a scalable and flexible alternative for computing the\nquasi-potential, which plays a key role in the analysis of rare events,\nmetastability, and the stochastic stability of complex systems.",
-            "link": "http://arxiv.org/pdf/2508.09529v1"
-        },
-        {
             "title": "Time-Scale Coupling Between States and Parameters in Recurrent Neural Networks",
             "year": "August 2025",
             "date": "2025-08-16",
@@ -39,6 +31,14 @@
             "authors": "Hangjun Cho, Jiu-Gang Dong, Seung-Yeal Ha, Seung-Yeon Ryoo",
             "abstract": "In this work, we study the inertial Kuramoto model, which is a second-order\nextension of the classical first-order Kuramoto model, as an inertial\nperturbation of the first-order Kuramoto model. We develop a quantitative\nTikhonov theorem, from which we derive a new synchronization statement in the\nsmall inertia regime, with strong bounds on the limiting order parameter. We\nalso explore the determinability of phase velocities from phase positions,\nwhich shows that the perturbation viewpoint must be limited to the small\ninertia regime. This paper complements our recent work (2025), where we\nestablished asymptotic phase-locking of inertial Kuramoto oscillators under\ngeneric initial conditions in the low inertia-high coupling regime.",
             "link": "http://arxiv.org/pdf/2508.11241v1"
+        },
+        {
+            "title": "Deficiency of equation-finding approach to data-driven modeling of dynamical systems",
+            "year": "September 2025",
+            "date": "2025-09-03",
+            "authors": "Zheng-Meng Zhai, Valerio Lucarini, Ying-Cheng Lai",
+            "abstract": "Finding the governing equations from data by sparse optimization has become a\npopular approach to deterministic modeling of dynamical systems. Considering\nthe physical situations where the data can be imperfect due to disturbances and\nmeasurement errors, we show that for many chaotic systems, widely used\nsparse-optimization methods for discovering governing equations produce models\nthat depend sensitively on the measurement procedure, yet all such models\ngenerate virtually identical chaotic attractors, leading to a striking\nlimitation that challenges the conventional notion of equation-based modeling\nin complex dynamical systems. Calculating the Koopman spectra, we find that the\ndifferent sets of equations agree in their large eigenvalues and the\ndifferences begin to appear when the eigenvalues are smaller than an\nequation-dependent threshold. The results suggest that finding the governing\nequations of the system and attempting to interpret them physically may lead to\nmisleading conclusions. It would be more useful to work directly with the\navailable data using, e.g., machine-learning methods.",
+            "link": "http://arxiv.org/pdf/2509.03769v1"
         }
     ],
     "last_year": [
