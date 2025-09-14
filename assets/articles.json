@@ -9,14 +9,6 @@
             "link": "http://arxiv.org/pdf/2508.12183v2"
         },
         {
-            "title": "An Analysis of the Riemann Problem for a \\(2 \\times 2\\) System of Keyfitz-Kranzer Type Balance Laws With a Time-Dependent Source Term",
-            "year": "August 2025",
-            "date": "2025-08-14",
-            "authors": "Josh Culver, Aubrey Ayres, Evan Halloran, Ryan Lin, Emily Peng, Charis Tsikkou",
-            "abstract": "We consider a system consisting of one conservation law and one balance law\nwith a time-dependent source term, and provide a comprehensive analysis of\nRiemann solutions, including the non-classical overcompressive delta shocks.\nThe minimal yet representative structure of the system captures essential\nfeatures of transport under density constraints and, despite its simplicity,\nserves as a versatile prototype for crowd-limited transport processes across\ndiverse contexts, including biological aggregation, ecological dispersal,\ngranular compaction, and traffic congestion. In addition to non-self-similar\nsolutions mentioned above, the associated Riemann problem admits solution\nstructures that traverse vacuum states (\\(\\rho = 0\\)) and the critical density\nthreshold (\\(\\rho = \\bar{\\rho}\\)), where mobility vanishes and characteristic\nspeed degenerates. Moreover, the explicit time dependence in the source term\nleads to the breakdown of self-similarity, resulting in distinct Riemann\nsolutions over successive time intervals and highlighting the dynamic nature of\nthe solution landscape. The theoretical findings are numerically confirmed\nusing the Local Lax-Friedrichs scheme.",
-            "link": "http://arxiv.org/pdf/2508.10347v2"
-        },
-        {
             "title": "Time-Scale Coupling Between States and Parameters in Recurrent Neural Networks",
             "year": "August 2025",
             "date": "2025-08-16",
@@ -39,6 +31,14 @@
             "authors": "Zheng-Meng Zhai, Valerio Lucarini, Ying-Cheng Lai",
             "abstract": "Finding the governing equations from data by sparse optimization has become a\npopular approach to deterministic modeling of dynamical systems. Considering\nthe physical situations where the data can be imperfect due to disturbances and\nmeasurement errors, we show that for many chaotic systems, widely used\nsparse-optimization methods for discovering governing equations produce models\nthat depend sensitively on the measurement procedure, yet all such models\ngenerate virtually identical chaotic attractors, leading to a striking\nlimitation that challenges the conventional notion of equation-based modeling\nin complex dynamical systems. Calculating the Koopman spectra, we find that the\ndifferent sets of equations agree in their large eigenvalues and the\ndifferences begin to appear when the eigenvalues are smaller than an\nequation-dependent threshold. The results suggest that finding the governing\nequations of the system and attempting to interpret them physically may lead to\nmisleading conclusions. It would be more useful to work directly with the\navailable data using, e.g., machine-learning methods.",
             "link": "http://arxiv.org/pdf/2509.03769v1"
+        },
+        {
+            "title": "On the Spectrum of Schrödinger Operators Interacting at Two Distinct Scales",
+            "year": "August 2025",
+            "date": "2025-08-28",
+            "authors": "Emmanuel Fleurantin, Jeremy L. Marzuola, Christopher K. R. T. Jones",
+            "abstract": "Schr\\\"{o}dinger operators of the form \\(\\Delta - W\\) on\n\\(L^2_{\\text{rad}}(\\mathbb{R}^3)\\), the space of radially symmetric square\nintegrable functions are relevant in a variety of physical contexts. The\npotential \\(W\\) is taken to be radially symmetric (i.e. \\(W(x) = W(|x|)\\)) and to\ndecompose into two components with distinct spatial scales: \\(W=W_\\varepsilon=\nV_0+V_{1,\\varepsilon}\\). The second component \\(V_{1,\\varepsilon}(|x|) =\n\\varepsilon^2V_1(\\varepsilon |x|)\\) represents a scaled potential that becomes\nincreasingly delocalized as \\(\\varepsilon \\to 0\\). We will assume that both\npotentials \\(V_0(r), V_1(r)\\) exhibit certain decay properties as \\(r \\to \\infty\\).\nWe show how the eigenvalue count on the positive real axis is built out of the\nspectra associated with the two reduced eigenvalue problems on their separate\nscales. The result is that the total number of eigenvalues of \\(\\Delta - W\\) is\nthe sum of the number of positive eigenvalues of \\(\\Delta - V_0\\) and \\(\\Delta -\nV_1\\). Our analysis combines dynamical systems techniques with a separation of\nscales argument, providing a novel framework for studying spectral properties\nof differential operators where multiple spatial scales interact.",
+            "link": "http://arxiv.org/pdf/2509.02587v1"
         }
     ],
     "last_year": [
