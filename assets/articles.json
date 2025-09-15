@@ -17,14 +17,6 @@
             "link": "http://arxiv.org/pdf/2508.12121v3"
         },
         {
-            "title": "Inertia perturbation theory for the inertial Kuramoto model",
-            "year": "August 2025",
-            "date": "2025-08-15",
-            "authors": "Hangjun Cho, Jiu-Gang Dong, Seung-Yeal Ha, Seung-Yeon Ryoo",
-            "abstract": "In this work, we study the inertial Kuramoto model, which is a second-order\nextension of the classical first-order Kuramoto model, as an inertial\nperturbation of the first-order Kuramoto model. We develop a quantitative\nTikhonov theorem, from which we derive a new synchronization statement in the\nsmall inertia regime, with strong bounds on the limiting order parameter. We\nalso explore the determinability of phase velocities from phase positions,\nwhich shows that the perturbation viewpoint must be limited to the small\ninertia regime. This paper complements our recent work (2025), where we\nestablished asymptotic phase-locking of inertial Kuramoto oscillators under\ngeneric initial conditions in the low inertia-high coupling regime.",
-            "link": "http://arxiv.org/pdf/2508.11241v1"
-        },
-        {
             "title": "Deficiency of equation-finding approach to data-driven modeling of dynamical systems",
             "year": "September 2025",
             "date": "2025-09-03",
@@ -39,6 +31,14 @@
             "authors": "Emmanuel Fleurantin, Jeremy L. Marzuola, Christopher K. R. T. Jones",
             "abstract": "Schr\\\"{o}dinger operators of the form \\(\\Delta - W\\) on\n\\(L^2_{\\text{rad}}(\\mathbb{R}^3)\\), the space of radially symmetric square\nintegrable functions are relevant in a variety of physical contexts. The\npotential \\(W\\) is taken to be radially symmetric (i.e. \\(W(x) = W(|x|)\\)) and to\ndecompose into two components with distinct spatial scales: \\(W=W_\\varepsilon=\nV_0+V_{1,\\varepsilon}\\). The second component \\(V_{1,\\varepsilon}(|x|) =\n\\varepsilon^2V_1(\\varepsilon |x|)\\) represents a scaled potential that becomes\nincreasingly delocalized as \\(\\varepsilon \\to 0\\). We will assume that both\npotentials \\(V_0(r), V_1(r)\\) exhibit certain decay properties as \\(r \\to \\infty\\).\nWe show how the eigenvalue count on the positive real axis is built out of the\nspectra associated with the two reduced eigenvalue problems on their separate\nscales. The result is that the total number of eigenvalues of \\(\\Delta - W\\) is\nthe sum of the number of positive eigenvalues of \\(\\Delta - V_0\\) and \\(\\Delta -\nV_1\\). Our analysis combines dynamical systems techniques with a separation of\nscales argument, providing a novel framework for studying spectral properties\nof differential operators where multiple spatial scales interact.",
             "link": "http://arxiv.org/pdf/2509.02587v1"
+        },
+        {
+            "title": "Exponential ergodicity of mean-field Langevin dynamics by synchronous coupling",
+            "year": "September 2025",
+            "date": "2025-09-03",
+            "authors": "Mohamed Alfaki Aboubacrine Assadek",
+            "abstract": "As an example of the nonlinear Fokker-Planck equation, the mean field\nLangevin dynamics recently attracts attention due to its connection to (noisy)\ngradient descent on infinitely wide neural networks in the mean field regime,\nand hence the convergence property of the dynamics is of great theoretical\ninterest. In this paper, In the continuity of [1, 2], we are interested by the\nlong-time behavior and uniform in time propagation of chaos by synchronous\ncoupling for mean-field Langevin dynamics (over- and under-damped).",
+            "link": "http://arxiv.org/pdf/2509.03124v1"
         }
     ],
     "last_year": [
