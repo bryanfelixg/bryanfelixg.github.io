@@ -1,22 +1,6 @@
 {
     "last_month": [
         {
-            "title": "The Mathematical Theory of Behavioural Swarms: Towards Modelling the Collective Dynamics of Living Systems",
-            "year": "August 2025",
-            "date": "2025-08-16",
-            "authors": "Rene Fabregas, Jie Liao, Nisrine Outada",
-            "abstract": "Classical swarm models, exemplified by the Cucker--Smale framework, provide\nfoundational insights into collective alignment but exhibit fundamental\nlimitations in capturing the adaptive, heterogeneous behaviours intrinsic to\nliving systems. This paper formalises the mathematical theory of\n\\textit{Behavioural Swarms}, a comprehensive framework where each particle's\nstate incorporates a dynamic internal variable, the \\textit{activity} that\nco-evolves with position and velocity through nonlocal interactions. We\ndemonstrate how this approach transcends prior models by integrating adaptive\ndecision-making mechanisms and heterogeneous behavioural states into rigorous\ndifferential systems. Through applications in behavioural economics and crowd\ndynamics, we establish the theory's capacity to predict emergent macroscopic\npatterns from individual behavioural states. Our critical analysis positions\nthis framework against kinetic theories of active particles and agent-based\napproaches, revealing distinct advantages for modelling systems where\nindividual agency drives collective outcomes.",
-            "link": "http://arxiv.org/pdf/2508.12183v2"
-        },
-        {
-            "title": "Time-Scale Coupling Between States and Parameters in Recurrent Neural Networks",
-            "year": "August 2025",
-            "date": "2025-08-16",
-            "authors": "Lorenzo Livi",
-            "abstract": "We study how gating mechanisms in recurrent neural networks (RNNs) implicitly\ninduce adaptive learning-rate behavior, even when training is carried out with\na fixed, global learning rate. This effect arises from the coupling between\nstate-space time scales--parametrized by the gates--and parameter-space\ndynamics during gradient descent. By deriving exact Jacobians for\nleaky-integrator and gated RNNs, we obtain a first-order expansion that makes\nexplicit how constant, scalar, and multi-dimensional gates reshape gradient\npropagation, modulate effective step sizes, and introduce anisotropy in\nparameter updates. These findings reveal that gates not only control\ninformation flow, but also act as data-driven preconditioners that adapt\noptimization trajectories in parameter space. We further draw formal analogies\nwith learning-rate schedules, momentum, and adaptive methods such as Adam.\nEmpirical simulations corroborate these claims: in several sequence tasks, we\nshow that gates induce lag-dependent effective learning rates and directional\nconcentration of gradient flow, with multi-gate models matching or exceeding\nthe anisotropic structure produced by Adam. These results highlight that\noptimizer-driven and gate-driven adaptivity are complementary but not\nequivalent mechanisms. Overall, this work provides a unified dynamical systems\nperspective on how gating couples state evolution with parameter updates,\nexplaining why gated architectures achieve robust trainability and stability in\npractice.",
-            "link": "http://arxiv.org/pdf/2508.12121v3"
-        },
-        {
             "title": "Deficiency of equation-finding approach to data-driven modeling of dynamical systems",
             "year": "September 2025",
             "date": "2025-09-03",
@@ -39,6 +23,22 @@
             "authors": "Mohamed Alfaki Aboubacrine Assadek",
             "abstract": "As an example of the nonlinear Fokker-Planck equation, the mean field\nLangevin dynamics recently attracts attention due to its connection to (noisy)\ngradient descent on infinitely wide neural networks in the mean field regime,\nand hence the convergence property of the dynamics is of great theoretical\ninterest. In this paper, In the continuity of [1, 2], we are interested by the\nlong-time behavior and uniform in time propagation of chaos by synchronous\ncoupling for mean-field Langevin dynamics (over- and under-damped).",
             "link": "http://arxiv.org/pdf/2509.03124v1"
+        },
+        {
+            "title": "Learning Spatio-Temporal Dynamics via Operator-Valued RKHS and Kernel Koopman Methods",
+            "year": "August 2025",
+            "date": "2025-08-23",
+            "authors": "Mahishanka Withanachchi",
+            "abstract": "We introduce a unified framework for learning the spatio-temporal dynamics of\nvector valued functions by combining operator valued reproducing kernel Hilbert\nspaces (OV-RKHS) with kernel based Koopman operator methods. The approach\nenables nonparametric and data driven estimation of complex time evolving\nvector fields while preserving both spatial and temporal structure. We\nestablish representer theorems for time dependent OV-RKHS interpolation, derive\nSobolev type approximation bounds for smooth vector fields, and provide\nspectral convergence guarantees for kernel Koopman operator approximations.\nThis framework supports efficient reduced order modeling and long term\nprediction of high dimensional nonlinear systems, offering theoretically\ngrounded tools for forecasting, control, and uncertainty quantification in\nspatio-temporal machine learning.",
+            "link": "http://arxiv.org/pdf/2508.18307v1"
+        },
+        {
+            "title": "Divergence-Kernel method for linear responses and diffusion models",
+            "year": "September 2025",
+            "date": "2025-09-04",
+            "authors": "Angxiu Ni",
+            "abstract": "We derive the divergence-kernel formula for the linear response\n(parameter-derivative of marginal or stationary distributions) of random\ndynamical systems, and formally pass to the continuous-time limit. Our formula\nworks for multiplicative and parameterized noise over any period of time; it\ndoes not require hyperbolicity. Then we derive a pathwise Monte-Carlo algorithm\nfor linear responses. With this, we propose a forward-only diffusion generative\nmodel and test on simple problems.",
+            "link": "http://arxiv.org/pdf/2509.03992v1"
         }
     ],
     "last_year": [
