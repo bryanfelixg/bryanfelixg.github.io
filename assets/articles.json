@@ -1,6 +1,14 @@
 {
     "last_month": [
         {
+            "title": "Mathematical Framework for Epidemic Dynamics: Optimal Control and Global Sensitivity Analysis",
+            "year": "September 2025",
+            "date": "2025-09-29",
+            "authors": "Liban Ismail, Yahyeh Souleiman, Saraless Nadarajah, Abdisalam Hassan",
+            "abstract": "This study develops and analyzes an extended Susceptible, Infected,\nHospitalized and Recovered (SIHR) model incorporating time dependent control\nfunctions to capture preventive measures (e.g., distancing, mask use) and\nresource limited therapeutic interventions. This formulation provides a\nrealistic mathematical framework for modeling public health responses beyond\nclassical uncontrolled epidemic models. The control design is integrated into\nthe model via an optimal control framework, solved numerically using the\nForward Backward Sweep method, enabling the exploration of intervention\nstrategies on epidemic dynamics, including infection prevalence,\nhospitalization burden, and the effective reproduction number. To assess the\nrobustness of these strategies under uncertainty, we employ Polynomial Chaos\nExpansion combined with Sobol sensitivity indices, quantifying the influence of\nkey epidemiological parameters (transmission, recovery, hospitalization rates)\non model outcomes. Numerical simulations, calibrated to Djiboutian COVID 19\ndata, show that combined preventive and therapeutic interventions substantially\nmitigate epidemic burden, though their effectiveness depends critically on\ntransmission related uncertainties. The originality of this work lies in\ncombining optimal control theory with global sensitivity analysis, thus\nbridging numerical methods, optimization, and epidemic modeling. This\nintegrated approach offers a general mathematical framework for designing and\nevaluating control strategies in infectious disease outbreaks, with\napplications to low resource settings and beyond.",
+            "link": "http://arxiv.org/pdf/2509.25291v1"
+        },
+        {
             "title": "Learning From Simulators: A Theory of Simulation-Grounded Learning",
             "year": "September 2025",
             "date": "2025-09-23",
@@ -31,14 +39,6 @@
             "authors": "Ranfei Chen, Ming Chen",
             "abstract": "Diffusion large language models (dLLMs) have emerged as a new architecture\nfollowing auto regressive models. Their denoising process offers a powerful\ngenerative advantage, but they present significant challenges in learning and\nunderstanding numerically sensitive mathematical and order-sensitive logical\ntasks. Current training methods, including pre-training, fine-tuning, and\nreinforcement learning, focus primarily on improving general knowledge\nretention and reasoning abilities, but lack a comprehensive understanding of\nmathematical and logical patterns. We propose DSFT, a simple yet effective\nDiffusion SFT strategy, by adjusting the masking strategy and loss function,\nguiding models to understand mathematical and logical patterns. This strategy\ncan be flexibly combined with pre-training, reinforcement learning, and other\ntraining methods. Validated on models such as LLaDA and Dream series, we prove\nthat DSFT on small-scale data can achieve improvements of 5-10% and\napproximately 2% on mathematical and logical problems, respectively. This\ninspiring masking approach offers insights for future learning of specific\npatterns, which can be easily and efficiently combined with other training\nmethods and applied to various dLLMs. Our code is publicly available at\nhttps://anonymous.4open.science/r/DSFT-0FFB/",
             "link": "http://arxiv.org/pdf/2509.18164v1"
-        },
-        {
-            "title": "Localmax dynamics for attention in transformers and its asymptotic behavior",
-            "year": "September 2025",
-            "date": "2025-09-19",
-            "authors": "Henri Cimetière, Maria Teresa Chiri, Bahman Gharesifard",
-            "abstract": "We introduce a new discrete-time attention model, termed the localmax\ndynamics, which interpolates between the classic softmax dynamics and the\nhardmax dynamics, where only the tokens that maximize the influence toward a\ngiven token have a positive weight. As in hardmax, uniform weights are\ndetermined by a parameter controlling neighbor influence, but the key extension\nlies in relaxing neighborhood interactions through an alignment-sensitivity\nparameter, which allows controlled deviations from pure hardmax behavior. As we\nprove, while the convex hull of the token states still converges to a convex\npolytope, its structure can no longer be fully described by a maximal alignment\nset, prompting the introduction of quiescent sets to capture the invariant\nbehavior of tokens near vertices. We show that these sets play a key role in\nunderstanding the asymptotic behavior of the system, even under time-varying\nalignment sensitivity parameters. We further show that localmax dynamics does\nnot exhibit finite-time convergence and provide results for vanishing, nonzero,\ntime-varying alignment-sensitivity parameters, recovering the limiting behavior\nof hardmax as a by-product. Finally, we adapt Lyapunov-based methods from\nclassical opinion dynamics, highlighting their limitations in the asymmetric\nsetting of localmax interactions and outlining directions for future research.",
-            "link": "http://arxiv.org/pdf/2509.15958v1"
         }
     ],
     "last_year": [
