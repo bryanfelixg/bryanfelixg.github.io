@@ -1,6 +1,170 @@
 {
-    "last_month": [],
-    "last_year": [],
-    "last_5_years": [],
-    "all_time": []
+    "last_month": [
+        {
+            "title": "Modelling road mortality risks to persistence to a Western Toad ({\\it Anaxyrus boreas}) population in British Columbia",
+            "year": "September 2025",
+            "date": "2025-09-30",
+            "authors": "Marguerite H. Mahr, Noah D. Marshall, Jessa Marley, Sarah K. Wyse, Wayne P. McCrory, Rebecca C. Tyson",
+            "abstract": "Road mortality may be a significant factor in the global decline of amphibian\npopulations, yet rigorous assessments of its effect on long-term population\npersistence are lacking.\n  Here, we investigate population persistence through a field study and\nmathematical model of a western toad ({\\textit{Anaxyrus Boreas}} {\\RR(Baird and\nGirard, 1852)}) population within a highway corridor in the Selkirk Mountains\nof British Columbia.\n  The analysis shows traffic levels strongly correlate with toad mortality,\nwith each additional vehicle causing a 3.1\\% \\(\\pm\\) 1.3\\% (\\(p=0.020\\)) increase\nin toad deaths.\n  Although the current risk of the population becoming threatened or endangered\nis low, it rises to 50\\% if baseline road mortality increases from 10\\% to\n30\\%. Gravid female mortality is higher than the baseline mortality and can\nincrease the probability of endangerment by nearly two-fold at higher baseline\nmortality levels.\n  We make the case that a small increase in vehicle traffic resulting from\nfuture development and recreational pressures\n  could destabilize this apparently healthy toad population. The high\nsensitivity to traffic levels and rapid transition from healthy to endangered\nraises concerns for similar populations worldwide. Compensatory structures such\nas amphibian underpasses (toad tunnels) should be given high priority.",
+            "link": "http://arxiv.org/pdf/2510.00340v1"
+        },
+        {
+            "title": "Mathematical Framework for Epidemic Dynamics: Optimal Control and Global Sensitivity Analysis",
+            "year": "September 2025",
+            "date": "2025-09-29",
+            "authors": "Liban Ismail, Yahyeh Souleiman, Saraless Nadarajah, Abdisalam Hassan",
+            "abstract": "This study develops and analyzes an extended Susceptible, Infected,\nHospitalized and Recovered (SIHR) model incorporating time dependent control\nfunctions to capture preventive measures (e.g., distancing, mask use) and\nresource limited therapeutic interventions. This formulation provides a\nrealistic mathematical framework for modeling public health responses beyond\nclassical uncontrolled epidemic models. The control design is integrated into\nthe model via an optimal control framework, solved numerically using the\nForward Backward Sweep method, enabling the exploration of intervention\nstrategies on epidemic dynamics, including infection prevalence,\nhospitalization burden, and the effective reproduction number. To assess the\nrobustness of these strategies under uncertainty, we employ Polynomial Chaos\nExpansion combined with Sobol sensitivity indices, quantifying the influence of\nkey epidemiological parameters (transmission, recovery, hospitalization rates)\non model outcomes. Numerical simulations, calibrated to Djiboutian COVID 19\ndata, show that combined preventive and therapeutic interventions substantially\nmitigate epidemic burden, though their effectiveness depends critically on\ntransmission related uncertainties. The originality of this work lies in\ncombining optimal control theory with global sensitivity analysis, thus\nbridging numerical methods, optimization, and epidemic modeling. This\nintegrated approach offers a general mathematical framework for designing and\nevaluating control strategies in infectious disease outbreaks, with\napplications to low resource settings and beyond.",
+            "link": "http://arxiv.org/pdf/2509.25291v1"
+        },
+        {
+            "title": "Learning From Simulators: A Theory of Simulation-Grounded Learning",
+            "year": "September 2025",
+            "date": "2025-09-23",
+            "authors": "Carson Dudley, Marisa Eisenberg",
+            "abstract": "Simulation-Grounded Neural Networks (SGNNs) are predictive models trained\nentirely on synthetic data from mechanistic simulations. They have achieved\nstate-of-the-art performance in domains where real-world labels are limited or\nunobserved, but lack a formal underpinning.\n  We place SGNNs in a unified statistical framework. Under standard loss\nfunctions, they can be interpreted as amortized Bayesian predictors trained\nunder a simulator-induced prior. Empirical risk minimization then yields\nconvergence to the Bayes-optimal predictor under the synthetic distribution. We\nemploy classical results on distribution shift to characterize how performance\ndegrades when the simulator diverges from reality. Beyond these consequences,\nwe develop SGNN-specific results: (i) conditions under which unobserved\nscientific parameters are learnable via simulation, and (ii) a\nback-to-simulation attribution method that provides mechanistic explanations of\npredictions by linking them to the simulations the model deems similar, with\nguarantees of posterior consistency.\n  We provide numerical experiments to validate theoretical predictions. SGNNs\nrecover latent parameters, remain robust under mismatch, and outperform\nclassical tools: in a model selection task, SGNNs achieve half the error of AIC\nin distinguishing mechanistic dynamics. These results establish SGNNs as a\nprincipled and practical framework for scientific prediction in data-limited\nregimes.",
+            "link": "http://arxiv.org/pdf/2509.18990v2"
+        },
+        {
+            "title": "Geometric structure of stationary problem for spatial 1D self-diffusion equation with logistic growth",
+            "year": "September 2025",
+            "date": "2025-09-29",
+            "authors": "Yu ICHIDA",
+            "abstract": "This paper considers the solution structure of non-trivial, non-constant\nstationary states of 1D spatial parabolic equations with nonlinear\nself-diffusion and logistic growth terms. A two-dimensional ordinary\ndifferential equation satisfying the stationary problem is derived and all its\ndynamics, including to infinity, is revealed by the Poincar\\'e-Lyapunov\ncompactification, one of the compactifications of phase space. The advantage of\nthis method is that it can be used to classify all dynamical systems\n(especially connecting orbits) of a two-dimensional system including infinity.\nTherefore, the classification results for the dynamical system including to\ninfinity give the classification results for the non-constant stationary states\nobtained only from the structure of the original equations. This argument\nallows us to observe a change in the classification of the non-constant\nstationary states by an explicit relation between the linear diffusion\ncoefficient and the self-diffusion coefficient, combined with arguments about\nthe symmetries and conserved quantities of the ODEs. This means that changing\nthe self-diffusion coefficient as a bifurcation parameter not only\nqualitatively changes the dynamical system from a big saddle homoclinic orbit\nof the ODEs to a heteroclinic orbit that connects the saddle equilibria, but\nalso significantly changes the shape and the properties of the stationary\nstates. It explicitly shows the relationship between linear and self-diffusion,\ngives a characterization of non-trivial stationary states in terms of dynamical\nsystems, and gives a deep insight into the influence of self-diffusion, one of\nthe nonlinear diffusions.",
+            "link": "http://arxiv.org/pdf/2509.24752v1"
+        },
+        {
+            "title": "DSFT: Inspiring Diffusion Large Language Models to Comprehend Mathematical and Logical Patterns",
+            "year": "September 2025",
+            "date": "2025-09-17",
+            "authors": "Ranfei Chen, Ming Chen",
+            "abstract": "Diffusion large language models (dLLMs) have emerged as a new architecture\nfollowing auto regressive models. Their denoising process offers a powerful\ngenerative advantage, but they present significant challenges in learning and\nunderstanding numerically sensitive mathematical and order-sensitive logical\ntasks. Current training methods, including pre-training, fine-tuning, and\nreinforcement learning, focus primarily on improving general knowledge\nretention and reasoning abilities, but lack a comprehensive understanding of\nmathematical and logical patterns. We propose DSFT, a simple yet effective\nDiffusion SFT strategy, by adjusting the masking strategy and loss function,\nguiding models to understand mathematical and logical patterns. This strategy\ncan be flexibly combined with pre-training, reinforcement learning, and other\ntraining methods. Validated on models such as LLaDA and Dream series, we prove\nthat DSFT on small-scale data can achieve improvements of 5-10% and\napproximately 2% on mathematical and logical problems, respectively. This\ninspiring masking approach offers insights for future learning of specific\npatterns, which can be easily and efficiently combined with other training\nmethods and applied to various dLLMs. Our code is publicly available at\nhttps://anonymous.4open.science/r/DSFT-0FFB/",
+            "link": "http://arxiv.org/pdf/2509.18164v1"
+        }
+    ],
+    "last_year": [
+        {
+            "title": "Predator Prey Scavenger Model using Holling's Functional Response of Type III and Physics-Informed Deep Neural Networks",
+            "year": "December 2024",
+            "date": "2024-12-24",
+            "authors": "Aneesh Panchal, Kirti Beniwal, Vivek Kumar",
+            "abstract": "Nonlinear mathematical models introduce the relation between various physical\nand biological interactions present in nature. One of the most famous models is\nthe Lotka-Volterra model which defined the interaction between predator and\nprey species present in nature. However, predators, scavengers, and prey\npopulations coexist in a natural system where scavengers can additionally rely\non the dead bodies of predators present in the system. Keeping this in mind,\nthe formulation and simulation of the predator prey scavenger model is\nintroduced in this paper. For the predation response, respective prey species\nare assumed to have Holling's functional response of type III. The proposed\nmodel is tested for various simulations and is found to be showing satisfactory\nresults in different scenarios. After simulations, the American forest dataset\nis taken for parameter estimation which imitates the real-world case. For\nparameter estimation, a physics-informed deep neural network is used with the\nAdam backpropagation method which prevents the avalanche effect in trainable\nparameters updation. For neural networks, mean square error and\nphysics-informed informed error are considered. After the neural network, the\nhence-found parameters are fine-tuned using the\nBroyden-Fletcher-Goldfarb-Shanno algorithm. Finally, the hence-found parameters\nusing a natural dataset are tested for stability using Jacobian stability\nanalysis. Future research work includes minimization of error induced by\nparameters, bifurcation analysis, and sensitivity analysis of the parameters.",
+            "link": "http://arxiv.org/pdf/2412.18344v1"
+        },
+        {
+            "title": "Flow Matching for Probabilistic Learning of Dynamical Systems from Missing or Noisy Data",
+            "year": "August 2025",
+            "date": "2025-08-01",
+            "authors": "Siddharth Rout, Eldad Haber, Stephane Gaudreault",
+            "abstract": "Learning dynamical systems is crucial across many fields, yet applying\nmachine learning techniques remains challenging due to missing variables and\nnoisy data. Classical mathematical models often struggle in these scenarios due\nto the arose ill-posedness of the physical systems. Stochastic machine learning\ntechniques address this challenge by enabling the modeling of such ill-posed\nproblems. Thus, a single known input to the trained machine learning model may\nyield multiple plausible outputs, and all of the outputs are correct. In such\nscenarios, probabilistic forecasting is inherently meaningful. In this study,\nwe introduce a variant of flow matching for probabilistic forecasting which\nestimates possible future states as a distribution over possible outcomes\nrather than a single-point prediction. Perturbation of complex dynamical states\nis not trivial. Community uses typical Gaussian or uniform perturbations to\ncrucial variables to model uncertainty. However, not all variables behave in a\nGaussian fashion. So, we also propose a generative machine learning approach to\nphysically and logically perturb the states of complex high-dimensional\ndynamical systems. Finally, we establish the mathematical foundations of our\nmethod and demonstrate its effectiveness on several challenging dynamical\nsystems, including a variant of the high-dimensional WeatherBench dataset,\nwhich models the global weather at a 5.625{\\deg} meridional resolution.",
+            "link": "http://arxiv.org/pdf/2508.01101v1"
+        },
+        {
+            "title": "Generalization of the Painlevé Property and Existence and Uniqueness in Fractional Differential Equations",
+            "year": "November 2024",
+            "date": "2024-11-28",
+            "authors": "Michał Fiedorowicz",
+            "abstract": "In this paper, the Painlev\\'e property to fractional differential equations\n(FDEs) are extended and the existence and uniqueness theorems for both linear\nand nonlinear FDEs are established. The results contribute to the research of\nintegrability and solvability in the context of fractional calculus, which has\nsignificant implications in various fields such as physics, engineering, and\napplied sciences. By bridging the gap between pure mathematical theory and\npractical applications, this work provides a foundational understanding that\ncan be utilized in modeling phenomena exhibiting memory and hereditary\nproperties.",
+            "link": "http://arxiv.org/pdf/2411.19411v1"
+        },
+        {
+            "title": "ADAM-SINDy: An Efficient Optimization Framework for Parameterized Nonlinear Dynamical System Identification",
+            "year": "October 2024",
+            "date": "2024-10-21",
+            "authors": "Siva Viknesh, Younes Tatari, Chase Christenson, Amirhossein Arzani",
+            "abstract": "Identifying dynamical systems characterized by nonlinear parameters presents\nsignificant challenges in deriving mathematical models that enhance\nunderstanding of physics. Traditional methods, such as Sparse Identification of\nNonlinear Dynamics (SINDy) and symbolic regression, can extract governing\nequations from observational data; however, they also come with distinct\nadvantages and disadvantages. This paper introduces a novel method within the\nSINDy framework, termed ADAM-SINDy, which synthesizes the strengths of\nestablished approaches by employing the ADAM optimization algorithm. This\nfacilitates the simultaneous optimization of nonlinear parameters and\ncoefficients associated with nonlinear candidate functions, enabling precise\nparameter estimation without requiring prior knowledge of nonlinear\ncharacteristics such as trigonometric frequencies, exponential bandwidths, or\npolynomial exponents, thereby addressing a key limitation of SINDy. Through an\nintegrated global optimization, ADAM-SINDy dynamically adjusts all unknown\nvariables in response to data, resulting in an adaptive identification\nprocedure that reduces the sensitivity to the library of candidate functions.\nThe performance of the ADAM-SINDy methodology is demonstrated across a spectrum\nof dynamical systems, including benchmark coupled nonlinear ordinary\ndifferential equations such as oscillators, chaotic fluid flows, reaction\nkinetics, pharmacokinetics, as well as nonlinear partial differential equations\n(wildfire transport). The results demonstrate significant improvements in\nidentifying parameterized dynamical systems and underscore the importance of\nconcurrently optimizing all parameters, particularly those characterized by\nnonlinear parameters. These findings highlight the potential of ADAM-SINDy to\nextend the applicability of the SINDy framework in addressing more complex\nchallenges in dynamical system identification.",
+            "link": "http://arxiv.org/pdf/2410.16528v3"
+        },
+        {
+            "title": "ParallelFlow: Parallelizing Linear Transformers via Flow Discretization",
+            "year": "April 2025",
+            "date": "2025-04-01",
+            "authors": "Nicola Muca Cirone, Cristopher Salvi",
+            "abstract": "We present a theoretical framework for analyzing linear attention models\nthrough matrix-valued state space models (SSMs). Our approach, Parallel Flows,\nprovides a perspective that systematically decouples temporal dynamics from\nimplementation constraints, enabling independent analysis of critical\nalgorithmic components: chunking, parallelization, and information aggregation.\nCentral to this framework is the reinterpretation of chunking procedures as\ncomputations of the flows governing system dynamics. This connection\nestablishes a bridge to mathematical tools from rough path theory, opening the\ndoor to new insights into sequence modeling architectures. As a concrete\napplication, we analyze DeltaNet in a generalized low-rank setting motivated by\nrecent theoretical advances. Our methods allow us to design simple, streamlined\ngeneralizations of hardware-efficient algorithms present in the literature, and\nto provide completely different ones, inspired by rough paths techniques, with\nprovably lower complexity. This dual contribution demonstrates how principled\ntheoretical analysis can both explain existing practical methods and inspire\nfundamentally new computational approaches.",
+            "link": "http://arxiv.org/pdf/2504.00492v1"
+        }
+    ],
+    "last_5_years": [
+        {
+            "title": "A mathematical perspective on Transformers",
+            "year": "December 2023",
+            "date": "2023-12-17",
+            "authors": "Borjan Geshkovski, Cyril Letrouit, Yury Polyanskiy, Philippe Rigollet",
+            "abstract": "Transformers play a central role in the inner workings of large language\nmodels. We develop a mathematical framework for analyzing Transformers based on\ntheir interpretation as interacting particle systems, which reveals that\nclusters emerge in long time. Our study explores the underlying theory and\noffers new perspectives for mathematicians as well as computer scientists.",
+            "link": "http://arxiv.org/pdf/2312.10794v5"
+        },
+        {
+            "title": "Coupled and Uncoupled Dynamic Mode Decomposition in Multi-Compartmental Systems with Applications to Epidemiological and Additive Manufacturing Problems",
+            "year": "October 2021",
+            "date": "2021-10-12",
+            "authors": "Alex Viguerie, Gabriel F. Barros, Malú Grave, Alessandro Reali, Alvaro L. G. A. Coutinho",
+            "abstract": "Dynamic Mode Decomposition (DMD) is an unsupervised machine learning method\nthat has attracted considerable attention in recent years owing to its\nequation-free structure, ability to easily identify coherent spatio-temporal\nstructures in data, and effectiveness in providing reasonably accurate\npredictions for certain problems. Despite these successes, the application of\nDMD to certain problems featuring highly nonlinear transient dynamics remains\nchallenging. In such cases, DMD may not only fail to provide acceptable\npredictions but may indeed fail to recreate the data in which it was trained,\nrestricting its application to diagnostic purposes. For many problems in the\nbiological and physical sciences, the structure of the system obeys a\ncompartmental framework, in which the transfer of mass within the system moves\nwithin states. In these cases, the behavior of the system may not be accurately\nrecreated by applying DMD to a single quantity within the system, as proper\nknowledge of the system dynamics, even for a single compartment, requires that\nthe behavior of other compartments is taken into account in the DMD process. In\nthis work, we demonstrate, theoretically and numerically, that, when performing\nDMD on a fully coupled PDE system with compartmental structure, one may recover\nuseful predictive behavior, even when DMD performs poorly when acting\ncompartment-wise. We also establish that important physical quantities, as mass\nconservation, are maintained in the coupled-DMD extrapolation. The mathematical\nand numerical analysis suggests that DMD may be a powerful tool when applied to\nthis common class of problems. In particular, we show interesting numerical\napplications to a continuous delayed-SIRD model for Covid-19, and to a problem\nfrom additive manufacturing considering a nonlinear temperature field and the\nresulting change of material phase from powder, liquid, and solid states.",
+            "link": "http://arxiv.org/pdf/2110.06375v1"
+        },
+        {
+            "title": "Some open problems in low dimensional dynamical systems",
+            "year": "December 2020",
+            "date": "2020-12-04",
+            "authors": "Armengol Gasull",
+            "abstract": "The aim of this paper is to share with the mathematical community a list of\n33 problems that I have found along the years during my research. I believe\nthat it is worth to think about them and, hopefully, it will be possible either\nto solve some of the problems or to make some substantial progress. Many of\nthem are about planar differential equations but there are also questions about\nother mathematical aspects: Abel differential equations, difference equations,\nglobal asymptotic stability, geometrical questions, problems involving\npolynomials or some recreational problems with a dynamical component.",
+            "link": "http://arxiv.org/pdf/2012.02524v1"
+        },
+        {
+            "title": "On Neural Differential Equations",
+            "year": "February 2022",
+            "date": "2022-02-04",
+            "authors": "Patrick Kidger",
+            "abstract": "The conjoining of dynamical systems and deep learning has become a topic of\ngreat interest. In particular, neural differential equations (NDEs) demonstrate\nthat neural networks and differential equation are two sides of the same coin.\nTraditional parameterised differential equations are a special case. Many\npopular neural network architectures, such as residual networks and recurrent\nnetworks, are discretisations.\n  NDEs are suitable for tackling generative problems, dynamical systems, and\ntime series (particularly in physics, finance, ...) and are thus of interest to\nboth modern machine learning and traditional mathematical modelling. NDEs offer\nhigh-capacity function approximation, strong priors on model space, the ability\nto handle irregular data, memory efficiency, and a wealth of available theory\non both sides.\n  This doctoral thesis provides an in-depth survey of the field.\n  Topics include: neural ordinary differential equations (e.g. for hybrid\nneural/mechanistic modelling of physical systems); neural controlled\ndifferential equations (e.g. for learning functions of irregular time series);\nand neural stochastic differential equations (e.g. to produce generative models\ncapable of representing complex stochastic dynamics, or sampling from complex\nhigh-dimensional distributions).\n  Further topics include: numerical methods for NDEs (e.g. reversible\ndifferential equations solvers, backpropagation through differential equations,\nBrownian reconstruction); symbolic regression for dynamical systems (e.g. via\nregularised evolution); and deep implicit models (e.g. deep equilibrium models,\ndifferentiable optimisation).\n  We anticipate this thesis will be of interest to anyone interested in the\nmarriage of deep learning with dynamical systems, and hope it will provide a\nuseful reference for the current state of the art.",
+            "link": "http://arxiv.org/pdf/2202.02435v1"
+        },
+        {
+            "title": "Scalable algorithms for physics-informed neural and graph networks",
+            "year": "May 2022",
+            "date": "2022-05-16",
+            "authors": "Khemraj Shukla, Mengjia Xu, Nathaniel Trask, George Em Karniadakis",
+            "abstract": "Physics-informed machine learning (PIML) has emerged as a promising new\napproach for simulating complex physical and biological systems that are\ngoverned by complex multiscale processes for which some data are also\navailable. In some instances, the objective is to discover part of the hidden\nphysics from the available data, and PIML has been shown to be particularly\neffective for such problems for which conventional methods may fail. Unlike\ncommercial machine learning where training of deep neural networks requires big\ndata, in PIML big data are not available. Instead, we can train such networks\nfrom additional information obtained by employing the physical laws and\nevaluating them at random points in the space-time domain. Such\nphysics-informed machine learning integrates multimodality and multifidelity\ndata with mathematical models, and implements them using neural networks or\ngraph networks. Here, we review some of the prevailing trends in embedding\nphysics into machine learning, using physics-informed neural networks (PINNs)\nbased primarily on feed-forward neural networks and automatic differentiation.\nFor more complex systems or systems of systems and unstructured data, graph\nneural networks (GNNs) present some distinct advantages, and here we review how\nphysics-informed learning can be accomplished with GNNs based on graph exterior\ncalculus to construct differential operators; we refer to these architectures\nas physics-informed graph networks (PIGNs). We present representative examples\nfor both forward and inverse problems and discuss what advances are needed to\nscale up PINNs, PIGNs and more broadly GNNs for large-scale engineering\nproblems.",
+            "link": "http://arxiv.org/pdf/2205.08332v1"
+        }
+    ],
+    "all_time": [
+        {
+            "title": "A Model of Blood Flow in a Circulation Network",
+            "year": "October 2002",
+            "date": "2002-10-26",
+            "authors": "Weihua Ruan, M. E. Clark, Meide Zhao, Anthony Curcio",
+            "abstract": "We study a mathematical model of a blood circulation network which is a\ngeneralization of the coronary model proposed by Smith, Pullan and Hunter. We\nprove the existence and uniqueness of the solution to the initial-boundary\nvalue problem and discuss the continuity of dependence of the solution and its\nderivatives on initial, boundary and forcing functions and their derivatives.",
+            "link": "http://arxiv.org/pdf/math/0210410v1"
+        },
+        {
+            "title": "Modeling the influence of TH1 and TH2 type cells in autoimmune diseases",
+            "year": "June 2000",
+            "date": "2000-06-19",
+            "authors": "Y. Louzoun, H. Atlan, I. R. Cohen",
+            "abstract": "A sharp TH1/TH2 dichotomy has often been used to define the effects of\ncytokines on autoimmune diseases. However contradictory results in recent\nresearch indicate that the situation may be more complex. We build here a\nsimple mathematical model aimed at settling the contradictions. The model is\nbased on a neural network paradigm, and is applied using Partial Differential\nEquations (PDE). We show here that a TH1/TH2 paradigm is only an external view\nof a complex multivariate system.",
+            "link": "http://arxiv.org/pdf/math/0006127v1"
+        },
+        {
+            "title": "Gain-induced oscillations in blood pressure",
+            "year": "August 1997",
+            "date": "1997-08-16",
+            "authors": "Roselyn M. Abbiw-Jackson, William Langford",
+            "abstract": "\"Mayer waves\" are long-period (6 to 12 seconds) oscillations in arterial\nblood pressure, which have been observed and studied for more than 100 years in\nthe cardiovascular system of humans and other mammals. A mathematical model of\nthe human cardiovascular system is presented, incorporating parameters\nrelevantto the onset of Mayer waves. The model is analyzed using methods of\nLyapunov stability and Hopf bifurcation theory. The analysis shows that\nincrease in the gain of the baroreflex feedback loop controlling venous volume\nmay lead to the onset of oscillations, while changes in the other parameters\nconsidered do not affect stability of the equilibrium state. The results agree\nwith clinical observations of Mayer waves in human subjects, both in the period\nof the oscillations and in the observed age-dependence of Mayer waves. This\nleads to a proposed explanation of their occurrence, namely that Mayer waves\nare a \"gain-induced instability\".",
+            "link": "http://arxiv.org/pdf/math/9708211v1"
+        },
+        {
+            "title": "Rhythms of the nervous system: mathematical themes and variations",
+            "year": "May 2003",
+            "date": "2003-05-01",
+            "authors": "Nancy Kopell",
+            "abstract": "The nervous system displays a variety of rhythms in both waking and sleep.\nThese rhythms have been closely associated with different behavioral and\ncognitive states, but it is still unknown how the nervous system makes use of\nthese rhythms to perform functionally important tasks. To address those\nquestions, it is first useful to understood in a mechanistic way the origin of\nthe rhythms, their interactions, the signals which create the transitions among\nrhythms, and the ways in which rhythms filter the signals to a network of\nneurons. This talk discusses how dynamical systems have been used to\ninvestigate the origin, properties and interactions of rhythms in the nervous\nsystem. It focuses on how the underlying physiology of the cells and synapses\nof the networks shape the dynamics of the network in different contexts,\nallowing the variety of dynamical behaviors to be displayed by the same\nnetwork. The work is presented using a series of related case studies on\ndifferent rhythms. These case studies are chosen to highlight mathematical\nissues, and suggest further mathematical work to be done. The topics include:\ndifferent roles of excitation and inhibition in creating synchronous assemblies\nof cells, different kinds of building blocks for neural oscillations, and\ntransitions among rhythms. The mathematical issues include reduction of large\nnetworks to low dimensional maps, role of noise, global bifurcations, use of\nprobabilistic formulations.",
+            "link": "http://arxiv.org/pdf/math/0305013v1"
+        },
+        {
+            "title": "Destruction of CD4 T Lymphocytes Alone Cannot Account for their Long-term Decrease in AIDS",
+            "year": "August 2000",
+            "date": "2000-08-07",
+            "authors": "Yoram Louzoun, Irun. R. Cohen, Henri Atlan",
+            "abstract": "Following previous models describing a quasi steady state (QSS) for the\nevolution of HIV infection and AIDS, we have developed a larger formalism\nsimulating the long-term evolution of the QSS We show that the long-term\nevolution of AIDS cannot be explained by the destruction alone of CD4 T cells,\neither directly or indirectly. The destruction of CD4 T cells can lead only to\na QSS with a lower concentration of CD4 T cells, but CD4 destruction cannot\ngenerate the sustained long-term decrease in T cells leading to AIDS. We here\nsuggest some workable explanations.",
+            "link": "http://arxiv.org/pdf/math/0008052v1"
+        }
+    ]
 }
