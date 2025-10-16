@@ -1,6 +1,14 @@
 {
     "last_month": [
         {
+            "title": "Schrödinger bridge for generative AI: Soft-constrained formulation and convergence analysis",
+            "year": "October 2025",
+            "date": "2025-10-13",
+            "authors": "Jin Ma, Ying Tan, Renyuan Xu",
+            "abstract": "Generative AI can be framed as the problem of learning a model that maps\nsimple reference measures into complex data distributions, and it has recently\nfound a strong connection to the classical theory of the Schr\\\"odinger bridge\nproblems (SBPs) due partly to their common nature of interpolating between\nprescribed marginals via entropy-regularized stochastic dynamics. However, the\nclassical SBP enforces hard terminal constraints, which often leads to\ninstability in practical implementations, especially in high-dimensional or\ndata-scarce regimes. To address this challenge, we follow the idea of the\nso-called soft-constrained Schr\\\"odinger bridge problem (SCSBP), in which the\nterminal constraint is replaced by a general penalty function. This relaxation\nleads to a more flexible stochastic control formulation of McKean-Vlasov type.\n  We establish the existence of optimal solutions for all penalty levels and\nprove that, as the penalty grows, both the controls and value functions\nconverge to those of the classical SBP at a linear rate. Our analysis builds on\nDoob's h-transform representations, the stability results of Schr\\\"odinger\npotentials, Gamma-convergence, and a novel fixed-point argument that couples an\noptimization problem over the space of measures with an auxiliary entropic\noptimal transport problem. These results not only provide the first\nquantitative convergence guarantees for soft-constrained bridges but also shed\nlight on how penalty regularization enables robust generative modeling,\nfine-tuning, and transfer learning.",
+            "link": "http://arxiv.org/pdf/2510.11829v1"
+        },
+        {
             "title": "Modelling road mortality risks to persistence to a Western Toad ({\\it Anaxyrus boreas}) population in British Columbia",
             "year": "September 2025",
             "date": "2025-09-30",
@@ -31,14 +39,6 @@
             "authors": "Yu ICHIDA",
             "abstract": "This paper considers the solution structure of non-trivial, non-constant\nstationary states of 1D spatial parabolic equations with nonlinear\nself-diffusion and logistic growth terms. A two-dimensional ordinary\ndifferential equation satisfying the stationary problem is derived and all its\ndynamics, including to infinity, is revealed by the Poincar\\'e-Lyapunov\ncompactification, one of the compactifications of phase space. The advantage of\nthis method is that it can be used to classify all dynamical systems\n(especially connecting orbits) of a two-dimensional system including infinity.\nTherefore, the classification results for the dynamical system including to\ninfinity give the classification results for the non-constant stationary states\nobtained only from the structure of the original equations. This argument\nallows us to observe a change in the classification of the non-constant\nstationary states by an explicit relation between the linear diffusion\ncoefficient and the self-diffusion coefficient, combined with arguments about\nthe symmetries and conserved quantities of the ODEs. This means that changing\nthe self-diffusion coefficient as a bifurcation parameter not only\nqualitatively changes the dynamical system from a big saddle homoclinic orbit\nof the ODEs to a heteroclinic orbit that connects the saddle equilibria, but\nalso significantly changes the shape and the properties of the stationary\nstates. It explicitly shows the relationship between linear and self-diffusion,\ngives a characterization of non-trivial stationary states in terms of dynamical\nsystems, and gives a deep insight into the influence of self-diffusion, one of\nthe nonlinear diffusions.",
             "link": "http://arxiv.org/pdf/2509.24752v1"
-        },
-        {
-            "title": "DSFT: Inspiring Diffusion Large Language Models to Comprehend Mathematical and Logical Patterns",
-            "year": "September 2025",
-            "date": "2025-09-17",
-            "authors": "Ranfei Chen, Ming Chen",
-            "abstract": "Diffusion large language models (dLLMs) have emerged as a new architecture\nfollowing auto regressive models. Their denoising process offers a powerful\ngenerative advantage, but they present significant challenges in learning and\nunderstanding numerically sensitive mathematical and order-sensitive logical\ntasks. Current training methods, including pre-training, fine-tuning, and\nreinforcement learning, focus primarily on improving general knowledge\nretention and reasoning abilities, but lack a comprehensive understanding of\nmathematical and logical patterns. We propose DSFT, a simple yet effective\nDiffusion SFT strategy, by adjusting the masking strategy and loss function,\nguiding models to understand mathematical and logical patterns. This strategy\ncan be flexibly combined with pre-training, reinforcement learning, and other\ntraining methods. Validated on models such as LLaDA and Dream series, we prove\nthat DSFT on small-scale data can achieve improvements of 5-10% and\napproximately 2% on mathematical and logical problems, respectively. This\ninspiring masking approach offers insights for future learning of specific\npatterns, which can be easily and efficiently combined with other training\nmethods and applied to various dLLMs. Our code is publicly available at\nhttps://anonymous.4open.science/r/DSFT-0FFB/",
-            "link": "http://arxiv.org/pdf/2509.18164v1"
         }
     ],
     "last_year": [
