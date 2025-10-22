@@ -67,20 +67,20 @@
             "link": "http://arxiv.org/pdf/2411.19411v1"
         },
         {
-            "title": "ADAM-SINDy: An Efficient Optimization Framework for Parameterized Nonlinear Dynamical System Identification",
-            "year": "October 2024",
-            "date": "2024-10-21",
-            "authors": "Siva Viknesh, Younes Tatari, Chase Christenson, Amirhossein Arzani",
-            "abstract": "Identifying dynamical systems characterized by nonlinear parameters presents\nsignificant challenges in deriving mathematical models that enhance\nunderstanding of physics. Traditional methods, such as Sparse Identification of\nNonlinear Dynamics (SINDy) and symbolic regression, can extract governing\nequations from observational data; however, they also come with distinct\nadvantages and disadvantages. This paper introduces a novel method within the\nSINDy framework, termed ADAM-SINDy, which synthesizes the strengths of\nestablished approaches by employing the ADAM optimization algorithm. This\nfacilitates the simultaneous optimization of nonlinear parameters and\ncoefficients associated with nonlinear candidate functions, enabling precise\nparameter estimation without requiring prior knowledge of nonlinear\ncharacteristics such as trigonometric frequencies, exponential bandwidths, or\npolynomial exponents, thereby addressing a key limitation of SINDy. Through an\nintegrated global optimization, ADAM-SINDy dynamically adjusts all unknown\nvariables in response to data, resulting in an adaptive identification\nprocedure that reduces the sensitivity to the library of candidate functions.\nThe performance of the ADAM-SINDy methodology is demonstrated across a spectrum\nof dynamical systems, including benchmark coupled nonlinear ordinary\ndifferential equations such as oscillators, chaotic fluid flows, reaction\nkinetics, pharmacokinetics, as well as nonlinear partial differential equations\n(wildfire transport). The results demonstrate significant improvements in\nidentifying parameterized dynamical systems and underscore the importance of\nconcurrently optimizing all parameters, particularly those characterized by\nnonlinear parameters. These findings highlight the potential of ADAM-SINDy to\nextend the applicability of the SINDy framework in addressing more complex\nchallenges in dynamical system identification.",
-            "link": "http://arxiv.org/pdf/2410.16528v3"
-        },
-        {
             "title": "ParallelFlow: Parallelizing Linear Transformers via Flow Discretization",
             "year": "April 2025",
             "date": "2025-04-01",
             "authors": "Nicola Muca Cirone, Cristopher Salvi",
             "abstract": "We present a theoretical framework for analyzing linear attention models\nthrough matrix-valued state space models (SSMs). Our approach, Parallel Flows,\nprovides a perspective that systematically decouples temporal dynamics from\nimplementation constraints, enabling independent analysis of critical\nalgorithmic components: chunking, parallelization, and information aggregation.\nCentral to this framework is the reinterpretation of chunking procedures as\ncomputations of the flows governing system dynamics. This connection\nestablishes a bridge to mathematical tools from rough path theory, opening the\ndoor to new insights into sequence modeling architectures. As a concrete\napplication, we analyze DeltaNet in a generalized low-rank setting motivated by\nrecent theoretical advances. Our methods allow us to design simple, streamlined\ngeneralizations of hardware-efficient algorithms present in the literature, and\nto provide completely different ones, inspired by rough paths techniques, with\nprovably lower complexity. This dual contribution demonstrates how principled\ntheoretical analysis can both explain existing practical methods and inspire\nfundamentally new computational approaches.",
             "link": "http://arxiv.org/pdf/2504.00492v1"
+        },
+        {
+            "title": "Koopman Theory-Inspired Method for Learning Time Advancement Operators in Unstable Flame Front Evolution",
+            "year": "December 2024",
+            "date": "2024-12-11",
+            "authors": "Rixin Yu, Marco Herbert, Markus Klein, Erdzan Hodzic",
+            "abstract": "Predicting the evolution of complex systems governed by partial differential\nequations (PDEs) remains challenging, especially for nonlinear, chaotic\nbehaviors. This study introduces Koopman-inspired Fourier Neural Operators\n(kFNO) and Convolutional Neural Networks (kCNN) to learn solution advancement\noperators for flame front instabilities. By transforming data into a\nhigh-dimensional latent space, these models achieve more accurate multi-step\npredictions compared to traditional methods. Benchmarking across one- and\ntwo-dimensional flame front scenarios demonstrates the proposed approaches'\nsuperior performance in short-term accuracy and long-term statistical\nreproduction, offering a promising framework for modeling complex dynamical\nsystems.",
+            "link": "http://arxiv.org/pdf/2412.08426v1"
         }
     ],
     "last_5_years": [
