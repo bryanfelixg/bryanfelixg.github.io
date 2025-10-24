@@ -33,12 +33,12 @@
             "link": "http://arxiv.org/pdf/2509.25291v1"
         },
         {
-            "title": "Learning From Simulators: A Theory of Simulation-Grounded Learning",
-            "year": "September 2025",
-            "date": "2025-09-23",
-            "authors": "Carson Dudley, Marisa Eisenberg",
-            "abstract": "Simulation-Grounded Neural Networks (SGNNs) are predictive models trained\nentirely on synthetic data from mechanistic simulations. They have achieved\nstate-of-the-art performance in domains where real-world labels are limited or\nunobserved, but lack a formal underpinning.\n  We place SGNNs in a unified statistical framework. Under standard loss\nfunctions, they can be interpreted as amortized Bayesian predictors trained\nunder a simulator-induced prior. Empirical risk minimization then yields\nconvergence to the Bayes-optimal predictor under the synthetic distribution. We\nemploy classical results on distribution shift to characterize how performance\ndegrades when the simulator diverges from reality. Beyond these consequences,\nwe develop SGNN-specific results: (i) conditions under which unobserved\nscientific parameters are learnable via simulation, and (ii) a\nback-to-simulation attribution method that provides mechanistic explanations of\npredictions by linking them to the simulations the model deems similar, with\nguarantees of posterior consistency.\n  We provide numerical experiments to validate theoretical predictions. SGNNs\nrecover latent parameters, remain robust under mismatch, and outperform\nclassical tools: in a model selection task, SGNNs achieve half the error of AIC\nin distinguishing mechanistic dynamics. These results establish SGNNs as a\nprincipled and practical framework for scientific prediction in data-limited\nregimes.",
-            "link": "http://arxiv.org/pdf/2509.18990v2"
+            "title": "Control of dynamical systems with neural networks",
+            "year": "October 2025",
+            "date": "2025-10-06",
+            "authors": "Lucas Böttcher",
+            "abstract": "Control problems frequently arise in scientific and industrial applications,\nwhere the objective is to steer a dynamical system from an initial state to a\ndesired target state. Recent advances in deep learning and automatic\ndifferentiation have made applying these methods to control problems\nincreasingly practical. In this paper, we examine the use of neural networks\nand modern machine-learning libraries to parameterize control inputs across\ndiscrete-time and continuous-time systems, as well as deterministic and\nstochastic dynamics. We highlight applications in multiple domains, including\nbiology, engineering, physics, and medicine. For continuous-time dynamical\nsystems, neural ordinary differential equations (neural ODEs) offer a useful\napproach to parameterizing control inputs. For discrete-time systems, we show\nhow custom control-input parameterizations can be implemented and optimized\nusing automatic-differentiation methods. Overall, the methods presented provide\npractical solutions for control tasks that are computationally demanding or\nanalytically intractable, making them valuable for complex real-world\napplications.",
+            "link": "http://arxiv.org/pdf/2510.12810v1"
         }
     ],
     "last_year": [
