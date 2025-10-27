@@ -159,12 +159,12 @@
             "link": "http://arxiv.org/pdf/math/0305013v1"
         },
         {
-            "title": "Destruction of CD4 T Lymphocytes Alone Cannot Account for their Long-term Decrease in AIDS",
-            "year": "August 2000",
-            "date": "2000-08-07",
-            "authors": "Yoram Louzoun, Irun. R. Cohen, Henri Atlan",
-            "abstract": "Following previous models describing a quasi steady state (QSS) for the\nevolution of HIV infection and AIDS, we have developed a larger formalism\nsimulating the long-term evolution of the QSS We show that the long-term\nevolution of AIDS cannot be explained by the destruction alone of CD4 T cells,\neither directly or indirectly. The destruction of CD4 T cells can lead only to\na QSS with a lower concentration of CD4 T cells, but CD4 destruction cannot\ngenerate the sustained long-term decrease in T cells leading to AIDS. We here\nsuggest some workable explanations.",
-            "link": "http://arxiv.org/pdf/math/0008052v1"
+            "title": "Multiple Equilibria for an SIRS Epidemiological System",
+            "year": "January 2001",
+            "date": "2001-01-07",
+            "authors": "M. R. Razvan",
+            "abstract": "An SIRS type model of disease transmission in an open environment is\ndiscussed. We use the Poincar\\'{e} index together with a perturbation method to\nshow that the endemic proportions need not be unique.",
+            "link": "http://arxiv.org/pdf/math/0101051v1"
         }
     ]
 }
