@@ -6,7 +6,7 @@
             "date": "2025-10-13",
             "authors": "Jin Ma, Ying Tan, Renyuan Xu",
             "abstract": "Generative AI can be framed as the problem of learning a model that maps\nsimple reference measures into complex data distributions, and it has recently\nfound a strong connection to the classical theory of the Schr\\\"odinger bridge\nproblems (SBPs) due partly to their common nature of interpolating between\nprescribed marginals via entropy-regularized stochastic dynamics. However, the\nclassical SBP enforces hard terminal constraints, which often leads to\ninstability in practical implementations, especially in high-dimensional or\ndata-scarce regimes. To address this challenge, we follow the idea of the\nso-called soft-constrained Schr\\\"odinger bridge problem (SCSBP), in which the\nterminal constraint is replaced by a general penalty function. This relaxation\nleads to a more flexible stochastic control formulation of McKean-Vlasov type.\n  We establish the existence of optimal solutions for all penalty levels and\nprove that, as the penalty grows, both the controls and value functions\nconverge to those of the classical SBP at a linear rate. Our analysis builds on\nDoob's h-transform representations, the stability results of Schr\\\"odinger\npotentials, Gamma-convergence, and a novel fixed-point argument that couples an\noptimization problem over the space of measures with an auxiliary entropic\noptimal transport problem. These results not only provide the first\nquantitative convergence guarantees for soft-constrained bridges but also shed\nlight on how penalty regularization enables robust generative modeling,\nfine-tuning, and transfer learning.",
-            "link": "http://arxiv.org/pdf/2510.11829v1"
+            "link": "http://arxiv.org/pdf/2510.11829v2"
         },
         {
             "title": "Functional and parametric identifiability for universal differential equations applied to chemical reaction networks",
@@ -33,12 +33,12 @@
             "link": "http://arxiv.org/pdf/2509.25291v1"
         },
         {
-            "title": "Control of dynamical systems with neural networks",
+            "title": "Hankel Singular Value Regularization for Highly Compressible State Space Models",
             "year": "October 2025",
-            "date": "2025-10-06",
-            "authors": "Lucas Böttcher",
-            "abstract": "Control problems frequently arise in scientific and industrial applications,\nwhere the objective is to steer a dynamical system from an initial state to a\ndesired target state. Recent advances in deep learning and automatic\ndifferentiation have made applying these methods to control problems\nincreasingly practical. In this paper, we examine the use of neural networks\nand modern machine-learning libraries to parameterize control inputs across\ndiscrete-time and continuous-time systems, as well as deterministic and\nstochastic dynamics. We highlight applications in multiple domains, including\nbiology, engineering, physics, and medicine. For continuous-time dynamical\nsystems, neural ordinary differential equations (neural ODEs) offer a useful\napproach to parameterizing control inputs. For discrete-time systems, we show\nhow custom control-input parameterizations can be implemented and optimized\nusing automatic-differentiation methods. Overall, the methods presented provide\npractical solutions for control tasks that are computationally demanding or\nanalytically intractable, making them valuable for complex real-world\napplications.",
-            "link": "http://arxiv.org/pdf/2510.12810v1"
+            "date": "2025-10-27",
+            "authors": "Paul Schwerdtner, Jules Berman, Benjamin Peherstorfer",
+            "abstract": "Deep neural networks using state space models as layers are well suited for\nlong-range sequence tasks but can be challenging to compress after training. We\nuse that regularizing the sum of Hankel singular values of state space models\nleads to a fast decay of these singular values and thus to compressible models.\nTo make the proposed Hankel singular value regularization scalable, we develop\nan algorithm to efficiently compute the Hankel singular values during training\niterations by exploiting the specific block-diagonal structure of the system\nmatrices that is we use in our state space model parametrization. Experiments\non Long Range Arena benchmarks demonstrate that the regularized state space\nlayers are up to 10\\(\\times\\) more compressible than standard state space layers\nwhile maintaining high accuracy.",
+            "link": "http://arxiv.org/pdf/2510.22951v1"
         }
     ],
     "last_year": [
