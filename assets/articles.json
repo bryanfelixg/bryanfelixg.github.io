@@ -25,20 +25,20 @@
             "link": "http://arxiv.org/pdf/2510.00340v1"
         },
         {
-            "title": "Mathematical Framework for Epidemic Dynamics: Optimal Control and Global Sensitivity Analysis",
-            "year": "September 2025",
-            "date": "2025-09-29",
-            "authors": "Liban Ismail, Yahyeh Souleiman, Saraless Nadarajah, Abdisalam Hassan",
-            "abstract": "This study develops and analyzes an extended Susceptible, Infected,\nHospitalized and Recovered (SIHR) model incorporating time dependent control\nfunctions to capture preventive measures (e.g., distancing, mask use) and\nresource limited therapeutic interventions. This formulation provides a\nrealistic mathematical framework for modeling public health responses beyond\nclassical uncontrolled epidemic models. The control design is integrated into\nthe model via an optimal control framework, solved numerically using the\nForward Backward Sweep method, enabling the exploration of intervention\nstrategies on epidemic dynamics, including infection prevalence,\nhospitalization burden, and the effective reproduction number. To assess the\nrobustness of these strategies under uncertainty, we employ Polynomial Chaos\nExpansion combined with Sobol sensitivity indices, quantifying the influence of\nkey epidemiological parameters (transmission, recovery, hospitalization rates)\non model outcomes. Numerical simulations, calibrated to Djiboutian COVID 19\ndata, show that combined preventive and therapeutic interventions substantially\nmitigate epidemic burden, though their effectiveness depends critically on\ntransmission related uncertainties. The originality of this work lies in\ncombining optimal control theory with global sensitivity analysis, thus\nbridging numerical methods, optimization, and epidemic modeling. This\nintegrated approach offers a general mathematical framework for designing and\nevaluating control strategies in infectious disease outbreaks, with\napplications to low resource settings and beyond.",
-            "link": "http://arxiv.org/pdf/2509.25291v1"
-        },
-        {
             "title": "Hankel Singular Value Regularization for Highly Compressible State Space Models",
             "year": "October 2025",
             "date": "2025-10-27",
             "authors": "Paul Schwerdtner, Jules Berman, Benjamin Peherstorfer",
             "abstract": "Deep neural networks using state space models as layers are well suited for\nlong-range sequence tasks but can be challenging to compress after training. We\nuse that regularizing the sum of Hankel singular values of state space models\nleads to a fast decay of these singular values and thus to compressible models.\nTo make the proposed Hankel singular value regularization scalable, we develop\nan algorithm to efficiently compute the Hankel singular values during training\niterations by exploiting the specific block-diagonal structure of the system\nmatrices that is we use in our state space model parametrization. Experiments\non Long Range Arena benchmarks demonstrate that the regularized state space\nlayers are up to 10\\(\\times\\) more compressible than standard state space layers\nwhile maintaining high accuracy.",
             "link": "http://arxiv.org/pdf/2510.22951v1"
+        },
+        {
+            "title": "Control of dynamical systems with neural networks",
+            "year": "October 2025",
+            "date": "2025-10-06",
+            "authors": "Lucas Böttcher",
+            "abstract": "Control problems frequently arise in scientific and industrial applications,\nwhere the objective is to steer a dynamical system from an initial state to a\ndesired target state. Recent advances in deep learning and automatic\ndifferentiation have made applying these methods to control problems\nincreasingly practical. In this paper, we examine the use of neural networks\nand modern machine-learning libraries to parameterize control inputs across\ndiscrete-time and continuous-time systems, as well as deterministic and\nstochastic dynamics. We highlight applications in multiple domains, including\nbiology, engineering, physics, and medicine. For continuous-time dynamical\nsystems, neural ordinary differential equations (neural ODEs) offer a useful\napproach to parameterizing control inputs. For discrete-time systems, we show\nhow custom control-input parameterizations can be implemented and optimized\nusing automatic-differentiation methods. Overall, the methods presented provide\npractical solutions for control tasks that are computationally demanding or\nanalytically intractable, making them valuable for complex real-world\napplications.",
+            "link": "http://arxiv.org/pdf/2510.12810v1"
         }
     ],
     "last_year": [
