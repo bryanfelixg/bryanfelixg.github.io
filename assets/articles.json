@@ -17,12 +17,12 @@
             "link": "http://arxiv.org/pdf/2510.14140v1"
         },
         {
-            "title": "Modelling road mortality risks to persistence to a Western Toad ({\\it Anaxyrus boreas}) population in British Columbia",
-            "year": "September 2025",
-            "date": "2025-09-30",
-            "authors": "Marguerite H. Mahr, Noah D. Marshall, Jessa Marley, Sarah K. Wyse, Wayne P. McCrory, Rebecca C. Tyson",
-            "abstract": "Road mortality may be a significant factor in the global decline of amphibian\npopulations, yet rigorous assessments of its effect on long-term population\npersistence are lacking.\n  Here, we investigate population persistence through a field study and\nmathematical model of a western toad ({\\textit{Anaxyrus Boreas}} {\\RR(Baird and\nGirard, 1852)}) population within a highway corridor in the Selkirk Mountains\nof British Columbia.\n  The analysis shows traffic levels strongly correlate with toad mortality,\nwith each additional vehicle causing a 3.1\\% \\(\\pm\\) 1.3\\% (\\(p=0.020\\)) increase\nin toad deaths.\n  Although the current risk of the population becoming threatened or endangered\nis low, it rises to 50\\% if baseline road mortality increases from 10\\% to\n30\\%. Gravid female mortality is higher than the baseline mortality and can\nincrease the probability of endangerment by nearly two-fold at higher baseline\nmortality levels.\n  We make the case that a small increase in vehicle traffic resulting from\nfuture development and recreational pressures\n  could destabilize this apparently healthy toad population. The high\nsensitivity to traffic levels and rapid transition from healthy to endangered\nraises concerns for similar populations worldwide. Compensatory structures such\nas amphibian underpasses (toad tunnels) should be given high priority.",
-            "link": "http://arxiv.org/pdf/2510.00340v1"
+            "title": "Can quantum dynamics emerge from classical chaos?",
+            "year": "October 2025",
+            "date": "2025-10-29",
+            "authors": "Frédéric Faure",
+            "abstract": "Anosov geodesic flows are among the simplest mathematical models of\ndeterministic chaos. In this survey we explain how, quite unexpectedly, quantum\ndynamics emerges from purely classical correlation functions. The underlying\nmechanism is the discrete Pollicott Ruelle spectrum of the geodesic flow,\nrevealed through microlocal analysis. This spectrum naturally arranges into\nvertical bands; when the rightmost band is separated from the rest by a gap, it\ngoverns an effective dynamics that mirrors quantum evolution.",
+            "link": "http://arxiv.org/pdf/2510.25307v1"
         },
         {
             "title": "Hankel Singular Value Regularization for Highly Compressible State Space Models",
@@ -33,12 +33,12 @@
             "link": "http://arxiv.org/pdf/2510.22951v1"
         },
         {
-            "title": "Control of dynamical systems with neural networks",
+            "title": "Action-minimizing periodic orbits of the Lorentz force equation with dominant vector potential",
             "year": "October 2025",
-            "date": "2025-10-06",
-            "authors": "Lucas Böttcher",
-            "abstract": "Control problems frequently arise in scientific and industrial applications,\nwhere the objective is to steer a dynamical system from an initial state to a\ndesired target state. Recent advances in deep learning and automatic\ndifferentiation have made applying these methods to control problems\nincreasingly practical. In this paper, we examine the use of neural networks\nand modern machine-learning libraries to parameterize control inputs across\ndiscrete-time and continuous-time systems, as well as deterministic and\nstochastic dynamics. We highlight applications in multiple domains, including\nbiology, engineering, physics, and medicine. For continuous-time dynamical\nsystems, neural ordinary differential equations (neural ODEs) offer a useful\napproach to parameterizing control inputs. For discrete-time systems, we show\nhow custom control-input parameterizations can be implemented and optimized\nusing automatic-differentiation methods. Overall, the methods presented provide\npractical solutions for control tasks that are computationally demanding or\nanalytically intractable, making them valuable for complex real-world\napplications.",
-            "link": "http://arxiv.org/pdf/2510.12810v1"
+            "date": "2025-10-29",
+            "authors": "Manuel Garzón, Salvador López-Martínez",
+            "abstract": "We establish the existence of non-constant periodic solutions to the Lorentz\nforce equation, where no scalar potential is needed to induce the\nelectromagnetic field. Our results extend to cases where a possibly singular\nscalar potential is present, although the vector potential assumes a leading\nrole. The approach is based on minimizing the action functional associated with\nthe relativistic Lagrangian. The compactness of the minimizing sequences\nrequires the existence of negative values for the functional, which is proven\nusing novel ideas that exploit the sign-indefinite nature of the term involving\nthe vector potential.",
+            "link": "http://arxiv.org/pdf/2510.25462v1"
         }
     ],
     "last_year": [
