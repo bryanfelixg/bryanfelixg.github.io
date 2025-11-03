@@ -29,8 +29,8 @@
             "year": "October 2025",
             "date": "2025-10-27",
             "authors": "Paul Schwerdtner, Jules Berman, Benjamin Peherstorfer",
-            "abstract": "Deep neural networks using state space models as layers are well suited for\nlong-range sequence tasks but can be challenging to compress after training. We\nuse that regularizing the sum of Hankel singular values of state space models\nleads to a fast decay of these singular values and thus to compressible models.\nTo make the proposed Hankel singular value regularization scalable, we develop\nan algorithm to efficiently compute the Hankel singular values during training\niterations by exploiting the specific block-diagonal structure of the system\nmatrices that is we use in our state space model parametrization. Experiments\non Long Range Arena benchmarks demonstrate that the regularized state space\nlayers are up to 10\\(\\times\\) more compressible than standard state space layers\nwhile maintaining high accuracy.",
-            "link": "http://arxiv.org/pdf/2510.22951v1"
+            "abstract": "Deep neural networks using state space models as layers are well suited for\nlong-range sequence tasks but can be challenging to compress after training. We\nuse that regularizing the sum of Hankel singular values of state space models\nleads to a fast decay of these singular values and thus to compressible models.\nTo make the proposed Hankel singular value regularization scalable, we develop\nan algorithm to efficiently compute the Hankel singular values during training\niterations by exploiting the specific block-diagonal structure of the system\nmatrices that we use in our state space model parametrization. Experiments on\nLong Range Arena benchmarks demonstrate that the regularized state space layers\nare up to 10\\(\\times\\) more compressible than standard state space layers while\nmaintaining high accuracy.",
+            "link": "http://arxiv.org/pdf/2510.22951v2"
         },
         {
             "title": "Action-minimizing periodic orbits of the Lorentz force equation with dominant vector potential",
