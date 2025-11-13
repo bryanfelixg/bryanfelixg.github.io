@@ -1,170 +1,170 @@
 {
     "last_month": [
         {
-            "title": "Regularization Implies balancedness in the deep linear network",
-            "year": "November 2025",
-            "date": "2025-11-03",
-            "authors": "Kathryn Lindsey, Govind Menon",
-            "abstract": "We use geometric invariant theory (GIT) to study the deep linear network\n(DLN). The Kempf-Ness theorem is used to establish that the \\(L^2\\) regularizer\nis minimized on the balanced manifold. This allows us to decompose the training\ndynamics into two distinct gradient flows: a regularizing flow on fibers and a\nlearning flow on the balanced manifold. We show that the regularizing flow is\nexactly solvable using the moment map.\n  This approach provides a common mathematical framework for balancedness in\ndeep learning and linear systems theory. We use this framework to interpret\nbalancedness in terms of model reduction and Bayesian principles.",
-            "link": "http://arxiv.org/pdf/2511.01137v1"
-        },
-        {
-            "title": "Introduction to the theory of mixing for incompressible flows",
-            "year": "November 2025",
-            "date": "2025-11-05",
-            "authors": "Gianluca Crippa",
-            "abstract": "In these lecture notes, we provide a pedagogical introduction to the theory\nof mixing for incompressible flows from a PDE perspective. We discuss both the\nLagrangian (ODE) and Eulerian (PDE, continuity equation) viewpoints, and\nintroduce suitable notions of mixing scales that quantify the degree to which a\nscalar field transported by a velocity field becomes mixed. We then address the\nproblem of establishing universal lower bounds on the time evolution of the\nmixing scale. This is first done in the smooth setting, using energy estimates\nand flow-based arguments, and later in the Sobolev setting, relying on\nquantitative estimates for regular Lagrangian flows. Finally, we present recent\nresults concerning the sharpness of these lower bounds, their implications for\nthe geometry and regularity of regular Lagrangian flows, and connections with\nmore recent developments in the literature.",
-            "link": "http://arxiv.org/pdf/2511.03360v1"
-        },
-        {
-            "title": "Schrödinger bridge for generative AI: Soft-constrained formulation and convergence analysis",
-            "year": "October 2025",
-            "date": "2025-10-13",
-            "authors": "Jin Ma, Ying Tan, Renyuan Xu",
-            "abstract": "Generative AI can be framed as the problem of learning a model that maps\nsimple reference measures into complex data distributions, and it has recently\nfound a strong connection to the classical theory of the Schr\\\"odinger bridge\nproblems (SBPs) due partly to their common nature of interpolating between\nprescribed marginals via entropy-regularized stochastic dynamics. However, the\nclassical SBP enforces hard terminal constraints, which often leads to\ninstability in practical implementations, especially in high-dimensional or\ndata-scarce regimes. To address this challenge, we follow the idea of the\nso-called soft-constrained Schr\\\"odinger bridge problem (SCSBP), in which the\nterminal constraint is replaced by a general penalty function. This relaxation\nleads to a more flexible stochastic control formulation of McKean-Vlasov type.\n  We establish the existence of optimal solutions for all penalty levels and\nprove that, as the penalty grows, both the controls and value functions\nconverge to those of the classical SBP at a linear rate. Our analysis builds on\nDoob's h-transform representations, the stability results of Schr\\\"odinger\npotentials, Gamma-convergence, and a novel fixed-point argument that couples an\noptimization problem over the space of measures with an auxiliary entropic\noptimal transport problem. These results not only provide the first\nquantitative convergence guarantees for soft-constrained bridges but also shed\nlight on how penalty regularization enables robust generative modeling,\nfine-tuning, and transfer learning.",
-            "link": "http://arxiv.org/pdf/2510.11829v2"
-        },
-        {
-            "title": "Functional and parametric identifiability for universal differential equations applied to chemical reaction networks",
+            "title": "On Physical Mathematics: an approach through Gilles Châtelet's philosophy",
             "year": "October 2025",
             "date": "2025-10-15",
-            "authors": "Torkel E Loman, Ruth E Baker",
-            "abstract": "Mathematical modelling has traditionally relied on detailed system knowledge\nto construct mechanistic models. However, the advent of large-scale data\ncollection and advances in machine learning have led to an increasing use of\ndata-driven approaches. Recently, hybrid models have emerged that combine both\nparadigms: well-understood system components are modelled mechanistically,\nwhile unknown parts are inferred from data. Here, we focus on one such class:\nuniversal differential equations (UDEs), where neural networks are embedded\nwithin differential equations to approximate unknown dynamics. When fitted to\ndata, these networks act as universal function approximators, learning missing\nfunctional components. In this work, we note that UDE identifiability, i.e. our\nability to identify true system properties, can be split into parametric and\nfunctional identifiability (assessing identifiability for the mechanistic and\ndata-driven model parts, respectively). Next, we investigate how UDE\nproperties, such as neural network numbers and constraints, affect parametric\nand functional identifiability. Notably, we show that across a wide range of\nmodels, the generalisation of a fully mechanistic model to a UDE has little\nimpact on the mechanistic components' parametric identifiability. Finally, we\nnote that hybrid modelling through the fitting of unknown functions (as\nachieved by UDEs) is particularly well-suited to chemical reaction network\n(CRN) modelling. Here, CRNs are used in fields ranging from systems biology,\nchemistry, and pharmacology to epidemiology and population dynamics, making\nthem highly relevant for study. By showcasing how CRN-based UDE models can be\nhighly interpretable, we demonstrate that this hybrid approach is a promising\navenue for future applications.",
-            "link": "http://arxiv.org/pdf/2510.14140v1"
+            "authors": "John Alexander Cruz Morales",
+            "abstract": "Starting from Greg Moore's description about Physical Mathematics, a framework is proposed in order to understand it, based on Gilles Châtelet's philosophy. It will be argued that Châtelet's ideas of inverting, splitting, augmenting and virtuality are crucial in the discussion about the nature of Physical Mathematics. Along this line, it will be proposed that mirror symmetry is a natural study case to test Châtelet's ideas in this context. This should be considered as a first step in a long term project aiming to study the relations among mathematics, physics and philosophy in the construction of a global understanding of the structure of the universe, as it was envisioned by Grothendieck in the late 80's of the last century and it was started to be developed independently by Châtelet in the beginning of the 90's. The main suggestion of the essay is that it is in the relations between mathematics, physics and philosophy that new knowledge arises.",
+            "link": null
         },
         {
-            "title": "Can quantum dynamics emerge from classical chaos?",
+            "title": "FractalBench: Diagnosing Visual-Mathematical Reasoning Through Recursive Program Synthesis",
+            "year": "November 2025",
+            "date": "2025-11-09",
+            "authors": "Jan Ondras, Marek Šuppa",
+            "abstract": "Mathematical reasoning requires abstracting symbolic rules from visual patterns -- inferring the infinite from the finite. We investigate whether multimodal AI systems possess this capability through FractalBench, a benchmark evaluating fractal program synthesis from images. Fractals provide ideal test cases: Iterated Function Systems with only a few contraction maps generate complex self-similar patterns through simple recursive rules, requiring models to bridge visual perception with mathematical abstraction. We evaluate four leading MLLMs -- GPT-4o, Claude 3.7 Sonnet, Gemini 2.5 Flash, and Qwen 2.5-VL -- on 12 canonical fractals. Models must generate executable Python code reproducing the fractal, enabling objective evaluation. Results reveal a striking disconnect: 76% generate syntactically valid code but only 4% capture mathematical structure. Success varies systematically -- models handle geometric transformations (Koch curves: 17-21%) but fail at branching recursion (trees: <2%), revealing fundamental gaps in mathematical abstraction. FractalBench provides a contamination-resistant diagnostic for visual-mathematical reasoning and is available at https://github.com/NaiveNeuron/FractalBench",
+            "link": null
+        },
+        {
+            "title": "Mathematical exploration and discovery at scale",
+            "year": "November 2025",
+            "date": "2025-11-03",
+            "authors": "Bogdan Georgiev, Javier Gómez-Serrano, Terence Tao, Adam Zsolt Wagner",
+            "abstract": "AlphaEvolve is a generic evolutionary coding agent that combines the generative capabilities of LLMs with automated evaluation in an iterative evolutionary framework that proposes, tests, and refines algorithmic solutions to challenging scientific and practical problems. In this paper we showcase AlphaEvolve as a tool for autonomously discovering novel mathematical constructions and advancing our understanding of long-standing open problems.\n  To demonstrate its breadth, we considered a list of 67 problems spanning mathematical analysis, combinatorics, geometry, and number theory. The system rediscovered the best known solutions in most of the cases and discovered improved solutions in several. In some instances, AlphaEvolve is also able to generalize results for a finite number of input values into a formula valid for all input values. Furthermore, we are able to combine this methodology with Deep Think and AlphaProof in a broader framework where the additional proof-assistants and reasoning systems provide automated proof generation and further mathematical insights.\n  These results demonstrate that large language model-guided evolutionary search can autonomously discover mathematical constructions that complement human intuition, at times matching or even improving the best known results, highlighting the potential for significant new ways of interaction between mathematicians and AI systems. We present AlphaEvolve as a powerful new tool for mathematical discovery, capable of exploring vast search spaces to solve complex optimization problems at scale, often with significantly reduced requirements on preparation and computation time.",
+            "link": null
+        },
+        {
+            "title": "Multi-Method Analysis of Mathematics Placement Assessments: Classical, Machine Learning, and Clustering Approaches",
+            "year": "November 2025",
+            "date": "2025-11-06",
+            "authors": "Julian D. Allagan, Dasia A. Singleton, Shanae N. Perry, Gabrielle C. Morgan, Essence A. Morgan",
+            "abstract": "This study evaluates a 40-item mathematics placement examination administered to 198 students using a multi-method framework combining Classical Test Theory, machine learning, and unsupervised clustering. Classical Test Theory analysis reveals that 55\\% of items achieve excellent discrimination (\\(D \\geq 0.40\\)) while 30\\% demonstrate poor discrimination (\\(D < 0.20\\)) requiring replacement. Question 6 (Graph Interpretation) emerges as the examination's most powerful discriminator, achieving perfect discrimination (\\(D = 1.000\\)), highest ANOVA F-statistic (\\(F = 4609.1\\)), and maximum Random Forest feature importance (0.206), accounting for 20.6\\% of predictive power. Machine learning algorithms demonstrate exceptional performance, with Random Forest and Gradient Boosting achieving 97.5\\% and 96.0\\% cross-validation accuracy. K-means clustering identifies a natural binary competency structure with a boundary at 42.5\\%, diverging from the institutional threshold of 55\\% and suggesting potential overclassification into remedial categories. The two-cluster solution exhibits exceptional stability (bootstrap ARI = 0.855) with perfect lower-cluster purity. Convergent evidence across methods supports specific refinements: replace poorly discriminating items, implement a two-stage assessment, and integrate Random Forest predictions with transparency mechanisms. These findings demonstrate that multi-method integration provides a robust empirical foundation for evidence-based mathematics placement optimization.",
+            "link": null
+        },
+        {
+            "title": "I-RAVEN-X: Benchmarking Generalization and Robustness of Analogical and Mathematical Reasoning in Large Language and Reasoning Models",
             "year": "October 2025",
-            "date": "2025-10-29",
-            "authors": "Frédéric Faure",
-            "abstract": "Anosov geodesic flows are among the simplest mathematical models of\ndeterministic chaos. In this survey we explain how, quite unexpectedly, quantum\ndynamics emerges from purely classical correlation functions. The underlying\nmechanism is the discrete Pollicott Ruelle spectrum of the geodesic flow,\nrevealed through microlocal analysis. This spectrum naturally arranges into\nvertical bands; when the rightmost band is separated from the rest by a gap, it\ngoverns an effective dynamics that mirrors quantum evolution.",
-            "link": "http://arxiv.org/pdf/2510.25307v1"
+            "date": "2025-10-20",
+            "authors": "Giacomo Camposampiero, Michael Hersche, Roger Wattenhofer, Abu Sebastian, Abbas Rahimi",
+            "abstract": "We introduce I-RAVEN-X, a symbolic benchmark designed to evaluate generalization and robustness in analogical and mathematical reasoning for Large Language Models (LLMs) and Large Reasoning Models (LRMs). I-RAVEN-X extends I-RAVEN by increasing operand complexity, attribute range, and introducing perceptual uncertainty. Compared to LLMs, empirical results show that LRMs achieve improved productivity and systematicity on longer reasoning relations and wider attribute ranges, respectively. However, LRMs are still significantly challenged by reasoning under uncertainty and cannot effectively explore multiple probabilistic outcomes.",
+            "link": null
         }
     ],
     "last_year": [
         {
-            "title": "Predator Prey Scavenger Model using Holling's Functional Response of Type III and Physics-Informed Deep Neural Networks",
-            "year": "December 2024",
-            "date": "2024-12-24",
-            "authors": "Aneesh Panchal, Kirti Beniwal, Vivek Kumar",
-            "abstract": "Nonlinear mathematical models introduce the relation between various physical\nand biological interactions present in nature. One of the most famous models is\nthe Lotka-Volterra model which defined the interaction between predator and\nprey species present in nature. However, predators, scavengers, and prey\npopulations coexist in a natural system where scavengers can additionally rely\non the dead bodies of predators present in the system. Keeping this in mind,\nthe formulation and simulation of the predator prey scavenger model is\nintroduced in this paper. For the predation response, respective prey species\nare assumed to have Holling's functional response of type III. The proposed\nmodel is tested for various simulations and is found to be showing satisfactory\nresults in different scenarios. After simulations, the American forest dataset\nis taken for parameter estimation which imitates the real-world case. For\nparameter estimation, a physics-informed deep neural network is used with the\nAdam backpropagation method which prevents the avalanche effect in trainable\nparameters updation. For neural networks, mean square error and\nphysics-informed informed error are considered. After the neural network, the\nhence-found parameters are fine-tuned using the\nBroyden-Fletcher-Goldfarb-Shanno algorithm. Finally, the hence-found parameters\nusing a natural dataset are tested for stability using Jacobian stability\nanalysis. Future research work includes minimization of error induced by\nparameters, bifurcation analysis, and sensitivity analysis of the parameters.",
-            "link": "http://arxiv.org/pdf/2412.18344v1"
+            "title": "The Folding Mathematics",
+            "year": "March 2025",
+            "date": "2025-03-03",
+            "authors": "Archana S. Morye",
+            "abstract": "Origami is the art of paper folding, and it borrows its name from two Japanese words \\emph{ori} and \\emph{kami}. In Japanese, {ori} means folding, and the paper is called {kami}. While origami is just a hobby to most, there is a lot more to it. If you fold a square sheet of paper into any of the traditional origami model (for example the flapping bird) and unfold it, you can see crease patterns. These crease patterns tell us that there is a lot of geometry hidden behind the folds.\n  In this article, we investigate the symbiotic relationship between mathematics and origami. The first part of this article explores the utility of origami in education. We will see how origami could become an effective way of teaching methods of geometry, mainly because of its experiential nature. Complex origami patterns cannot be created out of thin air. They usually involve understanding deep mathematical theories and the ability to apply them to paper folding. In the second part of the article, we attempt to provide a glimpse of this beautiful connection between origami and mathematics.",
+            "link": null
         },
         {
-            "title": "Flow Matching for Probabilistic Learning of Dynamical Systems from Missing or Noisy Data",
-            "year": "August 2025",
-            "date": "2025-08-01",
-            "authors": "Siddharth Rout, Eldad Haber, Stephane Gaudreault",
-            "abstract": "Learning dynamical systems is crucial across many fields, yet applying\nmachine learning techniques remains challenging due to missing variables and\nnoisy data. Classical mathematical models often struggle in these scenarios due\nto the arose ill-posedness of the physical systems. Stochastic machine learning\ntechniques address this challenge by enabling the modeling of such ill-posed\nproblems. Thus, a single known input to the trained machine learning model may\nyield multiple plausible outputs, and all of the outputs are correct. In such\nscenarios, probabilistic forecasting is inherently meaningful. In this study,\nwe introduce a variant of flow matching for probabilistic forecasting which\nestimates possible future states as a distribution over possible outcomes\nrather than a single-point prediction. Perturbation of complex dynamical states\nis not trivial. Community uses typical Gaussian or uniform perturbations to\ncrucial variables to model uncertainty. However, not all variables behave in a\nGaussian fashion. So, we also propose a generative machine learning approach to\nphysically and logically perturb the states of complex high-dimensional\ndynamical systems. Finally, we establish the mathematical foundations of our\nmethod and demonstrate its effectiveness on several challenging dynamical\nsystems, including a variant of the high-dimensional WeatherBench dataset,\nwhich models the global weather at a 5.625{\\deg} meridional resolution.",
-            "link": "http://arxiv.org/pdf/2508.01101v1"
-        },
-        {
-            "title": "Generalization of the Painlevé Property and Existence and Uniqueness in Fractional Differential Equations",
-            "year": "November 2024",
-            "date": "2024-11-28",
-            "authors": "Michał Fiedorowicz",
-            "abstract": "In this paper, the Painlev\\'e property to fractional differential equations\n(FDEs) are extended and the existence and uniqueness theorems for both linear\nand nonlinear FDEs are established. The results contribute to the research of\nintegrability and solvability in the context of fractional calculus, which has\nsignificant implications in various fields such as physics, engineering, and\napplied sciences. By bridging the gap between pure mathematical theory and\npractical applications, this work provides a foundational understanding that\ncan be utilized in modeling phenomena exhibiting memory and hereditary\nproperties.",
-            "link": "http://arxiv.org/pdf/2411.19411v1"
-        },
-        {
-            "title": "ParallelFlow: Parallelizing Linear Transformers via Flow Discretization",
+            "title": "Decoding the Ishango Bone: Unveiling Prehistoric Mathematical Art",
             "year": "April 2025",
-            "date": "2025-04-01",
-            "authors": "Nicola Muca Cirone, Cristopher Salvi",
-            "abstract": "We present a theoretical framework for analyzing linear attention models\nthrough matrix-valued state space models (SSMs). Our approach, Parallel Flows,\nprovides a perspective that systematically decouples temporal dynamics from\nimplementation constraints, enabling independent analysis of critical\nalgorithmic components: chunking, parallelization, and information aggregation.\nCentral to this framework is the reinterpretation of chunking procedures as\ncomputations of the flows governing system dynamics. This connection\nestablishes a bridge to mathematical tools from rough path theory, opening the\ndoor to new insights into sequence modeling architectures. As a concrete\napplication, we analyze DeltaNet in a generalized low-rank setting motivated by\nrecent theoretical advances. Our methods allow us to design simple, streamlined\ngeneralizations of hardware-efficient algorithms present in the literature, and\nto provide completely different ones, inspired by rough paths techniques, with\nprovably lower complexity. This dual contribution demonstrates how principled\ntheoretical analysis can both explain existing practical methods and inspire\nfundamentally new computational approaches.",
-            "link": "http://arxiv.org/pdf/2504.00492v1"
+            "date": "2025-04-08",
+            "authors": "Jenny Baur",
+            "abstract": "The Ishango Bone, discovered in 1950 near the Semliki River in present-day Democratic Republic of Congo and dated to over 24,000 years ago, features a series of 16 grouped numerical notches arranged across three columns. The interpretation of these markings has long been debated, ranging from numerical intention to decorative symbolism. This study presents a newly identified structural pattern, uncovering four irregularities in the numerical groupings that, when resolved, reveal a consistent internal logic across all three columns. The analysis identifies repeating sums, dualistic pairing structures, and cross-column symmetry, pointing toward a deliberate and complex mathematical arrangement. These findings suggest the notches may have functioned as a form of reference system, potentially using stone markers for visual or narrative purposes. Hypotheses include links to cosmic cycles, mathematical instruction, or mythological integration. While interpretations remain speculative, this study argues for an interdisciplinary reevaluation of the Ishango Bone's significance in terms of mathematical, cultural, and cosmological understanding. It offers new insights into the symbolic thinking and cognitive capacities of prehistoric societies and challenges conventional assumptions about the origins of numeracy.",
+            "link": null
         },
         {
-            "title": "Koopman Theory-Inspired Method for Learning Time Advancement Operators in Unstable Flame Front Evolution",
-            "year": "December 2024",
-            "date": "2024-12-11",
-            "authors": "Rixin Yu, Marco Herbert, Markus Klein, Erdzan Hodzic",
-            "abstract": "Predicting the evolution of complex systems governed by partial differential\nequations (PDEs) remains challenging, especially for nonlinear, chaotic\nbehaviors. This study introduces Koopman-inspired Fourier Neural Operators\n(kFNO) and Convolutional Neural Networks (kCNN) to learn solution advancement\noperators for flame front instabilities. By transforming data into a\nhigh-dimensional latent space, these models achieve more accurate multi-step\npredictions compared to traditional methods. Benchmarking across one- and\ntwo-dimensional flame front scenarios demonstrates the proposed approaches'\nsuperior performance in short-term accuracy and long-term statistical\nreproduction, offering a promising framework for modeling complex dynamical\nsystems.",
-            "link": "http://arxiv.org/pdf/2412.08426v1"
+            "title": "Approximating Mathematical Constants using Minecraft",
+            "year": "November 2024",
+            "date": "2024-11-27",
+            "authors": "Molly Lynch, Michael Weselcouch",
+            "abstract": "In this article we will use Minecraft to experimentally approximate the values of four different mathematical constants. The mathematical constants that we will approximate are \\(\\sqrt{2}, π\\), Euler's number \\(e\\), and Apéry's constant \\(ζ(3)\\). We will begin each section with a brief history of the number being approximated and describe where it appears in mathematics. We then explain how we used Minecraft mechanics to approximate the constant. At the end of each section, we provide some ideas for how to apply our techniques to the approximation of other mathematical constants in Minecraft or elsewhere. This article is a proof of concept that Minecraft can be used in higher education. We should note that the goal of this article is not to have the most accurate approximations possible, the goal is to inspire people to have fun while learning about various mathematical topics. We hope you learn something new in this article and feel inspired to try some of these techniques on your own.",
+            "link": null
+        },
+        {
+            "title": "On Physical Mathematics: an approach through Gilles Châtelet's philosophy",
+            "year": "October 2025",
+            "date": "2025-10-15",
+            "authors": "John Alexander Cruz Morales",
+            "abstract": "Starting from Greg Moore's description about Physical Mathematics, a framework is proposed in order to understand it, based on Gilles Châtelet's philosophy. It will be argued that Châtelet's ideas of inverting, splitting, augmenting and virtuality are crucial in the discussion about the nature of Physical Mathematics. Along this line, it will be proposed that mirror symmetry is a natural study case to test Châtelet's ideas in this context. This should be considered as a first step in a long term project aiming to study the relations among mathematics, physics and philosophy in the construction of a global understanding of the structure of the universe, as it was envisioned by Grothendieck in the late 80's of the last century and it was started to be developed independently by Châtelet in the beginning of the 90's. The main suggestion of the essay is that it is in the relations between mathematics, physics and philosophy that new knowledge arises.",
+            "link": null
+        },
+        {
+            "title": "The Mathematical Theory of Behavioural Swarms: Towards Modelling the Collective Dynamics of Living Systems",
+            "year": "August 2025",
+            "date": "2025-08-16",
+            "authors": "Rene Fabregas, Jie Liao, Nisrine Outada",
+            "abstract": "Classical swarm models, exemplified by the Cucker--Smale framework, provide foundational insights into collective alignment but exhibit fundamental limitations in capturing the adaptive, heterogeneous behaviours intrinsic to living systems. This paper formalises the mathematical theory of \\textit{Behavioural Swarms}, a comprehensive framework where each particle's state incorporates a dynamic internal variable, the \\textit{activity} that co-evolves with position and velocity through nonlocal interactions. We demonstrate how this approach transcends prior models by integrating adaptive decision-making mechanisms and heterogeneous behavioural states into rigorous differential systems. Through applications in behavioural economics and crowd dynamics, we establish the theory's capacity to predict emergent macroscopic patterns from individual behavioural states. Our critical analysis positions this framework against kinetic theories of active particles and agent-based approaches, revealing distinct advantages for modelling systems where individual agency drives collective outcomes.",
+            "link": null
         }
     ],
     "last_5_years": [
         {
-            "title": "A mathematical perspective on Transformers",
-            "year": "December 2023",
-            "date": "2023-12-17",
-            "authors": "Borjan Geshkovski, Cyril Letrouit, Yury Polyanskiy, Philippe Rigollet",
-            "abstract": "Transformers play a central role in the inner workings of large language\nmodels. We develop a mathematical framework for analyzing Transformers based on\ntheir interpretation as interacting particle systems, which reveals that\nclusters emerge in long time. Our study explores the underlying theory and\noffers new perspectives for mathematicians as well as computer scientists.",
-            "link": "http://arxiv.org/pdf/2312.10794v5"
+            "title": "The Modern Mathematics of Deep Learning",
+            "year": "May 2021",
+            "date": "2021-05-09",
+            "authors": "Julius Berner, Philipp Grohs, Gitta Kutyniok, Philipp Petersen",
+            "abstract": "We describe the new field of mathematical analysis of deep learning. This field emerged around a list of research questions that were not answered within the classical framework of learning theory. These questions concern: the outstanding generalization power of overparametrized neural networks, the role of depth in deep architectures, the apparent absence of the curse of dimensionality, the surprisingly successful optimization performance despite the non-convexity of the problem, understanding what features are learned, why deep architectures perform exceptionally well in physical problems, and which fine aspects of an architecture affect the behavior of a learning task in which way. We present an overview of modern approaches that yield partial answers to these questions. For selected approaches, we describe the main ideas in more detail.",
+            "link": null
         },
         {
-            "title": "Coupled and Uncoupled Dynamic Mode Decomposition in Multi-Compartmental Systems with Applications to Epidemiological and Additive Manufacturing Problems",
-            "year": "October 2021",
-            "date": "2021-10-12",
-            "authors": "Alex Viguerie, Gabriel F. Barros, Malú Grave, Alessandro Reali, Alvaro L. G. A. Coutinho",
-            "abstract": "Dynamic Mode Decomposition (DMD) is an unsupervised machine learning method\nthat has attracted considerable attention in recent years owing to its\nequation-free structure, ability to easily identify coherent spatio-temporal\nstructures in data, and effectiveness in providing reasonably accurate\npredictions for certain problems. Despite these successes, the application of\nDMD to certain problems featuring highly nonlinear transient dynamics remains\nchallenging. In such cases, DMD may not only fail to provide acceptable\npredictions but may indeed fail to recreate the data in which it was trained,\nrestricting its application to diagnostic purposes. For many problems in the\nbiological and physical sciences, the structure of the system obeys a\ncompartmental framework, in which the transfer of mass within the system moves\nwithin states. In these cases, the behavior of the system may not be accurately\nrecreated by applying DMD to a single quantity within the system, as proper\nknowledge of the system dynamics, even for a single compartment, requires that\nthe behavior of other compartments is taken into account in the DMD process. In\nthis work, we demonstrate, theoretically and numerically, that, when performing\nDMD on a fully coupled PDE system with compartmental structure, one may recover\nuseful predictive behavior, even when DMD performs poorly when acting\ncompartment-wise. We also establish that important physical quantities, as mass\nconservation, are maintained in the coupled-DMD extrapolation. The mathematical\nand numerical analysis suggests that DMD may be a powerful tool when applied to\nthis common class of problems. In particular, we show interesting numerical\napplications to a continuous delayed-SIRD model for Covid-19, and to a problem\nfrom additive manufacturing considering a nonlinear temperature field and the\nresulting change of material phase from powder, liquid, and solid states.",
-            "link": "http://arxiv.org/pdf/2110.06375v1"
+            "title": "The Folding Mathematics",
+            "year": "March 2025",
+            "date": "2025-03-03",
+            "authors": "Archana S. Morye",
+            "abstract": "Origami is the art of paper folding, and it borrows its name from two Japanese words \\emph{ori} and \\emph{kami}. In Japanese, {ori} means folding, and the paper is called {kami}. While origami is just a hobby to most, there is a lot more to it. If you fold a square sheet of paper into any of the traditional origami model (for example the flapping bird) and unfold it, you can see crease patterns. These crease patterns tell us that there is a lot of geometry hidden behind the folds.\n  In this article, we investigate the symbiotic relationship between mathematics and origami. The first part of this article explores the utility of origami in education. We will see how origami could become an effective way of teaching methods of geometry, mainly because of its experiential nature. Complex origami patterns cannot be created out of thin air. They usually involve understanding deep mathematical theories and the ability to apply them to paper folding. In the second part of the article, we attempt to provide a glimpse of this beautiful connection between origami and mathematics.",
+            "link": null
         },
         {
-            "title": "Some open problems in low dimensional dynamical systems",
-            "year": "December 2020",
-            "date": "2020-12-04",
-            "authors": "Armengol Gasull",
-            "abstract": "The aim of this paper is to share with the mathematical community a list of\n33 problems that I have found along the years during my research. I believe\nthat it is worth to think about them and, hopefully, it will be possible either\nto solve some of the problems or to make some substantial progress. Many of\nthem are about planar differential equations but there are also questions about\nother mathematical aspects: Abel differential equations, difference equations,\nglobal asymptotic stability, geometrical questions, problems involving\npolynomials or some recreational problems with a dynamical component.",
-            "link": "http://arxiv.org/pdf/2012.02524v1"
+            "title": "Points of convergence -- music meets mathematics",
+            "year": "September 2023",
+            "date": "2023-09-12",
+            "authors": "Lasse Rempe",
+            "abstract": "\"Phase-locking\" is a fundamental phenomenon in which coupled or periodically forced oscillators synchronise. The Arnold family of circle maps, which describes a forced oscillator, is the simplest mathematical model of phase-locking and has been studied intensively since its introduction in the 1960s. The family exhibits regions of parameter space where phase-locking phenomena can be observed. A long-standing question asked whether \"hyperbolic\" parameters~-- those whose behaviour is dominated by periodic attractors, and which are therefore stable under perturbation~-- are dense within the family. A positive answer was given in 2015 by van Strien and the author, which implies that, no matter how chaotic a map within the family may behave, there are always systems with stable behaviour nearby. This research was a focal point of a pioneering collaboration with composer Emily Howard, commencing with Howard's residency in Liverpool's mathematics department in 2015. The collaboration generated impacts on creativity, culture and society, including several musical works by Howard, and lasting influence on artistic practice through a first-of-its-kind centre for science and music. We describe the research and the collaboration, and reflect on the factors that contributed to the latter's success.",
+            "link": null
         },
         {
-            "title": "On Neural Differential Equations",
-            "year": "February 2022",
-            "date": "2022-02-04",
-            "authors": "Patrick Kidger",
-            "abstract": "The conjoining of dynamical systems and deep learning has become a topic of\ngreat interest. In particular, neural differential equations (NDEs) demonstrate\nthat neural networks and differential equation are two sides of the same coin.\nTraditional parameterised differential equations are a special case. Many\npopular neural network architectures, such as residual networks and recurrent\nnetworks, are discretisations.\n  NDEs are suitable for tackling generative problems, dynamical systems, and\ntime series (particularly in physics, finance, ...) and are thus of interest to\nboth modern machine learning and traditional mathematical modelling. NDEs offer\nhigh-capacity function approximation, strong priors on model space, the ability\nto handle irregular data, memory efficiency, and a wealth of available theory\non both sides.\n  This doctoral thesis provides an in-depth survey of the field.\n  Topics include: neural ordinary differential equations (e.g. for hybrid\nneural/mechanistic modelling of physical systems); neural controlled\ndifferential equations (e.g. for learning functions of irregular time series);\nand neural stochastic differential equations (e.g. to produce generative models\ncapable of representing complex stochastic dynamics, or sampling from complex\nhigh-dimensional distributions).\n  Further topics include: numerical methods for NDEs (e.g. reversible\ndifferential equations solvers, backpropagation through differential equations,\nBrownian reconstruction); symbolic regression for dynamical systems (e.g. via\nregularised evolution); and deep implicit models (e.g. deep equilibrium models,\ndifferentiable optimisation).\n  We anticipate this thesis will be of interest to anyone interested in the\nmarriage of deep learning with dynamical systems, and hope it will provide a\nuseful reference for the current state of the art.",
-            "link": "http://arxiv.org/pdf/2202.02435v1"
+            "title": "Machine-Learning Mathematical Structures",
+            "year": "January 2021",
+            "date": "2021-01-15",
+            "authors": "Yang-Hui He",
+            "abstract": "We review, for a general audience, a variety of recent experiments on extracting structure from machine-learning mathematical data that have been compiled over the years. Focusing on supervised machine-learning on labeled data from different fields ranging from geometry to representation theory, from combinatorics to number theory, we present a comparative study of the accuracies on different problems. The paradigm should be useful for conjecture formulation, finding more efficient methods of computation, as well as probing into certain hierarchy of structures in mathematics.",
+            "link": null
         },
         {
-            "title": "Scalable algorithms for physics-informed neural and graph networks",
-            "year": "May 2022",
-            "date": "2022-05-16",
-            "authors": "Khemraj Shukla, Mengjia Xu, Nathaniel Trask, George Em Karniadakis",
-            "abstract": "Physics-informed machine learning (PIML) has emerged as a promising new\napproach for simulating complex physical and biological systems that are\ngoverned by complex multiscale processes for which some data are also\navailable. In some instances, the objective is to discover part of the hidden\nphysics from the available data, and PIML has been shown to be particularly\neffective for such problems for which conventional methods may fail. Unlike\ncommercial machine learning where training of deep neural networks requires big\ndata, in PIML big data are not available. Instead, we can train such networks\nfrom additional information obtained by employing the physical laws and\nevaluating them at random points in the space-time domain. Such\nphysics-informed machine learning integrates multimodality and multifidelity\ndata with mathematical models, and implements them using neural networks or\ngraph networks. Here, we review some of the prevailing trends in embedding\nphysics into machine learning, using physics-informed neural networks (PINNs)\nbased primarily on feed-forward neural networks and automatic differentiation.\nFor more complex systems or systems of systems and unstructured data, graph\nneural networks (GNNs) present some distinct advantages, and here we review how\nphysics-informed learning can be accomplished with GNNs based on graph exterior\ncalculus to construct differential operators; we refer to these architectures\nas physics-informed graph networks (PIGNs). We present representative examples\nfor both forward and inverse problems and discuss what advances are needed to\nscale up PINNs, PIGNs and more broadly GNNs for large-scale engineering\nproblems.",
-            "link": "http://arxiv.org/pdf/2205.08332v1"
+            "title": "Constructive mathematics and teaching",
+            "year": "May 2023",
+            "date": "2023-05-31",
+            "authors": "Alexander Shen",
+            "abstract": "Constructivists (and intuitionists in general) asked what kind of mental construction is needed to convince ourselves (and others) that some mathematical statement is true. This question has a much more practical (and even cynical) counterpart: a student of a mathematics class wants to know what will the teacher accept as a correct solution of a homework problem. Here the logical structure of the claim is also very important, and we discuss several types of problems and their use in teaching mathematics.",
+            "link": null
         }
     ],
     "all_time": [
         {
-            "title": "A Model of Blood Flow in a Circulation Network",
-            "year": "October 2002",
-            "date": "2002-10-26",
-            "authors": "Weihua Ruan, M. E. Clark, Meide Zhao, Anthony Curcio",
-            "abstract": "We study a mathematical model of a blood circulation network which is a\ngeneralization of the coronary model proposed by Smith, Pullan and Hunter. We\nprove the existence and uniqueness of the solution to the initial-boundary\nvalue problem and discuss the continuity of dependence of the solution and its\nderivatives on initial, boundary and forcing functions and their derivatives.",
-            "link": "http://arxiv.org/pdf/math/0210410v1"
+            "title": "Developing a 21st Century Global Library for Mathematics Research",
+            "year": "April 2014",
+            "date": "2014-04-04",
+            "authors": "Committee on Planning a Global Library of the Mathematical Sciences",
+            "abstract": "Developing a 21st Century Global Library for Mathematics Research discusses how information about what the mathematical literature contains can be formalized and made easier to express, encode, and explore. Many of the tools necessary to make this information system a reality will require much more than indexing and will instead depend on community input paired with machine learning, where mathematicians' expertise can fill the gaps of automatization. This report proposes the establishment of an organization; the development of a set of platforms, tools, and services; the deployment of an ongoing applied research program to complement the development work; and the mobilization and coordination of the mathematical community to take the first steps toward these capabilities. The report recommends building on the extensive work done by many dedicated individuals under the rubric of the World Digital Mathematical Library, as well as many other community initiatives. Developing a 21st Century Global Library for Mathematics envisions a combination of machine learning methods and community-based editorial effort that makes a significantly greater portion of the information and knowledge in the global mathematical corpus available to researchers as linked open data through a central organizational entity-referred to in the report as the Digital Mathematics Library. This report describes how such a library might operate - discussing development and research needs, role in facilitating discover and interaction, and establishing partnerships with publishers.",
+            "link": null
         },
         {
-            "title": "Modeling the influence of TH1 and TH2 type cells in autoimmune diseases",
-            "year": "June 2000",
-            "date": "2000-06-19",
-            "authors": "Y. Louzoun, H. Atlan, I. R. Cohen",
-            "abstract": "A sharp TH1/TH2 dichotomy has often been used to define the effects of\ncytokines on autoimmune diseases. However contradictory results in recent\nresearch indicate that the situation may be more complex. We build here a\nsimple mathematical model aimed at settling the contradictions. The model is\nbased on a neural network paradigm, and is applied using Partial Differential\nEquations (PDE). We show here that a TH1/TH2 paradigm is only an external view\nof a complex multivariate system.",
-            "link": "http://arxiv.org/pdf/math/0006127v1"
+            "title": "Idempotent and tropical mathematics and problems of mathematical physics (Volume I)",
+            "year": "October 2007",
+            "date": "2007-10-01",
+            "authors": "Grigory Litvinov, Victor Maslov, Sergei Sergeev",
+            "abstract": "This volume contains the proceedings of an International Workshop on Idempotent and Tropical Mathematics and Problems of Mathematical Physics, held at the Independent University of Moscow, Russia, on August 25-30, 2007.",
+            "link": null
         },
         {
-            "title": "Gain-induced oscillations in blood pressure",
-            "year": "August 1997",
-            "date": "1997-08-16",
-            "authors": "Roselyn M. Abbiw-Jackson, William Langford",
-            "abstract": "\"Mayer waves\" are long-period (6 to 12 seconds) oscillations in arterial\nblood pressure, which have been observed and studied for more than 100 years in\nthe cardiovascular system of humans and other mammals. A mathematical model of\nthe human cardiovascular system is presented, incorporating parameters\nrelevantto the onset of Mayer waves. The model is analyzed using methods of\nLyapunov stability and Hopf bifurcation theory. The analysis shows that\nincrease in the gain of the baroreflex feedback loop controlling venous volume\nmay lead to the onset of oscillations, while changes in the other parameters\nconsidered do not affect stability of the equilibrium state. The results agree\nwith clinical observations of Mayer waves in human subjects, both in the period\nof the oscillations and in the observed age-dependence of Mayer waves. This\nleads to a proposed explanation of their occurrence, namely that Mayer waves\nare a \"gain-induced instability\".",
-            "link": "http://arxiv.org/pdf/math/9708211v1"
+            "title": "Idempotent and tropical mathematics and problems of mathematical physics (Volume II)",
+            "year": "September 2007",
+            "date": "2007-09-26",
+            "authors": "Grigory Litvinov, Victor Maslov, Sergei Sergeev",
+            "abstract": "This volume contains the proceedings of an International Workshop on Idempotent and Tropical Mathematics and Problems of Mathematical Physics, held at the Independent University of Moscow, Russia, on August 25-30, 2007.",
+            "link": null
         },
         {
-            "title": "Rhythms of the nervous system: mathematical themes and variations",
-            "year": "May 2003",
-            "date": "2003-05-01",
-            "authors": "Nancy Kopell",
-            "abstract": "The nervous system displays a variety of rhythms in both waking and sleep.\nThese rhythms have been closely associated with different behavioral and\ncognitive states, but it is still unknown how the nervous system makes use of\nthese rhythms to perform functionally important tasks. To address those\nquestions, it is first useful to understood in a mechanistic way the origin of\nthe rhythms, their interactions, the signals which create the transitions among\nrhythms, and the ways in which rhythms filter the signals to a network of\nneurons. This talk discusses how dynamical systems have been used to\ninvestigate the origin, properties and interactions of rhythms in the nervous\nsystem. It focuses on how the underlying physiology of the cells and synapses\nof the networks shape the dynamics of the network in different contexts,\nallowing the variety of dynamical behaviors to be displayed by the same\nnetwork. The work is presented using a series of related case studies on\ndifferent rhythms. These case studies are chosen to highlight mathematical\nissues, and suggest further mathematical work to be done. The topics include:\ndifferent roles of excitation and inhibition in creating synchronous assemblies\nof cells, different kinds of building blocks for neural oscillations, and\ntransitions among rhythms. The mathematical issues include reduction of large\nnetworks to low dimensional maps, role of noise, global bifurcations, use of\nprobabilistic formulations.",
-            "link": "http://arxiv.org/pdf/math/0305013v1"
+            "title": "The Modern Mathematics of Deep Learning",
+            "year": "May 2021",
+            "date": "2021-05-09",
+            "authors": "Julius Berner, Philipp Grohs, Gitta Kutyniok, Philipp Petersen",
+            "abstract": "We describe the new field of mathematical analysis of deep learning. This field emerged around a list of research questions that were not answered within the classical framework of learning theory. These questions concern: the outstanding generalization power of overparametrized neural networks, the role of depth in deep architectures, the apparent absence of the curse of dimensionality, the surprisingly successful optimization performance despite the non-convexity of the problem, understanding what features are learned, why deep architectures perform exceptionally well in physical problems, and which fine aspects of an architecture affect the behavior of a learning task in which way. We present an overview of modern approaches that yield partial answers to these questions. For selected approaches, we describe the main ideas in more detail.",
+            "link": null
         },
         {
-            "title": "Multiple Equilibria for an SIRS Epidemiological System",
-            "year": "January 2001",
-            "date": "2001-01-07",
-            "authors": "M. R. Razvan",
-            "abstract": "An SIRS type model of disease transmission in an open environment is\ndiscussed. We use the Poincar\\'{e} index together with a perturbation method to\nshow that the endemic proportions need not be unique.",
-            "link": "http://arxiv.org/pdf/math/0101051v1"
+            "title": "The Folding Mathematics",
+            "year": "March 2025",
+            "date": "2025-03-03",
+            "authors": "Archana S. Morye",
+            "abstract": "Origami is the art of paper folding, and it borrows its name from two Japanese words \\emph{ori} and \\emph{kami}. In Japanese, {ori} means folding, and the paper is called {kami}. While origami is just a hobby to most, there is a lot more to it. If you fold a square sheet of paper into any of the traditional origami model (for example the flapping bird) and unfold it, you can see crease patterns. These crease patterns tell us that there is a lot of geometry hidden behind the folds.\n  In this article, we investigate the symbiotic relationship between mathematics and origami. The first part of this article explores the utility of origami in education. We will see how origami could become an effective way of teaching methods of geometry, mainly because of its experiential nature. Complex origami patterns cannot be created out of thin air. They usually involve understanding deep mathematical theories and the ability to apply them to paper folding. In the second part of the article, we attempt to provide a glimpse of this beautiful connection between origami and mathematics.",
+            "link": null
         }
     ]
 }
