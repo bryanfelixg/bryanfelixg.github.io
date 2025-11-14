@@ -6,7 +6,7 @@
             "date": "2025-10-15",
             "authors": "John Alexander Cruz Morales",
             "abstract": "Starting from Greg Moore's description about Physical Mathematics, a framework is proposed in order to understand it, based on Gilles Châtelet's philosophy. It will be argued that Châtelet's ideas of inverting, splitting, augmenting and virtuality are crucial in the discussion about the nature of Physical Mathematics. Along this line, it will be proposed that mirror symmetry is a natural study case to test Châtelet's ideas in this context. This should be considered as a first step in a long term project aiming to study the relations among mathematics, physics and philosophy in the construction of a global understanding of the structure of the universe, as it was envisioned by Grothendieck in the late 80's of the last century and it was started to be developed independently by Châtelet in the beginning of the 90's. The main suggestion of the essay is that it is in the relations between mathematics, physics and philosophy that new knowledge arises.",
-            "link": null
+            "link": "https://arxiv.org/pdf/2510.13125v1"
         },
         {
             "title": "FractalBench: Diagnosing Visual-Mathematical Reasoning Through Recursive Program Synthesis",
@@ -14,7 +14,7 @@
             "date": "2025-11-09",
             "authors": "Jan Ondras, Marek Šuppa",
             "abstract": "Mathematical reasoning requires abstracting symbolic rules from visual patterns -- inferring the infinite from the finite. We investigate whether multimodal AI systems possess this capability through FractalBench, a benchmark evaluating fractal program synthesis from images. Fractals provide ideal test cases: Iterated Function Systems with only a few contraction maps generate complex self-similar patterns through simple recursive rules, requiring models to bridge visual perception with mathematical abstraction. We evaluate four leading MLLMs -- GPT-4o, Claude 3.7 Sonnet, Gemini 2.5 Flash, and Qwen 2.5-VL -- on 12 canonical fractals. Models must generate executable Python code reproducing the fractal, enabling objective evaluation. Results reveal a striking disconnect: 76% generate syntactically valid code but only 4% capture mathematical structure. Success varies systematically -- models handle geometric transformations (Koch curves: 17-21%) but fail at branching recursion (trees: <2%), revealing fundamental gaps in mathematical abstraction. FractalBench provides a contamination-resistant diagnostic for visual-mathematical reasoning and is available at https://github.com/NaiveNeuron/FractalBench",
-            "link": null
+            "link": "https://arxiv.org/pdf/2511.06522v1"
         },
         {
             "title": "Mathematical exploration and discovery at scale",
@@ -22,7 +22,7 @@
             "date": "2025-11-03",
             "authors": "Bogdan Georgiev, Javier Gómez-Serrano, Terence Tao, Adam Zsolt Wagner",
             "abstract": "AlphaEvolve is a generic evolutionary coding agent that combines the generative capabilities of LLMs with automated evaluation in an iterative evolutionary framework that proposes, tests, and refines algorithmic solutions to challenging scientific and practical problems. In this paper we showcase AlphaEvolve as a tool for autonomously discovering novel mathematical constructions and advancing our understanding of long-standing open problems.\n  To demonstrate its breadth, we considered a list of 67 problems spanning mathematical analysis, combinatorics, geometry, and number theory. The system rediscovered the best known solutions in most of the cases and discovered improved solutions in several. In some instances, AlphaEvolve is also able to generalize results for a finite number of input values into a formula valid for all input values. Furthermore, we are able to combine this methodology with Deep Think and AlphaProof in a broader framework where the additional proof-assistants and reasoning systems provide automated proof generation and further mathematical insights.\n  These results demonstrate that large language model-guided evolutionary search can autonomously discover mathematical constructions that complement human intuition, at times matching or even improving the best known results, highlighting the potential for significant new ways of interaction between mathematicians and AI systems. We present AlphaEvolve as a powerful new tool for mathematical discovery, capable of exploring vast search spaces to solve complex optimization problems at scale, often with significantly reduced requirements on preparation and computation time.",
-            "link": null
+            "link": "https://arxiv.org/pdf/2511.02864v1"
         },
         {
             "title": "Multi-Method Analysis of Mathematics Placement Assessments: Classical, Machine Learning, and Clustering Approaches",
@@ -30,7 +30,7 @@
             "date": "2025-11-06",
             "authors": "Julian D. Allagan, Dasia A. Singleton, Shanae N. Perry, Gabrielle C. Morgan, Essence A. Morgan",
             "abstract": "This study evaluates a 40-item mathematics placement examination administered to 198 students using a multi-method framework combining Classical Test Theory, machine learning, and unsupervised clustering. Classical Test Theory analysis reveals that 55\\% of items achieve excellent discrimination (\\(D \\geq 0.40\\)) while 30\\% demonstrate poor discrimination (\\(D < 0.20\\)) requiring replacement. Question 6 (Graph Interpretation) emerges as the examination's most powerful discriminator, achieving perfect discrimination (\\(D = 1.000\\)), highest ANOVA F-statistic (\\(F = 4609.1\\)), and maximum Random Forest feature importance (0.206), accounting for 20.6\\% of predictive power. Machine learning algorithms demonstrate exceptional performance, with Random Forest and Gradient Boosting achieving 97.5\\% and 96.0\\% cross-validation accuracy. K-means clustering identifies a natural binary competency structure with a boundary at 42.5\\%, diverging from the institutional threshold of 55\\% and suggesting potential overclassification into remedial categories. The two-cluster solution exhibits exceptional stability (bootstrap ARI = 0.855) with perfect lower-cluster purity. Convergent evidence across methods supports specific refinements: replace poorly discriminating items, implement a two-stage assessment, and integrate Random Forest predictions with transparency mechanisms. These findings demonstrate that multi-method integration provides a robust empirical foundation for evidence-based mathematics placement optimization.",
-            "link": null
+            "link": "https://arxiv.org/pdf/2511.04667v1"
         },
         {
             "title": "I-RAVEN-X: Benchmarking Generalization and Robustness of Analogical and Mathematical Reasoning in Large Language and Reasoning Models",
@@ -38,7 +38,7 @@
             "date": "2025-10-20",
             "authors": "Giacomo Camposampiero, Michael Hersche, Roger Wattenhofer, Abu Sebastian, Abbas Rahimi",
             "abstract": "We introduce I-RAVEN-X, a symbolic benchmark designed to evaluate generalization and robustness in analogical and mathematical reasoning for Large Language Models (LLMs) and Large Reasoning Models (LRMs). I-RAVEN-X extends I-RAVEN by increasing operand complexity, attribute range, and introducing perceptual uncertainty. Compared to LLMs, empirical results show that LRMs achieve improved productivity and systematicity on longer reasoning relations and wider attribute ranges, respectively. However, LRMs are still significantly challenged by reasoning under uncertainty and cannot effectively explore multiple probabilistic outcomes.",
-            "link": null
+            "link": "https://arxiv.org/pdf/2510.17496v2"
         }
     ],
     "last_year": [
@@ -48,7 +48,7 @@
             "date": "2025-03-03",
             "authors": "Archana S. Morye",
             "abstract": "Origami is the art of paper folding, and it borrows its name from two Japanese words \\emph{ori} and \\emph{kami}. In Japanese, {ori} means folding, and the paper is called {kami}. While origami is just a hobby to most, there is a lot more to it. If you fold a square sheet of paper into any of the traditional origami model (for example the flapping bird) and unfold it, you can see crease patterns. These crease patterns tell us that there is a lot of geometry hidden behind the folds.\n  In this article, we investigate the symbiotic relationship between mathematics and origami. The first part of this article explores the utility of origami in education. We will see how origami could become an effective way of teaching methods of geometry, mainly because of its experiential nature. Complex origami patterns cannot be created out of thin air. They usually involve understanding deep mathematical theories and the ability to apply them to paper folding. In the second part of the article, we attempt to provide a glimpse of this beautiful connection between origami and mathematics.",
-            "link": null
+            "link": "https://arxiv.org/pdf/2503.11679v1"
         },
         {
             "title": "Decoding the Ishango Bone: Unveiling Prehistoric Mathematical Art",
@@ -56,7 +56,7 @@
             "date": "2025-04-08",
             "authors": "Jenny Baur",
             "abstract": "The Ishango Bone, discovered in 1950 near the Semliki River in present-day Democratic Republic of Congo and dated to over 24,000 years ago, features a series of 16 grouped numerical notches arranged across three columns. The interpretation of these markings has long been debated, ranging from numerical intention to decorative symbolism. This study presents a newly identified structural pattern, uncovering four irregularities in the numerical groupings that, when resolved, reveal a consistent internal logic across all three columns. The analysis identifies repeating sums, dualistic pairing structures, and cross-column symmetry, pointing toward a deliberate and complex mathematical arrangement. These findings suggest the notches may have functioned as a form of reference system, potentially using stone markers for visual or narrative purposes. Hypotheses include links to cosmic cycles, mathematical instruction, or mythological integration. While interpretations remain speculative, this study argues for an interdisciplinary reevaluation of the Ishango Bone's significance in terms of mathematical, cultural, and cosmological understanding. It offers new insights into the symbolic thinking and cognitive capacities of prehistoric societies and challenges conventional assumptions about the origins of numeracy.",
-            "link": null
+            "link": "https://arxiv.org/pdf/2504.06412v2"
         },
         {
             "title": "Approximating Mathematical Constants using Minecraft",
@@ -64,7 +64,7 @@
             "date": "2024-11-27",
             "authors": "Molly Lynch, Michael Weselcouch",
             "abstract": "In this article we will use Minecraft to experimentally approximate the values of four different mathematical constants. The mathematical constants that we will approximate are \\(\\sqrt{2}, π\\), Euler's number \\(e\\), and Apéry's constant \\(ζ(3)\\). We will begin each section with a brief history of the number being approximated and describe where it appears in mathematics. We then explain how we used Minecraft mechanics to approximate the constant. At the end of each section, we provide some ideas for how to apply our techniques to the approximation of other mathematical constants in Minecraft or elsewhere. This article is a proof of concept that Minecraft can be used in higher education. We should note that the goal of this article is not to have the most accurate approximations possible, the goal is to inspire people to have fun while learning about various mathematical topics. We hope you learn something new in this article and feel inspired to try some of these techniques on your own.",
-            "link": null
+            "link": "https://arxiv.org/pdf/2411.18464v1"
         },
         {
             "title": "On Physical Mathematics: an approach through Gilles Châtelet's philosophy",
@@ -72,7 +72,7 @@
             "date": "2025-10-15",
             "authors": "John Alexander Cruz Morales",
             "abstract": "Starting from Greg Moore's description about Physical Mathematics, a framework is proposed in order to understand it, based on Gilles Châtelet's philosophy. It will be argued that Châtelet's ideas of inverting, splitting, augmenting and virtuality are crucial in the discussion about the nature of Physical Mathematics. Along this line, it will be proposed that mirror symmetry is a natural study case to test Châtelet's ideas in this context. This should be considered as a first step in a long term project aiming to study the relations among mathematics, physics and philosophy in the construction of a global understanding of the structure of the universe, as it was envisioned by Grothendieck in the late 80's of the last century and it was started to be developed independently by Châtelet in the beginning of the 90's. The main suggestion of the essay is that it is in the relations between mathematics, physics and philosophy that new knowledge arises.",
-            "link": null
+            "link": "https://arxiv.org/pdf/2510.13125v1"
         },
         {
             "title": "The Mathematical Theory of Behavioural Swarms: Towards Modelling the Collective Dynamics of Living Systems",
@@ -80,7 +80,7 @@
             "date": "2025-08-16",
             "authors": "Rene Fabregas, Jie Liao, Nisrine Outada",
             "abstract": "Classical swarm models, exemplified by the Cucker--Smale framework, provide foundational insights into collective alignment but exhibit fundamental limitations in capturing the adaptive, heterogeneous behaviours intrinsic to living systems. This paper formalises the mathematical theory of \\textit{Behavioural Swarms}, a comprehensive framework where each particle's state incorporates a dynamic internal variable, the \\textit{activity} that co-evolves with position and velocity through nonlocal interactions. We demonstrate how this approach transcends prior models by integrating adaptive decision-making mechanisms and heterogeneous behavioural states into rigorous differential systems. Through applications in behavioural economics and crowd dynamics, we establish the theory's capacity to predict emergent macroscopic patterns from individual behavioural states. Our critical analysis positions this framework against kinetic theories of active particles and agent-based approaches, revealing distinct advantages for modelling systems where individual agency drives collective outcomes.",
-            "link": null
+            "link": "https://arxiv.org/pdf/2508.12183v2"
         }
     ],
     "last_5_years": [
@@ -90,7 +90,7 @@
             "date": "2021-05-09",
             "authors": "Julius Berner, Philipp Grohs, Gitta Kutyniok, Philipp Petersen",
             "abstract": "We describe the new field of mathematical analysis of deep learning. This field emerged around a list of research questions that were not answered within the classical framework of learning theory. These questions concern: the outstanding generalization power of overparametrized neural networks, the role of depth in deep architectures, the apparent absence of the curse of dimensionality, the surprisingly successful optimization performance despite the non-convexity of the problem, understanding what features are learned, why deep architectures perform exceptionally well in physical problems, and which fine aspects of an architecture affect the behavior of a learning task in which way. We present an overview of modern approaches that yield partial answers to these questions. For selected approaches, we describe the main ideas in more detail.",
-            "link": null
+            "link": "https://arxiv.org/pdf/2105.04026v2"
         },
         {
             "title": "The Folding Mathematics",
@@ -98,7 +98,7 @@
             "date": "2025-03-03",
             "authors": "Archana S. Morye",
             "abstract": "Origami is the art of paper folding, and it borrows its name from two Japanese words \\emph{ori} and \\emph{kami}. In Japanese, {ori} means folding, and the paper is called {kami}. While origami is just a hobby to most, there is a lot more to it. If you fold a square sheet of paper into any of the traditional origami model (for example the flapping bird) and unfold it, you can see crease patterns. These crease patterns tell us that there is a lot of geometry hidden behind the folds.\n  In this article, we investigate the symbiotic relationship between mathematics and origami. The first part of this article explores the utility of origami in education. We will see how origami could become an effective way of teaching methods of geometry, mainly because of its experiential nature. Complex origami patterns cannot be created out of thin air. They usually involve understanding deep mathematical theories and the ability to apply them to paper folding. In the second part of the article, we attempt to provide a glimpse of this beautiful connection between origami and mathematics.",
-            "link": null
+            "link": "https://arxiv.org/pdf/2503.11679v1"
         },
         {
             "title": "Points of convergence -- music meets mathematics",
@@ -106,7 +106,7 @@
             "date": "2023-09-12",
             "authors": "Lasse Rempe",
             "abstract": "\"Phase-locking\" is a fundamental phenomenon in which coupled or periodically forced oscillators synchronise. The Arnold family of circle maps, which describes a forced oscillator, is the simplest mathematical model of phase-locking and has been studied intensively since its introduction in the 1960s. The family exhibits regions of parameter space where phase-locking phenomena can be observed. A long-standing question asked whether \"hyperbolic\" parameters~-- those whose behaviour is dominated by periodic attractors, and which are therefore stable under perturbation~-- are dense within the family. A positive answer was given in 2015 by van Strien and the author, which implies that, no matter how chaotic a map within the family may behave, there are always systems with stable behaviour nearby. This research was a focal point of a pioneering collaboration with composer Emily Howard, commencing with Howard's residency in Liverpool's mathematics department in 2015. The collaboration generated impacts on creativity, culture and society, including several musical works by Howard, and lasting influence on artistic practice through a first-of-its-kind centre for science and music. We describe the research and the collaboration, and reflect on the factors that contributed to the latter's success.",
-            "link": null
+            "link": "https://arxiv.org/pdf/2309.06595v1"
         },
         {
             "title": "Machine-Learning Mathematical Structures",
@@ -114,15 +114,15 @@
             "date": "2021-01-15",
             "authors": "Yang-Hui He",
             "abstract": "We review, for a general audience, a variety of recent experiments on extracting structure from machine-learning mathematical data that have been compiled over the years. Focusing on supervised machine-learning on labeled data from different fields ranging from geometry to representation theory, from combinatorics to number theory, we present a comparative study of the accuracies on different problems. The paradigm should be useful for conjecture formulation, finding more efficient methods of computation, as well as probing into certain hierarchy of structures in mathematics.",
-            "link": null
+            "link": "https://arxiv.org/pdf/2101.06317v2"
         },
         {
-            "title": "Constructive mathematics and teaching",
-            "year": "May 2023",
-            "date": "2023-05-31",
-            "authors": "Alexander Shen",
-            "abstract": "Constructivists (and intuitionists in general) asked what kind of mental construction is needed to convince ourselves (and others) that some mathematical statement is true. This question has a much more practical (and even cynical) counterpart: a student of a mathematics class wants to know what will the teacher accept as a correct solution of a homework problem. Here the logical structure of the claim is also very important, and we discuss several types of problems and their use in teaching mathematics.",
-            "link": null
+            "title": "Applications of Teaching Secondary Mathematics in Undergraduate Mathematics Courses",
+            "year": "February 2021",
+            "date": "2021-02-08",
+            "authors": "Elizabeth G. Arnold, Elizabeth A. Burroughs, Elizabeth W. Fulton, James A. Mendoza Álvarez",
+            "abstract": "Robust preparation of future secondary mathematics teachers requires attention to the acquisition of mathematical knowledge for teaching. Many future teachers learn mathematics content primarily through mathematics major courses that are taught by mathematicians who do not specialize in teacher preparation. How can mathematics education researchers assist mathematicians in making explicit connections between the content of undergraduate mathematics courses and the content of secondary mathematics? We present an articulation of five types of connections that can be used in secondary mathematics teacher preparation and give examples of question prompts that mathematicians can use as applications of teaching secondary mathematics in undergraduate mathematics courses.",
+            "link": "https://arxiv.org/pdf/2102.04537v1"
         }
     ],
     "all_time": [
@@ -132,7 +132,7 @@
             "date": "2014-04-04",
             "authors": "Committee on Planning a Global Library of the Mathematical Sciences",
             "abstract": "Developing a 21st Century Global Library for Mathematics Research discusses how information about what the mathematical literature contains can be formalized and made easier to express, encode, and explore. Many of the tools necessary to make this information system a reality will require much more than indexing and will instead depend on community input paired with machine learning, where mathematicians' expertise can fill the gaps of automatization. This report proposes the establishment of an organization; the development of a set of platforms, tools, and services; the deployment of an ongoing applied research program to complement the development work; and the mobilization and coordination of the mathematical community to take the first steps toward these capabilities. The report recommends building on the extensive work done by many dedicated individuals under the rubric of the World Digital Mathematical Library, as well as many other community initiatives. Developing a 21st Century Global Library for Mathematics envisions a combination of machine learning methods and community-based editorial effort that makes a significantly greater portion of the information and knowledge in the global mathematical corpus available to researchers as linked open data through a central organizational entity-referred to in the report as the Digital Mathematics Library. This report describes how such a library might operate - discussing development and research needs, role in facilitating discover and interaction, and establishing partnerships with publishers.",
-            "link": null
+            "link": "https://arxiv.org/pdf/1404.1905v1"
         },
         {
             "title": "Idempotent and tropical mathematics and problems of mathematical physics (Volume I)",
@@ -140,7 +140,7 @@
             "date": "2007-10-01",
             "authors": "Grigory Litvinov, Victor Maslov, Sergei Sergeev",
             "abstract": "This volume contains the proceedings of an International Workshop on Idempotent and Tropical Mathematics and Problems of Mathematical Physics, held at the Independent University of Moscow, Russia, on August 25-30, 2007.",
-            "link": null
+            "link": "https://arxiv.org/pdf/0710.0377v1"
         },
         {
             "title": "Idempotent and tropical mathematics and problems of mathematical physics (Volume II)",
@@ -148,7 +148,7 @@
             "date": "2007-09-26",
             "authors": "Grigory Litvinov, Victor Maslov, Sergei Sergeev",
             "abstract": "This volume contains the proceedings of an International Workshop on Idempotent and Tropical Mathematics and Problems of Mathematical Physics, held at the Independent University of Moscow, Russia, on August 25-30, 2007.",
-            "link": null
+            "link": "https://arxiv.org/pdf/0709.4119v1"
         },
         {
             "title": "The Modern Mathematics of Deep Learning",
@@ -156,7 +156,7 @@
             "date": "2021-05-09",
             "authors": "Julius Berner, Philipp Grohs, Gitta Kutyniok, Philipp Petersen",
             "abstract": "We describe the new field of mathematical analysis of deep learning. This field emerged around a list of research questions that were not answered within the classical framework of learning theory. These questions concern: the outstanding generalization power of overparametrized neural networks, the role of depth in deep architectures, the apparent absence of the curse of dimensionality, the surprisingly successful optimization performance despite the non-convexity of the problem, understanding what features are learned, why deep architectures perform exceptionally well in physical problems, and which fine aspects of an architecture affect the behavior of a learning task in which way. We present an overview of modern approaches that yield partial answers to these questions. For selected approaches, we describe the main ideas in more detail.",
-            "link": null
+            "link": "https://arxiv.org/pdf/2105.04026v2"
         },
         {
             "title": "The Folding Mathematics",
@@ -164,7 +164,7 @@
             "date": "2025-03-03",
             "authors": "Archana S. Morye",
             "abstract": "Origami is the art of paper folding, and it borrows its name from two Japanese words \\emph{ori} and \\emph{kami}. In Japanese, {ori} means folding, and the paper is called {kami}. While origami is just a hobby to most, there is a lot more to it. If you fold a square sheet of paper into any of the traditional origami model (for example the flapping bird) and unfold it, you can see crease patterns. These crease patterns tell us that there is a lot of geometry hidden behind the folds.\n  In this article, we investigate the symbiotic relationship between mathematics and origami. The first part of this article explores the utility of origami in education. We will see how origami could become an effective way of teaching methods of geometry, mainly because of its experiential nature. Complex origami patterns cannot be created out of thin air. They usually involve understanding deep mathematical theories and the ability to apply them to paper folding. In the second part of the article, we attempt to provide a glimpse of this beautiful connection between origami and mathematics.",
-            "link": null
+            "link": "https://arxiv.org/pdf/2503.11679v1"
         }
     ]
 }
