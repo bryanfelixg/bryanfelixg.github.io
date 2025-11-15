@@ -1,14 +1,6 @@
 {
     "last_month": [
         {
-            "title": "On Physical Mathematics: an approach through Gilles Châtelet's philosophy",
-            "year": "October 2025",
-            "date": "2025-10-15",
-            "authors": "John Alexander Cruz Morales",
-            "abstract": "Starting from Greg Moore's description about Physical Mathematics, a framework is proposed in order to understand it, based on Gilles Châtelet's philosophy. It will be argued that Châtelet's ideas of inverting, splitting, augmenting and virtuality are crucial in the discussion about the nature of Physical Mathematics. Along this line, it will be proposed that mirror symmetry is a natural study case to test Châtelet's ideas in this context. This should be considered as a first step in a long term project aiming to study the relations among mathematics, physics and philosophy in the construction of a global understanding of the structure of the universe, as it was envisioned by Grothendieck in the late 80's of the last century and it was started to be developed independently by Châtelet in the beginning of the 90's. The main suggestion of the essay is that it is in the relations between mathematics, physics and philosophy that new knowledge arises.",
-            "link": "https://arxiv.org/pdf/2510.13125v1"
-        },
-        {
             "title": "FractalBench: Diagnosing Visual-Mathematical Reasoning Through Recursive Program Synthesis",
             "year": "November 2025",
             "date": "2025-11-09",
@@ -39,6 +31,14 @@
             "authors": "Giacomo Camposampiero, Michael Hersche, Roger Wattenhofer, Abu Sebastian, Abbas Rahimi",
             "abstract": "We introduce I-RAVEN-X, a symbolic benchmark designed to evaluate generalization and robustness in analogical and mathematical reasoning for Large Language Models (LLMs) and Large Reasoning Models (LRMs). I-RAVEN-X extends I-RAVEN by increasing operand complexity, attribute range, and introducing perceptual uncertainty. Compared to LLMs, empirical results show that LRMs achieve improved productivity and systematicity on longer reasoning relations and wider attribute ranges, respectively. However, LRMs are still significantly challenged by reasoning under uncertainty and cannot effectively explore multiple probabilistic outcomes.",
             "link": "https://arxiv.org/pdf/2510.17496v2"
+        },
+        {
+            "title": "From Euler to Today: Universal Mathematical Fallibility A Large-Scale Computational Analysis of Errors in ArXiv Papers",
+            "year": "November 2025",
+            "date": "2025-11-04",
+            "authors": "Igor Rivin",
+            "abstract": "We present the results of a large-scale computational analysis of mathematical papers from the ArXiv repository, demonstrating a comprehensive system that not only detects mathematical errors but provides complete referee reports with journal tier recommendations. Our automated analysis system processed over 37,000 papers across multiple mathematical categories, revealing significant error rates and quality distributions. Remarkably, the system identified errors in papers spanning three centuries of mathematics, including works by Leonhard Euler (1707-1783) and Peter Gustav Lejeune Dirichlet (1805-1859), as well as contemporary Fields medalists.\n  In Numerical Analysis (math.NA), we observed an error rate of 9.6\\% (2,271 errors in 23,761 papers), while Geometric Topology (math.GT) showed 6.5\\% (862 errors in 13,209 papers). Strikingly, Category Theory (math.CT) showed 0\\% errors in 93 papers analyzed, with evidence suggesting these results are ``easier'' for automated analysis. Beyond error detection, the system evaluated papers for journal suitability, recommending 0.4\\% for top generalist journals, 15.5\\% for top field-specific journals, and categorizing the remainder across specialist venues. These findings demonstrate both the universality of mathematical error across all eras and the feasibility of automated comprehensive mathematical peer review at scale.\n  This work demonstrates that the methodology, while applied here to mathematics, is discipline-agnostic and could be readily extended to physics, computer science, and other fields represented in the ArXiv repository.",
+            "link": "https://arxiv.org/pdf/2511.10543v1"
         }
     ],
     "last_year": [
