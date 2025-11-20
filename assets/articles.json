@@ -25,20 +25,20 @@
             "link": "https://arxiv.org/pdf/2511.04667v1"
         },
         {
-            "title": "I-RAVEN-X: Benchmarking Generalization and Robustness of Analogical and Mathematical Reasoning in Large Language and Reasoning Models",
-            "year": "October 2025",
-            "date": "2025-10-20",
-            "authors": "Giacomo Camposampiero, Michael Hersche, Roger Wattenhofer, Abu Sebastian, Abbas Rahimi",
-            "abstract": "We introduce I-RAVEN-X, a symbolic benchmark designed to evaluate generalization and robustness in analogical and mathematical reasoning for Large Language Models (LLMs) and Large Reasoning Models (LRMs). I-RAVEN-X extends I-RAVEN by increasing operand complexity, attribute range, and introducing perceptual uncertainty. Compared to LLMs, empirical results show that LRMs achieve improved productivity and systematicity on longer reasoning relations and wider attribute ranges, respectively. However, LRMs are still significantly challenged by reasoning under uncertainty and cannot effectively explore multiple probabilistic outcomes.",
-            "link": "https://arxiv.org/pdf/2510.17496v2"
-        },
-        {
             "title": "From Euler to Today: Universal Mathematical Fallibility A Large-Scale Computational Analysis of Errors in ArXiv Papers",
             "year": "November 2025",
             "date": "2025-11-04",
             "authors": "Igor Rivin",
             "abstract": "We present the results of a large-scale computational analysis of mathematical papers from the ArXiv repository, demonstrating a comprehensive system that not only detects mathematical errors but provides complete referee reports with journal tier recommendations. Our automated analysis system processed over 37,000 papers across multiple mathematical categories, revealing significant error rates and quality distributions. Remarkably, the system identified errors in papers spanning three centuries of mathematics, including works by Leonhard Euler (1707-1783) and Peter Gustav Lejeune Dirichlet (1805-1859), as well as contemporary Fields medalists.\n  In Numerical Analysis (math.NA), we observed an error rate of 9.6\\% (2,271 errors in 23,761 papers), while Geometric Topology (math.GT) showed 6.5\\% (862 errors in 13,209 papers). Strikingly, Category Theory (math.CT) showed 0\\% errors in 93 papers analyzed, with evidence suggesting these results are ``easier'' for automated analysis. Beyond error detection, the system evaluated papers for journal suitability, recommending 0.4\\% for top generalist journals, 15.5\\% for top field-specific journals, and categorizing the remainder across specialist venues. These findings demonstrate both the universality of mathematical error across all eras and the feasibility of automated comprehensive mathematical peer review at scale.\n  This work demonstrates that the methodology, while applied here to mathematics, is discipline-agnostic and could be readily extended to physics, computer science, and other fields represented in the ArXiv repository.",
             "link": "https://arxiv.org/pdf/2511.10543v1"
+        },
+        {
+            "title": "The Mathematisation of the World: Uncovering the Socio-Economic Tensions for Ethics in Mathematics Education",
+            "year": "October 2025",
+            "date": "2025-10-27",
+            "authors": "Dennis Müller",
+            "abstract": "The mathematisation of the socio-economic sphere, where mathematics actively constructs social reality, presents a challenge for studies on ethics in mathematics and its education. While existing scholarship on ethics in mathematics offers insights, it often remains philosophically driven and disconnected from other relevant disciplines. This paper addresses this gap by asking how debates on ethics in mathematics and its education can be connected with economic sociology, and what socio-economic tensions become visible through this connection. Drawing from concepts such as imagined futures, varieties of capitalism, and variegated capitalism, we synthesise a new perspective. This analysis reveals six interconnected tensions: a socio-economic valuation gap regarding ethics education; the multifaceted implementation of mathematics across different capitalist systems; its material opaqueness; a growing gap between economic power and social unaccountability; the enclosure of imagination limiting sustainable futures; and the erosion of multilateralism, which challenges critical pedagogy. The paper's contribution is a first step towards a structural socio-economic framework that links the limited literature on ethics in mathematics with these broader sociological perspectives.",
+            "link": "https://arxiv.org/pdf/2510.23349v1"
         }
     ],
     "last_year": [
@@ -117,12 +117,12 @@
             "link": "https://arxiv.org/pdf/2101.06317v2"
         },
         {
-            "title": "Applications of Teaching Secondary Mathematics in Undergraduate Mathematics Courses",
-            "year": "February 2021",
-            "date": "2021-02-08",
-            "authors": "Elizabeth G. Arnold, Elizabeth A. Burroughs, Elizabeth W. Fulton, James A. Mendoza Álvarez",
-            "abstract": "Robust preparation of future secondary mathematics teachers requires attention to the acquisition of mathematical knowledge for teaching. Many future teachers learn mathematics content primarily through mathematics major courses that are taught by mathematicians who do not specialize in teacher preparation. How can mathematics education researchers assist mathematicians in making explicit connections between the content of undergraduate mathematics courses and the content of secondary mathematics? We present an articulation of five types of connections that can be used in secondary mathematics teacher preparation and give examples of question prompts that mathematicians can use as applications of teaching secondary mathematics in undergraduate mathematics courses.",
-            "link": "https://arxiv.org/pdf/2102.04537v1"
+            "title": "Constructive mathematics and teaching",
+            "year": "May 2023",
+            "date": "2023-05-31",
+            "authors": "Alexander Shen",
+            "abstract": "Constructivists (and intuitionists in general) asked what kind of mental construction is needed to convince ourselves (and others) that some mathematical statement is true. This question has a much more practical (and even cynical) counterpart: a student of a mathematics class wants to know what will the teacher accept as a correct solution of a homework problem. Here the logical structure of the claim is also very important, and we discuss several types of problems and their use in teaching mathematics.",
+            "link": "https://arxiv.org/pdf/2305.19882v1"
         }
     ],
     "all_time": [
