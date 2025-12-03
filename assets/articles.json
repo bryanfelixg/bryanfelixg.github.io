@@ -75,12 +75,12 @@
             "link": "https://arxiv.org/pdf/2508.12183v2"
         },
         {
-            "title": "Review of Mathematical Optimization in Federated Learning",
-            "year": "December 2024",
-            "date": "2024-12-02",
-            "authors": "Shusen Yang, Fangyuan Zhao, Zihao Zhou, Liang Shi, Xuebin Ren, Zongben Xu",
-            "abstract": "Federated Learning (FL) has been becoming a popular interdisciplinary research area in both applied mathematics and information sciences. Mathematically, FL aims to collaboratively optimize aggregate objective functions over distributed datasets while satisfying a variety of privacy and system constraints.Different from conventional distributed optimization methods, FL needs to address several specific issues (e.g., non-i.i.d. data distributions and differential private noises), which pose a set of new challenges in the problem formulation, algorithm design, and convergence analysis. In this paper, we will systematically review existing FL optimization research including their assumptions, formulations, methods, and theoretical results. Potential future directions are also discussed.",
-            "link": "https://arxiv.org/pdf/2412.01630v1"
+            "title": "Ethical and sustainable mathematics is localised: why global paradigms fail and culturally-situated practices are essential",
+            "year": "October 2025",
+            "date": "2025-10-07",
+            "authors": "Dennis Müller, Maurice Chiodo",
+            "abstract": "This paper identifies several different interconnected challenges preventing the move towards more ethical and sustainable mathematics education: the entrenched belief in mathematical neutrality, the difficulty of simultaneously reforming mathematics and its pedagogy, the gap between academic theory and classroom practice, and the need for epistemic decolonisation. In this context, we look at both bottom-up and top-down approaches, and argue that globalised frameworks such as the United Nations' Sustainable Development Goals are insufficient for this transformation, and that ethical and sustainable forms of mathematics ought not to be built using these as their (philosophical) foundation. These frameworks are often rooted in a Western-centric development paradigm that can perpetuate colonial hierarchies and fails to resolve inherent conflicts between economic growth and ecological integrity. As an alternative, this paper advocates for embracing localised, culturally-situated mathematical practices. Using the Ethics in Mathematics Project as a case study within a Western, Global North institution, this paper illustrates a critical-pragmatic, multi-level strategy for fostering ethical consciousness within a specific research community, and shows how this may be achieved in otherwise adversarial circumstances.",
+            "link": "https://arxiv.org/pdf/2510.05892v1"
         }
     ],
     "last_5_years": [
@@ -117,12 +117,12 @@
             "link": "https://arxiv.org/pdf/2101.06317v2"
         },
         {
-            "title": "Applications of Teaching Secondary Mathematics in Undergraduate Mathematics Courses",
-            "year": "February 2021",
-            "date": "2021-02-08",
-            "authors": "Elizabeth G. Arnold, Elizabeth A. Burroughs, Elizabeth W. Fulton, James A. Mendoza Álvarez",
-            "abstract": "Robust preparation of future secondary mathematics teachers requires attention to the acquisition of mathematical knowledge for teaching. Many future teachers learn mathematics content primarily through mathematics major courses that are taught by mathematicians who do not specialize in teacher preparation. How can mathematics education researchers assist mathematicians in making explicit connections between the content of undergraduate mathematics courses and the content of secondary mathematics? We present an articulation of five types of connections that can be used in secondary mathematics teacher preparation and give examples of question prompts that mathematicians can use as applications of teaching secondary mathematics in undergraduate mathematics courses.",
-            "link": "https://arxiv.org/pdf/2102.04537v1"
+            "title": "Constructive mathematics and teaching",
+            "year": "May 2023",
+            "date": "2023-05-31",
+            "authors": "Alexander Shen",
+            "abstract": "Constructivists (and intuitionists in general) asked what kind of mental construction is needed to convince ourselves (and others) that some mathematical statement is true. This question has a much more practical (and even cynical) counterpart: a student of a mathematics class wants to know what will the teacher accept as a correct solution of a homework problem. Here the logical structure of the claim is also very important, and we discuss several types of problems and their use in teaching mathematics.",
+            "link": "https://arxiv.org/pdf/2305.19882v1"
         }
     ],
     "all_time": [
