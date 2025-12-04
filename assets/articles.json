@@ -17,14 +17,6 @@
             "link": "https://arxiv.org/pdf/2511.06522v1"
         },
         {
-            "title": "Mathematical exploration and discovery at scale",
-            "year": "November 2025",
-            "date": "2025-11-03",
-            "authors": "Bogdan Georgiev, Javier Gómez-Serrano, Terence Tao, Adam Zsolt Wagner",
-            "abstract": "AlphaEvolve is a generic evolutionary coding agent that combines the generative capabilities of LLMs with automated evaluation in an iterative evolutionary framework that proposes, tests, and refines algorithmic solutions to challenging scientific and practical problems. In this paper we showcase AlphaEvolve as a tool for autonomously discovering novel mathematical constructions and advancing our understanding of long-standing open problems.\n  To demonstrate its breadth, we considered a list of 67 problems spanning mathematical analysis, combinatorics, geometry, and number theory. The system rediscovered the best known solutions in most of the cases and discovered improved solutions in several. In some instances, AlphaEvolve is also able to generalize results for a finite number of input values into a formula valid for all input values. Furthermore, we are able to combine this methodology with Deep Think and AlphaProof in a broader framework where the additional proof-assistants and reasoning systems provide automated proof generation and further mathematical insights.\n  These results demonstrate that large language model-guided evolutionary search can autonomously discover mathematical constructions that complement human intuition, at times matching or even improving the best known results, highlighting the potential for significant new ways of interaction between mathematicians and AI systems. We present AlphaEvolve as a powerful new tool for mathematical discovery, capable of exploring vast search spaces to solve complex optimization problems at scale, often with significantly reduced requirements on preparation and computation time.",
-            "link": "https://arxiv.org/pdf/2511.02864v1"
-        },
-        {
             "title": "Multi-Method Analysis of Mathematics Placement Assessments: Classical, Machine Learning, and Clustering Approaches",
             "year": "November 2025",
             "date": "2025-11-06",
@@ -39,6 +31,14 @@
             "authors": "Igor Rivin",
             "abstract": "We present the results of a large-scale computational analysis of mathematical papers from the ArXiv repository, demonstrating a comprehensive system that not only detects mathematical errors but provides complete referee reports with journal tier recommendations. Our automated analysis system processed over 37,000 papers across multiple mathematical categories, revealing significant error rates and quality distributions. Remarkably, the system identified errors in papers spanning three centuries of mathematics, including works by Leonhard Euler (1707-1783) and Peter Gustav Lejeune Dirichlet (1805-1859), as well as contemporary Fields medalists.\n  In Numerical Analysis (math.NA), we observed an error rate of 9.6\\% (2,271 errors in 23,761 papers), while Geometric Topology (math.GT) showed 6.5\\% (862 errors in 13,209 papers). Strikingly, Category Theory (math.CT) showed 0\\% errors in 93 papers analyzed, with evidence suggesting these results are ``easier'' for automated analysis. Beyond error detection, the system evaluated papers for journal suitability, recommending 0.4\\% for top generalist journals, 15.5\\% for top field-specific journals, and categorizing the remainder across specialist venues. These findings demonstrate both the universality of mathematical error across all eras and the feasibility of automated comprehensive mathematical peer review at scale.\n  This work demonstrates that the methodology, while applied here to mathematics, is discipline-agnostic and could be readily extended to physics, computer science, and other fields represented in the ArXiv repository.",
             "link": "https://arxiv.org/pdf/2511.10543v1"
+        },
+        {
+            "title": "Zygmunt Janiszewski Mathematical Publications During His Engagement in Poland Struggle for National Independence in World War I",
+            "year": "November 2025",
+            "date": "2025-11-19",
+            "authors": "Kamel Ibn Aziz Derouiche Jihbed",
+            "abstract": "This article focuses on the mathematical publications of Zygmunt Janiszewski (1888-1920), a major figure in Polish science at the beginning of the twentieth century. Serving in the Polish Legion between 1914 and 1920 in the struggle for national independence, Janiszewski was not only one of the founders of the Polish School of Mathematics, but also the initiator of the creation of Fundamenta Mathematicae, the world's first specialized scientific journal devoted exclusively to pure mathematics.\nThe aim of this study is to reconstruct, as far as the available sources allow, the circumstances and conditions under which Janiszewski published his mathematical works. Through this analysis, we highlight the significance of his research in the broader process of structuring and consolidating the modern Polish mathematical community.",
+            "link": "https://arxiv.org/pdf/2511.15329v1"
         }
     ],
     "last_year": [
