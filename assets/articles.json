@@ -25,12 +25,12 @@
             "link": "https://arxiv.org/pdf/2511.04667v1"
         },
         {
-            "title": "From Euler to Today: Universal Mathematical Fallibility A Large-Scale Computational Analysis of Errors in ArXiv Papers",
-            "year": "November 2025",
-            "date": "2025-11-04",
-            "authors": "Igor Rivin",
-            "abstract": "We present the results of a large-scale computational analysis of mathematical papers from the ArXiv repository, demonstrating a comprehensive system that not only detects mathematical errors but provides complete referee reports with journal tier recommendations. Our automated analysis system processed over 37,000 papers across multiple mathematical categories, revealing significant error rates and quality distributions. Remarkably, the system identified errors in papers spanning three centuries of mathematics, including works by Leonhard Euler (1707-1783) and Peter Gustav Lejeune Dirichlet (1805-1859), as well as contemporary Fields medalists.\n  In Numerical Analysis (math.NA), we observed an error rate of 9.6\\% (2,271 errors in 23,761 papers), while Geometric Topology (math.GT) showed 6.5\\% (862 errors in 13,209 papers). Strikingly, Category Theory (math.CT) showed 0\\% errors in 93 papers analyzed, with evidence suggesting these results are ``easier'' for automated analysis. Beyond error detection, the system evaluated papers for journal suitability, recommending 0.4\\% for top generalist journals, 15.5\\% for top field-specific journals, and categorizing the remainder across specialist venues. These findings demonstrate both the universality of mathematical error across all eras and the feasibility of automated comprehensive mathematical peer review at scale.\n  This work demonstrates that the methodology, while applied here to mathematics, is discipline-agnostic and could be readily extended to physics, computer science, and other fields represented in the ArXiv repository.",
-            "link": "https://arxiv.org/pdf/2511.10543v1"
+            "title": "The simplicity of complexity: a story of mathematical outreach",
+            "year": "December 2025",
+            "date": "2025-12-03",
+            "authors": "Hugo Parlier, Bruno Teheux",
+            "abstract": "Mathematics is often perceived as difficult or inaccessible, yet meaningful engagement can arise in unexpected places. In this article we describe a multi-year exploration of mathematical outreach through games, puzzles, exhibitions, and artistic activities. Starting from a small science festival exhibit, our work developed into a broad collection of experiences showcased at game festivals, museums, and the World Expos in Dubai (2021/2022) and Osaka (2025). We discuss the principles that shaped these activities -- simplicity, atmosphere, mediation, and progressive depth -- and how mathematical ideas from topology, geometry, and logic can be incorporated into playful and creative formats. The story illustrates how low-threshold engagement and carefully designed experiences can open doors to research-level mathematics for audiences of all ages and backgrounds.",
+            "link": "https://arxiv.org/pdf/2512.03544v1"
         },
         {
             "title": "Zygmunt Janiszewski Mathematical Publications During His Engagement in Poland Struggle for National Independence in World War I",
