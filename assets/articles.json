@@ -33,12 +33,12 @@
             "link": "https://arxiv.org/pdf/2511.15301v1"
         },
         {
-            "title": "Efficient Mathematical Reasoning Models via Dynamic Pruning and Knowledge Distillation",
-            "year": "November 2025",
-            "date": "2025-11-15",
-            "authors": "Fengming Yu, Qingyu Meng, Haiwei Pan, Kejia Zhang",
-            "abstract": "With the rapid development of deep learning, large language models have shown strong capabilities in complex reasoning tasks such as mathematical equation solving. However, their substantial computational and storage costs hinder practical deployment. This paper proposes a lightweight optimization method that integrates dynamic attention head pruning with knowledge distillation. The approach dynamically evaluates the importance of each attention head in the multi-head attention mechanism using a combination of weight norms and entropy, and prunes redundant heads in real time to reduce computational overhead. To mitigate performance degradation, knowledge distillation transfers information from the original model to the pruned student, enabling the smaller model to preserve reasoning ability. Experiments conducted on both Math23k and ASDiv-A verify the effectiveness of the proposed method. For example, on Math23k with a 30% pruning ratio, parameters are reduced by 18.7%, inference speed is improved by 27.5%, FLOPs are reduced by 19.3%, and accuracy drops only 0.7% (from 84.4% to 83.7%). These results demonstrate that the method achieves substantial efficiency gains while maintaining strong reasoning performance, providing a practical solution for efficient deployment of large language models in mathematical reasoning tasks.",
-            "link": "https://arxiv.org/pdf/2511.17577v1"
+            "title": "Persistent Topological Structures and Cohomological Flows as a Mathematical Framework for Brain-Inspired Representation Learning",
+            "year": "December 2025",
+            "date": "2025-12-09",
+            "authors": "Preksha Girish, Rachana Mysore, Mahanthesha U, Shrey Kumar, Shipra Prashant",
+            "abstract": "This paper presents a mathematically rigorous framework for brain-inspired representation learning founded on the interplay between persistent topological structures and cohomological flows. Neural computation is reformulated as the evolution of cochain maps over dynamic simplicial complexes, enabling representations that capture invariants across temporal, spatial, and functional brain states. The proposed architecture integrates algebraic topology with differential geometry to construct cohomological operators that generalize gradient-based learning within a homological landscape. Synthetic data with controlled topological signatures and real neural datasets are jointly analyzed using persistent homology, sheaf cohomology, and spectral Laplacians to quantify stability, continuity, and structural preservation. Empirical results demonstrate that the model achieves superior manifold consistency and noise resilience compared to graph neural and manifold-based deep architectures, establishing a coherent mathematical foundation for topology-driven representation learning.",
+            "link": "https://arxiv.org/pdf/2512.08241v1"
         }
     ],
     "last_year": [
