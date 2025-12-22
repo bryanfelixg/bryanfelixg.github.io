@@ -1,14 +1,6 @@
 {
     "last_month": [
         {
-            "title": "Mathematics: the Rise of the Machines",
-            "year": "November 2025",
-            "date": "2025-11-21",
-            "authors": "Yang-Hui He",
-            "abstract": "We argue how AI can assist mathematics in three ways: theorem-proving, conjecture formulation, and language processing. Inspired by initial experiments in geometry and theoretical physics in 2017, we summarize how this emerging field has grown over the past years, and show how various machine-learning algorithms can help with pattern detection across disciplines in the mathematical sciences. At the heart is the question how does AI help with theoretical discovery, and the implications for the future of mathematics.",
-            "link": "https://arxiv.org/pdf/2511.17203v1"
-        },
-        {
             "title": "Mitigating Catastrophic Forgetting in Mathematical Reasoning Finetuning through Mixed Training",
             "year": "December 2025",
             "date": "2025-12-05",
@@ -39,6 +31,14 @@
             "authors": "Preksha Girish, Rachana Mysore, Mahanthesha U, Shrey Kumar, Shipra Prashant",
             "abstract": "This paper presents a mathematically rigorous framework for brain-inspired representation learning founded on the interplay between persistent topological structures and cohomological flows. Neural computation is reformulated as the evolution of cochain maps over dynamic simplicial complexes, enabling representations that capture invariants across temporal, spatial, and functional brain states. The proposed architecture integrates algebraic topology with differential geometry to construct cohomological operators that generalize gradient-based learning within a homological landscape. Synthetic data with controlled topological signatures and real neural datasets are jointly analyzed using persistent homology, sheaf cohomology, and spectral Laplacians to quantify stability, continuity, and structural preservation. Empirical results demonstrate that the model achieves superior manifold consistency and noise resilience compared to graph neural and manifold-based deep architectures, establishing a coherent mathematical foundation for topology-driven representation learning.",
             "link": "https://arxiv.org/pdf/2512.08241v1"
+        },
+        {
+            "title": "OpenCML: End-to-End Framework of Open-world Machine Learning to Learn Unknown Classes Incrementally",
+            "year": "November 2025",
+            "date": "2025-11-23",
+            "authors": "Jitendra Parmar, Praveen Singh Thakur",
+            "abstract": "Open-world machine learning is an emerging technique in artificial intelligence, where conventional machine learning models often follow closed-world assumptions, which can hinder their ability to retain previously learned knowledge for future tasks. However, automated intelligence systems must learn about novel classes and previously known tasks. The proposed model offers novel learning classes in an open and continuous learning environment. It consists of two different but connected tasks. First, it discovers unknown classes in the data and creates novel classes; next, it learns how to perform class incrementally for each new class. Together, they enable continual learning, allowing the system to expand its understanding of the data and improve over time. The proposed model also outperformed existing approaches in open-world learning. Furthermore, it demonstrated strong performance in continuous learning, achieving a highest average accuracy of 82.54% over four iterations and a minimum accuracy of 65.87%.",
+            "link": "https://arxiv.org/pdf/2511.19491v1"
         }
     ],
     "last_year": [
@@ -117,12 +117,12 @@
             "link": "https://arxiv.org/pdf/2101.06317v2"
         },
         {
-            "title": "Applications of Teaching Secondary Mathematics in Undergraduate Mathematics Courses",
-            "year": "February 2021",
-            "date": "2021-02-08",
-            "authors": "Elizabeth G. Arnold, Elizabeth A. Burroughs, Elizabeth W. Fulton, James A. Mendoza Álvarez",
-            "abstract": "Robust preparation of future secondary mathematics teachers requires attention to the acquisition of mathematical knowledge for teaching. Many future teachers learn mathematics content primarily through mathematics major courses that are taught by mathematicians who do not specialize in teacher preparation. How can mathematics education researchers assist mathematicians in making explicit connections between the content of undergraduate mathematics courses and the content of secondary mathematics? We present an articulation of five types of connections that can be used in secondary mathematics teacher preparation and give examples of question prompts that mathematicians can use as applications of teaching secondary mathematics in undergraduate mathematics courses.",
-            "link": "https://arxiv.org/pdf/2102.04537v1"
+            "title": "Constructive mathematics and teaching",
+            "year": "May 2023",
+            "date": "2023-05-31",
+            "authors": "Alexander Shen",
+            "abstract": "Constructivists (and intuitionists in general) asked what kind of mental construction is needed to convince ourselves (and others) that some mathematical statement is true. This question has a much more practical (and even cynical) counterpart: a student of a mathematics class wants to know what will the teacher accept as a correct solution of a homework problem. Here the logical structure of the claim is also very important, and we discuss several types of problems and their use in teaching mathematics.",
+            "link": "https://arxiv.org/pdf/2305.19882v1"
         }
     ],
     "all_time": [
