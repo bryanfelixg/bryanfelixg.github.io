@@ -33,12 +33,12 @@
             "link": "https://arxiv.org/pdf/2512.08241v1"
         },
         {
-            "title": "Solving a Research Problem in Mathematical Statistics with AI Assistance",
-            "year": "November 2025",
-            "date": "2025-11-24",
-            "authors": "Edgar Dobriban",
-            "abstract": "Over the last few months, AI models including large language models have improved greatly. There are now several documented examples where they have helped professional mathematical scientists prove new results, sometimes even helping resolve known open problems. In this short note, we add another example to the list, by documenting how we were able to solve a previously unsolved research problem in robust mathematical statistics with crucial help from GPT-5. Our problem concerns robust density estimation, where the observations are perturbed by Wasserstein-bounded contaminations. In a previous preprint (Chao and Dobriban, 2023, arxiv:2308.01853v2), we have obtained upper and lower bounds on the minimax optimal estimation error; which were, however, not sharp.\n  Starting in October 2025, making significant use of GPT-5 Pro, we were able to derive the minimax optimal error rate (reported in version 3 of the above arxiv preprint). GPT-5 provided crucial help along the way, including by suggesting calculations that we did not think of, and techniques that were not familiar to us, such as the dynamic Benamou-Brenier formulation, for key steps in the analysis. Working with GPT-5 took a few weeks of effort, and we estimate that it could have taken several months to get the same results otherwise. At the same time, there are still areas where working with GPT-5 was challenging: it sometimes provided incorrect references, and glossed over details that sometimes took days of work to fill in. We outline our workflow and steps taken to mitigate issues. Overall, our work can serve as additional documentation for a new age of human-AI collaborative work in mathematical science.",
-            "link": "https://arxiv.org/pdf/2511.18828v3"
+            "title": "Mathematical Framing for Different Agent Strategies",
+            "year": "December 2025",
+            "date": "2025-12-04",
+            "authors": "Philip Stephens, Emmanuel Salawu",
+            "abstract": "We introduce a unified mathematical and probabilistic framework for understanding and comparing diverse AI agent strategies. We bridge the gap between high-level agent design concepts, such as ReAct, multi-agent systems, and control flows, and a rigorous mathematical formulation. Our approach frames agentic processes as a chain of probabilities, enabling a detailed analysis of how different strategies manipulate these probabilities to achieve desired outcomes. Our framework provides a common language for discussing the trade-offs inherent in various agent architectures. One of our many key contributions is the introduction of the \"Degrees of Freedom\" concept, which intuitively differentiates the optimizable levers available for each approach, thereby guiding the selection of appropriate strategies for specific tasks. This work aims to enhance the clarity and precision in designing and evaluating AI agents, offering insights into maximizing the probability of successful actions within complex agentic systems.",
+            "link": "https://arxiv.org/pdf/2512.04469v1"
         }
     ],
     "last_year": [
