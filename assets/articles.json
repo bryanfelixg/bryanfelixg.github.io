@@ -5,8 +5,8 @@
             "year": "December 2025",
             "date": "2025-12-23",
             "authors": "Haipeng Luo, Huawen Feng, Qingfeng Sun, Can Xu, Kai Zheng, Yufei Wang, Tao Yang, Han Hu, Yansong Tang, Di Wang",
-            "abstract": "Large Reasoning Models (LRMs) like o3 and DeepSeek-R1 have achieved remarkable progress in natural language reasoning with long chain-of-thought. However, they remain computationally inefficient and struggle with accuracy when solving problems requiring complex mathematical operations. In this work, we present AgentMath, an agent framework that seamlessly integrates language models' reasoning capabilities with code interpreters' computational precision to efficiently tackle complex mathematical problems. Our approach introduces three key innovations: (1) An automated method that converts natural language chain-of-thought into structured tool-augmented trajectories, generating high-quality supervised fine-tuning (SFT) data to alleviate data scarcity; (2) A novel agentic reinforcement learning (RL) paradigm that dynamically interleaves natural language generation with real-time code execution. This enables models to autonomously learn optimal tool-use strategies through multi-round interactive feedback, while fostering emergent capabilities in code refinement and error correction; (3) An efficient training system incorporating innovative techniques, including request-level asynchronous rollout scheduling, agentic partial rollout, and prefix-aware weighted load balancing, achieving 4-5x speedup and making efficient RL training feasible on ultra-long sequences with scenarios with massive tool calls.Extensive evaluations show that AgentMath achieves state-of-the-art performance on challenging mathematical competition benchmarks including AIME24, AIME25, and HMMT25. Specifically, AgentMath-30B-A3B attains 90.6%, 86.4%, and 73.8% accuracy respectively, achieving advanced capabilities.These results validate the effectiveness of our approach and pave the way for building more sophisticated and scalable mathematical reasoning agents.",
-            "link": "https://arxiv.org/pdf/2512.20745v1"
+            "abstract": "Large Reasoning Models (LRMs) like o3 and DeepSeek-R1 have achieved remarkable progress in natural language reasoning with long chain-of-thought. However, they remain computationally inefficient and struggle with accuracy when solving problems requiring complex mathematical operations. In this work, we present AgentMath, an agent framework that seamlessly integrates language models' reasoning capabilities with code interpreters' computational precision to efficiently tackle complex mathematical problems. Our approach introduces three key innovations: (1) An automated method that converts natural language chain-of-thought into structured tool-augmented trajectories, generating high-quality supervised fine-tuning (SFT) data to alleviate data scarcity; (2) A novel agentic reinforcement learning (RL) paradigm that dynamically interleaves natural language generation with real-time code execution. This enables models to autonomously learn optimal tool-use strategies through multi-round interactive feedback, while fostering emergent capabilities in code refinement and error correction; (3) An efficient training system incorporating innovative techniques, including request-level asynchronous rollout scheduling, agentic partial rollout, and prefix-aware weighted load balancing, achieving 4-5x speedup and making efficient RL training feasible on ultra-long sequences with scenarios with massive tool invocation. The evaluations show that AgentMath achieves state-of-the-art performance on challenging mathematical competition benchmarks including AIME24, AIME25, and HMMT25. Specifically, AgentMath-30B-A3B attains 90.6%, 86.4%, and 73.8% accuracy respectively, achieving advanced performance. The results validate the effectiveness of our approach and pave the way for building more sophisticated and scalable mathematical reasoning agents.",
+            "link": "https://arxiv.org/pdf/2512.20745v2"
         },
         {
             "title": "Mitigating Catastrophic Forgetting in Mathematical Reasoning Finetuning through Mixed Training",
@@ -33,12 +33,12 @@
             "link": "https://arxiv.org/pdf/2512.03544v1"
         },
         {
-            "title": "Mathematics and Coding are Universal AI Benchmarks",
+            "title": "Mathematical Theory for Photonic Hall Effect in Honeycomb Photonic Crystals",
             "year": "December 2025",
-            "date": "2025-12-15",
-            "authors": "Przemyslaw Chojecki",
-            "abstract": "We study the special role of mathematics and coding inside the moduli space of psychometric batteries for AI agents. Building on the AAI framework and GVU dynamics from previous works, we define the Mathematics Fiber and show that, when paired with formal proof kernels (e.g. Lean, Coq), GVU flows on this fiber admit spectrally stable self-improvement regimes due to oracle-like verification. Our main technical result is a density theorem: under uniform tightness of agent outputs and a Lipschitz AAI functional, the subspace of batteries generated by mathematical theorem-proving and coding tasks is dense in the moduli space of batteries with respect to the evaluation metric. Coding alone is universal in this sense, while pure mathematics is not; its privilege is spectral rather than expressive. We interpret this as evidence that mathematics and coding provide ``universal coordinates'' for evaluation, and that formal mathematics is a natural ignition domain for recursive self-improvement in advanced AI agents.",
-            "link": "https://arxiv.org/pdf/2512.13764v1"
+            "date": "2025-12-30",
+            "authors": "Wei Li, Junshan Lin, Jiayu Qiu, Hai Zhang",
+            "abstract": "In this work, we develop a mathematical theory for the photonic Hall effect and prove the existence of guided electromagnetic waves at the interface of two honeycomb photonic crystals. The guided wave resembles the edge states in electronic systems: it is induced by the topological Hall effect, and the wave propagates along the interface but not in the bulk media. Starting from a symmetric honeycomb photonic crystal that attains Dirac points at the high-symmetry points of the Brillouin zone, \\(K\\) and \\(K'\\), we introduce two classes of perturbations for the periodic medium. The perturbations lift the Dirac degeneracy, forming a spectral band valley at the points \\(K\\) and \\(K'\\) with well-defined topological phase that depends on the sign of the perturbation parameters. By employing the layer potential techniques and spectral analysis, we investigate the existence of guided wave along an interface when two honeycomb photonic crystals are glued together. In particular, we elucidate the relationship between the existence of the interface mode and the nature of perturbations imposed on the two periodic media separated by the interface.",
+            "link": "https://arxiv.org/pdf/2512.24477v1"
         }
     ],
     "last_year": [
@@ -117,12 +117,12 @@
             "link": "https://arxiv.org/pdf/2101.06317v2"
         },
         {
-            "title": "Constructive mathematics and teaching",
-            "year": "May 2023",
-            "date": "2023-05-31",
-            "authors": "Alexander Shen",
-            "abstract": "Constructivists (and intuitionists in general) asked what kind of mental construction is needed to convince ourselves (and others) that some mathematical statement is true. This question has a much more practical (and even cynical) counterpart: a student of a mathematics class wants to know what will the teacher accept as a correct solution of a homework problem. Here the logical structure of the claim is also very important, and we discuss several types of problems and their use in teaching mathematics.",
-            "link": "https://arxiv.org/pdf/2305.19882v1"
+            "title": "Applications of Teaching Secondary Mathematics in Undergraduate Mathematics Courses",
+            "year": "February 2021",
+            "date": "2021-02-08",
+            "authors": "Elizabeth G. Arnold, Elizabeth A. Burroughs, Elizabeth W. Fulton, James A. Mendoza Álvarez",
+            "abstract": "Robust preparation of future secondary mathematics teachers requires attention to the acquisition of mathematical knowledge for teaching. Many future teachers learn mathematics content primarily through mathematics major courses that are taught by mathematicians who do not specialize in teacher preparation. How can mathematics education researchers assist mathematicians in making explicit connections between the content of undergraduate mathematics courses and the content of secondary mathematics? We present an articulation of five types of connections that can be used in secondary mathematics teacher preparation and give examples of question prompts that mathematicians can use as applications of teaching secondary mathematics in undergraduate mathematics courses.",
+            "link": "https://arxiv.org/pdf/2102.04537v1"
         }
     ],
     "all_time": [
