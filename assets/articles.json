@@ -9,6 +9,14 @@
             "link": "https://arxiv.org/pdf/2512.20745v2"
         },
         {
+            "title": "AI for Mathematics: Progress, Challenges, and Prospects",
+            "year": "January 2026",
+            "date": "2026-01-19",
+            "authors": "Haocheng Ju, Bin Dong",
+            "abstract": "AI for Mathematics (AI4Math) has emerged as a distinct field that leverages machine learning to navigate mathematical landscapes historically intractable for early symbolic systems. While mid-20th-century symbolic approaches successfully automated formal logic, they faced severe scalability limitations due to the combinatorial explosion of the search space. The recent integration of data-driven approaches has revitalized this pursuit. In this review, we provide a systematic overview of AI4Math, highlighting its primary focus on developing AI models to support mathematical research. Crucially, we emphasize that this is not merely the application of AI to mathematical activities; it also encompasses the development of stronger AI systems where the rigorous nature of mathematics serves as a premier testbed for advancing general reasoning capabilities. We categorize existing research into two complementary directions: problem-specific modeling, involving the design of specialized architectures for distinct mathematical tasks, and general-purpose modeling, focusing on foundation models capable of broader reasoning, retrieval, and exploratory workflows. We conclude by discussing key challenges and prospects, advocating for AI systems that go beyond facilitating formal correctness to enabling the discovery of meaningful results and unified theories, recognizing that the true value of a proof lies in the insights and tools it offers to the broader mathematical landscape.",
+            "link": "https://arxiv.org/pdf/2601.13209v1"
+        },
+        {
             "title": "Mathematical Analysis of Symmetry-Protected Bound States in the Continuum in Waveguide Arrays",
             "year": "December 2025",
             "date": "2025-12-24",
@@ -31,14 +39,6 @@
             "authors": "Wei Li, Junshan Lin, Jiayu Qiu, Hai Zhang",
             "abstract": "In this work, we develop a mathematical theory for the photonic Hall effect and prove the existence of guided electromagnetic waves at the interface of two honeycomb photonic crystals. The guided wave resembles the edge states in electronic systems: it is induced by the topological Hall effect, and the wave propagates along the interface but not in the bulk media. Starting from a symmetric honeycomb photonic crystal that attains Dirac points at the high-symmetry points of the Brillouin zone, \\(K\\) and \\(K'\\), we introduce two classes of perturbations for the periodic medium. The perturbations lift the Dirac degeneracy, forming a spectral band valley at the points \\(K\\) and \\(K'\\) with well-defined topological phase that depends on the sign of the perturbation parameters. By employing the layer potential techniques and spectral analysis, we investigate the existence of guided wave along an interface when two honeycomb photonic crystals are glued together. In particular, we elucidate the relationship between the existence of the interface mode and the nature of perturbations imposed on the two periodic media separated by the interface.",
             "link": "https://arxiv.org/pdf/2512.24477v1"
-        },
-        {
-            "title": "Travelling Waves in a Mathematical Model for Oncolytic Virotherapy",
-            "year": "January 2026",
-            "date": "2026-01-05",
-            "authors": "Negar Mohammadnejad, Thomas Hillen",
-            "abstract": "Oncolytic virotherapy (OVT) is a promising cancer treatment strategy in which engineered viruses selectively infect and destroy tumor cells. Motivated by the biological mechanisms underlying viral spread and tumor invasion into the tissue, we analyze a non-cooperative reaction-diffusion model capturing the invasion of tumor tissue by oncolytic viruses. Using carefully constructed upper and lower solutions together with Schauder's fixed point theorem, we establish the existence of positive travelling-wave solutions. In particular, we identify a minimal wave speed value \\(\\bar c\\) such that positive travelling waves exist for all \\(c \\geq \\bar c\\) . Our analysis also highlights parameter regions where the existence of travelling waves remains ambiguous, suggesting new mathematical questions about the propagation of viral treatments through tumor environments.",
-            "link": "https://arxiv.org/pdf/2601.02568v1"
         }
     ],
     "last_year": [
