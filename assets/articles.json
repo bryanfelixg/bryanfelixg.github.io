@@ -9,14 +9,6 @@
             "link": "https://arxiv.org/pdf/2601.13209v2"
         },
         {
-            "title": "Mathematical Analysis of Symmetry-Protected Bound States in the Continuum in Waveguide Arrays",
-            "year": "December 2025",
-            "date": "2025-12-24",
-            "authors": "Xin Feng, Wei Wu",
-            "abstract": "This paper presents a rigorous mathematical analysis for symmetry-based Bound States in the Continuum (BICs) in optical waveguide arrays. Different from existing research, we consider a finite system of horizontally and equidistantly aligned waveguides and transform the wave propagation problem into Nonorthogonal Coupled-Mode Equations (NCME), rather than adopting the tight-binding approximation or orthogonal coupled-mode equations. We derive the exact expressions of the overlap integrals and coupling coefficients by utilizing the addition theorems of Bessel functions. We then generalize the discussion to an infinite waveguide array and rigorously characterize the dispersion relation and continuum with the help of theories in harmonic analysis. In the second part of the paper, we give a strict proof of the existence of BICs in the aforementioned waveguide system with two additional identical vertical waveguides aligned symmetrically above and below the horizontal waveguide array. We further numerically demonstrate the transition from a perfect BIC to a leaky mode by introducing a symmetry-breaking refractive index perturbation and quantitatively analyze the resulting radiation losses. This work gives a comprehensive study of symmetry-protected BICs and provides an efficient and precise computational model for designing such BICs devices.",
-            "link": "https://arxiv.org/pdf/2512.20895v1"
-        },
-        {
             "title": "A dynamical model of the U.S. mathematics graduate degree pipeline",
             "year": "January 2026",
             "date": "2026-01-13",
@@ -39,6 +31,14 @@
             "authors": "Ang Gao, Changshuo Zhang, Xiao Zhang, Deyang Li, Minjun Zhao, Fangchao Liu, Xinyu Zhang",
             "abstract": "In-context learning (ICL) has proven highly effective across diverse large language model (LLM) tasks. However, its potential for enhancing tasks that demand step-by-step logical deduction, such as mathematical reasoning, remains underexplored. A core limitation of existing ICL approaches is their static use of demonstrations: examples are pre-selected before inference and remain fixed, failing to adapt to the dynamic confusion points that often arise during multi-step reasoning such as ambiguous calculations or logical gaps. These unresolved confusion points can lead to cascading errors that degrade final accuracy. To tackle this issue, we propose Process In-Context Learning (PICL), a dynamic demonstration integration framework designed to boost mathematical reasoning by responding to real-time inference needs. PICL operates in two stages: 1)~it identifies potential confusion points by analyzing semantics and entropy in the reasoning process and summarizes their core characteristics; 2)~upon encountering these points, it retrieves relevant demonstrations from the demonstration pool that match the confusion context and inserts them directly into the ongoing reasoning process to guide subsequent steps. Experiments show that PICL outperforms baseline methods by mitigating mid-inference confusion, highlighting the value of adaptive demonstration insertion in complex mathematical reasoning.",
             "link": "https://arxiv.org/pdf/2601.11979v1"
+        },
+        {
+            "title": "Travelling Waves in a Mathematical Model for Oncolytic Virotherapy",
+            "year": "January 2026",
+            "date": "2026-01-05",
+            "authors": "Negar Mohammadnejad, Thomas Hillen",
+            "abstract": "Oncolytic virotherapy (OVT) is a promising cancer treatment strategy in which engineered viruses selectively infect and destroy tumor cells. Motivated by the biological mechanisms underlying viral spread and tumor invasion into the tissue, we analyze a non-cooperative reaction-diffusion model capturing the invasion of tumor tissue by oncolytic viruses. Using carefully constructed upper and lower solutions together with Schauder's fixed point theorem, we establish the existence of positive travelling-wave solutions. In particular, we identify a minimal wave speed value \\(\\bar c\\) such that positive travelling waves exist for all \\(c \\geq \\bar c\\) . Our analysis also highlights parameter regions where the existence of travelling waves remains ambiguous, suggesting new mathematical questions about the propagation of viral treatments through tumor environments.",
+            "link": "https://arxiv.org/pdf/2601.02568v1"
         }
     ],
     "last_year": [
