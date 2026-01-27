@@ -33,12 +33,12 @@
             "link": "https://arxiv.org/pdf/2601.11979v1"
         },
         {
-            "title": "Travelling Waves in a Mathematical Model for Oncolytic Virotherapy",
+            "title": "MathMixup: Boosting LLM Mathematical Reasoning with Difficulty-Controllable Data Synthesis and Curriculum Learning",
             "year": "January 2026",
-            "date": "2026-01-05",
-            "authors": "Negar Mohammadnejad, Thomas Hillen",
-            "abstract": "Oncolytic virotherapy (OVT) is a promising cancer treatment strategy in which engineered viruses selectively infect and destroy tumor cells. Motivated by the biological mechanisms underlying viral spread and tumor invasion into the tissue, we analyze a non-cooperative reaction-diffusion model capturing the invasion of tumor tissue by oncolytic viruses. Using carefully constructed upper and lower solutions together with Schauder's fixed point theorem, we establish the existence of positive travelling-wave solutions. In particular, we identify a minimal wave speed value \\(\\bar c\\) such that positive travelling waves exist for all \\(c \\geq \\bar c\\) . Our analysis also highlights parameter regions where the existence of travelling waves remains ambiguous, suggesting new mathematical questions about the propagation of viral treatments through tumor environments.",
-            "link": "https://arxiv.org/pdf/2601.02568v1"
+            "date": "2026-01-14",
+            "authors": "Xuchen Li, Jing Chen, Xuzhao Li, Hao Liang, Xiaohuan Zhou, Taifeng Wang, Wentao Zhang",
+            "abstract": "In mathematical reasoning tasks, the advancement of Large Language Models (LLMs) relies heavily on high-quality training data with clearly defined and well-graded difficulty levels. However, existing data synthesis methods often suffer from limited diversity and lack precise control over problem difficulty, making them insufficient for supporting efficient training paradigms such as curriculum learning. To address these challenges, we propose MathMixup, a novel data synthesis paradigm that systematically generates high-quality, difficulty-controllable mathematical reasoning problems through hybrid and decomposed strategies. Automated self-checking and manual screening are incorporated to ensure semantic clarity and a well-structured difficulty gradient in the synthesized data. Building on this, we construct the MathMixupQA dataset and design a curriculum learning strategy that leverages these graded problems, supporting flexible integration with other datasets. Experimental results show that MathMixup and its curriculum learning strategy significantly enhance the mathematical reasoning performance of LLMs. Fine-tuned Qwen2.5-7B achieves an average score of 52.6\\% across seven mathematical benchmarks, surpassing previous state-of-the-art methods. These results fully validate the effectiveness and broad applicability of MathMixup in improving the mathematical reasoning abilities of LLMs and advancing data-centric curriculum learning.",
+            "link": "https://arxiv.org/pdf/2601.17006v1"
         }
     ],
     "last_year": [
