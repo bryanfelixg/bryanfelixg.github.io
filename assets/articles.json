@@ -25,20 +25,20 @@
             "link": "https://arxiv.org/pdf/2601.08525v1"
         },
         {
-            "title": "Mathematical Theory for Photonic Hall Effect in Honeycomb Photonic Crystals",
-            "year": "December 2025",
-            "date": "2025-12-30",
-            "authors": "Wei Li, Junshan Lin, Jiayu Qiu, Hai Zhang",
-            "abstract": "In this work, we develop a mathematical theory for the photonic Hall effect and prove the existence of guided electromagnetic waves at the interface of two honeycomb photonic crystals. The guided wave resembles the edge states in electronic systems: it is induced by the topological Hall effect, and the wave propagates along the interface but not in the bulk media. Starting from a symmetric honeycomb photonic crystal that attains Dirac points at the high-symmetry points of the Brillouin zone, \\(K\\) and \\(K'\\), we introduce two classes of perturbations for the periodic medium. The perturbations lift the Dirac degeneracy, forming a spectral band valley at the points \\(K\\) and \\(K'\\) with well-defined topological phase that depends on the sign of the perturbation parameters. By employing the layer potential techniques and spectral analysis, we investigate the existence of guided wave along an interface when two honeycomb photonic crystals are glued together. In particular, we elucidate the relationship between the existence of the interface mode and the nature of perturbations imposed on the two periodic media separated by the interface.",
-            "link": "https://arxiv.org/pdf/2512.24477v1"
-        },
-        {
             "title": "Process In-Context Learning: Enhancing Mathematical Reasoning via Dynamic Demonstration Insertion",
             "year": "January 2026",
             "date": "2026-01-17",
             "authors": "Ang Gao, Changshuo Zhang, Xiao Zhang, Deyang Li, Minjun Zhao, Fangchao Liu, Xinyu Zhang",
             "abstract": "In-context learning (ICL) has proven highly effective across diverse large language model (LLM) tasks. However, its potential for enhancing tasks that demand step-by-step logical deduction, such as mathematical reasoning, remains underexplored. A core limitation of existing ICL approaches is their static use of demonstrations: examples are pre-selected before inference and remain fixed, failing to adapt to the dynamic confusion points that often arise during multi-step reasoning such as ambiguous calculations or logical gaps. These unresolved confusion points can lead to cascading errors that degrade final accuracy. To tackle this issue, we propose Process In-Context Learning (PICL), a dynamic demonstration integration framework designed to boost mathematical reasoning by responding to real-time inference needs. PICL operates in two stages: 1)~it identifies potential confusion points by analyzing semantics and entropy in the reasoning process and summarizes their core characteristics; 2)~upon encountering these points, it retrieves relevant demonstrations from the demonstration pool that match the confusion context and inserts them directly into the ongoing reasoning process to guide subsequent steps. Experiments show that PICL outperforms baseline methods by mitigating mid-inference confusion, highlighting the value of adaptive demonstration insertion in complex mathematical reasoning.",
             "link": "https://arxiv.org/pdf/2601.11979v1"
+        },
+        {
+            "title": "MathMixup: Boosting LLM Mathematical Reasoning with Difficulty-Controllable Data Synthesis and Curriculum Learning",
+            "year": "January 2026",
+            "date": "2026-01-14",
+            "authors": "Xuchen Li, Jing Chen, Xuzhao Li, Hao Liang, Xiaohuan Zhou, Taifeng Wang, Wentao Zhang",
+            "abstract": "In mathematical reasoning tasks, the advancement of Large Language Models (LLMs) relies heavily on high-quality training data with clearly defined and well-graded difficulty levels. However, existing data synthesis methods often suffer from limited diversity and lack precise control over problem difficulty, making them insufficient for supporting efficient training paradigms such as curriculum learning. To address these challenges, we propose MathMixup, a novel data synthesis paradigm that systematically generates high-quality, difficulty-controllable mathematical reasoning problems through hybrid and decomposed strategies. Automated self-checking and manual screening are incorporated to ensure semantic clarity and a well-structured difficulty gradient in the synthesized data. Building on this, we construct the MathMixupQA dataset and design a curriculum learning strategy that leverages these graded problems, supporting flexible integration with other datasets. Experimental results show that MathMixup and its curriculum learning strategy significantly enhance the mathematical reasoning performance of LLMs. Fine-tuned Qwen2.5-7B achieves an average score of 52.6\\% across seven mathematical benchmarks, surpassing previous state-of-the-art methods. These results fully validate the effectiveness and broad applicability of MathMixup in improving the mathematical reasoning abilities of LLMs and advancing data-centric curriculum learning.",
+            "link": "https://arxiv.org/pdf/2601.17006v1"
         }
     ],
     "last_year": [
