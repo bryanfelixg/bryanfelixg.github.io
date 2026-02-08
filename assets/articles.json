@@ -117,12 +117,12 @@
             "link": "https://arxiv.org/pdf/2305.19882v1"
         },
         {
-            "title": "Applications of Teaching Secondary Mathematics in Undergraduate Mathematics Courses",
-            "year": "February 2021",
-            "date": "2021-02-08",
-            "authors": "Elizabeth G. Arnold, Elizabeth A. Burroughs, Elizabeth W. Fulton, James A. Mendoza Álvarez",
-            "abstract": "Robust preparation of future secondary mathematics teachers requires attention to the acquisition of mathematical knowledge for teaching. Many future teachers learn mathematics content primarily through mathematics major courses that are taught by mathematicians who do not specialize in teacher preparation. How can mathematics education researchers assist mathematicians in making explicit connections between the content of undergraduate mathematics courses and the content of secondary mathematics? We present an articulation of five types of connections that can be used in secondary mathematics teacher preparation and give examples of question prompts that mathematicians can use as applications of teaching secondary mathematics in undergraduate mathematics courses.",
-            "link": "https://arxiv.org/pdf/2102.04537v1"
+            "title": "A mathematical model of clonal hematopoiesis explaining phase transitions in chronic myeloid leukemia",
+            "year": "January 2024",
+            "date": "2024-01-10",
+            "authors": "Lorand Gabriel Parajdi, Xue Bai, David Kegyes, Ciprian Tomuleasa",
+            "abstract": "This study presents a mathematical model describing cloned hematopoiesis in chronic myeloid leukemia (CML) through a nonlinear system of differential equations. The primary objective is to understand the progression from healthy hematopoiesis to the chronic and accelerated-acute phases in myeloid leukemia. The model incorporates intrinsic cellular division events in hematopoiesis and delineates the evolution of chronic myeloid leukemia into five compartments: cycling stem cells, quiescent stem cells, progenitor cells, differentiated cells and terminally differentiated cells. Our analysis reveals the existence of three distinct non-zero steady states within the dynamical system, representing healthy hematopoiesis, the chronic phase and the accelerated-acute stage of the disease. We investigate the local and global stability of these steady states and provide a characterization of the hematopoietic states based on this analysis. Additionally, numerical simulations are included to illustrate the theoretical results.",
+            "link": "https://arxiv.org/pdf/2401.05316v2"
         }
     ],
     "all_time": [
