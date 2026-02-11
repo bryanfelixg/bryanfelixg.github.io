@@ -1,12 +1,28 @@
 {
     "last_month": [
         {
+            "title": "Open Mathematical Tasks as a Didactic Response to Generative Artificial Intelligence in Post-AI Contexts",
+            "year": "February 2026",
+            "date": "2026-02-09",
+            "authors": "Felix De la Cruz Serrano",
+            "abstract": "The widespread availability of generative artificial intelligence tools poses new challenges for school mathematics education, particularly regarding the formative role of traditional mathematical tasks. In post-AI educational contexts, many activities can be solved automatically, without engaging students in interpretation, decision-making, or mathematical validation processes.\n  This study analyzes a secondary school classroom experience in which open mathematical tasks are implemented as a didactic response to this scenario, aiming to sustain students' mathematical activity. Adopting a qualitative and descriptive-interpretative approach, the study examines the forms of mathematical work that emerge during task resolution, mediated by the didactic regulation device COMPAS.\n  The analysis is structured around four analytical axes: open task design in post-AI contexts, students' mathematical agency, human-AI complementarity, and modeling and validation practices. The findings suggest that, under explicit didactic regulation, students retain epistemic control over mathematical activity, even in the presence of generative artificial intelligence.",
+            "link": "https://arxiv.org/pdf/2602.09242v1"
+        },
+        {
+            "title": "On the well-posedness of a certain model with two kernels appearing in the mathematical biology",
+            "year": "February 2026",
+            "date": "2026-02-08",
+            "authors": "Messoud Efendiev, Vitali Vougalter",
+            "abstract": "The work is devoted to establishing the global well-posedness in \\(W^{(1,2),2}(R\\times R^{+})\\) of the integro-differential problem involving the two nonlocal terms describing the diffusion and the production in the biological system in the presence of the transport term. Such model is relevant to the cell population dynamics in the Mathematical Biology. The proof is based on a fixed point technique.",
+            "link": "https://arxiv.org/pdf/2602.08102v1"
+        },
+        {
             "title": "AI for Mathematics: Progress, Challenges, and Prospects",
             "year": "January 2026",
             "date": "2026-01-19",
             "authors": "Haocheng Ju, Bin Dong",
             "abstract": "AI for Mathematics (AI4Math) has emerged as a distinct field that leverages machine learning to navigate mathematical landscapes historically intractable for early symbolic systems. While mid-20th-century symbolic approaches successfully automated formal logic, they faced severe scalability limitations due to the combinatorial explosion of the search space. The recent integration of data-driven approaches has revitalized this pursuit. In this review, we provide a systematic overview of AI4Math, highlighting its primary focus on developing AI models to support mathematical research. Crucially, we emphasize that this is not merely the application of AI to mathematical activities; it also encompasses the development of stronger AI systems where the rigorous nature of mathematics serves as a premier testbed for advancing general reasoning capabilities. We categorize existing research into two complementary directions: problem-specific modeling, involving the design of specialized architectures for distinct mathematical tasks, and general-purpose modeling, focusing on foundation models capable of broader reasoning, retrieval, and exploratory workflows. We conclude by discussing key challenges and prospects, advocating for AI systems that go beyond facilitating formal correctness to enabling the discovery of meaningful results and unified theories, recognizing that the true value of a proof lies in the insights and tools it offers to the broader mathematical landscape.",
-            "link": "https://arxiv.org/pdf/2601.13209v3"
+            "link": "https://arxiv.org/pdf/2601.13209v4"
         },
         {
             "title": "Large Language Models: A Mathematical Formulation",
@@ -23,22 +39,6 @@
             "authors": "Anselm Strohmaier, Samira Bödefeld, Frank Reinhold",
             "abstract": "The capabilities of generative AI in mathematics education are rapidly evolving, posing significant challenges for research to keep pace. Research syntheses remain scarce and risk being outdated by the time of publication. To address this issue, we present a Living Meta-Analysis (LIMA) on the effects of generative AI-based interventions for learning mathematics. Following PRISMA-LSR guidelines, we continuously update the literature base, apply a Bayesian multilevel meta-regression model to account for cumulative data, and publish updated versions on a preprint server at regular intervals. This paper reports results from the first version, including 15 studies. The analyses indicate a small positive effect (g = 0.31) with a wide credible interval [0.06, 0.58], reflecting the still limited evidence base.",
             "link": "https://arxiv.org/pdf/2601.18685v1"
-        },
-        {
-            "title": "A dynamical model of the U.S. mathematics graduate degree pipeline",
-            "year": "January 2026",
-            "date": "2026-01-13",
-            "authors": "Chad M. Topaz, Oluwatosin Babasola, Ron Buckmire, Daozhou Gao, Maila Hallare, Olaniyi Iyiola, Deanna Needell, Andrés R. Vindas-Meléndez",
-            "abstract": "We present a latent-stock compartmental framework for modeling degree production systems when only completion flows, rather than enrollments, are observed. Applied to U.S.\\ mathematics degrees from 1969 to 2017, the model treats master's and PhD populations as latent compartments -- unobserved state variables that are inferred indirectly because they generate the observed completion flows -- with time-varying routing fractions and completion hazards. Using information-criterion model comparison across a grid of specifications, we find strong support for smooth nonlinear time variation in routing fractions and hazards, while models with explicit international forcing are disfavored. The preferred model achieves a log-scale root mean squared error of approximately 0.036, corresponding to a typical multiplicative error of about 4\\% in fitted degree counts, and highlights key structural shifts in the graduate pipeline: the master's pathway became increasingly central to PhD production through the late twentieth century before weakening, while direct bachelor's-to-PhD entry remained small but persistent. Estimated completion hazards for both degrees rise over time, indicating faster effective turnover in the graduate compartments. Methodologically, our main contribution is a latent stock dynamical approach that recasts linked degreecompletion time series as a coherent stock-flow system when intermediate enrollments are unobserved, making explicit both what features of pipeline dynamics are identifiable from completion data alone and what limitations such data impose.",
-            "link": "https://arxiv.org/pdf/2601.08525v1"
-        },
-        {
-            "title": "Process In-Context Learning: Enhancing Mathematical Reasoning via Dynamic Demonstration Insertion",
-            "year": "January 2026",
-            "date": "2026-01-17",
-            "authors": "Ang Gao, Changshuo Zhang, Xiao Zhang, Deyang Li, Minjun Zhao, Fangchao Liu, Xinyu Zhang",
-            "abstract": "In-context learning (ICL) has proven highly effective across diverse large language model (LLM) tasks. However, its potential for enhancing tasks that demand step-by-step logical deduction, such as mathematical reasoning, remains underexplored. A core limitation of existing ICL approaches is their static use of demonstrations: examples are pre-selected before inference and remain fixed, failing to adapt to the dynamic confusion points that often arise during multi-step reasoning such as ambiguous calculations or logical gaps. These unresolved confusion points can lead to cascading errors that degrade final accuracy. To tackle this issue, we propose Process In-Context Learning (PICL), a dynamic demonstration integration framework designed to boost mathematical reasoning by responding to real-time inference needs. PICL operates in two stages: 1)~it identifies potential confusion points by analyzing semantics and entropy in the reasoning process and summarizes their core characteristics; 2)~upon encountering these points, it retrieves relevant demonstrations from the demonstration pool that match the confusion context and inserts them directly into the ongoing reasoning process to guide subsequent steps. Experiments show that PICL outperforms baseline methods by mitigating mid-inference confusion, highlighting the value of adaptive demonstration insertion in complex mathematical reasoning.",
-            "link": "https://arxiv.org/pdf/2601.11979v1"
         }
     ],
     "last_year": [
@@ -49,6 +49,14 @@
             "authors": "Archana S. Morye",
             "abstract": "Origami is the art of paper folding, and it borrows its name from two Japanese words \\emph{ori} and \\emph{kami}. In Japanese, {ori} means folding, and the paper is called {kami}. While origami is just a hobby to most, there is a lot more to it. If you fold a square sheet of paper into any of the traditional origami model (for example the flapping bird) and unfold it, you can see crease patterns. These crease patterns tell us that there is a lot of geometry hidden behind the folds.\n  In this article, we investigate the symbiotic relationship between mathematics and origami. The first part of this article explores the utility of origami in education. We will see how origami could become an effective way of teaching methods of geometry, mainly because of its experiential nature. Complex origami patterns cannot be created out of thin air. They usually involve understanding deep mathematical theories and the ability to apply them to paper folding. In the second part of the article, we attempt to provide a glimpse of this beautiful connection between origami and mathematics.",
             "link": "https://arxiv.org/pdf/2503.11679v1"
+        },
+        {
+            "title": "Open Mathematical Tasks as a Didactic Response to Generative Artificial Intelligence in Post-AI Contexts",
+            "year": "February 2026",
+            "date": "2026-02-09",
+            "authors": "Felix De la Cruz Serrano",
+            "abstract": "The widespread availability of generative artificial intelligence tools poses new challenges for school mathematics education, particularly regarding the formative role of traditional mathematical tasks. In post-AI educational contexts, many activities can be solved automatically, without engaging students in interpretation, decision-making, or mathematical validation processes.\n  This study analyzes a secondary school classroom experience in which open mathematical tasks are implemented as a didactic response to this scenario, aiming to sustain students' mathematical activity. Adopting a qualitative and descriptive-interpretative approach, the study examines the forms of mathematical work that emerge during task resolution, mediated by the didactic regulation device COMPAS.\n  The analysis is structured around four analytical axes: open task design in post-AI contexts, students' mathematical agency, human-AI complementarity, and modeling and validation practices. The findings suggest that, under explicit didactic regulation, students retain epistemic control over mathematical activity, even in the presence of generative artificial intelligence.",
+            "link": "https://arxiv.org/pdf/2602.09242v1"
         },
         {
             "title": "Decoding the Ishango Bone: Unveiling Prehistoric Mathematical Art",
@@ -73,14 +81,6 @@
             "authors": "Rene Fabregas, Jie Liao, Nisrine Outada",
             "abstract": "Classical swarm models, exemplified by the Cucker--Smale framework, provide foundational insights into collective alignment but exhibit fundamental limitations in capturing the adaptive, heterogeneous behaviours intrinsic to living systems. This paper formalises the mathematical theory of \\textit{Behavioural Swarms}, a comprehensive framework where each particle's state incorporates a dynamic internal variable, the \\textit{activity} that co-evolves with position and velocity through nonlocal interactions. We demonstrate how this approach transcends prior models by integrating adaptive decision-making mechanisms and heterogeneous behavioural states into rigorous differential systems. Through applications in behavioural economics and crowd dynamics, we establish the theory's capacity to predict emergent macroscopic patterns from individual behavioural states. Our critical analysis positions this framework against kinetic theories of active particles and agent-based approaches, revealing distinct advantages for modelling systems where individual agency drives collective outcomes.",
             "link": "https://arxiv.org/pdf/2508.12183v2"
-        },
-        {
-            "title": "Ethical and sustainable mathematics is localised: why global paradigms fail and culturally-situated practices are essential",
-            "year": "October 2025",
-            "date": "2025-10-07",
-            "authors": "Dennis Müller, Maurice Chiodo",
-            "abstract": "This paper identifies several different interconnected challenges preventing the move towards more ethical and sustainable mathematics education: the entrenched belief in mathematical neutrality, the difficulty of simultaneously reforming mathematics and its pedagogy, the gap between academic theory and classroom practice, and the need for epistemic decolonisation. In this context, we look at both bottom-up and top-down approaches, and argue that globalised frameworks such as the United Nations' Sustainable Development Goals are insufficient for this transformation, and that ethical and sustainable forms of mathematics ought not to be built using these as their (philosophical) foundation. These frameworks are often rooted in a Western-centric development paradigm that can perpetuate colonial hierarchies and fails to resolve inherent conflicts between economic growth and ecological integrity. As an alternative, this paper advocates for embracing localised, culturally-situated mathematical practices. Using the Ethics in Mathematics Project as a case study within a Western, Global North institution, this paper illustrates a critical-pragmatic, multi-level strategy for fostering ethical consciousness within a specific research community, and shows how this may be achieved in otherwise adversarial circumstances.",
-            "link": "https://arxiv.org/pdf/2510.05892v1"
         }
     ],
     "last_5_years": [
@@ -109,20 +109,20 @@
             "link": "https://arxiv.org/pdf/2309.06595v1"
         },
         {
+            "title": "Open Mathematical Tasks as a Didactic Response to Generative Artificial Intelligence in Post-AI Contexts",
+            "year": "February 2026",
+            "date": "2026-02-09",
+            "authors": "Felix De la Cruz Serrano",
+            "abstract": "The widespread availability of generative artificial intelligence tools poses new challenges for school mathematics education, particularly regarding the formative role of traditional mathematical tasks. In post-AI educational contexts, many activities can be solved automatically, without engaging students in interpretation, decision-making, or mathematical validation processes.\n  This study analyzes a secondary school classroom experience in which open mathematical tasks are implemented as a didactic response to this scenario, aiming to sustain students' mathematical activity. Adopting a qualitative and descriptive-interpretative approach, the study examines the forms of mathematical work that emerge during task resolution, mediated by the didactic regulation device COMPAS.\n  The analysis is structured around four analytical axes: open task design in post-AI contexts, students' mathematical agency, human-AI complementarity, and modeling and validation practices. The findings suggest that, under explicit didactic regulation, students retain epistemic control over mathematical activity, even in the presence of generative artificial intelligence.",
+            "link": "https://arxiv.org/pdf/2602.09242v1"
+        },
+        {
             "title": "Constructive mathematics and teaching",
             "year": "May 2023",
             "date": "2023-05-31",
             "authors": "Alexander Shen",
             "abstract": "Constructivists (and intuitionists in general) asked what kind of mental construction is needed to convince ourselves (and others) that some mathematical statement is true. This question has a much more practical (and even cynical) counterpart: a student of a mathematics class wants to know what will the teacher accept as a correct solution of a homework problem. Here the logical structure of the claim is also very important, and we discuss several types of problems and their use in teaching mathematics.",
             "link": "https://arxiv.org/pdf/2305.19882v1"
-        },
-        {
-            "title": "A mathematical model of clonal hematopoiesis explaining phase transitions in chronic myeloid leukemia",
-            "year": "January 2024",
-            "date": "2024-01-10",
-            "authors": "Lorand Gabriel Parajdi, Xue Bai, David Kegyes, Ciprian Tomuleasa",
-            "abstract": "This study presents a mathematical model describing cloned hematopoiesis in chronic myeloid leukemia (CML) through a nonlinear system of differential equations. The primary objective is to understand the progression from healthy hematopoiesis to the chronic and accelerated-acute phases in myeloid leukemia. The model incorporates intrinsic cellular division events in hematopoiesis and delineates the evolution of chronic myeloid leukemia into five compartments: cycling stem cells, quiescent stem cells, progenitor cells, differentiated cells and terminally differentiated cells. Our analysis reveals the existence of three distinct non-zero steady states within the dynamical system, representing healthy hematopoiesis, the chronic phase and the accelerated-acute stage of the disease. We investigate the local and global stability of these steady states and provide a characterization of the hematopoietic states based on this analysis. Additionally, numerical simulations are included to illustrate the theoretical results.",
-            "link": "https://arxiv.org/pdf/2401.05316v2"
         }
     ],
     "all_time": [
