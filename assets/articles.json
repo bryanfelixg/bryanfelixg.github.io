@@ -25,20 +25,20 @@
             "link": "https://arxiv.org/pdf/2602.08102v1"
         },
         {
-            "title": "Large Language Models: A Mathematical Formulation",
-            "year": "January 2026",
-            "date": "2026-01-21",
-            "authors": "Ricardo Baptista, Andrew Stuart, Son Tran",
-            "abstract": "Large language models (LLMs) process and predict sequences containing text to answer questions, and address tasks including document summarization, providing recommendations, writing software and solving quantitative problems. We provide a mathematical framework for LLMs by describing the encoding of text sequences into sequences of tokens, defining the architecture for next-token prediction models, explaining how these models are learned from data, and demonstrating how they are deployed to address a variety of tasks. The mathematical sophistication required to understand this material is not high, and relies on straightforward ideas from information theory, probability and optimization. Nonetheless, the combination of ideas resting on these different components from the mathematical sciences yields a complex algorithmic structure; and this algorithmic structure has demonstrated remarkable empirical successes. The mathematical framework established here provides a platform from which it is possible to formulate and address questions concerning the accuracy, efficiency and robustness of the algorithms that constitute LLMs. The framework also suggests directions for development of modified and new methodologies.",
-            "link": "https://arxiv.org/pdf/2601.22170v1"
-        },
-        {
             "title": "LLAMA LIMA: A Living Meta-Analysis on the Effects of Generative AI on Learning Mathematics",
             "year": "January 2026",
             "date": "2026-01-26",
             "authors": "Anselm Strohmaier, Samira Bödefeld, Frank Reinhold",
             "abstract": "The capabilities of generative AI in mathematics education are rapidly evolving, posing significant challenges for research to keep pace. Research syntheses remain scarce and risk being outdated by the time of publication. To address this issue, we present a Living Meta-Analysis (LIMA) on the effects of generative AI-based interventions for learning mathematics. Following PRISMA-LSR guidelines, we continuously update the literature base, apply a Bayesian multilevel meta-regression model to account for cumulative data, and publish updated versions on a preprint server at regular intervals. This paper reports results from the first version, including 15 studies. The analyses indicate a small positive effect (g = 0.31) with a wide credible interval [0.06, 0.58], reflecting the still limited evidence base.",
             "link": "https://arxiv.org/pdf/2601.18685v1"
+        },
+        {
+            "title": "Correctness, Artificial Intelligence, and the Epistemic Value of Mathematical Proof",
+            "year": "February 2026",
+            "date": "2026-02-12",
+            "authors": "James Owen Weatherall, Jesse Wolfson",
+            "abstract": "We argue that it is neither necessary nor sufficient for a mathematical proof to have epistemic value that it be \"correct\", in the sense of formalizable in a formal proof system. We then present a view on the relationship between mathematics and logic that clarifies the role of formal correctness in mathematics. Finally, we discuss the significance of these arguments for recent discussions about automated theorem provers and applications of AI to mathematics.",
+            "link": "https://arxiv.org/pdf/2602.12463v1"
         }
     ],
     "last_year": [
