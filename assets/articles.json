@@ -25,20 +25,20 @@
             "link": "https://arxiv.org/pdf/2602.08102v1"
         },
         {
-            "title": "LLAMA LIMA: A Living Meta-Analysis on the Effects of Generative AI on Learning Mathematics",
-            "year": "January 2026",
-            "date": "2026-01-26",
-            "authors": "Anselm Strohmaier, Samira Bödefeld, Frank Reinhold",
-            "abstract": "The capabilities of generative AI in mathematics education are rapidly evolving, posing significant challenges for research to keep pace. Research syntheses remain scarce and risk being outdated by the time of publication. To address this issue, we present a Living Meta-Analysis (LIMA) on the effects of generative AI-based interventions for learning mathematics. Following PRISMA-LSR guidelines, we continuously update the literature base, apply a Bayesian multilevel meta-regression model to account for cumulative data, and publish updated versions on a preprint server at regular intervals. This paper reports results from the first version, including 15 studies. The analyses indicate a small positive effect (g = 0.31) with a wide credible interval [0.06, 0.58], reflecting the still limited evidence base.",
-            "link": "https://arxiv.org/pdf/2601.18685v1"
-        },
-        {
             "title": "Correctness, Artificial Intelligence, and the Epistemic Value of Mathematical Proof",
             "year": "February 2026",
             "date": "2026-02-12",
             "authors": "James Owen Weatherall, Jesse Wolfson",
             "abstract": "We argue that it is neither necessary nor sufficient for a mathematical proof to have epistemic value that it be \"correct\", in the sense of formalizable in a formal proof system. We then present a view on the relationship between mathematics and logic that clarifies the role of formal correctness in mathematics. Finally, we discuss the significance of these arguments for recent discussions about automated theorem provers and applications of AI to mathematics.",
             "link": "https://arxiv.org/pdf/2602.12463v1"
+        },
+        {
+            "title": "A Discrete-Time Model of the Academic Pipeline in Mathematical Sciences with Constrained Hiring in the United States",
+            "year": "February 2026",
+            "date": "2026-02-12",
+            "authors": "Oluwatosin Babasola, Olayemi Adeyemi, Ron Buckmire, Daozhou Gao, Maila Hallare, Olaniyi Iyiola, Deanna Needell, Chad M. Topaz, Andrés R. Vindas-Meléndez",
+            "abstract": "The field of the mathematical sciences relies on a continuous academic pipeline in which individuals progress from undergraduate study through graduate training and postdoctoral program to long term faculty employment. National statistics report trends in bachelor's, master's, and doctoral degree awards, but these data alone do not explain how individuals move through the academic system or how structural constraints shape downstream career outcomes. Persistent growth in postdoctoral appointments alongside relatively stable faculty employment indicates that degree production alone is insufficient to characterize workforce dynamics. In this study, we develop a discrete time compartmental model of the academic pipeline in the field of the mathematical sciences that links observed degree flows to latent population stocks. Undergraduate and graduate populations are reconstructed directly from nationally reported degree data, allowing postdoctoral and faculty dynamics to be examined under completion, exit, and hiring processes. Advancement to faculty positions is modeled as vacancy limited, with competition for permanent positions depending on downstream population size. Numerical simulations show that increases in degree inflow do not translate into proportional faculty growth when hiring is constrained by limited turnover. Instead, excess supply accumulates primarily at the postdoctoral stage, leading to sustained congestion and elevated competition. Sensitivity analyses indicate that long run workforce outcomes are governed mainly by faculty exit rates and hiring capacity rather than by degree production alone. These results demonstrate the central role of vacancy limited hiring in shaping academic career trajectories within the field of the mathematical sciences.",
+            "link": "https://arxiv.org/pdf/2602.12188v1"
         }
     ],
     "last_year": [
