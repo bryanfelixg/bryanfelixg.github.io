@@ -80,20 +80,20 @@
         "posted": "June 09, 2025"
     },
     {
-        "title": "Amendable decisions in living systems",
-        "authors": "Izaak Neri, Simone Pigolotti",
-        "doi": "https://doi.org/10.1101/2025.06.03.657747",
-        "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.06.03.657747v1.full.pdf",
-        "abstract": "A distinct feature of living systems is their capacity to take decisions based on uncertain environmental signals. Examples span from the microscopic scale of cells differentiating based on the concentration of a morphogene, to the macroscopic scale of decisions by animals or human beings. The current paradigm in decision theory is based on the assumption that decisions, once taken, cannot be revoked. However, living systems often amend their decisions if accumulated evidence favors an alternative hypothesis. In this paper, we develop a theory for amendable decision making in living systems. We find that, in contrast with irrevocable decisions, optimal amendable decisions can be taken in a finite average time at zero error probability. Our theory successfully predicts the outcome of a visual experiment involving human participants and the accuracy of cell-fate decisions in early development. These case studies demonstrate the broad applicability of the amendable decision paradigm in biology.",
-        "posted": "June 06, 2025"
-    },
-    {
         "title": "A systems biology approach to evaluate potential probiotic candidates for women’s vaginal health",
         "authors": "Emma M. Glass, Glynis L. Kolling, Jason A. Papin",
         "doi": "https://doi.org/10.1101/2025.06.16.659967",
         "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.06.16.659967v1.full.pdf",
         "abstract": "Probiotic supplements are marketed for diverse health benefits, yet species inclusion often lacks functional rationale. We surveyed 352 U.S. probiotic products and found 36 unique microbial species, with most supplements containing only one species and no clear link between species and intended health benefit. To evaluate probiotic function, we developed CoPaPro, a collection of 1,012 genome-scale metabolic models spanning commensal, pathogenic, and probiotic bacteria. Flux balance analysis revealed that current probiotic species fail to capture the metabolic diversity of native commensals. Focusing on vaginal health, we identified commensals with metabolic profiles overlapping Gardnerella vaginalis, a key pathobiont. In vitro spent media assays using 11 vaginal isolates showed variable inhibition of G. vaginalis, primarily driven by D-lactic acid production rather than metabolic similarity. Several non-Lactobacillus species produced inhibitory levels of D-lactate. These findings highlight the need for function-based probiotic design and demonstrate a scalable framework integrating metabolic modeling with experimental validation.",
         "posted": "June 21, 2025"
+    },
+    {
+        "title": "Tau-seed interactome analysis reveals distinct functional signatures in Alzheimer’s disease across model systems",
+        "authors": "Pablo Martinez, Henika Patel, Yanwen You, Daniella Lopes, Armando Amaro, Nur Jury-Garfe, Yuhao Min, Javier Redding-Ochoa, Sayan Dutta, Jean-Christophe Rochet, Nilüfer Ertekin-Taner, Juan C. Troncoso, Cristian A. Lasagna-Reeves",
+        "doi": "https://doi.org/10.1101/2025.06.17.660179",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.06.17.660179v1.full.pdf",
+        "abstract": "Tau aggregates propagate through the brain in a prion-like manner in Alzheimer’s disease (AD) and other tauopathies, but the molecular identity and functional partners of the seeding-competent Tau species remain poorly defined. Here, we present an unbiased proteomic profiling of a high-molecular-weight (HMW) Tau-seed isolated from AD patient brains. We contrast this interactome with that of a biochemically similar, seeding-incompetent HMW-Tau species from age-matched healthy controls. Despite comprising less than 5% of total Tau in the brain, Tau-seed associates with a distinct set of proteins enriched in synaptic, mitochondrial, and vesicle-trafficking functions. Cross-species functional screening in Drosophila and mouse models identifies interactors that modulate Tau toxicity and seeding. Spatially resolved analysis of postmortem AD brains reveals heterogenous co-deposition of these proteins with Tau aggregates, suggesting functionally distinct Tau-seed complexes. Together, this dataset provides a framework for understanding selective Tau-seed toxicity and identifies candidate regulators of Tau propagation with therapeutic potential.",
+        "posted": "June 20, 2025"
     },
     {
         "title": "Selecting Synthetic Data for Successful Simulation-Based Transfer Learning in Dynamical Biological Systems",
