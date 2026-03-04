@@ -43,14 +43,6 @@
     ],
     "last_year": [
         {
-            "title": "The Folding Mathematics",
-            "year": "March 2025",
-            "date": "2025-03-03",
-            "authors": "Archana S. Morye",
-            "abstract": "Origami is the art of paper folding, and it borrows its name from two Japanese words \\emph{ori} and \\emph{kami}. In Japanese, {ori} means folding, and the paper is called {kami}. While origami is just a hobby to most, there is a lot more to it. If you fold a square sheet of paper into any of the traditional origami model (for example the flapping bird) and unfold it, you can see crease patterns. These crease patterns tell us that there is a lot of geometry hidden behind the folds.\n  In this article, we investigate the symbiotic relationship between mathematics and origami. The first part of this article explores the utility of origami in education. We will see how origami could become an effective way of teaching methods of geometry, mainly because of its experiential nature. Complex origami patterns cannot be created out of thin air. They usually involve understanding deep mathematical theories and the ability to apply them to paper folding. In the second part of the article, we attempt to provide a glimpse of this beautiful connection between origami and mathematics.",
-            "link": "https://arxiv.org/pdf/2503.11679v1"
-        },
-        {
             "title": "Open Mathematical Tasks as a Didactic Response to Generative Artificial Intelligence in Post-AI Contexts",
             "year": "February 2026",
             "date": "2026-02-09",
@@ -81,6 +73,14 @@
             "authors": "Rene Fabregas, Jie Liao, Nisrine Outada",
             "abstract": "Classical swarm models, exemplified by the Cucker--Smale framework, provide foundational insights into collective alignment but exhibit fundamental limitations in capturing the adaptive, heterogeneous behaviours intrinsic to living systems. This paper formalises the mathematical theory of \\textit{Behavioural Swarms}, a comprehensive framework where each particle's state incorporates a dynamic internal variable, the \\textit{activity} that co-evolves with position and velocity through nonlocal interactions. We demonstrate how this approach transcends prior models by integrating adaptive decision-making mechanisms and heterogeneous behavioural states into rigorous differential systems. Through applications in behavioural economics and crowd dynamics, we establish the theory's capacity to predict emergent macroscopic patterns from individual behavioural states. Our critical analysis positions this framework against kinetic theories of active particles and agent-based approaches, revealing distinct advantages for modelling systems where individual agency drives collective outcomes.",
             "link": "https://arxiv.org/pdf/2508.12183v2"
+        },
+        {
+            "title": "Ethical and sustainable mathematics is localised: why global paradigms fail and culturally-situated practices are essential",
+            "year": "October 2025",
+            "date": "2025-10-07",
+            "authors": "Dennis Müller, Maurice Chiodo",
+            "abstract": "This paper identifies several different interconnected challenges preventing the move towards more ethical and sustainable mathematics education: the entrenched belief in mathematical neutrality, the difficulty of simultaneously reforming mathematics and its pedagogy, the gap between academic theory and classroom practice, and the need for epistemic decolonisation. In this context, we look at both bottom-up and top-down approaches, and argue that globalised frameworks such as the United Nations' Sustainable Development Goals are insufficient for this transformation, and that ethical and sustainable forms of mathematics ought not to be built using these as their (philosophical) foundation. These frameworks are often rooted in a Western-centric development paradigm that can perpetuate colonial hierarchies and fails to resolve inherent conflicts between economic growth and ecological integrity. As an alternative, this paper advocates for embracing localised, culturally-situated mathematical practices. Using the Ethics in Mathematics Project as a case study within a Western, Global North institution, this paper illustrates a critical-pragmatic, multi-level strategy for fostering ethical consciousness within a specific research community, and shows how this may be achieved in otherwise adversarial circumstances.",
+            "link": "https://arxiv.org/pdf/2510.05892v1"
         }
     ],
     "last_5_years": [
