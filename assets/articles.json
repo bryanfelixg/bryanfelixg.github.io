@@ -17,12 +17,12 @@
             "link": "https://arxiv.org/pdf/2602.10177v3"
         },
         {
-            "title": "On the well-posedness of a certain model with two kernels appearing in the mathematical biology",
-            "year": "February 2026",
-            "date": "2026-02-08",
-            "authors": "Messoud Efendiev, Vitali Vougalter",
-            "abstract": "The work is devoted to establishing the global well-posedness in \\(W^{(1,2),2}(R\\times R^{+})\\) of the integro-differential problem involving the two nonlocal terms describing the diffusion and the production in the biological system in the presence of the transport term. Such model is relevant to the cell population dynamics in the Mathematical Biology. The proof is based on a fixed point technique.",
-            "link": "https://arxiv.org/pdf/2602.08102v1"
+            "title": "Mathematical Proof",
+            "year": "March 2026",
+            "date": "2026-03-07",
+            "authors": "Heinz H. Bauschke",
+            "abstract": "These Course Notes provide an introduction to mathematical proofs for undergraduate students transitioning from computational calculus to abstract mathematics. Topics include propositional logic, proof techniques, mathematical induction, fields, sets and relations, sequences and series, completeness of the real numbers, cardinality, and related foundational material. Numerous examples and exercises (with complete solutions) are included. The notes are designed for a one-semester proof course.",
+            "link": "https://arxiv.org/pdf/2603.08756v1"
         },
         {
             "title": "Multi-Species Keller--Segel Systems: Analysis, Pattern Formation, and Emerging Mathematical Structures",
@@ -33,12 +33,12 @@
             "link": "https://arxiv.org/pdf/2603.04931v1"
         },
         {
-            "title": "Discovering mathematical concepts through a multi-agent system",
+            "title": "Celebrating Women in Mathematics",
             "year": "March 2026",
-            "date": "2026-03-04",
-            "authors": "Daattavya Aggarwal, Oisin Kim, Carl Henrik Ek, Challenger Mishra",
-            "abstract": "Mathematical concepts emerge through an interplay of processes, including experimentation, efforts at proof, and counterexamples. In this paper, we present a new multi-agent model for computational mathematical discovery based on this observation. Our system, conceived with research in mind, poses its own conjectures and then attempts to prove them, making decisions informed by this feedback and an evolving data distribution. Inspired by the history of Euler's conjecture for polyhedra and an open challenge in the literature, we benchmark with the task of autonomously recovering the concept of homology from polyhedral data and knowledge of linear algebra. Our system completes this learning problem. Most importantly, the experiments are ablations, statistically testing the value of the complete dynamic and controlling for experimental setup. They support our main claim: that the optimisation of the right combination of local processes can lead to surprisingly well-aligned notions of mathematical interestingness.",
-            "link": "https://arxiv.org/pdf/2603.04528v1"
+            "date": "2026-03-10",
+            "authors": "Diana T. Stoeva",
+            "abstract": "This paper was motivated by the worldwide May 12 initiative that aims to celebrate, encourage, and inspire women in mathematics. It presents in short how the May 12 initiative has arisen, what are some of the events in the first years, in particular the Generalized functions online workshop that started in 2021 in this context (and has continued as an annual event ever since), and a brief overview of some female mathematicians who have significant scientific contributions and who are the first women in some aspects: Maryam Mirzakhani (the first female mathematician who was awarded with the prestigious Fields medal; the May 12 initiative appeared in her honour), Hypatia (considered to be the earliest known female mathematician), Sofia Kovalevskaya (the first woman who has been awarded a doctorate in mathematics and considered to be the first woman who got a full professorship in mathematics in the modern academic sense), Emmy Noether (the first woman who gave a plenary lecture at the International Congress of Mathematicians), Karen Uhlenbeck (the first woman awarded with the prestigious Abel Prize), and Ingrid Daubechies (the first woman who became a full professor in mathematics at Princeton University, the first woman elected for President of the International Mathematical Union, the first woman who received the National Academy of Sciences Award in Mathematics). The paper was an invited contribution for the Akademie Intakt of the Austrian Academy of Sciences. It appeared in Akademie Intakt 2021, English Edition, Austrian Academy of Sciences, Vienna, 2021, 10-13, and it is submitted to arXiv with a permission from the publisher.",
+            "link": "https://arxiv.org/pdf/2603.09077v1"
         }
     ],
     "last_year": [
