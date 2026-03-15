@@ -33,12 +33,12 @@
             "link": "https://arxiv.org/pdf/2603.04528v1"
         },
         {
-            "title": "Correctness, Artificial Intelligence, and the Epistemic Value of Mathematical Proof",
+            "title": "Mathematical analysis for a doubly degenerate parabolic equation: Application to the Richards equation",
             "year": "February 2026",
-            "date": "2026-02-12",
-            "authors": "James Owen Weatherall, Jesse Wolfson",
-            "abstract": "We argue that it is neither necessary nor sufficient for a mathematical proof to have epistemic value that it be \"correct\", in the sense of formalizable in a formal proof system. We then present a view on the relationship between mathematics and logic that clarifies the role of formal correctness in mathematics. Finally, we discuss the significance of these arguments for recent discussions about automated theorem provers and applications of AI to mathematics.",
-            "link": "https://arxiv.org/pdf/2602.12463v1"
+            "date": "2026-02-22",
+            "authors": "Abderrahmane Benfanich, Yves Bourgault, Abdelaziz Beljadid",
+            "abstract": "This paper presents a mathematical analysis of a doubly degenerate parabolic equation and its application to the Richards equation using a bounded auxiliary variable. We establish the existence of weak solutions using semi-implicit time discretization combined with maximal monotone operator theory. The analysis is conducted within weighted Sobolev spaces, allowing for a rigorous treatment of the equation's strict degeneracy and strong nonlinearities. A key feature of this study is the derivation of convergence results without imposing strictly positive lower bounds on the diffusivity or requiring high regularity of the solution. Furthermore, we prove that the Richards equation using the introduced auxiliary variable preserves the physical bounds of the saturation and demonstrate the unconditional linear convergence of the L-scheme linearization to the semi-discrete solution.",
+            "link": "https://arxiv.org/pdf/2602.19037v1"
         }
     ],
     "last_year": [
