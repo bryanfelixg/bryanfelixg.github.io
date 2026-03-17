@@ -17,6 +17,14 @@
             "link": "https://arxiv.org/pdf/2603.04931v1"
         },
         {
+            "title": "A correspondence problem for mathematical proof",
+            "year": "March 2026",
+            "date": "2026-03-14",
+            "authors": "Simon DeDeo, Eamon Duede",
+            "abstract": "Mathematical proofs are often said to justify their conclusions by indicating the existence of a corresponding formal derivation. We argue that this widespread view relies on an under-examined notion of correspondence, or what it means for a particular derivation to ''correspond'' to a particular proof. Mere existence of a formalization is not enough, and a substantive account of the required correspondence resolves into two criteria -- adequate representation (of the original theorem) and tracking (of the steps in the original proof). An examination of the actually-existing formalization systems we have today shows the variety of quasi-empirical ways we establish these criteria, and points towards new burdens that may be placed on the future evolution of mathematics itself.",
+            "link": "https://arxiv.org/pdf/2603.13680v1"
+        },
+        {
             "title": "Celebrating Women in Mathematics",
             "year": "March 2026",
             "date": "2026-03-10",
@@ -31,14 +39,6 @@
             "authors": "Daattavya Aggarwal, Oisin Kim, Carl Henrik Ek, Challenger Mishra",
             "abstract": "Mathematical concepts emerge through an interplay of processes, including experimentation, efforts at proof, and counterexamples. In this paper, we present a new multi-agent model for computational mathematical discovery based on this observation. Our system, conceived with research in mind, poses its own conjectures and then attempts to prove them, making decisions informed by this feedback and an evolving data distribution. Inspired by the history of Euler's conjecture for polyhedra and an open challenge in the literature, we benchmark with the task of autonomously recovering the concept of homology from polyhedral data and knowledge of linear algebra. Our system completes this learning problem. Most importantly, the experiments are ablations, statistically testing the value of the complete dynamic and controlling for experimental setup. They support our main claim: that the optimisation of the right combination of local processes can lead to surprisingly well-aligned notions of mathematical interestingness.",
             "link": "https://arxiv.org/pdf/2603.04528v1"
-        },
-        {
-            "title": "Mathematical analysis for a doubly degenerate parabolic equation: Application to the Richards equation",
-            "year": "February 2026",
-            "date": "2026-02-22",
-            "authors": "Abderrahmane Benfanich, Yves Bourgault, Abdelaziz Beljadid",
-            "abstract": "This paper presents a mathematical analysis of a doubly degenerate parabolic equation and its application to the Richards equation using a bounded auxiliary variable. We establish the existence of weak solutions using semi-implicit time discretization combined with maximal monotone operator theory. The analysis is conducted within weighted Sobolev spaces, allowing for a rigorous treatment of the equation's strict degeneracy and strong nonlinearities. A key feature of this study is the derivation of convergence results without imposing strictly positive lower bounds on the diffusivity or requiring high regularity of the solution. Furthermore, we prove that the Richards equation using the introduced auxiliary variable preserves the physical bounds of the saturation and demonstrate the unconditional linear convergence of the L-scheme linearization to the semi-discrete solution.",
-            "link": "https://arxiv.org/pdf/2602.19037v1"
         }
     ],
     "last_year": [
