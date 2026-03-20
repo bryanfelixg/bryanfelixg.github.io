@@ -1,6 +1,14 @@
 {
     "last_month": [
         {
+            "title": "Mathematical Foundations of Deep Learning",
+            "year": "March 2026",
+            "date": "2026-03-19",
+            "authors": "Xiaojing Ye",
+            "abstract": "This draft book offers a comprehensive and rigorous treatment of the mathematical principles underlying modern deep learning. The book spans core theoretical topics, from the approximation capabilities of deep neural networks, the theory and algorithms of optimal control and reinforcement learning integrated with deep learning techniques, to contemporary generative models that drive today's advances in artificial intelligence.",
+            "link": "https://arxiv.org/pdf/2603.18387v1"
+        },
+        {
             "title": "Mathematical Proof",
             "year": "March 2026",
             "date": "2026-03-07",
@@ -22,7 +30,7 @@
             "date": "2026-03-14",
             "authors": "Simon DeDeo, Eamon Duede",
             "abstract": "Mathematical proofs are often said to justify their conclusions by indicating the existence of a corresponding formal derivation. We argue that this widespread view relies on an under-examined notion of correspondence, or what it means for a particular derivation to ''correspond'' to a particular proof. Mere existence of a formalization is not enough, and a substantive account of the required correspondence resolves into two criteria -- adequate representation (of the original theorem) and tracking (of the steps in the original proof). An examination of the actually-existing formalization systems we have today shows the variety of quasi-empirical ways we establish these criteria, and points towards new burdens that may be placed on the future evolution of mathematics itself.",
-            "link": "https://arxiv.org/pdf/2603.13680v1"
+            "link": "https://arxiv.org/pdf/2603.13680v2"
         },
         {
             "title": "Celebrating Women in Mathematics",
@@ -31,14 +39,6 @@
             "authors": "Diana T. Stoeva",
             "abstract": "This paper was motivated by the worldwide May 12 initiative that aims to celebrate, encourage, and inspire women in mathematics. It presents in short how the May 12 initiative has arisen, what are some of the events in the first years, in particular the Generalized functions online workshop that started in 2021 in this context (and has continued as an annual event ever since), and a brief overview of some female mathematicians who have significant scientific contributions and who are the first women in some aspects: Maryam Mirzakhani (the first female mathematician who was awarded with the prestigious Fields medal; the May 12 initiative appeared in her honour), Hypatia (considered to be the earliest known female mathematician), Sofia Kovalevskaya (the first woman who has been awarded a doctorate in mathematics and considered to be the first woman who got a full professorship in mathematics in the modern academic sense), Emmy Noether (the first woman who gave a plenary lecture at the International Congress of Mathematicians), Karen Uhlenbeck (the first woman awarded with the prestigious Abel Prize), and Ingrid Daubechies (the first woman who became a full professor in mathematics at Princeton University, the first woman elected for President of the International Mathematical Union, the first woman who received the National Academy of Sciences Award in Mathematics). The paper was an invited contribution for the Akademie Intakt of the Austrian Academy of Sciences. It appeared in Akademie Intakt 2021, English Edition, Austrian Academy of Sciences, Vienna, 2021, 10-13, and it is submitted to arXiv with a permission from the publisher.",
             "link": "https://arxiv.org/pdf/2603.09077v1"
-        },
-        {
-            "title": "Discovering mathematical concepts through a multi-agent system",
-            "year": "March 2026",
-            "date": "2026-03-04",
-            "authors": "Daattavya Aggarwal, Oisin Kim, Carl Henrik Ek, Challenger Mishra",
-            "abstract": "Mathematical concepts emerge through an interplay of processes, including experimentation, efforts at proof, and counterexamples. In this paper, we present a new multi-agent model for computational mathematical discovery based on this observation. Our system, conceived with research in mind, poses its own conjectures and then attempts to prove them, making decisions informed by this feedback and an evolving data distribution. Inspired by the history of Euler's conjecture for polyhedra and an open challenge in the literature, we benchmark with the task of autonomously recovering the concept of homology from polyhedral data and knowledge of linear algebra. Our system completes this learning problem. Most importantly, the experiments are ablations, statistically testing the value of the complete dynamic and controlling for experimental setup. They support our main claim: that the optimisation of the right combination of local processes can lead to surprisingly well-aligned notions of mathematical interestingness.",
-            "link": "https://arxiv.org/pdf/2603.04528v1"
         }
     ],
     "last_year": [
@@ -67,20 +67,20 @@
             "link": "https://arxiv.org/pdf/2510.13125v1"
         },
         {
+            "title": "Mathematical Foundations of Deep Learning",
+            "year": "March 2026",
+            "date": "2026-03-19",
+            "authors": "Xiaojing Ye",
+            "abstract": "This draft book offers a comprehensive and rigorous treatment of the mathematical principles underlying modern deep learning. The book spans core theoretical topics, from the approximation capabilities of deep neural networks, the theory and algorithms of optimal control and reinforcement learning integrated with deep learning techniques, to contemporary generative models that drive today's advances in artificial intelligence.",
+            "link": "https://arxiv.org/pdf/2603.18387v1"
+        },
+        {
             "title": "The Mathematical Theory of Behavioural Swarms: Towards Modelling the Collective Dynamics of Living Systems",
             "year": "August 2025",
             "date": "2025-08-16",
             "authors": "Rene Fabregas, Jie Liao, Nisrine Outada",
             "abstract": "Classical swarm models, exemplified by the Cucker--Smale framework, provide foundational insights into collective alignment but exhibit fundamental limitations in capturing the adaptive, heterogeneous behaviours intrinsic to living systems. This paper formalises the mathematical theory of \\textit{Behavioural Swarms}, a comprehensive framework where each particle's state incorporates a dynamic internal variable, the \\textit{activity} that co-evolves with position and velocity through nonlocal interactions. We demonstrate how this approach transcends prior models by integrating adaptive decision-making mechanisms and heterogeneous behavioural states into rigorous differential systems. Through applications in behavioural economics and crowd dynamics, we establish the theory's capacity to predict emergent macroscopic patterns from individual behavioural states. Our critical analysis positions this framework against kinetic theories of active particles and agent-based approaches, revealing distinct advantages for modelling systems where individual agency drives collective outcomes.",
             "link": "https://arxiv.org/pdf/2508.12183v2"
-        },
-        {
-            "title": "Ethical and sustainable mathematics is localised: why global paradigms fail and culturally-situated practices are essential",
-            "year": "October 2025",
-            "date": "2025-10-07",
-            "authors": "Dennis Müller, Maurice Chiodo",
-            "abstract": "This paper identifies several different interconnected challenges preventing the move towards more ethical and sustainable mathematics education: the entrenched belief in mathematical neutrality, the difficulty of simultaneously reforming mathematics and its pedagogy, the gap between academic theory and classroom practice, and the need for epistemic decolonisation. In this context, we look at both bottom-up and top-down approaches, and argue that globalised frameworks such as the United Nations' Sustainable Development Goals are insufficient for this transformation, and that ethical and sustainable forms of mathematics ought not to be built using these as their (philosophical) foundation. These frameworks are often rooted in a Western-centric development paradigm that can perpetuate colonial hierarchies and fails to resolve inherent conflicts between economic growth and ecological integrity. As an alternative, this paper advocates for embracing localised, culturally-situated mathematical practices. Using the Ethics in Mathematics Project as a case study within a Western, Global North institution, this paper illustrates a critical-pragmatic, multi-level strategy for fostering ethical consciousness within a specific research community, and shows how this may be achieved in otherwise adversarial circumstances.",
-            "link": "https://arxiv.org/pdf/2510.05892v1"
         }
     ],
     "last_5_years": [
