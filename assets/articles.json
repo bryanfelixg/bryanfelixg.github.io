@@ -9,6 +9,14 @@
             "link": "https://arxiv.org/pdf/2603.18387v1"
         },
         {
+            "title": "Shaping the Future of Mathematics in the Age of AI",
+            "year": "March 2026",
+            "date": "2026-03-26",
+            "authors": "Johan Commelin, Mateja Jamnik, Rodrigo Ochigame, Lenny Taelman, Akshay Venkatesh",
+            "abstract": "Artificial intelligence is transforming mathematics at a speed and scale that demand active engagement from the mathematical community. We examine five areas where this transformation is particularly pressing: values, practice, teaching, technology, and ethics. We offer recommendations on safeguarding our intellectual autonomy, rethinking our practice, broadening curricula, building academically oriented infrastructure, and developing shared ethical principles - with the aim of ensuring that the future of mathematics is shaped by the community itself.",
+            "link": "https://arxiv.org/pdf/2603.24914v1"
+        },
+        {
             "title": "Mathematical Proof",
             "year": "March 2026",
             "date": "2026-03-07",
@@ -31,14 +39,6 @@
             "authors": "Simon DeDeo, Eamon Duede",
             "abstract": "Mathematical proofs are often said to justify their conclusions by indicating the existence of a corresponding formal derivation. We argue that this widespread view relies on an under-examined notion of correspondence, or what it means for a particular derivation to ''correspond'' to a particular proof. Mere existence of a formalization is not enough, and a substantive account of the required correspondence resolves into two criteria -- adequate representation (of the original theorem) and tracking (of the steps in the original proof). An examination of the actually-existing formalization systems we have today shows the variety of quasi-empirical ways we establish these criteria, and points towards new burdens that may be placed on the future evolution of mathematics itself.",
             "link": "https://arxiv.org/pdf/2603.13680v2"
-        },
-        {
-            "title": "Celebrating Women in Mathematics",
-            "year": "March 2026",
-            "date": "2026-03-10",
-            "authors": "Diana T. Stoeva",
-            "abstract": "This paper was motivated by the worldwide May 12 initiative that aims to celebrate, encourage, and inspire women in mathematics. It presents in short how the May 12 initiative has arisen, what are some of the events in the first years, in particular the Generalized functions online workshop that started in 2021 in this context (and has continued as an annual event ever since), and a brief overview of some female mathematicians who have significant scientific contributions and who are the first women in some aspects: Maryam Mirzakhani (the first female mathematician who was awarded with the prestigious Fields medal; the May 12 initiative appeared in her honour), Hypatia (considered to be the earliest known female mathematician), Sofia Kovalevskaya (the first woman who has been awarded a doctorate in mathematics and considered to be the first woman who got a full professorship in mathematics in the modern academic sense), Emmy Noether (the first woman who gave a plenary lecture at the International Congress of Mathematicians), Karen Uhlenbeck (the first woman awarded with the prestigious Abel Prize), and Ingrid Daubechies (the first woman who became a full professor in mathematics at Princeton University, the first woman elected for President of the International Mathematical Union, the first woman who received the National Academy of Sciences Award in Mathematics). The paper was an invited contribution for the Akademie Intakt of the Austrian Academy of Sciences. It appeared in Akademie Intakt 2021, English Edition, Austrian Academy of Sciences, Vienna, 2021, 10-13, and it is submitted to arXiv with a permission from the publisher.",
-            "link": "https://arxiv.org/pdf/2603.09077v1"
         }
     ],
     "last_year": [
