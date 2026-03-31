@@ -17,6 +17,14 @@
             "link": "https://arxiv.org/pdf/2603.24914v1"
         },
         {
+            "title": "Mathematical methods and human thought in the age of AI",
+            "year": "March 2026",
+            "date": "2026-03-27",
+            "authors": "Tanya Klowden, Terence Tao",
+            "abstract": "Artificial intelligence (AI) is the name popularly given to a broad spectrum of computer tools designed to perform increasingly complex cognitive tasks, including many that used to solely be the province of humans. As these tools become exponentially sophisticated and pervasive, the justifications for their rapid development and integration into society are frequently called into question, particularly as they consume finite resources and pose existential risks to the livelihoods of those skilled individuals they appear to replace.\n  In this paper, we consider the rapidly evolving impact of AI to the traditional questions of philosophy\n  with an emphasis on its application in mathematics and on the broader real-world outcomes of its more general use. We assert that artificial intelligence is a natural evolution of human tools developed throughout history to facilitate the creation, organization, and dissemination of ideas, and argue that it is paramount that the development and application of AI remain fundamentally human-centered. With an eye toward innovating solutions to meet human needs, enhancing the human quality of life and expanding the capacity for human thought and understanding, we propose a pathway to integrating AI into our most challenging and intellectually rigorous fields to the benefit of all humankind.",
+            "link": "https://arxiv.org/pdf/2603.26524v1"
+        },
+        {
             "title": "Mathematical Proof",
             "year": "March 2026",
             "date": "2026-03-07",
@@ -31,14 +39,6 @@
             "authors": "Kolade M Owolabi, Eben Mare, Clara O Ijalana, Kolawole S Adegbie",
             "abstract": "Chemotaxis systems of Keller--Segel type constitute one of the central mathematical frameworks for understanding aggregation phenomena in biological and ecological systems. Over the past decades, the theory has evolved from the classical single-species model to increasingly sophisticated multi-species and multi-signal formulations that capture competition, cooperation, antagonistic chemotaxis, and interactions with fluid environments.\n  This article provides a comprehensive exposition of multi-species Keller--Segel systems and their mathematical structure. We review fundamental analytical results concerning local and global well-posedness, mechanisms of finite-time blow-up, and the role of critical mass and dimensionality. Particular emphasis is placed on how cross-diffusion, antagonistic interactions, logistic effects, and nonlinear production terms alter the qualitative behavior of solutions.\n  We further examine the mathematical mechanisms underlying pattern formation, including diffusion-driven instabilities, bifurcation phenomena, and the emergence of spatial and spatiotemporal structures. Connections between analytical thresholds and observed nonlinear dynamics are highlighted, and the interplay between reaction kinetics, chemotactic sensitivity, and diffusion is discussed from a unifying perspective.\n  By synthesizing classical results with recent developments, this survey aims to clarify the structural principles governing multi-species chemotaxis systems, identify common analytical techniques, and outline open problems that remain central to the field. The exposition is intended to serve both specialists and researchers entering the area of nonlinear partial differential equations and mathematical biology.",
             "link": "https://arxiv.org/pdf/2603.04931v1"
-        },
-        {
-            "title": "A correspondence problem for mathematical proof",
-            "year": "March 2026",
-            "date": "2026-03-14",
-            "authors": "Simon DeDeo, Eamon Duede",
-            "abstract": "Mathematical proofs are often said to justify their conclusions by indicating the existence of a corresponding formal derivation. We argue that this widespread view relies on an under-examined notion of correspondence, or what it means for a particular derivation to ''correspond'' to a particular proof. Mere existence of a formalization is not enough, and a substantive account of the required correspondence resolves into two criteria -- adequate representation (of the original theorem) and tracking (of the steps in the original proof). An examination of the actually-existing formalization systems we have today shows the variety of quasi-empirical ways we establish these criteria, and points towards new burdens that may be placed on the future evolution of mathematics itself.",
-            "link": "https://arxiv.org/pdf/2603.13680v2"
         }
     ],
     "last_year": [
