@@ -25,20 +25,20 @@
             "link": "https://arxiv.org/pdf/2603.26524v1"
         },
         {
-            "title": "Mathematical Proof",
-            "year": "March 2026",
-            "date": "2026-03-07",
-            "authors": "Heinz H. Bauschke",
-            "abstract": "These Course Notes provide an introduction to mathematical proofs for undergraduate students transitioning from computational calculus to abstract mathematics. Topics include propositional logic, proof techniques, mathematical induction, fields, sets and relations, sequences and series, completeness of the real numbers, cardinality, and related foundational material. Numerous examples and exercises (with complete solutions) are included. The notes are designed for a one-semester proof course.",
-            "link": "https://arxiv.org/pdf/2603.08756v1"
-        },
-        {
             "title": "Empirical mathematics in Australian Indigenous Smoke Telegraphy",
             "year": "March 2026",
             "date": "2026-03-27",
             "authors": "Rowena Ball",
             "abstract": "Mathematics curriculums at most universities tend to perpetuate a belief that higher mathematics is historically and culturally European. First Nations and minority students may not see their identities and cultures reflected in the discipline, yet university mathematics educators are keen to diversify and broaden the appeal of their courses. This article presents an investigation on the mathematics of smoke telegraphy, as a contribution to inlaying cross-cultural mathematical heritage in the curriculum. Across Indigenous societies of Australia the technology and practice of smoke telegraphy was developed to a sophisticated level over millennia to fill a need for long-distance communications. Through an original bibliographic and archival analysis, we show that smoke signalling and telegraphy used empirical mathematics of symmetries, frequency coding, and understanding of fluid dynamics. We juxtapose this applied mathematical knowledge, within context, against the timeline of Western understanding and development of these strands of mathematics.",
             "link": "https://arxiv.org/pdf/2603.26037v1"
+        },
+        {
+            "title": "A correspondence problem for mathematical proof",
+            "year": "March 2026",
+            "date": "2026-03-14",
+            "authors": "Simon DeDeo, Eamon Duede",
+            "abstract": "Mathematical proofs are often said to justify their conclusions by indicating the existence of a corresponding formal derivation. We argue that this widespread view relies on an under-examined notion of correspondence, or what it means for a particular derivation to ''correspond'' to a particular proof. Mere existence of a formalization is not enough, and a substantive account of the required correspondence resolves into two criteria -- adequate representation (of the original theorem) and tracking (of the steps in the original proof). An examination of the actually-existing formalization systems we have today shows the variety of quasi-empirical ways we establish these criteria, and points towards new burdens that may be placed on the future evolution of mathematics itself.",
+            "link": "https://arxiv.org/pdf/2603.13680v2"
         }
     ],
     "last_year": [
