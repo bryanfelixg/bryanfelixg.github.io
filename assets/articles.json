@@ -17,6 +17,14 @@
             "link": "https://arxiv.org/pdf/2603.24914v1"
         },
         {
+            "title": "Mathematical Models of Evolution and Replicator Systems Dynamics. Chapter 1: Introduction to Replicator Systems",
+            "year": "April 2026",
+            "date": "2026-04-07",
+            "authors": "A. S. Bratus, S. Drozhzhin, T. Yakushkina",
+            "abstract": "This chapter is an overview of foundational results in the mathematical theory of replicator systems. Its primary aim is to provide a unified framework for the mathematical formalisation of evolutionary processes in the spirit of generalised Darwinism -- that is, for any system in which heredity, variability, and selection can be meaningfully defined, regardless of the specific biological substrate. Starting from the Kolmogorov equations for interacting populations, we derive the replicator equation and examine three canonical regimes: independent, autocatalytic, and hypercyclic replication. The hypercycle is shown to be permanent and to carry evolutionary variability intrinsically. We then survey the quasispecies framework -- the Eigen and Crow--Kimura models -- covering global stability of equilibria, sequence space structure, and the error-threshold phenomenon. Throughout, the emphasis is on the mathematical structures that underlie these models rather than on biological detail, with the goal of making the framework applicable to abstract evolutionary dynamics beyond its original molecular biology context.",
+            "link": "https://arxiv.org/pdf/2604.05720v1"
+        },
+        {
             "title": "Mathematical methods and human thought in the age of AI",
             "year": "March 2026",
             "date": "2026-03-27",
@@ -31,14 +39,6 @@
             "authors": "Rowena Ball",
             "abstract": "Mathematics curriculums at most universities tend to perpetuate a belief that higher mathematics is historically and culturally European. First Nations and minority students may not see their identities and cultures reflected in the discipline, yet university mathematics educators are keen to diversify and broaden the appeal of their courses. This article presents an investigation on the mathematics of smoke telegraphy, as a contribution to inlaying cross-cultural mathematical heritage in the curriculum. Across Indigenous societies of Australia the technology and practice of smoke telegraphy was developed to a sophisticated level over millennia to fill a need for long-distance communications. Through an original bibliographic and archival analysis, we show that smoke signalling and telegraphy used empirical mathematics of symmetries, frequency coding, and understanding of fluid dynamics. We juxtapose this applied mathematical knowledge, within context, against the timeline of Western understanding and development of these strands of mathematics.",
             "link": "https://arxiv.org/pdf/2603.26037v1"
-        },
-        {
-            "title": "A correspondence problem for mathematical proof",
-            "year": "March 2026",
-            "date": "2026-03-14",
-            "authors": "Simon DeDeo, Eamon Duede",
-            "abstract": "Mathematical proofs are often said to justify their conclusions by indicating the existence of a corresponding formal derivation. We argue that this widespread view relies on an under-examined notion of correspondence, or what it means for a particular derivation to ''correspond'' to a particular proof. Mere existence of a formalization is not enough, and a substantive account of the required correspondence resolves into two criteria -- adequate representation (of the original theorem) and tracking (of the steps in the original proof). An examination of the actually-existing formalization systems we have today shows the variety of quasi-empirical ways we establish these criteria, and points towards new burdens that may be placed on the future evolution of mathematics itself.",
-            "link": "https://arxiv.org/pdf/2603.13680v2"
         }
     ],
     "last_year": [
