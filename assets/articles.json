@@ -51,14 +51,6 @@
             "link": "https://arxiv.org/pdf/2602.09242v1"
         },
         {
-            "title": "Decoding the Ishango Bone: Unveiling Prehistoric Mathematical Art",
-            "year": "April 2025",
-            "date": "2025-04-08",
-            "authors": "Jenny Baur",
-            "abstract": "The Ishango Bone, a prehistoric artifact dated to approximately 20,000 years ago and discovered near the Semliki River in what is now the Democratic Republic of Congo, has intrigued researchers for the past 75 years. The artifact displays sixteen groups of notches arranged in three columns. While its function remains debated, this study suggests that the first two columns consist exclusively of all prime or odd numbers between 9 and 21, with the exception of 15, which appears only in the third column as two grouped pairs. Five groupings totaling 30 could be identified, and their arrangement may follow a consistent pattern. Additional numerical relationships between all three columns can be interpreted to support all four basic arithmetic operations. It is hypothesized that the notches may have served as reference marker to lay out their values for storytelling or teaching in the form of mathematical art. This study aims to broaden perspectives on the Ishango Bone and its traditional interpretation as a simple tallying device, and to encourage a re-evaluation of the mathematical capabilities of prehistoric humans.",
-            "link": "https://arxiv.org/pdf/2504.06412v3"
-        },
-        {
             "title": "On Physical Mathematics: an approach through Gilles Châtelet's philosophy",
             "year": "October 2025",
             "date": "2025-10-15",
@@ -81,6 +73,14 @@
             "authors": "Rene Fabregas, Jie Liao, Nisrine Outada",
             "abstract": "Classical swarm models, exemplified by the Cucker--Smale framework, provide foundational insights into collective alignment but exhibit fundamental limitations in capturing the adaptive, heterogeneous behaviours intrinsic to living systems. This paper formalises the mathematical theory of \\textit{Behavioural Swarms}, a comprehensive framework where each particle's state incorporates a dynamic internal variable, the \\textit{activity} that co-evolves with position and velocity through nonlocal interactions. We demonstrate how this approach transcends prior models by integrating adaptive decision-making mechanisms and heterogeneous behavioural states into rigorous differential systems. Through applications in behavioural economics and crowd dynamics, we establish the theory's capacity to predict emergent macroscopic patterns from individual behavioural states. Our critical analysis positions this framework against kinetic theories of active particles and agent-based approaches, revealing distinct advantages for modelling systems where individual agency drives collective outcomes.",
             "link": "https://arxiv.org/pdf/2508.12183v2"
+        },
+        {
+            "title": "Shaping the Future of Mathematics in the Age of AI",
+            "year": "March 2026",
+            "date": "2026-03-26",
+            "authors": "Johan Commelin, Mateja Jamnik, Rodrigo Ochigame, Lenny Taelman, Akshay Venkatesh",
+            "abstract": "Artificial intelligence is transforming mathematics at a speed and scale that demand active engagement from the mathematical community. We examine five areas where this transformation is particularly pressing: values, practice, teaching, technology, and ethics. We offer recommendations on safeguarding our intellectual autonomy, rethinking our practice, broadening curricula, building academically oriented infrastructure, and developing shared ethical principles - with the aim of ensuring that the future of mathematics is shaped by the community itself.",
+            "link": "https://arxiv.org/pdf/2603.24914v1"
         }
     ],
     "last_5_years": [
