@@ -9,22 +9,6 @@
             "link": "https://arxiv.org/pdf/2604.05720v1"
         },
         {
-            "title": "Mathematical methods and human thought in the age of AI",
-            "year": "March 2026",
-            "date": "2026-03-27",
-            "authors": "Tanya Klowden, Terence Tao",
-            "abstract": "Artificial intelligence (AI) is the name popularly given to a broad spectrum of computer tools designed to perform increasingly complex cognitive tasks, including many that used to solely be the province of humans. As these tools become exponentially sophisticated and pervasive, the justifications for their rapid development and integration into society are frequently called into question, particularly as they consume finite resources and pose existential risks to the livelihoods of those skilled individuals they appear to replace.\n  In this paper, we consider the rapidly evolving impact of AI to the traditional questions of philosophy\n  with an emphasis on its application in mathematics and on the broader real-world outcomes of its more general use. We assert that artificial intelligence is a natural evolution of human tools developed throughout history to facilitate the creation, organization, and dissemination of ideas, and argue that it is paramount that the development and application of AI remain fundamentally human-centered. With an eye toward innovating solutions to meet human needs, enhancing the human quality of life and expanding the capacity for human thought and understanding, we propose a pathway to integrating AI into our most challenging and intellectually rigorous fields to the benefit of all humankind.",
-            "link": "https://arxiv.org/pdf/2603.26524v1"
-        },
-        {
-            "title": "Empirical mathematics in Australian Indigenous Smoke Telegraphy",
-            "year": "March 2026",
-            "date": "2026-03-27",
-            "authors": "Rowena Ball",
-            "abstract": "Mathematics curriculums at most universities tend to perpetuate a belief that higher mathematics is historically and culturally European. First Nations and minority students may not see their identities and cultures reflected in the discipline, yet university mathematics educators are keen to diversify and broaden the appeal of their courses. This article presents an investigation on the mathematics of smoke telegraphy, as a contribution to inlaying cross-cultural mathematical heritage in the curriculum. Across Indigenous societies of Australia the technology and practice of smoke telegraphy was developed to a sophisticated level over millennia to fill a need for long-distance communications. Through an original bibliographic and archival analysis, we show that smoke signalling and telegraphy used empirical mathematics of symmetries, frequency coding, and understanding of fluid dynamics. We juxtapose this applied mathematical knowledge, within context, against the timeline of Western understanding and development of these strands of mathematics.",
-            "link": "https://arxiv.org/pdf/2603.26037v1"
-        },
-        {
             "title": "On The Mathematics of the Natural Physics of Optimization",
             "year": "April 2026",
             "date": "2026-04-19",
@@ -33,12 +17,28 @@
             "link": "https://arxiv.org/pdf/2604.17645v1"
         },
         {
+            "title": "Math Takes Two: A test for emergent mathematical reasoning in communication",
+            "year": "March 2026",
+            "date": "2026-03-30",
+            "authors": "Michael Cooper, Samuel Cooper",
+            "abstract": "Although language models demonstrate remarkable proficiency on mathematical benchmarks, it remains unclear whether this reflects true mathematical reasoning or statistical pattern matching over learning formal syntax. Most existing evaluations rely on symbolic problems grounded in established mathematical conventions, limiting insight into the models' ability to construct abstract concepts from first principles. In this work, we propose Math Takes Two, a new benchmark designed to assess the emergence of mathematical reasoning through communication. Motivated by the hypothesis that mathematical cognition in humans co-evolved with the need for precise communication, our benchmark tests whether two agents, without prior mathematical knowledge, can develop a shared symbolic protocol to solve a visually grounded task where the use of a numerical system facilitates extrapolation. Unlike many current datasets, our benchmark eschews predefined mathematical language, instead requiring agents to discover latent structure and representations from scratch. Math Takes Two thus provides a novel lens through which to develop and evaluate models with emergent numerical reasoning capabilities.",
+            "link": "https://arxiv.org/pdf/2604.21935v1"
+        },
+        {
             "title": "Artificial Intelligence and the Structure of Mathematics",
             "year": "April 2026",
             "date": "2026-04-07",
             "authors": "Maissam Barkeshli, Michael R. Douglas, Michael H. Freedman",
             "abstract": "Recent progress in artificial intelligence (AI) is unlocking transformative capabilities for mathematics. There is great hope that AI will help solve major open problems and autonomously discover new mathematical concepts. In this essay, we further consider how AI may open a grand perspective on mathematics by forging a new route, complementary to mathematical\\textbf{ logic,} to understanding the global structure of formal \\textbf{proof}\\textbf{s}. We begin by providing a sketch of the formal structure of mathematics in terms of universal proof and structural hypergraphs and discuss questions this raises about the foundational structure of mathematics. We then outline the main ingredients and provide a set of criteria to be satisfied for AI models capable of automated mathematical discovery. As we send AI agents to traverse Platonic mathematical worlds, we expect they will teach us about the nature of mathematics: both as a whole, and the small ribbons conducive to human understanding. Perhaps they will shed light on the old question: \"Is mathematics discovered or invented?\" Can we grok the terrain of these \\textbf{Platonic worlds}?",
             "link": "https://arxiv.org/pdf/2604.06107v1"
+        },
+        {
+            "title": "Lectures on AI for Mathematics",
+            "year": "April 2026",
+            "date": "2026-04-13",
+            "authors": "Xiaoyang Chen, Xiaoyang Chen",
+            "abstract": "This book provides a comprehensive and accessible introduction to the emerging field of AI for mathematics. It covers the core principles and diverse applications of using artificial intelligence to advance mathematical research. Through clear explanations, the text explores how AI can discover hidden mathematical patterns, assist in proving complicated theorems, and even construct counterexamples to challenge conjectures.",
+            "link": "https://arxiv.org/pdf/2604.11504v1"
         }
     ],
     "last_year": [
