@@ -17,14 +17,6 @@
             "link": "https://arxiv.org/pdf/2604.17645v1"
         },
         {
-            "title": "Math Takes Two: A test for emergent mathematical reasoning in communication",
-            "year": "March 2026",
-            "date": "2026-03-30",
-            "authors": "Michael Cooper, Samuel Cooper",
-            "abstract": "Although language models demonstrate remarkable proficiency on mathematical benchmarks, it remains unclear whether this reflects true mathematical reasoning or statistical pattern matching over learning formal syntax. Most existing evaluations rely on symbolic problems grounded in established mathematical conventions, limiting insight into the models' ability to construct abstract concepts from first principles. In this work, we propose Math Takes Two, a new benchmark designed to assess the emergence of mathematical reasoning through communication. Motivated by the hypothesis that mathematical cognition in humans co-evolved with the need for precise communication, our benchmark tests whether two agents, without prior mathematical knowledge, can develop a shared symbolic protocol to solve a visually grounded task where the use of a numerical system facilitates extrapolation. Unlike many current datasets, our benchmark eschews predefined mathematical language, instead requiring agents to discover latent structure and representations from scratch. Math Takes Two thus provides a novel lens through which to develop and evaluate models with emergent numerical reasoning capabilities.",
-            "link": "https://arxiv.org/pdf/2604.21935v1"
-        },
-        {
             "title": "Artificial Intelligence and the Structure of Mathematics",
             "year": "April 2026",
             "date": "2026-04-07",
@@ -39,6 +31,14 @@
             "authors": "Xiaoyang Chen, Xiaoyang Chen",
             "abstract": "This book provides a comprehensive and accessible introduction to the emerging field of AI for mathematics. It covers the core principles and diverse applications of using artificial intelligence to advance mathematical research. Through clear explanations, the text explores how AI can discover hidden mathematical patterns, assist in proving complicated theorems, and even construct counterexamples to challenge conjectures.",
             "link": "https://arxiv.org/pdf/2604.11504v1"
+        },
+        {
+            "title": "Mathematical modeling and analysis of the Notch-Delta pathway",
+            "year": "April 2026",
+            "date": "2026-04-07",
+            "authors": "Angela Stevens, Nicola Vassena",
+            "abstract": "In this paper mathematical models for the evolutionary conserved Notch-Delta pathway are developed and analyzed in order to better understand how two neighboring biological cells can become different. We pursue a structure-based stoichiometric type of approach, such that no specific reaction kinetics have to be defined. Only their dependencies on the relevant species participating in the model network are taken into account. Reaction networks and their related systems of ODEs are presented and analyzed with respect to their capacity for symmetry-induced bifurcations. The possibility to obtain a singular Jacobian is analyzed symbolically. This approach is valid for parameter-rich kinetics, where the parametrization of the steady-state fluxes and of the first derivatives of the reaction rates evaluated at the steady state are independent. In this context, also with the help of abstract minimal models, we could mathematically identify some of the Notch pathway's features being more relevant than others.",
+            "link": "https://arxiv.org/pdf/2604.05888v1"
         }
     ],
     "last_year": [
