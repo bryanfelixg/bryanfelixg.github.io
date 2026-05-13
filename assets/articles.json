@@ -25,20 +25,20 @@
             "link": "https://arxiv.org/pdf/2604.20171v1"
         },
         {
-            "title": "A Minimal Mathematical Model for Conducting Patterns",
-            "year": "April 2026",
-            "date": "2026-04-11",
-            "authors": "Tom Verhoeff",
-            "abstract": "We present a minimal mathematical model for conducting patterns that separates geometric trajectory from temporal parametrization. The model is based on a cyclic sequence of preparation and ictus points connected by cubic Hermite segments with constrained horizontal tangents, combined with a quintic timing law controlling acceleration and deceleration. A single parameter governs the balance between uniform motion and expressive emphasis. The model provides a compact yet expressive representation of conducting gestures. It is implemented as the interactive Wolfram Demonstration \"Conducting Patterns\" and is used in the Crusis web app.",
-            "link": "https://arxiv.org/pdf/2604.10356v1"
-        },
-        {
             "title": "Matlas: A Semantic Search Engine for Mathematics",
             "year": "April 2026",
             "date": "2026-04-19",
             "authors": "Haocheng Ju, Leheng Chen, Peihao Wu, Bryan Dai, Bin Dong",
             "abstract": "Retrieving mathematical knowledge is a central task in both human-driven research, such as determining whether a result already exists, finding related results, and identifying historical origins, and in emerging AI systems for mathematics, where reliable grounding is essential. However, the scale and structure of the mathematical literature pose significant challenges: results are distributed across millions of documents, and individual statements are often difficult to interpret in isolation due to their dependence on prior definitions and theorems. In this paper, we introduce Matlas, a semantic search engine for mathematical statements. Matlas is built on a large-scale corpus of 8.07 million statements extracted from 435K peer-reviewed papers spanning 1826 to 2025, drawn from a curated set of 180 journals selected using an ICM citation-based criterion, together with 1.9K textbooks. From these sources, we extract mathematical statements together with their dependencies, construct document-level dependency graphs, and recursively unfold statements in topological order to produce more self-contained representations. On top of this corpus, we develop a semantic retrieval system that enables efficient search for mathematical results using natural language queries. We hope that Matlas can improve the efficiency of theorem retrieval for mathematicians and provide a structured source of grounding for AI systems tackling research-level mathematical problems, and serve as part of the infrastructure for mathematical knowledge retrieval.",
             "link": "https://arxiv.org/pdf/2604.17484v1"
+        },
+        {
+            "title": "Mathematical Models of Traffic Flow at a Signalized Intersection",
+            "year": "April 2026",
+            "date": "2026-04-28",
+            "authors": "Akbota Senkebayeva",
+            "abstract": "This paper presents two one-dimensional mathematical models describing automobile traffic flow on straight road segments at a signalized intersection. When the traffic light is permissive, the flow density and velocity are obtained by solving an initial-boundary value problem for a first-order hyperbolic system. When the signal is prohibitive, the same quantities are governed by a mixed system comprising a second-order parabolic equation for the velocity and a first-order equation for the density.",
+            "link": "https://arxiv.org/pdf/2604.25484v1"
         }
     ],
     "last_year": [
