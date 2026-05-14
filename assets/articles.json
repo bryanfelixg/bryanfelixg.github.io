@@ -9,14 +9,6 @@
             "link": "https://arxiv.org/pdf/2604.17645v1"
         },
         {
-            "title": "Lectures on AI for Mathematics",
-            "year": "April 2026",
-            "date": "2026-04-13",
-            "authors": "Xiaoyang Chen, Xiaoyang Chen",
-            "abstract": "This book provides a comprehensive and accessible introduction to the emerging field of AI for mathematics. It covers the core principles and diverse applications of using artificial intelligence to advance mathematical research. Through clear explanations, the text explores how AI can discover hidden mathematical patterns, assist in proving complicated theorems, and even construct counterexamples to challenge conjectures.",
-            "link": "https://arxiv.org/pdf/2604.11504v1"
-        },
-        {
             "title": "Mathematical analysis of transverse EM field concentration for adjacent obstacles with nonlocal boundary conditions in the quasistatic regime",
             "year": "April 2026",
             "date": "2026-04-22",
@@ -39,6 +31,14 @@
             "authors": "Akbota Senkebayeva",
             "abstract": "This paper presents two one-dimensional mathematical models describing automobile traffic flow on straight road segments at a signalized intersection. When the traffic light is permissive, the flow density and velocity are obtained by solving an initial-boundary value problem for a first-order hyperbolic system. When the signal is prohibitive, the same quantities are governed by a mixed system comprising a second-order parabolic equation for the velocity and a first-order equation for the density.",
             "link": "https://arxiv.org/pdf/2604.25484v1"
+        },
+        {
+            "title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+            "year": "April 2026",
+            "date": "2026-04-20",
+            "authors": "Shaden Alshammari, Kevin Wen, Abrar Zainal, Mark Hamilton, Navid Safaei, Sultan Albarakati, William T. Freeman, Antonio Torralba",
+            "abstract": "Mathematical problem solving remains a challenging test of reasoning for large language and multimodal models, yet existing benchmarks are limited in size, language coverage, and task diversity. We introduce MathNet, a high-quality, large-scale, multimodal, and multilingual dataset of Olympiad-level math problems together with a benchmark for evaluating mathematical reasoning in generative models and mathematical retrieval in embedding-based systems. MathNet spans 47 countries, 17 languages, and two decades of competitions, comprising 30,676 expert-authored problems with solutions across diverse domains. In addition to the core dataset, we construct a retrieval benchmark consisting of mathematically equivalent and structurally similar problem pairs curated by human experts.\n  MathNet supports three tasks: (i) Problem Solving, (ii) Math-Aware Retrieval, and (iii) Retrieval-Augmented Problem Solving. Experimental results show that even state-of-the-art reasoning models (78.4% for Gemini-3.1-Pro and 69.3% for GPT-5) remain challenged, while embedding models struggle to retrieve equivalent problems. We further show that retrieval-augmented generation performance is highly sensitive to retrieval quality; for example, DeepSeek-V3.2-Speciale achieves gains of up to 12%, obtaining the highest scores on the benchmark. MathNet provides the largest high-quality Olympiad dataset together with the first benchmark for evaluating mathematical problem retrieval, and we publicly release both the dataset and benchmark at https://mathnet.mit.edu.",
+            "link": "https://arxiv.org/pdf/2604.18584v1"
         }
     ],
     "last_year": [
