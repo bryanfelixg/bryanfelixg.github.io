@@ -1,12 +1,20 @@
 {
     "last_month": [
         {
-            "title": "Mathematical analysis of transverse EM field concentration for adjacent obstacles with nonlocal boundary conditions in the quasistatic regime",
-            "year": "April 2026",
-            "date": "2026-04-22",
-            "authors": "Yueguang Hu, Hongjie Li, Hongyu Liu",
-            "abstract": "This paper presents a rigorous mathematical analysis of transverse electromagnetic (EM) field concentration between two adjacent obstacles within the framework of the quasi-static approximation. We investigate three degenerate conductivity models recently introduced in [22], two of these incorporating nonlocal boundary conditions to capture fundamental physical phenomena, such as surface nonlocality and thin-layer interactions. Our primary results establish sharp conditions for gradient blowup and derive the corresponding optimal blowup rates. These findings elucidate how nonlocal boundary conditions modify classical gradient estimates. Furthermore, we analyze the influence of wave frequency, demonstrating that it mitigates the severity of field concentration even in the limit of a vanishing gap distance. Consequently, this work extends the classical theory of field enhancement in plasmonic and metamaterial systems to incorporate nonlocal surface effects, yielding precise asymptotic formulas that are essential for the quantitative design of nanophotonic devices.",
-            "link": "https://arxiv.org/pdf/2604.20171v1"
+            "title": "Typed Mathematical Text for On-screen Examinations",
+            "year": "May 2026",
+            "date": "2026-05-24",
+            "authors": "Laura Kobel-Keller, Chris Sangwin",
+            "abstract": "This paper discusses digital online mathematics examinations -- a discussion ranging from high school to university level examinations. In particular, we consider the nature of mathematical writing, what is distinctive about mathematical writing, and how mathematics can be typed into a machine. This includes a review of features of notation and layout unique to mathematics and a survey of current technology for typed mathematics, including LaTeX and contemporary proof-checkers such as Lean. Artificial intelligence has already been highly successful for optical character recognition, generating text from hand writing and is even increasingly applied to assess students' work itself. A human-editable text-based format in the middle is important, but neglected. The design of digital online mathematics examinations, which take this text as the source of truth for students' work, will have a profound effect on how mathematics is perceived and how mathematical activity is mediated. Moving examinations on-screen effectively is an important design challenge and responsibility to future generations. The challenge is to design software tools which support mathematics, that is tools which recede into the background and support the generation of mathematical work. We argue for a human-editable text-based format, which includes semantic elements, at the heart of the process.",
+            "link": "https://arxiv.org/pdf/2605.25276v1"
+        },
+        {
+            "title": "Mathematical Morphology in Machine Learning",
+            "year": "May 2026",
+            "date": "2026-05-29",
+            "authors": "Erick Oliveira Rodrigues, Aura Conci",
+            "abstract": "This work introduces mathematical morphology-an established visual computing theory-into machine learning to exploit shape and density aspects often overlooked by standard techniques. We propose a fast clustering algorithm based on morphological reconstruction that accurately preserves cluster shapes and density. This scheme offers unique features: an intrinsic sense of maximal clusters, cost-free noise removal, and diverse growth patterns controlled by structuring elements.Additionally, we propose a novel distance metric combining Minkowski and Chebyshev distances, highly efficient for morphological dilations. In \\(Z^2\\) discrete neighbourhood iterations, it is roughly 1.3 times faster than Manhattan and 329.5 times faster than Euclidean distances. When evaluated using a k-Nearest Neighbours (k-NN) classifier across 33 UCI datasets against 14 other distances, our metric achieved above-average accuracies most frequently (26 of 33 cases) and the best overall accuracy in 9 cases.Finally, we introduce novel morphological classifiers. Unlike current literature, this proposal uniquely models shape, density, and fractal information in datasets.",
+            "link": "https://arxiv.org/pdf/2605.30700v1"
         },
         {
             "title": "A Mathematical Characterization of Neural Activation Induced by Temporal Interference Stimulation",
@@ -17,28 +25,20 @@
             "link": "https://arxiv.org/pdf/2605.16761v1"
         },
         {
-            "title": "Mathematical Models of Traffic Flow at a Signalized Intersection",
-            "year": "April 2026",
-            "date": "2026-04-28",
-            "authors": "Akbota Senkebayeva",
-            "abstract": "This paper presents two one-dimensional mathematical models describing automobile traffic flow on straight road segments at a signalized intersection. When the traffic light is permissive, the flow density and velocity are obtained by solving an initial-boundary value problem for a first-order hyperbolic system. When the signal is prohibitive, the same quantities are governed by a mixed system comprising a second-order parabolic equation for the velocity and a first-order equation for the density.",
-            "link": "https://arxiv.org/pdf/2604.25484v1"
-        },
-        {
-            "title": "Apriori-based Analysis of Learned Helplessness in Mathematics Tutoring: Behavioral Patterns by Level, Intervention, and Outcome",
-            "year": "April 2026",
-            "date": "2026-04-29",
-            "authors": "John Paul P. Miranda",
-            "abstract": "This study applied the Apriori algorithm to analyze behavioral interaction patterns associated with learned helplessness (LH) in mathematics tutoring system logs. Interaction data were examined across three dimensions: LH level (low vs. high), system-based intervention (with vs. without), and problem-solving outcomes (solved vs. unsolved). The analysis of the complete dataset showed that skipping problems without using hints was the most frequent pattern linked to unsolved outcomes, while persistence behaviors such as not skipping were less dominant overall. Comparisons by LH level showed that low-LH students had stronger links between problem solving and not skipping, as well as positive associations between hint use and solved outcomes. High-LH students showed more avoidance patterns, with skipping strongly tied to unsolved outcomes. In the comparison of system-based intervention conditions, students without intervention had the highest lift for persistence-success links, while the with-intervention group had stronger patterns involving skipping behaviors leading to unsolved outcomes. Outcome-specific analysis showed that not skipping was consistently associated with solved problems across all groups, while skipping without hints predicted unsolved outcomes. Practical implications and recommendations are discussed.",
-            "link": "https://arxiv.org/pdf/2604.26237v1"
-        },
-        {
             "title": "Comparative Evaluation of Machine Learning Approaches for Minority-Class Financial Distress Prediction Under Class Imbalance Constraints",
             "year": "May 2026",
             "date": "2026-05-13",
             "authors": "Karan Sehgal, Khawar Naveed Bhatti",
             "abstract": "Financial distress prediction remains a significant challenge in enterprise risk analysis due to the highly imbalanced nature of real-world financial datasets, where bankrupt or distressed firms typically constitute only a small minority of observations.\n  This paper presents a comparative evaluation of classical statistical methods, ensemble learning approaches, and exploratory neural models for minority-class financial distress prediction under class imbalance constraints.\n  The study incorporates structured preprocessing, imbalance mitigation using the Synthetic Minority Oversampling Technique (SMOTE), comparative evaluation across ensemble learning architectures including XGBoost, CatBoost, LightGBM, Random Forest, and explainability analysis using SHAP-based feature attribution methods.\n  Experimental evaluation demonstrates that gradient-boosting approaches achieved improved minority-class sensitivity relative to baseline statistical classifiers under severe imbalance conditions. The workflow additionally emphasises reproducibility, interpretability, auditability, and governance-oriented machine learning evaluation within enterprise financial risk environments.\n  The work is positioned as an applied engineering evaluation intended to support reproducible and interpretable machine learning workflows for financial distress prediction under severe class imbalance constraints.",
             "link": "https://arxiv.org/pdf/2605.14067v1"
+        },
+        {
+            "title": "Exposing LLM Safety Gaps Through Mathematical Encoding:New Attacks and Systematic Analysis",
+            "year": "May 2026",
+            "date": "2026-05-05",
+            "authors": "Haoyu Zhang, Mohammad Zandsalimy, Shanu Sushmita",
+            "abstract": "Large language models (LLMs) employ safety mechanisms to prevent harmful outputs, yet these defenses primarily rely on semantic pattern matching. We show that encoding harmful prompts as coherent mathematical problems -- using formalisms such as set theory, formal logic, and quantum mechanics -- bypasses these filters at high rates, achieving 46%--56% average attack success across eight target models and two established benchmarks. Crucially, the effectiveness depends not on mathematical notation itself, but on whether a helper LLM deeply reformulates the harmful content into a genuine mathematical problem: rule-based encodings that apply mathematical formatting without such reformulation perform no better than unencoded baselines. We introduce a novel Formal Logic encoding that achieves attack success comparable to Set Theory, demonstrating that this vulnerability generalizes across mathematical formalisms. Additional experiments with repeat post-processing confirm that these attacks are robust to simple prompt augmentation. Notably, newer models (GPT-5, GPT-5-Mini) show substantially greater robustness than older models, though they remain vulnerable. Our findings highlight fundamental gaps in current safety frameworks and motivate defenses that reason about mathematical structure rather than surface-level semantics.",
+            "link": "https://arxiv.org/pdf/2605.03441v1"
         }
     ],
     "last_year": [
