@@ -17,6 +17,14 @@
             "link": "https://arxiv.org/pdf/2605.30700v1"
         },
         {
+            "title": "A Mathematical Conflict Framework for Contextual Data Modulation",
+            "year": "June 2026",
+            "date": "2026-06-01",
+            "authors": "Hakan Emre Kartal",
+            "abstract": "In this study, a generalized operator-based mathematical conflict framework is presented to explicitly represent structural discrepancies between raw data and contextual data. The proposed structure treats conflict as a local, directional, and context-sensitive quantity, integrating components such as weighting, scale behavior, and output mapping under a unified abstract operator. Without being reduced to a specific learning algorithm or optimization method, the framework is defined as a general structure adaptable to different classes of problems. While existing approaches typically treat conflict merely as an implicit side effect embedded within the optimization process, the proposed framework considers conflict as an independent, operator-based, and component-level mathematical object.",
+            "link": "https://arxiv.org/pdf/2606.02381v1"
+        },
+        {
             "title": "A Mathematical Characterization of Neural Activation Induced by Temporal Interference Stimulation",
             "year": "May 2026",
             "date": "2026-05-16",
@@ -25,20 +33,12 @@
             "link": "https://arxiv.org/pdf/2605.16761v1"
         },
         {
-            "title": "Comparative Evaluation of Machine Learning Approaches for Minority-Class Financial Distress Prediction Under Class Imbalance Constraints",
-            "year": "May 2026",
-            "date": "2026-05-13",
-            "authors": "Karan Sehgal, Khawar Naveed Bhatti",
-            "abstract": "Financial distress prediction remains a significant challenge in enterprise risk analysis due to the highly imbalanced nature of real-world financial datasets, where bankrupt or distressed firms typically constitute only a small minority of observations.\n  This paper presents a comparative evaluation of classical statistical methods, ensemble learning approaches, and exploratory neural models for minority-class financial distress prediction under class imbalance constraints.\n  The study incorporates structured preprocessing, imbalance mitigation using the Synthetic Minority Oversampling Technique (SMOTE), comparative evaluation across ensemble learning architectures including XGBoost, CatBoost, LightGBM, Random Forest, and explainability analysis using SHAP-based feature attribution methods.\n  Experimental evaluation demonstrates that gradient-boosting approaches achieved improved minority-class sensitivity relative to baseline statistical classifiers under severe imbalance conditions. The workflow additionally emphasises reproducibility, interpretability, auditability, and governance-oriented machine learning evaluation within enterprise financial risk environments.\n  The work is positioned as an applied engineering evaluation intended to support reproducible and interpretable machine learning workflows for financial distress prediction under severe class imbalance constraints.",
-            "link": "https://arxiv.org/pdf/2605.14067v1"
-        },
-        {
-            "title": "Exposing LLM Safety Gaps Through Mathematical Encoding:New Attacks and Systematic Analysis",
-            "year": "May 2026",
-            "date": "2026-05-05",
-            "authors": "Haoyu Zhang, Mohammad Zandsalimy, Shanu Sushmita",
-            "abstract": "Large language models (LLMs) employ safety mechanisms to prevent harmful outputs, yet these defenses primarily rely on semantic pattern matching. We show that encoding harmful prompts as coherent mathematical problems -- using formalisms such as set theory, formal logic, and quantum mechanics -- bypasses these filters at high rates, achieving 46%--56% average attack success across eight target models and two established benchmarks. Crucially, the effectiveness depends not on mathematical notation itself, but on whether a helper LLM deeply reformulates the harmful content into a genuine mathematical problem: rule-based encodings that apply mathematical formatting without such reformulation perform no better than unencoded baselines. We introduce a novel Formal Logic encoding that achieves attack success comparable to Set Theory, demonstrating that this vulnerability generalizes across mathematical formalisms. Additional experiments with repeat post-processing confirm that these attacks are robust to simple prompt augmentation. Notably, newer models (GPT-5, GPT-5-Mini) show substantially greater robustness than older models, though they remain vulnerable. Our findings highlight fundamental gaps in current safety frameworks and motivate defenses that reason about mathematical structure rather than surface-level semantics.",
-            "link": "https://arxiv.org/pdf/2605.03441v1"
+            "title": "Iteris: Agentic Research Loops for Computational Mathematics",
+            "year": "June 2026",
+            "date": "2026-06-01",
+            "authors": "Leheng Chen, Zihao Liu, Wanyi He, Bin Dong",
+            "abstract": "Recent advances in large language models and agentic AI systems have enabled significant progress in mathematical discovery, from solving competition problems to tackling research-level conjectures. However, open problems in computational mathematics have received comparatively less attention: research in this area often requires not only proofs but also numerical experimentation, adversarial constructions, and algorithm design. In this paper, we introduce an agentic research system, Iteris, designed for open problems in computational mathematics. We apply Iteris to two open problems from a recent Simons Workshop collection (arXiv:2602.05394). In these case studies, Iteris generated numerical evidence, constructions, and proof drafts that led, after expert review and correction, to verified results. The first result is a phase diagram for the asymptotic comparison between conjugate gradient and randomized coordinate descent on power-law spectra; the second is a counterexample showing that QR factorization with column pivoting can fail to select well-conditioned submatrices even under low coherence. These case studies suggest that agentic AI systems can participate meaningfully in research workflows for open problems in computational mathematics, while human validation remains essential.",
+            "link": "https://arxiv.org/pdf/2606.02484v1"
         }
     ],
     "last_year": [
