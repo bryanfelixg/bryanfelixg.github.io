@@ -9,6 +9,14 @@
             "link": "https://arxiv.org/pdf/2605.25276v1"
         },
         {
+            "title": "Learning the Geometry of Data: A Mathematical Review of Shape Space Analysis",
+            "year": "June 2026",
+            "date": "2026-06-15",
+            "authors": "Gary P. T. Choi, Khanh Dao Duc, Shira Faigenbaum-Golovin, Karen Habermann, Emmanuel Hartman, Christoph von Tycowicz, Chi Zhang, Wenjun Zhao, Felix Zhou",
+            "abstract": "A central objective of machine learning is to identify structure and patterns in data. Advances in data acquisition have increasingly produced datasets whose observations possess rich geometric form, giving rise to shape spaces that encode variability in object geometry. Such datasets arise across a wide range of disciplines, including biology, medicine, anthropology, and computer vision, where subtle geometric differences often carry important scientific information. Traditional machine learning methods, however, are frequently ill-equipped to account for the nonlinear geometric structure underlying these data.\n  This survey synthesizes a rapidly growing body of work on shape space analysis, which provides a mathematical and computational framework for the study of geometric data. Drawing on ideas from differential geometry, statistics, and machine learning, we organize the literature around a common analytical pipeline: shape representation and parameterization, the rigorous construction of robust geodesic metrics, statistical analysis on shape spaces, and geometry-aware learning methods. We discuss how these tools enable the characterization of shape variability, the comparison of geometric objects, and the analysis of structural trajectories across populations and time.\n  To illustrate the breadth of the field, we highlight applications spanning multiple scales of biological organization, including studies of subcellular morphology and primate tooth evolution. Across these and many other domains, researchers face common challenges arising from complex, nonlinear, and often unaligned geometric variation. The review concludes by identifying key theoretical and computational challenges, as well as emerging opportunities driven by increasingly large and diverse geometric datasets.",
+            "link": "https://arxiv.org/pdf/2606.17022v1"
+        },
+        {
             "title": "Mathematical Morphology in Machine Learning",
             "year": "May 2026",
             "date": "2026-05-29",
@@ -23,14 +31,6 @@
             "authors": "Hakan Emre Kartal",
             "abstract": "In this study, a generalized operator-based mathematical conflict framework is presented to explicitly represent structural discrepancies between raw data and contextual data. The proposed structure treats conflict as a local, directional, and context-sensitive quantity, integrating components such as weighting, scale behavior, and output mapping under a unified abstract operator. Without being reduced to a specific learning algorithm or optimization method, the framework is defined as a general structure adaptable to different classes of problems. While existing approaches typically treat conflict merely as an implicit side effect embedded within the optimization process, the proposed framework considers conflict as an independent, operator-based, and component-level mathematical object.",
             "link": "https://arxiv.org/pdf/2606.02381v1"
-        },
-        {
-            "title": "A Mathematical Characterization of Neural Activation Induced by Temporal Interference Stimulation",
-            "year": "May 2026",
-            "date": "2026-05-16",
-            "authors": "Esteban Paduro, Antoine Chaillet, Mario Sigalotti",
-            "abstract": "Temporal Interference Stimulation (TIS) is a non-invasive neuromodulation technique in which two high-frequency sinusoidal currents with slightly different frequencies generate a low-frequency envelope that can activate deep neural structures. This study investigates the conditions under which TIS elicits action potentials in a single neuron modeled by the FitzHugh-Nagumo system. This research integrates phase-plane analysis and geometric singular perturbation to develop a mathematical framework for analyzing TIS. By combining a mathematical analysis of differential equations with computer simulations, the study elucidates how the amplitudes and beat frequency jointly determine whether the neuron remains quiescent, exhibits only transient responses, or undergoes persistent (tonic) firing.",
-            "link": "https://arxiv.org/pdf/2605.16761v1"
         },
         {
             "title": "Iteris: Agentic Research Loops for Computational Mathematics",
