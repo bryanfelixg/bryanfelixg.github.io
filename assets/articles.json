@@ -1,14 +1,6 @@
 {
     "last_month": [
         {
-            "title": "Typed Mathematical Text for On-screen Examinations",
-            "year": "May 2026",
-            "date": "2026-05-24",
-            "authors": "Laura Kobel-Keller, Chris Sangwin",
-            "abstract": "This paper discusses digital online mathematics examinations -- a discussion ranging from high school to university level examinations. In particular, we consider the nature of mathematical writing, what is distinctive about mathematical writing, and how mathematics can be typed into a machine. This includes a review of features of notation and layout unique to mathematics and a survey of current technology for typed mathematics, including LaTeX and contemporary proof-checkers such as Lean. Artificial intelligence has already been highly successful for optical character recognition, generating text from hand writing and is even increasingly applied to assess students' work itself. A human-editable text-based format in the middle is important, but neglected. The design of digital online mathematics examinations, which take this text as the source of truth for students' work, will have a profound effect on how mathematics is perceived and how mathematical activity is mediated. Moving examinations on-screen effectively is an important design challenge and responsibility to future generations. The challenge is to design software tools which support mathematics, that is tools which recede into the background and support the generation of mathematical work. We argue for a human-editable text-based format, which includes semantic elements, at the heart of the process.",
-            "link": "https://arxiv.org/pdf/2605.25276v1"
-        },
-        {
             "title": "Learning the Geometry of Data: A Mathematical Review of Shape Space Analysis",
             "year": "June 2026",
             "date": "2026-06-15",
@@ -33,12 +25,20 @@
             "link": "https://arxiv.org/pdf/2606.02381v1"
         },
         {
-            "title": "Iteris: Agentic Research Loops for Computational Mathematics",
+            "title": "Does My Embedding Reflect That \\(A = B\\)? Evaluating Mathematical Equivalence in Embedding Models",
             "year": "June 2026",
-            "date": "2026-06-01",
-            "authors": "Leheng Chen, Zihao Liu, Wanyi He, Bin Dong",
-            "abstract": "Recent advances in large language models and agentic AI systems have enabled significant progress in mathematical discovery, from solving competition problems to tackling research-level conjectures. However, open problems in computational mathematics have received comparatively less attention: research in this area often requires not only proofs but also numerical experimentation, adversarial constructions, and algorithm design. In this paper, we introduce an agentic research system, Iteris, designed for open problems in computational mathematics. We apply Iteris to two open problems from a recent Simons Workshop collection (arXiv:2602.05394). In these case studies, Iteris generated numerical evidence, constructions, and proof drafts that led, after expert review and correction, to verified results. The first result is a phase diagram for the asymptotic comparison between conjugate gradient and randomized coordinate descent on power-law spectra; the second is a counterexample showing that QR factorization with column pivoting can fail to select well-conditioned submatrices even under low coherence. These case studies suggest that agentic AI systems can participate meaningfully in research workflows for open problems in computational mathematics, while human validation remains essential.",
-            "link": "https://arxiv.org/pdf/2606.02484v1"
+            "date": "2026-06-22",
+            "authors": "Jiaying Ye, Samarth Rao, Leo Carlin, Kedar Chintalapati, Saharsh Bhargava, Rachit Jaiswal, Michael Zhou, Jared Darlington, Jarod Alper, Vasily Ilin, Henry Kvinge",
+            "abstract": "Because mathematics is highly abstract, a single statement can take very different forms depending on what subfield it is framed in. There are many examples where breakthroughs occurred after researchers discovered that a question had already been answered in a different field. At the same time, the growth of new resources related to formalization has increased the need for tools that enable efficient and reliable navigation between mathematical 'languages' (e.g., from Lean to natural language). In this paper, we investigate whether current embedding models capture mathematical equivalence. To do this, we introduce the Mathematically Equivalent but Lexically Different Pairs (MELD) Dataset, a collection of mathematically equivalent statements that are expressed in very different language. We show that current state-of-the-art embedding models tend to group statements by the terminology used to make them instead of the underlying math. Motivated by this, we propose a contrastive approach to learning embeddings of mathematical text that focuses on aligning informal statements with different formalizations. Our experiments demonstrate that this leads to improvements not only on informal-formal retrieval tasks but also on MELD, which only contains natural language statements.",
+            "link": "https://arxiv.org/pdf/2606.23959v1"
+        },
+        {
+            "title": "The Two-Hump Problem: Bridging the Difficulty Gap in Mathematical Reinforcement Learning",
+            "year": "June 2026",
+            "date": "2026-06-19",
+            "authors": "Lucas Fagan, Michele Tarquini, Ali Shehper, Maksymilian Manko, Angus Gruen, Coco Huang, Giorgi Butbaia, Davide Passaro, Sergei Gukov",
+            "abstract": "Mathematical search problems present a unique challenge for Reinforcement Learning (RL) due to vast search spaces and sparse rewards. In previous works, the Andrews-Curtis (AC) conjecture was established as an illustrative example of such problems. In this work, we identify a critical structural barrier in the AC landscape: a \"Two-Hump\" distribution, where problem instances are either trivially solvable or effectively impossible, with a scarcity of intermediate \"hard-but-solvable\" instances required for effective learning. We tackle this challenge through two primary avenues: novel data generation techniques to populate the difficulty gap, and significant algorithmic enhancements including the introduction of supermoves and Transformer-based architectures. We demonstrate substantial performance improvements over previous baselines, and release new comprehensive benchmark datasets including AC-19 (125,192 AC-trivial presentations of varying difficulty with length at most 19) and AC-1M (1,136,154 hard AC-trivial presentations of length at most 30), the first large-scale, publicly available datasets of this kind.",
+            "link": "https://arxiv.org/pdf/2606.21611v1"
         }
     ],
     "last_year": [
