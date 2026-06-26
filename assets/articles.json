@@ -25,20 +25,20 @@
             "link": "https://arxiv.org/pdf/2606.02381v1"
         },
         {
+            "title": "TheoremGraph: Bridging Formal and Informal Mathematics",
+            "year": "June 2026",
+            "date": "2026-06-24",
+            "authors": "Simon Kurgan, Evan Wang, Eric Leonen, Sophie Szeto, Luke Alexander, Artemii Remizov, Jarod Alper, Giovanni Inchiostro, Vasily Ilin",
+            "abstract": "Mathematical knowledge is organized around statements and their dependencies, but this structure is exposed unevenly: informal papers cite mostly at the document level, while formal libraries record fine-grained dependencies over a much smaller body of mathematics. We introduce TheoremGraph, a unified statement-level dependency graph spanning both informal and formal mathematics. On the informal side, we parse 11.7M theorem-like environments from mathematics arXiv and recover 18.3M candidate directed dependencies, each labeled by the extractor that proposed it so downstream users can trade coverage for precision. On the formal side, we release LeanGraph, a Lean 4 elaborator-level extractor producing 388,105 declaration nodes and 11.3M typed edges across 25 Lean projects. We bridge the two graphs by embedding generated natural-language slogans into a shared semantic space, linking related statements across papers and across the informal/formal divide; an LLM judge affirms 47,952 such matches above a 0.8 cosine floor, with the judge-acceptance rate rising from 48% across the floor to 87% in the >=0.9 tier. On formal concept retrieval, our name-and-signature representation with graph expansion comes within 0.5pp of LeanSearch v2's reranked Recall@10 (0.775 vs. 0.780) without an LM reranker. We release the dataset, extractors, HTTP API, and MCP interface as infrastructure for mathematical search, attribution, and retrieval-augmented reasoning, available at theoremsearch.com and huggingface.co/datasets/uw-math-ai/theorem-matching.",
+            "link": "https://arxiv.org/pdf/2606.25363v1"
+        },
+        {
             "title": "Does My Embedding Reflect That \\(A = B\\)? Evaluating Mathematical Equivalence in Embedding Models",
             "year": "June 2026",
             "date": "2026-06-22",
             "authors": "Jiaying Ye, Samarth Rao, Leo Carlin, Kedar Chintalapati, Saharsh Bhargava, Rachit Jaiswal, Michael Zhou, Jared Darlington, Jarod Alper, Vasily Ilin, Henry Kvinge",
             "abstract": "Because mathematics is highly abstract, a single statement can take very different forms depending on what subfield it is framed in. There are many examples where breakthroughs occurred after researchers discovered that a question had already been answered in a different field. At the same time, the growth of new resources related to formalization has increased the need for tools that enable efficient and reliable navigation between mathematical 'languages' (e.g., from Lean to natural language). In this paper, we investigate whether current embedding models capture mathematical equivalence. To do this, we introduce the Mathematically Equivalent but Lexically Different Pairs (MELD) Dataset, a collection of mathematically equivalent statements that are expressed in very different language. We show that current state-of-the-art embedding models tend to group statements by the terminology used to make them instead of the underlying math. Motivated by this, we propose a contrastive approach to learning embeddings of mathematical text that focuses on aligning informal statements with different formalizations. Our experiments demonstrate that this leads to improvements not only on informal-formal retrieval tasks but also on MELD, which only contains natural language statements.",
             "link": "https://arxiv.org/pdf/2606.23959v1"
-        },
-        {
-            "title": "The Two-Hump Problem: Bridging the Difficulty Gap in Mathematical Reinforcement Learning",
-            "year": "June 2026",
-            "date": "2026-06-19",
-            "authors": "Lucas Fagan, Michele Tarquini, Ali Shehper, Maksymilian Manko, Angus Gruen, Coco Huang, Giorgi Butbaia, Davide Passaro, Sergei Gukov",
-            "abstract": "Mathematical search problems present a unique challenge for Reinforcement Learning (RL) due to vast search spaces and sparse rewards. In previous works, the Andrews-Curtis (AC) conjecture was established as an illustrative example of such problems. In this work, we identify a critical structural barrier in the AC landscape: a \"Two-Hump\" distribution, where problem instances are either trivially solvable or effectively impossible, with a scarcity of intermediate \"hard-but-solvable\" instances required for effective learning. We tackle this challenge through two primary avenues: novel data generation techniques to populate the difficulty gap, and significant algorithmic enhancements including the introduction of supermoves and Transformer-based architectures. We demonstrate substantial performance improvements over previous baselines, and release new comprehensive benchmark datasets including AC-19 (125,192 AC-trivial presentations of varying difficulty with length at most 19) and AC-1M (1,136,154 hard AC-trivial presentations of length at most 30), the first large-scale, publicly available datasets of this kind.",
-            "link": "https://arxiv.org/pdf/2606.21611v1"
         }
     ],
     "last_year": [
