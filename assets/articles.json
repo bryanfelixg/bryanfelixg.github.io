@@ -1,6 +1,14 @@
 {
     "last_month": [
         {
+            "title": "MathModDB: A Database for Mathematical Models",
+            "year": "June 2026",
+            "date": "2026-06-26",
+            "authors": "Jochen Fiedler, Christine Biedinger, Marco Reidelbach, Björn Schembera, Burkhard Schmidt, Aurela Shehu, Thomas Koprucki",
+            "abstract": "When researchers need a mathematical model for a research problem, they face a fragmented landscape: relevant formulas, quantities, assumptions, and model variants are scattered across publications and domain-specific conventions. The Mathematical Models Database (MathModDB) addresses this challenge by providing a curated knowledge graph for mathematical models, deployed on the MaRDI Portal as part of the German National Research Data Infrastructure (NFDI). Building on ontology designs presented in earlier work, this paper focuses on MathModDB as a publicly available service. It addresses researchers who use mathematical models in their work -- whether in applied mathematics, engineering, or the natural sciences. We describe its deployment on the Wikibase-powered MaRDI Portal, report on its current scale, and demonstrate its practical use through a walkthrough of an electric discharge modeling use case from plasma physics. We further discuss the ecosystem around MathModDB, including its connection to the MathAlgoDB knowledge graph for numerical algorithms and the MaRDMO documentation tool.",
+            "link": "https://arxiv.org/pdf/2606.27933v1"
+        },
+        {
             "title": "Learning the Geometry of Data: A Mathematical Review of Shape Space Analysis",
             "year": "June 2026",
             "date": "2026-06-15",
@@ -9,36 +17,28 @@
             "link": "https://arxiv.org/pdf/2606.17022v1"
         },
         {
-            "title": "Mathematical Morphology in Machine Learning",
-            "year": "May 2026",
-            "date": "2026-05-29",
-            "authors": "Erick Oliveira Rodrigues, Aura Conci",
-            "abstract": "This work introduces mathematical morphology-an established visual computing theory-into machine learning to exploit shape and density aspects often overlooked by standard techniques. We propose a fast clustering algorithm based on morphological reconstruction that accurately preserves cluster shapes and density. This scheme offers unique features: an intrinsic sense of maximal clusters, cost-free noise removal, and diverse growth patterns controlled by structuring elements.Additionally, we propose a novel distance metric combining Minkowski and Chebyshev distances, highly efficient for morphological dilations. In \\(Z^2\\) discrete neighbourhood iterations, it is roughly 1.3 times faster than Manhattan and 329.5 times faster than Euclidean distances. When evaluated using a k-Nearest Neighbours (k-NN) classifier across 33 UCI datasets against 14 other distances, our metric achieved above-average accuracies most frequently (26 of 33 cases) and the best overall accuracy in 9 cases.Finally, we introduce novel morphological classifiers. Unlike current literature, this proposal uniquely models shape, density, and fractal information in datasets.",
-            "link": "https://arxiv.org/pdf/2605.30700v1"
+            "title": "Global stability analysis of a mathematical model from Alzheimer's disease",
+            "year": "June 2026",
+            "date": "2026-06-28",
+            "authors": "Ruoyun Lang, Hui Zhou",
+            "abstract": "This study focuses on a mathematical model of Alzheimer's disease involving \\(β\\)-amyloid, cellular prion protein and their complex. The global asymptotic stability of the model indicates that the complex continues to induce neuronal damage regardless of the initial states. To investigate the dynamics of this system, we have rigorously proved that when the formation rate of new plaques is zero, the system is unconditional globally asymptotically stable without any limitation proposed in previous work. Numerical simulations further validate the theoretical analysis, regardless of the random initial state, demonstrating that the system consistently converges to a unique positive equilibrium. From a therapeutic perspective, we propose targeted therapeutic strategies and verify their effectiveness through numerical simulations. These results provide a universal theoretical basis for understanding dynamic mechanisms of Alzheimer's disease and offer critical guidance for developing targeted therapeutics.",
+            "link": "https://arxiv.org/pdf/2606.29191v1"
         },
         {
-            "title": "A Mathematical Conflict Framework for Contextual Data Modulation",
+            "title": "ISM:Self-Improving Strategy Memory for Continual Mathematical Reasoning",
             "year": "June 2026",
-            "date": "2026-06-01",
-            "authors": "Hakan Emre Kartal",
-            "abstract": "In this study, a generalized operator-based mathematical conflict framework is presented to explicitly represent structural discrepancies between raw data and contextual data. The proposed structure treats conflict as a local, directional, and context-sensitive quantity, integrating components such as weighting, scale behavior, and output mapping under a unified abstract operator. Without being reduced to a specific learning algorithm or optimization method, the framework is defined as a general structure adaptable to different classes of problems. While existing approaches typically treat conflict merely as an implicit side effect embedded within the optimization process, the proposed framework considers conflict as an independent, operator-based, and component-level mathematical object.",
-            "link": "https://arxiv.org/pdf/2606.02381v1"
+            "date": "2026-06-30",
+            "authors": "Prakhar Dixit, Tim Oates",
+            "abstract": "We propose Intelligent Schema Memory (ISM), a self-evolving memory-augmented system that improves mathematical reasoning for a frozen LLM under continual learning with hard episodic resets. ISM maintains a compact, self-refined bank of strategy schemas learned from both successful and failed episodes, with symbolic tools that check intermediate steps and certify answers. Without updating model parameters, ISM outperforms passive, retrieval, and reflection baselines on MATH-Hard and OlympiadBench, using 64% and 86% fewer schemas respectively than the strongest passive baseline. These results show that small, actively maintained, and verified strategy memories can support reliable continual mathematical reasoning under strict episodic isolation. The codebase is available at https://github.com/pdx97/ISM .",
+            "link": "https://arxiv.org/pdf/2606.31191v3"
         },
         {
-            "title": "TheoremGraph: Bridging Formal and Informal Mathematics",
+            "title": "The Purpose of Mathematics according to Plato and Augustine",
             "year": "June 2026",
-            "date": "2026-06-24",
-            "authors": "Simon Kurgan, Evan Wang, Eric Leonen, Sophie Szeto, Luke Alexander, Artemii Remizov, Jarod Alper, Giovanni Inchiostro, Vasily Ilin",
-            "abstract": "Mathematical knowledge is organized around statements and their dependencies, but this structure is exposed unevenly: informal papers cite mostly at the document level, while formal libraries record fine-grained dependencies over a much smaller body of mathematics. We introduce TheoremGraph, a unified statement-level dependency graph spanning both informal and formal mathematics. On the informal side, we parse 11.7M theorem-like environments from mathematics arXiv and recover 18.3M candidate directed dependencies, each labeled by the extractor that proposed it so downstream users can trade coverage for precision. On the formal side, we release LeanGraph, a Lean 4 elaborator-level extractor producing 388,105 declaration nodes and 11.3M typed edges across 25 Lean projects. We bridge the two graphs by embedding generated natural-language slogans into a shared semantic space, linking related statements across papers and across the informal/formal divide; an LLM judge affirms 47,952 such matches above a 0.8 cosine floor, with the judge-acceptance rate rising from 48% across the floor to 87% in the >=0.9 tier. On formal concept retrieval, our name-and-signature representation with graph expansion comes within 0.5pp of LeanSearch v2's reranked Recall@10 (0.775 vs. 0.780) without an LM reranker. We release the dataset, extractors, HTTP API, and MCP interface as infrastructure for mathematical search, attribution, and retrieval-augmented reasoning, available at theoremsearch.com and huggingface.co/datasets/uw-math-ai/theorem-matching.",
-            "link": "https://arxiv.org/pdf/2606.25363v1"
-        },
-        {
-            "title": "Does My Embedding Reflect That \\(A = B\\)? Evaluating Mathematical Equivalence in Embedding Models",
-            "year": "June 2026",
-            "date": "2026-06-22",
-            "authors": "Jiaying Ye, Samarth Rao, Leo Carlin, Kedar Chintalapati, Saharsh Bhargava, Rachit Jaiswal, Michael Zhou, Jared Darlington, Jarod Alper, Vasily Ilin, Henry Kvinge",
-            "abstract": "Because mathematics is highly abstract, a single statement can take very different forms depending on what subfield it is framed in. There are many examples where breakthroughs occurred after researchers discovered that a question had already been answered in a different field. At the same time, the growth of new resources related to formalization has increased the need for tools that enable efficient and reliable navigation between mathematical 'languages' (e.g., from Lean to natural language). In this paper, we investigate whether current embedding models capture mathematical equivalence. To do this, we introduce the Mathematically Equivalent but Lexically Different Pairs (MELD) Dataset, a collection of mathematically equivalent statements that are expressed in very different language. We show that current state-of-the-art embedding models tend to group statements by the terminology used to make them instead of the underlying math. Motivated by this, we propose a contrastive approach to learning embeddings of mathematical text that focuses on aligning informal statements with different formalizations. Our experiments demonstrate that this leads to improvements not only on informal-formal retrieval tasks but also on MELD, which only contains natural language statements.",
-            "link": "https://arxiv.org/pdf/2606.23959v1"
+            "date": "2026-06-26",
+            "authors": "Douglas J. Dailey",
+            "abstract": "In 1973, Russian mathematician I.R. Shafarevitch delivered a lecture to the Göttingen Academy of Sciences on the purpose of mathematics. The conclusion he reached in his address is that the ultimate purpose of mathematics must be religious. In this talk, we will explore a possible way in which this claim can be justified by understanding the purpose that mathematics served within a person's intellectual formation according to Plato. To place Plato's view into a Christian perspective, we will then investigate the thought of St. Augustine of Hippo, the great fifth century theologian and bishop. Augustine's insight on the role that number plays in the development of reason sheds light on how knowledge of mathematics conduces to knowledge of God.",
+            "link": "https://arxiv.org/pdf/2606.28461v1"
         }
     ],
     "last_year": [
