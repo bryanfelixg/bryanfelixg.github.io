@@ -33,12 +33,12 @@
             "link": "https://arxiv.org/pdf/2606.31191v3"
         },
         {
-            "title": "The Purpose of Mathematics according to Plato and Augustine",
-            "year": "June 2026",
-            "date": "2026-06-26",
-            "authors": "Douglas J. Dailey",
-            "abstract": "In 1973, Russian mathematician I.R. Shafarevitch delivered a lecture to the Göttingen Academy of Sciences on the purpose of mathematics. The conclusion he reached in his address is that the ultimate purpose of mathematics must be religious. In this talk, we will explore a possible way in which this claim can be justified by understanding the purpose that mathematics served within a person's intellectual formation according to Plato. To place Plato's view into a Christian perspective, we will then investigate the thought of St. Augustine of Hippo, the great fifth century theologian and bishop. Augustine's insight on the role that number plays in the development of reason sheds light on how knowledge of mathematics conduces to knowledge of God.",
-            "link": "https://arxiv.org/pdf/2606.28461v1"
+            "title": "Mathematical Model of Evolution of Non-Degenerate Replicator Systems",
+            "year": "July 2026",
+            "date": "2026-07-05",
+            "authors": "Alexander S. Bratus, Sergey Drozhzhin, Tatiana Yakushkina",
+            "abstract": "We propose and analyse a mathematical model of evolutionary adaptation for non-degenerate (permanent) replicator systems, in which the fitness landscape matrix evolves on a slow timescale -- the evolutionary time -- while the species dynamics unfold on a fast timescale. Under a two-timescale separation justified by Tikhonov's theorem, the adaptation problem reduces to maximising the mean fitness at steady state over a convex admissible set of fitness landscape matrices. We derive a fitness variation formula and establish necessary and sufficient conditions for a fitness maximum, showing that the optimisation reduces at each step to a linear programming problem. The algorithm is applied to four canonical replicator systems: the hypercycle, the bi-hypercycle, the anthill system, and the RNA molecule network. In all cases the evolutionary process follows a universal three-phase pattern: an initial phase of fitness growth without equilibrium shift, during which purely altruistic replication gives way to mixed altruistic-selfish behaviour; a second phase of dominant species emergence; and a stabilisation phase analogous to the error catastrophe threshold in quasispecies models. A key consequence is that all evolved systems acquire resistance to parasitic species. We further prove that without non-degeneracy constraints the process leads to sequential species annihilation, with a provable spectral lower bound on fitness increase by dimension reduction.",
+            "link": "https://arxiv.org/pdf/2607.04456v1"
         }
     ],
     "last_year": [
