@@ -1,6 +1,14 @@
 {
     "last_month": [
         {
+            "title": "The Technological Turn in Mathematics",
+            "year": "July 2026",
+            "date": "2026-07-08",
+            "authors": "Silvia De Toffoli, Fenner Tanswell",
+            "abstract": "Quickly evolving technologies, such as Interactive Theorem Provers (ITPs), Automated Theorem Provers (ATPs), and Large Language Models (LLMs), all falling under the general heading 'AI for mathematics,' are transforming mathematical practice in profound ways. This chapter explores the implications of these innovations, focusing on their impact on how mathematical knowledge is created and shared. It also discusses how they are reshaping the social dimension of mathematics, altering collaboration dynamics, trust relationships, and the collective production of knowledge. For instance, tools like ITPs facilitate large-scale collaborations and make new types of teamwork possible, where trust is not a necessary ingredient. ITPs also help us mitigate our human fallibility, yet they raise questions about the nature of formalization and the relationship between traditional and formal mathematics. Technologies such as LLMs are reshaping the division of epistemic labour between humans and machines and urge philosophers of mathematics to ask questions about the value of their work.",
+            "link": "https://arxiv.org/pdf/2607.07162v1"
+        },
+        {
             "title": "MathModDB: A Database for Mathematical Models",
             "year": "June 2026",
             "date": "2026-06-26",
@@ -9,36 +17,28 @@
             "link": "https://arxiv.org/pdf/2606.27933v1"
         },
         {
+            "title": "Mathematical models for CAR T immunotherapy and CD19 dynamics in leukemia: a comparative analysis",
+            "year": "July 2026",
+            "date": "2026-07-08",
+            "authors": "Salvador Chulián, Ana Niño-López, Rocío Picón-González, María Rosa",
+            "abstract": "Chimeric Antigen Receptor (CAR) T cell therapy has emerged as a successful treatment for relapsed or refractory hematological malignancies, particularly for B cell Acute Lymphoblastic Leukemia (B ALL), where CD19 targeted therapies have achieved high initial remission rates. However, relapse after treatment remains a major clinical challenge, frequently associated with antigen escape mechanisms and the emergence of CD19\\(^-\\) leukemic cells. Understanding the interaction between CAR T cells and antigen expression dynamics is, therefore, essential for improving therapeutic efficacy and long-term patient outcomes.\n  In this work, we develop and comparatively analyze novel mathematical models describing CAR T immunotherapy and CD19 dynamics in leukemia. Our proposed framework combines compartmental ordinary differential equation (ODE) formulations as well as partial differential equation (PDE) systems. Both methods are able to capture the evolution of leukemic populations under immune pressure and, in particular, the models explicitly distinguish between CD19\\(^+\\) and CD19\\(^-\\) leukemic cells and incorporate bidirectional phenotypic transitions regulated by CAR T activity.\n  The developed models provide biologically interpretable and computationally efficient tools for studying treatment response, resistance, and relapse mechanisms in CAR T cell therapy. We compare the ability of the different modeling approaches to reproduce CD19 antigen modulation and CAR T efficacy dynamics. We also propose sensitivity analyses to study the parameters' influence on the models' dynamics. Our work contributes to the mathematical understanding of antigen-driven resistance and offers a basis for future optimization and personalization of CAR T therapeutic strategies in leukemia.",
+            "link": "https://arxiv.org/pdf/2607.07261v1"
+        },
+        {
+            "title": "Mathematical methods of reinforcement learning",
+            "year": "July 2026",
+            "date": "2026-07-08",
+            "authors": "Denis Belomestny, Alexander Gasnikov, Egor Gladin, Alexey Naumov, Artemy Rubtsov, Yuri Sapronov, Daniil Tiapkin, Nikita Yudin",
+            "abstract": "Reinforcement learning (RL) is increasingly grounded in tools from probability, optimization, and operator theory. This survey organizes the mathematical structures that underpin the design and analysis of modern algorithms in RL. We begin from Markov decision processes (MDPs) and the Bellman operators, emphasizing contraction mappings, monotonicity, and fixed-point theory that yield convergence guarantees and rates for value and policy iteration, and temporal-difference schemes. We then develop the optimization perspective: stochastic approximation and martingale methods, convex duality and the role of regularization linking mirror/proximal methods. Function approximation is treated through linear and non-linear settings, covering stabilization, error decomposition, and sample-complexity via concentration inequalities for dependent data and mixing processes. We further cover off-policy evaluation/learning, constrained RL and constrained MDPs (CMDPs). Throughout we unify algorithmic templates under common operator and variational lenses, highlighting both finite-sample bounds and asymptotic results. Our presentation is intended to provide a unified mathematical entry point for researchers in probability, optimization, and statistics interested in reinforcement learning.",
+            "link": "https://arxiv.org/pdf/2607.06935v1"
+        },
+        {
             "title": "Learning the Geometry of Data: A Mathematical Review of Shape Space Analysis",
             "year": "June 2026",
             "date": "2026-06-15",
             "authors": "Gary P. T. Choi, Khanh Dao Duc, Shira Faigenbaum-Golovin, Karen Habermann, Emmanuel Hartman, Christoph von Tycowicz, Chi Zhang, Wenjun Zhao, Felix Zhou",
             "abstract": "A central objective of machine learning is to identify structure and patterns in data. Advances in data acquisition have increasingly produced datasets whose observations possess rich geometric form, giving rise to shape spaces that encode variability in object geometry. Such datasets arise across a wide range of disciplines, including biology, medicine, anthropology, and computer vision, where subtle geometric differences often carry important scientific information. Traditional machine learning methods, however, are frequently ill-equipped to account for the nonlinear geometric structure underlying these data.\n  This survey synthesizes a rapidly growing body of work on shape space analysis, which provides a mathematical and computational framework for the study of geometric data. Drawing on ideas from differential geometry, statistics, and machine learning, we organize the literature around a common analytical pipeline: shape representation and parameterization, the rigorous construction of robust geodesic metrics, statistical analysis on shape spaces, and geometry-aware learning methods. We discuss how these tools enable the characterization of shape variability, the comparison of geometric objects, and the analysis of structural trajectories across populations and time.\n  To illustrate the breadth of the field, we highlight applications spanning multiple scales of biological organization, including studies of subcellular morphology and primate tooth evolution. Across these and many other domains, researchers face common challenges arising from complex, nonlinear, and often unaligned geometric variation. The review concludes by identifying key theoretical and computational challenges, as well as emerging opportunities driven by increasingly large and diverse geometric datasets.",
             "link": "https://arxiv.org/pdf/2606.17022v1"
-        },
-        {
-            "title": "Global stability analysis of a mathematical model from Alzheimer's disease",
-            "year": "June 2026",
-            "date": "2026-06-28",
-            "authors": "Ruoyun Lang, Hui Zhou",
-            "abstract": "This study focuses on a mathematical model of Alzheimer's disease involving \\(β\\)-amyloid, cellular prion protein and their complex. The global asymptotic stability of the model indicates that the complex continues to induce neuronal damage regardless of the initial states. To investigate the dynamics of this system, we have rigorously proved that when the formation rate of new plaques is zero, the system is unconditional globally asymptotically stable without any limitation proposed in previous work. Numerical simulations further validate the theoretical analysis, regardless of the random initial state, demonstrating that the system consistently converges to a unique positive equilibrium. From a therapeutic perspective, we propose targeted therapeutic strategies and verify their effectiveness through numerical simulations. These results provide a universal theoretical basis for understanding dynamic mechanisms of Alzheimer's disease and offer critical guidance for developing targeted therapeutics.",
-            "link": "https://arxiv.org/pdf/2606.29191v1"
-        },
-        {
-            "title": "ISM:Self-Improving Strategy Memory for Continual Mathematical Reasoning",
-            "year": "June 2026",
-            "date": "2026-06-30",
-            "authors": "Prakhar Dixit, Tim Oates",
-            "abstract": "We propose Intelligent Schema Memory (ISM), a self-evolving memory-augmented system that improves mathematical reasoning for a frozen LLM under continual learning with hard episodic resets. ISM maintains a compact, self-refined bank of strategy schemas learned from both successful and failed episodes, with symbolic tools that check intermediate steps and certify answers. Without updating model parameters, ISM outperforms passive, retrieval, and reflection baselines on MATH-Hard and OlympiadBench, using 64% and 86% fewer schemas respectively than the strongest passive baseline. These results show that small, actively maintained, and verified strategy memories can support reliable continual mathematical reasoning under strict episodic isolation. The codebase is available at https://github.com/pdx97/ISM .",
-            "link": "https://arxiv.org/pdf/2606.31191v3"
-        },
-        {
-            "title": "Mathematical Model of Evolution of Non-Degenerate Replicator Systems",
-            "year": "July 2026",
-            "date": "2026-07-05",
-            "authors": "Alexander S. Bratus, Sergey Drozhzhin, Tatiana Yakushkina",
-            "abstract": "We propose and analyse a mathematical model of evolutionary adaptation for non-degenerate (permanent) replicator systems, in which the fitness landscape matrix evolves on a slow timescale -- the evolutionary time -- while the species dynamics unfold on a fast timescale. Under a two-timescale separation justified by Tikhonov's theorem, the adaptation problem reduces to maximising the mean fitness at steady state over a convex admissible set of fitness landscape matrices. We derive a fitness variation formula and establish necessary and sufficient conditions for a fitness maximum, showing that the optimisation reduces at each step to a linear programming problem. The algorithm is applied to four canonical replicator systems: the hypercycle, the bi-hypercycle, the anthill system, and the RNA molecule network. In all cases the evolutionary process follows a universal three-phase pattern: an initial phase of fitness growth without equilibrium shift, during which purely altruistic replication gives way to mixed altruistic-selfish behaviour; a second phase of dominant species emergence; and a stabilisation phase analogous to the error catastrophe threshold in quasispecies models. A key consequence is that all evolved systems acquire resistance to parasitic species. We further prove that without non-degeneracy constraints the process leads to sequential species annihilation, with a provable spectral lower bound on fitness increase by dimension reduction.",
-            "link": "https://arxiv.org/pdf/2607.04456v1"
         }
     ],
     "last_year": [
