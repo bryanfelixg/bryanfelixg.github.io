@@ -1,50 +1,26 @@
 [
     {
-        "title": "Selecting Synthetic Data for Successful Simulation-Based Transfer Learning in Dynamical Biological Systems",
-        "authors": "Simon Witzke, Julian Zabbarov, Maximilian Kleissl, Pascal Iversen, Bernhard Y. Renard, Katharina Baum",
-        "doi": "https://doi.org/10.1101/2024.03.25.586390",
-        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.03.25.586390v2.full.pdf",
-        "abstract": "Background Accurate prediction of the temporal dynamics of biological systems is crucial for informing timely and effective interventions, e.g., in ecological or epidemiological contexts, or for treatment adjustments in therapy. While machine learning has proven its capabilities in generalizing the underlying non-linear dynamics of such systems, unlocking its predictive power is often restrained by the limited availability of large, curated datasets. To supplement real-world data, informing machine learning by transfer learning with synthetic data derived from simulations using ordinary differential equations has emerged as a promising solution. However, the success of this approach highly depends on the designed characteristics of the synthetic data. Results We suggest scrutinizing these characteristics, such as size, diversity, and noise, of ordinary differential equation-based synthetic time series datasets. Here, we demonstrate how to systematically evaluate the influence of such design choices on transfer learning performance. We conduct a proof-of-concept study on three simple, but widely used systems and four real-world datasets. We find a strong interdependency between synthetic dataset size and diversity effects. Good transfer learning settings heavily rely on real-world data characteristics as well as the data’s coherence with the dynamics of the model underlying the synthetic data. We achieve a performance improvement of up to 92% in mean absolute error for simulation-based transfer learning compared to non-informed deep learning. Conclusions Our work emphasizes the relevance of carefully selecting properties of synthetic data for leveraging the valuable domain knowledge contained in ordinary differential equation models for machine-learning based predictions. The code is available at https://github.com/DILiS-lab/opt-synthdata-4tl.",
-        "posted": "July 09, 2025"
+        "title": "Uncertainty Modeling Outperforms Machine Learning for Microbiome Data Analysis",
+        "authors": "Maxwell A. Konnaris, Manan Saxena, Nicole Lazar, Justin D. Silverman",
+        "doi": "https://doi.org/10.1101/2025.09.12.675956",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.09.12.675956v1.full.pdf",
+        "abstract": "Microbiome sequencing measures relative rather than absolute abundances, providing no direct information about total microbial load. Normalization methods attempt to compensate, but rely on strong, often untestable assumptions that can bias inference. Experimental measurements of load (e.g., qPCR, flow cytometry) offer a solution, but remain costly and uncommon. A recent high-profile study proposed that machine learning could bypass this limitation by predicting microbial load from sequencing data alone. To evaluate this claim, we assembled mutt, the largest public database of paired sequencing and load measurements, spanning 35 studies and over 15,000 samples. Using mutt, we show that published machine learning models fail to generalize: on average they perform worse than a naive baseline that always predicted the training set mean. These failures stem from covariate shift–limited shared taxa between studies, differences in community composition, and differences in preprocessing pipelines–that silently derail model inputs. In contrast, Bayesian partially identified models do not attempt to impute microbial load, but instead propagate scale uncertainty through downstream analyses. Across 30 benchmark datasets, Bayesian partially identified models consistently outperformed normalization and machine learning approaches, providing a principled and reproducible foundation for microbiome inference.",
+        "posted": "September 16, 2025"
     },
     {
-        "title": "Convergent neural dynamical systems for task control in artificial networks and human brains",
-        "authors": "Harrison Ritz, Aditi Jha, Nathaniel D. Daw, Jonathan D. Cohen",
-        "doi": "https://doi.org/10.1101/2024.09.29.615736",
-        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.09.29.615736v5.full.pdf",
-        "abstract": "The ability to switch between tasks is a core component of human intelligence, yet a mechanistic understanding of this capacity has remained elusive. Long-standing debates over how task switching is influenced by preparation for upcoming tasks or interference from previous tasks have been difficult to resolve without quantitative neural predictions. We advance this debate by using state-space modeling to directly compare the latent task dynamics in task-optimized recurrent neural networks and human electroencephalographic recordings. Over the inter-trial interval, both networks and brains converged into a neutral task state, a novel control strategy that reconciles the role of preparation and interference in task switching. These findings provide a quantitative account of cognitive flexibility and a promising paradigm for bridging artificial and biological neural networks.",
-        "posted": "July 24, 2025"
+        "title": "SpaceExpress enables differential spatial transcriptomics with natural coordinate systems",
+        "authors": "Yeojin Kim, Abhishek Ojha, Alex Schrader, Juyeon Lee, Zijun Wu, Ian M Traniello, Saumya Jain, Gene E Robinson, Hee Sun Han, Sihai D Zhao, Saurabh Sinha",
+        "doi": "https://doi.org/10.1101/2024.12.19.628720",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.12.19.628720v2.full.pdf",
+        "abstract": "Spatial transcriptomics (ST) technologies have enabled new explorations into the spatial organization of tissues and their functional implications. However, one of the most fundamental analyses – comparative analysis of spatial gene expression across phenotypes – remains a formidable challenge. We introduce SpaceExpress, a novel statistical tool for detecting phenotype-associated changes in spatial expression patterns. SpaceExpress employs a neural network to embed multiple ST samples in a common latent space, enabling robust cross-sample comparisons despite structural and technical variations. It then uses spline regression to test differential spatial expression of genes between conditions, identifying specific regions of the tissue where expression patterns diverge and quantifying the magnitude of those differences, with rigorous false discovery control and handling of multiple replicates per condition. It includes visualization tools to help interpret spatial pattern differences. We demonstrate the tool’s effectiveness on synthetic and real ST datasets, revealing mechanistic insights into behavior- and development-related neurogenomic changes in honey bees and mice. Our work extends the highly influential paradigm of differential gene expression analysis to spatial omics.",
+        "posted": "September 14, 2025"
     },
     {
-        "title": "Cahn-Hilliard dynamical models for condensed biomolecular systems",
-        "authors": "Sarah M. Groves, Min-Jhe Lu, Astrid Catalina Alvarez-Yela, Monserrat Gerardo-Ramírez, P. Todd Stukenberg, John S. Lowengrub, Kevin A. Janes",
-        "doi": "https://doi.org/10.1101/2025.07.13.664571",
-        "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.07.13.664571v1.full.pdf",
-        "abstract": "Biomolecular condensates create dynamic subcellular compartments that alter systems-level properties of the networks surrounding them. One model combining soluble and condensed states is the Cahn-Hilliard equation, which specifies a diffuse interface between the two phases. Customized approaches required to solve this equation are largely inaccessible. Using two complementary numerical strategies, we built stable, self-consistent Cahn-Hilliard solvers in Python, MATLAB, and Julia. The algorithms simulated the complete time evolution of condensed droplets as they dissolved or persisted, relating critical droplet size to a coefficient for the diffuse interface in the Cahn-Hilliard equation. We applied this universal relationship to the chromosomal passenger complex, a multi-protein assembly that reportedly condenses on mitotic chromosomes. The fully constrained Cahn-Hilliard simulations yielded dewetting and coarsening behaviors that closely mirrored experiments in different cell types. The Cahn-Hilliard equation tests whether condensate dynamics behave as a phase-separated liquid, and its numerical solutions advance generalized modeling of biomolecular systems.",
-        "posted": "July 17, 2025"
-    },
-    {
-        "title": "Taguchi–Machine Learning Hybrid Framework for Optimization of Particulate Drug Delivery Systems",
-        "authors": "Doğukan Duymaz, Seda Kizilel",
-        "doi": "https://doi.org/10.1101/2025.08.16.670654",
-        "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.08.16.670654v1.full.pdf",
-        "abstract": "Optimizing particulate drug carrier systems requires balancing multiple formulation parameters to achieve target physicochemical properties while minimizing experimental burden. Here, we implement a hybrid optimization framework integrating a Taguchi orthogonal array (OA) design with statistical modeling and machine learning (ML)–based interpretability, using doxorubicin-loaded chitosan microspheres (DOX-CS MSs). Microspheres were synthesized via a water-in-oil emulsion crosslinking method and characterized by FTIR, XRD, and FESEM to confirm chemical structure, crystallinity, and spherical morphology. The optimization targeted a particle size of 5–7 µm and encapsulation efficiency (EE) >90%. An initial L₉ Taguchi OA design efficiently narrowed the formulation space by varying chitosan concentration (1–3% w/v), glutaraldehyde concentration (1.5–5% v/v), and crosslinking time (3–5 h), yielding nine core formulations. Pearson/Spearman correlation, second-order polynomial regression (Poly²), and Gradient Boosting Machine (GBM) models quantified parameter influences and predicted performance. SHapley Additive exPlanations (SHAP) identified chitosan concentration as the primary determinant of both size and EE, with glutaraldehyde content exerting secondary, synergistic effects. Poly² response-surface modeling achieved high predictive accuracy (R² = 0.983 for size; R² = 0.986 for EE) and yielded explicit regression equations for real-time formulation targeting. This hybrid Taguchi–ML approach enables rapid factor prioritization, reveals nonlinear interactions overlooked by conventional Taguchi analysis, and offers transparent ML interpretability. Beyond chitosan-based carriers, it provides a generalizable, scalable route to rational formulation design in complex particulate systems for targeted biomedical applications.",
-        "posted": "August 21, 2025"
-    },
-    {
-        "title": "Agentic AI Integrated with Scientific Knowledge: Laboratory Validation in Systems Biology",
-        "authors": "Daniel Brunnsåker, Alexander H. Gower, Prajakta Naval, Erik Y. Bjurström, Filip Kronström, Ievgeniia A. Tiukova, Ross D. King",
-        "doi": "https://doi.org/10.1101/2025.06.24.661378",
-        "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.06.24.661378v3.full.pdf",
-        "abstract": "N/A",
-        "posted": "N/A"
-    },
-    {
-        "title": "Generating Bounded Linear Temporal Logic in Systems Biology with Large Language Models",
-        "authors": "Difei Tang, Natasa Miskov-Zivanov",
-        "doi": "https://doi.org/10.1101/2025.08.06.668950",
-        "pdf_link": "https://www.biorxiv.org/content/10.1101/2025.08.06.668950v1.full.pdf",
-        "abstract": "N/A",
-        "posted": "N/A"
+        "title": "Tunable, proteolytic dosage control of CRISPR-Cas systems enables precise gene therapy for dosage sensitive disorders",
+        "authors": "Noa Katz, Connie An, Yu-Ju Lee, Josh Tycko, Meng Zhang, Jeewoo Kang, Lacramioara Bintu, Michael C Bassik, Wei-Hsiang Huang, Xiaojing J Gao",
+        "doi": "https://doi.org/10.1101/2024.10.09.617463",
+        "pdf_link": "https://www.biorxiv.org/content/10.1101/2024.10.09.617463v2.full.pdf",
+        "abstract": "The ability to modulate gene expression through modular and universal genetic tools like CRISPR-Cas has greatly advanced gene therapy for therapeutics and basic science. Yet, the inherent stochasticity of delivery methods cause variation in target gene expression at the single-cell level, limiting their applicability in systems that require more precise expression. Thus, we implement a modular incoherent feedforward loop based on proteolytic cleavage of Cas to reduce gene expression variability against the variability of vector delivery. We target a genome-integrated marker and demonstrate dosage control of gene activation and repression, post-delivery tuning, and RNA-based compatibility of the system. To illustrate therapeutic relevance, we target the gene RAI1, the haploinsufficiency and triplosensitivity of which cause two autism-related syndromes. We demonstrate dosage-controlled gene activation for both human and mouse Rai1 via viral delivery to patient-derived cell lines and mouse cortical neurons. Overall, we established a robust dosage control circuit for uniform gene expression, beneficial for basic and translational research.",
+        "posted": "September 19, 2025"
     }
 ]
