@@ -1,44 +1,44 @@
 {
     "last_month": [
         {
-            "title": "The Technological Turn in Mathematics",
+            "title": "What Remains Human in Mathematics in the Age of AI",
             "year": "July 2026",
-            "date": "2026-07-08",
-            "authors": "Silvia De Toffoli, Fenner Tanswell",
-            "abstract": "Quickly evolving technologies, such as Interactive Theorem Provers (ITPs), Automated Theorem Provers (ATPs), and Large Language Models (LLMs), all falling under the general heading 'AI for mathematics,' are transforming mathematical practice in profound ways. This chapter explores the implications of these innovations, focusing on their impact on how mathematical knowledge is created and shared. It also discusses how they are reshaping the social dimension of mathematics, altering collaboration dynamics, trust relationships, and the collective production of knowledge. For instance, tools like ITPs facilitate large-scale collaborations and make new types of teamwork possible, where trust is not a necessary ingredient. ITPs also help us mitigate our human fallibility, yet they raise questions about the nature of formalization and the relationship between traditional and formal mathematics. Technologies such as LLMs are reshaping the division of epistemic labour between humans and machines and urge philosophers of mathematics to ask questions about the value of their work.",
-            "link": "https://arxiv.org/pdf/2607.07162v1"
+            "date": "2026-07-30",
+            "authors": "Amir Moradifam",
+            "abstract": "Mathematics is often valued for its role as the language of science, but it is equally important as a human practice that teaches us how to think and cultivates creativity, problem-solving skills, attention, and judgment. The rapid rise of modern AI systems, which can solve many standard problems and produce fluent mathematical explanations, forces a reconsideration of the nature of mathematical understanding and how it is developed. This article reflects on the impact of AI across three intertwined domains: mathematics education, mathematical research, and the broader role of mathematics as a way of learning to think.\n  In education, AI changes how students interact with mathematical material, making high-quality assistance widely available while weakening the traditional link between assigned work and demonstrated understanding. The challenge concerns not only academic integrity but also the risks of cognitive offloading and the illusion of explanatory depth. In research, AI can accelerate exploration in various ways, including generating conjectures and examples, performing symbolic manipulation, suggesting proofs, and assisting in the communication of ideas. It has also begun to contribute to discoveries on problems that had resisted human efforts. Yet its limitations remain serious, especially in long arguments requiring global structure, careful verification, and the synthesis of multiple ideas. The central claim is that in an era when routine tasks become easier to automate, the most human aspects of mathematics, including conceptual insight, problem framing, genuine understanding, and creative judgment, become more visible and more valuable.",
+            "link": "https://arxiv.org/pdf/2607.28791v1"
         },
         {
-            "title": "MathModDB: A Database for Mathematical Models",
-            "year": "June 2026",
-            "date": "2026-06-26",
-            "authors": "Jochen Fiedler, Christine Biedinger, Marco Reidelbach, Björn Schembera, Burkhard Schmidt, Aurela Shehu, Thomas Koprucki",
-            "abstract": "When researchers need a mathematical model for a research problem, they face a fragmented landscape: relevant formulas, quantities, assumptions, and model variants are scattered across publications and domain-specific conventions. The Mathematical Models Database (MathModDB) addresses this challenge by providing a curated knowledge graph for mathematical models, deployed on the MaRDI Portal as part of the German National Research Data Infrastructure (NFDI). Building on ontology designs presented in earlier work, this paper focuses on MathModDB as a publicly available service. It addresses researchers who use mathematical models in their work -- whether in applied mathematics, engineering, or the natural sciences. We describe its deployment on the Wikibase-powered MaRDI Portal, report on its current scale, and demonstrate its practical use through a walkthrough of an electric discharge modeling use case from plasma physics. We further discuss the ecosystem around MathModDB, including its connection to the MathAlgoDB knowledge graph for numerical algorithms and the MaRDMO documentation tool.",
-            "link": "https://arxiv.org/pdf/2606.27933v1"
+            "title": "A mathematical model for depression and resilience",
+            "year": "August 2026",
+            "date": "2026-08-22",
+            "authors": "Björn S. Rüffer, Michael Schönlein",
+            "abstract": "A basic dynamical model for (clinical) depression is presented to describe the time evolution of two coupled states: a resilience level and a depression symptom. The resilience level can also be interpreted in terms of the memory of past symptoms. The model consists of a system of two coupled first order differential equations without free parameters that qualitatively captures different courses of illness, without the overhead of a derivation from neuroscientific first principles. A comprehensive mathematical analysis of the model is provided, including equilibria, stability properties, and monotonicity. The model can reproduce chronic, delayed, recovery, and resilience scenarios that are prominent in the literature, as well as scenarios such as improvement from pre-existing conditions, burnout from low-grade adversity, or isolated and recurrent depressive episodes. Supplementary to the manuscript are computational tools to replicate the figures and, without prior mathematical or programming skills, to experiment with the model interactively in the web browser (at https://rsmodel.org/).",
+            "link": "https://arxiv.org/pdf/2608.22073v1"
         },
         {
-            "title": "Mathematical methods of reinforcement learning",
-            "year": "July 2026",
-            "date": "2026-07-08",
-            "authors": "Denis Belomestny, Alexander Gasnikov, Egor Gladin, Alexey Naumov, Artemy Rubtsov, Yuri Sapronov, Daniil Tiapkin, Nikita Yudin",
-            "abstract": "Reinforcement learning (RL) is increasingly grounded in tools from probability, optimization, and operator theory. This survey organizes the mathematical structures that underpin the design and analysis of modern algorithms in RL. We begin from Markov decision processes (MDPs) and the Bellman operators, emphasizing contraction mappings, monotonicity, and fixed-point theory that yield convergence guarantees and rates for value and policy iteration, and temporal-difference schemes. We then develop the optimization perspective: stochastic approximation and martingale methods, convex duality and the role of regularization linking mirror/proximal methods. Function approximation is treated through linear and non-linear settings, covering stabilization, error decomposition, and sample-complexity via concentration inequalities for dependent data and mixing processes. We further cover off-policy evaluation/learning, constrained RL and constrained MDPs (CMDPs). Throughout we unify algorithmic templates under common operator and variational lenses, highlighting both finite-sample bounds and asymptotic results. Our presentation is intended to provide a unified mathematical entry point for researchers in probability, optimization, and statistics interested in reinforcement learning.",
-            "link": "https://arxiv.org/pdf/2607.06935v1"
+            "title": "Mathematics in the age of AI",
+            "year": "August 2026",
+            "date": "2026-08-17",
+            "authors": "Terence Tao",
+            "abstract": "An essay, based on a public lecture delivered at the 2026 International Congress of Mathematicians, on how the mathematical community might respond to the arrival of artificial intelligence tools that are capable of performing research-level mathematical tasks. Rather than debating the capabilities of such tools, we condition on the hypothesis that these capabilities will arrive, and examine instead a question that is orthogonal to it: what the goals and values of mathematical research actually are. The problem-solving component of mathematics is used as a case study.",
+            "link": "https://arxiv.org/pdf/2608.16753v1"
         },
         {
-            "title": "Mathematical models for CAR T immunotherapy and CD19 dynamics in leukemia: a comparative analysis",
-            "year": "July 2026",
-            "date": "2026-07-08",
-            "authors": "Salvador Chulián, Ana Niño-López, Rocío Picón-González, María Rosa",
-            "abstract": "Chimeric Antigen Receptor (CAR) T cell therapy has emerged as a successful treatment for relapsed or refractory hematological malignancies, particularly for B cell Acute Lymphoblastic Leukemia (B ALL), where CD19 targeted therapies have achieved high initial remission rates. However, relapse after treatment remains a major clinical challenge, frequently associated with antigen escape mechanisms and the emergence of CD19\\(^-\\) leukemic cells. Understanding the interaction between CAR T cells and antigen expression dynamics is, therefore, essential for improving therapeutic efficacy and long-term patient outcomes.\n  In this work, we develop and comparatively analyze novel mathematical models describing CAR T immunotherapy and CD19 dynamics in leukemia. Our proposed framework combines compartmental ordinary differential equation (ODE) formulations as well as partial differential equation (PDE) systems. Both methods are able to capture the evolution of leukemic populations under immune pressure and, in particular, the models explicitly distinguish between CD19\\(^+\\) and CD19\\(^-\\) leukemic cells and incorporate bidirectional phenotypic transitions regulated by CAR T activity.\n  The developed models provide biologically interpretable and computationally efficient tools for studying treatment response, resistance, and relapse mechanisms in CAR T cell therapy. We compare the ability of the different modeling approaches to reproduce CD19 antigen modulation and CAR T efficacy dynamics. We also propose sensitivity analyses to study the parameters' influence on the models' dynamics. Our work contributes to the mathematical understanding of antigen-driven resistance and offers a basis for future optimization and personalization of CAR T therapeutic strategies in leukemia.",
-            "link": "https://arxiv.org/pdf/2607.07261v1"
+            "title": "Mathematical Billiards",
+            "year": "August 2026",
+            "date": "2026-08-06",
+            "authors": "Grigoriy Yakovlev",
+            "abstract": "This paper considers planar mathematical billiards with smooth billiard tables. We prove that through any point outside a convex smooth caustic, there passes a unique billiard table (Lemma 2). Furthermore, we describe a billiard table having a nephroid as its caustic.",
+            "link": "https://arxiv.org/pdf/2608.07603v1"
         },
         {
-            "title": "Mathematics of Data Science",
-            "year": "July 2026",
-            "date": "2026-07-11",
-            "authors": "Afonso S. Bandeira, Amit Singer, Thomas Strohmer",
-            "abstract": "This book is about the mathematical foundations of data science.\n  1. Introduction\n  2. Curses, Blessings, and Surprises in High Dimensions\n  3. Singular Value Decomposition and Principal Component Analysis\n  4. Linear Regression and Regularization\n  5. Graphs, Networks, and Clustering\n  6. Nonlinear Dimension Reduction and Diffusion Maps\n  7. Linear Dimension Reduction via Random Projections\n  8. Optimization for Data Science\n  9. Classification\n  10. A Mathematical Introduction  to Deep Learning\n  11. Large Sample Limit of Graph Laplacians\n  12. Community\n  13. Concentration of Measure and Gaussian Analysis\n  14. Matrix Concentration Inequalities\n  15. Compressive Sensing and Sparsity\n  16. Low-Rank Matrix Recovery",
-            "link": "https://arxiv.org/pdf/2607.11938v1"
+            "title": "Assessing LLMs' mathematical abilities requires understanding the various mechanisms of mathematical creativity",
+            "year": "August 2026",
+            "date": "2026-08-17",
+            "authors": "Silvère Gangloff",
+            "abstract": "How should we assess whether large language models can perform mathematical invention? I argue that this question is currently underspecified: mathematical creativity is not one capacity but several mechanistically distinct modes of meaning-making - reflexive introspection on mathematical practice, analogical import from the sciences, problem-driven construction, and the bridging of distant domains - together with a further, cross-cutting distinction between meaning pursued because a pattern was observed and meaning pursued because it is strategically wanted, a distinction I develop through the case of conjecture-formation. These mechanisms are likely non-substitutable, so that competence in one does not transfer to the others. Grounding each in a historical case study and in an architecture-level account of current transformer-based systems, I suggest that today's models concentrate their competence in modes shaped by recombination and search over existing building blocks; if that description holds, the remaining modes are out of reach in principle, not just slower - though whether it holds is itself the open, empirical part. Because proof is getting cheaper as AI improves at generating it - a shift the field's own leading voices are now diagnosing - mathematical value is migrating toward the modes current systems cannot yet perform, and evaluations of AI mathematical ability should be organized around this taxonomy rather than around aggregate benchmarks that conflate it.",
+            "link": "https://arxiv.org/pdf/2608.16118v1"
         }
     ],
     "last_year": [
@@ -59,20 +59,20 @@
             "link": "https://arxiv.org/pdf/2510.13125v1"
         },
         {
+            "title": "What Remains Human in Mathematics in the Age of AI",
+            "year": "July 2026",
+            "date": "2026-07-30",
+            "authors": "Amir Moradifam",
+            "abstract": "Mathematics is often valued for its role as the language of science, but it is equally important as a human practice that teaches us how to think and cultivates creativity, problem-solving skills, attention, and judgment. The rapid rise of modern AI systems, which can solve many standard problems and produce fluent mathematical explanations, forces a reconsideration of the nature of mathematical understanding and how it is developed. This article reflects on the impact of AI across three intertwined domains: mathematics education, mathematical research, and the broader role of mathematics as a way of learning to think.\n  In education, AI changes how students interact with mathematical material, making high-quality assistance widely available while weakening the traditional link between assigned work and demonstrated understanding. The challenge concerns not only academic integrity but also the risks of cognitive offloading and the illusion of explanatory depth. In research, AI can accelerate exploration in various ways, including generating conjectures and examples, performing symbolic manipulation, suggesting proofs, and assisting in the communication of ideas. It has also begun to contribute to discoveries on problems that had resisted human efforts. Yet its limitations remain serious, especially in long arguments requiring global structure, careful verification, and the synthesis of multiple ideas. The central claim is that in an era when routine tasks become easier to automate, the most human aspects of mathematics, including conceptual insight, problem framing, genuine understanding, and creative judgment, become more visible and more valuable.",
+            "link": "https://arxiv.org/pdf/2607.28791v1"
+        },
+        {
             "title": "Mathematical Foundations of Deep Learning",
             "year": "March 2026",
             "date": "2026-03-19",
             "authors": "Xiaojing Ye",
             "abstract": "This draft book offers a comprehensive and rigorous treatment of the mathematical principles underlying modern deep learning. The book spans core theoretical topics, from the approximation capabilities of deep neural networks, the theory and algorithms of optimal control and reinforcement learning integrated with deep learning techniques, to contemporary generative models that drive today's advances in artificial intelligence.",
             "link": "https://arxiv.org/pdf/2603.18387v1"
-        },
-        {
-            "title": "The Mathematical Theory of Behavioural Swarms: Towards Modelling the Collective Dynamics of Living Systems",
-            "year": "August 2025",
-            "date": "2025-08-16",
-            "authors": "Rene Fabregas, Jie Liao, Nisrine Outada",
-            "abstract": "Classical swarm models, exemplified by the Cucker--Smale framework, provide foundational insights into collective alignment but exhibit fundamental limitations in capturing the adaptive, heterogeneous behaviours intrinsic to living systems. This paper formalises the mathematical theory of \\textit{Behavioural Swarms}, a comprehensive framework where each particle's state incorporates a dynamic internal variable, the \\textit{activity} that co-evolves with position and velocity through nonlocal interactions. We demonstrate how this approach transcends prior models by integrating adaptive decision-making mechanisms and heterogeneous behavioural states into rigorous differential systems. Through applications in behavioural economics and crowd dynamics, we establish the theory's capacity to predict emergent macroscopic patterns from individual behavioural states. Our critical analysis positions this framework against kinetic theories of active particles and agent-based approaches, revealing distinct advantages for modelling systems where individual agency drives collective outcomes.",
-            "link": "https://arxiv.org/pdf/2508.12183v2"
         },
         {
             "title": "Shaping the Future of Mathematics in the Age of AI",
@@ -101,6 +101,14 @@
             "link": "https://arxiv.org/pdf/2309.06595v1"
         },
         {
+            "title": "The Mathematical Theory of Behavioural Swarms: Towards Modelling the Collective Dynamics of Living Systems",
+            "year": "August 2025",
+            "date": "2025-08-16",
+            "authors": "Rene Fabregas, Jie Liao, Nisrine Outada",
+            "abstract": "Classical swarm models, exemplified by the Cucker--Smale framework, provide foundational insights into collective alignment but exhibit fundamental limitations in capturing the adaptive, heterogeneous behaviours intrinsic to living systems. This paper formalises the mathematical theory of \\textit{Behavioural Swarms}, a comprehensive framework where each particle's state incorporates a dynamic internal variable, the \\textit{activity} that co-evolves with position and velocity through nonlocal interactions. We demonstrate how this approach transcends prior models by integrating adaptive decision-making mechanisms and heterogeneous behavioural states into rigorous differential systems. Through applications in behavioural economics and crowd dynamics, we establish the theory's capacity to predict emergent macroscopic patterns from individual behavioural states. Our critical analysis positions this framework against kinetic theories of active particles and agent-based approaches, revealing distinct advantages for modelling systems where individual agency drives collective outcomes.",
+            "link": "https://arxiv.org/pdf/2508.12183v2"
+        },
+        {
             "title": "Open Mathematical Tasks as a Didactic Response to Generative Artificial Intelligence in Post-AI Contexts",
             "year": "February 2026",
             "date": "2026-02-09",
@@ -115,14 +123,6 @@
             "authors": "Alexander Shen",
             "abstract": "Constructivists (and intuitionists in general) asked what kind of mental construction is needed to convince ourselves (and others) that some mathematical statement is true. This question has a much more practical (and even cynical) counterpart: a student of a mathematics class wants to know what will the teacher accept as a correct solution of a homework problem. Here the logical structure of the claim is also very important, and we discuss several types of problems and their use in teaching mathematics.",
             "link": "https://arxiv.org/pdf/2305.19882v1"
-        },
-        {
-            "title": "A mathematical model of clonal hematopoiesis explaining phase transitions in chronic myeloid leukemia",
-            "year": "January 2024",
-            "date": "2024-01-10",
-            "authors": "Lorand Gabriel Parajdi, Xue Bai, David Kegyes, Ciprian Tomuleasa",
-            "abstract": "This study presents a mathematical model describing cloned hematopoiesis in chronic myeloid leukemia (CML) through a nonlinear system of differential equations. The primary objective is to understand the progression from healthy hematopoiesis to the chronic and accelerated-acute phases in myeloid leukemia. The model incorporates intrinsic cellular division events in hematopoiesis and delineates the evolution of chronic myeloid leukemia into five compartments: cycling stem cells, quiescent stem cells, progenitor cells, differentiated cells and terminally differentiated cells. Our analysis reveals the existence of three distinct non-zero steady states within the dynamical system, representing healthy hematopoiesis, the chronic phase and the accelerated-acute stage of the disease. We investigate the local and global stability of these steady states and provide a characterization of the hematopoietic states based on this analysis. Additionally, numerical simulations are included to illustrate the theoretical results.",
-            "link": "https://arxiv.org/pdf/2401.05316v2"
         }
     ],
     "all_time": [
