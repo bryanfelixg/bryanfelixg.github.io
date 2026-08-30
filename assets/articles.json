@@ -1,14 +1,6 @@
 {
     "last_month": [
         {
-            "title": "What Remains Human in Mathematics in the Age of AI",
-            "year": "July 2026",
-            "date": "2026-07-30",
-            "authors": "Amir Moradifam",
-            "abstract": "Mathematics is often valued for its role as the language of science, but it is equally important as a human practice that teaches us how to think and cultivates creativity, problem-solving skills, attention, and judgment. The rapid rise of modern AI systems, which can solve many standard problems and produce fluent mathematical explanations, forces a reconsideration of the nature of mathematical understanding and how it is developed. This article reflects on the impact of AI across three intertwined domains: mathematics education, mathematical research, and the broader role of mathematics as a way of learning to think.\n  In education, AI changes how students interact with mathematical material, making high-quality assistance widely available while weakening the traditional link between assigned work and demonstrated understanding. The challenge concerns not only academic integrity but also the risks of cognitive offloading and the illusion of explanatory depth. In research, AI can accelerate exploration in various ways, including generating conjectures and examples, performing symbolic manipulation, suggesting proofs, and assisting in the communication of ideas. It has also begun to contribute to discoveries on problems that had resisted human efforts. Yet its limitations remain serious, especially in long arguments requiring global structure, careful verification, and the synthesis of multiple ideas. The central claim is that in an era when routine tasks become easier to automate, the most human aspects of mathematics, including conceptual insight, problem framing, genuine understanding, and creative judgment, become more visible and more valuable.",
-            "link": "https://arxiv.org/pdf/2607.28791v1"
-        },
-        {
             "title": "A mathematical model for depression and resilience",
             "year": "August 2026",
             "date": "2026-08-22",
@@ -39,6 +31,14 @@
             "authors": "Silvère Gangloff",
             "abstract": "How should we assess whether large language models can perform mathematical invention? I argue that this question is currently underspecified: mathematical creativity is not one capacity but several mechanistically distinct modes of meaning-making - reflexive introspection on mathematical practice, analogical import from the sciences, problem-driven construction, and the bridging of distant domains - together with a further, cross-cutting distinction between meaning pursued because a pattern was observed and meaning pursued because it is strategically wanted, a distinction I develop through the case of conjecture-formation. These mechanisms are likely non-substitutable, so that competence in one does not transfer to the others. Grounding each in a historical case study and in an architecture-level account of current transformer-based systems, I suggest that today's models concentrate their competence in modes shaped by recombination and search over existing building blocks; if that description holds, the remaining modes are out of reach in principle, not just slower - though whether it holds is itself the open, empirical part. Because proof is getting cheaper as AI improves at generating it - a shift the field's own leading voices are now diagnosing - mathematical value is migrating toward the modes current systems cannot yet perform, and evaluations of AI mathematical ability should be organized around this taxonomy rather than around aggregate benchmarks that conflate it.",
             "link": "https://arxiv.org/pdf/2608.16118v1"
+        },
+        {
+            "title": "The crisis of AI-generated mathematics",
+            "year": "August 2026",
+            "date": "2026-08-03",
+            "authors": "Max Weinreich",
+            "abstract": "In this essay, I present the case for total opposition to the use of artificial intelligence in mathematics. I offer proposals for how individuals, departments, journals, and institutions can act in concert to make sure that mathematics survives the coming crisis.",
+            "link": "https://arxiv.org/pdf/2608.02859v1"
         }
     ],
     "last_year": [
