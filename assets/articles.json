@@ -33,12 +33,12 @@
             "link": "https://arxiv.org/pdf/2608.16118v1"
         },
         {
-            "title": "The crisis of AI-generated mathematics",
+            "title": "Explanations, Prompts, and Formalizations: Arguments for New Norms in LLM-Enabled Mathematical Research",
             "year": "August 2026",
-            "date": "2026-08-03",
-            "authors": "Max Weinreich",
-            "abstract": "In this essay, I present the case for total opposition to the use of artificial intelligence in mathematics. I offer proposals for how individuals, departments, journals, and institutions can act in concert to make sure that mathematics survives the coming crisis.",
-            "link": "https://arxiv.org/pdf/2608.02859v1"
+            "date": "2026-08-29",
+            "authors": "Axel Boldt",
+            "abstract": "As several mathematical conjectures have recently been settled using large language models (LLMs), the mathematical community has formulated norms and recommendations regarding the publishing of such results. These norms do not cover the disclosure of the prompts and precise software setup used to obtain those results, nor do they require that results be formalized in a manner that allows for machine verification. I argue that both of these are essential. In addition, since LLM-obtained results may be hard to understand, human authors have the responsibility to invent intuitive explanations.",
+            "link": "https://arxiv.org/pdf/2608.29401v1"
         }
     ],
     "last_year": [
