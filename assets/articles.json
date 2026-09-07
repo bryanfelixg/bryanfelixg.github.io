@@ -17,14 +17,6 @@
             "link": "https://arxiv.org/pdf/2608.16753v1"
         },
         {
-            "title": "Mathematical Billiards",
-            "year": "August 2026",
-            "date": "2026-08-06",
-            "authors": "Grigoriy Yakovlev",
-            "abstract": "This paper considers planar mathematical billiards with smooth billiard tables. We prove that through any point outside a convex smooth caustic, there passes a unique billiard table (Lemma 2). Furthermore, we describe a billiard table having a nephroid as its caustic.",
-            "link": "https://arxiv.org/pdf/2608.07603v1"
-        },
-        {
             "title": "Assessing LLMs' mathematical abilities requires understanding the various mechanisms of mathematical creativity",
             "year": "August 2026",
             "date": "2026-08-17",
@@ -39,6 +31,14 @@
             "authors": "Axel Boldt",
             "abstract": "As several mathematical conjectures have recently been settled using large language models (LLMs), the mathematical community has formulated norms and recommendations regarding the publishing of such results. These norms do not cover the disclosure of the prompts and precise software setup used to obtain those results, nor do they require that results be formalized in a manner that allows for machine verification. I argue that both of these are essential. In addition, since LLM-obtained results may be hard to understand, human authors have the responsibility to invent intuitive explanations.",
             "link": "https://arxiv.org/pdf/2608.29401v1"
+        },
+        {
+            "title": "Mathematics in the age of the reproduction of intelligence",
+            "year": "August 2026",
+            "date": "2026-08-17",
+            "authors": "Ali Enayat",
+            "abstract": "Drawing on Walter Benjamin's account of technological reproducibility and aura in relation to art, together with insights from Yehuda Rav and Ludwig Wittgenstein, this speculative essay reflects on the impact of AI systems on the practice of pure mathematics.",
+            "link": "https://arxiv.org/pdf/2608.16378v4"
         }
     ],
     "last_year": [
