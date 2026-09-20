@@ -1,28 +1,20 @@
 {
     "last_month": [
         {
+            "title": "Continuous-Time Machine Learning: A Unified Mathematical Perspective",
+            "year": "September 2026",
+            "date": "2026-09-15",
+            "authors": "Waleed Razzaq, Yun-Sheng Zhao, Yun-Bo Zhao",
+            "abstract": "Continuous-time (CT) machine learning has emerged as a principled framework for modeling temporal dynamics as a continuous process, particularly when observations are sampled at arbitrary time points or span long-range horizons. However, major branches of CT machine learning have matured in separate research communities, leaving their mathematical relationships and design trade-offs insufficiently characterized. In this survey, we develop a unified, concept-driven view of major CT machine learning branches through a taxonomy that organizes families according to their underlying base mathematical formulations. We present a canonical mathematical formulation that relates these families through different architectural choices of vector-field parameterization, stochasticity, memory mechanisms, and discretization. We compare training algorithms, optimization strategies, and failure modes, highlighting the trade-offs across families. We further provide a comparative analysis of theoretical computational complexity alongside an illustrative architecture-controlled benchmark analysis on representative architectures from each family. We also review software ecosystems supporting their implementation. Finally, we identify open challenges in approximation theory, training stability, hardware-efficient implementations, benchmarking, foundation models, and scientific machine learning, and discuss an agenda for future research.",
+            "link": "https://arxiv.org/pdf/2609.16710v1"
+        },
+        {
             "title": "A mathematical model for depression and resilience",
             "year": "August 2026",
             "date": "2026-08-22",
             "authors": "Björn S. Rüffer, Michael Schönlein",
             "abstract": "A basic dynamical model for (clinical) depression is presented to describe the time evolution of two coupled states: a resilience level and a depression symptom. The resilience level can also be interpreted in terms of the memory of past symptoms. The model consists of a system of two coupled first order differential equations without free parameters that qualitatively captures different courses of illness, without the overhead of a derivation from neuroscientific first principles. A comprehensive mathematical analysis of the model is provided, including equilibria, stability properties, and monotonicity. The model can reproduce chronic, delayed, recovery, and resilience scenarios that are prominent in the literature, as well as scenarios such as improvement from pre-existing conditions, burnout from low-grade adversity, or isolated and recurrent depressive episodes. Supplementary to the manuscript are computational tools to replicate the figures and, without prior mathematical or programming skills, to experiment with the model interactively in the web browser (at https://rsmodel.org/).",
             "link": "https://arxiv.org/pdf/2608.22073v1"
-        },
-        {
-            "title": "Mathematics in the age of AI",
-            "year": "August 2026",
-            "date": "2026-08-17",
-            "authors": "Terence Tao",
-            "abstract": "An essay, based on a public lecture delivered at the 2026 International Congress of Mathematicians, on how the mathematical community might respond to the arrival of artificial intelligence tools that are capable of performing research-level mathematical tasks. Rather than debating the capabilities of such tools, we condition on the hypothesis that these capabilities will arrive, and examine instead a question that is orthogonal to it: what the goals and values of mathematical research actually are. The problem-solving component of mathematics is used as a case study.",
-            "link": "https://arxiv.org/pdf/2608.16753v1"
-        },
-        {
-            "title": "Assessing LLMs' mathematical abilities requires understanding the various mechanisms of mathematical creativity",
-            "year": "August 2026",
-            "date": "2026-08-17",
-            "authors": "Silvère Gangloff",
-            "abstract": "How should we assess whether large language models can perform mathematical invention? I argue that this question is currently underspecified: mathematical creativity is not one capacity but several mechanistically distinct modes of meaning-making - reflexive introspection on mathematical practice, analogical import from the sciences, problem-driven construction, and the bridging of distant domains - together with a further, cross-cutting distinction between meaning pursued because a pattern was observed and meaning pursued because it is strategically wanted, a distinction I develop through the case of conjecture-formation. These mechanisms are likely non-substitutable, so that competence in one does not transfer to the others. Grounding each in a historical case study and in an architecture-level account of current transformer-based systems, I suggest that today's models concentrate their competence in modes shaped by recombination and search over existing building blocks; if that description holds, the remaining modes are out of reach in principle, not just slower - though whether it holds is itself the open, empirical part. Because proof is getting cheaper as AI improves at generating it - a shift the field's own leading voices are now diagnosing - mathematical value is migrating toward the modes current systems cannot yet perform, and evaluations of AI mathematical ability should be organized around this taxonomy rather than around aggregate benchmarks that conflate it.",
-            "link": "https://arxiv.org/pdf/2608.16118v1"
         },
         {
             "title": "Explanations, Prompts, and Formalizations: Arguments for New Norms in LLM-Enabled Mathematical Research",
@@ -33,12 +25,20 @@
             "link": "https://arxiv.org/pdf/2608.29401v1"
         },
         {
-            "title": "Mathematics in the age of the reproduction of intelligence",
-            "year": "August 2026",
-            "date": "2026-08-17",
-            "authors": "Ali Enayat",
-            "abstract": "Drawing on Walter Benjamin's account of technological reproducibility and aura in relation to art, together with insights from Yehuda Rav and Ludwig Wittgenstein, this speculative essay reflects on the impact of AI systems on the practice of pure mathematics.",
-            "link": "https://arxiv.org/pdf/2608.16378v5"
+            "title": "A mathematical modelling of rheumatoid arthritis",
+            "year": "September 2026",
+            "date": "2026-09-14",
+            "authors": "Pascal Azerad, Oana Iosifescu, Andrea Parmeggiani, Olivier Bortolotti, Florence Apparailly, Gabriel Courties",
+            "abstract": "We developed a mathematical model to describe the inflammatory dynamics during arthritis development and resolution, focusing on the interaction between three key immune cell populations within the joint tissue, namely neutrophils (N), sublining synovial tissue-resident macrophages (SL-TRM, T), and circulating monocytes that are recruited into the inflamed joint and differentiate into monocyte-derived macrophages (MoMac, M). An inflammatory signal (S), representing the response to an external arthritogenic stimulus, drives the recruitment and activation of neutrophils and MoMac, while SL-TRM exert a regulatory and protective role. We propose a minimal ordinary differential equation model of acute inflammatory response into a joint that couples an inflammatory signal S to the three cell populations (N, T, M) and incorporates recruitment, stimulation, nonlinear self-limitation and mutual regulation. We show that the equilibrium structure depends on three adimensional parameters A, B, C and derive a cubic equation characterizing nontrivial steady states. We perform an analytical study of equilibria and their stability, and identify a bifurcation at A = 1 separating a disease-free regime from a sustained inflammatory state. Numerical simulations illustrate typical transient dynamics under various scenarios and show the ability of the model to capture the transition from acute to chronic inflammation, as well as the resolution of inflammation under certain conditions. In conclusion, our model provides a framework to explore mechanisms underlying acute versus sustained joint inflammation and offers a basis for parameter estimation from experimental data, as well as future extensions toward evaluation of therapeutic strategies.",
+            "link": "https://arxiv.org/pdf/2609.15543v1"
+        },
+        {
+            "title": "From Euclidean to Graph-Structured Data: A Survey of Collaborative Learning",
+            "year": "September 2026",
+            "date": "2026-09-02",
+            "authors": "Rémi Bourgerie, Šarūnas Girdzijauskas, Viktoria Fodor",
+            "abstract": "The conventional approach to machine learning, that is, collecting data, training models, and performing inference in a single location, faces fundamental limitations, including scalability and privacy, that restrict its applicability. To address these challenges, recent research has explored collaborative learning approaches, including federated learning and decentralized learning, where individual agents perform training and inference locally, with limited collaboration. Most collaborative learning research focuses on Euclidean data with regular, grid-like structure (e.g., images, text). However, these approaches fail to capture the relational patterns in many real-world applications, best represented by graphs. Learning on graphs relies on message-passing mechanisms to propagate information between connected nodes, making it conceptually well-suited for collaborative environments where agents must exchange information. Yet, the opportunities and challenges of learning on graph-structured data in collaborative settings remain largely underexplored. This survey provides a comprehensive investigation of collaborative learning from Euclidean to graph-structured data, aiming to consolidate this emerging field. We begin by reviewing its foundational principles for Euclidean data, organizing them along three core dimensions: learning effectiveness, efficiency, and privacy preservation. We then extend the discussion to graph-structured data, introducing a taxonomy of graph distribution scenarios, characterizing associated statistical heterogeneities, and developing standardized problem formulations and algorithmic frameworks. Finally, we systematically identify open challenges and promising research directions.",
+            "link": "https://arxiv.org/pdf/2609.02984v1"
         }
     ],
     "last_year": [
