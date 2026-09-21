@@ -17,6 +17,14 @@
             "link": "https://arxiv.org/pdf/2608.22073v1"
         },
         {
+            "title": "Mathematics Graduate Training in the Age of AI",
+            "year": "September 2026",
+            "date": "2026-09-17",
+            "authors": "David Glickenstein",
+            "abstract": "Generative AI changes the conditions under which graduate mathematics is learned, assessed, written, and defended. The central claim of this paper is that mathematics graduate programs should respond to the moment by clarifying what graduate mathematics education is trying to teach and assess. In most ways, the goals of mathematics education have not changed. Rather, with changing tools it has become more essential than ever to make clear the goals of mathematical training. We use the term mathematical judgment to refer to the capacity to evaluate mathematics (e.g., claims, definitions, examples, proofs, analogies, computations, uses of tools, research directions) as mathematically sound, useful, well-posed, and appropriately justified. The recommendation is to center training on mathematical judgment, and we examine possible policies for graduate programs in Mathematics to this end.",
+            "link": "https://arxiv.org/pdf/2609.21132v1"
+        },
+        {
             "title": "Explanations, Prompts, and Formalizations: Arguments for New Norms in LLM-Enabled Mathematical Research",
             "year": "August 2026",
             "date": "2026-08-29",
@@ -31,14 +39,6 @@
             "authors": "Pascal Azerad, Oana Iosifescu, Andrea Parmeggiani, Olivier Bortolotti, Florence Apparailly, Gabriel Courties",
             "abstract": "We developed a mathematical model to describe the inflammatory dynamics during arthritis development and resolution, focusing on the interaction between three key immune cell populations within the joint tissue, namely neutrophils (N), sublining synovial tissue-resident macrophages (SL-TRM, T), and circulating monocytes that are recruited into the inflamed joint and differentiate into monocyte-derived macrophages (MoMac, M). An inflammatory signal (S), representing the response to an external arthritogenic stimulus, drives the recruitment and activation of neutrophils and MoMac, while SL-TRM exert a regulatory and protective role. We propose a minimal ordinary differential equation model of acute inflammatory response into a joint that couples an inflammatory signal S to the three cell populations (N, T, M) and incorporates recruitment, stimulation, nonlinear self-limitation and mutual regulation. We show that the equilibrium structure depends on three adimensional parameters A, B, C and derive a cubic equation characterizing nontrivial steady states. We perform an analytical study of equilibria and their stability, and identify a bifurcation at A = 1 separating a disease-free regime from a sustained inflammatory state. Numerical simulations illustrate typical transient dynamics under various scenarios and show the ability of the model to capture the transition from acute to chronic inflammation, as well as the resolution of inflammation under certain conditions. In conclusion, our model provides a framework to explore mechanisms underlying acute versus sustained joint inflammation and offers a basis for parameter estimation from experimental data, as well as future extensions toward evaluation of therapeutic strategies.",
             "link": "https://arxiv.org/pdf/2609.15543v1"
-        },
-        {
-            "title": "From Euclidean to Graph-Structured Data: A Survey of Collaborative Learning",
-            "year": "September 2026",
-            "date": "2026-09-02",
-            "authors": "Rémi Bourgerie, Šarūnas Girdzijauskas, Viktoria Fodor",
-            "abstract": "The conventional approach to machine learning, that is, collecting data, training models, and performing inference in a single location, faces fundamental limitations, including scalability and privacy, that restrict its applicability. To address these challenges, recent research has explored collaborative learning approaches, including federated learning and decentralized learning, where individual agents perform training and inference locally, with limited collaboration. Most collaborative learning research focuses on Euclidean data with regular, grid-like structure (e.g., images, text). However, these approaches fail to capture the relational patterns in many real-world applications, best represented by graphs. Learning on graphs relies on message-passing mechanisms to propagate information between connected nodes, making it conceptually well-suited for collaborative environments where agents must exchange information. Yet, the opportunities and challenges of learning on graph-structured data in collaborative settings remain largely underexplored. This survey provides a comprehensive investigation of collaborative learning from Euclidean to graph-structured data, aiming to consolidate this emerging field. We begin by reviewing its foundational principles for Euclidean data, organizing them along three core dimensions: learning effectiveness, efficiency, and privacy preservation. We then extend the discussion to graph-structured data, introducing a taxonomy of graph distribution scenarios, characterizing associated statistical heterogeneities, and developing standardized problem formulations and algorithmic frameworks. Finally, we systematically identify open challenges and promising research directions.",
-            "link": "https://arxiv.org/pdf/2609.02984v1"
         }
     ],
     "last_year": [
