@@ -1,20 +1,28 @@
 {
     "last_month": [
         {
+            "title": "From foundations to applications: reverse mathematics and philosophy",
+            "year": "September 2026",
+            "date": "2026-09-21",
+            "authors": "Benedict Eastaugh",
+            "abstract": "Reverse mathematics is a branch of mathematical logic dedicated to determining the minimal set existence principles necessary and sufficient to derive ordinary mathematical theorems about concrete structures like the real line. Since the mid-1970s, reverse mathematics has developed a systematic classification of the strength of theorems in areas of mathematics ranging from real and complex analysis to infinitary combinatorics. This essay will place reverse mathematics in its historical and philosophical context, and reveal its relevance to central issues in the philosophy of mathematics, from the foundational programmes of Hilbert and Brouwer to contemporary debates about realism, determinacy, and applicability of mathematics. In doing so, it will discuss the role of computability theory in measuring the strength of set existence principles, as well as related questions about idealisation when these principles are applied in the physical sciences and in philosophy.",
+            "link": "https://arxiv.org/pdf/2609.25183v1"
+        },
+        {
+            "title": "Mathematical folklore",
+            "year": "September 2026",
+            "date": "2026-09-18",
+            "authors": "Govind Menon, Akshay Venkatesh",
+            "abstract": "We present reflections on an experimental seminar studying the human and cultural roots of modern mathematics.",
+            "link": "https://arxiv.org/pdf/2609.22451v1"
+        },
+        {
             "title": "Continuous-Time Machine Learning: A Unified Mathematical Perspective",
             "year": "September 2026",
             "date": "2026-09-15",
             "authors": "Waleed Razzaq, Yun-Sheng Zhao, Yun-Bo Zhao",
             "abstract": "Continuous-time (CT) machine learning has emerged as a principled framework for modeling temporal dynamics as a continuous process, particularly when observations are sampled at arbitrary time points or span long-range horizons. However, major branches of CT machine learning have matured in separate research communities, leaving their mathematical relationships and design trade-offs insufficiently characterized. In this survey, we develop a unified, concept-driven view of major CT machine learning branches through a taxonomy that organizes families according to their underlying base mathematical formulations. We present a canonical mathematical formulation that relates these families through different architectural choices of vector-field parameterization, stochasticity, memory mechanisms, and discretization. We compare training algorithms, optimization strategies, and failure modes, highlighting the trade-offs across families. We further provide a comparative analysis of theoretical computational complexity alongside an illustrative architecture-controlled benchmark analysis on representative architectures from each family. We also review software ecosystems supporting their implementation. Finally, we identify open challenges in approximation theory, training stability, hardware-efficient implementations, benchmarking, foundation models, and scientific machine learning, and discuss an agenda for future research.",
             "link": "https://arxiv.org/pdf/2609.16710v1"
-        },
-        {
-            "title": "A mathematical model for depression and resilience",
-            "year": "August 2026",
-            "date": "2026-08-22",
-            "authors": "Björn S. Rüffer, Michael Schönlein",
-            "abstract": "A basic dynamical model for (clinical) depression is presented to describe the time evolution of two coupled states: a resilience level and a depression symptom. The resilience level can also be interpreted in terms of the memory of past symptoms. The model consists of a system of two coupled first order differential equations without free parameters that qualitatively captures different courses of illness, without the overhead of a derivation from neuroscientific first principles. A comprehensive mathematical analysis of the model is provided, including equilibria, stability properties, and monotonicity. The model can reproduce chronic, delayed, recovery, and resilience scenarios that are prominent in the literature, as well as scenarios such as improvement from pre-existing conditions, burnout from low-grade adversity, or isolated and recurrent depressive episodes. Supplementary to the manuscript are computational tools to replicate the figures and, without prior mathematical or programming skills, to experiment with the model interactively in the web browser (at https://rsmodel.org/).",
-            "link": "https://arxiv.org/pdf/2608.22073v1"
         },
         {
             "title": "Mathematics Graduate Training in the Age of AI",
@@ -25,20 +33,12 @@
             "link": "https://arxiv.org/pdf/2609.21132v1"
         },
         {
-            "title": "Explanations, Prompts, and Formalizations: Arguments for New Norms in LLM-Enabled Mathematical Research",
-            "year": "August 2026",
-            "date": "2026-08-29",
-            "authors": "Axel Boldt",
-            "abstract": "As several mathematical conjectures have recently been settled using large language models (LLMs), the mathematical community has formulated norms and recommendations regarding the publishing of such results. These norms do not cover the disclosure of the prompts and precise software setup used to obtain those results, nor do they require that results be formalized in a manner that allows for machine verification. I argue that both of these are essential. In addition, since LLM-obtained results may be hard to understand, human authors have the responsibility to invent intuitive explanations.",
-            "link": "https://arxiv.org/pdf/2608.29401v1"
-        },
-        {
-            "title": "A mathematical modelling of rheumatoid arthritis",
+            "title": "Transforming Mathematics",
             "year": "September 2026",
-            "date": "2026-09-14",
-            "authors": "Pascal Azerad, Oana Iosifescu, Andrea Parmeggiani, Olivier Bortolotti, Florence Apparailly, Gabriel Courties",
-            "abstract": "We developed a mathematical model to describe the inflammatory dynamics during arthritis development and resolution, focusing on the interaction between three key immune cell populations within the joint tissue, namely neutrophils (N), sublining synovial tissue-resident macrophages (SL-TRM, T), and circulating monocytes that are recruited into the inflamed joint and differentiate into monocyte-derived macrophages (MoMac, M). An inflammatory signal (S), representing the response to an external arthritogenic stimulus, drives the recruitment and activation of neutrophils and MoMac, while SL-TRM exert a regulatory and protective role. We propose a minimal ordinary differential equation model of acute inflammatory response into a joint that couples an inflammatory signal S to the three cell populations (N, T, M) and incorporates recruitment, stimulation, nonlinear self-limitation and mutual regulation. We show that the equilibrium structure depends on three adimensional parameters A, B, C and derive a cubic equation characterizing nontrivial steady states. We perform an analytical study of equilibria and their stability, and identify a bifurcation at A = 1 separating a disease-free regime from a sustained inflammatory state. Numerical simulations illustrate typical transient dynamics under various scenarios and show the ability of the model to capture the transition from acute to chronic inflammation, as well as the resolution of inflammation under certain conditions. In conclusion, our model provides a framework to explore mechanisms underlying acute versus sustained joint inflammation and offers a basis for parameter estimation from experimental data, as well as future extensions toward evaluation of therapeutic strategies.",
-            "link": "https://arxiv.org/pdf/2609.15543v1"
+            "date": "2026-09-17",
+            "authors": "Benjamin Braun",
+            "abstract": "I believe that the development of AI tools will lead to a transformation of mathematics, both professionally and culturally. However, it will be a tragic missed opportunity if the massive shifts in culture and practice that are underway are motivated and influenced solely by AI. We must aspire to more than this. We can and should collaboratively strive for a future where our cultures, practices, and values are grounded first and foremost in empathy, compassion, justice, and humanity. In this article, I call to action every member of the mathematical community, whether you view yourself as a researcher, teacher, scholar, student, professional, hobbyist, or a combination of these and more.",
+            "link": "https://arxiv.org/pdf/2609.22367v1"
         }
     ],
     "last_year": [
@@ -49,6 +49,22 @@
             "authors": "Felix De la Cruz Serrano",
             "abstract": "The widespread availability of generative artificial intelligence tools poses new challenges for school mathematics education, particularly regarding the formative role of traditional mathematical tasks. In post-AI educational contexts, many activities can be solved automatically, without engaging students in interpretation, decision-making, or mathematical validation processes.\n  This study analyzes a secondary school classroom experience in which open mathematical tasks are implemented as a didactic response to this scenario, aiming to sustain students' mathematical activity. Adopting a qualitative and descriptive-interpretative approach, the study examines the forms of mathematical work that emerge during task resolution, mediated by the didactic regulation device COMPAS.\n  The analysis is structured around four analytical axes: open task design in post-AI contexts, students' mathematical agency, human-AI complementarity, and modeling and validation practices. The findings suggest that, under explicit didactic regulation, students retain epistemic control over mathematical activity, even in the presence of generative artificial intelligence.",
             "link": "https://arxiv.org/pdf/2602.09242v1"
+        },
+        {
+            "title": "From foundations to applications: reverse mathematics and philosophy",
+            "year": "September 2026",
+            "date": "2026-09-21",
+            "authors": "Benedict Eastaugh",
+            "abstract": "Reverse mathematics is a branch of mathematical logic dedicated to determining the minimal set existence principles necessary and sufficient to derive ordinary mathematical theorems about concrete structures like the real line. Since the mid-1970s, reverse mathematics has developed a systematic classification of the strength of theorems in areas of mathematics ranging from real and complex analysis to infinitary combinatorics. This essay will place reverse mathematics in its historical and philosophical context, and reveal its relevance to central issues in the philosophy of mathematics, from the foundational programmes of Hilbert and Brouwer to contemporary debates about realism, determinacy, and applicability of mathematics. In doing so, it will discuss the role of computability theory in measuring the strength of set existence principles, as well as related questions about idealisation when these principles are applied in the physical sciences and in philosophy.",
+            "link": "https://arxiv.org/pdf/2609.25183v1"
+        },
+        {
+            "title": "Mathematical folklore",
+            "year": "September 2026",
+            "date": "2026-09-18",
+            "authors": "Govind Menon, Akshay Venkatesh",
+            "abstract": "We present reflections on an experimental seminar studying the human and cultural roots of modern mathematics.",
+            "link": "https://arxiv.org/pdf/2609.22451v1"
         },
         {
             "title": "On Physical Mathematics: an approach through Gilles Châtelet's philosophy",
@@ -65,22 +81,6 @@
             "authors": "Amir Moradifam",
             "abstract": "Mathematics is often valued for its role as the language of science, but it is equally important as a human practice that teaches us how to think and cultivates creativity, problem-solving skills, attention, and judgment. The rapid rise of modern AI systems, which can solve many standard problems and produce fluent mathematical explanations, forces a reconsideration of the nature of mathematical understanding and how it is developed. This article reflects on the impact of AI across three intertwined domains: mathematics education, mathematical research, and the broader role of mathematics as a way of learning to think.\n  In education, AI changes how students interact with mathematical material, making high-quality assistance widely available while weakening the traditional link between assigned work and demonstrated understanding. The challenge concerns not only academic integrity but also the risks of cognitive offloading and the illusion of explanatory depth. In research, AI can accelerate exploration in various ways, including generating conjectures and examples, performing symbolic manipulation, suggesting proofs, and assisting in the communication of ideas. It has also begun to contribute to discoveries on problems that had resisted human efforts. Yet its limitations remain serious, especially in long arguments requiring global structure, careful verification, and the synthesis of multiple ideas. The central claim is that in an era when routine tasks become easier to automate, the most human aspects of mathematics, including conceptual insight, problem framing, genuine understanding, and creative judgment, become more visible and more valuable.",
             "link": "https://arxiv.org/pdf/2607.28791v1"
-        },
-        {
-            "title": "Mathematical Foundations of Deep Learning",
-            "year": "March 2026",
-            "date": "2026-03-19",
-            "authors": "Xiaojing Ye",
-            "abstract": "This draft book offers a comprehensive and rigorous treatment of the mathematical principles underlying modern deep learning. The book spans core theoretical topics, from the approximation capabilities of deep neural networks, the theory and algorithms of optimal control and reinforcement learning integrated with deep learning techniques, to contemporary generative models that drive today's advances in artificial intelligence.",
-            "link": "https://arxiv.org/pdf/2603.18387v1"
-        },
-        {
-            "title": "Shaping the Future of Mathematics in the Age of AI",
-            "year": "March 2026",
-            "date": "2026-03-26",
-            "authors": "Johan Commelin, Mateja Jamnik, Rodrigo Ochigame, Lenny Taelman, Akshay Venkatesh",
-            "abstract": "Artificial intelligence is transforming mathematics at a speed and scale that demand active engagement from the mathematical community. We examine five areas where this transformation is particularly pressing: values, practice, teaching, technology, and ethics. We offer recommendations on safeguarding our intellectual autonomy, rethinking our practice, broadening curricula, building academically oriented infrastructure, and developing shared ethical principles - with the aim of ensuring that the future of mathematics is shaped by the community itself.",
-            "link": "https://arxiv.org/pdf/2603.24914v2"
         }
     ],
     "last_5_years": [
