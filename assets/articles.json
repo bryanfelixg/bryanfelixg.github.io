@@ -67,20 +67,20 @@
             "link": "https://arxiv.org/pdf/2609.22451v1"
         },
         {
-            "title": "What Remains Human in Mathematics in the Age of AI",
-            "year": "July 2026",
-            "date": "2026-07-30",
-            "authors": "Amir Moradifam",
-            "abstract": "Mathematics is often valued for its role as the language of science, but it is equally important as a human practice that teaches us how to think and cultivates creativity, problem-solving skills, attention, and judgment. The rapid rise of modern AI systems, which can solve many standard problems and produce fluent mathematical explanations, forces a reconsideration of the nature of mathematical understanding and how it is developed. This article reflects on the impact of AI across three intertwined domains: mathematics education, mathematical research, and the broader role of mathematics as a way of learning to think.\n  In education, AI changes how students interact with mathematical material, making high-quality assistance widely available while weakening the traditional link between assigned work and demonstrated understanding. The challenge concerns not only academic integrity but also the risks of cognitive offloading and the illusion of explanatory depth. In research, AI can accelerate exploration in various ways, including generating conjectures and examples, performing symbolic manipulation, suggesting proofs, and assisting in the communication of ideas. It has also begun to contribute to discoveries on problems that had resisted human efforts. Yet its limitations remain serious, especially in long arguments requiring global structure, careful verification, and the synthesis of multiple ideas. The central claim is that in an era when routine tasks become easier to automate, the most human aspects of mathematics, including conceptual insight, problem framing, genuine understanding, and creative judgment, become more visible and more valuable.",
-            "link": "https://arxiv.org/pdf/2607.28791v1"
-        },
-        {
             "title": "On Physical Mathematics: an approach through Gilles Châtelet's philosophy",
             "year": "October 2025",
             "date": "2025-10-15",
             "authors": "John Alexander Cruz Morales",
             "abstract": "Starting from Greg Moore's description about Physical Mathematics, a framework is proposed in order to understand it, based on Gilles Châtelet's philosophy. It will be argued that Châtelet's ideas of inverting, splitting, augmenting and virtuality are crucial in the discussion about the nature of Physical Mathematics. Along this line, it will be proposed that mirror symmetry is a natural study case to test Châtelet's ideas in this context. This should be considered as a first step in a long term project aiming to study the relations among mathematics, physics and philosophy in the construction of a global understanding of the structure of the universe, as it was envisioned by Grothendieck in the late 80's of the last century and it was started to be developed independently by Châtelet in the beginning of the 90's. The main suggestion of the essay is that it is in the relations between mathematics, physics and philosophy that new knowledge arises.",
             "link": "https://arxiv.org/pdf/2510.13125v1"
+        },
+        {
+            "title": "What Remains Human in Mathematics in the Age of AI",
+            "year": "July 2026",
+            "date": "2026-07-30",
+            "authors": "Amir Moradifam",
+            "abstract": "Mathematics is often valued for its role as the language of science, but it is equally important as a human practice that teaches us how to think and cultivates creativity, problem-solving skills, attention, and judgment. The rapid rise of modern AI systems, which can solve many standard problems and produce fluent mathematical explanations, forces a reconsideration of the nature of mathematical understanding and how it is developed. This article reflects on the impact of AI across three intertwined domains: mathematics education, mathematical research, and the broader role of mathematics as a way of learning to think.\n  In education, AI changes how students interact with mathematical material, making high-quality assistance widely available while weakening the traditional link between assigned work and demonstrated understanding. The challenge concerns not only academic integrity but also the risks of cognitive offloading and the illusion of explanatory depth. In research, AI can accelerate exploration in various ways, including generating conjectures and examples, performing symbolic manipulation, suggesting proofs, and assisting in the communication of ideas. It has also begun to contribute to discoveries on problems that had resisted human efforts. Yet its limitations remain serious, especially in long arguments requiring global structure, careful verification, and the synthesis of multiple ideas. The central claim is that in an era when routine tasks become easier to automate, the most human aspects of mathematics, including conceptual insight, problem framing, genuine understanding, and creative judgment, become more visible and more valuable.",
+            "link": "https://arxiv.org/pdf/2607.28791v1"
         }
     ],
     "last_5_years": [
