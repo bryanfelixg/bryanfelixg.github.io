@@ -25,12 +25,12 @@
             "link": "https://arxiv.org/pdf/2610.02655v1"
         },
         {
-            "title": "Continuous-Time Machine Learning: A Unified Mathematical Perspective",
-            "year": "September 2026",
-            "date": "2026-09-15",
-            "authors": "Waleed Razzaq, Yun-Sheng Zhao, Yun-Bo Zhao",
-            "abstract": "Continuous-time (CT) machine learning has emerged as a principled framework for modeling temporal dynamics as a continuous process, particularly when observations are sampled at arbitrary time points or span long-range horizons. However, major branches of CT machine learning have matured in separate research communities, leaving their mathematical relationships and design trade-offs insufficiently characterized. In this survey, we develop a unified, concept-driven view of major CT machine learning branches through a taxonomy that organizes families according to their underlying base mathematical formulations. We present a canonical mathematical formulation that relates these families through different architectural choices of vector-field parameterization, stochasticity, memory mechanisms, and discretization. We compare training algorithms, optimization strategies, and failure modes, highlighting the trade-offs across families. We further provide a comparative analysis of theoretical computational complexity alongside an illustrative architecture-controlled benchmark analysis on representative architectures from each family. We also review software ecosystems supporting their implementation. Finally, we identify open challenges in approximation theory, training stability, hardware-efficient implementations, benchmarking, foundation models, and scientific machine learning, and discuss an agenda for future research.",
-            "link": "https://arxiv.org/pdf/2609.16710v1"
+            "title": "The Dialectical Theorem: The future of universities, mathematics departments, and training of human mathematicians",
+            "year": "October 2026",
+            "date": "2026-10-09",
+            "authors": "Thomas Koberda, Alex Kontorovich",
+            "abstract": "We consider the future of mathematics as a profession in a world where artificial intelligence may surpass human mathematicians in essentially every technical task. Through an informal dialogue, we explore why human mathematical expertise might nevertheless remain valuable, what kinds of expertise universities should cultivate, and how graduate education might adapt. We also discuss the institutional and economic uncertainties that threaten the continued existence of a thriving mathematical profession, even if the value of human mathematical understanding endures.",
+            "link": "https://arxiv.org/pdf/2610.14362v1"
         },
         {
             "title": "Order-Invariant Answers, Order-Sensitive Representations in Mathematical Reasoning",
@@ -75,12 +75,12 @@
             "link": "https://arxiv.org/pdf/2607.28791v1"
         },
         {
-            "title": "On Physical Mathematics: an approach through Gilles Châtelet's philosophy",
-            "year": "October 2025",
-            "date": "2025-10-15",
-            "authors": "John Alexander Cruz Morales",
-            "abstract": "Starting from Greg Moore's description about Physical Mathematics, a framework is proposed in order to understand it, based on Gilles Châtelet's philosophy. It will be argued that Châtelet's ideas of inverting, splitting, augmenting and virtuality are crucial in the discussion about the nature of Physical Mathematics. Along this line, it will be proposed that mirror symmetry is a natural study case to test Châtelet's ideas in this context. This should be considered as a first step in a long term project aiming to study the relations among mathematics, physics and philosophy in the construction of a global understanding of the structure of the universe, as it was envisioned by Grothendieck in the late 80's of the last century and it was started to be developed independently by Châtelet in the beginning of the 90's. The main suggestion of the essay is that it is in the relations between mathematics, physics and philosophy that new knowledge arises.",
-            "link": "https://arxiv.org/pdf/2510.13125v1"
+            "title": "Mathematical Foundations of Deep Learning",
+            "year": "March 2026",
+            "date": "2026-03-19",
+            "authors": "Xiaojing Ye",
+            "abstract": "This draft book offers a comprehensive and rigorous treatment of the mathematical principles underlying modern deep learning. The book spans core theoretical topics, from the approximation capabilities of deep neural networks, the theory and algorithms of optimal control and reinforcement learning integrated with deep learning techniques, to contemporary generative models that drive today's advances in artificial intelligence.",
+            "link": "https://arxiv.org/pdf/2603.18387v1"
         }
     ],
     "last_5_years": [
