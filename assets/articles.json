@@ -9,14 +9,6 @@
             "link": "https://arxiv.org/pdf/2609.25183v1"
         },
         {
-            "title": "Mathematical folklore",
-            "year": "September 2026",
-            "date": "2026-09-18",
-            "authors": "Govind Menon, Akshay Venkatesh",
-            "abstract": "We present reflections on an experimental seminar studying the human and cultural roots of modern mathematics.",
-            "link": "https://arxiv.org/pdf/2609.22451v1"
-        },
-        {
             "title": "Mathematical Illustration: Proof, Intuition and AI",
             "year": "October 2026",
             "date": "2026-10-02",
@@ -39,6 +31,14 @@
             "authors": "Zhixu Silvia Tao",
             "abstract": "Reordering a set of mathematical rules without changing its meaning should preserve the correct answer, but must a model's internal representations stay invariant too? We investigate this question using synthetic multi-step function-composition problems, each presented under multiple rule orderings with the same correct answer. We measure accuracy and permutation signal-to-noise ratio (SNR), which quantifies how distinctly ordering patterns are represented relative to variation across problem instances. Across 16 language models ranging from 1B to 8B parameters, we find a pattern: models that solve reordered problems more accurately represent different rule orderings more distinctly. Layer-averaged permutation SNR is positively rank-correlated with accuracy in every synthetic setting we evaluate, with Spearman correlations reaching 0.86. These findings highlight a distinction between answer invariance and representation invariance: successful mathematical rule composition can accompany distinct internal representations between equivalent rule orderings. This motivates distinguishing answer invariance from representation invariance, and offers a representational perspective on mathematical reasoning beyond answer accuracy alone.",
             "link": "https://arxiv.org/pdf/2609.28442v2"
+        },
+        {
+            "title": "Mathematics of Herding",
+            "year": "October 2026",
+            "date": "2026-10-14",
+            "authors": "Sayomi Kamimoto",
+            "abstract": "A herd of animals often follows a leader who sets the direction of travel. The leader sometimes turns unexpectedly and the followers reshuffle. Yet the herd regroups itself and stays coherent. Our work aims to understand the herding behavior mathematically. We construct a minimal discrete-time nonequilibrium dynamical system with one-way coupling, and the minimal structure allows an exact analysis. Take the location of each follower in the frame of the leader. The recorded locations form a distribution. The limit of the distribution is the asymptotic spatial measure, whose geometric representation we study. The dynamics of the herd have an exact operator representation with two factors, the operator of a fixed leader-follower pair and the operator of the interaction rules, which reshuffle the pairs. We show that the influence of the leader passes through some follower more than once. As a result, two followers can have reciprocal influence, despite the one-way coupling.",
+            "link": "https://arxiv.org/pdf/2610.23992v1"
         }
     ],
     "last_year": [
