@@ -1,14 +1,6 @@
 {
     "last_month": [
         {
-            "title": "From foundations to applications: reverse mathematics and philosophy",
-            "year": "September 2026",
-            "date": "2026-09-21",
-            "authors": "Benedict Eastaugh",
-            "abstract": "Reverse mathematics is a branch of mathematical logic dedicated to determining the minimal set existence principles necessary and sufficient to derive ordinary mathematical theorems about concrete structures like the real line. Since the mid-1970s, reverse mathematics has developed a systematic classification of the strength of theorems in areas of mathematics ranging from real and complex analysis to infinitary combinatorics. This essay will place reverse mathematics in its historical and philosophical context, and reveal its relevance to central issues in the philosophy of mathematics, from the foundational programmes of Hilbert and Brouwer to contemporary debates about realism, determinacy, and applicability of mathematics. In doing so, it will discuss the role of computability theory in measuring the strength of set existence principles, as well as related questions about idealisation when these principles are applied in the physical sciences and in philosophy.",
-            "link": "https://arxiv.org/pdf/2609.25183v1"
-        },
-        {
             "title": "Mathematical Illustration: Proof, Intuition and AI",
             "year": "October 2026",
             "date": "2026-10-02",
@@ -25,12 +17,12 @@
             "link": "https://arxiv.org/pdf/2610.14362v1"
         },
         {
-            "title": "Order-Invariant Answers, Order-Sensitive Representations in Mathematical Reasoning",
-            "year": "September 2026",
-            "date": "2026-09-23",
-            "authors": "Zhixu Silvia Tao",
-            "abstract": "Reordering a set of mathematical rules without changing its meaning should preserve the correct answer, but must a model's internal representations stay invariant too? We investigate this question using synthetic multi-step function-composition problems, each presented under multiple rule orderings with the same correct answer. We measure accuracy and permutation signal-to-noise ratio (SNR), which quantifies how distinctly ordering patterns are represented relative to variation across problem instances. Across 16 language models ranging from 1B to 8B parameters, we find a pattern: models that solve reordered problems more accurately represent different rule orderings more distinctly. Layer-averaged permutation SNR is positively rank-correlated with accuracy in every synthetic setting we evaluate, with Spearman correlations reaching 0.86. These findings highlight a distinction between answer invariance and representation invariance: successful mathematical rule composition can accompany distinct internal representations between equivalent rule orderings. This motivates distinguishing answer invariance from representation invariance, and offers a representational perspective on mathematical reasoning beyond answer accuracy alone.",
-            "link": "https://arxiv.org/pdf/2609.28442v2"
+            "title": "What the submission does not show: Complexifying cognitive offloading in students' mathematical work with LLMs",
+            "year": "October 2026",
+            "date": "2026-10-22",
+            "authors": "Igor' Kontorovich, Miriam N. Wallach",
+            "abstract": "A common concern is that using large language models (LLMs) lets students offload mathematical work that tasks are designed to elicit. Yet such claims often rest on outcomes (e.g., submitted solutions), rather than on evidence of students' work with LLMs. We followed 23 first-year linear algebra students as they solved three differently designed homework tasks with LLMs. Drawing on self-regulated learning and choice-affluent environments, we interpreted each of 429 prompts as a trace of a regulatory event and compared 59 chatlogs with the problem solutions the students submitted. Prompts formed five structures, casting the LLM mainly as a solver, explainer, or validator. The mix of structures shifted across the tasks, and ten of the 15 students who completed all three tasks changed their dominant structure. Most final submissions stayed close to LLM output, including those that followed exchanges in which students had explained, conjectured, and checked their own ideas. We conclude that an LLM-aided submission is not a trustworthy marker of students' offloading of the mathematical work, and that offloading needs to be examined in each regulatory space and part by part rather than as a whole.",
+            "link": "https://arxiv.org/pdf/2610.31335v1"
         },
         {
             "title": "Mathematics of Herding",
@@ -39,6 +31,14 @@
             "authors": "Sayomi Kamimoto",
             "abstract": "A herd of animals often follows a leader who sets the direction of travel. The leader sometimes turns unexpectedly and the followers reshuffle. Yet the herd regroups itself and stays coherent. Our work aims to understand the herding behavior mathematically. We construct a minimal discrete-time nonequilibrium dynamical system with one-way coupling, and the minimal structure allows an exact analysis. Take the location of each follower in the frame of the leader. The recorded locations form a distribution. The limit of the distribution is the asymptotic spatial measure, whose geometric representation we study. The dynamics of the herd have an exact operator representation with two factors, the operator of a fixed leader-follower pair and the operator of the interaction rules, which reshuffle the pairs. We show that the influence of the leader passes through some follower more than once. As a result, two followers can have reciprocal influence, despite the one-way coupling.",
             "link": "https://arxiv.org/pdf/2610.23992v1"
+        },
+        {
+            "title": "A Primer on Ethics in Mathematics",
+            "year": "October 2026",
+            "date": "2026-10-06",
+            "authors": "Maurice Chiodo",
+            "abstract": "This is a course about Ethics in Mathematics. That is, about the ethical issues that arise in mathematics itself, in mathematical work, and in the actions of mathematicians, broadly interpreted to cover all mathematically-powered technologies.\n  This is a novel course. Traditionally, ethics has seldom been considered by, let alone taught within, the mathematics discipline. This course seeks to change that, by bringing to light the specific ethical issues relevant to mathematics, in a way that is clear and understandable to mathematicians.\n  This course is written by mathematicians, for mathematicians, and about mathematicians. It presents new and original material, in the form of case studies covering harmful and unethical behaviour, analysis of the causal chain of events leading to such harm, and examination of the surrounding processes that drive such actions. All this is fully cited, and supported with interactive activities to aid learning. It develops much of the foundational theory of ethics in mathematics: what can go wrong, why it goes wrong, and how to address it. Students and practitioners alike take away an understanding of the context of their mathematical work, and how to change their actions to ensure more appropriate and useful outputs.\n  In contrast to more traditional philosophy teaching, this course does not delve into the depths of ethical theory. Rather, it presents a practical, hands-on, pragmatic approach to ethics in mathematics, treating it as a branch of applied ethics. It uncovers the very particular ethical issues that arise from mathematical technologies, as well as show how general principles from ethics and responsible development apply even to mathematical work. As such, this makes it highly relevant to adjacent areas such as computer science, physics, engineering, and any other numerate discipline.",
+            "link": "https://arxiv.org/pdf/2610.08209v1"
         }
     ],
     "last_year": [
