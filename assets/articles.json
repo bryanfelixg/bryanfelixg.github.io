@@ -9,6 +9,14 @@
             "link": "https://arxiv.org/pdf/2610.02655v1"
         },
         {
+            "title": "On AI and Progress in Mathematics: Dreaming a Mathematical Universal Machine",
+            "year": "October 2026",
+            "date": "2026-10-26",
+            "authors": "Vincent Runge",
+            "abstract": "In the autumn of 2026, mathematics is facing what may be the deepest crisis in its history. The entire ecosystem through which mathematical knowledge is produced, validated, communicated, and assessed is beginning to break down. Mathematics departments, those usually quiet and civilized places, are suddenly in turmoil -- the unlikely theaters of a new Battle of the Ancients and the Moderns. The source of the crisis is clear: AI systems have become better than even the best human mathematicians at proving and validating mathematical results. This document proposes a metaphor for mathematical activity: we once thought of ourselves as mountain climbers; soon, we may become miners digging in the mathematical mine, either collaborating or competing with mathematical AI machines. Publications would then be seen primarily as a means of helping humans understand mathematics, while the measurement of mathematical progress would be entrusted to a Mathematical Universal Machine. In nontechnical terms, we explore what this brave new world of mathematics might look like and how we might collectively shape its future.",
+            "link": "https://arxiv.org/pdf/2610.35263v1"
+        },
+        {
             "title": "The Dialectical Theorem: The future of universities, mathematics departments, and training of human mathematicians",
             "year": "October 2026",
             "date": "2026-10-09",
@@ -31,14 +39,6 @@
             "authors": "Sayomi Kamimoto",
             "abstract": "A herd of animals often follows a leader who sets the direction of travel. The leader sometimes turns unexpectedly and the followers reshuffle. Yet the herd regroups itself and stays coherent. Our work aims to understand the herding behavior mathematically. We construct a minimal discrete-time nonequilibrium dynamical system with one-way coupling, and the minimal structure allows an exact analysis. Take the location of each follower in the frame of the leader. The recorded locations form a distribution. The limit of the distribution is the asymptotic spatial measure, whose geometric representation we study. The dynamics of the herd have an exact operator representation with two factors, the operator of a fixed leader-follower pair and the operator of the interaction rules, which reshuffle the pairs. We show that the influence of the leader passes through some follower more than once. As a result, two followers can have reciprocal influence, despite the one-way coupling.",
             "link": "https://arxiv.org/pdf/2610.23992v1"
-        },
-        {
-            "title": "A Primer on Ethics in Mathematics",
-            "year": "October 2026",
-            "date": "2026-10-06",
-            "authors": "Maurice Chiodo",
-            "abstract": "This is a course about Ethics in Mathematics. That is, about the ethical issues that arise in mathematics itself, in mathematical work, and in the actions of mathematicians, broadly interpreted to cover all mathematically-powered technologies.\n  This is a novel course. Traditionally, ethics has seldom been considered by, let alone taught within, the mathematics discipline. This course seeks to change that, by bringing to light the specific ethical issues relevant to mathematics, in a way that is clear and understandable to mathematicians.\n  This course is written by mathematicians, for mathematicians, and about mathematicians. It presents new and original material, in the form of case studies covering harmful and unethical behaviour, analysis of the causal chain of events leading to such harm, and examination of the surrounding processes that drive such actions. All this is fully cited, and supported with interactive activities to aid learning. It develops much of the foundational theory of ethics in mathematics: what can go wrong, why it goes wrong, and how to address it. Students and practitioners alike take away an understanding of the context of their mathematical work, and how to change their actions to ensure more appropriate and useful outputs.\n  In contrast to more traditional philosophy teaching, this course does not delve into the depths of ethical theory. Rather, it presents a practical, hands-on, pragmatic approach to ethics in mathematics, treating it as a branch of applied ethics. It uncovers the very particular ethical issues that arise from mathematical technologies, as well as show how general principles from ethics and responsible development apply even to mathematical work. As such, this makes it highly relevant to adjacent areas such as computer science, physics, engineering, and any other numerate discipline.",
-            "link": "https://arxiv.org/pdf/2610.08209v1"
         }
     ],
     "last_year": [
