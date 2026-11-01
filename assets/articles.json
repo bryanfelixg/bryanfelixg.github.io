@@ -33,12 +33,12 @@
             "link": "https://arxiv.org/pdf/2610.31335v1"
         },
         {
-            "title": "Mathematics of Herding",
+            "title": "On the well-posedness of a certain model with mixed diffusion appearing in the mathematical biology",
             "year": "October 2026",
-            "date": "2026-10-14",
-            "authors": "Sayomi Kamimoto",
-            "abstract": "A herd of animals often follows a leader who sets the direction of travel. The leader sometimes turns unexpectedly and the followers reshuffle. Yet the herd regroups itself and stays coherent. Our work aims to understand the herding behavior mathematically. We construct a minimal discrete-time nonequilibrium dynamical system with one-way coupling, and the minimal structure allows an exact analysis. Take the location of each follower in the frame of the leader. The recorded locations form a distribution. The limit of the distribution is the asymptotic spatial measure, whose geometric representation we study. The dynamics of the herd have an exact operator representation with two factors, the operator of a fixed leader-follower pair and the operator of the interaction rules, which reshuffle the pairs. We show that the influence of the leader passes through some follower more than once. As a result, two followers can have reciprocal influence, despite the one-way coupling.",
-            "link": "https://arxiv.org/pdf/2610.23992v1"
+            "date": "2026-10-29",
+            "authors": "Messoud Efendiev, Vitali Vougalter",
+            "abstract": "The work deals with establishing the global well-posedness in the space \\(W^{(1,2),2}(R^{2}\\times R^{+})\\) of the integro-differential equation in the space of two dimensions in the situation when the diffusion term involves the standard Laplace operator in one direction and the fractional Laplacian in another direction in the presence of the drift term. Such model is relevant to the cell population dynamics in the Mathematical Biology. The proof is based on a fixed point technique.",
+            "link": "https://arxiv.org/pdf/2610.39166v1"
         }
     ],
     "last_year": [
